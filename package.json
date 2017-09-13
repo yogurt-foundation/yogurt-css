@@ -1,0 +1,46 @@
+{
+  "name": "yogurt",
+  "version": "0.8.7",
+  "homepage": "",
+  "author": "Loouis Low <loouis@goodian.space>",
+  "description": "An Elegant and Beautiful UI Framework",
+  "main": "yogurt.sass",
+  "style": "yogurt/css/yogurt.css",
+  "license": "MIT",
+  "keywords": [
+    "ui",
+    "css",
+    "sass",
+    "flexbox",
+    "responsive",
+    "framework"
+  ],
+  "dependencies": {
+    "grunt-lib-contrib": "~0.7.1",
+    "grunt-stats": "^0.1.5",
+    "time-grunt": "~1.4.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "node-sass": "^4.5.3",
+    "postcss-cli": "^4.1.0",
+    "rimraf": "^2.6.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "~2.2.0"
+  },
+  "scripts": {
+    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix",
+    "build-autoprefix": "postcss --use autoprefixer --output dist/css/yogurt.css dist/css/yogurt.css",
+    "build-clean": "rimraf css",
+    "build-sass": "node-sass --output-style expanded --source-map true yogurt.sass dist/css/yogurt.css",
+    "deploy": "npm run build",
+    "start": "npm run build-sass -- --watch",
+    "start-test": "npm run test-sass -- --watch",
+    "test-sass": "node-sass --output-style expanded docs/yogurt-test.sass"
+  },
+  "files": [
+    "dist",
+    "sass",
+    "yogurt.sass"
+  ]
+}

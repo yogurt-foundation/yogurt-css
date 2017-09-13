@@ -1,0 +1,27 @@
+{
+  "name": "yogurt",
+  "version": "0.8.7",
+  "homepage": "",
+  "authors": [
+    "Loouis Low>"
+  ],
+  "description": "An Elegant and Beautiful UI Framework",
+  "main": "yogurt.sass",
+  "keywords": [
+    "ui",
+    "css",
+    "sass",
+    "flexbox",
+    "responsive",
+    "framework"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "images"
+  ]
+}
