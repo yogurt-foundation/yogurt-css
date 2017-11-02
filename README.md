@@ -39,7 +39,7 @@ $ sudo apt install -y nodejs
 **note:** This will download extra 22.9MB of NPM Modules in order for Yogurt to run the preprocessor.
 
 ```bash
-$ git clone https://loouislow@bitbucket.org/goodytechnologies/yogurt.ui.framework.git
+$ git clone https://github.com/loouislow81/yogurt.ui.framework.git
 $ cd yogurt.ui.framework
 $ npm i
 ```
