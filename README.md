@@ -16,7 +16,7 @@ I always want to have a minimalist CSS framework, less typing possible, best wit
 #### Upcoming exclusive features
 
 - FX modules
-	- Widget: Tooltip
+- Widget: Tooltip
 - Widget modules
 - Typo modules
 
@@ -103,12 +103,10 @@ Examples,
 
 ```html
 <y vessel="auto">
-	<y chain="is-centered">
-		<y grid="auto">One</y>
-		<y grid="auto">Two</y>
-		<y grid="auto">Three</y>
-		<y grid="auto">Four</y>
-		<y grid="auto">Five</y>
-	</y>
+	<y chain="is-centered"><y grid="auto">One</y>
+	<y grid="auto">Two</y>
+	<y grid="auto">Three</y>
+	<y grid="auto">Four</y>
+	<y grid="auto">Five</y></y>
 </y>
 ```
