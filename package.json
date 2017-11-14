@@ -2,7 +2,7 @@
   "name": "yogurt",
   "version": "0.8.7",
   "homepage": "",
-  "author": "Loouis Low <loouis@goodian.space>",
+  "author": "Loouis Low <loouis@gmail.com>",
   "description": "An Elegant and Beautiful UI Framework",
   "main": "yogurt.sass",
   "style": "yogurt/css/yogurt.css",
