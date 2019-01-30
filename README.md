@@ -103,11 +103,12 @@ Examples,
 
 ```html
 <y vessel="auto">
-	<y chain="is-centered"><y grid="auto">One</y>
+	<y chain="is-centered">
+	<y grid="auto">One</y>
 	<y grid="auto">Two</y>
 	<y grid="auto">Three</y>
 	<y grid="auto">Four</y>
-	<y grid="auto">Five</y></y>
+	<y grid="auto">Five</y>
 </y>
 ```
 
