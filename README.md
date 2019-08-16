@@ -1,114 +1,97 @@
-# Yogurt
+# yogurt-foundation (prototype)
 
-> An Elegant and Beautiful UI Framework
-
-### Story
+> An elegant and beautiful pure CSS toolkit to craft UI component faster!
 
 I always want to have a minimalist CSS framework, less typing possible, best without the JavaScript. So I built one myself. This took months to craft from ground up completely, I glad the project has come to an end finally.
 
-### Features
+### _features
 
 - written in SASS
 - built-in preprocessor
 - modular
 - less code
 
-#### Upcoming exclusive features
+### _upcoming
 
 - FX modules
 - Widget: Tooltip
 - Widget modules
 - Typo modules
 
-### Todo
+### _todo
 
-- concatenate
-- minify
+- concatenate (DONE)
+- minify (DONE)
 
-### Prerequisites
+### _prerequisites
 
-You need **NodeJs**. Press **CTRL+ALT+T** to open a new **Terminal**.
+you need to install **NodeJS**,
 
 ```bash
-$ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+$ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 $ sudo apt install -y nodejs
+$ sudo npm i -g n
+$ sudo n stable
 ```
 
-### Clone Yogurt
+### _get
 
 **note:** This will download extra 22.9MB of NPM Modules in order for Yogurt to run the preprocessor.
 
 ```bash
 $ git clone https://github.com/loouislow81/yogurt.ui.framework.git
-$ cd yogurt.ui.framework
+$ cd yogurt-foundation
 $ npm i
 ```
 
-### Compile
+### _build
+
+build version is located at `/dist/` folder, after you ran,
 
 ```bash
-$ cd yogurt.ui.framework
-$ npm run build-clean && npm run build-sass && npm run build-autoprefix
+$ npm run build
 ```
 
-Or,
-
-```bash
-$ cd yogurt.ui.framework
-$ bash build.sh
-```
-
-Alternatively,
-
-```bash
-$ cd yogurt.ui.framework
-$ ./build.sh
-```
-
-### Build
-
-The build version is located at `/dist/` folder.
-
-### Concept
+### _concept
 
 ```html
 <link rel="stylesheet" href="yogurt.css">
 ```
 
-Examples,
+examples,
 
 ```html
 <y class="vessel">
-	<y class="chain">
-		<y class="grid">One</y>
-		<y class="grid">Two</y>
-		<y class="grid">Three</y>
-		<y class="grid">Four</y>
-		<y class="grid">Five</y>
-	</y>
+  <y class="chain">
+    <y class="grid">One</y>
+    <y class="grid">Two</y>
+    <y class="grid">Three</y>
+    <y class="grid">Four</y>
+    <y class="grid">Five</y>
+  </y>
 </y>
 ```
 
 ```html
 <vessel>
-	<chain>
-		<grid>One</grid>
-		<grid>Two</grid>
-		<grid>Three</grid>
-		<grid>Four</grid>
-		<grid>Five</grid>
-	</chain>
+  <chain>
+    <grid>One</grid>
+    <grid>Two</grid>
+    <grid>Three</grid>
+    <grid>Four</grid>
+    <grid>Five</grid>
+  </chain>
 </vessel>
 ```
 
 ```html
 <y vessel="auto">
-	<y chain="is-centered">
-	<y grid="auto">One</y>
-	<y grid="auto">Two</y>
-	<y grid="auto">Three</y>
-	<y grid="auto">Four</y>
-	<y grid="auto">Five</y>
+  <y chain="is-centered">
+  <y grid="auto">One</y>
+  <y grid="auto">Two</y>
+  <y grid="auto">Three</y>
+  <y grid="auto">Four</y>
+  <y grid="auto">Five</y>
 </y>
 ```
 
