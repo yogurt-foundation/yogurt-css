@@ -36,8 +36,6 @@ $ sudo n stable
 
 ### _get
 
-**note:** This will download extra 22.9MB of NPM Modules in order for Yogurt to run the preprocessor.
-
 ```bash
 $ git clone https://github.com/loouislow81/yogurt.ui.framework.git
 $ cd yogurt-foundation
@@ -46,7 +44,7 @@ $ npm i
 
 ### _build
 
-build version is located at `/dist/` folder, after you ran,
+build version is located in `/dist/` folder, after you ran,
 
 ```bash
 $ npm run build
