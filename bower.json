@@ -1,11 +1,8 @@
 {
   "name": "yogurt",
   "version": "0.8.7",
-  "homepage": "",
-  "authors": [
-    "Loouis Low>"
-  ],
-  "description": "An Elegant and Beautiful UI Framework",
+  "authors": "Loouis Low<loouis@gmail.com>",
+  "description": "An elegant and beautiful pure CSS toolkit to craft UI component faster!",
   "main": "yogurt.sass",
   "keywords": [
     "ui",

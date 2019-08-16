@@ -1,9 +1,8 @@
 {
   "name": "yogurt",
   "version": "0.8.7",
-  "homepage": "",
   "author": "Loouis Low <loouis@gmail.com>",
-  "description": "An Elegant and Beautiful UI Framework",
+  "description": "An elegant and beautiful pure CSS toolkit to craft UI component faster!",
   "main": "yogurt.sass",
   "style": "yogurt/css/yogurt.css",
   "license": "MIT",
@@ -15,21 +14,8 @@
     "responsive",
     "framework"
   ],
-  "dependencies": {
-    "grunt-lib-contrib": "^0.7.1",
-    "grunt-stats": "^0.1.5",
-    "time-grunt": "^1.4.0"
-  },
-  "devDependencies": {
-    "autoprefixer": "^7.1.6",
-    "grunt": "^1.0.1",
-    "grunt-contrib-cssmin": "^2.2.1",
-    "node-sass": "^4.7.2",
-    "postcss-cli": "^4.1.1",
-    "rimraf": "^2.6.2"
-  },
   "scripts": {
-    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix",
+    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && grunt --gruntfile grunt.task.css.minify.js",
     "build-autoprefix": "postcss --use autoprefixer --output dist/css/yogurt.css dist/css/yogurt.css",
     "build-clean": "rimraf css",
     "build-sass": "node-sass --output-style expanded --source-map true yogurt.sass dist/css/yogurt.css",
@@ -37,6 +23,19 @@
     "start": "npm run build-sass -- --watch",
     "start-test": "npm run test-sass -- --watch",
     "test-sass": "node-sass --output-style expanded docs/yogurt-test.sass"
+  },
+  "dependencies": {
+    "grunt-lib-contrib": "^0.7.1",
+    "grunt-stats": "^0.1.5",
+    "time-grunt": "^1.4.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "grunt": "^1.0.4",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "node-sass": "^4.7.2",
+    "postcss-cli": "^4.1.1",
+    "rimraf": "^2.6.2"
   },
   "files": [
     "dist",
