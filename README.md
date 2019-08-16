@@ -4,6 +4,8 @@
 
 I always want to have a minimalist CSS framework, less typing possible, best without the JavaScript. So I built one myself. This took months to craft from ground up completely, I glad the project has come to an end finally.
 
+> check out another [prototype 2.x.x](https://github.com/loouislow81/yogurt-foundation/tree/2.x.x)
+
 ### _features
 
 - written in SASS
