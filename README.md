@@ -1,10 +1,14 @@
-# yogurt-foundation (prototype)
+# yogurt-foundation (prototype) **(obsoleted)**
+
+<p align="left">
+  <img src="logo@ori.png" width="100">
+</p>
 
 > An elegant and beautiful pure CSS toolkit to craft UI component faster!
 
 I always want to have a minimalist CSS framework, less typing possible, best without the JavaScript. So I built one myself. This took months to craft from ground up completely, I glad the project has come to an end finally.
 
-> check out another [prototype 2.x.x](https://github.com/loouislow81/yogurt-foundation/tree/2.x.x)
+> check out another [prototype 2](https://github.com/loouislow81/yogurt-foundation/tree/2.x.x)
 
 ### _features
 
