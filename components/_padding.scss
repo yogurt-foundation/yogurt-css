@@ -1,0 +1,32 @@
+/**
+ * @module: _padding.scss
+ * @desc:
+ */
+
+
+ /**
+ * prefix usage,
+ *
+ *    read the wiki (https://github.com/loouislow81/yogurt-foundation/wiki/Padding)
+ */
+
+
+@each $short-name, $long-name in $positions { /* see module, `_variables` */
+
+  $value: $padding-size;
+
+  @while $value > $start-padding-size {
+
+    .p-#{$value} { /* prefix is `p-{value}` */
+      padding: rem($value, $base-px) /* see module, `_functions` */
+    }
+
+    .p#{$short-name}-#{$value} { /* prefix is `p{position}-{value}` */
+      padding-#{$long-name}: rem($value, $base-px) /* see module, `_functions` */
+    }
+
+    $value: $value - $each-padding-size; // minus 2px each itr
+  }
+}
+
+

@@ -1,0 +1,22 @@
+/**
+ * @module: _width.scss
+ * @desc:
+ */
+
+
+ /**
+ * prefix usage,
+ *
+ *    read the wiki (https://github.com/loouislow81/yogurt-foundation/wiki/Width)
+ */
+
+
+@each $mode, $space in $widths { /* see module `_variables` */
+
+  .w-#{$mode} { /* prefix is `w-{space}` */
+    width: #{$space}
+  }
+
+}
+
+

@@ -1,0 +1,47 @@
+/**
+ * @module: _rounded.scss
+ * @desc:
+ */
+
+
+ /**
+ * prefix usage,
+ *
+ *    read the wiki (https://github.com/loouislow81/yogurt-foundation/wiki/Rounded)
+ */
+
+
+ @each $size, $radius in $rounded { /* see module, `_variables` */
+
+  .r-#{$size},
+  .rounded-#{$size} { /* prefix is `rounded-{size}` */
+    border-radius: vw-rem($radius, $base-vw)
+  }
+
+  .rtl-#{$size},
+  .rounded-tl-#{$size} { /* prefix is `rounded-tl-{size}` */
+    border-top-left-radius: vw-rem($radius, $base-vw)
+  }
+
+  .rtr-#{$size},
+  .rounded-tr-#{$size} { /* prefix is `rounded-tr-{size}` */
+    border-top-right-radius: vw-rem($radius, $base-vw)
+  }
+
+  .rbl-#{$size},
+  .rounded-bl-#{$size} { /* prefix is `rounded-bl-{size}` */
+    border-bottom-left-radius: vw-rem($radius, $base-vw)
+  }
+
+  .rbr-#{$size},
+  .rounded-br-#{$size} { /* prefix is `rounded-br-{size}` */
+    border-bottom-right-radius: vw-rem($radius, $base-vw)
+  }
+
+}
+
+.r-full,
+.rounded-full {
+  border-radius: vw-rem(500, $base-vw)
+}
+

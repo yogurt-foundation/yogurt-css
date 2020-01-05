@@ -1,0 +1,100 @@
+/**
+ * @module: _color.scss
+ * @desc:
+ */
+
+
+ /**
+ * prefix usage,
+ *
+ *    read the wiki (https://github.com/loouislow81/yogurt-foundation/wiki/Color)
+ */
+
+
+/*
+ * Palettes for (fore/background)
+ *
+ * ~ black
+ * ~ charcoal
+ * ~ gray
+ * ~ red
+ * ~ orange
+ * ~ yellow
+ * ~ green
+ * ~ teal
+ * ~ blue
+ * ~ indigo
+ * ~ purple
+ * ~ pink
+ * ~ white
+ * ~ transparent
+ */
+
+
+@each $mode, $hex, $radius in $black { /* see module, `_variables` */
+  @include palette(black, $mode, $hex, $radius) /* see module, `_mixin` */
+}
+
+@each $mode, $hex, $radius in $charcoal {
+  @include palette(charcoal, $mode, $hex, $radius)
+}
+
+@each $mode, $hex, $radius in $gray {
+  @include palette(gray, $mode, $hex, $radius)
+}
+
+@each $mode, $hex, $radius in $red {
+  @include palette(red, $mode, $hex, $radius)
+}
+
+@each $mode, $hex, $radius in $orange {
+  @include palette(orange, $mode, $hex, $radius)
+}
+
+@each $mode, $hex, $radius in $yellow {
+  @include palette(yellow, $mode, $hex, $radius)
+}
+
+@each $mode, $hex, $radius in $green {
+  @include palette(green, $mode, $hex, $radius)
+}
+
+@each $mode, $hex, $radius in $teal {
+  @include palette(teal, $mode, $hex, $radius)
+}
+
+@each $mode, $hex, $radius in $blue {
+  @include palette(blue, $mode, $hex, $radius)
+}
+
+@each $mode, $hex, $radius in $indigo {
+  @include palette(indigo, $mode, $hex, $radius)
+}
+
+@each $mode, $hex, $radius in $purple {
+  @include palette(purple, $mode, $hex, $radius)
+}
+
+@each $mode, $hex, $radius in $pink {
+  @include palette(pink, $mode, $hex, $radius)
+}
+
+// white
+.white {
+  color: #ffffff
+}
+
+.bg-white {
+  background-color: #ffffff
+}
+
+// transparent
+.holo {
+  color: rgba(255,255,255,0)
+}
+
+.bg-holo {
+  background-color: rgba(255,255,255,0)
+}
+
+

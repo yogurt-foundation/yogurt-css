@@ -1,0 +1,51 @@
+/**
+ * @module: _utilities.scss
+ * @desc:
+ */
+
+
+ /**
+ * **(?)** more like a helper, what?!
+ * ...and works passively as well.
+ */
+
+
+/* browser broken image handler */
+img {
+min-width: $broken-image-min-width;
+min-height: $broken-image-min-height;
+
+  &::before {
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    border: 2px dotted rgb(200, 200, 200);
+    border-radius: 5px;
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    height: calc(100% + 10px);
+    content: " "
+  }
+
+  &::after { /* masking the ugly */
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    content: "Oops!"" Broken Image of "attr(alt)
+  }
+}
+
+/* hidden elements */
+/* make things disappear from screen */
+.show {
+  visibility: visible !important;
+}
+
+.hide {
+  visibility: hidden !important;
+}
+

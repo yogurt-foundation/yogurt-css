@@ -1,0 +1,21 @@
+/**
+ * @module: _font-size.scss
+ * @desc:
+ */
+
+
+ /**
+ * prefix usage,
+ *
+ *    read the wiki (https://github.com/loouislow81/yogurt-foundation/wiki/Font-Size)
+ */
+
+
+@each $short-name, $long-name in $font-size { /* see module, `_variables` */
+
+  .fs-#{$short-name} { /* prefix is `fs-{value}` */
+    font-size: #{$long-name}
+  }
+
+}
+

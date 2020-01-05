@@ -1,0 +1,22 @@
+/**
+ * @module: _shadow.scss
+ * @desc:
+ */
+
+
+ /**
+ * prefix usage,
+ *
+ *    read the wiki (https://github.com/loouislow81/yogurt-foundation/wiki/Shadow)
+ */
+
+
+ @each $size, $radius in $shadows { /* see module, `_variables` */
+
+  .shadow-#{$size} { /* prefix is `shadow-{size}` */
+    box-shadow: 0 0 #{$radius}px #00000082 /* see module, `_functions` */
+  }
+
+}
+
+

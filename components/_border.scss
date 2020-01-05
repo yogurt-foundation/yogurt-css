@@ -1,0 +1,34 @@
+/**
+ * @module: _border.scss
+ * @desc:
+ */
+
+
+/**
+ * prefix usage,
+ *
+ *    read the wiki https://github.com/loouislow81/yogurt-foundation/wiki/Border)
+ */
+
+
+@each $short-name, $long-name in $positions { /* see module, `_variables` */
+
+  $value: $border-size;
+
+  @while $value > $start-border-size {
+
+    .b-#{$value} { /* prefix is `b-{value}` */
+      border-width: rem($value, $base-px); /* see module, `_functions` */
+      border-style: solid
+    }
+
+    .b#{$short-name}-#{$value} { /* prefix is `b{position}-{value}` */
+      border-#{$long-name}-width: rem($value, $base-px); /* see module, `_functions` */
+      border-style: solid
+    }
+
+    $value: $value - $each-border-size; // minus 2px each itr
+  }
+}
+
+

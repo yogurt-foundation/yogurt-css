@@ -1,103 +1,60 @@
-# yogurt-foundation (prototype) **(obsoleted)**
+# yogurt (0.0.1-proto), (56kb(min))
 
-<p align="left">
-  <img src="logo@ori.png" width="100">
-</p>
+A pico size CSS framework that provides low-level `analog` and `stepping` alike utilties.
 
-> An elegant and beautiful pure CSS toolkit to craft UI component faster!
+**(!!)** changing plan, I'll be replacing `analog-alike` controls over to `stepping-alike` control, so that I don't have to remember so many numbers to for each utilities.
 
-I always want to have a minimalist CSS framework, less typing possible, best without the JavaScript. So I built one myself. This took months to craft from ground up completely, I glad the project has come to an end finally.
+A pico size CSS framework for me to manipulates `font-size`, `padding`, `margin`, `line-height`, `color`, etc. with analog-alike-value that make easy for me to pair with the **Bootstrap Framework** on-the-go. I am more prefer atomized css selectors with added full-range of different settings for me to choose from, so that I can less messing with the CSS or SCSS files.
 
-> check out another [prototype 2](https://github.com/loouislow81/yogurt-foundation/tree/2.x.x)
+![](logo.png "yogurt")
 
-### _features
+### abstract
 
-- written in SASS
-- built-in preprocessor
-- modular
-- less code
-
-### _upcoming
-
-- FX modules
-- Widget: Tooltip
-- Widget modules
-- Typo modules
-
-### _todo
-
-- concatenate (DONE)
-- minify (DONE)
-
-### _prerequisites
-
-you need to install **NodeJS**,
-
-```bash
-$ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-$ sudo apt install -y nodejs
-$ sudo npm i -g n
-$ sudo n stable
-```
+In this concept, the `margin`, `padding`, `font-size` and so on are considered as `utility` components. Using the `first initial letter prefixing` (e.g. `b` as `border`) combines with preset `value` (or `strength` value) makes perfect sense to mix among the utilties to form a complex styling with CSS. The `value` or `strength` value giving linear options changing the properties of an utility either in an analog-alike or steppin-alike, which gives you a `low-level` control over this framework. The `Sass` being used on this concept is acting like a compiler or `generator` for generating distributable asset (e.g. /dist/yogurt.min.css), the asset is not use as library import in your project, instead you generate new one if any changes to the core with `yogurt.scss` by using `Sass` preprocessor.
 
 ### _get
 
 ```bash
-$ git clone https://github.com/loouislow81/yogurt.ui.framework.git
-$ cd yogurt-foundation
+$ git clone https://github.com/loouislow81/yogurt-foundation.git
 $ npm i
 ```
 
 ### _build
 
-build version is located in `/dist/` folder, after you ran,
-
 ```bash
 $ npm run build
+$ npm run dist
 ```
 
-### _concept
+### _usage
 
 ```html
-<link rel="stylesheet" href="yogurt.css">
+<head>
+  ...
+    <link rel="stylesheet" href="dist/yogurt.css">
+  ...
+</head>
 ```
 
-examples,
+### _utility
 
-```html
-<y class="vessel">
-  <y class="chain">
-    <y class="grid">One</y>
-    <y class="grid">Two</y>
-    <y class="grid">Three</y>
-    <y class="grid">Four</y>
-    <y class="grid">Five</y>
-  </y>
-</y>
-```
+`color`, `margin`, `padding`, `font size`, `font-weight`, `letter-spacing`, `line-height`, `border`, `shadow`, `rounded`, `visibility`, `width`, `z-index`
 
-```html
-<vessel>
-  <chain>
-    <grid>One</grid>
-    <grid>Two</grid>
-    <grid>Three</grid>
-    <grid>Four</grid>
-    <grid>Five</grid>
-  </chain>
-</vessel>
-```
+---
 
-```html
-<y vessel="auto">
-  <y chain="is-centered">
-  <y grid="auto">One</y>
-  <y grid="auto">Two</y>
-  <y grid="auto">Three</y>
-  <y grid="auto">Four</y>
-  <y grid="auto">Five</y>
-</y>
-```
+### _wiki
+
+[Go to Wiki page](https://github.com/loouislow81/yogurt-foundation/wiki)
+
+---
+
+Other features added such as `gpu acceleration` for images, video and text enhancements.
+
+The *_reset.scss* module I use respectively from [normalize.css](https://necolas.github.io/normalize.css/) to make the default styling reset-ted.
+
+That's it!
+
+Enjoy!
 
 ---
 
@@ -122,3 +79,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+

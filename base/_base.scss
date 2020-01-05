@@ -1,0 +1,23 @@
+/**
+ * @module: _base.scss
+ * @desc: spacing generator
+ */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* optional, remove if necessary */
+  /* (DO NOT CHANGE TO `em` or `rem`) */
+  font-size: 16px /* set base font size reference for `em` */
+}
+
+vd { /* alias <div> */
+  display: block
+}
+
+ul {
+  list-style: none /* no bulletdots as default */
+}
+
+

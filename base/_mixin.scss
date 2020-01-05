@@ -1,0 +1,35 @@
+/**
+ * @module: _mixin.scss
+ * @desc: 
+ */
+
+
+@mixin palette($color, $strength, $hex, $radius) { /* see module, `_variables` */
+
+  /* foreground color */
+  .#{$color}-#{$strength} { /* prefix e.g. `{colorname}-{strength}` */
+    color: #{$hex}
+  }
+
+  /* background color */
+  .bg-#{$color}-#{$strength} { /* prefix e.g. `bg-{colorname}-{strength}` */
+    background-color: #{$hex}
+  }
+
+  /* border color */
+  .b-#{$color}-#{$strength} { /* prefix e.g. `b-{colorname}-{strength}` */
+    border-color: #{$hex}
+  }
+
+  /* shadow color */
+  @each $size, $radius in $shadows { /* see module, `_variables` */
+
+  .shadow-#{$size}-#{$color}-#{$strength} { /* prefix e.g. `shadow-{colorname}-{strength}` */
+    box-shadow: 0 0 #{$radius}px #{$hex} !important
+   }
+   
+ }
+
+}
+
+

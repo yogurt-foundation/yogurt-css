@@ -1,45 +1,26 @@
 {
-  "name": "yogurt",
-  "version": "0.8.7",
-  "author": "Loouis Low <loouis@gmail.com>",
-  "description": "An elegant and beautiful pure CSS toolkit to craft UI component faster!",
-  "main": "yogurt.sass",
-  "style": "yogurt/css/yogurt.css",
-  "license": "MIT",
-  "keywords": [
-    "ui",
-    "css",
-    "sass",
-    "flexbox",
-    "responsive",
-    "framework"
-  ],
+  "name": "yogurt.css",
+  "version": "0.0.1-proto",
+  "description": "A pico size CSS framework that provides low-level analog and stepping alike utilties.",
+  "main": "index.js",
   "scripts": {
-    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && grunt --gruntfile grunt.task.css.minify.js",
-    "build-autoprefix": "postcss --use autoprefixer --output dist/css/yogurt.css dist/css/yogurt.css",
-    "build-clean": "rimraf css",
-    "build-sass": "node-sass --output-style expanded --source-map true yogurt.sass dist/css/yogurt.css",
-    "deploy": "npm run build",
-    "start": "npm run build-sass -- --watch",
-    "start-test": "npm run test-sass -- --watch",
-    "test-sass": "node-sass --output-style expanded docs/yogurt-test.sass"
+    "build": "./node_modules/sass/sass.js yogurt.scss yogurt.css",
+    "clean": "rm -rf *.css; rm -rf *.css.map",
+    "dist": "npm run build && mv yogurt.css ./dist/ && ./node_modules/css-purge/css-purge.js -i ./dist/yogurt.css -o ./dist/yogurt.min.css && npm run clean",
+    "watch": "./node_modules/sass/sass.js --watch yogurt.scss:yogurt.css"
   },
-  "dependencies": {
-    "grunt-lib-contrib": "^0.7.1",
-    "grunt-stats": "^0.1.5",
-    "time-grunt": "^1.4.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loouislow81/yogurt-foundation.git"
   },
+  "author": "Loouis Low (loouis@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loouislow81/yogurt-foundation/issues"
+  },
+  "homepage": "https://github.com/loouislow81/yogurt-foundation/blob/master/README.md",
   "devDependencies": {
-    "autoprefixer": "^7.1.6",
-    "grunt": "^1.0.4",
-    "grunt-contrib-cssmin": "^2.2.1",
-    "node-sass": "^4.7.2",
-    "postcss-cli": "^4.1.1",
-    "rimraf": "^2.6.2"
-  },
-  "files": [
-    "dist",
-    "sass",
-    "yogurt.sass"
-  ]
+    "css-purge": "^3.1.8",
+    "sass": "^1.22.12"
+  }
 }

@@ -1,0 +1,21 @@
+/**
+ * @module: _z-index.scss
+ * @desc:
+ */
+
+
+/**
+ * prefix usage,
+ *
+ *    read the wiki (https://github.com/loouislow81/yogurt-foundation/wiki/Z-Index)
+ */
+
+
+@each $mode, $dimension in $zindex-dimensional-space {
+
+  .z-#{$mode} { /* prefix is `z-{value}` */
+    z-index: #{$dimension} /* see module, `_functions` */
+  }
+
+}
+
