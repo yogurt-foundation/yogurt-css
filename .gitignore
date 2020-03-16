@@ -1,8 +1,8 @@
-/node_modules
-/dist
+node_modules
+dist
+.c9
 
 package-lock.json
+yarn.lock
 
 *.css.map
-
-.c9
