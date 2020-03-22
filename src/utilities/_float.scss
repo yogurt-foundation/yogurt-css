@@ -1,0 +1,42 @@
+/**
+ * @module: _float.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin float($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}float-#{$modifier}#{$pseudo} {
+    float: #{$value}
+  }
+}
+
+/* default */
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+@each $modifier, $value in $float {
+
+  /* basic */
+
+  @include float("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include float(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}

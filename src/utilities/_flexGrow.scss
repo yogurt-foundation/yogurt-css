@@ -1,0 +1,36 @@
+/**
+ * @module: _flexGrow.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin flexGrow($prefix, $pseudo, $class) {
+  #{$prefix}#{$class}flex-grow-0#{$pseudo} {
+    flex-grow: 0
+  }
+}
+
+/* default */
+
+.flex-grow {
+  flex-grow: 1
+}
+
+/* basic */
+
+@include flexGrow("", "", ".")
+
+/* responsive */
+
+@each $screen, $size in $screens {
+  @media (min-width: #{$size}) {
+    @include flexGrow(".#{$screen}\\:", "", "")
+  }
+}
+
+/* hover */
+
+/* focus */

@@ -169,3 +169,18 @@ $flex-direction:
   (row-reverse, row-reverse),
   (col, column),
   (col-reverse, column-reverse);
+
+/* flex wrap */
+
+$flex-wrap:
+  (wrap, wrap),
+  (wrap-reverse, wrap-reverse),
+  (no-wrap, nowrap);
+
+/* float */
+
+$float:
+  (left, left),
+  (right, right),
+  (none, none);
+
