@@ -1,0 +1,387 @@
+/**
+ * Yogurt
+ *
+ * A collosal size CSS utility framework that provides only
+ * low-level analogue and stepping tooling.
+ *
+ * @module: yogurt.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+/**
+ * @module: _variables.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+/*
+  @params $modifier, $value
+*/
+/* screens */
+/* alignContent */
+/* alignItems */
+/* alignSelf */
+/* backgroundAttachment */
+/* backgroundPosition */
+/* backgroundRepeat */
+/* backgroundSize */
+/* borderCollapse */
+/* borderRadius */
+/* borderStyle */
+/* borderWidth */
+/* boxShadow */
+/* cursor */
+/* display */
+/* flex */
+/* flex direction */
+/**
+ * @module: _flexDirection.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+/* default */
+/* basic */
+.flex-row {
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+
+/* responsive */
+@media (min-width: 320px) {
+  .xs\:flex-row {
+    -ms-flex-direction: row;
+        flex-direction: row;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:flex-row {
+    -ms-flex-direction: row;
+        flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:flex-row {
+    -ms-flex-direction: row;
+        flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex-row {
+    -ms-flex-direction: row;
+        flex-direction: row;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:flex-row {
+    -ms-flex-direction: row;
+        flex-direction: row;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32k\:flex-row {
+    -ms-flex-direction: row;
+        flex-direction: row;
+  }
+}
+
+@media (min-width: 2560px) {
+  .\33k\:flex-row {
+    -ms-flex-direction: row;
+        flex-direction: row;
+  }
+}
+
+@media (min-width: 3840px) {
+  .\34k\:flex-row {
+    -ms-flex-direction: row;
+        flex-direction: row;
+  }
+}
+
+@media (min-width: 6400px) {
+  .\35k\:flex-row {
+    -ms-flex-direction: row;
+        flex-direction: row;
+  }
+}
+
+@media (min-width: 7680px) {
+  .\36k\:flex-row {
+    -ms-flex-direction: row;
+        flex-direction: row;
+  }
+}
+
+/* hover */
+.hover\:flex-row:hover {
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+
+/* focus */
+/* basic */
+.flex-row-reverse {
+  -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse;
+}
+
+/* responsive */
+@media (min-width: 320px) {
+  .xs\:flex-row-reverse {
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:flex-row-reverse {
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:flex-row-reverse {
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex-row-reverse {
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:flex-row-reverse {
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32k\:flex-row-reverse {
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 2560px) {
+  .\33k\:flex-row-reverse {
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 3840px) {
+  .\34k\:flex-row-reverse {
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 6400px) {
+  .\35k\:flex-row-reverse {
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 7680px) {
+  .\36k\:flex-row-reverse {
+    -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+  }
+}
+
+/* hover */
+.hover\:flex-row-reverse:hover {
+  -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse;
+}
+
+/* focus */
+/* basic */
+.flex-col {
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+/* responsive */
+@media (min-width: 320px) {
+  .xs\:flex-col {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:flex-col {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:flex-col {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex-col {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:flex-col {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32k\:flex-col {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
+
+@media (min-width: 2560px) {
+  .\33k\:flex-col {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
+
+@media (min-width: 3840px) {
+  .\34k\:flex-col {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
+
+@media (min-width: 6400px) {
+  .\35k\:flex-col {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
+
+@media (min-width: 7680px) {
+  .\36k\:flex-col {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
+
+/* hover */
+.hover\:flex-col:hover {
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+/* focus */
+/* basic */
+.flex-col-reverse {
+  -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
+}
+
+/* responsive */
+@media (min-width: 320px) {
+  .xs\:flex-col-reverse {
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:flex-col-reverse {
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:flex-col-reverse {
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex-col-reverse {
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:flex-col-reverse {
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32k\:flex-col-reverse {
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 2560px) {
+  .\33k\:flex-col-reverse {
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 3840px) {
+  .\34k\:flex-col-reverse {
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 6400px) {
+  .\35k\:flex-col-reverse {
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 7680px) {
+  .\36k\:flex-col-reverse {
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+  }
+}
+
+/* hover */
+.hover\:flex-col-reverse:hover {
+  -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
+}
+
+/* focus */
+/*! yogurt.css v2.0.0 | MIT License | gtihub.com/loouislow81/yogurt-foundation */

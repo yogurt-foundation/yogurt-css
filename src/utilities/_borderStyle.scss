@@ -1,0 +1,37 @@
+/**
+ * @module: _borderStyle.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin borderStyle($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}border-#{$modifier}#{$pseudo} {
+    border-style: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $border-style {
+
+  /* basic */
+
+  @include borderStyle("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include borderStyle(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}
+

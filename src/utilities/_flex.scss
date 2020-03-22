@@ -1,0 +1,36 @@
+/**
+ * @module: _flex.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin flex($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}flex-#{$modifier}#{$pseudo} {
+    flex: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $flex {
+
+  /* basic */
+
+  @include flex("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include flex(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}

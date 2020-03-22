@@ -1,0 +1,39 @@
+/**
+ * @module: _backgroundAttachment.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin backgroundAttachment($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}bg-#{$modifier}#{$pseudo} {
+    background-attachment: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $background-attachment {
+
+  /* basic */
+
+  @include backgroundAttachment("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include backgroundAttachment(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  @include backgroundAttachment(".hover\\:", ":hover", "", $modifier, $value)
+
+  /* focus */
+
+}
+

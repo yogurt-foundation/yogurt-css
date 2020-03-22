@@ -1,0 +1,59 @@
+/**
+ * @module: _borderRadius.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin borderRadius($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}rounded-#{$modifier}#{$pseudo} {
+    border-radius: #{$value}
+  }
+  #{$prefix}#{$class}rounded-t-#{$modifier}#{$pseudo} { // top
+    border-top-left-radius: #{$value};
+    border-top-right-radius: #{$value}
+  }
+  #{$prefix}#{$class}rounded-b-#{$modifier}#{$pseudo} { // bottom
+    border-bottom-right-radius: #{$value};
+    border-bottom-left-radius: #{$value}
+  }
+  #{$prefix}#{$class}rounded-l-#{$modifier}#{$pseudo} { // left
+    border-top-left-radius: #{$value};
+    border-bottom-left-radius: #{$value}
+  }
+  #{$prefix}#{$class}rounded-r-#{$modifier}#{$pseudo} { // right
+    border-top-right-radius: #{$value};
+    border-bottom-right-radius: #{$value}
+  }
+}
+
+/* default */
+
+.rounded {
+  border-radius: 0.25rem
+}
+
+@each $modifier, $value in $border-radius {
+
+  /* basic */
+
+  @include borderRadius("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include borderRadius(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  @include borderRadius(".hover\\:", ":hover", "", $modifier, $value)
+
+  /* focus */
+
+}
+

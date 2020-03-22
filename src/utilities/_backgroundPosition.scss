@@ -1,0 +1,36 @@
+/**
+ * @module: _backgroundPosition.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin backgroundPosition($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}bg-#{$modifier}#{$pseudo} {
+    background-position: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $background-position {
+
+  /* basic */
+
+  @include backgroundPosition("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include backgroundPosition(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}

@@ -1,0 +1,55 @@
+/**
+ * @module: _borderWidth.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin borderWidth($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}border-#{$modifier}#{$pseudo} {
+    border-width: #{$value}
+  }
+  #{$prefix}#{$class}border-t-#{$modifier}#{$pseudo} { // top
+    border-top-width: #{$value}
+  }
+  #{$prefix}#{$class}border-b-#{$modifier}#{$pseudo} { // bottom
+    border-bottom-width: #{$value}
+  }
+  #{$prefix}#{$class}border-l-#{$modifier}#{$pseudo} { // left
+    border-left-width: #{$value}
+  }
+  #{$prefix}#{$class}border-r-#{$modifier}#{$pseudo} { // right
+    border-right-width: #{$value}
+  }
+}
+
+/* default */
+
+.border {
+  border-width: 0.0625em
+}
+
+@each $modifier, $value in $border-width {
+
+  /* basic */
+
+  @include borderWidth("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include borderWidth(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  @include borderWidth(".hover\\:", ":hover", "", $modifier, $value)
+
+  /* focus */
+
+}
+

@@ -1,0 +1,28 @@
+/**
+ * @module: _container.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin container($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}container#{$modifier}#{$pseudo} {
+    max-width: #{$value}
+  }
+}
+
+/* default */
+
+.container {
+  width: 100%
+}
+
+/* responsive */
+
+@each $screen, $size in $screens {
+  @media (min-width: #{$size}) {
+    @include container("", "", "", "", $size)
+  }
+}

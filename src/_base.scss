@@ -1,0 +1,18 @@
+/**
+ * @module: _base.scss
+ */
+
+/*! yogurt.css v2.0.0 | MIT License | gtihub.com/loouislow81/yogurt-foundation */
+
+body {
+  /* (DO NOT CHANGE TO `em` or `rem`) */
+  font-size: 16px; /* set base font size reference for `em` */
+}
+
+y { /* alias <div> as branding <y>*/
+  display: block;
+}
+
+ul {
+  list-style: none; /* no bulletdots as default */
+}

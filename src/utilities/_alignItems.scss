@@ -1,0 +1,37 @@
+/**
+ * @module: _alignItems.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin alignItems($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}items-#{$modifier}#{$pseudo} {
+    align-items: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $align-items {
+
+  /* basic */
+
+  @include alignItems("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include alignItems(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}
+

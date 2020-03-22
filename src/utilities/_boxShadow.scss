@@ -1,0 +1,45 @@
+/**
+ * @module: _boxShadow.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin boxShadow($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}shadow-#{$modifier}#{$pseudo} {
+    box-shadow: #{$value}
+  }
+}
+
+/* default */
+
+.shadow {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)
+}
+
+@each $modifier, $value in $box-shadow {
+
+  /* basic */
+
+  @include boxShadow("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include boxShadow(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  @include boxShadow(".hover\\:", ":hover", "", $modifier, $value)
+
+  /* focus */
+
+  @include boxShadow(".focus\\:", ":focus", "", $modifier, $value)
+
+}
+

@@ -1,0 +1,36 @@
+/**
+ * @module: _backgroundRepeat.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin backgroundRepeat($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}bg-#{$modifier}#{$pseudo} {
+    background-repeat: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $background-repeat {
+
+  /* basic */
+
+  @include backgroundRepeat("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include backgroundRepeat(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}

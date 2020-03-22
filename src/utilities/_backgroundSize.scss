@@ -1,0 +1,36 @@
+/**
+ * @module: _backgroundSize.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin backgroundSize($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}bg-#{$modifier}#{$pseudo} {
+    background-size: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $background-size {
+
+  /* basic */
+
+  @include backgroundSize("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include backgroundSize(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}

@@ -1,0 +1,37 @@
+/**
+ * @module: _borderCollapse.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin borderCollapse($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}border-#{$modifier}#{$pseudo} {
+    border-#{$value}: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $border-collapse {
+
+  /* basic */
+
+  @include borderCollapse("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include borderCollapse(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}
+

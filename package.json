@@ -1,26 +1,31 @@
 {
   "name": "yogurt.css",
-  "version": "0.0.1-proto",
-  "description": "A pico size CSS framework that provides low-level analog and stepping alike utilties.",
+  "version": "2.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/sass/sass.js yogurt.scss yogurt.css",
-    "clean": "rm -rf *.css; rm -rf *.css.map",
-    "dist": "npm run build && mv yogurt.css ./dist/ && ./node_modules/css-purge/css-purge.js -i ./dist/yogurt.css -o ./dist/yogurt.min.css && npm run clean",
-    "watch": "./node_modules/sass/sass.js --watch yogurt.scss:yogurt.css"
+    "gulp": "gulp",
+    "watch": "gulp watch",
+    "build": "npm run gulp sass"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/loouislow81/yogurt-foundation.git"
-  },
-  "author": "Loouis Low (loouis@gmail.com)",
+  "keywords": [
+    "ui-framework",
+    "ui-toolkit",
+    "ui-utility",
+    "ui-low-level-utility"
+  ],
+  "author": "Loouis Low <loouis@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/loouislow81/yogurt-foundation/issues"
-  },
-  "homepage": "https://github.com/loouislow81/yogurt-foundation/blob/master/README.md",
   "devDependencies": {
-    "css-purge": "^3.1.8",
-    "sass": "^1.22.12"
-  }
+    "autoprefixer": "^9.4.3",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-uglifycss": "^1.1.0",
+    "gulp-util": "^3.0.8"
+  },
+  "dependencies": {}
 }

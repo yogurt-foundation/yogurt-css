@@ -1,0 +1,171 @@
+/**
+ * @module: _variables.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+/*
+  @params $modifier, $value
+*/
+
+/* screens */
+
+$screens:
+  (xs, 320px),
+  (sm, 640px),
+  (md, 768px),
+  (lg, 1024px),
+  (xl, 1280px),
+  (\32k, 1920px), // (new) 2k
+  (\33k, 2560px), // (new) 3k
+  (\34k, 3840px), // (new) 4k
+  (\35k, 6400px), // (new) 5k
+  (\36k, 7680px); // (new) 6k
+
+/* alignContent */
+
+$align-content:
+  (start, flex-start),
+  (end, flex-end),
+  (center, center),
+  (between, space-between),
+  (around, space-around);
+
+/* alignItems */
+
+$align-items:
+  (start, flex-start),
+  (end, flex-end),
+  (center, center),
+  (baseline, baseline),
+  (stretch, stretch);
+
+/* alignSelf */
+
+$align-self:
+  (auto, auto),
+  (start, flex-start),
+  (end, flex-end),
+  (center, center),
+  (stretch, stretch);
+
+/* backgroundAttachment */
+
+$background-attachment:
+  (fixed, fixed),
+  (local, local),
+  (scroll, scroll);
+
+/* backgroundPosition */
+
+$background-position:
+  (top, top),
+  (bottom, bottom),
+  (center, center),
+  (left, left),
+  (left-bottom, left bottom),
+  (left-top, left top),
+  (right, right),
+  (right-bottom, right bottom),
+  (right-top, right top);
+
+/* backgroundRepeat */
+
+$background-repeat:
+  (repeat, repeat),
+  (no-repeat, no-repeat),
+  (repeat-x, repeat-x),
+  (repeat-y, repeat-y),
+  (repeat-round, round),
+  (repeat-space, space);
+
+/* backgroundSize */
+
+$background-size:
+  (auto, auto),
+  (cover, cover),
+  (contain, contain);
+
+/* borderCollapse */
+
+$border-collapse:
+  (collapse, collapse),
+  (separate, separate);
+
+/* borderRadius */
+
+$border-radius:
+  (none, 0),
+  (sm, 0.125rem),
+  (lg, 0.5rem),
+  (full, 9999px);
+
+/* borderStyle */
+
+$border-style:
+  (solid, solid),
+  (dashed, dashed),
+  (dotted, dotted),
+  (none, none);
+
+/* borderWidth */
+
+$border-width:
+  (0, 0),
+  (2, 0.125em), // 2px
+  (4, 0.25em), // 4px
+  (8, 0.5em); // 8px
+
+/* boxShadow */
+
+$box-shadow:
+  (md, 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)),
+  (lg, 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)),
+  (xl, 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)),
+  (2xl, 0 25px 50px -12px rgba(0, 0, 0, 0.25)),
+  (inner, inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)),
+  (outline, 0 0 0 3px rgba(66, 153, 225, 0.5)),
+  (none, none);
+
+/* cursor */
+
+$cursor:
+  (auto, auto),
+  (default, default),
+  (pointer, pointer),
+  (wait, wait),
+  (text, text),
+  (move, move),
+  (not-allowed, not-allowed);
+
+/* display */
+
+$display:
+  (block, block),
+  (inline-block, inline-block),
+  (inline, inline),
+  (flex, flex),
+  (inline-flex, inline-flex),
+  (table, table),
+  (table-row, table-row),
+  (table-cell, table-cell),
+  (hidden, none);
+
+/* flex */
+
+$flex:
+  (1, 1 1 0%),
+  (auto, 1 1 auto),
+  (initial, 0 1 auto),
+  (none, none);
+
+/* flex direction */
+
+$flex-direction:
+  (row, row),
+  (row-reverse, row-reverse),
+  (col, column),
+  (col-reverse, column-reverse);

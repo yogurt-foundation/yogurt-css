@@ -1,0 +1,38 @@
+/**
+ * @module: _flexDirection.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin flexDirection($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}flex-#{$modifier}#{$pseudo} {
+    flex-direction: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $flex-direction {
+
+  /* basic */
+
+  @include flexDirection("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include flexDirection(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  @include flexDirection(".hover\\:", ":hover", "", $modifier, $value)
+
+  /* focus */
+
+}

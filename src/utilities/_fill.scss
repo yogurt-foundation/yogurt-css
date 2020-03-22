@@ -1,0 +1,32 @@
+/**
+ * @module: _fill.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin fill($prefix, $pseudo, $class) {
+  #{$prefix}#{$class}fill-current#{$pseudo} {
+    fill: currentColor
+  }
+}
+
+/* default */
+
+/* basic */
+
+@include fill("", "", ".")
+
+/* responsive */
+
+@each $screen, $size in $screens {
+  @media (min-width: #{$size}) {
+    @include fill(".#{$screen}\\:", "", "")
+  }
+}
+
+/* hover */
+
+/* focus */

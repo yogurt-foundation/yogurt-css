@@ -1,8 +1,14 @@
 node_modules
-dist
-.c9
+wiki
+
+*.DS_Store
 
 package-lock.json
 yarn.lock
+yarn-error.log
 
-*.css.map
+.c9
+.vscode
+
+Thumbs.db
+Thumbs.db.encryptable

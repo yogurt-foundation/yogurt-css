@@ -1,0 +1,36 @@
+/**
+ * @module: _alignContent.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin alignContent($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}content-#{$modifier}#{$pseudo} {
+    align-content: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $align-content {
+
+  /* basic */
+
+  @include alignContent("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include alignContent(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}

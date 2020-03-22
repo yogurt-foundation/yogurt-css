@@ -1,0 +1,30 @@
+/**
+ * @module: _appearance.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin appearance($prefix, $class) {
+  #{$prefix}#{$class}appearance-none {
+    align-content: none
+  }
+}
+
+/* default */
+
+@include appearance("", ".")
+
+/* responsive */
+
+@each $screen, $size in $screens {
+  @media (min-width: #{$size}) {
+    @include appearance(".#{$screen}\\:", "")
+  }
+}
+
+/* hover */
+
+/* focus */
