@@ -1,0 +1,36 @@
+/**
+ * @module: _minHeight.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin minHeight($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}min-h-#{$modifier}#{$pseudo} {
+    min-height: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $min-height {
+
+  /* basic */
+
+  @include minHeight("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include minHeight(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}
