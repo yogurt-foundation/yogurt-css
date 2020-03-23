@@ -35,7 +35,7 @@
 - **(OK)** justifyContent ~ (responsive)
 - **(OK)** letterSpacing ~ (responsive)
 - **(OK)** lineHeight ~ (responsive)
-- listStylePosition ~ (responsive)
+- **(OK)** listStylePosition ~ (responsive)
 - listStyleType ~ (responsive)
 - margin ~ (responsive)
 - maxHeight ~ (responsive)

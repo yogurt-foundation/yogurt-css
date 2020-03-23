@@ -1,0 +1,48 @@
+/**
+ * @module: _listStylePosition.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin listStylePosition($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}list-#{$modifier}#{$pseudo} {
+    list-style-type: #{$value}
+  }
+}
+
+@mixin listStylePositionDefault($prefix, $class) {
+  #{$prefix}#{$class}list-inside {
+    list-style-position: inside;
+  }
+  #{$prefix}#{$class}list-outside {
+    list-style-position: outside;
+  }
+}
+
+/* default */
+
+@include listStylePositionDefault("", ".")
+
+@each $modifier, $value in $list-style-position {
+
+  /* basic */
+
+  @include listStylePosition("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include listStylePositionDefault(".#{$screen}\\:", "")
+      @include listStylePosition(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}
