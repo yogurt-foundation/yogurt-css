@@ -191,3 +191,17 @@ $font-family:
   (sans, (-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji)),
   (serif, (Georgia, Cambria, Times New Roman, Times, serif)),
   (mono, (Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace));
+
+/* font size */
+
+$font-size:
+  (xs, 0.75rem),
+  (sm, 0.875rem),
+  (base, 1rem), // `-md` replaces with `base`
+  (lg, 1.125rem),
+  (xl, 1.25rem),
+  (2xl, 1.5rem), // (new) 2k
+  (3xl, 1.875rem), // (new) 3k
+  (4xl, 2.25rem), // (new) 4k
+  (5xl, 3rem), // (new) 5k
+  (6xl, 4rem); // (new) 6k
