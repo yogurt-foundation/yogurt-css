@@ -13,11 +13,15 @@
   }
 }
 
+@mixin flexGrowDefault($prefix, $class) {
+  #{$prefix}#{$class}flex-grow {
+    flex-grow: 1
+  }
+}
+
 /* default */
 
-.flex-grow {
-  flex-grow: 1
-}
+@include flexGrowDefault("", ".")
 
 /* basic */
 
@@ -27,6 +31,7 @@
 
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
+    @include flexGrowDefault(".#{$screen}\\:", "")
     @include flexGrow(".#{$screen}\\:", "", "")
   }
 }
