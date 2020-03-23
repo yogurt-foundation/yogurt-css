@@ -45,8 +45,9 @@
 /* font size */
 /* font weight */
 /* inset */
+/* justify content */
 /**
- * @module: _inset.scss
+ * @module: _justifyContent.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -55,382 +56,395 @@
  */
 /* default */
 /* basic */
-.inset-0 {
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.inset-x-0 {
-  left: 0;
-  right: 0;
-}
-
-.inset-y-0 {
-  top: 0;
-  bottom: 0;
+.justify-start {
+  -ms-flex-pack: start;
+      justify-content: flex-start;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:inset-0 {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  .xs\:inset-x-0 {
-    left: 0;
-    right: 0;
-  }
-  .xs\:inset-y-0 {
-    top: 0;
-    bottom: 0;
+  .xs\:justify-start {
+    -ms-flex-pack: start;
+        justify-content: flex-start;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:inset-0 {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  .sm\:inset-x-0 {
-    left: 0;
-    right: 0;
-  }
-  .sm\:inset-y-0 {
-    top: 0;
-    bottom: 0;
+  .sm\:justify-start {
+    -ms-flex-pack: start;
+        justify-content: flex-start;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:inset-0 {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  .md\:inset-x-0 {
-    left: 0;
-    right: 0;
-  }
-  .md\:inset-y-0 {
-    top: 0;
-    bottom: 0;
+  .md\:justify-start {
+    -ms-flex-pack: start;
+        justify-content: flex-start;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:inset-0 {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  .lg\:inset-x-0 {
-    left: 0;
-    right: 0;
-  }
-  .lg\:inset-y-0 {
-    top: 0;
-    bottom: 0;
+  .lg\:justify-start {
+    -ms-flex-pack: start;
+        justify-content: flex-start;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:inset-0 {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  .xl\:inset-x-0 {
-    left: 0;
-    right: 0;
-  }
-  .xl\:inset-y-0 {
-    top: 0;
-    bottom: 0;
+  .xl\:justify-start {
+    -ms-flex-pack: start;
+        justify-content: flex-start;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:inset-0 {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  .\32k\:inset-x-0 {
-    left: 0;
-    right: 0;
-  }
-  .\32k\:inset-y-0 {
-    top: 0;
-    bottom: 0;
+  .\32k\:justify-start {
+    -ms-flex-pack: start;
+        justify-content: flex-start;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:inset-0 {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  .\33k\:inset-x-0 {
-    left: 0;
-    right: 0;
-  }
-  .\33k\:inset-y-0 {
-    top: 0;
-    bottom: 0;
+  .\33k\:justify-start {
+    -ms-flex-pack: start;
+        justify-content: flex-start;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:inset-0 {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  .\34k\:inset-x-0 {
-    left: 0;
-    right: 0;
-  }
-  .\34k\:inset-y-0 {
-    top: 0;
-    bottom: 0;
+  .\34k\:justify-start {
+    -ms-flex-pack: start;
+        justify-content: flex-start;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:inset-0 {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  .\35k\:inset-x-0 {
-    left: 0;
-    right: 0;
-  }
-  .\35k\:inset-y-0 {
-    top: 0;
-    bottom: 0;
+  .\35k\:justify-start {
+    -ms-flex-pack: start;
+        justify-content: flex-start;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:inset-0 {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  .\36k\:inset-x-0 {
-    left: 0;
-    right: 0;
-  }
-  .\36k\:inset-y-0 {
-    top: 0;
-    bottom: 0;
+  .\36k\:justify-start {
+    -ms-flex-pack: start;
+        justify-content: flex-start;
   }
 }
 
 /* hover */
 /* focus */
 /* basic */
-.inset-auto {
-  top: auto;
-  right: auto;
-  bottom: auto;
-  left: auto;
-}
-
-.inset-x-auto {
-  left: auto;
-  right: auto;
-}
-
-.inset-y-auto {
-  top: auto;
-  bottom: auto;
+.justify-end {
+  -ms-flex-pack: end;
+      justify-content: flex-end;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
-  }
-  .xs\:inset-x-auto {
-    left: auto;
-    right: auto;
-  }
-  .xs\:inset-y-auto {
-    top: auto;
-    bottom: auto;
+  .xs\:justify-end {
+    -ms-flex-pack: end;
+        justify-content: flex-end;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
-  }
-  .sm\:inset-x-auto {
-    left: auto;
-    right: auto;
-  }
-  .sm\:inset-y-auto {
-    top: auto;
-    bottom: auto;
+  .sm\:justify-end {
+    -ms-flex-pack: end;
+        justify-content: flex-end;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
-  }
-  .md\:inset-x-auto {
-    left: auto;
-    right: auto;
-  }
-  .md\:inset-y-auto {
-    top: auto;
-    bottom: auto;
+  .md\:justify-end {
+    -ms-flex-pack: end;
+        justify-content: flex-end;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
-  }
-  .lg\:inset-x-auto {
-    left: auto;
-    right: auto;
-  }
-  .lg\:inset-y-auto {
-    top: auto;
-    bottom: auto;
+  .lg\:justify-end {
+    -ms-flex-pack: end;
+        justify-content: flex-end;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
-  }
-  .xl\:inset-x-auto {
-    left: auto;
-    right: auto;
-  }
-  .xl\:inset-y-auto {
-    top: auto;
-    bottom: auto;
+  .xl\:justify-end {
+    -ms-flex-pack: end;
+        justify-content: flex-end;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
-  }
-  .\32k\:inset-x-auto {
-    left: auto;
-    right: auto;
-  }
-  .\32k\:inset-y-auto {
-    top: auto;
-    bottom: auto;
+  .\32k\:justify-end {
+    -ms-flex-pack: end;
+        justify-content: flex-end;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
-  }
-  .\33k\:inset-x-auto {
-    left: auto;
-    right: auto;
-  }
-  .\33k\:inset-y-auto {
-    top: auto;
-    bottom: auto;
+  .\33k\:justify-end {
+    -ms-flex-pack: end;
+        justify-content: flex-end;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
-  }
-  .\34k\:inset-x-auto {
-    left: auto;
-    right: auto;
-  }
-  .\34k\:inset-y-auto {
-    top: auto;
-    bottom: auto;
+  .\34k\:justify-end {
+    -ms-flex-pack: end;
+        justify-content: flex-end;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
-  }
-  .\35k\:inset-x-auto {
-    left: auto;
-    right: auto;
-  }
-  .\35k\:inset-y-auto {
-    top: auto;
-    bottom: auto;
+  .\35k\:justify-end {
+    -ms-flex-pack: end;
+        justify-content: flex-end;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
+  .\36k\:justify-end {
+    -ms-flex-pack: end;
+        justify-content: flex-end;
   }
-  .\36k\:inset-x-auto {
-    left: auto;
-    right: auto;
+}
+
+/* hover */
+/* focus */
+/* basic */
+.justify-center {
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+/* responsive */
+@media (min-width: 320px) {
+  .xs\:justify-center {
+    -ms-flex-pack: center;
+        justify-content: center;
   }
-  .\36k\:inset-y-auto {
-    top: auto;
-    bottom: auto;
+}
+
+@media (min-width: 640px) {
+  .sm\:justify-center {
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:justify-center {
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:justify-center {
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:justify-center {
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32k\:justify-center {
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+}
+
+@media (min-width: 2560px) {
+  .\33k\:justify-center {
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+}
+
+@media (min-width: 3840px) {
+  .\34k\:justify-center {
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+}
+
+@media (min-width: 6400px) {
+  .\35k\:justify-center {
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+}
+
+@media (min-width: 7680px) {
+  .\36k\:justify-center {
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+}
+
+/* hover */
+/* focus */
+/* basic */
+.justify-between {
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+/* responsive */
+@media (min-width: 320px) {
+  .xs\:justify-between {
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:justify-between {
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:justify-between {
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:justify-between {
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:justify-between {
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32k\:justify-between {
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+  }
+}
+
+@media (min-width: 2560px) {
+  .\33k\:justify-between {
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+  }
+}
+
+@media (min-width: 3840px) {
+  .\34k\:justify-between {
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+  }
+}
+
+@media (min-width: 6400px) {
+  .\35k\:justify-between {
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+  }
+}
+
+@media (min-width: 7680px) {
+  .\36k\:justify-between {
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+  }
+}
+
+/* hover */
+/* focus */
+/* basic */
+.justify-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+/* responsive */
+@media (min-width: 320px) {
+  .xs\:justify-around {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:justify-around {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:justify-around {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:justify-around {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:justify-around {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32k\:justify-around {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media (min-width: 2560px) {
+  .\33k\:justify-around {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media (min-width: 3840px) {
+  .\34k\:justify-around {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media (min-width: 6400px) {
+  .\35k\:justify-around {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media (min-width: 7680px) {
+  .\36k\:justify-around {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 

@@ -224,3 +224,12 @@ $font-weight:
 $inset:
   (0, 0),
   (auto, auto);
+
+/* justify content */
+
+$justify-content:
+  (start, flex-start),
+  (end, flex-end),
+  (center, center),
+  (between, space-between),
+  (around, space-around);

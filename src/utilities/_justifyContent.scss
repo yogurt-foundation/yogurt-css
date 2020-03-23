@@ -1,0 +1,36 @@
+/**
+ * @module: _justifyContent.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin justifyContent($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}justify-#{$modifier}#{$pseudo} {
+    justify-content: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $justify-content {
+
+  /* basic */
+
+  @include justifyContent("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include justifyContent(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}
