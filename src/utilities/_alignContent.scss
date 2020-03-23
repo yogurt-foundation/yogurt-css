@@ -16,21 +16,21 @@
 /* default */
 
 @each $modifier, $value in $align-content {
-
   /* basic */
-
   @include alignContent("", "", ".", $modifier, $value)
+  /* hover */
+  /* focus */
+  /* active */
 
   /* responsive */
-
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
       @include alignContent(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      /* focus */
+      /* active */
     }
   }
-
-  /* hover */
-
-  /* focus */
-
 }

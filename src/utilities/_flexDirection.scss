@@ -16,23 +16,23 @@
 /* default */
 
 @each $modifier, $value in $flex-direction {
-
   /* basic */
-
   @include flexDirection("", "", ".", $modifier, $value)
+  /* hover */
+  @include flexDirection(".hover\\:", ":hover", "", $modifier, $value)
+  /* focus */
+  /* active */
 
   /* responsive */
-
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
       @include flexDirection(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      @include flexDirection(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      /* focus */
+      /* active */
     }
   }
-
-  /* hover */
-
-  @include flexDirection(".hover\\:", ":hover", "", $modifier, $value)
-
-  /* focus */
-
 }

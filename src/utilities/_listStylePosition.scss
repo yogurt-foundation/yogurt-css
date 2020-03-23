@@ -17,19 +17,20 @@
 }
 
 /* default */
-
 /* basic */
-
 @include listStylePosition("", ".")
+/* hover */
+/* focus */
+/* active */
 
 /* responsive */
-
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
+    /* default */
+    /* basic */
     @include listStylePosition(".#{$screen}\\:", "")
+    /* hover */
+    /* focus */
+    /* active */
   }
 }
-
-/* hover */
-
-/* focus */

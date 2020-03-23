@@ -16,21 +16,21 @@
 /* default */
 
 @each $modifier, $value in $line-height {
-
   /* basic */
-
   @include lineHeight("", "", ".", $modifier, $value)
+  /* hover */
+  /* focus */
+  /* active */
 
   /* responsive */
-
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
       @include lineHeight(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      /* focus */
+      /* active */
     }
   }
-
-  /* hover */
-
-  /* focus */
-
 }

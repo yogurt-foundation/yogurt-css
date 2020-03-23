@@ -16,25 +16,25 @@
 /* default */
 
 @each $modifier, $value in $font-weight {
-
   /* basic */
-
   @include fontWeight("", "", ".", $modifier, $value)
+  /* hover */
+  @include fontWeight(".hover\\:", ":hover", "", $modifier, $value)
+  /* focus */
+  @include fontWeight(".focus\\:", ":focus", "", $modifier, $value)
+  /* active */
 
   /* responsive */
-
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
       @include fontWeight(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      @include fontWeight(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      /* focus */
+      @include fontWeight(".#{$screen}\\:focus\\:", ":focus", "", $modifier, $value)
+      /* active */
     }
   }
-
-  /* hover */
-
-  @include fontWeight(".hover\\:", ":hover", "", $modifier, $value)
-
-  /* focus */
-
-  @include fontWeight(".focus\\:", ":focus", "", $modifier, $value)
-
 }

@@ -20,22 +20,22 @@
 }
 
 /* default */
-
 @include flexGrowDefault("", ".")
-
 /* basic */
-
 @include flexGrow("", "", ".")
+/* hover */
+/* focus */
+/* active */
 
 /* responsive */
-
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
+    /* default */
     @include flexGrowDefault(".#{$screen}\\:", "")
+    /* basic */
     @include flexGrow(".#{$screen}\\:", "", "")
+    /* hover */
+    /* focus */
+    /* active */
   }
 }
-
-/* hover */
-
-/* focus */

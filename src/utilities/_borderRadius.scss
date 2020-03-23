@@ -29,31 +29,37 @@
   }
 }
 
-/* default */
-
-.rounded {
-  border-radius: 0.25rem
+@mixin borderRadiusDefault($prefix, $class, $pseudo) {
+  #{$prefix}#{$class}rounded#{$pseudo} {
+    border-radius: 0.25rem
+  }
 }
 
+/* default */
+@include borderRadiusDefault("", ".", "")
+
 @each $modifier, $value in $border-radius {
-
   /* basic */
-
   @include borderRadius("", "", ".", $modifier, $value)
+  /* hover */
+  @include borderRadiusDefault(".hover\\:", "", ":hover")
+  @include borderRadius(".hover\\:", ":hover", "", $modifier, $value)
+  /* focus */
+  /* active */
 
   /* responsive */
-
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+      /* default */
+      @include borderRadiusDefault(".#{$screen}\\:", "", "")
+      /* basic */
       @include borderRadius(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      @include borderRadiusDefault(".#{$screen}\\:", "", ":hover")
+      @include borderRadius(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      /* focus */
+      /* active */
     }
   }
-
-  /* hover */
-
-  @include borderRadius(".hover\\:", ":hover", "", $modifier, $value)
-
-  /* focus */
-
 }
 

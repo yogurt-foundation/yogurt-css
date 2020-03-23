@@ -25,31 +25,37 @@
   }
 }
 
-/* default */
-
-.border {
-  border-width: 0.0625em
+@mixin borderWidthDefault($prefix, $class, $pseudo) {
+  #{$prefix}#{$class}border#{$pseudo} {
+    border-width: 0.0625em
+  }
 }
 
+/* default */
+@include borderWidthDefault("", ".", "")
+
 @each $modifier, $value in $border-width {
-
   /* basic */
-
   @include borderWidth("", "", ".", $modifier, $value)
+  /* hover */
+  @include borderWidthDefault(".hover\\:", "", ":hover")
+  @include borderWidth(".hover\\:", ":hover", "", $modifier, $value)
+  /* focus */
+  /* active */
 
   /* responsive */
-
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+      /* default */
+      @include borderWidthDefault(".#{$screen}\\:", "", "")
+      /* basic */
       @include borderWidth(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      @include borderWidthDefault(".#{$screen}\\:hover\\:", "", ":hover")
+      @include borderWidth(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      /* focus */
+      /* active */
     }
   }
-
-  /* hover */
-
-  @include borderWidth(".hover\\:", ":hover", "", $modifier, $value)
-
-  /* focus */
-
 }
 

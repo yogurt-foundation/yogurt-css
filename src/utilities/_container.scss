@@ -20,13 +20,17 @@
 }
 
 /* default */
-
 @include containerDefault("", ".")
 
 /* responsive */
-
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
+    /* default */
+    @include containerDefault(".#{$screen}\\:", "")
+    /* basic */
     @include container(".#{$screen}\\:", "", "", "", $size)
+    /* hover */
+    /* focus */
+    /* active */
   }
 }

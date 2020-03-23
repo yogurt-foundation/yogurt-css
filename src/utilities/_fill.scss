@@ -16,17 +16,19 @@
 /* default */
 
 /* basic */
-
 @include fill("", "", ".")
+/* hover */
+/* focus */
+/* active */
 
 /* responsive */
-
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
+    /* default */
+    /* basic */
     @include fill(".#{$screen}\\:", "", "")
+    /* hover */
+    /* focus */
+    /* active */
   }
 }
-
-/* hover */
-
-/* focus */

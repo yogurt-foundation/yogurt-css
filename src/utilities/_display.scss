@@ -16,23 +16,23 @@
 /* default */
 
 @each $modifier, $value in $display {
-
   /* basic */
-
   @include display("", "", ".", $modifier, $value)
+  /* hover */
+  @include display(".hover\\:", ":hover", "", $modifier, $value)
+  /* focus */
+  /* active */
 
   /* responsive */
-
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
       @include display(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      @include display(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      /* focus */
+      /* active */
     }
   }
-
-  /* hover */
-
-  @include display(".hover\\:", ":hover", ".", $modifier, $value)
-
-  /* focus */
-
 }

@@ -22,26 +22,25 @@
 }
 
 /* default */
-
 @include floatDefault("", ".")
 
 @each $modifier, $value in $float {
-
   /* basic */
-
   @include float("", "", ".", $modifier, $value)
+  /* hover */
+  /* focus */
+  /* active */
 
   /* responsive */
-
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+      /* default */
       @include floatDefault(".#{$screen}\\:", "")
+      /* basic */
       @include float(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      /* focus */
+      /* active */
     }
   }
-
-  /* hover */
-
-  /* focus */
-
 }

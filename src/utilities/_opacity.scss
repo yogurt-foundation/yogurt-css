@@ -26,6 +26,7 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+      /* default */
       /* basic */
       @include opacity(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */

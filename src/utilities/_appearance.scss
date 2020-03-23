@@ -14,17 +14,18 @@
 }
 
 /* default */
-
 @include appearance("", ".")
+/* hover */
+/* focus */
+/* active */
 
 /* responsive */
-
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
+    /* default */
     @include appearance(".#{$screen}\\:", "")
+    /* hover */
+    /* focus */
+    /* active */
   }
 }
-
-/* hover */
-
-/* focus */

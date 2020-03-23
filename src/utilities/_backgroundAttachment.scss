@@ -16,24 +16,24 @@
 /* default */
 
 @each $modifier, $value in $background-attachment {
-
   /* basic */
-
   @include backgroundAttachment("", "", ".", $modifier, $value)
+  /* hover */
+  @include backgroundAttachment(".hover\\:", ":hover", "", $modifier, $value)
+  /* focus */
+  /* active */
 
   /* responsive */
-
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
       @include backgroundAttachment(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      @include backgroundAttachment(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      /* focus */
+      /* active */
     }
   }
-
-  /* hover */
-
-  @include backgroundAttachment(".hover\\:", ":hover", "", $modifier, $value)
-
-  /* focus */
-
 }
 

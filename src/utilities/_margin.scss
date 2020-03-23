@@ -36,23 +36,23 @@
 /* default */
 
 @each $modifier, $value in $spacing {
-
   /* basic */
-
   @include margin("", "", ".", $modifier, $value, "")
   @include margin("", "", ".", $modifier, $value, "-") // negative
+  /* hover */
+  /* focus */
+  /* active */
 
   /* responsive */
-
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
       @include margin(".#{$screen}\\:", "", "", $modifier, $value, "")
       @include margin(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
+      /* hover */
+      /* focus */
+      /* active */
     }
   }
-
-  /* hover */
-
-  /* focus */
-
 }

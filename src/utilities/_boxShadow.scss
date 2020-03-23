@@ -20,33 +20,34 @@
 }
 
 /* default */
-
 @include boxShadowDefault("", ".", "")
 
 @each $modifier, $value in $box-shadow {
-
   /* basic */
-
   @include boxShadow("", "", ".", $modifier, $value)
-
-  /* responsive */
-
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
-      @include boxShadowDefault(".#{$screen}\\:", "", "")
-      @include boxShadow(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-  }
-
   /* hover */
-
   @include boxShadowDefault(".hover\\:", "", ":hover")
   @include boxShadow(".hover\\:", ":hover", "", $modifier, $value)
-
   /* focus */
-
   @include boxShadowDefault(".focus\\:", "", ":focus")
   @include boxShadow(".focus\\:", ":focus", "", $modifier, $value)
+  /* active */
 
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* default */
+      @include boxShadowDefault(".#{$screen}\\:", "", "")
+      /* basic */
+      @include boxShadow(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      @include boxShadowDefault(".#{$screen}\\:hover\\:", "", ":hover")
+      @include boxShadow(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      /* focus */
+      @include boxShadowDefault(".#{$screen}\\:focus\\:", "", ":focus")
+      @include boxShadow(".#{$screen}\\:focus\\:", ":focus", "", $modifier, $value)
+      /* active */
+    }
+  }
 }
 

@@ -19,19 +19,20 @@
 }
 
 /* default */
-
 /* basic */
-
 @include fontSmoothing("", ".")
+/* hover */
+/* focus */
+/* active */
 
 /* responsive */
-
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
+    /* default */
+    /* basic */
     @include fontSmoothing(".#{$screen}\\:", "")
+    /* hover */
+    /* focus */
+    /* active */
   }
 }
-
-/* hover */
-
-/* focus */
