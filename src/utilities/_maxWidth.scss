@@ -1,0 +1,36 @@
+/**
+ * @module: _maxWidth.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin maxWidth($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}max-w-#{$modifier}#{$pseudo} {
+    max-width: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $max-width {
+
+  /* basic */
+
+  @include maxWidth("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include maxWidth(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}
