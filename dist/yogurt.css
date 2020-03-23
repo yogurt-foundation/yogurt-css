@@ -43,8 +43,9 @@
 /* float */
 /* font family */
 /* font size */
+/* font weight */
 /**
- * @module: _fontStyle.scss
+ * @module: _fontWeight.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -53,102 +54,612 @@
  */
 /* default */
 /* basic */
-.italic {
-  font-style: italic;
-}
-
-.not-italic {
-  font-style: normal;
+.font-hairline {
+  font-size: 100;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:italic {
-    font-style: italic;
-  }
-  .xs\:not-italic {
-    font-style: normal;
+  .xs\:font-hairline {
+    font-size: 100;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:italic {
-    font-style: italic;
-  }
-  .sm\:not-italic {
-    font-style: normal;
+  .sm\:font-hairline {
+    font-size: 100;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:italic {
-    font-style: italic;
-  }
-  .md\:not-italic {
-    font-style: normal;
+  .md\:font-hairline {
+    font-size: 100;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:italic {
-    font-style: italic;
-  }
-  .lg\:not-italic {
-    font-style: normal;
+  .lg\:font-hairline {
+    font-size: 100;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:italic {
-    font-style: italic;
-  }
-  .xl\:not-italic {
-    font-style: normal;
+  .xl\:font-hairline {
+    font-size: 100;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:italic {
-    font-style: italic;
-  }
-  .\32k\:not-italic {
-    font-style: normal;
+  .\32k\:font-hairline {
+    font-size: 100;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:italic {
-    font-style: italic;
-  }
-  .\33k\:not-italic {
-    font-style: normal;
+  .\33k\:font-hairline {
+    font-size: 100;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:italic {
-    font-style: italic;
-  }
-  .\34k\:not-italic {
-    font-style: normal;
+  .\34k\:font-hairline {
+    font-size: 100;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:italic {
-    font-style: italic;
-  }
-  .\35k\:not-italic {
-    font-style: normal;
+  .\35k\:font-hairline {
+    font-size: 100;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:italic {
-    font-style: italic;
+  .\36k\:font-hairline {
+    font-size: 100;
   }
-  .\36k\:not-italic {
-    font-style: normal;
+}
+
+/* hover */
+/* focus */
+/* basic */
+.font-thin {
+  font-size: 200;
+}
+
+/* responsive */
+@media (min-width: 320px) {
+  .xs\:font-thin {
+    font-size: 200;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:font-thin {
+    font-size: 200;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:font-thin {
+    font-size: 200;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:font-thin {
+    font-size: 200;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:font-thin {
+    font-size: 200;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32k\:font-thin {
+    font-size: 200;
+  }
+}
+
+@media (min-width: 2560px) {
+  .\33k\:font-thin {
+    font-size: 200;
+  }
+}
+
+@media (min-width: 3840px) {
+  .\34k\:font-thin {
+    font-size: 200;
+  }
+}
+
+@media (min-width: 6400px) {
+  .\35k\:font-thin {
+    font-size: 200;
+  }
+}
+
+@media (min-width: 7680px) {
+  .\36k\:font-thin {
+    font-size: 200;
+  }
+}
+
+/* hover */
+/* focus */
+/* basic */
+.font-light {
+  font-size: 300;
+}
+
+/* responsive */
+@media (min-width: 320px) {
+  .xs\:font-light {
+    font-size: 300;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:font-light {
+    font-size: 300;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:font-light {
+    font-size: 300;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:font-light {
+    font-size: 300;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:font-light {
+    font-size: 300;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32k\:font-light {
+    font-size: 300;
+  }
+}
+
+@media (min-width: 2560px) {
+  .\33k\:font-light {
+    font-size: 300;
+  }
+}
+
+@media (min-width: 3840px) {
+  .\34k\:font-light {
+    font-size: 300;
+  }
+}
+
+@media (min-width: 6400px) {
+  .\35k\:font-light {
+    font-size: 300;
+  }
+}
+
+@media (min-width: 7680px) {
+  .\36k\:font-light {
+    font-size: 300;
+  }
+}
+
+/* hover */
+/* focus */
+/* basic */
+.font-normal {
+  font-size: 400;
+}
+
+/* responsive */
+@media (min-width: 320px) {
+  .xs\:font-normal {
+    font-size: 400;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:font-normal {
+    font-size: 400;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:font-normal {
+    font-size: 400;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:font-normal {
+    font-size: 400;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:font-normal {
+    font-size: 400;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32k\:font-normal {
+    font-size: 400;
+  }
+}
+
+@media (min-width: 2560px) {
+  .\33k\:font-normal {
+    font-size: 400;
+  }
+}
+
+@media (min-width: 3840px) {
+  .\34k\:font-normal {
+    font-size: 400;
+  }
+}
+
+@media (min-width: 6400px) {
+  .\35k\:font-normal {
+    font-size: 400;
+  }
+}
+
+@media (min-width: 7680px) {
+  .\36k\:font-normal {
+    font-size: 400;
+  }
+}
+
+/* hover */
+/* focus */
+/* basic */
+.font-medium {
+  font-size: 500;
+}
+
+/* responsive */
+@media (min-width: 320px) {
+  .xs\:font-medium {
+    font-size: 500;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:font-medium {
+    font-size: 500;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:font-medium {
+    font-size: 500;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:font-medium {
+    font-size: 500;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:font-medium {
+    font-size: 500;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32k\:font-medium {
+    font-size: 500;
+  }
+}
+
+@media (min-width: 2560px) {
+  .\33k\:font-medium {
+    font-size: 500;
+  }
+}
+
+@media (min-width: 3840px) {
+  .\34k\:font-medium {
+    font-size: 500;
+  }
+}
+
+@media (min-width: 6400px) {
+  .\35k\:font-medium {
+    font-size: 500;
+  }
+}
+
+@media (min-width: 7680px) {
+  .\36k\:font-medium {
+    font-size: 500;
+  }
+}
+
+/* hover */
+/* focus */
+/* basic */
+.font-semibold {
+  font-size: 600;
+}
+
+/* responsive */
+@media (min-width: 320px) {
+  .xs\:font-semibold {
+    font-size: 600;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:font-semibold {
+    font-size: 600;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:font-semibold {
+    font-size: 600;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:font-semibold {
+    font-size: 600;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:font-semibold {
+    font-size: 600;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32k\:font-semibold {
+    font-size: 600;
+  }
+}
+
+@media (min-width: 2560px) {
+  .\33k\:font-semibold {
+    font-size: 600;
+  }
+}
+
+@media (min-width: 3840px) {
+  .\34k\:font-semibold {
+    font-size: 600;
+  }
+}
+
+@media (min-width: 6400px) {
+  .\35k\:font-semibold {
+    font-size: 600;
+  }
+}
+
+@media (min-width: 7680px) {
+  .\36k\:font-semibold {
+    font-size: 600;
+  }
+}
+
+/* hover */
+/* focus */
+/* basic */
+.font-bold {
+  font-size: 700;
+}
+
+/* responsive */
+@media (min-width: 320px) {
+  .xs\:font-bold {
+    font-size: 700;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:font-bold {
+    font-size: 700;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:font-bold {
+    font-size: 700;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:font-bold {
+    font-size: 700;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:font-bold {
+    font-size: 700;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32k\:font-bold {
+    font-size: 700;
+  }
+}
+
+@media (min-width: 2560px) {
+  .\33k\:font-bold {
+    font-size: 700;
+  }
+}
+
+@media (min-width: 3840px) {
+  .\34k\:font-bold {
+    font-size: 700;
+  }
+}
+
+@media (min-width: 6400px) {
+  .\35k\:font-bold {
+    font-size: 700;
+  }
+}
+
+@media (min-width: 7680px) {
+  .\36k\:font-bold {
+    font-size: 700;
+  }
+}
+
+/* hover */
+/* focus */
+/* basic */
+.font-extrabold {
+  font-size: 800;
+}
+
+/* responsive */
+@media (min-width: 320px) {
+  .xs\:font-extrabold {
+    font-size: 800;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:font-extrabold {
+    font-size: 800;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:font-extrabold {
+    font-size: 800;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:font-extrabold {
+    font-size: 800;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:font-extrabold {
+    font-size: 800;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32k\:font-extrabold {
+    font-size: 800;
+  }
+}
+
+@media (min-width: 2560px) {
+  .\33k\:font-extrabold {
+    font-size: 800;
+  }
+}
+
+@media (min-width: 3840px) {
+  .\34k\:font-extrabold {
+    font-size: 800;
+  }
+}
+
+@media (min-width: 6400px) {
+  .\35k\:font-extrabold {
+    font-size: 800;
+  }
+}
+
+@media (min-width: 7680px) {
+  .\36k\:font-extrabold {
+    font-size: 800;
+  }
+}
+
+/* hover */
+/* focus */
+/* basic */
+.font-black {
+  font-size: 900;
+}
+
+/* responsive */
+@media (min-width: 320px) {
+  .xs\:font-black {
+    font-size: 900;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:font-black {
+    font-size: 900;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:font-black {
+    font-size: 900;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:font-black {
+    font-size: 900;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:font-black {
+    font-size: 900;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32k\:font-black {
+    font-size: 900;
+  }
+}
+
+@media (min-width: 2560px) {
+  .\33k\:font-black {
+    font-size: 900;
+  }
+}
+
+@media (min-width: 3840px) {
+  .\34k\:font-black {
+    font-size: 900;
+  }
+}
+
+@media (min-width: 6400px) {
+  .\35k\:font-black {
+    font-size: 900;
+  }
+}
+
+@media (min-width: 7680px) {
+  .\36k\:font-black {
+    font-size: 900;
   }
 }
 

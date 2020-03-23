@@ -205,3 +205,16 @@ $font-size:
   (4xl, 2.25rem), // (new) 4k
   (5xl, 3rem), // (new) 5k
   (6xl, 4rem); // (new) 6k
+
+/* font weight */
+
+$font-weight:
+  (hairline, 100),
+  (thin, 200),
+  (light, 300),
+  (normal, 400),
+  (medium, 500),
+  (semibold, 600),
+  (bold, 700),
+  (extrabold, 800),
+  (black, 900);
