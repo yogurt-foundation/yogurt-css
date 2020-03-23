@@ -184,3 +184,10 @@ $float:
   (right, right),
   (none, none);
 
+/* font family */
+
+$font-family:
+  (default, (-apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif)),
+  (sans, (-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji)),
+  (serif, (Georgia, Cambria, Times New Roman, Times, serif)),
+  (mono, (Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace));

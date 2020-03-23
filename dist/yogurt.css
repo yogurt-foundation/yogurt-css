@@ -41,8 +41,9 @@
 /* flex direction */
 /* flex wrap */
 /* float */
+/* font family */
 /**
- * @module: _float.scss
+ * @module: _fontFamily.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -50,211 +51,273 @@
  * @license: MIT
  */
 /* default */
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* basic */
-.float-left {
-  float: left;
+.font-default {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:float-left {
-    float: left;
+  .xs\:font-default {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:float-left {
-    float: left;
+  .sm\:font-default {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:float-left {
-    float: left;
+  .md\:font-default {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:float-left {
-    float: left;
+  .lg\:font-default {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:float-left {
-    float: left;
+  .xl\:font-default {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:float-left {
-    float: left;
+  .\32k\:font-default {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:float-left {
-    float: left;
+  .\33k\:font-default {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:float-left {
-    float: left;
+  .\34k\:font-default {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:float-left {
-    float: left;
+  .\35k\:font-default {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:float-left {
-    float: left;
+  .\36k\:font-default {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
   }
 }
 
 /* hover */
 /* focus */
 /* basic */
-.float-right {
-  float: right;
+.font-sans {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:float-right {
-    float: right;
+  .xs\:font-sans {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:float-right {
-    float: right;
+  .sm\:font-sans {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:float-right {
-    float: right;
+  .md\:font-sans {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:float-right {
-    float: right;
+  .lg\:font-sans {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:float-right {
-    float: right;
+  .xl\:font-sans {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:float-right {
-    float: right;
+  .\32k\:font-sans {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:float-right {
-    float: right;
+  .\33k\:font-sans {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:float-right {
-    float: right;
+  .\34k\:font-sans {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:float-right {
-    float: right;
+  .\35k\:font-sans {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:float-right {
-    float: right;
+  .\36k\:font-sans {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   }
 }
 
 /* hover */
 /* focus */
 /* basic */
-.float-none {
-  float: none;
+.font-serif {
+  font-family: Georgia, Cambria, Times New Roman, Times, serif;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:float-none {
-    float: none;
+  .xs\:font-serif {
+    font-family: Georgia, Cambria, Times New Roman, Times, serif;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:float-none {
-    float: none;
+  .sm\:font-serif {
+    font-family: Georgia, Cambria, Times New Roman, Times, serif;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:float-none {
-    float: none;
+  .md\:font-serif {
+    font-family: Georgia, Cambria, Times New Roman, Times, serif;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:float-none {
-    float: none;
+  .lg\:font-serif {
+    font-family: Georgia, Cambria, Times New Roman, Times, serif;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:float-none {
-    float: none;
+  .xl\:font-serif {
+    font-family: Georgia, Cambria, Times New Roman, Times, serif;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:float-none {
-    float: none;
+  .\32k\:font-serif {
+    font-family: Georgia, Cambria, Times New Roman, Times, serif;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:float-none {
-    float: none;
+  .\33k\:font-serif {
+    font-family: Georgia, Cambria, Times New Roman, Times, serif;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:float-none {
-    float: none;
+  .\34k\:font-serif {
+    font-family: Georgia, Cambria, Times New Roman, Times, serif;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:float-none {
-    float: none;
+  .\35k\:font-serif {
+    font-family: Georgia, Cambria, Times New Roman, Times, serif;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:float-none {
-    float: none;
+  .\36k\:font-serif {
+    font-family: Georgia, Cambria, Times New Roman, Times, serif;
+  }
+}
+
+/* hover */
+/* focus */
+/* basic */
+.font-mono {
+  font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+}
+
+/* responsive */
+@media (min-width: 320px) {
+  .xs\:font-mono {
+    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:font-mono {
+    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:font-mono {
+    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:font-mono {
+    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:font-mono {
+    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32k\:font-mono {
+    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  }
+}
+
+@media (min-width: 2560px) {
+  .\33k\:font-mono {
+    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  }
+}
+
+@media (min-width: 3840px) {
+  .\34k\:font-mono {
+    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  }
+}
+
+@media (min-width: 6400px) {
+  .\35k\:font-mono {
+    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  }
+}
+
+@media (min-width: 7680px) {
+  .\36k\:font-mono {
+    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 }
 

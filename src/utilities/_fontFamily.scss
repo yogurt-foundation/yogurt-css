@@ -1,0 +1,36 @@
+/**
+ * @module: _fontFamily.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin fontFamily($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}font-#{$modifier}#{$pseudo} {
+    font-family: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $font-family {
+
+  /* basic */
+
+  @include fontFamily("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include fontFamily(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}
