@@ -1,0 +1,36 @@
+/**
+ * @module: _minWidth.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin minWidth($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}min-w-#{$modifier}#{$pseudo} {
+    min-width: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $min-width {
+
+  /* basic */
+
+  @include minWidth("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include minWidth(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}

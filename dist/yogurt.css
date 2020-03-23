@@ -53,8 +53,9 @@
 /* max height */
 /* max width */
 /* min height */
+/* min width */
 /**
- * @module: _minHeight.scss
+ * @module: _minWidth.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -63,204 +64,136 @@
  */
 /* default */
 /* basic */
-.min-h-0 {
-  min-height: 0;
+.min-w-0 {
+  min-width: 0;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:min-h-0 {
-    min-height: 0;
+  .xs\:min-w-0 {
+    min-width: 0;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:min-h-0 {
-    min-height: 0;
+  .sm\:min-w-0 {
+    min-width: 0;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:min-h-0 {
-    min-height: 0;
+  .md\:min-w-0 {
+    min-width: 0;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:min-h-0 {
-    min-height: 0;
+  .lg\:min-w-0 {
+    min-width: 0;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:min-h-0 {
-    min-height: 0;
+  .xl\:min-w-0 {
+    min-width: 0;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:min-h-0 {
-    min-height: 0;
+  .\32k\:min-w-0 {
+    min-width: 0;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:min-h-0 {
-    min-height: 0;
+  .\33k\:min-w-0 {
+    min-width: 0;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:min-h-0 {
-    min-height: 0;
+  .\34k\:min-w-0 {
+    min-width: 0;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:min-h-0 {
-    min-height: 0;
+  .\35k\:min-w-0 {
+    min-width: 0;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:min-h-0 {
-    min-height: 0;
+  .\36k\:min-w-0 {
+    min-width: 0;
   }
 }
 
 /* hover */
 /* focus */
 /* basic */
-.min-h-full {
-  min-height: 100%;
+.min-w-full {
+  min-width: 100%;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:min-h-full {
-    min-height: 100%;
+  .xs\:min-w-full {
+    min-width: 100%;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:min-h-full {
-    min-height: 100%;
+  .sm\:min-w-full {
+    min-width: 100%;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:min-h-full {
-    min-height: 100%;
+  .md\:min-w-full {
+    min-width: 100%;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:min-h-full {
-    min-height: 100%;
+  .lg\:min-w-full {
+    min-width: 100%;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:min-h-full {
-    min-height: 100%;
+  .xl\:min-w-full {
+    min-width: 100%;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:min-h-full {
-    min-height: 100%;
+  .\32k\:min-w-full {
+    min-width: 100%;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:min-h-full {
-    min-height: 100%;
+  .\33k\:min-w-full {
+    min-width: 100%;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:min-h-full {
-    min-height: 100%;
+  .\34k\:min-w-full {
+    min-width: 100%;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:min-h-full {
-    min-height: 100%;
+  .\35k\:min-w-full {
+    min-width: 100%;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:min-h-full {
-    min-height: 100%;
-  }
-}
-
-/* hover */
-/* focus */
-/* basic */
-.min-h-screen {
-  min-height: 100vh;
-}
-
-/* responsive */
-@media (min-width: 320px) {
-  .xs\:min-h-screen {
-    min-height: 100vh;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:min-h-screen {
-    min-height: 100vh;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:min-h-screen {
-    min-height: 100vh;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:min-h-screen {
-    min-height: 100vh;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:min-h-screen {
-    min-height: 100vh;
-  }
-}
-
-@media (min-width: 1920px) {
-  .\32k\:min-h-screen {
-    min-height: 100vh;
-  }
-}
-
-@media (min-width: 2560px) {
-  .\33k\:min-h-screen {
-    min-height: 100vh;
-  }
-}
-
-@media (min-width: 3840px) {
-  .\34k\:min-h-screen {
-    min-height: 100vh;
-  }
-}
-
-@media (min-width: 6400px) {
-  .\35k\:min-h-screen {
-    min-height: 100vh;
-  }
-}
-
-@media (min-width: 7680px) {
-  .\36k\:min-h-screen {
-    min-height: 100vh;
+  .\36k\:min-w-full {
+    min-width: 100%;
   }
 }
 
