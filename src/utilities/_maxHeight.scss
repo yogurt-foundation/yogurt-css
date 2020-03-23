@@ -1,0 +1,36 @@
+/**
+ * @module: _maxHeight.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin maxHeight($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}max-h-#{$modifier}#{$pseudo} {
+    max-height: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $max-height {
+
+  /* basic */
+
+  @include maxHeight("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include maxHeight(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}

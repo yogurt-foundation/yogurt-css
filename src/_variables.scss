@@ -284,4 +284,8 @@ $list-style-type:
   (disc, disc),
   (decimal, decimal);
 
+/* max height */
 
+$max-height:
+  (full, 100%),
+  (screen, 100vh);
