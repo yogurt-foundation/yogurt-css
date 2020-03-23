@@ -1,5 +1,5 @@
 /**
- * @module: _fontSize.scss
+ * @module: _fontSmoothing.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -7,7 +7,7 @@
  * @license: MIT
  */
 
-@mixin fontSize($prefix, $class) {
+@mixin fontSmoothing($prefix, $class) {
   #{$prefix}#{$class}antialiased {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
@@ -22,13 +22,13 @@
 
 /* basic */
 
-@include fontSize("", ".")
+@include fontSmoothing("", ".")
 
 /* responsive */
 
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
-    @include fontSize(".#{$screen}\\:", "")
+    @include fontSmoothing(".#{$screen}\\:", "")
   }
 }
 
