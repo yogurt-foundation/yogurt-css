@@ -27,7 +27,7 @@
 - **(OK)** float ~ (responsive)
 - **(OK)** fontFamily ~ (responsive)
 - **(OK)** fontSize ~ (responsive)
-- fontSmoothing ~ (responsive)
+- **(OK)** fontSmoothing ~ (responsive)
 - fontStyle ~ (responsive)
 - fontWeight ~ (responsive) (hover) (focus)
 - height ~ (responsive) (hover)

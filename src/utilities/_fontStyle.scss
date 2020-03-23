@@ -1,0 +1,35 @@
+/**
+ * @module: _fontStyle.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin fontStyle($prefix, $class) {
+  #{$prefix}#{$class}italic {
+    font-style: italic;
+  }
+  #{$prefix}#{$class}not-italic {
+    font-style: normal;
+  }
+}
+
+/* default */
+
+/* basic */
+
+@include fontStyle("", ".")
+
+/* responsive */
+
+@each $screen, $size in $screens {
+  @media (min-width: #{$size}) {
+    @include fontStyle(".#{$screen}\\:", "")
+  }
+}
+
+/* hover */
+
+/* focus */
