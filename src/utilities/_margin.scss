@@ -1,0 +1,58 @@
+/**
+ * @module: _margin.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin margin($prefix, $pseudo, $class, $modifier, $value, $negative) {
+  #{$prefix}#{$class}#{$negative}m-#{$modifier}#{$pseudo}{
+    margin: #{$negative}#{$value};
+  }
+  #{$prefix}#{$class}#{$negative}my-#{$modifier}#{$pseudo}{
+    margin-top: #{$negative}#{$value};
+    margin-bottom: #{$negative}#{$value}
+  }
+  #{$prefix}#{$class}#{$negative}mx-#{$modifier}#{$pseudo}{
+    margin-left: #{$negative}#{$value};
+    margin-right: #{$negative}#{$value}
+  }
+  #{$prefix}#{$class}#{$negative}mt-#{$modifier}#{$pseudo}{
+    margin-top: #{$negative}#{$value}
+  }
+  #{$prefix}#{$class}#{$negative}mb-#{$modifier}#{$pseudo}{
+    margin-bottom: #{$negative}#{$value}
+  }
+  #{$prefix}#{$class}#{$negative}ml-#{$modifier}#{$pseudo}{
+    margin-left: #{$negative}#{$value}
+  }
+  #{$prefix}#{$class}#{$negative}mr-#{$modifier}#{$pseudo}{
+    margin-right: #{$negative}#{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $spacing {
+
+  /* basic */
+
+  @include margin("", "", ".", $modifier, $value, "")
+  @include margin("", "", ".", $modifier, $value, "-") // negative
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include margin(".#{$screen}\\:", "", "", $modifier, $value, "")
+      @include margin(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}
