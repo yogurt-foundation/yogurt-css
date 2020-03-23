@@ -254,3 +254,9 @@ $line-height:
   (relaxed, 1.625),
   (loose, 2);
 
+/* list style type */
+
+$list-style-type:
+  (none, none),
+  (disc, disc),
+  (decimal, decimal);

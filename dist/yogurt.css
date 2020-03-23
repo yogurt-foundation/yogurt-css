@@ -48,8 +48,9 @@
 /* justify content */
 /* letter spacing */
 /* line height */
+/* list style type */
 /**
- * @module: _listStylePosition.scss
+ * @module: _listStyleType.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -58,102 +59,204 @@
  */
 /* default */
 /* basic */
-.list-inside {
-  list-style-position: inside;
-}
-
-.list-outside {
-  list-style-position: outside;
+.list-none {
+  list-style-type: none;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:list-inside {
-    list-style-position: inside;
-  }
-  .xs\:list-outside {
-    list-style-position: outside;
+  .xs\:list-none {
+    list-style-type: none;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:list-inside {
-    list-style-position: inside;
-  }
-  .sm\:list-outside {
-    list-style-position: outside;
+  .sm\:list-none {
+    list-style-type: none;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:list-inside {
-    list-style-position: inside;
-  }
-  .md\:list-outside {
-    list-style-position: outside;
+  .md\:list-none {
+    list-style-type: none;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:list-inside {
-    list-style-position: inside;
-  }
-  .lg\:list-outside {
-    list-style-position: outside;
+  .lg\:list-none {
+    list-style-type: none;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:list-inside {
-    list-style-position: inside;
-  }
-  .xl\:list-outside {
-    list-style-position: outside;
+  .xl\:list-none {
+    list-style-type: none;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:list-inside {
-    list-style-position: inside;
-  }
-  .\32k\:list-outside {
-    list-style-position: outside;
+  .\32k\:list-none {
+    list-style-type: none;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:list-inside {
-    list-style-position: inside;
-  }
-  .\33k\:list-outside {
-    list-style-position: outside;
+  .\33k\:list-none {
+    list-style-type: none;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:list-inside {
-    list-style-position: inside;
-  }
-  .\34k\:list-outside {
-    list-style-position: outside;
+  .\34k\:list-none {
+    list-style-type: none;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:list-inside {
-    list-style-position: inside;
-  }
-  .\35k\:list-outside {
-    list-style-position: outside;
+  .\35k\:list-none {
+    list-style-type: none;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:list-inside {
-    list-style-position: inside;
+  .\36k\:list-none {
+    list-style-type: none;
   }
-  .\36k\:list-outside {
-    list-style-position: outside;
+}
+
+/* hover */
+/* focus */
+/* basic */
+.list-disc {
+  list-style-type: disc;
+}
+
+/* responsive */
+@media (min-width: 320px) {
+  .xs\:list-disc {
+    list-style-type: disc;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:list-disc {
+    list-style-type: disc;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:list-disc {
+    list-style-type: disc;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:list-disc {
+    list-style-type: disc;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:list-disc {
+    list-style-type: disc;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32k\:list-disc {
+    list-style-type: disc;
+  }
+}
+
+@media (min-width: 2560px) {
+  .\33k\:list-disc {
+    list-style-type: disc;
+  }
+}
+
+@media (min-width: 3840px) {
+  .\34k\:list-disc {
+    list-style-type: disc;
+  }
+}
+
+@media (min-width: 6400px) {
+  .\35k\:list-disc {
+    list-style-type: disc;
+  }
+}
+
+@media (min-width: 7680px) {
+  .\36k\:list-disc {
+    list-style-type: disc;
+  }
+}
+
+/* hover */
+/* focus */
+/* basic */
+.list-decimal {
+  list-style-type: decimal;
+}
+
+/* responsive */
+@media (min-width: 320px) {
+  .xs\:list-decimal {
+    list-style-type: decimal;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:list-decimal {
+    list-style-type: decimal;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:list-decimal {
+    list-style-type: decimal;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:list-decimal {
+    list-style-type: decimal;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:list-decimal {
+    list-style-type: decimal;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32k\:list-decimal {
+    list-style-type: decimal;
+  }
+}
+
+@media (min-width: 2560px) {
+  .\33k\:list-decimal {
+    list-style-type: decimal;
+  }
+}
+
+@media (min-width: 3840px) {
+  .\34k\:list-decimal {
+    list-style-type: decimal;
+  }
+}
+
+@media (min-width: 6400px) {
+  .\35k\:list-decimal {
+    list-style-type: decimal;
+  }
+}
+
+@media (min-width: 7680px) {
+  .\36k\:list-decimal {
+    list-style-type: decimal;
   }
 }
 
