@@ -31,7 +31,7 @@
 - **(OK)** fontStyle ~ (responsive)
 - **(OK)** fontWeight ~ (responsive) (hover) (focus)
 - height ~ (responsive) (hover)
-- inset ~ (responsive)
+- **(OK)** inset ~ (responsive)
 - justifyContent ~ (responsive)
 - letterSpacing ~ (responsive)
 - lineHeight ~ (responsive)

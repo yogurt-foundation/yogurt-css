@@ -44,8 +44,9 @@
 /* font family */
 /* font size */
 /* font weight */
+/* inset */
 /**
- * @module: _fontWeight.scss
+ * @module: _inset.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -54,687 +55,385 @@
  */
 /* default */
 /* basic */
-.font-hairline {
-  font-size: 100;
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.inset-x-0 {
+  left: 0;
+  right: 0;
+}
+
+.inset-y-0 {
+  top: 0;
+  bottom: 0;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:font-hairline {
-    font-size: 100;
+  .xs\:inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .xs\:inset-x-0 {
+    left: 0;
+    right: 0;
+  }
+  .xs\:inset-y-0 {
+    top: 0;
+    bottom: 0;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:font-hairline {
-    font-size: 100;
+  .sm\:inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .sm\:inset-x-0 {
+    left: 0;
+    right: 0;
+  }
+  .sm\:inset-y-0 {
+    top: 0;
+    bottom: 0;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:font-hairline {
-    font-size: 100;
+  .md\:inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .md\:inset-x-0 {
+    left: 0;
+    right: 0;
+  }
+  .md\:inset-y-0 {
+    top: 0;
+    bottom: 0;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:font-hairline {
-    font-size: 100;
+  .lg\:inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .lg\:inset-x-0 {
+    left: 0;
+    right: 0;
+  }
+  .lg\:inset-y-0 {
+    top: 0;
+    bottom: 0;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:font-hairline {
-    font-size: 100;
+  .xl\:inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .xl\:inset-x-0 {
+    left: 0;
+    right: 0;
+  }
+  .xl\:inset-y-0 {
+    top: 0;
+    bottom: 0;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:font-hairline {
-    font-size: 100;
+  .\32k\:inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .\32k\:inset-x-0 {
+    left: 0;
+    right: 0;
+  }
+  .\32k\:inset-y-0 {
+    top: 0;
+    bottom: 0;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:font-hairline {
-    font-size: 100;
+  .\33k\:inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .\33k\:inset-x-0 {
+    left: 0;
+    right: 0;
+  }
+  .\33k\:inset-y-0 {
+    top: 0;
+    bottom: 0;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:font-hairline {
-    font-size: 100;
+  .\34k\:inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .\34k\:inset-x-0 {
+    left: 0;
+    right: 0;
+  }
+  .\34k\:inset-y-0 {
+    top: 0;
+    bottom: 0;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:font-hairline {
-    font-size: 100;
+  .\35k\:inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .\35k\:inset-x-0 {
+    left: 0;
+    right: 0;
+  }
+  .\35k\:inset-y-0 {
+    top: 0;
+    bottom: 0;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:font-hairline {
-    font-size: 100;
+  .\36k\:inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .\36k\:inset-x-0 {
+    left: 0;
+    right: 0;
+  }
+  .\36k\:inset-y-0 {
+    top: 0;
+    bottom: 0;
   }
 }
 
 /* hover */
-.hover\:font-hairline:hover {
-  font-size: 100;
-}
-
 /* focus */
-.focus\:font-hairline:focus {
-  font-size: 100;
-}
-
 /* basic */
-.font-thin {
-  font-size: 200;
+.inset-auto {
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+}
+
+.inset-x-auto {
+  left: auto;
+  right: auto;
+}
+
+.inset-y-auto {
+  top: auto;
+  bottom: auto;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:font-thin {
-    font-size: 200;
+  .xs\:inset-auto {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+  .xs\:inset-x-auto {
+    left: auto;
+    right: auto;
+  }
+  .xs\:inset-y-auto {
+    top: auto;
+    bottom: auto;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:font-thin {
-    font-size: 200;
+  .sm\:inset-auto {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+  .sm\:inset-x-auto {
+    left: auto;
+    right: auto;
+  }
+  .sm\:inset-y-auto {
+    top: auto;
+    bottom: auto;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:font-thin {
-    font-size: 200;
+  .md\:inset-auto {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+  .md\:inset-x-auto {
+    left: auto;
+    right: auto;
+  }
+  .md\:inset-y-auto {
+    top: auto;
+    bottom: auto;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:font-thin {
-    font-size: 200;
+  .lg\:inset-auto {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+  .lg\:inset-x-auto {
+    left: auto;
+    right: auto;
+  }
+  .lg\:inset-y-auto {
+    top: auto;
+    bottom: auto;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:font-thin {
-    font-size: 200;
+  .xl\:inset-auto {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+  .xl\:inset-x-auto {
+    left: auto;
+    right: auto;
+  }
+  .xl\:inset-y-auto {
+    top: auto;
+    bottom: auto;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:font-thin {
-    font-size: 200;
+  .\32k\:inset-auto {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+  .\32k\:inset-x-auto {
+    left: auto;
+    right: auto;
+  }
+  .\32k\:inset-y-auto {
+    top: auto;
+    bottom: auto;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:font-thin {
-    font-size: 200;
+  .\33k\:inset-auto {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+  .\33k\:inset-x-auto {
+    left: auto;
+    right: auto;
+  }
+  .\33k\:inset-y-auto {
+    top: auto;
+    bottom: auto;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:font-thin {
-    font-size: 200;
+  .\34k\:inset-auto {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+  .\34k\:inset-x-auto {
+    left: auto;
+    right: auto;
+  }
+  .\34k\:inset-y-auto {
+    top: auto;
+    bottom: auto;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:font-thin {
-    font-size: 200;
+  .\35k\:inset-auto {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+  .\35k\:inset-x-auto {
+    left: auto;
+    right: auto;
+  }
+  .\35k\:inset-y-auto {
+    top: auto;
+    bottom: auto;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:font-thin {
-    font-size: 200;
+  .\36k\:inset-auto {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+  .\36k\:inset-x-auto {
+    left: auto;
+    right: auto;
+  }
+  .\36k\:inset-y-auto {
+    top: auto;
+    bottom: auto;
   }
 }
 
 /* hover */
-.hover\:font-thin:hover {
-  font-size: 200;
-}
-
 /* focus */
-.focus\:font-thin:focus {
-  font-size: 200;
-}
-
-/* basic */
-.font-light {
-  font-size: 300;
-}
-
-/* responsive */
-@media (min-width: 320px) {
-  .xs\:font-light {
-    font-size: 300;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:font-light {
-    font-size: 300;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:font-light {
-    font-size: 300;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:font-light {
-    font-size: 300;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:font-light {
-    font-size: 300;
-  }
-}
-
-@media (min-width: 1920px) {
-  .\32k\:font-light {
-    font-size: 300;
-  }
-}
-
-@media (min-width: 2560px) {
-  .\33k\:font-light {
-    font-size: 300;
-  }
-}
-
-@media (min-width: 3840px) {
-  .\34k\:font-light {
-    font-size: 300;
-  }
-}
-
-@media (min-width: 6400px) {
-  .\35k\:font-light {
-    font-size: 300;
-  }
-}
-
-@media (min-width: 7680px) {
-  .\36k\:font-light {
-    font-size: 300;
-  }
-}
-
-/* hover */
-.hover\:font-light:hover {
-  font-size: 300;
-}
-
-/* focus */
-.focus\:font-light:focus {
-  font-size: 300;
-}
-
-/* basic */
-.font-normal {
-  font-size: 400;
-}
-
-/* responsive */
-@media (min-width: 320px) {
-  .xs\:font-normal {
-    font-size: 400;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:font-normal {
-    font-size: 400;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:font-normal {
-    font-size: 400;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:font-normal {
-    font-size: 400;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:font-normal {
-    font-size: 400;
-  }
-}
-
-@media (min-width: 1920px) {
-  .\32k\:font-normal {
-    font-size: 400;
-  }
-}
-
-@media (min-width: 2560px) {
-  .\33k\:font-normal {
-    font-size: 400;
-  }
-}
-
-@media (min-width: 3840px) {
-  .\34k\:font-normal {
-    font-size: 400;
-  }
-}
-
-@media (min-width: 6400px) {
-  .\35k\:font-normal {
-    font-size: 400;
-  }
-}
-
-@media (min-width: 7680px) {
-  .\36k\:font-normal {
-    font-size: 400;
-  }
-}
-
-/* hover */
-.hover\:font-normal:hover {
-  font-size: 400;
-}
-
-/* focus */
-.focus\:font-normal:focus {
-  font-size: 400;
-}
-
-/* basic */
-.font-medium {
-  font-size: 500;
-}
-
-/* responsive */
-@media (min-width: 320px) {
-  .xs\:font-medium {
-    font-size: 500;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:font-medium {
-    font-size: 500;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:font-medium {
-    font-size: 500;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:font-medium {
-    font-size: 500;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:font-medium {
-    font-size: 500;
-  }
-}
-
-@media (min-width: 1920px) {
-  .\32k\:font-medium {
-    font-size: 500;
-  }
-}
-
-@media (min-width: 2560px) {
-  .\33k\:font-medium {
-    font-size: 500;
-  }
-}
-
-@media (min-width: 3840px) {
-  .\34k\:font-medium {
-    font-size: 500;
-  }
-}
-
-@media (min-width: 6400px) {
-  .\35k\:font-medium {
-    font-size: 500;
-  }
-}
-
-@media (min-width: 7680px) {
-  .\36k\:font-medium {
-    font-size: 500;
-  }
-}
-
-/* hover */
-.hover\:font-medium:hover {
-  font-size: 500;
-}
-
-/* focus */
-.focus\:font-medium:focus {
-  font-size: 500;
-}
-
-/* basic */
-.font-semibold {
-  font-size: 600;
-}
-
-/* responsive */
-@media (min-width: 320px) {
-  .xs\:font-semibold {
-    font-size: 600;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:font-semibold {
-    font-size: 600;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:font-semibold {
-    font-size: 600;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:font-semibold {
-    font-size: 600;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:font-semibold {
-    font-size: 600;
-  }
-}
-
-@media (min-width: 1920px) {
-  .\32k\:font-semibold {
-    font-size: 600;
-  }
-}
-
-@media (min-width: 2560px) {
-  .\33k\:font-semibold {
-    font-size: 600;
-  }
-}
-
-@media (min-width: 3840px) {
-  .\34k\:font-semibold {
-    font-size: 600;
-  }
-}
-
-@media (min-width: 6400px) {
-  .\35k\:font-semibold {
-    font-size: 600;
-  }
-}
-
-@media (min-width: 7680px) {
-  .\36k\:font-semibold {
-    font-size: 600;
-  }
-}
-
-/* hover */
-.hover\:font-semibold:hover {
-  font-size: 600;
-}
-
-/* focus */
-.focus\:font-semibold:focus {
-  font-size: 600;
-}
-
-/* basic */
-.font-bold {
-  font-size: 700;
-}
-
-/* responsive */
-@media (min-width: 320px) {
-  .xs\:font-bold {
-    font-size: 700;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:font-bold {
-    font-size: 700;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:font-bold {
-    font-size: 700;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:font-bold {
-    font-size: 700;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:font-bold {
-    font-size: 700;
-  }
-}
-
-@media (min-width: 1920px) {
-  .\32k\:font-bold {
-    font-size: 700;
-  }
-}
-
-@media (min-width: 2560px) {
-  .\33k\:font-bold {
-    font-size: 700;
-  }
-}
-
-@media (min-width: 3840px) {
-  .\34k\:font-bold {
-    font-size: 700;
-  }
-}
-
-@media (min-width: 6400px) {
-  .\35k\:font-bold {
-    font-size: 700;
-  }
-}
-
-@media (min-width: 7680px) {
-  .\36k\:font-bold {
-    font-size: 700;
-  }
-}
-
-/* hover */
-.hover\:font-bold:hover {
-  font-size: 700;
-}
-
-/* focus */
-.focus\:font-bold:focus {
-  font-size: 700;
-}
-
-/* basic */
-.font-extrabold {
-  font-size: 800;
-}
-
-/* responsive */
-@media (min-width: 320px) {
-  .xs\:font-extrabold {
-    font-size: 800;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:font-extrabold {
-    font-size: 800;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:font-extrabold {
-    font-size: 800;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:font-extrabold {
-    font-size: 800;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:font-extrabold {
-    font-size: 800;
-  }
-}
-
-@media (min-width: 1920px) {
-  .\32k\:font-extrabold {
-    font-size: 800;
-  }
-}
-
-@media (min-width: 2560px) {
-  .\33k\:font-extrabold {
-    font-size: 800;
-  }
-}
-
-@media (min-width: 3840px) {
-  .\34k\:font-extrabold {
-    font-size: 800;
-  }
-}
-
-@media (min-width: 6400px) {
-  .\35k\:font-extrabold {
-    font-size: 800;
-  }
-}
-
-@media (min-width: 7680px) {
-  .\36k\:font-extrabold {
-    font-size: 800;
-  }
-}
-
-/* hover */
-.hover\:font-extrabold:hover {
-  font-size: 800;
-}
-
-/* focus */
-.focus\:font-extrabold:focus {
-  font-size: 800;
-}
-
-/* basic */
-.font-black {
-  font-size: 900;
-}
-
-/* responsive */
-@media (min-width: 320px) {
-  .xs\:font-black {
-    font-size: 900;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:font-black {
-    font-size: 900;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:font-black {
-    font-size: 900;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:font-black {
-    font-size: 900;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:font-black {
-    font-size: 900;
-  }
-}
-
-@media (min-width: 1920px) {
-  .\32k\:font-black {
-    font-size: 900;
-  }
-}
-
-@media (min-width: 2560px) {
-  .\33k\:font-black {
-    font-size: 900;
-  }
-}
-
-@media (min-width: 3840px) {
-  .\34k\:font-black {
-    font-size: 900;
-  }
-}
-
-@media (min-width: 6400px) {
-  .\35k\:font-black {
-    font-size: 900;
-  }
-}
-
-@media (min-width: 7680px) {
-  .\36k\:font-black {
-    font-size: 900;
-  }
-}
-
-/* hover */
-.hover\:font-black:hover {
-  font-size: 900;
-}
-
-/* focus */
-.focus\:font-black:focus {
-  font-size: 900;
-}
-
 /*! yogurt.css v2.0.0 | MIT License | gtihub.com/loouislow81/yogurt-foundation */

@@ -1,0 +1,47 @@
+/**
+ * @module: _inset.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin inset($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}inset-#{$modifier}#{$pseudo} {
+    top: #{$value};
+    right: #{$value};
+    bottom: #{$value};
+    left: #{$value}
+  }
+  #{$prefix}#{$class}inset-x-#{$modifier}#{$pseudo} {
+    left: #{$value};
+    right: #{$value}
+  }
+  #{$prefix}#{$class}inset-y-#{$modifier}#{$pseudo} {
+    top: #{$value};
+    bottom: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $inset {
+
+  /* basic */
+
+  @include inset("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include inset(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}
