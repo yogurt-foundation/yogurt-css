@@ -120,7 +120,15 @@
 }
 
 /* hover */
+.hover\:font-hairline:hover {
+  font-size: 100;
+}
+
 /* focus */
+.focus\:font-hairline:focus {
+  font-size: 100;
+}
+
 /* basic */
 .font-thin {
   font-size: 200;
@@ -188,7 +196,15 @@
 }
 
 /* hover */
+.hover\:font-thin:hover {
+  font-size: 200;
+}
+
 /* focus */
+.focus\:font-thin:focus {
+  font-size: 200;
+}
+
 /* basic */
 .font-light {
   font-size: 300;
@@ -256,7 +272,15 @@
 }
 
 /* hover */
+.hover\:font-light:hover {
+  font-size: 300;
+}
+
 /* focus */
+.focus\:font-light:focus {
+  font-size: 300;
+}
+
 /* basic */
 .font-normal {
   font-size: 400;
@@ -324,7 +348,15 @@
 }
 
 /* hover */
+.hover\:font-normal:hover {
+  font-size: 400;
+}
+
 /* focus */
+.focus\:font-normal:focus {
+  font-size: 400;
+}
+
 /* basic */
 .font-medium {
   font-size: 500;
@@ -392,7 +424,15 @@
 }
 
 /* hover */
+.hover\:font-medium:hover {
+  font-size: 500;
+}
+
 /* focus */
+.focus\:font-medium:focus {
+  font-size: 500;
+}
+
 /* basic */
 .font-semibold {
   font-size: 600;
@@ -460,7 +500,15 @@
 }
 
 /* hover */
+.hover\:font-semibold:hover {
+  font-size: 600;
+}
+
 /* focus */
+.focus\:font-semibold:focus {
+  font-size: 600;
+}
+
 /* basic */
 .font-bold {
   font-size: 700;
@@ -528,7 +576,15 @@
 }
 
 /* hover */
+.hover\:font-bold:hover {
+  font-size: 700;
+}
+
 /* focus */
+.focus\:font-bold:focus {
+  font-size: 700;
+}
+
 /* basic */
 .font-extrabold {
   font-size: 800;
@@ -596,7 +652,15 @@
 }
 
 /* hover */
+.hover\:font-extrabold:hover {
+  font-size: 800;
+}
+
 /* focus */
+.focus\:font-extrabold:focus {
+  font-size: 800;
+}
+
 /* basic */
 .font-black {
   font-size: 900;
@@ -664,5 +728,13 @@
 }
 
 /* hover */
+.hover\:font-black:hover {
+  font-size: 900;
+}
+
 /* focus */
+.focus\:font-black:focus {
+  font-size: 900;
+}
+
 /*! yogurt.css v2.0.0 | MIT License | gtihub.com/loouislow81/yogurt-foundation */

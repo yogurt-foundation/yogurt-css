@@ -29,7 +29,7 @@
 - **(OK)** fontSize ~ (responsive)
 - **(OK)** fontSmoothing ~ (responsive)
 - **(OK)** fontStyle ~ (responsive)
-- fontWeight ~ (responsive) (hover) (focus)
+- **(OK)** fontWeight ~ (responsive) (hover) (focus)
 - height ~ (responsive) (hover)
 - inset ~ (responsive)
 - justifyContent ~ (responsive)

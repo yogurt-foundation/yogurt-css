@@ -31,6 +31,10 @@
 
   /* hover */
 
+  @include fontWeight(".hover\\:", ":hover", "", $modifier, $value)
+
   /* focus */
+
+  @include fontWeight(".focus\\:", ":focus", "", $modifier, $value)
 
 }
