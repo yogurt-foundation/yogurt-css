@@ -18,22 +18,18 @@
 
 /* default */
 
-@each $modifier, $value in $list-style-position {
+/* basic */
 
-  /* basic */
+@include listStylePosition("", ".")
 
-  @include listStylePosition("", ".")
+/* responsive */
 
-  /* responsive */
-
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
-      @include listStylePosition(".#{$screen}\\:", "")
-    }
+@each $screen, $size in $screens {
+  @media (min-width: #{$size}) {
+    @include listStylePosition(".#{$screen}\\:", "")
   }
-
-  /* hover */
-
-  /* focus */
-
 }
+
+/* hover */
+
+/* focus */
