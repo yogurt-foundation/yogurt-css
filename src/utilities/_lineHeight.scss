@@ -1,0 +1,36 @@
+/**
+ * @module: _lineHeight.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin lineHeight($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}depth-#{$modifier}#{$pseudo} {
+    line-height: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $line-height {
+
+  /* basic */
+
+  @include lineHeight("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include lineHeight(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}

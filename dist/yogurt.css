@@ -47,8 +47,9 @@
 /* inset */
 /* justify content */
 /* letter spacing */
+/* line height */
 /**
- * @module: _letterSpacing.scss
+ * @module: _lineHeight.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -57,408 +58,408 @@
  */
 /* default */
 /* basic */
-.tracking-tighter {
-  letter-spacing: -0.05em;
+.depth-none {
+  line-height: 1;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:tracking-tighter {
-    letter-spacing: -0.05em;
+  .xs\:depth-none {
+    line-height: 1;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:tracking-tighter {
-    letter-spacing: -0.05em;
+  .sm\:depth-none {
+    line-height: 1;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:tracking-tighter {
-    letter-spacing: -0.05em;
+  .md\:depth-none {
+    line-height: 1;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:tracking-tighter {
-    letter-spacing: -0.05em;
+  .lg\:depth-none {
+    line-height: 1;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:tracking-tighter {
-    letter-spacing: -0.05em;
+  .xl\:depth-none {
+    line-height: 1;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:tracking-tighter {
-    letter-spacing: -0.05em;
+  .\32k\:depth-none {
+    line-height: 1;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:tracking-tighter {
-    letter-spacing: -0.05em;
+  .\33k\:depth-none {
+    line-height: 1;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:tracking-tighter {
-    letter-spacing: -0.05em;
+  .\34k\:depth-none {
+    line-height: 1;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:tracking-tighter {
-    letter-spacing: -0.05em;
+  .\35k\:depth-none {
+    line-height: 1;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:tracking-tighter {
-    letter-spacing: -0.05em;
+  .\36k\:depth-none {
+    line-height: 1;
   }
 }
 
 /* hover */
 /* focus */
 /* basic */
-.tracking-tight {
-  letter-spacing: -0.025em;
+.depth-tight {
+  line-height: 1.25;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:tracking-tight {
-    letter-spacing: -0.025em;
+  .xs\:depth-tight {
+    line-height: 1.25;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:tracking-tight {
-    letter-spacing: -0.025em;
+  .sm\:depth-tight {
+    line-height: 1.25;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:tracking-tight {
-    letter-spacing: -0.025em;
+  .md\:depth-tight {
+    line-height: 1.25;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:tracking-tight {
-    letter-spacing: -0.025em;
+  .lg\:depth-tight {
+    line-height: 1.25;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:tracking-tight {
-    letter-spacing: -0.025em;
+  .xl\:depth-tight {
+    line-height: 1.25;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:tracking-tight {
-    letter-spacing: -0.025em;
+  .\32k\:depth-tight {
+    line-height: 1.25;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:tracking-tight {
-    letter-spacing: -0.025em;
+  .\33k\:depth-tight {
+    line-height: 1.25;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:tracking-tight {
-    letter-spacing: -0.025em;
+  .\34k\:depth-tight {
+    line-height: 1.25;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:tracking-tight {
-    letter-spacing: -0.025em;
+  .\35k\:depth-tight {
+    line-height: 1.25;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:tracking-tight {
-    letter-spacing: -0.025em;
+  .\36k\:depth-tight {
+    line-height: 1.25;
   }
 }
 
 /* hover */
 /* focus */
 /* basic */
-.tracking-normal {
-  letter-spacing: 0;
+.depth-snug {
+  line-height: 1.375;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:tracking-normal {
-    letter-spacing: 0;
+  .xs\:depth-snug {
+    line-height: 1.375;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:tracking-normal {
-    letter-spacing: 0;
+  .sm\:depth-snug {
+    line-height: 1.375;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:tracking-normal {
-    letter-spacing: 0;
+  .md\:depth-snug {
+    line-height: 1.375;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:tracking-normal {
-    letter-spacing: 0;
+  .lg\:depth-snug {
+    line-height: 1.375;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:tracking-normal {
-    letter-spacing: 0;
+  .xl\:depth-snug {
+    line-height: 1.375;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:tracking-normal {
-    letter-spacing: 0;
+  .\32k\:depth-snug {
+    line-height: 1.375;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:tracking-normal {
-    letter-spacing: 0;
+  .\33k\:depth-snug {
+    line-height: 1.375;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:tracking-normal {
-    letter-spacing: 0;
+  .\34k\:depth-snug {
+    line-height: 1.375;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:tracking-normal {
-    letter-spacing: 0;
+  .\35k\:depth-snug {
+    line-height: 1.375;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:tracking-normal {
-    letter-spacing: 0;
+  .\36k\:depth-snug {
+    line-height: 1.375;
   }
 }
 
 /* hover */
 /* focus */
 /* basic */
-.tracking-wide {
-  letter-spacing: 0.025em;
+.depth-normal {
+  line-height: 1.5;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:tracking-wide {
-    letter-spacing: 0.025em;
+  .xs\:depth-normal {
+    line-height: 1.5;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:tracking-wide {
-    letter-spacing: 0.025em;
+  .sm\:depth-normal {
+    line-height: 1.5;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:tracking-wide {
-    letter-spacing: 0.025em;
+  .md\:depth-normal {
+    line-height: 1.5;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:tracking-wide {
-    letter-spacing: 0.025em;
+  .lg\:depth-normal {
+    line-height: 1.5;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:tracking-wide {
-    letter-spacing: 0.025em;
+  .xl\:depth-normal {
+    line-height: 1.5;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:tracking-wide {
-    letter-spacing: 0.025em;
+  .\32k\:depth-normal {
+    line-height: 1.5;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:tracking-wide {
-    letter-spacing: 0.025em;
+  .\33k\:depth-normal {
+    line-height: 1.5;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:tracking-wide {
-    letter-spacing: 0.025em;
+  .\34k\:depth-normal {
+    line-height: 1.5;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:tracking-wide {
-    letter-spacing: 0.025em;
+  .\35k\:depth-normal {
+    line-height: 1.5;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:tracking-wide {
-    letter-spacing: 0.025em;
+  .\36k\:depth-normal {
+    line-height: 1.5;
   }
 }
 
 /* hover */
 /* focus */
 /* basic */
-.tracking-wider {
-  letter-spacing: 0.05em;
+.depth-relaxed {
+  line-height: 1.625;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:tracking-wider {
-    letter-spacing: 0.05em;
+  .xs\:depth-relaxed {
+    line-height: 1.625;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:tracking-wider {
-    letter-spacing: 0.05em;
+  .sm\:depth-relaxed {
+    line-height: 1.625;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:tracking-wider {
-    letter-spacing: 0.05em;
+  .md\:depth-relaxed {
+    line-height: 1.625;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:tracking-wider {
-    letter-spacing: 0.05em;
+  .lg\:depth-relaxed {
+    line-height: 1.625;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:tracking-wider {
-    letter-spacing: 0.05em;
+  .xl\:depth-relaxed {
+    line-height: 1.625;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:tracking-wider {
-    letter-spacing: 0.05em;
+  .\32k\:depth-relaxed {
+    line-height: 1.625;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:tracking-wider {
-    letter-spacing: 0.05em;
+  .\33k\:depth-relaxed {
+    line-height: 1.625;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:tracking-wider {
-    letter-spacing: 0.05em;
+  .\34k\:depth-relaxed {
+    line-height: 1.625;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:tracking-wider {
-    letter-spacing: 0.05em;
+  .\35k\:depth-relaxed {
+    line-height: 1.625;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:tracking-wider {
-    letter-spacing: 0.05em;
+  .\36k\:depth-relaxed {
+    line-height: 1.625;
   }
 }
 
 /* hover */
 /* focus */
 /* basic */
-.tracking-widest {
-  letter-spacing: 0.1em;
+.depth-loose {
+  line-height: 2;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:tracking-widest {
-    letter-spacing: 0.1em;
+  .xs\:depth-loose {
+    line-height: 2;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:tracking-widest {
-    letter-spacing: 0.1em;
+  .sm\:depth-loose {
+    line-height: 2;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:tracking-widest {
-    letter-spacing: 0.1em;
+  .md\:depth-loose {
+    line-height: 2;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:tracking-widest {
-    letter-spacing: 0.1em;
+  .lg\:depth-loose {
+    line-height: 2;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:tracking-widest {
-    letter-spacing: 0.1em;
+  .xl\:depth-loose {
+    line-height: 2;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:tracking-widest {
-    letter-spacing: 0.1em;
+  .\32k\:depth-loose {
+    line-height: 2;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:tracking-widest {
-    letter-spacing: 0.1em;
+  .\33k\:depth-loose {
+    line-height: 2;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:tracking-widest {
-    letter-spacing: 0.1em;
+  .\34k\:depth-loose {
+    line-height: 2;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:tracking-widest {
-    letter-spacing: 0.1em;
+  .\35k\:depth-loose {
+    line-height: 2;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:tracking-widest {
-    letter-spacing: 0.1em;
+  .\36k\:depth-loose {
+    line-height: 2;
   }
 }
 

@@ -34,7 +34,7 @@
 - **(OK)** inset ~ (responsive)
 - **(OK)** justifyContent ~ (responsive)
 - **(OK)** letterSpacing ~ (responsive)
-- lineHeight ~ (responsive)
+- **(OK)** lineHeight ~ (responsive)
 - listStylePosition ~ (responsive)
 - listStyleType ~ (responsive)
 - margin ~ (responsive)

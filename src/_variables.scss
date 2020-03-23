@@ -243,3 +243,13 @@ $letter-spacing:
   (wide, 0.025em),
   (wider, 0.05em),
   (widest, 0.1em);
+
+/* line height */
+
+$line-height:
+  (none, 1),
+  (tight, 1.25),
+  (snug, 1.375),
+  (normal, 1.5),
+  (relaxed, 1.625),
+  (loose, 2);
