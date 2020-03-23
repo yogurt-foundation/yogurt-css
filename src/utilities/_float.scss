@@ -13,13 +13,17 @@
   }
 }
 
+@mixin floatDefault($prefix, $class) {
+  #{$prefix}#{$class}clearfix:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+}
+
 /* default */
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both
-}
+@include floatDefault("", ".")
 
 @each $modifier, $value in $float {
 
@@ -31,6 +35,7 @@
 
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+      @include floatDefault(".#{$screen}\\:", "")
       @include float(".#{$screen}\\:", "", "", $modifier, $value)
     }
   }

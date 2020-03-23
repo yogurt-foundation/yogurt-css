@@ -50,7 +50,7 @@
 /* line height */
 /* list style position */
 /**
- * @module: _listStylePosition.scss
+ * @module: _float.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -58,393 +58,361 @@
  * @license: MIT
  */
 /* default */
-.list-inside {
-  list-style-position: inside;
-}
-
-.list-outside {
-  list-style-position: outside;
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* basic */
-.list-none {
-  list-style-type: none;
+.float-left {
+  float: left;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:list-inside {
-    list-style-position: inside;
+  .xs\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .xs\:list-outside {
-    list-style-position: outside;
-  }
-  .xs\:list-none {
-    list-style-type: none;
+  .xs\:float-left {
+    float: left;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:list-inside {
-    list-style-position: inside;
+  .sm\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .sm\:list-outside {
-    list-style-position: outside;
-  }
-  .sm\:list-none {
-    list-style-type: none;
+  .sm\:float-left {
+    float: left;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:list-inside {
-    list-style-position: inside;
+  .md\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .md\:list-outside {
-    list-style-position: outside;
-  }
-  .md\:list-none {
-    list-style-type: none;
+  .md\:float-left {
+    float: left;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:list-inside {
-    list-style-position: inside;
+  .lg\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .lg\:list-outside {
-    list-style-position: outside;
-  }
-  .lg\:list-none {
-    list-style-type: none;
+  .lg\:float-left {
+    float: left;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:list-inside {
-    list-style-position: inside;
+  .xl\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .xl\:list-outside {
-    list-style-position: outside;
-  }
-  .xl\:list-none {
-    list-style-type: none;
+  .xl\:float-left {
+    float: left;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:list-inside {
-    list-style-position: inside;
+  .\32k\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .\32k\:list-outside {
-    list-style-position: outside;
-  }
-  .\32k\:list-none {
-    list-style-type: none;
+  .\32k\:float-left {
+    float: left;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:list-inside {
-    list-style-position: inside;
+  .\33k\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .\33k\:list-outside {
-    list-style-position: outside;
-  }
-  .\33k\:list-none {
-    list-style-type: none;
+  .\33k\:float-left {
+    float: left;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:list-inside {
-    list-style-position: inside;
+  .\34k\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .\34k\:list-outside {
-    list-style-position: outside;
-  }
-  .\34k\:list-none {
-    list-style-type: none;
+  .\34k\:float-left {
+    float: left;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:list-inside {
-    list-style-position: inside;
+  .\35k\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .\35k\:list-outside {
-    list-style-position: outside;
-  }
-  .\35k\:list-none {
-    list-style-type: none;
+  .\35k\:float-left {
+    float: left;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:list-inside {
-    list-style-position: inside;
+  .\36k\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .\36k\:list-outside {
-    list-style-position: outside;
-  }
-  .\36k\:list-none {
-    list-style-type: none;
+  .\36k\:float-left {
+    float: left;
   }
 }
 
 /* hover */
 /* focus */
 /* basic */
-.list-disc {
-  list-style-type: disc;
+.float-right {
+  float: right;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:list-inside {
-    list-style-position: inside;
+  .xs\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .xs\:list-outside {
-    list-style-position: outside;
-  }
-  .xs\:list-disc {
-    list-style-type: disc;
+  .xs\:float-right {
+    float: right;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:list-inside {
-    list-style-position: inside;
+  .sm\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .sm\:list-outside {
-    list-style-position: outside;
-  }
-  .sm\:list-disc {
-    list-style-type: disc;
+  .sm\:float-right {
+    float: right;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:list-inside {
-    list-style-position: inside;
+  .md\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .md\:list-outside {
-    list-style-position: outside;
-  }
-  .md\:list-disc {
-    list-style-type: disc;
+  .md\:float-right {
+    float: right;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:list-inside {
-    list-style-position: inside;
+  .lg\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .lg\:list-outside {
-    list-style-position: outside;
-  }
-  .lg\:list-disc {
-    list-style-type: disc;
+  .lg\:float-right {
+    float: right;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:list-inside {
-    list-style-position: inside;
+  .xl\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .xl\:list-outside {
-    list-style-position: outside;
-  }
-  .xl\:list-disc {
-    list-style-type: disc;
+  .xl\:float-right {
+    float: right;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:list-inside {
-    list-style-position: inside;
+  .\32k\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .\32k\:list-outside {
-    list-style-position: outside;
-  }
-  .\32k\:list-disc {
-    list-style-type: disc;
+  .\32k\:float-right {
+    float: right;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:list-inside {
-    list-style-position: inside;
+  .\33k\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .\33k\:list-outside {
-    list-style-position: outside;
-  }
-  .\33k\:list-disc {
-    list-style-type: disc;
+  .\33k\:float-right {
+    float: right;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:list-inside {
-    list-style-position: inside;
+  .\34k\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .\34k\:list-outside {
-    list-style-position: outside;
-  }
-  .\34k\:list-disc {
-    list-style-type: disc;
+  .\34k\:float-right {
+    float: right;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:list-inside {
-    list-style-position: inside;
+  .\35k\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .\35k\:list-outside {
-    list-style-position: outside;
-  }
-  .\35k\:list-disc {
-    list-style-type: disc;
+  .\35k\:float-right {
+    float: right;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:list-inside {
-    list-style-position: inside;
+  .\36k\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .\36k\:list-outside {
-    list-style-position: outside;
-  }
-  .\36k\:list-disc {
-    list-style-type: disc;
+  .\36k\:float-right {
+    float: right;
   }
 }
 
 /* hover */
 /* focus */
 /* basic */
-.list-decimal {
-  list-style-type: decimal;
+.float-none {
+  float: none;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:list-inside {
-    list-style-position: inside;
+  .xs\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .xs\:list-outside {
-    list-style-position: outside;
-  }
-  .xs\:list-decimal {
-    list-style-type: decimal;
+  .xs\:float-none {
+    float: none;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:list-inside {
-    list-style-position: inside;
+  .sm\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .sm\:list-outside {
-    list-style-position: outside;
-  }
-  .sm\:list-decimal {
-    list-style-type: decimal;
+  .sm\:float-none {
+    float: none;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:list-inside {
-    list-style-position: inside;
+  .md\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .md\:list-outside {
-    list-style-position: outside;
-  }
-  .md\:list-decimal {
-    list-style-type: decimal;
+  .md\:float-none {
+    float: none;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:list-inside {
-    list-style-position: inside;
+  .lg\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .lg\:list-outside {
-    list-style-position: outside;
-  }
-  .lg\:list-decimal {
-    list-style-type: decimal;
+  .lg\:float-none {
+    float: none;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:list-inside {
-    list-style-position: inside;
+  .xl\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .xl\:list-outside {
-    list-style-position: outside;
-  }
-  .xl\:list-decimal {
-    list-style-type: decimal;
+  .xl\:float-none {
+    float: none;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:list-inside {
-    list-style-position: inside;
+  .\32k\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .\32k\:list-outside {
-    list-style-position: outside;
-  }
-  .\32k\:list-decimal {
-    list-style-type: decimal;
+  .\32k\:float-none {
+    float: none;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:list-inside {
-    list-style-position: inside;
+  .\33k\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .\33k\:list-outside {
-    list-style-position: outside;
-  }
-  .\33k\:list-decimal {
-    list-style-type: decimal;
+  .\33k\:float-none {
+    float: none;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:list-inside {
-    list-style-position: inside;
+  .\34k\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .\34k\:list-outside {
-    list-style-position: outside;
-  }
-  .\34k\:list-decimal {
-    list-style-type: decimal;
+  .\34k\:float-none {
+    float: none;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:list-inside {
-    list-style-position: inside;
+  .\35k\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .\35k\:list-outside {
-    list-style-position: outside;
-  }
-  .\35k\:list-decimal {
-    list-style-type: decimal;
+  .\35k\:float-none {
+    float: none;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:list-inside {
-    list-style-position: inside;
+  .\36k\:clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
-  .\36k\:list-outside {
-    list-style-position: outside;
-  }
-  .\36k\:list-decimal {
-    list-style-type: decimal;
+  .\36k\:float-none {
+    float: none;
   }
 }
 
