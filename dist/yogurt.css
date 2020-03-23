@@ -46,8 +46,9 @@
 /* font weight */
 /* inset */
 /* justify content */
+/* letter spacing */
 /**
- * @module: _justifyContent.scss
+ * @module: _letterSpacing.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -56,395 +57,408 @@
  */
 /* default */
 /* basic */
-.justify-start {
-  -ms-flex-pack: start;
-      justify-content: flex-start;
+.tracking-tighter {
+  letter-spacing: -0.05em;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:justify-start {
-    -ms-flex-pack: start;
-        justify-content: flex-start;
+  .xs\:tracking-tighter {
+    letter-spacing: -0.05em;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:justify-start {
-    -ms-flex-pack: start;
-        justify-content: flex-start;
+  .sm\:tracking-tighter {
+    letter-spacing: -0.05em;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:justify-start {
-    -ms-flex-pack: start;
-        justify-content: flex-start;
+  .md\:tracking-tighter {
+    letter-spacing: -0.05em;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:justify-start {
-    -ms-flex-pack: start;
-        justify-content: flex-start;
+  .lg\:tracking-tighter {
+    letter-spacing: -0.05em;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:justify-start {
-    -ms-flex-pack: start;
-        justify-content: flex-start;
+  .xl\:tracking-tighter {
+    letter-spacing: -0.05em;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:justify-start {
-    -ms-flex-pack: start;
-        justify-content: flex-start;
+  .\32k\:tracking-tighter {
+    letter-spacing: -0.05em;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:justify-start {
-    -ms-flex-pack: start;
-        justify-content: flex-start;
+  .\33k\:tracking-tighter {
+    letter-spacing: -0.05em;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:justify-start {
-    -ms-flex-pack: start;
-        justify-content: flex-start;
+  .\34k\:tracking-tighter {
+    letter-spacing: -0.05em;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:justify-start {
-    -ms-flex-pack: start;
-        justify-content: flex-start;
+  .\35k\:tracking-tighter {
+    letter-spacing: -0.05em;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:justify-start {
-    -ms-flex-pack: start;
-        justify-content: flex-start;
+  .\36k\:tracking-tighter {
+    letter-spacing: -0.05em;
   }
 }
 
 /* hover */
 /* focus */
 /* basic */
-.justify-end {
-  -ms-flex-pack: end;
-      justify-content: flex-end;
+.tracking-tight {
+  letter-spacing: -0.025em;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:justify-end {
-    -ms-flex-pack: end;
-        justify-content: flex-end;
+  .xs\:tracking-tight {
+    letter-spacing: -0.025em;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:justify-end {
-    -ms-flex-pack: end;
-        justify-content: flex-end;
+  .sm\:tracking-tight {
+    letter-spacing: -0.025em;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:justify-end {
-    -ms-flex-pack: end;
-        justify-content: flex-end;
+  .md\:tracking-tight {
+    letter-spacing: -0.025em;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:justify-end {
-    -ms-flex-pack: end;
-        justify-content: flex-end;
+  .lg\:tracking-tight {
+    letter-spacing: -0.025em;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:justify-end {
-    -ms-flex-pack: end;
-        justify-content: flex-end;
+  .xl\:tracking-tight {
+    letter-spacing: -0.025em;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:justify-end {
-    -ms-flex-pack: end;
-        justify-content: flex-end;
+  .\32k\:tracking-tight {
+    letter-spacing: -0.025em;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:justify-end {
-    -ms-flex-pack: end;
-        justify-content: flex-end;
+  .\33k\:tracking-tight {
+    letter-spacing: -0.025em;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:justify-end {
-    -ms-flex-pack: end;
-        justify-content: flex-end;
+  .\34k\:tracking-tight {
+    letter-spacing: -0.025em;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:justify-end {
-    -ms-flex-pack: end;
-        justify-content: flex-end;
+  .\35k\:tracking-tight {
+    letter-spacing: -0.025em;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:justify-end {
-    -ms-flex-pack: end;
-        justify-content: flex-end;
+  .\36k\:tracking-tight {
+    letter-spacing: -0.025em;
   }
 }
 
 /* hover */
 /* focus */
 /* basic */
-.justify-center {
-  -ms-flex-pack: center;
-      justify-content: center;
+.tracking-normal {
+  letter-spacing: 0;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:justify-center {
-    -ms-flex-pack: center;
-        justify-content: center;
+  .xs\:tracking-normal {
+    letter-spacing: 0;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:justify-center {
-    -ms-flex-pack: center;
-        justify-content: center;
+  .sm\:tracking-normal {
+    letter-spacing: 0;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:justify-center {
-    -ms-flex-pack: center;
-        justify-content: center;
+  .md\:tracking-normal {
+    letter-spacing: 0;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:justify-center {
-    -ms-flex-pack: center;
-        justify-content: center;
+  .lg\:tracking-normal {
+    letter-spacing: 0;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:justify-center {
-    -ms-flex-pack: center;
-        justify-content: center;
+  .xl\:tracking-normal {
+    letter-spacing: 0;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:justify-center {
-    -ms-flex-pack: center;
-        justify-content: center;
+  .\32k\:tracking-normal {
+    letter-spacing: 0;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:justify-center {
-    -ms-flex-pack: center;
-        justify-content: center;
+  .\33k\:tracking-normal {
+    letter-spacing: 0;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:justify-center {
-    -ms-flex-pack: center;
-        justify-content: center;
+  .\34k\:tracking-normal {
+    letter-spacing: 0;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:justify-center {
-    -ms-flex-pack: center;
-        justify-content: center;
+  .\35k\:tracking-normal {
+    letter-spacing: 0;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:justify-center {
-    -ms-flex-pack: center;
-        justify-content: center;
+  .\36k\:tracking-normal {
+    letter-spacing: 0;
   }
 }
 
 /* hover */
 /* focus */
 /* basic */
-.justify-between {
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+.tracking-wide {
+  letter-spacing: 0.025em;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:justify-between {
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+  .xs\:tracking-wide {
+    letter-spacing: 0.025em;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:justify-between {
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+  .sm\:tracking-wide {
+    letter-spacing: 0.025em;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:justify-between {
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+  .md\:tracking-wide {
+    letter-spacing: 0.025em;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:justify-between {
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+  .lg\:tracking-wide {
+    letter-spacing: 0.025em;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:justify-between {
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+  .xl\:tracking-wide {
+    letter-spacing: 0.025em;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:justify-between {
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+  .\32k\:tracking-wide {
+    letter-spacing: 0.025em;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:justify-between {
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+  .\33k\:tracking-wide {
+    letter-spacing: 0.025em;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:justify-between {
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+  .\34k\:tracking-wide {
+    letter-spacing: 0.025em;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:justify-between {
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+  .\35k\:tracking-wide {
+    letter-spacing: 0.025em;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:justify-between {
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+  .\36k\:tracking-wide {
+    letter-spacing: 0.025em;
   }
 }
 
 /* hover */
 /* focus */
 /* basic */
-.justify-around {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+.tracking-wider {
+  letter-spacing: 0.05em;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:justify-around {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+  .xs\:tracking-wider {
+    letter-spacing: 0.05em;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:justify-around {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+  .sm\:tracking-wider {
+    letter-spacing: 0.05em;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:justify-around {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+  .md\:tracking-wider {
+    letter-spacing: 0.05em;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:justify-around {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+  .lg\:tracking-wider {
+    letter-spacing: 0.05em;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:justify-around {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+  .xl\:tracking-wider {
+    letter-spacing: 0.05em;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:justify-around {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+  .\32k\:tracking-wider {
+    letter-spacing: 0.05em;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:justify-around {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+  .\33k\:tracking-wider {
+    letter-spacing: 0.05em;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:justify-around {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+  .\34k\:tracking-wider {
+    letter-spacing: 0.05em;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:justify-around {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+  .\35k\:tracking-wider {
+    letter-spacing: 0.05em;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:justify-around {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+  .\36k\:tracking-wider {
+    letter-spacing: 0.05em;
+  }
+}
+
+/* hover */
+/* focus */
+/* basic */
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
+/* responsive */
+@media (min-width: 320px) {
+  .xs\:tracking-widest {
+    letter-spacing: 0.1em;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:tracking-widest {
+    letter-spacing: 0.1em;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:tracking-widest {
+    letter-spacing: 0.1em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:tracking-widest {
+    letter-spacing: 0.1em;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:tracking-widest {
+    letter-spacing: 0.1em;
+  }
+}
+
+@media (min-width: 1920px) {
+  .\32k\:tracking-widest {
+    letter-spacing: 0.1em;
+  }
+}
+
+@media (min-width: 2560px) {
+  .\33k\:tracking-widest {
+    letter-spacing: 0.1em;
+  }
+}
+
+@media (min-width: 3840px) {
+  .\34k\:tracking-widest {
+    letter-spacing: 0.1em;
+  }
+}
+
+@media (min-width: 6400px) {
+  .\35k\:tracking-widest {
+    letter-spacing: 0.1em;
+  }
+}
+
+@media (min-width: 7680px) {
+  .\36k\:tracking-widest {
+    letter-spacing: 0.1em;
   }
 }
 

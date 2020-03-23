@@ -33,7 +33,7 @@
 - height ~ (responsive) (hover)
 - **(OK)** inset ~ (responsive)
 - **(OK)** justifyContent ~ (responsive)
-- letterSpacing ~ (responsive)
+- **(OK)** letterSpacing ~ (responsive)
 - lineHeight ~ (responsive)
 - listStylePosition ~ (responsive)
 - listStyleType ~ (responsive)

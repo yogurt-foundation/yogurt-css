@@ -1,0 +1,36 @@
+/**
+ * @module: _letterSpacing.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin letterSpacing($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}tracking-#{$modifier}#{$pseudo} {
+    letter-spacing: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $letter-spacing {
+
+  /* basic */
+
+  @include letterSpacing("", "", ".", $modifier, $value)
+
+  /* responsive */
+
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include letterSpacing(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+  }
+
+  /* hover */
+
+  /* focus */
+
+}
