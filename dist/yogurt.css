@@ -50,7 +50,7 @@
 /* line height */
 /* list style position */
 /**
- * @module: _flexShrink.scss
+ * @module: _container.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -58,128 +58,69 @@
  * @license: MIT
  */
 /* default */
-.flex-shrink {
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
-}
-
-/* basic */
-.flex-shrink-0 {
-  -ms-flex-positive: 0;
-      flex-grow: 0;
+.container {
+  width: 100%;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:flex-shrink {
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
-  }
-  .xs\:flex-shrink-0 {
-    -ms-flex-positive: 0;
-        flex-grow: 0;
+  .xs\:container {
+    max-width: 320px;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:flex-shrink {
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
-  }
-  .sm\:flex-shrink-0 {
-    -ms-flex-positive: 0;
-        flex-grow: 0;
+  .sm\:container {
+    max-width: 640px;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:flex-shrink {
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
-  }
-  .md\:flex-shrink-0 {
-    -ms-flex-positive: 0;
-        flex-grow: 0;
+  .md\:container {
+    max-width: 768px;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:flex-shrink {
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
-  }
-  .lg\:flex-shrink-0 {
-    -ms-flex-positive: 0;
-        flex-grow: 0;
+  .lg\:container {
+    max-width: 1024px;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:flex-shrink {
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
-  }
-  .xl\:flex-shrink-0 {
-    -ms-flex-positive: 0;
-        flex-grow: 0;
+  .xl\:container {
+    max-width: 1280px;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:flex-shrink {
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
-  }
-  .\32k\:flex-shrink-0 {
-    -ms-flex-positive: 0;
-        flex-grow: 0;
+  .\32k\:container {
+    max-width: 1920px;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:flex-shrink {
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
-  }
-  .\33k\:flex-shrink-0 {
-    -ms-flex-positive: 0;
-        flex-grow: 0;
+  .\33k\:container {
+    max-width: 2560px;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:flex-shrink {
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
-  }
-  .\34k\:flex-shrink-0 {
-    -ms-flex-positive: 0;
-        flex-grow: 0;
+  .\34k\:container {
+    max-width: 3840px;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:flex-shrink {
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
-  }
-  .\35k\:flex-shrink-0 {
-    -ms-flex-positive: 0;
-        flex-grow: 0;
+  .\35k\:container {
+    max-width: 6400px;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:flex-shrink {
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
-  }
-  .\36k\:flex-shrink-0 {
-    -ms-flex-positive: 0;
-        flex-grow: 0;
+  .\36k\:container {
+    max-width: 7680px;
   }
 }
 
-/* hover */
-/* focus */
 /*! yogurt.css v2.0.0 | MIT License | gtihub.com/loouislow81/yogurt-foundation */

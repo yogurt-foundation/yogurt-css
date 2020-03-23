@@ -13,16 +13,20 @@
   }
 }
 
+@mixin containerDefault($prefix, $class) {
+  #{$prefix}#{$class}container {
+    width: 100%
+  }
+}
+
 /* default */
 
-.container {
-  width: 100%
-}
+@include containerDefault("", ".")
 
 /* responsive */
 
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
-    @include container("", "", "", "", $size)
+    @include container(".#{$screen}\\:", "", "", "", $size)
   }
 }
