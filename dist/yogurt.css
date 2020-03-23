@@ -53,680 +53,124 @@
  */
 /* default */
 /* basic */
-.text-xs {
-  font-size: 0.75rem;
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.subpixel-antialiased {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
 }
 
 /* responsive */
 @media (min-width: 320px) {
-  .xs\:text-xs {
-    font-size: 0.75rem;
+  .xs\:antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .xs\:subpixel-antialiased {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
   }
 }
 
 @media (min-width: 640px) {
-  .sm\:text-xs {
-    font-size: 0.75rem;
+  .sm\:antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .sm\:subpixel-antialiased {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:text-xs {
-    font-size: 0.75rem;
+  .md\:antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .md\:subpixel-antialiased {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:text-xs {
-    font-size: 0.75rem;
+  .lg\:antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .lg\:subpixel-antialiased {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:text-xs {
-    font-size: 0.75rem;
+  .xl\:antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .xl\:subpixel-antialiased {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
   }
 }
 
 @media (min-width: 1920px) {
-  .\32k\:text-xs {
-    font-size: 0.75rem;
+  .\32k\:antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .\32k\:subpixel-antialiased {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
   }
 }
 
 @media (min-width: 2560px) {
-  .\33k\:text-xs {
-    font-size: 0.75rem;
+  .\33k\:antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .\33k\:subpixel-antialiased {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
   }
 }
 
 @media (min-width: 3840px) {
-  .\34k\:text-xs {
-    font-size: 0.75rem;
+  .\34k\:antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .\34k\:subpixel-antialiased {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
   }
 }
 
 @media (min-width: 6400px) {
-  .\35k\:text-xs {
-    font-size: 0.75rem;
+  .\35k\:antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .\35k\:subpixel-antialiased {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
   }
 }
 
 @media (min-width: 7680px) {
-  .\36k\:text-xs {
-    font-size: 0.75rem;
-  }
-}
-
-/* hover */
-/* focus */
-/* basic */
-.text-sm {
-  font-size: 0.875rem;
-}
-
-/* responsive */
-@media (min-width: 320px) {
-  .xs\:text-sm {
-    font-size: 0.875rem;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:text-sm {
-    font-size: 0.875rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:text-sm {
-    font-size: 0.875rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:text-sm {
-    font-size: 0.875rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:text-sm {
-    font-size: 0.875rem;
-  }
-}
-
-@media (min-width: 1920px) {
-  .\32k\:text-sm {
-    font-size: 0.875rem;
-  }
-}
-
-@media (min-width: 2560px) {
-  .\33k\:text-sm {
-    font-size: 0.875rem;
-  }
-}
-
-@media (min-width: 3840px) {
-  .\34k\:text-sm {
-    font-size: 0.875rem;
-  }
-}
-
-@media (min-width: 6400px) {
-  .\35k\:text-sm {
-    font-size: 0.875rem;
-  }
-}
-
-@media (min-width: 7680px) {
-  .\36k\:text-sm {
-    font-size: 0.875rem;
-  }
-}
-
-/* hover */
-/* focus */
-/* basic */
-.text-base {
-  font-size: 1rem;
-}
-
-/* responsive */
-@media (min-width: 320px) {
-  .xs\:text-base {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:text-base {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:text-base {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:text-base {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:text-base {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 1920px) {
-  .\32k\:text-base {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 2560px) {
-  .\33k\:text-base {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 3840px) {
-  .\34k\:text-base {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 6400px) {
-  .\35k\:text-base {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 7680px) {
-  .\36k\:text-base {
-    font-size: 1rem;
-  }
-}
-
-/* hover */
-/* focus */
-/* basic */
-.text-lg {
-  font-size: 1.125rem;
-}
-
-/* responsive */
-@media (min-width: 320px) {
-  .xs\:text-lg {
-    font-size: 1.125rem;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:text-lg {
-    font-size: 1.125rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:text-lg {
-    font-size: 1.125rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:text-lg {
-    font-size: 1.125rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:text-lg {
-    font-size: 1.125rem;
-  }
-}
-
-@media (min-width: 1920px) {
-  .\32k\:text-lg {
-    font-size: 1.125rem;
-  }
-}
-
-@media (min-width: 2560px) {
-  .\33k\:text-lg {
-    font-size: 1.125rem;
-  }
-}
-
-@media (min-width: 3840px) {
-  .\34k\:text-lg {
-    font-size: 1.125rem;
-  }
-}
-
-@media (min-width: 6400px) {
-  .\35k\:text-lg {
-    font-size: 1.125rem;
-  }
-}
-
-@media (min-width: 7680px) {
-  .\36k\:text-lg {
-    font-size: 1.125rem;
-  }
-}
-
-/* hover */
-/* focus */
-/* basic */
-.text-xl {
-  font-size: 1.25rem;
-}
-
-/* responsive */
-@media (min-width: 320px) {
-  .xs\:text-xl {
-    font-size: 1.25rem;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:text-xl {
-    font-size: 1.25rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:text-xl {
-    font-size: 1.25rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:text-xl {
-    font-size: 1.25rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:text-xl {
-    font-size: 1.25rem;
-  }
-}
-
-@media (min-width: 1920px) {
-  .\32k\:text-xl {
-    font-size: 1.25rem;
-  }
-}
-
-@media (min-width: 2560px) {
-  .\33k\:text-xl {
-    font-size: 1.25rem;
-  }
-}
-
-@media (min-width: 3840px) {
-  .\34k\:text-xl {
-    font-size: 1.25rem;
-  }
-}
-
-@media (min-width: 6400px) {
-  .\35k\:text-xl {
-    font-size: 1.25rem;
-  }
-}
-
-@media (min-width: 7680px) {
-  .\36k\:text-xl {
-    font-size: 1.25rem;
-  }
-}
-
-/* hover */
-/* focus */
-/* basic */
-.text-2xl {
-  font-size: 1.5rem;
-}
-
-/* responsive */
-@media (min-width: 320px) {
-  .xs\:text-2xl {
-    font-size: 1.5rem;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:text-2xl {
-    font-size: 1.5rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:text-2xl {
-    font-size: 1.5rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:text-2xl {
-    font-size: 1.5rem;
-  }
-}
-
-@media (min-width: 1920px) {
-  .\32k\:text-2xl {
-    font-size: 1.5rem;
-  }
-}
-
-@media (min-width: 2560px) {
-  .\33k\:text-2xl {
-    font-size: 1.5rem;
-  }
-}
-
-@media (min-width: 3840px) {
-  .\34k\:text-2xl {
-    font-size: 1.5rem;
-  }
-}
-
-@media (min-width: 6400px) {
-  .\35k\:text-2xl {
-    font-size: 1.5rem;
-  }
-}
-
-@media (min-width: 7680px) {
-  .\36k\:text-2xl {
-    font-size: 1.5rem;
-  }
-}
-
-/* hover */
-/* focus */
-/* basic */
-.text-3xl {
-  font-size: 1.875rem;
-}
-
-/* responsive */
-@media (min-width: 320px) {
-  .xs\:text-3xl {
-    font-size: 1.875rem;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:text-3xl {
-    font-size: 1.875rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:text-3xl {
-    font-size: 1.875rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:text-3xl {
-    font-size: 1.875rem;
-  }
-}
-
-@media (min-width: 1920px) {
-  .\32k\:text-3xl {
-    font-size: 1.875rem;
-  }
-}
-
-@media (min-width: 2560px) {
-  .\33k\:text-3xl {
-    font-size: 1.875rem;
-  }
-}
-
-@media (min-width: 3840px) {
-  .\34k\:text-3xl {
-    font-size: 1.875rem;
-  }
-}
-
-@media (min-width: 6400px) {
-  .\35k\:text-3xl {
-    font-size: 1.875rem;
-  }
-}
-
-@media (min-width: 7680px) {
-  .\36k\:text-3xl {
-    font-size: 1.875rem;
-  }
-}
-
-/* hover */
-/* focus */
-/* basic */
-.text-4xl {
-  font-size: 2.25rem;
-}
-
-/* responsive */
-@media (min-width: 320px) {
-  .xs\:text-4xl {
-    font-size: 2.25rem;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:text-4xl {
-    font-size: 2.25rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:text-4xl {
-    font-size: 2.25rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:text-4xl {
-    font-size: 2.25rem;
-  }
-}
-
-@media (min-width: 1920px) {
-  .\32k\:text-4xl {
-    font-size: 2.25rem;
-  }
-}
-
-@media (min-width: 2560px) {
-  .\33k\:text-4xl {
-    font-size: 2.25rem;
-  }
-}
-
-@media (min-width: 3840px) {
-  .\34k\:text-4xl {
-    font-size: 2.25rem;
-  }
-}
-
-@media (min-width: 6400px) {
-  .\35k\:text-4xl {
-    font-size: 2.25rem;
-  }
-}
-
-@media (min-width: 7680px) {
-  .\36k\:text-4xl {
-    font-size: 2.25rem;
-  }
-}
-
-/* hover */
-/* focus */
-/* basic */
-.text-5xl {
-  font-size: 3rem;
-}
-
-/* responsive */
-@media (min-width: 320px) {
-  .xs\:text-5xl {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:text-5xl {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:text-5xl {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:text-5xl {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:text-5xl {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 1920px) {
-  .\32k\:text-5xl {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 2560px) {
-  .\33k\:text-5xl {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 3840px) {
-  .\34k\:text-5xl {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 6400px) {
-  .\35k\:text-5xl {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 7680px) {
-  .\36k\:text-5xl {
-    font-size: 3rem;
-  }
-}
-
-/* hover */
-/* focus */
-/* basic */
-.text-6xl {
-  font-size: 4rem;
-}
-
-/* responsive */
-@media (min-width: 320px) {
-  .xs\:text-6xl {
-    font-size: 4rem;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:text-6xl {
-    font-size: 4rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:text-6xl {
-    font-size: 4rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:text-6xl {
-    font-size: 4rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:text-6xl {
-    font-size: 4rem;
-  }
-}
-
-@media (min-width: 1920px) {
-  .\32k\:text-6xl {
-    font-size: 4rem;
-  }
-}
-
-@media (min-width: 2560px) {
-  .\33k\:text-6xl {
-    font-size: 4rem;
-  }
-}
-
-@media (min-width: 3840px) {
-  .\34k\:text-6xl {
-    font-size: 4rem;
-  }
-}
-
-@media (min-width: 6400px) {
-  .\35k\:text-6xl {
-    font-size: 4rem;
-  }
-}
-
-@media (min-width: 7680px) {
-  .\36k\:text-6xl {
-    font-size: 4rem;
+  .\36k\:antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .\36k\:subpixel-antialiased {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
   }
 }
 
