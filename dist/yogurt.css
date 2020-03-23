@@ -54,8 +54,9 @@
 /* max width */
 /* min height */
 /* min width */
+/* opacity */
 /**
- * @module: _minWidth.scss
+ * @module: _opacity.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -64,139 +65,718 @@
  */
 /* default */
 /* basic */
-.min-w-0 {
-  min-width: 0;
-}
-
-/* responsive */
-@media (min-width: 320px) {
-  .xs\:min-w-0 {
-    min-width: 0;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:min-w-0 {
-    min-width: 0;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:min-w-0 {
-    min-width: 0;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:min-w-0 {
-    min-width: 0;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:min-w-0 {
-    min-width: 0;
-  }
-}
-
-@media (min-width: 1920px) {
-  .\32k\:min-w-0 {
-    min-width: 0;
-  }
-}
-
-@media (min-width: 2560px) {
-  .\33k\:min-w-0 {
-    min-width: 0;
-  }
-}
-
-@media (min-width: 3840px) {
-  .\34k\:min-w-0 {
-    min-width: 0;
-  }
-}
-
-@media (min-width: 6400px) {
-  .\35k\:min-w-0 {
-    min-width: 0;
-  }
-}
-
-@media (min-width: 7680px) {
-  .\36k\:min-w-0 {
-    min-width: 0;
-  }
+.opacity-0 {
+  opacity: 0;
 }
 
 /* hover */
+.hover\:opacity-0:hover {
+  opacity: 0;
+}
+
 /* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* basic */
+  .xs\:opacity-0 {
+    opacity: 0;
+  }
+  /* hover */
+  .xs\:hover\:opacity-0:hover {
+    opacity: 0;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* basic */
+  .sm\:opacity-0 {
+    opacity: 0;
+  }
+  /* hover */
+  .sm\:hover\:opacity-0:hover {
+    opacity: 0;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* basic */
+  .md\:opacity-0 {
+    opacity: 0;
+  }
+  /* hover */
+  .md\:hover\:opacity-0:hover {
+    opacity: 0;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* basic */
+  .lg\:opacity-0 {
+    opacity: 0;
+  }
+  /* hover */
+  .lg\:hover\:opacity-0:hover {
+    opacity: 0;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* basic */
+  .xl\:opacity-0 {
+    opacity: 0;
+  }
+  /* hover */
+  .xl\:hover\:opacity-0:hover {
+    opacity: 0;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* basic */
+  .\32k\:opacity-0 {
+    opacity: 0;
+  }
+  /* hover */
+  .\32k\:hover\:opacity-0:hover {
+    opacity: 0;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* basic */
+  .\33k\:opacity-0 {
+    opacity: 0;
+  }
+  /* hover */
+  .\33k\:hover\:opacity-0:hover {
+    opacity: 0;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* basic */
+  .\34k\:opacity-0 {
+    opacity: 0;
+  }
+  /* hover */
+  .\34k\:hover\:opacity-0:hover {
+    opacity: 0;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* basic */
+  .\35k\:opacity-0 {
+    opacity: 0;
+  }
+  /* hover */
+  .\35k\:hover\:opacity-0:hover {
+    opacity: 0;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* basic */
+  .\36k\:opacity-0 {
+    opacity: 0;
+  }
+  /* hover */
+  .\36k\:hover\:opacity-0:hover {
+    opacity: 0;
+  }
+  /* focus */
+  /* active */
+}
+
 /* basic */
-.min-w-full {
-  min-width: 100%;
-}
-
-/* responsive */
-@media (min-width: 320px) {
-  .xs\:min-w-full {
-    min-width: 100%;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:min-w-full {
-    min-width: 100%;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:min-w-full {
-    min-width: 100%;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:min-w-full {
-    min-width: 100%;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:min-w-full {
-    min-width: 100%;
-  }
-}
-
-@media (min-width: 1920px) {
-  .\32k\:min-w-full {
-    min-width: 100%;
-  }
-}
-
-@media (min-width: 2560px) {
-  .\33k\:min-w-full {
-    min-width: 100%;
-  }
-}
-
-@media (min-width: 3840px) {
-  .\34k\:min-w-full {
-    min-width: 100%;
-  }
-}
-
-@media (min-width: 6400px) {
-  .\35k\:min-w-full {
-    min-width: 100%;
-  }
-}
-
-@media (min-width: 7680px) {
-  .\36k\:min-w-full {
-    min-width: 100%;
-  }
+.opacity-25 {
+  opacity: 0.25;
 }
 
 /* hover */
+.hover\:opacity-25:hover {
+  opacity: 0.25;
+}
+
 /* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* basic */
+  .xs\:opacity-25 {
+    opacity: 0.25;
+  }
+  /* hover */
+  .xs\:hover\:opacity-25:hover {
+    opacity: 0.25;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* basic */
+  .sm\:opacity-25 {
+    opacity: 0.25;
+  }
+  /* hover */
+  .sm\:hover\:opacity-25:hover {
+    opacity: 0.25;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* basic */
+  .md\:opacity-25 {
+    opacity: 0.25;
+  }
+  /* hover */
+  .md\:hover\:opacity-25:hover {
+    opacity: 0.25;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* basic */
+  .lg\:opacity-25 {
+    opacity: 0.25;
+  }
+  /* hover */
+  .lg\:hover\:opacity-25:hover {
+    opacity: 0.25;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* basic */
+  .xl\:opacity-25 {
+    opacity: 0.25;
+  }
+  /* hover */
+  .xl\:hover\:opacity-25:hover {
+    opacity: 0.25;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* basic */
+  .\32k\:opacity-25 {
+    opacity: 0.25;
+  }
+  /* hover */
+  .\32k\:hover\:opacity-25:hover {
+    opacity: 0.25;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* basic */
+  .\33k\:opacity-25 {
+    opacity: 0.25;
+  }
+  /* hover */
+  .\33k\:hover\:opacity-25:hover {
+    opacity: 0.25;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* basic */
+  .\34k\:opacity-25 {
+    opacity: 0.25;
+  }
+  /* hover */
+  .\34k\:hover\:opacity-25:hover {
+    opacity: 0.25;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* basic */
+  .\35k\:opacity-25 {
+    opacity: 0.25;
+  }
+  /* hover */
+  .\35k\:hover\:opacity-25:hover {
+    opacity: 0.25;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* basic */
+  .\36k\:opacity-25 {
+    opacity: 0.25;
+  }
+  /* hover */
+  .\36k\:hover\:opacity-25:hover {
+    opacity: 0.25;
+  }
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.opacity-50 {
+  opacity: 0.5;
+}
+
+/* hover */
+.hover\:opacity-50:hover {
+  opacity: 0.5;
+}
+
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* basic */
+  .xs\:opacity-50 {
+    opacity: 0.5;
+  }
+  /* hover */
+  .xs\:hover\:opacity-50:hover {
+    opacity: 0.5;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* basic */
+  .sm\:opacity-50 {
+    opacity: 0.5;
+  }
+  /* hover */
+  .sm\:hover\:opacity-50:hover {
+    opacity: 0.5;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* basic */
+  .md\:opacity-50 {
+    opacity: 0.5;
+  }
+  /* hover */
+  .md\:hover\:opacity-50:hover {
+    opacity: 0.5;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* basic */
+  .lg\:opacity-50 {
+    opacity: 0.5;
+  }
+  /* hover */
+  .lg\:hover\:opacity-50:hover {
+    opacity: 0.5;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* basic */
+  .xl\:opacity-50 {
+    opacity: 0.5;
+  }
+  /* hover */
+  .xl\:hover\:opacity-50:hover {
+    opacity: 0.5;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* basic */
+  .\32k\:opacity-50 {
+    opacity: 0.5;
+  }
+  /* hover */
+  .\32k\:hover\:opacity-50:hover {
+    opacity: 0.5;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* basic */
+  .\33k\:opacity-50 {
+    opacity: 0.5;
+  }
+  /* hover */
+  .\33k\:hover\:opacity-50:hover {
+    opacity: 0.5;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* basic */
+  .\34k\:opacity-50 {
+    opacity: 0.5;
+  }
+  /* hover */
+  .\34k\:hover\:opacity-50:hover {
+    opacity: 0.5;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* basic */
+  .\35k\:opacity-50 {
+    opacity: 0.5;
+  }
+  /* hover */
+  .\35k\:hover\:opacity-50:hover {
+    opacity: 0.5;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* basic */
+  .\36k\:opacity-50 {
+    opacity: 0.5;
+  }
+  /* hover */
+  .\36k\:hover\:opacity-50:hover {
+    opacity: 0.5;
+  }
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.opacity-75 {
+  opacity: 0.75;
+}
+
+/* hover */
+.hover\:opacity-75:hover {
+  opacity: 0.75;
+}
+
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* basic */
+  .xs\:opacity-75 {
+    opacity: 0.75;
+  }
+  /* hover */
+  .xs\:hover\:opacity-75:hover {
+    opacity: 0.75;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* basic */
+  .sm\:opacity-75 {
+    opacity: 0.75;
+  }
+  /* hover */
+  .sm\:hover\:opacity-75:hover {
+    opacity: 0.75;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* basic */
+  .md\:opacity-75 {
+    opacity: 0.75;
+  }
+  /* hover */
+  .md\:hover\:opacity-75:hover {
+    opacity: 0.75;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* basic */
+  .lg\:opacity-75 {
+    opacity: 0.75;
+  }
+  /* hover */
+  .lg\:hover\:opacity-75:hover {
+    opacity: 0.75;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* basic */
+  .xl\:opacity-75 {
+    opacity: 0.75;
+  }
+  /* hover */
+  .xl\:hover\:opacity-75:hover {
+    opacity: 0.75;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* basic */
+  .\32k\:opacity-75 {
+    opacity: 0.75;
+  }
+  /* hover */
+  .\32k\:hover\:opacity-75:hover {
+    opacity: 0.75;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* basic */
+  .\33k\:opacity-75 {
+    opacity: 0.75;
+  }
+  /* hover */
+  .\33k\:hover\:opacity-75:hover {
+    opacity: 0.75;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* basic */
+  .\34k\:opacity-75 {
+    opacity: 0.75;
+  }
+  /* hover */
+  .\34k\:hover\:opacity-75:hover {
+    opacity: 0.75;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* basic */
+  .\35k\:opacity-75 {
+    opacity: 0.75;
+  }
+  /* hover */
+  .\35k\:hover\:opacity-75:hover {
+    opacity: 0.75;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* basic */
+  .\36k\:opacity-75 {
+    opacity: 0.75;
+  }
+  /* hover */
+  .\36k\:hover\:opacity-75:hover {
+    opacity: 0.75;
+  }
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.opacity-100 {
+  opacity: 1;
+}
+
+/* hover */
+.hover\:opacity-100:hover {
+  opacity: 1;
+}
+
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* basic */
+  .xs\:opacity-100 {
+    opacity: 1;
+  }
+  /* hover */
+  .xs\:hover\:opacity-100:hover {
+    opacity: 1;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* basic */
+  .sm\:opacity-100 {
+    opacity: 1;
+  }
+  /* hover */
+  .sm\:hover\:opacity-100:hover {
+    opacity: 1;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* basic */
+  .md\:opacity-100 {
+    opacity: 1;
+  }
+  /* hover */
+  .md\:hover\:opacity-100:hover {
+    opacity: 1;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* basic */
+  .lg\:opacity-100 {
+    opacity: 1;
+  }
+  /* hover */
+  .lg\:hover\:opacity-100:hover {
+    opacity: 1;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* basic */
+  .xl\:opacity-100 {
+    opacity: 1;
+  }
+  /* hover */
+  .xl\:hover\:opacity-100:hover {
+    opacity: 1;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* basic */
+  .\32k\:opacity-100 {
+    opacity: 1;
+  }
+  /* hover */
+  .\32k\:hover\:opacity-100:hover {
+    opacity: 1;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* basic */
+  .\33k\:opacity-100 {
+    opacity: 1;
+  }
+  /* hover */
+  .\33k\:hover\:opacity-100:hover {
+    opacity: 1;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* basic */
+  .\34k\:opacity-100 {
+    opacity: 1;
+  }
+  /* hover */
+  .\34k\:hover\:opacity-100:hover {
+    opacity: 1;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* basic */
+  .\35k\:opacity-100 {
+    opacity: 1;
+  }
+  /* hover */
+  .\35k\:hover\:opacity-100:hover {
+    opacity: 1;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* basic */
+  .\36k\:opacity-100 {
+    opacity: 1;
+  }
+  /* hover */
+  .\36k\:hover\:opacity-100:hover {
+    opacity: 1;
+  }
+  /* focus */
+  /* active */
+}
+
 /*! yogurt.css v2.0.0 | MIT License | gtihub.com/loouislow81/yogurt-foundation */

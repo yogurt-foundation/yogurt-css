@@ -1,0 +1,37 @@
+/**
+ * @module: _opacity.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin opacity($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}opacity-#{$modifier}#{$pseudo} {
+    opacity: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $opacity {
+  /* basic */
+  @include opacity("", "", ".", $modifier, $value)
+  /* hover */
+  @include opacity(".hover\\:", ":hover", "", $modifier, $value)
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* basic */
+      @include opacity(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      @include opacity(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      /* focus */
+      /* active */
+    }
+  }
+}

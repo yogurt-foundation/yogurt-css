@@ -41,7 +41,7 @@
 - **(OK)** maxHeight ~ (responsive)
 - **(OK)** maxWidth ~ (responsive)
 - **(OK)** minHeight ~ (responsive)
-- minWidth ~ (responsive)
+- **(OK)** minWidth ~ (responsive)
 - objectFit ~ (responsive)
 - objectPosition ~ (responsive)
 - opacity ~ (responsive) (hover)
