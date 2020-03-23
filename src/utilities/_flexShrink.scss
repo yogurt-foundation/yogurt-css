@@ -13,11 +13,15 @@
   }
 }
 
+@mixin flexShrinkDefault($prefix, $class) {
+  #{$prefix}#{$class}flex-shrink {
+    flex-shrink: 1
+  }
+}
+
 /* default */
 
-.flex-shrink {
-  flex-shrink: 1
-}
+@include flexShrinkDefault("", "")
 
 /* basic */
 
@@ -27,6 +31,7 @@
 
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
+    @include flexShrinkDefault(".#{$screen}\\:", "")
     @include flexShrink(".#{$screen}\\:", "", "")
   }
 }
