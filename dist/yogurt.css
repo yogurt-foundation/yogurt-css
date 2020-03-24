@@ -68,7 +68,7 @@
 /* user select */
 /* vertical align */
 /**
- * @module: _verticalAlign.scss
+ * @module: _visibility.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -80,21 +80,42 @@
 /* focus */
 /* active */
 /* basic */
-.align-baseline {
-  vertical-align: baseline;
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
 }
 
 /* hover */
+.hover\:visible:hover {
+  visibility: visible;
+}
+
+.hover\:invisible:hover {
+  visibility: hidden;
+}
+
 /* focus */
 /* active */
 /* responsive */
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:align-baseline {
-    vertical-align: baseline;
+  .xs\:visible {
+    visibility: visible;
+  }
+  .xs\:invisible {
+    visibility: hidden;
   }
   /* hover */
+  .xs\:hover\:visible:hover {
+    visibility: visible;
+  }
+  .xs\:hover\:invisible:hover {
+    visibility: hidden;
+  }
   /* focus */
   /* active */
 }
@@ -102,10 +123,19 @@
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:align-baseline {
-    vertical-align: baseline;
+  .sm\:visible {
+    visibility: visible;
+  }
+  .sm\:invisible {
+    visibility: hidden;
   }
   /* hover */
+  .sm\:hover\:visible:hover {
+    visibility: visible;
+  }
+  .sm\:hover\:invisible:hover {
+    visibility: hidden;
+  }
   /* focus */
   /* active */
 }
@@ -113,10 +143,19 @@
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:align-baseline {
-    vertical-align: baseline;
+  .md\:visible {
+    visibility: visible;
+  }
+  .md\:invisible {
+    visibility: hidden;
   }
   /* hover */
+  .md\:hover\:visible:hover {
+    visibility: visible;
+  }
+  .md\:hover\:invisible:hover {
+    visibility: hidden;
+  }
   /* focus */
   /* active */
 }
@@ -124,10 +163,19 @@
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:align-baseline {
-    vertical-align: baseline;
+  .lg\:visible {
+    visibility: visible;
+  }
+  .lg\:invisible {
+    visibility: hidden;
   }
   /* hover */
+  .lg\:hover\:visible:hover {
+    visibility: visible;
+  }
+  .lg\:hover\:invisible:hover {
+    visibility: hidden;
+  }
   /* focus */
   /* active */
 }
@@ -135,10 +183,19 @@
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:align-baseline {
-    vertical-align: baseline;
+  .xl\:visible {
+    visibility: visible;
+  }
+  .xl\:invisible {
+    visibility: hidden;
   }
   /* hover */
+  .xl\:hover\:visible:hover {
+    visibility: visible;
+  }
+  .xl\:hover\:invisible:hover {
+    visibility: hidden;
+  }
   /* focus */
   /* active */
 }
@@ -146,10 +203,19 @@
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:align-baseline {
-    vertical-align: baseline;
+  .\32k\:visible {
+    visibility: visible;
+  }
+  .\32k\:invisible {
+    visibility: hidden;
   }
   /* hover */
+  .\32k\:hover\:visible:hover {
+    visibility: visible;
+  }
+  .\32k\:hover\:invisible:hover {
+    visibility: hidden;
+  }
   /* focus */
   /* active */
 }
@@ -157,10 +223,19 @@
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:align-baseline {
-    vertical-align: baseline;
+  .\33k\:visible {
+    visibility: visible;
+  }
+  .\33k\:invisible {
+    visibility: hidden;
   }
   /* hover */
+  .\33k\:hover\:visible:hover {
+    visibility: visible;
+  }
+  .\33k\:hover\:invisible:hover {
+    visibility: hidden;
+  }
   /* focus */
   /* active */
 }
@@ -168,10 +243,19 @@
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:align-baseline {
-    vertical-align: baseline;
+  .\34k\:visible {
+    visibility: visible;
+  }
+  .\34k\:invisible {
+    visibility: hidden;
   }
   /* hover */
+  .\34k\:hover\:visible:hover {
+    visibility: visible;
+  }
+  .\34k\:hover\:invisible:hover {
+    visibility: hidden;
+  }
   /* focus */
   /* active */
 }
@@ -179,10 +263,19 @@
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:align-baseline {
-    vertical-align: baseline;
+  .\35k\:visible {
+    visibility: visible;
+  }
+  .\35k\:invisible {
+    visibility: hidden;
   }
   /* hover */
+  .\35k\:hover\:visible:hover {
+    visibility: visible;
+  }
+  .\35k\:hover\:invisible:hover {
+    visibility: hidden;
+  }
   /* focus */
   /* active */
 }
@@ -190,605 +283,19 @@
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:align-baseline {
-    vertical-align: baseline;
+  .\36k\:visible {
+    visibility: visible;
+  }
+  .\36k\:invisible {
+    visibility: hidden;
   }
   /* hover */
-  /* focus */
-  /* active */
-}
-
-/* basic */
-.align-top {
-  vertical-align: top;
-}
-
-/* hover */
-/* focus */
-/* active */
-/* responsive */
-@media (min-width: 320px) {
-  /* default */
-  /* basic */
-  .xs\:align-top {
-    vertical-align: top;
+  .\36k\:hover\:visible:hover {
+    visibility: visible;
   }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 640px) {
-  /* default */
-  /* basic */
-  .sm\:align-top {
-    vertical-align: top;
+  .\36k\:hover\:invisible:hover {
+    visibility: hidden;
   }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* default */
-  /* basic */
-  .md\:align-top {
-    vertical-align: top;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* default */
-  /* basic */
-  .lg\:align-top {
-    vertical-align: top;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* default */
-  /* basic */
-  .xl\:align-top {
-    vertical-align: top;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1920px) {
-  /* default */
-  /* basic */
-  .\32k\:align-top {
-    vertical-align: top;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 2560px) {
-  /* default */
-  /* basic */
-  .\33k\:align-top {
-    vertical-align: top;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 3840px) {
-  /* default */
-  /* basic */
-  .\34k\:align-top {
-    vertical-align: top;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 6400px) {
-  /* default */
-  /* basic */
-  .\35k\:align-top {
-    vertical-align: top;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 7680px) {
-  /* default */
-  /* basic */
-  .\36k\:align-top {
-    vertical-align: top;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-/* basic */
-.align-middle {
-  vertical-align: middle;
-}
-
-/* hover */
-/* focus */
-/* active */
-/* responsive */
-@media (min-width: 320px) {
-  /* default */
-  /* basic */
-  .xs\:align-middle {
-    vertical-align: middle;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 640px) {
-  /* default */
-  /* basic */
-  .sm\:align-middle {
-    vertical-align: middle;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* default */
-  /* basic */
-  .md\:align-middle {
-    vertical-align: middle;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* default */
-  /* basic */
-  .lg\:align-middle {
-    vertical-align: middle;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* default */
-  /* basic */
-  .xl\:align-middle {
-    vertical-align: middle;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1920px) {
-  /* default */
-  /* basic */
-  .\32k\:align-middle {
-    vertical-align: middle;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 2560px) {
-  /* default */
-  /* basic */
-  .\33k\:align-middle {
-    vertical-align: middle;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 3840px) {
-  /* default */
-  /* basic */
-  .\34k\:align-middle {
-    vertical-align: middle;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 6400px) {
-  /* default */
-  /* basic */
-  .\35k\:align-middle {
-    vertical-align: middle;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 7680px) {
-  /* default */
-  /* basic */
-  .\36k\:align-middle {
-    vertical-align: middle;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-/* basic */
-.align-bottom {
-  vertical-align: bottom;
-}
-
-/* hover */
-/* focus */
-/* active */
-/* responsive */
-@media (min-width: 320px) {
-  /* default */
-  /* basic */
-  .xs\:align-bottom {
-    vertical-align: bottom;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 640px) {
-  /* default */
-  /* basic */
-  .sm\:align-bottom {
-    vertical-align: bottom;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* default */
-  /* basic */
-  .md\:align-bottom {
-    vertical-align: bottom;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* default */
-  /* basic */
-  .lg\:align-bottom {
-    vertical-align: bottom;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* default */
-  /* basic */
-  .xl\:align-bottom {
-    vertical-align: bottom;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1920px) {
-  /* default */
-  /* basic */
-  .\32k\:align-bottom {
-    vertical-align: bottom;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 2560px) {
-  /* default */
-  /* basic */
-  .\33k\:align-bottom {
-    vertical-align: bottom;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 3840px) {
-  /* default */
-  /* basic */
-  .\34k\:align-bottom {
-    vertical-align: bottom;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 6400px) {
-  /* default */
-  /* basic */
-  .\35k\:align-bottom {
-    vertical-align: bottom;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 7680px) {
-  /* default */
-  /* basic */
-  .\36k\:align-bottom {
-    vertical-align: bottom;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-/* basic */
-.align-text-top {
-  vertical-align: text-top;
-}
-
-/* hover */
-/* focus */
-/* active */
-/* responsive */
-@media (min-width: 320px) {
-  /* default */
-  /* basic */
-  .xs\:align-text-top {
-    vertical-align: text-top;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 640px) {
-  /* default */
-  /* basic */
-  .sm\:align-text-top {
-    vertical-align: text-top;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* default */
-  /* basic */
-  .md\:align-text-top {
-    vertical-align: text-top;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* default */
-  /* basic */
-  .lg\:align-text-top {
-    vertical-align: text-top;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* default */
-  /* basic */
-  .xl\:align-text-top {
-    vertical-align: text-top;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1920px) {
-  /* default */
-  /* basic */
-  .\32k\:align-text-top {
-    vertical-align: text-top;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 2560px) {
-  /* default */
-  /* basic */
-  .\33k\:align-text-top {
-    vertical-align: text-top;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 3840px) {
-  /* default */
-  /* basic */
-  .\34k\:align-text-top {
-    vertical-align: text-top;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 6400px) {
-  /* default */
-  /* basic */
-  .\35k\:align-text-top {
-    vertical-align: text-top;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 7680px) {
-  /* default */
-  /* basic */
-  .\36k\:align-text-top {
-    vertical-align: text-top;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-/* basic */
-.align-text-bottom {
-  vertical-align: text-bottom;
-}
-
-/* hover */
-/* focus */
-/* active */
-/* responsive */
-@media (min-width: 320px) {
-  /* default */
-  /* basic */
-  .xs\:align-text-bottom {
-    vertical-align: text-bottom;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 640px) {
-  /* default */
-  /* basic */
-  .sm\:align-text-bottom {
-    vertical-align: text-bottom;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* default */
-  /* basic */
-  .md\:align-text-bottom {
-    vertical-align: text-bottom;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* default */
-  /* basic */
-  .lg\:align-text-bottom {
-    vertical-align: text-bottom;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* default */
-  /* basic */
-  .xl\:align-text-bottom {
-    vertical-align: text-bottom;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1920px) {
-  /* default */
-  /* basic */
-  .\32k\:align-text-bottom {
-    vertical-align: text-bottom;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 2560px) {
-  /* default */
-  /* basic */
-  .\33k\:align-text-bottom {
-    vertical-align: text-bottom;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 3840px) {
-  /* default */
-  /* basic */
-  .\34k\:align-text-bottom {
-    vertical-align: text-bottom;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 6400px) {
-  /* default */
-  /* basic */
-  .\35k\:align-text-bottom {
-    vertical-align: text-bottom;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 7680px) {
-  /* default */
-  /* basic */
-  .\36k\:align-text-bottom {
-    vertical-align: text-bottom;
-  }
-  /* hover */
   /* focus */
   /* active */
 }
