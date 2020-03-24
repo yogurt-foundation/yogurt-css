@@ -22,6 +22,7 @@
   /* basic */
   @include fontSize("", "", ".", $modifier, $value)
   /* hover */
+  @include fontSize(".hover\\:", ":hover", "", $modifier, $value)
   /* focus */
   /* active */
 
@@ -32,6 +33,7 @@
       /* basic */
       @include fontSize(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
+      @include fontSize(".hover\\:", ":hover", "", $modifier, $value)
       /* focus */
       /* active */
     }
