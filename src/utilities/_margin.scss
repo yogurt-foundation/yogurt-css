@@ -11,24 +11,24 @@
   #{$prefix}#{$class}#{$negative}m-#{$modifier}#{$pseudo}{
     margin: #{$negative}#{$value};
   }
-  #{$prefix}#{$class}#{$negative}my-#{$modifier}#{$pseudo}{
-    margin-top: #{$negative}#{$value};
-    margin-bottom: #{$negative}#{$value}
-  }
-  #{$prefix}#{$class}#{$negative}mx-#{$modifier}#{$pseudo}{
+  #{$prefix}#{$class}#{$negative}mx-#{$modifier}#{$pseudo}{ // mx
     margin-left: #{$negative}#{$value};
     margin-right: #{$negative}#{$value}
   }
-  #{$prefix}#{$class}#{$negative}mt-#{$modifier}#{$pseudo}{
-    margin-top: #{$negative}#{$value}
-  }
-  #{$prefix}#{$class}#{$negative}mb-#{$modifier}#{$pseudo}{
+  #{$prefix}#{$class}#{$negative}my-#{$modifier}#{$pseudo}{ // my
+    margin-top: #{$negative}#{$value};
     margin-bottom: #{$negative}#{$value}
   }
-  #{$prefix}#{$class}#{$negative}ml-#{$modifier}#{$pseudo}{
+  #{$prefix}#{$class}#{$negative}mt-#{$modifier}#{$pseudo}{ // mt
+    margin-top: #{$negative}#{$value}
+  }
+  #{$prefix}#{$class}#{$negative}mb-#{$modifier}#{$pseudo}{ // mb
+    margin-bottom: #{$negative}#{$value}
+  }
+  #{$prefix}#{$class}#{$negative}ml-#{$modifier}#{$pseudo}{ // ml
     margin-left: #{$negative}#{$value}
   }
-  #{$prefix}#{$class}#{$negative}mr-#{$modifier}#{$pseudo}{
+  #{$prefix}#{$class}#{$negative}mr-#{$modifier}#{$pseudo}{ // mr
     margin-right: #{$negative}#{$value}
   }
 }
