@@ -1,0 +1,48 @@
+/**
+ * @module: _resize.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin resize($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}resize-#{$modifier}#{$pseudo} {
+    resize: #{$value}
+  }
+}
+
+@mixin resizeDefault($prefix, $pseudo, $class) {
+  #{$prefix}#{$class}resize#{$pseudo} {
+    resize: both
+  }
+}
+
+/* default */
+@include resizeDefault("", "", ".")
+/* hover */
+@include resizeDefault(".hover\\:", ":hover", "")
+
+@each $modifier, $value in $resize {
+  /* basic */
+  @include resize("", "", ".", $modifier, $value)
+  /* hover */
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* default */
+      @include resizeDefault("", "", ".")
+      /* basic */
+      @include resize(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      @include resizeDefault(".#{$screen}\\:hover\\:", ":hover", "")
+      @include resize(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      /* focus */
+      /* active */
+    }
+  }
+}

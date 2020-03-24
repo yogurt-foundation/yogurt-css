@@ -401,3 +401,10 @@ $position:
   (absolute, absolute),
   (relative, relative),
   (sticky, sticky);
+
+/* resize */
+
+$resize:
+  (none, none),
+  (x, horizontal),
+  (y, vertical);

@@ -61,8 +61,9 @@
 /* overflow */
 /* pointer events */
 /* position */
+/* resize */
 /**
- * @module: _position.scss
+ * @module: _resize.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -70,28 +71,39 @@
  * @license: MIT
  */
 /* default */
-/* basic */
-.static {
-  position: static;
+.resize {
+  resize: both;
 }
 
 /* hover */
-.hover\:static:hover {
-  position: static;
+.hover\:resize:hover {
+  resize: both;
 }
 
+/* basic */
+.resize-none {
+  resize: none;
+}
+
+/* hover */
 /* focus */
 /* active */
 /* responsive */
 @media (min-width: 320px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .xs\:static {
-    position: static;
+  .xs\:resize-none {
+    resize: none;
   }
   /* hover */
-  .xs\:hover\:static:hover {
-    position: static;
+  .xs\:hover\:resize:hover {
+    resize: both;
+  }
+  .xs\:hover\:resize-none:hover {
+    resize: none;
   }
   /* focus */
   /* active */
@@ -99,13 +111,19 @@
 
 @media (min-width: 640px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .sm\:static {
-    position: static;
+  .sm\:resize-none {
+    resize: none;
   }
   /* hover */
-  .sm\:hover\:static:hover {
-    position: static;
+  .sm\:hover\:resize:hover {
+    resize: both;
+  }
+  .sm\:hover\:resize-none:hover {
+    resize: none;
   }
   /* focus */
   /* active */
@@ -113,13 +131,19 @@
 
 @media (min-width: 768px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .md\:static {
-    position: static;
+  .md\:resize-none {
+    resize: none;
   }
   /* hover */
-  .md\:hover\:static:hover {
-    position: static;
+  .md\:hover\:resize:hover {
+    resize: both;
+  }
+  .md\:hover\:resize-none:hover {
+    resize: none;
   }
   /* focus */
   /* active */
@@ -127,13 +151,19 @@
 
 @media (min-width: 1024px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .lg\:static {
-    position: static;
+  .lg\:resize-none {
+    resize: none;
   }
   /* hover */
-  .lg\:hover\:static:hover {
-    position: static;
+  .lg\:hover\:resize:hover {
+    resize: both;
+  }
+  .lg\:hover\:resize-none:hover {
+    resize: none;
   }
   /* focus */
   /* active */
@@ -141,13 +171,19 @@
 
 @media (min-width: 1280px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .xl\:static {
-    position: static;
+  .xl\:resize-none {
+    resize: none;
   }
   /* hover */
-  .xl\:hover\:static:hover {
-    position: static;
+  .xl\:hover\:resize:hover {
+    resize: both;
+  }
+  .xl\:hover\:resize-none:hover {
+    resize: none;
   }
   /* focus */
   /* active */
@@ -155,13 +191,19 @@
 
 @media (min-width: 1920px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .\32k\:static {
-    position: static;
+  .\32k\:resize-none {
+    resize: none;
   }
   /* hover */
-  .\32k\:hover\:static:hover {
-    position: static;
+  .\32k\:hover\:resize:hover {
+    resize: both;
+  }
+  .\32k\:hover\:resize-none:hover {
+    resize: none;
   }
   /* focus */
   /* active */
@@ -169,13 +211,19 @@
 
 @media (min-width: 2560px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .\33k\:static {
-    position: static;
+  .\33k\:resize-none {
+    resize: none;
   }
   /* hover */
-  .\33k\:hover\:static:hover {
-    position: static;
+  .\33k\:hover\:resize:hover {
+    resize: both;
+  }
+  .\33k\:hover\:resize-none:hover {
+    resize: none;
   }
   /* focus */
   /* active */
@@ -183,13 +231,19 @@
 
 @media (min-width: 3840px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .\34k\:static {
-    position: static;
+  .\34k\:resize-none {
+    resize: none;
   }
   /* hover */
-  .\34k\:hover\:static:hover {
-    position: static;
+  .\34k\:hover\:resize:hover {
+    resize: both;
+  }
+  .\34k\:hover\:resize-none:hover {
+    resize: none;
   }
   /* focus */
   /* active */
@@ -197,13 +251,19 @@
 
 @media (min-width: 6400px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .\35k\:static {
-    position: static;
+  .\35k\:resize-none {
+    resize: none;
   }
   /* hover */
-  .\35k\:hover\:static:hover {
-    position: static;
+  .\35k\:hover\:resize:hover {
+    resize: both;
+  }
+  .\35k\:hover\:resize-none:hover {
+    resize: none;
   }
   /* focus */
   /* active */
@@ -211,40 +271,48 @@
 
 @media (min-width: 7680px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .\36k\:static {
-    position: static;
+  .\36k\:resize-none {
+    resize: none;
   }
   /* hover */
-  .\36k\:hover\:static:hover {
-    position: static;
+  .\36k\:hover\:resize:hover {
+    resize: both;
+  }
+  .\36k\:hover\:resize-none:hover {
+    resize: none;
   }
   /* focus */
   /* active */
 }
 
 /* basic */
-.fixed {
-  position: fixed;
+.resize-x {
+  resize: horizontal;
 }
 
 /* hover */
-.hover\:fixed:hover {
-  position: fixed;
-}
-
 /* focus */
 /* active */
 /* responsive */
 @media (min-width: 320px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .xs\:fixed {
-    position: fixed;
+  .xs\:resize-x {
+    resize: horizontal;
   }
   /* hover */
-  .xs\:hover\:fixed:hover {
-    position: fixed;
+  .xs\:hover\:resize:hover {
+    resize: both;
+  }
+  .xs\:hover\:resize-x:hover {
+    resize: horizontal;
   }
   /* focus */
   /* active */
@@ -252,13 +320,19 @@
 
 @media (min-width: 640px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .sm\:fixed {
-    position: fixed;
+  .sm\:resize-x {
+    resize: horizontal;
   }
   /* hover */
-  .sm\:hover\:fixed:hover {
-    position: fixed;
+  .sm\:hover\:resize:hover {
+    resize: both;
+  }
+  .sm\:hover\:resize-x:hover {
+    resize: horizontal;
   }
   /* focus */
   /* active */
@@ -266,13 +340,19 @@
 
 @media (min-width: 768px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .md\:fixed {
-    position: fixed;
+  .md\:resize-x {
+    resize: horizontal;
   }
   /* hover */
-  .md\:hover\:fixed:hover {
-    position: fixed;
+  .md\:hover\:resize:hover {
+    resize: both;
+  }
+  .md\:hover\:resize-x:hover {
+    resize: horizontal;
   }
   /* focus */
   /* active */
@@ -280,13 +360,19 @@
 
 @media (min-width: 1024px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .lg\:fixed {
-    position: fixed;
+  .lg\:resize-x {
+    resize: horizontal;
   }
   /* hover */
-  .lg\:hover\:fixed:hover {
-    position: fixed;
+  .lg\:hover\:resize:hover {
+    resize: both;
+  }
+  .lg\:hover\:resize-x:hover {
+    resize: horizontal;
   }
   /* focus */
   /* active */
@@ -294,13 +380,19 @@
 
 @media (min-width: 1280px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .xl\:fixed {
-    position: fixed;
+  .xl\:resize-x {
+    resize: horizontal;
   }
   /* hover */
-  .xl\:hover\:fixed:hover {
-    position: fixed;
+  .xl\:hover\:resize:hover {
+    resize: both;
+  }
+  .xl\:hover\:resize-x:hover {
+    resize: horizontal;
   }
   /* focus */
   /* active */
@@ -308,13 +400,19 @@
 
 @media (min-width: 1920px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .\32k\:fixed {
-    position: fixed;
+  .\32k\:resize-x {
+    resize: horizontal;
   }
   /* hover */
-  .\32k\:hover\:fixed:hover {
-    position: fixed;
+  .\32k\:hover\:resize:hover {
+    resize: both;
+  }
+  .\32k\:hover\:resize-x:hover {
+    resize: horizontal;
   }
   /* focus */
   /* active */
@@ -322,13 +420,19 @@
 
 @media (min-width: 2560px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .\33k\:fixed {
-    position: fixed;
+  .\33k\:resize-x {
+    resize: horizontal;
   }
   /* hover */
-  .\33k\:hover\:fixed:hover {
-    position: fixed;
+  .\33k\:hover\:resize:hover {
+    resize: both;
+  }
+  .\33k\:hover\:resize-x:hover {
+    resize: horizontal;
   }
   /* focus */
   /* active */
@@ -336,13 +440,19 @@
 
 @media (min-width: 3840px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .\34k\:fixed {
-    position: fixed;
+  .\34k\:resize-x {
+    resize: horizontal;
   }
   /* hover */
-  .\34k\:hover\:fixed:hover {
-    position: fixed;
+  .\34k\:hover\:resize:hover {
+    resize: both;
+  }
+  .\34k\:hover\:resize-x:hover {
+    resize: horizontal;
   }
   /* focus */
   /* active */
@@ -350,13 +460,19 @@
 
 @media (min-width: 6400px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .\35k\:fixed {
-    position: fixed;
+  .\35k\:resize-x {
+    resize: horizontal;
   }
   /* hover */
-  .\35k\:hover\:fixed:hover {
-    position: fixed;
+  .\35k\:hover\:resize:hover {
+    resize: both;
+  }
+  .\35k\:hover\:resize-x:hover {
+    resize: horizontal;
   }
   /* focus */
   /* active */
@@ -364,40 +480,48 @@
 
 @media (min-width: 7680px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .\36k\:fixed {
-    position: fixed;
+  .\36k\:resize-x {
+    resize: horizontal;
   }
   /* hover */
-  .\36k\:hover\:fixed:hover {
-    position: fixed;
+  .\36k\:hover\:resize:hover {
+    resize: both;
+  }
+  .\36k\:hover\:resize-x:hover {
+    resize: horizontal;
   }
   /* focus */
   /* active */
 }
 
 /* basic */
-.absolute {
-  position: absolute;
+.resize-y {
+  resize: vertical;
 }
 
 /* hover */
-.hover\:absolute:hover {
-  position: absolute;
-}
-
 /* focus */
 /* active */
 /* responsive */
 @media (min-width: 320px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .xs\:absolute {
-    position: absolute;
+  .xs\:resize-y {
+    resize: vertical;
   }
   /* hover */
-  .xs\:hover\:absolute:hover {
-    position: absolute;
+  .xs\:hover\:resize:hover {
+    resize: both;
+  }
+  .xs\:hover\:resize-y:hover {
+    resize: vertical;
   }
   /* focus */
   /* active */
@@ -405,13 +529,19 @@
 
 @media (min-width: 640px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .sm\:absolute {
-    position: absolute;
+  .sm\:resize-y {
+    resize: vertical;
   }
   /* hover */
-  .sm\:hover\:absolute:hover {
-    position: absolute;
+  .sm\:hover\:resize:hover {
+    resize: both;
+  }
+  .sm\:hover\:resize-y:hover {
+    resize: vertical;
   }
   /* focus */
   /* active */
@@ -419,13 +549,19 @@
 
 @media (min-width: 768px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .md\:absolute {
-    position: absolute;
+  .md\:resize-y {
+    resize: vertical;
   }
   /* hover */
-  .md\:hover\:absolute:hover {
-    position: absolute;
+  .md\:hover\:resize:hover {
+    resize: both;
+  }
+  .md\:hover\:resize-y:hover {
+    resize: vertical;
   }
   /* focus */
   /* active */
@@ -433,13 +569,19 @@
 
 @media (min-width: 1024px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .lg\:absolute {
-    position: absolute;
+  .lg\:resize-y {
+    resize: vertical;
   }
   /* hover */
-  .lg\:hover\:absolute:hover {
-    position: absolute;
+  .lg\:hover\:resize:hover {
+    resize: both;
+  }
+  .lg\:hover\:resize-y:hover {
+    resize: vertical;
   }
   /* focus */
   /* active */
@@ -447,13 +589,19 @@
 
 @media (min-width: 1280px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .xl\:absolute {
-    position: absolute;
+  .xl\:resize-y {
+    resize: vertical;
   }
   /* hover */
-  .xl\:hover\:absolute:hover {
-    position: absolute;
+  .xl\:hover\:resize:hover {
+    resize: both;
+  }
+  .xl\:hover\:resize-y:hover {
+    resize: vertical;
   }
   /* focus */
   /* active */
@@ -461,13 +609,19 @@
 
 @media (min-width: 1920px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .\32k\:absolute {
-    position: absolute;
+  .\32k\:resize-y {
+    resize: vertical;
   }
   /* hover */
-  .\32k\:hover\:absolute:hover {
-    position: absolute;
+  .\32k\:hover\:resize:hover {
+    resize: both;
+  }
+  .\32k\:hover\:resize-y:hover {
+    resize: vertical;
   }
   /* focus */
   /* active */
@@ -475,13 +629,19 @@
 
 @media (min-width: 2560px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .\33k\:absolute {
-    position: absolute;
+  .\33k\:resize-y {
+    resize: vertical;
   }
   /* hover */
-  .\33k\:hover\:absolute:hover {
-    position: absolute;
+  .\33k\:hover\:resize:hover {
+    resize: both;
+  }
+  .\33k\:hover\:resize-y:hover {
+    resize: vertical;
   }
   /* focus */
   /* active */
@@ -489,13 +649,19 @@
 
 @media (min-width: 3840px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .\34k\:absolute {
-    position: absolute;
+  .\34k\:resize-y {
+    resize: vertical;
   }
   /* hover */
-  .\34k\:hover\:absolute:hover {
-    position: absolute;
+  .\34k\:hover\:resize:hover {
+    resize: both;
+  }
+  .\34k\:hover\:resize-y:hover {
+    resize: vertical;
   }
   /* focus */
   /* active */
@@ -503,13 +669,19 @@
 
 @media (min-width: 6400px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .\35k\:absolute {
-    position: absolute;
+  .\35k\:resize-y {
+    resize: vertical;
   }
   /* hover */
-  .\35k\:hover\:absolute:hover {
-    position: absolute;
+  .\35k\:hover\:resize:hover {
+    resize: both;
+  }
+  .\35k\:hover\:resize-y:hover {
+    resize: vertical;
   }
   /* focus */
   /* active */
@@ -517,341 +689,19 @@
 
 @media (min-width: 7680px) {
   /* default */
+  .resize {
+    resize: both;
+  }
   /* basic */
-  .\36k\:absolute {
-    position: absolute;
+  .\36k\:resize-y {
+    resize: vertical;
   }
   /* hover */
-  .\36k\:hover\:absolute:hover {
-    position: absolute;
+  .\36k\:hover\:resize:hover {
+    resize: both;
   }
-  /* focus */
-  /* active */
-}
-
-/* basic */
-.relative {
-  position: relative;
-}
-
-/* hover */
-.hover\:relative:hover {
-  position: relative;
-}
-
-/* focus */
-/* active */
-/* responsive */
-@media (min-width: 320px) {
-  /* default */
-  /* basic */
-  .xs\:relative {
-    position: relative;
-  }
-  /* hover */
-  .xs\:hover\:relative:hover {
-    position: relative;
-  }
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 640px) {
-  /* default */
-  /* basic */
-  .sm\:relative {
-    position: relative;
-  }
-  /* hover */
-  .sm\:hover\:relative:hover {
-    position: relative;
-  }
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* default */
-  /* basic */
-  .md\:relative {
-    position: relative;
-  }
-  /* hover */
-  .md\:hover\:relative:hover {
-    position: relative;
-  }
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* default */
-  /* basic */
-  .lg\:relative {
-    position: relative;
-  }
-  /* hover */
-  .lg\:hover\:relative:hover {
-    position: relative;
-  }
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* default */
-  /* basic */
-  .xl\:relative {
-    position: relative;
-  }
-  /* hover */
-  .xl\:hover\:relative:hover {
-    position: relative;
-  }
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1920px) {
-  /* default */
-  /* basic */
-  .\32k\:relative {
-    position: relative;
-  }
-  /* hover */
-  .\32k\:hover\:relative:hover {
-    position: relative;
-  }
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 2560px) {
-  /* default */
-  /* basic */
-  .\33k\:relative {
-    position: relative;
-  }
-  /* hover */
-  .\33k\:hover\:relative:hover {
-    position: relative;
-  }
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 3840px) {
-  /* default */
-  /* basic */
-  .\34k\:relative {
-    position: relative;
-  }
-  /* hover */
-  .\34k\:hover\:relative:hover {
-    position: relative;
-  }
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 6400px) {
-  /* default */
-  /* basic */
-  .\35k\:relative {
-    position: relative;
-  }
-  /* hover */
-  .\35k\:hover\:relative:hover {
-    position: relative;
-  }
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 7680px) {
-  /* default */
-  /* basic */
-  .\36k\:relative {
-    position: relative;
-  }
-  /* hover */
-  .\36k\:hover\:relative:hover {
-    position: relative;
-  }
-  /* focus */
-  /* active */
-}
-
-/* basic */
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-}
-
-/* hover */
-.hover\:sticky:hover {
-  position: -webkit-sticky;
-  position: sticky;
-}
-
-/* focus */
-/* active */
-/* responsive */
-@media (min-width: 320px) {
-  /* default */
-  /* basic */
-  .xs\:sticky {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  /* hover */
-  .xs\:hover\:sticky:hover {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 640px) {
-  /* default */
-  /* basic */
-  .sm\:sticky {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  /* hover */
-  .sm\:hover\:sticky:hover {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* default */
-  /* basic */
-  .md\:sticky {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  /* hover */
-  .md\:hover\:sticky:hover {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* default */
-  /* basic */
-  .lg\:sticky {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  /* hover */
-  .lg\:hover\:sticky:hover {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* default */
-  /* basic */
-  .xl\:sticky {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  /* hover */
-  .xl\:hover\:sticky:hover {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1920px) {
-  /* default */
-  /* basic */
-  .\32k\:sticky {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  /* hover */
-  .\32k\:hover\:sticky:hover {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 2560px) {
-  /* default */
-  /* basic */
-  .\33k\:sticky {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  /* hover */
-  .\33k\:hover\:sticky:hover {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 3840px) {
-  /* default */
-  /* basic */
-  .\34k\:sticky {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  /* hover */
-  .\34k\:hover\:sticky:hover {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 6400px) {
-  /* default */
-  /* basic */
-  .\35k\:sticky {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  /* hover */
-  .\35k\:hover\:sticky:hover {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 7680px) {
-  /* default */
-  /* basic */
-  .\36k\:sticky {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  /* hover */
-  .\36k\:hover\:sticky:hover {
-    position: -webkit-sticky;
-    position: sticky;
+  .\36k\:hover\:resize-y:hover {
+    resize: vertical;
   }
   /* focus */
   /* active */
