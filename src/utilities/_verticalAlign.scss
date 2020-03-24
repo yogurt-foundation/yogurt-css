@@ -1,0 +1,39 @@
+/**
+ * @module: _verticalAlign.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin verticalAlign($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}align-#{$modifier}#{$pseudo} {
+    vertical-align: #{$value}#{$override}
+  }
+}
+
+/* default */
+/* hover */
+/* focus */
+/* active */
+
+@each $modifier, $value in $vertical-align {
+  /* basic */
+  @include verticalAlign("", "", ".", $modifier, $value)
+  /* hover */
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
+      @include verticalAlign(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      /* focus */
+      /* active */
+    }
+  }
+}

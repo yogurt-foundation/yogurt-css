@@ -66,8 +66,9 @@
 /* table layout */
 /* text align */
 /* user select */
+/* vertical align */
 /**
- * @module: _userSelect.scss
+ * @module: _verticalAlign.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -79,11 +80,8 @@
 /* focus */
 /* active */
 /* basic */
-.select-none {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+.align-baseline {
+  vertical-align: baseline;
 }
 
 /* hover */
@@ -93,11 +91,8 @@
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+  .xs\:align-baseline {
+    vertical-align: baseline;
   }
   /* hover */
   /* focus */
@@ -107,11 +102,8 @@
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+  .sm\:align-baseline {
+    vertical-align: baseline;
   }
   /* hover */
   /* focus */
@@ -121,11 +113,8 @@
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+  .md\:align-baseline {
+    vertical-align: baseline;
   }
   /* hover */
   /* focus */
@@ -135,11 +124,8 @@
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+  .lg\:align-baseline {
+    vertical-align: baseline;
   }
   /* hover */
   /* focus */
@@ -149,11 +135,8 @@
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+  .xl\:align-baseline {
+    vertical-align: baseline;
   }
   /* hover */
   /* focus */
@@ -163,11 +146,8 @@
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+  .\32k\:align-baseline {
+    vertical-align: baseline;
   }
   /* hover */
   /* focus */
@@ -177,11 +157,8 @@
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+  .\33k\:align-baseline {
+    vertical-align: baseline;
   }
   /* hover */
   /* focus */
@@ -191,11 +168,8 @@
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+  .\34k\:align-baseline {
+    vertical-align: baseline;
   }
   /* hover */
   /* focus */
@@ -205,11 +179,8 @@
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+  .\35k\:align-baseline {
+    vertical-align: baseline;
   }
   /* hover */
   /* focus */
@@ -219,11 +190,8 @@
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:select-none {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+  .\36k\:align-baseline {
+    vertical-align: baseline;
   }
   /* hover */
   /* focus */
@@ -231,11 +199,8 @@
 }
 
 /* basic */
-.select-text {
-  -webkit-user-select: text;
-     -moz-user-select: text;
-      -ms-user-select: text;
-          user-select: text;
+.align-top {
+  vertical-align: top;
 }
 
 /* hover */
@@ -245,11 +210,8 @@
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
+  .xs\:align-top {
+    vertical-align: top;
   }
   /* hover */
   /* focus */
@@ -259,11 +221,8 @@
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
+  .sm\:align-top {
+    vertical-align: top;
   }
   /* hover */
   /* focus */
@@ -273,11 +232,8 @@
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
+  .md\:align-top {
+    vertical-align: top;
   }
   /* hover */
   /* focus */
@@ -287,11 +243,8 @@
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
+  .lg\:align-top {
+    vertical-align: top;
   }
   /* hover */
   /* focus */
@@ -301,11 +254,8 @@
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
+  .xl\:align-top {
+    vertical-align: top;
   }
   /* hover */
   /* focus */
@@ -315,11 +265,8 @@
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
+  .\32k\:align-top {
+    vertical-align: top;
   }
   /* hover */
   /* focus */
@@ -329,11 +276,8 @@
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
+  .\33k\:align-top {
+    vertical-align: top;
   }
   /* hover */
   /* focus */
@@ -343,11 +287,8 @@
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
+  .\34k\:align-top {
+    vertical-align: top;
   }
   /* hover */
   /* focus */
@@ -357,11 +298,8 @@
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
+  .\35k\:align-top {
+    vertical-align: top;
   }
   /* hover */
   /* focus */
@@ -371,11 +309,8 @@
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:select-text {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
+  .\36k\:align-top {
+    vertical-align: top;
   }
   /* hover */
   /* focus */
@@ -383,11 +318,8 @@
 }
 
 /* basic */
-.select-all {
-  -webkit-user-select: all;
-     -moz-user-select: all;
-      -ms-user-select: all;
-          user-select: all;
+.align-middle {
+  vertical-align: middle;
 }
 
 /* hover */
@@ -397,11 +329,8 @@
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:select-all {
-    -webkit-user-select: all;
-       -moz-user-select: all;
-        -ms-user-select: all;
-            user-select: all;
+  .xs\:align-middle {
+    vertical-align: middle;
   }
   /* hover */
   /* focus */
@@ -411,11 +340,8 @@
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:select-all {
-    -webkit-user-select: all;
-       -moz-user-select: all;
-        -ms-user-select: all;
-            user-select: all;
+  .sm\:align-middle {
+    vertical-align: middle;
   }
   /* hover */
   /* focus */
@@ -425,11 +351,8 @@
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:select-all {
-    -webkit-user-select: all;
-       -moz-user-select: all;
-        -ms-user-select: all;
-            user-select: all;
+  .md\:align-middle {
+    vertical-align: middle;
   }
   /* hover */
   /* focus */
@@ -439,11 +362,8 @@
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:select-all {
-    -webkit-user-select: all;
-       -moz-user-select: all;
-        -ms-user-select: all;
-            user-select: all;
+  .lg\:align-middle {
+    vertical-align: middle;
   }
   /* hover */
   /* focus */
@@ -453,11 +373,8 @@
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:select-all {
-    -webkit-user-select: all;
-       -moz-user-select: all;
-        -ms-user-select: all;
-            user-select: all;
+  .xl\:align-middle {
+    vertical-align: middle;
   }
   /* hover */
   /* focus */
@@ -467,11 +384,8 @@
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:select-all {
-    -webkit-user-select: all;
-       -moz-user-select: all;
-        -ms-user-select: all;
-            user-select: all;
+  .\32k\:align-middle {
+    vertical-align: middle;
   }
   /* hover */
   /* focus */
@@ -481,11 +395,8 @@
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:select-all {
-    -webkit-user-select: all;
-       -moz-user-select: all;
-        -ms-user-select: all;
-            user-select: all;
+  .\33k\:align-middle {
+    vertical-align: middle;
   }
   /* hover */
   /* focus */
@@ -495,11 +406,8 @@
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:select-all {
-    -webkit-user-select: all;
-       -moz-user-select: all;
-        -ms-user-select: all;
-            user-select: all;
+  .\34k\:align-middle {
+    vertical-align: middle;
   }
   /* hover */
   /* focus */
@@ -509,11 +417,8 @@
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:select-all {
-    -webkit-user-select: all;
-       -moz-user-select: all;
-        -ms-user-select: all;
-            user-select: all;
+  .\35k\:align-middle {
+    vertical-align: middle;
   }
   /* hover */
   /* focus */
@@ -523,11 +428,8 @@
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:select-all {
-    -webkit-user-select: all;
-       -moz-user-select: all;
-        -ms-user-select: all;
-            user-select: all;
+  .\36k\:align-middle {
+    vertical-align: middle;
   }
   /* hover */
   /* focus */
@@ -535,11 +437,8 @@
 }
 
 /* basic */
-.select-auto {
-  -webkit-user-select: auto;
-     -moz-user-select: auto;
-      -ms-user-select: auto;
-          user-select: auto;
+.align-bottom {
+  vertical-align: bottom;
 }
 
 /* hover */
@@ -549,11 +448,8 @@
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:select-auto {
-    -webkit-user-select: auto;
-       -moz-user-select: auto;
-        -ms-user-select: auto;
-            user-select: auto;
+  .xs\:align-bottom {
+    vertical-align: bottom;
   }
   /* hover */
   /* focus */
@@ -563,11 +459,8 @@
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:select-auto {
-    -webkit-user-select: auto;
-       -moz-user-select: auto;
-        -ms-user-select: auto;
-            user-select: auto;
+  .sm\:align-bottom {
+    vertical-align: bottom;
   }
   /* hover */
   /* focus */
@@ -577,11 +470,8 @@
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:select-auto {
-    -webkit-user-select: auto;
-       -moz-user-select: auto;
-        -ms-user-select: auto;
-            user-select: auto;
+  .md\:align-bottom {
+    vertical-align: bottom;
   }
   /* hover */
   /* focus */
@@ -591,11 +481,8 @@
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:select-auto {
-    -webkit-user-select: auto;
-       -moz-user-select: auto;
-        -ms-user-select: auto;
-            user-select: auto;
+  .lg\:align-bottom {
+    vertical-align: bottom;
   }
   /* hover */
   /* focus */
@@ -605,11 +492,8 @@
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:select-auto {
-    -webkit-user-select: auto;
-       -moz-user-select: auto;
-        -ms-user-select: auto;
-            user-select: auto;
+  .xl\:align-bottom {
+    vertical-align: bottom;
   }
   /* hover */
   /* focus */
@@ -619,11 +503,8 @@
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:select-auto {
-    -webkit-user-select: auto;
-       -moz-user-select: auto;
-        -ms-user-select: auto;
-            user-select: auto;
+  .\32k\:align-bottom {
+    vertical-align: bottom;
   }
   /* hover */
   /* focus */
@@ -633,11 +514,8 @@
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:select-auto {
-    -webkit-user-select: auto;
-       -moz-user-select: auto;
-        -ms-user-select: auto;
-            user-select: auto;
+  .\33k\:align-bottom {
+    vertical-align: bottom;
   }
   /* hover */
   /* focus */
@@ -647,11 +525,8 @@
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:select-auto {
-    -webkit-user-select: auto;
-       -moz-user-select: auto;
-        -ms-user-select: auto;
-            user-select: auto;
+  .\34k\:align-bottom {
+    vertical-align: bottom;
   }
   /* hover */
   /* focus */
@@ -661,11 +536,8 @@
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:select-auto {
-    -webkit-user-select: auto;
-       -moz-user-select: auto;
-        -ms-user-select: auto;
-            user-select: auto;
+  .\35k\:align-bottom {
+    vertical-align: bottom;
   }
   /* hover */
   /* focus */
@@ -675,11 +547,246 @@
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:select-auto {
-    -webkit-user-select: auto;
-       -moz-user-select: auto;
-        -ms-user-select: auto;
-            user-select: auto;
+  .\36k\:align-bottom {
+    vertical-align: bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.align-text-top {
+  vertical-align: text-top;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:align-text-top {
+    vertical-align: text-top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:align-text-top {
+    vertical-align: text-top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:align-text-top {
+    vertical-align: text-top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:align-text-top {
+    vertical-align: text-top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:align-text-top {
+    vertical-align: text-top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:align-text-top {
+    vertical-align: text-top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:align-text-top {
+    vertical-align: text-top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:align-text-top {
+    vertical-align: text-top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:align-text-top {
+    vertical-align: text-top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:align-text-top {
+    vertical-align: text-top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.align-text-bottom {
+  vertical-align: text-bottom;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:align-text-bottom {
+    vertical-align: text-bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:align-text-bottom {
+    vertical-align: text-bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:align-text-bottom {
+    vertical-align: text-bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:align-text-bottom {
+    vertical-align: text-bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:align-text-bottom {
+    vertical-align: text-bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:align-text-bottom {
+    vertical-align: text-bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:align-text-bottom {
+    vertical-align: text-bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:align-text-bottom {
+    vertical-align: text-bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:align-text-bottom {
+    vertical-align: text-bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:align-text-bottom {
+    vertical-align: text-bottom;
   }
   /* hover */
   /* focus */

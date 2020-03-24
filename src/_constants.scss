@@ -434,3 +434,13 @@ $user-select:
   (text, text),
   (all, all),
   (auto, auto);
+
+/* vertical align */
+
+$vertical-align:
+  (baseline, baseline),
+  (top, top),
+  (middle, middle),
+  (bottom, bottom),
+  (text-top, text-top),
+  (text-bottom, text-bottom);
