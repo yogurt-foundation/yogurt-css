@@ -20,7 +20,7 @@
 
 # yogurt (2.0.0-proto)
 
-> A colossal size CSS framework that provides only low-level utility for crafting user interface.
+> A colossal size framework that provides only low-level utility for crafting user interface at an atomic level without writing a single line of CSS.
 
 This toolkit allows me to manipulates the `font-size`, `padding`, `margin`, `line-height`, `color`, and so on, with analog or stepping utility control. I am more prefer atomized css selectors with added full-range of different settings for me to choose from, so that I can less or even not to messing with the CSS.
 
