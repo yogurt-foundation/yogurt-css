@@ -1,0 +1,55 @@
+/**
+ * @module: _green.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin textGreen($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
+  #{$prefix}#{$class}text-#{$color}-#{$strength}#{$pseudo} {
+    color: #{$hex}#{$override}
+  }
+}
+
+/* default */
+/* hover */
+/* focus */
+/* active */
+
+@each $modifier, $value in $width {
+  /* basic */
+  @each $mode, $hex, $radius in $green {
+    @include textGreen("", "", ".", green, $mode, $hex, $radius)
+  }
+  /* hover */
+  @each $mode, $hex, $radius in $green {
+    @include textGreen(".hover\\:", ":hover", "", green, $mode, $hex, $radius)
+  }
+  /* focus */
+  @each $mode, $hex, $radius in $green {
+    @include textGreen(".focus\\:", ":focus", "", green, $mode, $hex, $radius)
+  }
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
+      @each $mode, $hex, $radius in $green {
+        @include textGreen(".#{$screen}\\:", "", "", green, $mode, $hex, $radius)
+      }
+      /* hover */
+      @each $mode, $hex, $radius in $green {
+        @include textGreen(".#{$screen}\\:hover\\:", ":hover", "", green, $mode, $hex, $radius)
+      }
+      /* focus */
+      @each $mode, $hex, $radius in $green {
+        @include textGreen(".#{$screen}\\:focus\\:", ":focus", "", green, $mode, $hex, $radius)
+      }
+      /* active */
+    }
+  }
+}
