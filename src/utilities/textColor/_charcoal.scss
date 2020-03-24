@@ -1,0 +1,55 @@
+/**
+ * @module: _charcoal.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin textCharcoal($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
+  #{$prefix}#{$class}text-#{$color}-#{$strength}#{$pseudo} {
+    color: #{$hex}#{$override}
+  }
+}
+
+/* default */
+/* hover */
+/* focus */
+/* active */
+
+@each $modifier, $value in $width {
+  /* basic */
+  @each $mode, $hex, $radius in $charcoal {
+    @include textCharcoal("", "", ".", charcoal, $mode, $hex, $radius)
+  }
+  /* hover */
+  @each $mode, $hex, $radius in $charcoal {
+    @include textCharcoal(".hover\\:", ":hover", "", charcoal, $mode, $hex, $radius)
+  }
+  /* focus */
+  @each $mode, $hex, $radius in $charcoal {
+    @include textCharcoal(".focus\\:", ":focus", "", charcoal, $mode, $hex, $radius)
+  }
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
+      @each $mode, $hex, $radius in $charcoal {
+        @include textCharcoal(".#{$screen}\\:", "", "", charcoal, $mode, $hex, $radius)
+      }
+      /* hover */
+      @each $mode, $hex, $radius in $charcoal {
+        @include textCharcoal(".#{$screen}\\:hover\\:", ":hover", "", charcoal, $mode, $hex, $radius)
+      }
+      /* focus */
+      @each $mode, $hex, $radius in $charcoal {
+        @include textCharcoal(".#{$screen}\\:focus\\:", ":focus", "", charcoal, $mode, $hex, $radius)
+      }
+      /* active */
+    }
+  }
+}
