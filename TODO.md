@@ -26,7 +26,7 @@
 - **(OK)** flexWrap ~ (responsive)
 - **(OK)** float ~ (responsive)
 - **(OK)** fontFamily ~ (responsive)
-- **(OK)** fontSize ~ (responsive)
+- **(OK)** fontSize ~ (responsive) (hover)
 - **(OK)** fontSmoothing ~ (responsive)
 - **(OK)** fontStyle ~ (responsive)
 - **(OK)** fontWeight ~ (responsive) (hover) (focus)
