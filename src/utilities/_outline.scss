@@ -1,0 +1,35 @@
+/**
+ * @module: _outline.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin outline($prefix, $pseudo, $class) {
+  #{$prefix}#{$class}outline#{$pseudo} {
+    outline: 0
+  }
+}
+
+/* default */
+/* basic */
+@include outline("", "", ".")
+/* hover */
+/* focus */
+@include outline(".focus\\:", ":focus", ".")
+/* active */
+
+/* responsive */
+@each $screen, $size in $screens {
+  @media (min-width: #{$size}) {
+    /* default */
+    /* basic */
+    @include outline(".#{$screen}\\:", "", "")
+    /* hover */
+    /* focus */
+    @include outline(".#{$screen}\\:focus\\:", ":focus", ".")
+    /* active */
+  }
+}

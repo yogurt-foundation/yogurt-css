@@ -46,7 +46,7 @@
 - **(OK)** objectPosition ~ (responsive)
 - **(OK)** opacity ~ (responsive) (hover)
 - **(OK)** order ~ (responsive)
-- outline ~ ['responsive', 'focus']
+- **(OK)** outline ~ (responsive), (focus)
 - overflow ~ (responsive)
 - padding ~ (responsive)
 - pointerEvents ~ (responsive)
