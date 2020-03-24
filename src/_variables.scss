@@ -408,3 +408,9 @@ $resize:
   (none, none),
   (x, horizontal),
   (y, vertical);
+
+/* table layout */
+
+$table-layout:
+  (auto, auto),
+  (fixed, fixed);

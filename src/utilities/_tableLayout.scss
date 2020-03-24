@@ -1,0 +1,39 @@
+/**
+ * @module: _tableLayout.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin tableLayout($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}table-#{$modifier}#{$pseudo} {
+    table-layout: #{$value}
+  }
+}
+
+/* default */
+/* hover */
+/* focus */
+/* active */
+
+@each $modifier, $value in $table-layout {
+  /* basic */
+  @include tableLayout("", "", ".", $modifier, $value)
+  /* hover */
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
+      @include tableLayout(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      /* focus */
+      /* active */
+    }
+  }
+}

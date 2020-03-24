@@ -53,7 +53,7 @@
 - **(OK)** position ~ (responsive) (hover)
 - **(OK)** resize ~ (responsive)
 - **(OK)** stroke ~ (responsive)
-- tableLayout ~ (responsive)
+- **(OK)** tableLayout ~ (responsive)
 - textAlign ~ (responsive)
 - textColor ~ (responsive) (hover) (focus)
 - textDecoration ~ (responsive) (hover) (focus)

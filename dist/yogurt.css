@@ -62,8 +62,9 @@
 /* pointer events */
 /* position */
 /* resize */
+/* table layout */
 /**
- * @module: _stroke.scss
+ * @module: _tableLayout.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -75,8 +76,8 @@
 /* focus */
 /* active */
 /* basic */
-.stroke-current {
-  stroke: currentColor;
+.table-auto {
+  table-layout: auto;
 }
 
 /* hover */
@@ -86,8 +87,8 @@
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:stroke-current {
-    stroke: currentColor;
+  .xs\:table-auto {
+    table-layout: auto;
   }
   /* hover */
   /* focus */
@@ -97,8 +98,8 @@
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:stroke-current {
-    stroke: currentColor;
+  .sm\:table-auto {
+    table-layout: auto;
   }
   /* hover */
   /* focus */
@@ -108,8 +109,8 @@
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:stroke-current {
-    stroke: currentColor;
+  .md\:table-auto {
+    table-layout: auto;
   }
   /* hover */
   /* focus */
@@ -119,8 +120,8 @@
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:stroke-current {
-    stroke: currentColor;
+  .lg\:table-auto {
+    table-layout: auto;
   }
   /* hover */
   /* focus */
@@ -130,8 +131,8 @@
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:stroke-current {
-    stroke: currentColor;
+  .xl\:table-auto {
+    table-layout: auto;
   }
   /* hover */
   /* focus */
@@ -141,8 +142,8 @@
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:stroke-current {
-    stroke: currentColor;
+  .\32k\:table-auto {
+    table-layout: auto;
   }
   /* hover */
   /* focus */
@@ -152,8 +153,8 @@
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:stroke-current {
-    stroke: currentColor;
+  .\33k\:table-auto {
+    table-layout: auto;
   }
   /* hover */
   /* focus */
@@ -163,8 +164,8 @@
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:stroke-current {
-    stroke: currentColor;
+  .\34k\:table-auto {
+    table-layout: auto;
   }
   /* hover */
   /* focus */
@@ -174,8 +175,8 @@
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:stroke-current {
-    stroke: currentColor;
+  .\35k\:table-auto {
+    table-layout: auto;
   }
   /* hover */
   /* focus */
@@ -185,8 +186,127 @@
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:stroke-current {
-    stroke: currentColor;
+  .\36k\:table-auto {
+    table-layout: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.table-fixed {
+  table-layout: fixed;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:table-fixed {
+    table-layout: fixed;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:table-fixed {
+    table-layout: fixed;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:table-fixed {
+    table-layout: fixed;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:table-fixed {
+    table-layout: fixed;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:table-fixed {
+    table-layout: fixed;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:table-fixed {
+    table-layout: fixed;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:table-fixed {
+    table-layout: fixed;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:table-fixed {
+    table-layout: fixed;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:table-fixed {
+    table-layout: fixed;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:table-fixed {
+    table-layout: fixed;
   }
   /* hover */
   /* focus */
