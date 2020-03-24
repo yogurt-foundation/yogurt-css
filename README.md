@@ -1,9 +1,9 @@
 
-<p align="left">
-  <img src="assets/logo.png" height="200" wdith="200">
+<p align="center">
+  <img src="assets/logo.jpg" height="200" wdith="200">
 </p>
 
-<p align="left">
+<p align="center">
   <img src="https://badgen.net/github/release/loouislow81/yogurt-foundation">
   <img src="https://badgen.net/github/releases/loouislow81/yogurt-foundation">
   <img src="https://badgen.net/github/assets-dl/loouislow81/yogurt-foundation">
@@ -20,7 +20,7 @@
 
 # yogurt (2.0.0-proto)
 
-> A colossal size CSS utility framework that provides only low-level analogue and stepping tooling.
+> A colossal size CSS framework that provides only low-level utility for crafting user interface.
 
 This toolkit allows me to manipulates the `font-size`, `padding`, `margin`, `line-height`, `color`, and so on, with analog or stepping utility control. I am more prefer atomized css selectors with added full-range of different settings for me to choose from, so that I can less or even not to messing with the CSS.
 
