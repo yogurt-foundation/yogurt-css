@@ -57,7 +57,7 @@
 - **(OK)** textAlign ~ (responsive)
 - textColor ~ (responsive) (hover) (focus)
 - **(OK)** textDecoration ~ (responsive) (hover) (focus)
-- textTransform ~ (responsive)
+- **(OK)** textTransform ~ (responsive)
 - userSelect ~ (responsive)
 - verticalAlign ~ (responsive)
 - visibility ~ (responsive) (hover)

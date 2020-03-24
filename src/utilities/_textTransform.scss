@@ -1,0 +1,46 @@
+/**
+ * @module: _textTransform.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin textTransform($prefix, $pseudo, $class) {
+  #{$prefix}#{$class}uppercase#{$pseudo} {
+    text-transform: uppercase#{$override}
+  }
+  #{$prefix}#{$class}lowercase#{$pseudo} {
+    text-transform: lowercase#{$override}
+  }
+  #{$prefix}#{$class}capitalize#{$pseudo} {
+    text-transform: capitalize#{$override}
+  }
+  #{$prefix}#{$class}normal-case#{$pseudo} {
+    text-transform: none#{$override}
+  }
+}
+
+/* default */
+/* hover */
+/* focus */
+/* active */
+
+/* basic */
+@include textTransform("", "", ".")
+/* hover */
+/* focus */
+/* active */
+
+/* responsive */
+@each $screen, $size in $screens {
+  @media (min-width: #{$size}) {
+    /* default */
+    /* basic */
+    @include textTransform(".#{$screen}\\:", "", "")
+    /* hover */
+    /* focus */
+    /* active */
+  }
+}
