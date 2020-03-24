@@ -63,7 +63,7 @@
 /* position */
 /* resize */
 /**
- * @module: _outline.scss
+ * @module: _stroke.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -75,155 +75,121 @@
 /* focus */
 /* active */
 /* basic */
-.outline {
-  outline: 0;
+.stroke-current {
+  stroke: currentColor;
 }
 
 /* hover */
 /* focus */
-.focus\:outline:focus {
-  outline: 0;
-}
-
 /* active */
 /* responsive */
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:outline {
-    outline: 0;
+  .xs\:stroke-current {
+    stroke: currentColor;
   }
   /* hover */
   /* focus */
-  .xs\:focus\:outline:focus {
-    outline: 0;
-  }
   /* active */
 }
 
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:outline {
-    outline: 0;
+  .sm\:stroke-current {
+    stroke: currentColor;
   }
   /* hover */
   /* focus */
-  .sm\:focus\:outline:focus {
-    outline: 0;
-  }
   /* active */
 }
 
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:outline {
-    outline: 0;
+  .md\:stroke-current {
+    stroke: currentColor;
   }
   /* hover */
   /* focus */
-  .md\:focus\:outline:focus {
-    outline: 0;
-  }
   /* active */
 }
 
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:outline {
-    outline: 0;
+  .lg\:stroke-current {
+    stroke: currentColor;
   }
   /* hover */
   /* focus */
-  .lg\:focus\:outline:focus {
-    outline: 0;
-  }
   /* active */
 }
 
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:outline {
-    outline: 0;
+  .xl\:stroke-current {
+    stroke: currentColor;
   }
   /* hover */
   /* focus */
-  .xl\:focus\:outline:focus {
-    outline: 0;
-  }
   /* active */
 }
 
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:outline {
-    outline: 0;
+  .\32k\:stroke-current {
+    stroke: currentColor;
   }
   /* hover */
   /* focus */
-  .\32k\:focus\:outline:focus {
-    outline: 0;
-  }
   /* active */
 }
 
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:outline {
-    outline: 0;
+  .\33k\:stroke-current {
+    stroke: currentColor;
   }
   /* hover */
   /* focus */
-  .\33k\:focus\:outline:focus {
-    outline: 0;
-  }
   /* active */
 }
 
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:outline {
-    outline: 0;
+  .\34k\:stroke-current {
+    stroke: currentColor;
   }
   /* hover */
   /* focus */
-  .\34k\:focus\:outline:focus {
-    outline: 0;
-  }
   /* active */
 }
 
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:outline {
-    outline: 0;
+  .\35k\:stroke-current {
+    stroke: currentColor;
   }
   /* hover */
   /* focus */
-  .\35k\:focus\:outline:focus {
-    outline: 0;
-  }
   /* active */
 }
 
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:outline {
-    outline: 0;
+  .\36k\:stroke-current {
+    stroke: currentColor;
   }
   /* hover */
   /* focus */
-  .\36k\:focus\:outline:focus {
-    outline: 0;
-  }
   /* active */
 }
 

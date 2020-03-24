@@ -1,0 +1,37 @@
+/**
+ * @module: _stroke.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin stroke($prefix, $pseudo, $class) {
+  #{$prefix}#{$class}stroke-current#{$pseudo} {
+    stroke: currentColor
+  }
+}
+
+/* default */
+/* hover */
+/* focus */
+/* active */
+
+/* basic */
+@include stroke("", "", ".")
+/* hover */
+/* focus */
+/* active */
+
+/* responsive */
+@each $screen, $size in $screens {
+  @media (min-width: #{$size}) {
+    /* default */
+    /* basic */
+    @include stroke(".#{$screen}\\:", "", "")
+    /* hover */
+    /* focus */
+    /* active */
+  }
+}
