@@ -47,7 +47,7 @@
 - **(OK)** opacity ~ (responsive) (hover)
 - **(OK)** order ~ (responsive)
 - **(OK)** outline ~ (responsive), (focus)
-- overflow ~ (responsive)
+- **(OK)** overflow ~ (responsive)
 - padding ~ (responsive)
 - pointerEvents ~ (responsive)
 - position ~ (responsive) (hover)

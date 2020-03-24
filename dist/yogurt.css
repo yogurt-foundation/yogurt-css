@@ -58,8 +58,9 @@
 /* object fit */
 /* object position */
 /* order */
+/* overflow */
 /**
- * @module: _outline.scss
+ * @module: _overflow.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -68,155 +69,1211 @@
  */
 /* default */
 /* basic */
-.outline {
-  outline: 0;
+.overflow-auto {
+  overflow: auto;
 }
 
 /* hover */
 /* focus */
-.focus\:.outline:focus {
-  outline: 0;
-}
-
 /* active */
 /* responsive */
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:outline {
-    outline: 0;
+  .xs\:overflow-auto {
+    overflow: auto;
   }
   /* hover */
   /* focus */
-  .xs\:focus\:.outline:focus {
-    outline: 0;
-  }
   /* active */
 }
 
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:outline {
-    outline: 0;
+  .sm\:overflow-auto {
+    overflow: auto;
   }
   /* hover */
   /* focus */
-  .sm\:focus\:.outline:focus {
-    outline: 0;
-  }
   /* active */
 }
 
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:outline {
-    outline: 0;
+  .md\:overflow-auto {
+    overflow: auto;
   }
   /* hover */
   /* focus */
-  .md\:focus\:.outline:focus {
-    outline: 0;
-  }
   /* active */
 }
 
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:outline {
-    outline: 0;
+  .lg\:overflow-auto {
+    overflow: auto;
   }
   /* hover */
   /* focus */
-  .lg\:focus\:.outline:focus {
-    outline: 0;
-  }
   /* active */
 }
 
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:outline {
-    outline: 0;
+  .xl\:overflow-auto {
+    overflow: auto;
   }
   /* hover */
   /* focus */
-  .xl\:focus\:.outline:focus {
-    outline: 0;
-  }
   /* active */
 }
 
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:outline {
-    outline: 0;
+  .\32k\:overflow-auto {
+    overflow: auto;
   }
   /* hover */
   /* focus */
-  .\32k\:focus\:.outline:focus {
-    outline: 0;
-  }
   /* active */
 }
 
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:outline {
-    outline: 0;
+  .\33k\:overflow-auto {
+    overflow: auto;
   }
   /* hover */
   /* focus */
-  .\33k\:focus\:.outline:focus {
-    outline: 0;
-  }
   /* active */
 }
 
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:outline {
-    outline: 0;
+  .\34k\:overflow-auto {
+    overflow: auto;
   }
   /* hover */
   /* focus */
-  .\34k\:focus\:.outline:focus {
-    outline: 0;
-  }
   /* active */
 }
 
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:outline {
-    outline: 0;
+  .\35k\:overflow-auto {
+    overflow: auto;
   }
   /* hover */
   /* focus */
-  .\35k\:focus\:.outline:focus {
-    outline: 0;
-  }
   /* active */
 }
 
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:outline {
-    outline: 0;
+  .\36k\:overflow-auto {
+    overflow: auto;
   }
   /* hover */
   /* focus */
-  .\36k\:focus\:.outline:focus {
-    outline: 0;
+  /* active */
+}
+
+/* basic */
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:overflow-hidden {
+    overflow: hidden;
   }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:overflow-hidden {
+    overflow: hidden;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:overflow-hidden {
+    overflow: hidden;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:overflow-hidden {
+    overflow: hidden;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:overflow-hidden {
+    overflow: hidden;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:overflow-hidden {
+    overflow: hidden;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:overflow-hidden {
+    overflow: hidden;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:overflow-hidden {
+    overflow: hidden;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:overflow-hidden {
+    overflow: hidden;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:overflow-hidden {
+    overflow: hidden;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.overflow-scroll {
+  overflow: scroll;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:overflow-scroll {
+    overflow: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:overflow-scroll {
+    overflow: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:overflow-scroll {
+    overflow: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:overflow-scroll {
+    overflow: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:overflow-scroll {
+    overflow: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:overflow-scroll {
+    overflow: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:overflow-scroll {
+    overflow: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:overflow-scroll {
+    overflow: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:overflow-scroll {
+    overflow: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:overflow-scroll {
+    overflow: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* default */
+/* basic */
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:overflow-x-auto {
+    overflow-x: auto;
+  }
+  .xs\:overflow-y-auto {
+    overflow-y: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:overflow-x-auto {
+    overflow-x: auto;
+  }
+  .sm\:overflow-y-auto {
+    overflow-y: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:overflow-x-auto {
+    overflow-x: auto;
+  }
+  .md\:overflow-y-auto {
+    overflow-y: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:overflow-x-auto {
+    overflow-x: auto;
+  }
+  .lg\:overflow-y-auto {
+    overflow-y: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:overflow-x-auto {
+    overflow-x: auto;
+  }
+  .xl\:overflow-y-auto {
+    overflow-y: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:overflow-x-auto {
+    overflow-x: auto;
+  }
+  .\32k\:overflow-y-auto {
+    overflow-y: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:overflow-x-auto {
+    overflow-x: auto;
+  }
+  .\33k\:overflow-y-auto {
+    overflow-y: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:overflow-x-auto {
+    overflow-x: auto;
+  }
+  .\34k\:overflow-y-auto {
+    overflow-y: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:overflow-x-auto {
+    overflow-x: auto;
+  }
+  .\35k\:overflow-y-auto {
+    overflow-y: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:overflow-x-auto {
+    overflow-x: auto;
+  }
+  .\36k\:overflow-y-auto {
+    overflow-y: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+  .xs\:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+  .sm\:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+  .md\:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+  .lg\:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+  .xl\:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+  .\32k\:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+  .\33k\:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+  .\34k\:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+  .\35k\:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+  .\36k\:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.overflow-x-visible {
+  overflow-x: visible;
+}
+
+.overflow-y-visible {
+  overflow-y: visible;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:overflow-x-visible {
+    overflow-x: visible;
+  }
+  .xs\:overflow-y-visible {
+    overflow-y: visible;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:overflow-x-visible {
+    overflow-x: visible;
+  }
+  .sm\:overflow-y-visible {
+    overflow-y: visible;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:overflow-x-visible {
+    overflow-x: visible;
+  }
+  .md\:overflow-y-visible {
+    overflow-y: visible;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:overflow-x-visible {
+    overflow-x: visible;
+  }
+  .lg\:overflow-y-visible {
+    overflow-y: visible;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:overflow-x-visible {
+    overflow-x: visible;
+  }
+  .xl\:overflow-y-visible {
+    overflow-y: visible;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:overflow-x-visible {
+    overflow-x: visible;
+  }
+  .\32k\:overflow-y-visible {
+    overflow-y: visible;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:overflow-x-visible {
+    overflow-x: visible;
+  }
+  .\33k\:overflow-y-visible {
+    overflow-y: visible;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:overflow-x-visible {
+    overflow-x: visible;
+  }
+  .\34k\:overflow-y-visible {
+    overflow-y: visible;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:overflow-x-visible {
+    overflow-x: visible;
+  }
+  .\35k\:overflow-y-visible {
+    overflow-y: visible;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:overflow-x-visible {
+    overflow-x: visible;
+  }
+  .\36k\:overflow-y-visible {
+    overflow-y: visible;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+  .xs\:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+  .sm\:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+  .md\:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+  .lg\:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+  .xl\:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+  .\32k\:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+  .\33k\:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+  .\34k\:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+  .\35k\:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+  .\36k\:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* default */
+/* basic */
+.scrolling-touch {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:scrolling-touch {
+    -webkit-overflow-scrolling: touch;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:scrolling-touch {
+    -webkit-overflow-scrolling: touch;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:scrolling-touch {
+    -webkit-overflow-scrolling: touch;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:scrolling-touch {
+    -webkit-overflow-scrolling: touch;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:scrolling-touch {
+    -webkit-overflow-scrolling: touch;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:scrolling-touch {
+    -webkit-overflow-scrolling: touch;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:scrolling-touch {
+    -webkit-overflow-scrolling: touch;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:scrolling-touch {
+    -webkit-overflow-scrolling: touch;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:scrolling-touch {
+    -webkit-overflow-scrolling: touch;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:scrolling-touch {
+    -webkit-overflow-scrolling: touch;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.scrolling-auto {
+  -webkit-overflow-scrolling: auto;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:scrolling-auto {
+    -webkit-overflow-scrolling: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:scrolling-auto {
+    -webkit-overflow-scrolling: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:scrolling-auto {
+    -webkit-overflow-scrolling: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:scrolling-auto {
+    -webkit-overflow-scrolling: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:scrolling-auto {
+    -webkit-overflow-scrolling: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:scrolling-auto {
+    -webkit-overflow-scrolling: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:scrolling-auto {
+    -webkit-overflow-scrolling: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:scrolling-auto {
+    -webkit-overflow-scrolling: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:scrolling-auto {
+    -webkit-overflow-scrolling: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:scrolling-auto {
+    -webkit-overflow-scrolling: auto;
+  }
+  /* hover */
+  /* focus */
   /* active */
 }
 

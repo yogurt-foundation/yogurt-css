@@ -370,3 +370,20 @@ $order:
   (11, 11),
   (12, 12);
 
+/* overflow */
+
+$overflow:
+  (auto, auto),
+  (hidden, hidden),
+  (scroll, scroll);
+
+$overflow-xy:
+  (auto, auto),
+  (hidden, hidden),
+  (visible, visible),
+  (scroll, scroll);
+
+$overflow-scrolling:
+  (touch, touch),
+  (auto, auto);
+
