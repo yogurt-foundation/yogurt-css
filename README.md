@@ -63,5 +63,5 @@
 - **(OK)** visibility ~ (responsive) (hover)
 - **(OK)** whitespace ~ (responsive)
 - **(OK)** width ~ (responsive)
-- wordBreak ~ (responsive)
-- zIndex ~ (responsive)
+- **(OK)** wordBreak ~ (responsive)
+- **(OK)** zIndex ~ (responsive)
