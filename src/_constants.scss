@@ -427,3 +427,10 @@ $text-align:
   (center, center),
   (justify, justify);
 
+/* user select */
+
+$user-select:
+  (none, none),
+  (text, text),
+  (all, all),
+  (auto, auto);

@@ -65,8 +65,9 @@
 /* resize */
 /* table layout */
 /* text align */
+/* user select */
 /**
- * @module: _textTransform.scss
+ * @module: _userSelect.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -78,20 +79,11 @@
 /* focus */
 /* active */
 /* basic */
-.uppercase {
-  text-transform: uppercase;
-}
-
-.lowercase {
-  text-transform: lowercase;
-}
-
-.capitalize {
-  text-transform: capitalize;
-}
-
-.normal-case {
-  text-transform: none;
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 /* hover */
@@ -101,17 +93,11 @@
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:uppercase {
-    text-transform: uppercase;
-  }
-  .xs\:lowercase {
-    text-transform: lowercase;
-  }
-  .xs\:capitalize {
-    text-transform: capitalize;
-  }
-  .xs\:normal-case {
-    text-transform: none;
+  .xs\:select-none {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
   /* hover */
   /* focus */
@@ -121,17 +107,11 @@
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:uppercase {
-    text-transform: uppercase;
-  }
-  .sm\:lowercase {
-    text-transform: lowercase;
-  }
-  .sm\:capitalize {
-    text-transform: capitalize;
-  }
-  .sm\:normal-case {
-    text-transform: none;
+  .sm\:select-none {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
   /* hover */
   /* focus */
@@ -141,17 +121,11 @@
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:uppercase {
-    text-transform: uppercase;
-  }
-  .md\:lowercase {
-    text-transform: lowercase;
-  }
-  .md\:capitalize {
-    text-transform: capitalize;
-  }
-  .md\:normal-case {
-    text-transform: none;
+  .md\:select-none {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
   /* hover */
   /* focus */
@@ -161,17 +135,11 @@
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:uppercase {
-    text-transform: uppercase;
-  }
-  .lg\:lowercase {
-    text-transform: lowercase;
-  }
-  .lg\:capitalize {
-    text-transform: capitalize;
-  }
-  .lg\:normal-case {
-    text-transform: none;
+  .lg\:select-none {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
   /* hover */
   /* focus */
@@ -181,17 +149,11 @@
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:uppercase {
-    text-transform: uppercase;
-  }
-  .xl\:lowercase {
-    text-transform: lowercase;
-  }
-  .xl\:capitalize {
-    text-transform: capitalize;
-  }
-  .xl\:normal-case {
-    text-transform: none;
+  .xl\:select-none {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
   /* hover */
   /* focus */
@@ -201,17 +163,11 @@
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:uppercase {
-    text-transform: uppercase;
-  }
-  .\32k\:lowercase {
-    text-transform: lowercase;
-  }
-  .\32k\:capitalize {
-    text-transform: capitalize;
-  }
-  .\32k\:normal-case {
-    text-transform: none;
+  .\32k\:select-none {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
   /* hover */
   /* focus */
@@ -221,17 +177,11 @@
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:uppercase {
-    text-transform: uppercase;
-  }
-  .\33k\:lowercase {
-    text-transform: lowercase;
-  }
-  .\33k\:capitalize {
-    text-transform: capitalize;
-  }
-  .\33k\:normal-case {
-    text-transform: none;
+  .\33k\:select-none {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
   /* hover */
   /* focus */
@@ -241,17 +191,11 @@
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:uppercase {
-    text-transform: uppercase;
-  }
-  .\34k\:lowercase {
-    text-transform: lowercase;
-  }
-  .\34k\:capitalize {
-    text-transform: capitalize;
-  }
-  .\34k\:normal-case {
-    text-transform: none;
+  .\34k\:select-none {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
   /* hover */
   /* focus */
@@ -261,17 +205,11 @@
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:uppercase {
-    text-transform: uppercase;
-  }
-  .\35k\:lowercase {
-    text-transform: lowercase;
-  }
-  .\35k\:capitalize {
-    text-transform: capitalize;
-  }
-  .\35k\:normal-case {
-    text-transform: none;
+  .\35k\:select-none {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
   /* hover */
   /* focus */
@@ -281,17 +219,467 @@
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:uppercase {
-    text-transform: uppercase;
+  .\36k\:select-none {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
-  .\36k\:lowercase {
-    text-transform: lowercase;
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.select-text {
+  -webkit-user-select: text;
+     -moz-user-select: text;
+      -ms-user-select: text;
+          user-select: text;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:select-text {
+    -webkit-user-select: text;
+       -moz-user-select: text;
+        -ms-user-select: text;
+            user-select: text;
   }
-  .\36k\:capitalize {
-    text-transform: capitalize;
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:select-text {
+    -webkit-user-select: text;
+       -moz-user-select: text;
+        -ms-user-select: text;
+            user-select: text;
   }
-  .\36k\:normal-case {
-    text-transform: none;
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:select-text {
+    -webkit-user-select: text;
+       -moz-user-select: text;
+        -ms-user-select: text;
+            user-select: text;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:select-text {
+    -webkit-user-select: text;
+       -moz-user-select: text;
+        -ms-user-select: text;
+            user-select: text;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:select-text {
+    -webkit-user-select: text;
+       -moz-user-select: text;
+        -ms-user-select: text;
+            user-select: text;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:select-text {
+    -webkit-user-select: text;
+       -moz-user-select: text;
+        -ms-user-select: text;
+            user-select: text;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:select-text {
+    -webkit-user-select: text;
+       -moz-user-select: text;
+        -ms-user-select: text;
+            user-select: text;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:select-text {
+    -webkit-user-select: text;
+       -moz-user-select: text;
+        -ms-user-select: text;
+            user-select: text;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:select-text {
+    -webkit-user-select: text;
+       -moz-user-select: text;
+        -ms-user-select: text;
+            user-select: text;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:select-text {
+    -webkit-user-select: text;
+       -moz-user-select: text;
+        -ms-user-select: text;
+            user-select: text;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.select-all {
+  -webkit-user-select: all;
+     -moz-user-select: all;
+      -ms-user-select: all;
+          user-select: all;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:select-all {
+    -webkit-user-select: all;
+       -moz-user-select: all;
+        -ms-user-select: all;
+            user-select: all;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:select-all {
+    -webkit-user-select: all;
+       -moz-user-select: all;
+        -ms-user-select: all;
+            user-select: all;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:select-all {
+    -webkit-user-select: all;
+       -moz-user-select: all;
+        -ms-user-select: all;
+            user-select: all;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:select-all {
+    -webkit-user-select: all;
+       -moz-user-select: all;
+        -ms-user-select: all;
+            user-select: all;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:select-all {
+    -webkit-user-select: all;
+       -moz-user-select: all;
+        -ms-user-select: all;
+            user-select: all;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:select-all {
+    -webkit-user-select: all;
+       -moz-user-select: all;
+        -ms-user-select: all;
+            user-select: all;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:select-all {
+    -webkit-user-select: all;
+       -moz-user-select: all;
+        -ms-user-select: all;
+            user-select: all;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:select-all {
+    -webkit-user-select: all;
+       -moz-user-select: all;
+        -ms-user-select: all;
+            user-select: all;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:select-all {
+    -webkit-user-select: all;
+       -moz-user-select: all;
+        -ms-user-select: all;
+            user-select: all;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:select-all {
+    -webkit-user-select: all;
+       -moz-user-select: all;
+        -ms-user-select: all;
+            user-select: all;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.select-auto {
+  -webkit-user-select: auto;
+     -moz-user-select: auto;
+      -ms-user-select: auto;
+          user-select: auto;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:select-auto {
+    -webkit-user-select: auto;
+       -moz-user-select: auto;
+        -ms-user-select: auto;
+            user-select: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:select-auto {
+    -webkit-user-select: auto;
+       -moz-user-select: auto;
+        -ms-user-select: auto;
+            user-select: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:select-auto {
+    -webkit-user-select: auto;
+       -moz-user-select: auto;
+        -ms-user-select: auto;
+            user-select: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:select-auto {
+    -webkit-user-select: auto;
+       -moz-user-select: auto;
+        -ms-user-select: auto;
+            user-select: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:select-auto {
+    -webkit-user-select: auto;
+       -moz-user-select: auto;
+        -ms-user-select: auto;
+            user-select: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:select-auto {
+    -webkit-user-select: auto;
+       -moz-user-select: auto;
+        -ms-user-select: auto;
+            user-select: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:select-auto {
+    -webkit-user-select: auto;
+       -moz-user-select: auto;
+        -ms-user-select: auto;
+            user-select: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:select-auto {
+    -webkit-user-select: auto;
+       -moz-user-select: auto;
+        -ms-user-select: auto;
+            user-select: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:select-auto {
+    -webkit-user-select: auto;
+       -moz-user-select: auto;
+        -ms-user-select: auto;
+            user-select: auto;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:select-auto {
+    -webkit-user-select: auto;
+       -moz-user-select: auto;
+        -ms-user-select: auto;
+            user-select: auto;
   }
   /* hover */
   /* focus */

@@ -1,0 +1,39 @@
+/**
+ * @module: _userSelect.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin userSelect($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}select-#{$modifier}#{$pseudo} {
+    user-select: #{$value}#{$override}
+  }
+}
+
+/* default */
+/* hover */
+/* focus */
+/* active */
+
+@each $modifier, $value in $user-select {
+  /* basic */
+  @include userSelect("", "", ".", $modifier, $value)
+  /* hover */
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
+      @include userSelect(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      /* focus */
+      /* active */
+    }
+  }
+}
