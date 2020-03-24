@@ -1,6 +1,6 @@
 
 <p align="left">
-  <img src="logo.png" height="200" wdith="200">
+  <img src="assets/logo.png" height="200" wdith="200">
 </p>
 
 <p align="left">
@@ -31,12 +31,12 @@ In this concept, the `margin`, `padding`, `font-size` and so on are considered a
 ### concept
 
 <p align="left">
-  <img src="Screenshot_3.jpeg" width="420">
-  <img src="Screenshot_4.jpeg" width="420">
-  <img src="Screenshot_5.jpeg" width="420">
-  <img src="Screenshot_6.jpeg" width="420">
-  <img src="Screenshot_7.jpeg" width="420">
-  <img src="Screenshot_8.jpeg" width="420">
+  <img src="assets/Screenshot_3.jpeg" width="420">
+  <img src="assets/Screenshot_4.jpeg" width="420">
+  <img src="assets/Screenshot_5.jpeg" width="420">
+  <img src="assets/Screenshot_6.jpeg" width="420">
+  <img src="assets/Screenshot_7.jpeg" width="420">
+  <img src="assets/Screenshot_8.jpeg" width="420">
 </p>
 
 ### _get
