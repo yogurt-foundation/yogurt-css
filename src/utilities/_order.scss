@@ -1,0 +1,36 @@
+/**
+ * @module: _order.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin order($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}order-#{$modifier}#{$pseudo} {
+    order: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $order {
+  /* basic */
+  @include order("", "", ".", $modifier, $value)
+  /* hover */
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
+      @include order(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      /* focus */
+      /* active */
+    }
+  }
+}

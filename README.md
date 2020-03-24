@@ -45,7 +45,7 @@
 - **(OK)** objectFit ~ (responsive)
 - **(OK)** objectPosition ~ (responsive)
 - **(OK)** opacity ~ (responsive) (hover)
-- order ~ (responsive)
+- **(OK)** order ~ (responsive)
 - outline ~ ['responsive', 'focus']
 - overflow ~ (responsive)
 - padding ~ (responsive)
