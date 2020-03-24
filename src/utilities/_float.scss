@@ -9,15 +9,15 @@
 
 @mixin float($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}float-#{$modifier}#{$pseudo} {
-    float: #{$value}
+    float: #{$value}#{$override}
   }
 }
 
 @mixin floatDefault($prefix, $class) {
   #{$prefix}#{$class}clearfix:after {
-    content: "";
-    display: table;
-    clear: both
+    content: ""#{$override};
+    display: table#{$override};
+    clear: both#{$override}
   }
 }
 

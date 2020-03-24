@@ -9,7 +9,7 @@
 
 @mixin lineHeight($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}depth-#{$modifier}#{$pseudo} {
-    line-height: #{$value}
+    line-height: #{$value}#{$override}
   }
 }
 

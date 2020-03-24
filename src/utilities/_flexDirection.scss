@@ -9,7 +9,7 @@
 
 @mixin flexDirection($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}flex-#{$modifier}#{$pseudo} {
-    flex-direction: #{$value}
+    flex-direction: #{$value}#{$override}
   }
 }
 

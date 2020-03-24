@@ -9,7 +9,7 @@
 
 @mixin stroke($prefix, $pseudo, $class) {
   #{$prefix}#{$class}stroke-current#{$pseudo} {
-    stroke: currentColor
+    stroke: currentColor#{$override}
   }
 }
 

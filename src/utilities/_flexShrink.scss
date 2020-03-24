@@ -9,13 +9,13 @@
 
 @mixin flexShrink($prefix, $pseudo, $class) {
   #{$prefix}#{$class}flex-shrink-0#{$pseudo} {
-    flex-grow: 0
+    flex-grow: 0#{$override}
   }
 }
 
 @mixin flexShrinkDefault($prefix, $class) {
   #{$prefix}#{$class}flex-shrink {
-    flex-shrink: 1
+    flex-shrink: 1#{$override}
   }
 }
 

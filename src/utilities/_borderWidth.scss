@@ -9,25 +9,25 @@
 
 @mixin borderWidth($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}border-#{$modifier}#{$pseudo} {
-    border-width: #{$value}
+    border-width: #{$value}#{$override}
   }
   #{$prefix}#{$class}border-t-#{$modifier}#{$pseudo} { // top
-    border-top-width: #{$value}
+    border-top-width: #{$value}#{$override}
   }
   #{$prefix}#{$class}border-b-#{$modifier}#{$pseudo} { // bottom
-    border-bottom-width: #{$value}
+    border-bottom-width: #{$value}#{$override}
   }
   #{$prefix}#{$class}border-l-#{$modifier}#{$pseudo} { // left
-    border-left-width: #{$value}
+    border-left-width: #{$value}#{$override}
   }
   #{$prefix}#{$class}border-r-#{$modifier}#{$pseudo} { // right
-    border-right-width: #{$value}
+    border-right-width: #{$value}#{$override}
   }
 }
 
 @mixin borderWidthDefault($prefix, $class, $pseudo) {
   #{$prefix}#{$class}border#{$pseudo} {
-    border-width: 0.0625em
+    border-width: 0.0625em#{$override}
   }
 }
 

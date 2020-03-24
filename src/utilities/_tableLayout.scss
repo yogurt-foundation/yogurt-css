@@ -9,7 +9,7 @@
 
 @mixin tableLayout($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}table-#{$modifier}#{$pseudo} {
-    table-layout: #{$value}
+    table-layout: #{$value}#{$override}
   }
 }
 

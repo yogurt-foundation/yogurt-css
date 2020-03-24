@@ -9,7 +9,7 @@
 
 @mixin listStyleType($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}list-#{$modifier}#{$pseudo} {
-    list-style-type: #{$value}
+    list-style-type: #{$value}#{$override}
   }
 }
 

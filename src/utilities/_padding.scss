@@ -9,27 +9,27 @@
 
 @mixin padding($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}p-#{$modifier}#{$pseudo} {
-    padding: #{$value}
+    padding: #{$value}#{$override}
   }
   #{$prefix}#{$class}px-#{$modifier}#{$pseudo} { // px
-    padding-left: #{$value};
-    padding-right: #{$value}
+    padding-left: #{$value}#{$override};
+    padding-right: #{$value}#{$override}
   }
   #{$prefix}#{$class}py-#{$modifier}#{$pseudo} { // py
-    padding-top: #{$value};
-    padding-bottom: #{$value}
+    padding-top: #{$value}#{$override};
+    padding-bottom: #{$value}#{$override}
   }
   #{$prefix}#{$class}pt-#{$modifier}#{$pseudo} { // pt
-    padding-top: #{$value}
+    padding-top: #{$value}#{$override}
   }
   #{$prefix}#{$class}pb-#{$modifier}#{$pseudo} { // pb
-    padding-bottom: #{$value}
+    padding-bottom: #{$value}#{$override}
   }
   #{$prefix}#{$class}pl-#{$modifier}#{$pseudo} { // pl
-    padding-left: #{$value}
+    padding-left: #{$value}#{$override}
   }
   #{$prefix}#{$class}pr-#{$modifier}#{$pseudo} { // pr
-    padding-right: #{$value}
+    padding-right: #{$value}#{$override}
   }
 }
 

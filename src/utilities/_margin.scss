@@ -9,27 +9,27 @@
 
 @mixin margin($prefix, $pseudo, $class, $modifier, $value, $negative) {
   #{$prefix}#{$class}#{$negative}m-#{$modifier}#{$pseudo}{
-    margin: #{$negative}#{$value};
+    margin: #{$negative}#{$value}#{$override};
   }
   #{$prefix}#{$class}#{$negative}mx-#{$modifier}#{$pseudo}{ // mx
-    margin-left: #{$negative}#{$value};
-    margin-right: #{$negative}#{$value}
+    margin-left: #{$negative}#{$value}#{$override};
+    margin-right: #{$negative}#{$value}#{$override}
   }
   #{$prefix}#{$class}#{$negative}my-#{$modifier}#{$pseudo}{ // my
-    margin-top: #{$negative}#{$value};
-    margin-bottom: #{$negative}#{$value}
+    margin-top: #{$negative}#{$value}#{$override};
+    margin-bottom: #{$negative}#{$value}#{$override}
   }
   #{$prefix}#{$class}#{$negative}mt-#{$modifier}#{$pseudo}{ // mt
-    margin-top: #{$negative}#{$value}
+    margin-top: #{$negative}#{$value}#{$override}
   }
   #{$prefix}#{$class}#{$negative}mb-#{$modifier}#{$pseudo}{ // mb
-    margin-bottom: #{$negative}#{$value}
+    margin-bottom: #{$negative}#{$value}#{$override}
   }
   #{$prefix}#{$class}#{$negative}ml-#{$modifier}#{$pseudo}{ // ml
-    margin-left: #{$negative}#{$value}
+    margin-left: #{$negative}#{$value}#{$override}
   }
   #{$prefix}#{$class}#{$negative}mr-#{$modifier}#{$pseudo}{ // mr
-    margin-right: #{$negative}#{$value}
+    margin-right: #{$negative}#{$value}#{$override}
   }
 }
 

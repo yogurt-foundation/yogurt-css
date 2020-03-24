@@ -9,7 +9,7 @@
 
 @mixin flex($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}flex-#{$modifier}#{$pseudo} {
-    flex: #{$value}
+    flex: #{$value}#{$override}
   }
 }
 

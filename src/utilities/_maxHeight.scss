@@ -9,7 +9,7 @@
 
 @mixin maxHeight($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}max-h-#{$modifier}#{$pseudo} {
-    max-height: #{$value}
+    max-height: #{$value}#{$override}
   }
 }
 

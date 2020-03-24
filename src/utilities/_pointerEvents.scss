@@ -9,7 +9,7 @@
 
 @mixin pointerEvents($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}pointer-events-#{$modifier}#{$pseudo} {
-    pointer-events: #{$value}
+    pointer-events: #{$value}#{$override}
   }
 }
 

@@ -9,7 +9,7 @@
 
 @mixin cursor($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}cursor-#{$modifier}#{$pseudo} {
-    cursor: #{$value}
+    cursor: #{$value}#{$override}
   }
 }
 

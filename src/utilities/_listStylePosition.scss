@@ -9,10 +9,10 @@
 
 @mixin listStylePosition($prefix, $class) {
   #{$prefix}#{$class}list-inside {
-    list-style-position: inside;
+    list-style-position: inside#{$override};
   }
   #{$prefix}#{$class}list-outside {
-    list-style-position: outside;
+    list-style-position: outside#{$override};
   }
 }
 

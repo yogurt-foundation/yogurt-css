@@ -9,7 +9,7 @@
 
 @mixin order($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}order-#{$modifier}#{$pseudo} {
-    order: #{$value}
+    order: #{$value}#{$override}
   }
 }
 

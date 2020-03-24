@@ -9,7 +9,7 @@
 
 @mixin borderStyle($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}border-#{$modifier}#{$pseudo} {
-    border-style: #{$value}
+    border-style: #{$value}#{$override}
   }
 }
 

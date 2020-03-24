@@ -9,7 +9,7 @@
 
 @mixin letterSpacing($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}tracking-#{$modifier}#{$pseudo} {
-    letter-spacing: #{$value}
+    letter-spacing: #{$value}#{$override}
   }
 }
 

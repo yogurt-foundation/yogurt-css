@@ -9,7 +9,7 @@
 
 @mixin alignItems($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}items-#{$modifier}#{$pseudo} {
-    align-items: #{$value}
+    align-items: #{$value}#{$override}
   }
 }
 

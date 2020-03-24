@@ -9,7 +9,7 @@
 
 @mixin justifyContent($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}justify-#{$modifier}#{$pseudo} {
-    justify-content: #{$value}
+    justify-content: #{$value}#{$override}
   }
 }
 

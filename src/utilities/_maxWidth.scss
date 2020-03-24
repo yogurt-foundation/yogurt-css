@@ -9,7 +9,7 @@
 
 @mixin maxWidth($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}max-w-#{$modifier}#{$pseudo} {
-    max-width: #{$value}
+    max-width: #{$value}#{$override}
   }
 }
 

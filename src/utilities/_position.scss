@@ -9,7 +9,7 @@
 
 @mixin position($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}#{$modifier}#{$pseudo} {
-    position: #{$value}
+    position: #{$value}#{$override}
   }
 }
 

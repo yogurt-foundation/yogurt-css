@@ -9,7 +9,7 @@
 
 @mixin objectFit($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}object-#{$modifier}#{$pseudo} {
-    object-fit: #{$value}
+    object-fit: #{$value}#{$override}
   }
 }
 

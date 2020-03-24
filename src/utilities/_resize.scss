@@ -9,13 +9,13 @@
 
 @mixin resize($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}resize-#{$modifier}#{$pseudo} {
-    resize: #{$value}
+    resize: #{$value}#{$override}
   }
 }
 
 @mixin resizeDefault($prefix, $pseudo, $class) {
   #{$prefix}#{$class}resize#{$pseudo} {
-    resize: both
+    resize: both#{$override}
   }
 }
 

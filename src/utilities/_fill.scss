@@ -9,7 +9,7 @@
 
 @mixin fill($prefix, $pseudo, $class) {
   #{$prefix}#{$class}fill-current#{$pseudo} {
-    fill: currentColor
+    fill: currentColor#{$override}
   }
 }
 

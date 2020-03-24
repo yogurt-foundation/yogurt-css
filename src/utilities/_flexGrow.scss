@@ -9,13 +9,13 @@
 
 @mixin flexGrow($prefix, $pseudo, $class) {
   #{$prefix}#{$class}flex-grow-0#{$pseudo} {
-    flex-grow: 0
+    flex-grow: 0#{$override}
   }
 }
 
 @mixin flexGrowDefault($prefix, $class) {
   #{$prefix}#{$class}flex-grow {
-    flex-grow: 1
+    flex-grow: 1#{$override}
   }
 }
 

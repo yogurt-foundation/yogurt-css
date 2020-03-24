@@ -9,13 +9,13 @@
 
 @mixin container($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}container#{$modifier}#{$pseudo} {
-    max-width: #{$value}
+    max-width: #{$value}#{$override}
   }
 }
 
 @mixin containerDefault($prefix, $class) {
   #{$prefix}#{$class}container {
-    width: 100%
+    width: 100%#{$override}
   }
 }
 

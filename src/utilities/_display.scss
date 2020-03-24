@@ -9,7 +9,7 @@
 
 @mixin display($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}#{$modifier}#{$pseudo} {
-    display: #{$value}
+    display: #{$value}#{$override}
   }
 }
 

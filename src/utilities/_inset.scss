@@ -9,18 +9,18 @@
 
 @mixin inset($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}inset-#{$modifier}#{$pseudo} {
-    top: #{$value};
-    right: #{$value};
-    bottom: #{$value};
-    left: #{$value}
+    top: #{$value}#{$override};
+    right: #{$value}#{$override};
+    bottom: #{$value}#{$override};
+    left: #{$value}#{$override}
   }
   #{$prefix}#{$class}inset-x-#{$modifier}#{$pseudo} {
-    left: #{$value};
-    right: #{$value}
+    left: #{$value}#{$override};
+    right: #{$value}#{$override}
   }
   #{$prefix}#{$class}inset-y-#{$modifier}#{$pseudo} {
-    top: #{$value};
-    bottom: #{$value}
+    top: #{$value}#{$override};
+    bottom: #{$value}#{$override}
   }
 }
 

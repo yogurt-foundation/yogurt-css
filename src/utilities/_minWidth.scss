@@ -9,7 +9,7 @@
 
 @mixin minWidth($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}min-w-#{$modifier}#{$pseudo} {
-    min-width: #{$value}
+    min-width: #{$value}#{$override}
   }
 }
 

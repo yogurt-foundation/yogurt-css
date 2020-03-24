@@ -9,22 +9,22 @@
 
 @mixin overflow($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}overflow-#{$modifier}#{$pseudo} {
-    overflow: #{$value}
+    overflow: #{$value}#{$override}
   }
 }
 
 @mixin overflow-xy($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}overflow-x-#{$modifier}#{$pseudo} {
-    overflow-x: #{$value}
+    overflow-x: #{$value}#{$override}
   }
   #{$prefix}#{$class}overflow-y-#{$modifier}#{$pseudo} {
-    overflow-y: #{$value}
+    overflow-y: #{$value}#{$override}
   }
 }
 
 @mixin overflow-scrolling($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}scrolling-#{$modifier}#{$pseudo} {
-    -webkit-overflow-scrolling: #{$value}
+    -webkit-overflow-scrolling: #{$value}#{$override}
   }
 }
 

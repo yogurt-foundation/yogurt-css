@@ -9,7 +9,7 @@
 
 @mixin fontSize($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}text-#{$modifier}#{$pseudo} {
-    font-size: #{$value}
+    font-size: #{$value}#{$override}
   }
 }
 

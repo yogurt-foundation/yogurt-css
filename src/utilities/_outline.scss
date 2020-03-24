@@ -9,7 +9,7 @@
 
 @mixin outline($prefix, $pseudo, $class) {
   #{$prefix}#{$class}outline#{$pseudo} {
-    outline: 0
+    outline: 0#{$override}
   }
 }
 

@@ -9,7 +9,7 @@
 
 @mixin backgroundRepeat($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}bg-#{$modifier}#{$pseudo} {
-    background-repeat: #{$value}
+    background-repeat: #{$value}#{$important}
   }
 }
 

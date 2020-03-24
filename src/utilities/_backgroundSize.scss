@@ -9,7 +9,7 @@
 
 @mixin backgroundSize($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}bg-#{$modifier}#{$pseudo} {
-    background-size: #{$value}
+    background-size: #{$value}#{$important}
   }
 }
 

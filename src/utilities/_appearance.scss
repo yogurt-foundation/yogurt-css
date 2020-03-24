@@ -9,7 +9,7 @@
 
 @mixin appearance($prefix, $class) {
   #{$prefix}#{$class}appearance-none {
-    align-content: none
+    align-content: none#{$override}
   }
 }
 

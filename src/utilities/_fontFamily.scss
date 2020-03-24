@@ -9,7 +9,7 @@
 
 @mixin fontFamily($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}font-#{$modifier}#{$pseudo} {
-    font-family: #{$value}
+    font-family: #{$value}#{$override}
   }
 }
 

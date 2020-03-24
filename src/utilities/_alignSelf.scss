@@ -9,7 +9,7 @@
 
 @mixin alignSelf($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}self-#{$modifier}#{$pseudo} {
-    align-self: #{$value}
+    align-self: #{$value}#{$override}
   }
 }
 

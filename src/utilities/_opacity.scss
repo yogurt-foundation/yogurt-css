@@ -9,7 +9,7 @@
 
 @mixin opacity($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}opacity-#{$modifier}#{$pseudo} {
-    opacity: #{$value}
+    opacity: #{$value}#{$override}
   }
 }
 

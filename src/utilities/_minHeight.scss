@@ -9,7 +9,7 @@
 
 @mixin minHeight($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}min-h-#{$modifier}#{$pseudo} {
-    min-height: #{$value}
+    min-height: #{$value}#{$override}
   }
 }
 

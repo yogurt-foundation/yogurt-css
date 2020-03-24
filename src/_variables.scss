@@ -7,6 +7,10 @@
  * @license: MIT
  */
 
+// override existing css with this option,
+// default is empty, to enable use `!important`
+$override: "";
+
 /*
   @params $modifier, $value
 */

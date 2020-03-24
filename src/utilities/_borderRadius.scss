@@ -9,29 +9,29 @@
 
 @mixin borderRadius($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}rounded-#{$modifier}#{$pseudo} {
-    border-radius: #{$value}
+    border-radius: #{$value}#{$override}
   }
   #{$prefix}#{$class}rounded-t-#{$modifier}#{$pseudo} { // top
-    border-top-left-radius: #{$value};
-    border-top-right-radius: #{$value}
+    border-top-left-radius: #{$value}#{$override};
+    border-top-right-radius: #{$value}#{$override}
   }
   #{$prefix}#{$class}rounded-b-#{$modifier}#{$pseudo} { // bottom
-    border-bottom-right-radius: #{$value};
-    border-bottom-left-radius: #{$value}
+    border-bottom-right-radius: #{$value}#{$override};
+    border-bottom-left-radius: #{$value}#{$override}
   }
   #{$prefix}#{$class}rounded-l-#{$modifier}#{$pseudo} { // left
-    border-top-left-radius: #{$value};
-    border-bottom-left-radius: #{$value}
+    border-top-left-radius: #{$value} #{$override};
+    border-bottom-left-radius: #{$value}#{$override}
   }
   #{$prefix}#{$class}rounded-r-#{$modifier}#{$pseudo} { // right
-    border-top-right-radius: #{$value};
-    border-bottom-right-radius: #{$value}
+    border-top-right-radius: #{$value}#{$override};
+    border-bottom-right-radius: #{$value}#{$override}
   }
 }
 
 @mixin borderRadiusDefault($prefix, $class, $pseudo) {
   #{$prefix}#{$class}rounded#{$pseudo} {
-    border-radius: 0.25rem
+    border-radius: 0.25rem#{$override}
   }
 }
 

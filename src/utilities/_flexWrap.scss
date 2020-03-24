@@ -9,7 +9,7 @@
 
 @mixin flexWrap($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}flex-#{$modifier}#{$pseudo} {
-    flex-wrap: #{$value}
+    flex-wrap: #{$value}#{$override}
   }
 }
 

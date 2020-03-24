@@ -9,7 +9,7 @@
 
 @mixin backgroundPosition($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}bg-#{$modifier}#{$pseudo} {
-    background-position: #{$value}
+    background-position: #{$value}#{$override}
   }
 }
 

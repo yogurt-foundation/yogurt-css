@@ -9,7 +9,7 @@
 
 @mixin objectPosition($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}object-#{$modifier}#{$pseudo} {
-    object-position: #{$value}
+    object-position: #{$value}#{$override}
   }
 }
 
