@@ -21,6 +21,9 @@
 
 /* default */
 @include boxShadowDefault("", ".", "")
+/* hover */
+/* focus */
+/* active */
 
 @each $modifier, $value in $box-shadow {
   /* basic */

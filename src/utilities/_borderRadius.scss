@@ -37,6 +37,9 @@
 
 /* default */
 @include borderRadiusDefault("", ".", "")
+/* hover */
+/* focus */
+/* active */
 
 @each $modifier, $value in $border-radius {
   /* basic */

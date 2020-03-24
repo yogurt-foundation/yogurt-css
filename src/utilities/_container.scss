@@ -21,6 +21,9 @@
 
 /* default */
 @include containerDefault("", ".")
+/* hover */
+/* focus */
+/* active */
 
 /* responsive */
 @each $screen, $size in $screens {

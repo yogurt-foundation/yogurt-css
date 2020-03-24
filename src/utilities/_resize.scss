@@ -22,7 +22,6 @@
 /* default */
 @include resizeDefault("", "", ".")
 /* hover */
-@include resizeDefault(".hover\\:", ":hover", "")
 /* focus */
 /* active */
 
@@ -37,12 +36,10 @@
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* default */
-      @include resizeDefault("", "", ".")
+      @include resizeDefault(".#{$screen}\\:", "", "")
       /* basic */
       @include resize(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
-      @include resizeDefault(".#{$screen}\\:hover\\:", ":hover", "")
-      @include resize(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
       /* focus */
       /* active */
     }
