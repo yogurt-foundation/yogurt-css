@@ -23,6 +23,9 @@
 
 /* default */
 @include floatDefault("", ".")
+/* hover */
+/* focus */
+/* active */
 
 @each $modifier, $value in $float {
   /* basic */

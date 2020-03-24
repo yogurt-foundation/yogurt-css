@@ -23,6 +23,8 @@
 @include resizeDefault("", "", ".")
 /* hover */
 @include resizeDefault(".hover\\:", ":hover", "")
+/* focus */
+/* active */
 
 @each $modifier, $value in $resize {
   /* basic */
