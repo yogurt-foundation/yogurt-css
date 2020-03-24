@@ -444,3 +444,11 @@ $vertical-align:
   (bottom, bottom),
   (text-top, text-top),
   (text-bottom, text-bottom);
+
+/* whitespace */
+$whitespace:
+  (normal, normal),
+  (no-wrap, nowrap),
+  (pre, pre),
+  (pre-line, pre-line),
+  (pre-wrap, pre-wrap);

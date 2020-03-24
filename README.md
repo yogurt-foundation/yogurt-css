@@ -61,7 +61,7 @@
 - **(OK)** userSelect ~ (responsive)
 - **(OK)** verticalAlign ~ (responsive)
 - **(OK)** visibility ~ (responsive) (hover)
-- whitespace ~ (responsive)
+- **(OK)** whitespace ~ (responsive)
 - width ~ (responsive)
 - wordBreak ~ (responsive)
 - zIndex ~ (responsive)

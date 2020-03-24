@@ -67,8 +67,9 @@
 /* text align */
 /* user select */
 /* vertical align */
+/* whitespace */
 /**
- * @module: _visibility.scss
+ * @module: _whitespace.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -80,42 +81,21 @@
 /* focus */
 /* active */
 /* basic */
-.visible {
-  visibility: visible;
-}
-
-.invisible {
-  visibility: hidden;
+.whitespace-normal {
+  white-space: normal;
 }
 
 /* hover */
-.hover\:visible:hover {
-  visibility: visible;
-}
-
-.hover\:invisible:hover {
-  visibility: hidden;
-}
-
 /* focus */
 /* active */
 /* responsive */
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:visible {
-    visibility: visible;
-  }
-  .xs\:invisible {
-    visibility: hidden;
+  .xs\:whitespace-normal {
+    white-space: normal;
   }
   /* hover */
-  .xs\:hover\:visible:hover {
-    visibility: visible;
-  }
-  .xs\:hover\:invisible:hover {
-    visibility: hidden;
-  }
   /* focus */
   /* active */
 }
@@ -123,19 +103,10 @@
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:visible {
-    visibility: visible;
-  }
-  .sm\:invisible {
-    visibility: hidden;
+  .sm\:whitespace-normal {
+    white-space: normal;
   }
   /* hover */
-  .sm\:hover\:visible:hover {
-    visibility: visible;
-  }
-  .sm\:hover\:invisible:hover {
-    visibility: hidden;
-  }
   /* focus */
   /* active */
 }
@@ -143,19 +114,10 @@
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:visible {
-    visibility: visible;
-  }
-  .md\:invisible {
-    visibility: hidden;
+  .md\:whitespace-normal {
+    white-space: normal;
   }
   /* hover */
-  .md\:hover\:visible:hover {
-    visibility: visible;
-  }
-  .md\:hover\:invisible:hover {
-    visibility: hidden;
-  }
   /* focus */
   /* active */
 }
@@ -163,19 +125,10 @@
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:visible {
-    visibility: visible;
-  }
-  .lg\:invisible {
-    visibility: hidden;
+  .lg\:whitespace-normal {
+    white-space: normal;
   }
   /* hover */
-  .lg\:hover\:visible:hover {
-    visibility: visible;
-  }
-  .lg\:hover\:invisible:hover {
-    visibility: hidden;
-  }
   /* focus */
   /* active */
 }
@@ -183,19 +136,10 @@
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:visible {
-    visibility: visible;
-  }
-  .xl\:invisible {
-    visibility: hidden;
+  .xl\:whitespace-normal {
+    white-space: normal;
   }
   /* hover */
-  .xl\:hover\:visible:hover {
-    visibility: visible;
-  }
-  .xl\:hover\:invisible:hover {
-    visibility: hidden;
-  }
   /* focus */
   /* active */
 }
@@ -203,19 +147,10 @@
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:visible {
-    visibility: visible;
-  }
-  .\32k\:invisible {
-    visibility: hidden;
+  .\32k\:whitespace-normal {
+    white-space: normal;
   }
   /* hover */
-  .\32k\:hover\:visible:hover {
-    visibility: visible;
-  }
-  .\32k\:hover\:invisible:hover {
-    visibility: hidden;
-  }
   /* focus */
   /* active */
 }
@@ -223,19 +158,10 @@
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:visible {
-    visibility: visible;
-  }
-  .\33k\:invisible {
-    visibility: hidden;
+  .\33k\:whitespace-normal {
+    white-space: normal;
   }
   /* hover */
-  .\33k\:hover\:visible:hover {
-    visibility: visible;
-  }
-  .\33k\:hover\:invisible:hover {
-    visibility: hidden;
-  }
   /* focus */
   /* active */
 }
@@ -243,19 +169,10 @@
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:visible {
-    visibility: visible;
-  }
-  .\34k\:invisible {
-    visibility: hidden;
+  .\34k\:whitespace-normal {
+    white-space: normal;
   }
   /* hover */
-  .\34k\:hover\:visible:hover {
-    visibility: visible;
-  }
-  .\34k\:hover\:invisible:hover {
-    visibility: hidden;
-  }
   /* focus */
   /* active */
 }
@@ -263,19 +180,10 @@
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:visible {
-    visibility: visible;
-  }
-  .\35k\:invisible {
-    visibility: hidden;
+  .\35k\:whitespace-normal {
+    white-space: normal;
   }
   /* hover */
-  .\35k\:hover\:visible:hover {
-    visibility: visible;
-  }
-  .\35k\:hover\:invisible:hover {
-    visibility: hidden;
-  }
   /* focus */
   /* active */
 }
@@ -283,19 +191,486 @@
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:visible {
-    visibility: visible;
-  }
-  .\36k\:invisible {
-    visibility: hidden;
+  .\36k\:whitespace-normal {
+    white-space: normal;
   }
   /* hover */
-  .\36k\:hover\:visible:hover {
-    visibility: visible;
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.whitespace-no-wrap {
+  white-space: nowrap;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:whitespace-no-wrap {
+    white-space: nowrap;
   }
-  .\36k\:hover\:invisible:hover {
-    visibility: hidden;
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:whitespace-no-wrap {
+    white-space: nowrap;
   }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:whitespace-no-wrap {
+    white-space: nowrap;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:whitespace-no-wrap {
+    white-space: nowrap;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:whitespace-no-wrap {
+    white-space: nowrap;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:whitespace-no-wrap {
+    white-space: nowrap;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:whitespace-no-wrap {
+    white-space: nowrap;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:whitespace-no-wrap {
+    white-space: nowrap;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:whitespace-no-wrap {
+    white-space: nowrap;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:whitespace-no-wrap {
+    white-space: nowrap;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.whitespace-pre {
+  white-space: pre;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:whitespace-pre {
+    white-space: pre;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:whitespace-pre {
+    white-space: pre;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:whitespace-pre {
+    white-space: pre;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:whitespace-pre {
+    white-space: pre;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:whitespace-pre {
+    white-space: pre;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:whitespace-pre {
+    white-space: pre;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:whitespace-pre {
+    white-space: pre;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:whitespace-pre {
+    white-space: pre;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:whitespace-pre {
+    white-space: pre;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:whitespace-pre {
+    white-space: pre;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.whitespace-pre-line {
+  white-space: pre-line;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:whitespace-pre-line {
+    white-space: pre-line;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.whitespace-pre-wrap {
+  white-space: pre-wrap;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  /* hover */
   /* focus */
   /* active */
 }
