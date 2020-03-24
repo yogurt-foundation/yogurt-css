@@ -1,6 +1,6 @@
 
 <p align="left">
-  <img src="logo.png">
+  <img src="logo.png" height="200" wdith="200">
 </p>
 
 <p align="left">
@@ -20,7 +20,7 @@
 
 # yogurt (2.0.0-proto)
 
-> A colossal size CSS framework for manipulating utility in analogue or stepping controls.
+> A colossal size CSS utility framework that provides only low-level analogue and stepping tooling.
 
 This toolkit allows me to manipulates the `font-size`, `padding`, `margin`, `line-height`, `color`, and so on, with analog or stepping utility control. I am more prefer atomized css selectors with added full-range of different settings for me to choose from, so that I can less or even not to messing with the CSS.
 
