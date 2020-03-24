@@ -62,6 +62,6 @@
 - **(OK)** verticalAlign ~ (responsive)
 - **(OK)** visibility ~ (responsive) (hover)
 - **(OK)** whitespace ~ (responsive)
-- width ~ (responsive)
+- **(OK)** width ~ (responsive)
 - wordBreak ~ (responsive)
 - zIndex ~ (responsive)
