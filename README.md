@@ -56,7 +56,7 @@
 - **(OK)** tableLayout ~ (responsive)
 - **(OK)** textAlign ~ (responsive)
 - textColor ~ (responsive) (hover) (focus)
-- textDecoration ~ (responsive) (hover) (focus)
+- **(OK)** textDecoration ~ (responsive) (hover) (focus)
 - textTransform ~ (responsive)
 - userSelect ~ (responsive)
 - verticalAlign ~ (responsive)

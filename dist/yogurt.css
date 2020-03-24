@@ -65,4 +65,407 @@
 /* resize */
 /* table layout */
 /* text align */
+/**
+ * @module: _textDecoration.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+/* default */
+/* hover */
+/* focus */
+/* active */
+/* basic */
+.underline {
+  text-decoration: underline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+/* hover */
+.hover\:underline:hover {
+  text-decoration: underline;
+}
+
+.hover\:line-through:hover {
+  text-decoration: line-through;
+}
+
+.hover\:no-underline:hover {
+  text-decoration: none;
+}
+
+/* focus */
+.focus\:underline:focus {
+  text-decoration: underline;
+}
+
+.focus\:line-through:focus {
+  text-decoration: line-through;
+}
+
+.focus\:no-underline:focus {
+  text-decoration: none;
+}
+
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:underline {
+    text-decoration: underline;
+  }
+  .xs\:line-through {
+    text-decoration: line-through;
+  }
+  .xs\:no-underline {
+    text-decoration: none;
+  }
+  /* hover */
+  .xs\:hover\:underline:hover {
+    text-decoration: underline;
+  }
+  .xs\:hover\:line-through:hover {
+    text-decoration: line-through;
+  }
+  .xs\:hover\:no-underline:hover {
+    text-decoration: none;
+  }
+  /* focus */
+  .xs\:focus\:underline:focus {
+    text-decoration: underline;
+  }
+  .xs\:focus\:line-through:focus {
+    text-decoration: line-through;
+  }
+  .xs\:focus\:no-underline:focus {
+    text-decoration: none;
+  }
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:underline {
+    text-decoration: underline;
+  }
+  .sm\:line-through {
+    text-decoration: line-through;
+  }
+  .sm\:no-underline {
+    text-decoration: none;
+  }
+  /* hover */
+  .sm\:hover\:underline:hover {
+    text-decoration: underline;
+  }
+  .sm\:hover\:line-through:hover {
+    text-decoration: line-through;
+  }
+  .sm\:hover\:no-underline:hover {
+    text-decoration: none;
+  }
+  /* focus */
+  .sm\:focus\:underline:focus {
+    text-decoration: underline;
+  }
+  .sm\:focus\:line-through:focus {
+    text-decoration: line-through;
+  }
+  .sm\:focus\:no-underline:focus {
+    text-decoration: none;
+  }
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:underline {
+    text-decoration: underline;
+  }
+  .md\:line-through {
+    text-decoration: line-through;
+  }
+  .md\:no-underline {
+    text-decoration: none;
+  }
+  /* hover */
+  .md\:hover\:underline:hover {
+    text-decoration: underline;
+  }
+  .md\:hover\:line-through:hover {
+    text-decoration: line-through;
+  }
+  .md\:hover\:no-underline:hover {
+    text-decoration: none;
+  }
+  /* focus */
+  .md\:focus\:underline:focus {
+    text-decoration: underline;
+  }
+  .md\:focus\:line-through:focus {
+    text-decoration: line-through;
+  }
+  .md\:focus\:no-underline:focus {
+    text-decoration: none;
+  }
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:underline {
+    text-decoration: underline;
+  }
+  .lg\:line-through {
+    text-decoration: line-through;
+  }
+  .lg\:no-underline {
+    text-decoration: none;
+  }
+  /* hover */
+  .lg\:hover\:underline:hover {
+    text-decoration: underline;
+  }
+  .lg\:hover\:line-through:hover {
+    text-decoration: line-through;
+  }
+  .lg\:hover\:no-underline:hover {
+    text-decoration: none;
+  }
+  /* focus */
+  .lg\:focus\:underline:focus {
+    text-decoration: underline;
+  }
+  .lg\:focus\:line-through:focus {
+    text-decoration: line-through;
+  }
+  .lg\:focus\:no-underline:focus {
+    text-decoration: none;
+  }
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:underline {
+    text-decoration: underline;
+  }
+  .xl\:line-through {
+    text-decoration: line-through;
+  }
+  .xl\:no-underline {
+    text-decoration: none;
+  }
+  /* hover */
+  .xl\:hover\:underline:hover {
+    text-decoration: underline;
+  }
+  .xl\:hover\:line-through:hover {
+    text-decoration: line-through;
+  }
+  .xl\:hover\:no-underline:hover {
+    text-decoration: none;
+  }
+  /* focus */
+  .xl\:focus\:underline:focus {
+    text-decoration: underline;
+  }
+  .xl\:focus\:line-through:focus {
+    text-decoration: line-through;
+  }
+  .xl\:focus\:no-underline:focus {
+    text-decoration: none;
+  }
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:underline {
+    text-decoration: underline;
+  }
+  .\32k\:line-through {
+    text-decoration: line-through;
+  }
+  .\32k\:no-underline {
+    text-decoration: none;
+  }
+  /* hover */
+  .\32k\:hover\:underline:hover {
+    text-decoration: underline;
+  }
+  .\32k\:hover\:line-through:hover {
+    text-decoration: line-through;
+  }
+  .\32k\:hover\:no-underline:hover {
+    text-decoration: none;
+  }
+  /* focus */
+  .\32k\:focus\:underline:focus {
+    text-decoration: underline;
+  }
+  .\32k\:focus\:line-through:focus {
+    text-decoration: line-through;
+  }
+  .\32k\:focus\:no-underline:focus {
+    text-decoration: none;
+  }
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:underline {
+    text-decoration: underline;
+  }
+  .\33k\:line-through {
+    text-decoration: line-through;
+  }
+  .\33k\:no-underline {
+    text-decoration: none;
+  }
+  /* hover */
+  .\33k\:hover\:underline:hover {
+    text-decoration: underline;
+  }
+  .\33k\:hover\:line-through:hover {
+    text-decoration: line-through;
+  }
+  .\33k\:hover\:no-underline:hover {
+    text-decoration: none;
+  }
+  /* focus */
+  .\33k\:focus\:underline:focus {
+    text-decoration: underline;
+  }
+  .\33k\:focus\:line-through:focus {
+    text-decoration: line-through;
+  }
+  .\33k\:focus\:no-underline:focus {
+    text-decoration: none;
+  }
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:underline {
+    text-decoration: underline;
+  }
+  .\34k\:line-through {
+    text-decoration: line-through;
+  }
+  .\34k\:no-underline {
+    text-decoration: none;
+  }
+  /* hover */
+  .\34k\:hover\:underline:hover {
+    text-decoration: underline;
+  }
+  .\34k\:hover\:line-through:hover {
+    text-decoration: line-through;
+  }
+  .\34k\:hover\:no-underline:hover {
+    text-decoration: none;
+  }
+  /* focus */
+  .\34k\:focus\:underline:focus {
+    text-decoration: underline;
+  }
+  .\34k\:focus\:line-through:focus {
+    text-decoration: line-through;
+  }
+  .\34k\:focus\:no-underline:focus {
+    text-decoration: none;
+  }
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:underline {
+    text-decoration: underline;
+  }
+  .\35k\:line-through {
+    text-decoration: line-through;
+  }
+  .\35k\:no-underline {
+    text-decoration: none;
+  }
+  /* hover */
+  .\35k\:hover\:underline:hover {
+    text-decoration: underline;
+  }
+  .\35k\:hover\:line-through:hover {
+    text-decoration: line-through;
+  }
+  .\35k\:hover\:no-underline:hover {
+    text-decoration: none;
+  }
+  /* focus */
+  .\35k\:focus\:underline:focus {
+    text-decoration: underline;
+  }
+  .\35k\:focus\:line-through:focus {
+    text-decoration: line-through;
+  }
+  .\35k\:focus\:no-underline:focus {
+    text-decoration: none;
+  }
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:underline {
+    text-decoration: underline;
+  }
+  .\36k\:line-through {
+    text-decoration: line-through;
+  }
+  .\36k\:no-underline {
+    text-decoration: none;
+  }
+  /* hover */
+  .\36k\:hover\:underline:hover {
+    text-decoration: underline;
+  }
+  .\36k\:hover\:line-through:hover {
+    text-decoration: line-through;
+  }
+  .\36k\:hover\:no-underline:hover {
+    text-decoration: none;
+  }
+  /* focus */
+  .\36k\:focus\:underline:focus {
+    text-decoration: underline;
+  }
+  .\36k\:focus\:line-through:focus {
+    text-decoration: line-through;
+  }
+  .\36k\:focus\:no-underline:focus {
+    text-decoration: none;
+  }
+  /* active */
+}
+
 /*! yogurt.css v2.0.0 | MIT License | gtihub.com/loouislow81/yogurt-foundation */
