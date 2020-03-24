@@ -329,3 +329,11 @@ $opacity:
   (75, 0.75),
   (100, 1);
 
+/* object fit */
+
+$object-fit:
+  (contain, contain),
+  (cover, cover),
+  (fill, fill),
+  (none, none),
+  (scale-down, scale-down);

@@ -1,0 +1,36 @@
+/**
+ * @module: _objectFit.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin objectFit($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}object-#{$modifier}#{$pseudo} {
+    object-fit: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $object-fit {
+  /* basic */
+  @include objectFit("", "", ".", $modifier, $value)
+  /* hover */
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
+      @include objectFit(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      /* focus */
+      /* active */
+    }
+  }
+}

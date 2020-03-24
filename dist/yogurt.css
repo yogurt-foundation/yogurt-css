@@ -55,8 +55,9 @@
 /* min height */
 /* min width */
 /* opacity */
+/* object fit */
 /**
- * @module: _fontWeight.scss
+ * @module: _objectFit.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -65,1685 +66,652 @@
  */
 /* default */
 /* basic */
-.font-hairline {
-  font-size: 100;
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 /* hover */
-.hover\:font-hairline:hover {
-  font-size: 100;
-}
-
 /* focus */
-.focus\:font-hairline:focus {
-  font-size: 100;
-}
-
 /* active */
 /* responsive */
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:font-hairline {
-    font-size: 100;
+  .xs\:object-contain {
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   /* hover */
-  .xs\:hover\:font-hairline:hover {
-    font-size: 100;
-  }
   /* focus */
-  .xs\:focus\:font-hairline:focus {
-    font-size: 100;
-  }
   /* active */
 }
 
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:font-hairline {
-    font-size: 100;
+  .sm\:object-contain {
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   /* hover */
-  .sm\:hover\:font-hairline:hover {
-    font-size: 100;
-  }
   /* focus */
-  .sm\:focus\:font-hairline:focus {
-    font-size: 100;
-  }
   /* active */
 }
 
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:font-hairline {
-    font-size: 100;
+  .md\:object-contain {
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   /* hover */
-  .md\:hover\:font-hairline:hover {
-    font-size: 100;
-  }
   /* focus */
-  .md\:focus\:font-hairline:focus {
-    font-size: 100;
-  }
   /* active */
 }
 
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:font-hairline {
-    font-size: 100;
+  .lg\:object-contain {
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   /* hover */
-  .lg\:hover\:font-hairline:hover {
-    font-size: 100;
-  }
   /* focus */
-  .lg\:focus\:font-hairline:focus {
-    font-size: 100;
-  }
   /* active */
 }
 
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:font-hairline {
-    font-size: 100;
+  .xl\:object-contain {
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   /* hover */
-  .xl\:hover\:font-hairline:hover {
-    font-size: 100;
-  }
   /* focus */
-  .xl\:focus\:font-hairline:focus {
-    font-size: 100;
-  }
   /* active */
 }
 
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:font-hairline {
-    font-size: 100;
+  .\32k\:object-contain {
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   /* hover */
-  .\32k\:hover\:font-hairline:hover {
-    font-size: 100;
-  }
   /* focus */
-  .\32k\:focus\:font-hairline:focus {
-    font-size: 100;
-  }
   /* active */
 }
 
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:font-hairline {
-    font-size: 100;
+  .\33k\:object-contain {
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   /* hover */
-  .\33k\:hover\:font-hairline:hover {
-    font-size: 100;
-  }
   /* focus */
-  .\33k\:focus\:font-hairline:focus {
-    font-size: 100;
-  }
   /* active */
 }
 
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:font-hairline {
-    font-size: 100;
+  .\34k\:object-contain {
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   /* hover */
-  .\34k\:hover\:font-hairline:hover {
-    font-size: 100;
-  }
   /* focus */
-  .\34k\:focus\:font-hairline:focus {
-    font-size: 100;
-  }
   /* active */
 }
 
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:font-hairline {
-    font-size: 100;
+  .\35k\:object-contain {
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   /* hover */
-  .\35k\:hover\:font-hairline:hover {
-    font-size: 100;
-  }
   /* focus */
-  .\35k\:focus\:font-hairline:focus {
-    font-size: 100;
-  }
   /* active */
 }
 
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:font-hairline {
-    font-size: 100;
+  .\36k\:object-contain {
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   /* hover */
-  .\36k\:hover\:font-hairline:hover {
-    font-size: 100;
-  }
   /* focus */
-  .\36k\:focus\:font-hairline:focus {
-    font-size: 100;
-  }
   /* active */
 }
 
 /* basic */
-.font-thin {
-  font-size: 200;
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* hover */
-.hover\:font-thin:hover {
-  font-size: 200;
-}
-
 /* focus */
-.focus\:font-thin:focus {
-  font-size: 200;
-}
-
 /* active */
 /* responsive */
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:font-thin {
-    font-size: 200;
+  .xs\:object-cover {
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   /* hover */
-  .xs\:hover\:font-thin:hover {
-    font-size: 200;
-  }
   /* focus */
-  .xs\:focus\:font-thin:focus {
-    font-size: 200;
-  }
   /* active */
 }
 
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:font-thin {
-    font-size: 200;
+  .sm\:object-cover {
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   /* hover */
-  .sm\:hover\:font-thin:hover {
-    font-size: 200;
-  }
   /* focus */
-  .sm\:focus\:font-thin:focus {
-    font-size: 200;
-  }
   /* active */
 }
 
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:font-thin {
-    font-size: 200;
+  .md\:object-cover {
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   /* hover */
-  .md\:hover\:font-thin:hover {
-    font-size: 200;
-  }
   /* focus */
-  .md\:focus\:font-thin:focus {
-    font-size: 200;
-  }
   /* active */
 }
 
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:font-thin {
-    font-size: 200;
+  .lg\:object-cover {
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   /* hover */
-  .lg\:hover\:font-thin:hover {
-    font-size: 200;
-  }
   /* focus */
-  .lg\:focus\:font-thin:focus {
-    font-size: 200;
-  }
   /* active */
 }
 
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:font-thin {
-    font-size: 200;
+  .xl\:object-cover {
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   /* hover */
-  .xl\:hover\:font-thin:hover {
-    font-size: 200;
-  }
   /* focus */
-  .xl\:focus\:font-thin:focus {
-    font-size: 200;
-  }
   /* active */
 }
 
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:font-thin {
-    font-size: 200;
+  .\32k\:object-cover {
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   /* hover */
-  .\32k\:hover\:font-thin:hover {
-    font-size: 200;
-  }
   /* focus */
-  .\32k\:focus\:font-thin:focus {
-    font-size: 200;
-  }
   /* active */
 }
 
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:font-thin {
-    font-size: 200;
+  .\33k\:object-cover {
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   /* hover */
-  .\33k\:hover\:font-thin:hover {
-    font-size: 200;
-  }
   /* focus */
-  .\33k\:focus\:font-thin:focus {
-    font-size: 200;
-  }
   /* active */
 }
 
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:font-thin {
-    font-size: 200;
+  .\34k\:object-cover {
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   /* hover */
-  .\34k\:hover\:font-thin:hover {
-    font-size: 200;
-  }
   /* focus */
-  .\34k\:focus\:font-thin:focus {
-    font-size: 200;
-  }
   /* active */
 }
 
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:font-thin {
-    font-size: 200;
+  .\35k\:object-cover {
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   /* hover */
-  .\35k\:hover\:font-thin:hover {
-    font-size: 200;
-  }
   /* focus */
-  .\35k\:focus\:font-thin:focus {
-    font-size: 200;
-  }
   /* active */
 }
 
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:font-thin {
-    font-size: 200;
+  .\36k\:object-cover {
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   /* hover */
-  .\36k\:hover\:font-thin:hover {
-    font-size: 200;
-  }
   /* focus */
-  .\36k\:focus\:font-thin:focus {
-    font-size: 200;
-  }
   /* active */
 }
 
 /* basic */
-.font-light {
-  font-size: 300;
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 /* hover */
-.hover\:font-light:hover {
-  font-size: 300;
-}
-
 /* focus */
-.focus\:font-light:focus {
-  font-size: 300;
-}
-
 /* active */
 /* responsive */
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:font-light {
-    font-size: 300;
+  .xs\:object-fill {
+    -o-object-fit: fill;
+       object-fit: fill;
   }
   /* hover */
-  .xs\:hover\:font-light:hover {
-    font-size: 300;
-  }
   /* focus */
-  .xs\:focus\:font-light:focus {
-    font-size: 300;
-  }
   /* active */
 }
 
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:font-light {
-    font-size: 300;
+  .sm\:object-fill {
+    -o-object-fit: fill;
+       object-fit: fill;
   }
   /* hover */
-  .sm\:hover\:font-light:hover {
-    font-size: 300;
-  }
   /* focus */
-  .sm\:focus\:font-light:focus {
-    font-size: 300;
-  }
   /* active */
 }
 
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:font-light {
-    font-size: 300;
+  .md\:object-fill {
+    -o-object-fit: fill;
+       object-fit: fill;
   }
   /* hover */
-  .md\:hover\:font-light:hover {
-    font-size: 300;
-  }
   /* focus */
-  .md\:focus\:font-light:focus {
-    font-size: 300;
-  }
   /* active */
 }
 
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:font-light {
-    font-size: 300;
+  .lg\:object-fill {
+    -o-object-fit: fill;
+       object-fit: fill;
   }
   /* hover */
-  .lg\:hover\:font-light:hover {
-    font-size: 300;
-  }
   /* focus */
-  .lg\:focus\:font-light:focus {
-    font-size: 300;
-  }
   /* active */
 }
 
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:font-light {
-    font-size: 300;
+  .xl\:object-fill {
+    -o-object-fit: fill;
+       object-fit: fill;
   }
   /* hover */
-  .xl\:hover\:font-light:hover {
-    font-size: 300;
-  }
   /* focus */
-  .xl\:focus\:font-light:focus {
-    font-size: 300;
-  }
   /* active */
 }
 
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:font-light {
-    font-size: 300;
+  .\32k\:object-fill {
+    -o-object-fit: fill;
+       object-fit: fill;
   }
   /* hover */
-  .\32k\:hover\:font-light:hover {
-    font-size: 300;
-  }
   /* focus */
-  .\32k\:focus\:font-light:focus {
-    font-size: 300;
-  }
   /* active */
 }
 
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:font-light {
-    font-size: 300;
+  .\33k\:object-fill {
+    -o-object-fit: fill;
+       object-fit: fill;
   }
   /* hover */
-  .\33k\:hover\:font-light:hover {
-    font-size: 300;
-  }
   /* focus */
-  .\33k\:focus\:font-light:focus {
-    font-size: 300;
-  }
   /* active */
 }
 
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:font-light {
-    font-size: 300;
+  .\34k\:object-fill {
+    -o-object-fit: fill;
+       object-fit: fill;
   }
   /* hover */
-  .\34k\:hover\:font-light:hover {
-    font-size: 300;
-  }
   /* focus */
-  .\34k\:focus\:font-light:focus {
-    font-size: 300;
-  }
   /* active */
 }
 
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:font-light {
-    font-size: 300;
+  .\35k\:object-fill {
+    -o-object-fit: fill;
+       object-fit: fill;
   }
   /* hover */
-  .\35k\:hover\:font-light:hover {
-    font-size: 300;
-  }
   /* focus */
-  .\35k\:focus\:font-light:focus {
-    font-size: 300;
-  }
   /* active */
 }
 
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:font-light {
-    font-size: 300;
+  .\36k\:object-fill {
+    -o-object-fit: fill;
+       object-fit: fill;
   }
   /* hover */
-  .\36k\:hover\:font-light:hover {
-    font-size: 300;
-  }
   /* focus */
-  .\36k\:focus\:font-light:focus {
-    font-size: 300;
-  }
   /* active */
 }
 
 /* basic */
-.font-normal {
-  font-size: 400;
+.object-none {
+  -o-object-fit: none;
+     object-fit: none;
 }
 
 /* hover */
-.hover\:font-normal:hover {
-  font-size: 400;
-}
-
 /* focus */
-.focus\:font-normal:focus {
-  font-size: 400;
-}
-
 /* active */
 /* responsive */
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:font-normal {
-    font-size: 400;
+  .xs\:object-none {
+    -o-object-fit: none;
+       object-fit: none;
   }
   /* hover */
-  .xs\:hover\:font-normal:hover {
-    font-size: 400;
-  }
   /* focus */
-  .xs\:focus\:font-normal:focus {
-    font-size: 400;
-  }
   /* active */
 }
 
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:font-normal {
-    font-size: 400;
+  .sm\:object-none {
+    -o-object-fit: none;
+       object-fit: none;
   }
   /* hover */
-  .sm\:hover\:font-normal:hover {
-    font-size: 400;
-  }
   /* focus */
-  .sm\:focus\:font-normal:focus {
-    font-size: 400;
-  }
   /* active */
 }
 
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:font-normal {
-    font-size: 400;
+  .md\:object-none {
+    -o-object-fit: none;
+       object-fit: none;
   }
   /* hover */
-  .md\:hover\:font-normal:hover {
-    font-size: 400;
-  }
   /* focus */
-  .md\:focus\:font-normal:focus {
-    font-size: 400;
-  }
   /* active */
 }
 
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:font-normal {
-    font-size: 400;
+  .lg\:object-none {
+    -o-object-fit: none;
+       object-fit: none;
   }
   /* hover */
-  .lg\:hover\:font-normal:hover {
-    font-size: 400;
-  }
   /* focus */
-  .lg\:focus\:font-normal:focus {
-    font-size: 400;
-  }
   /* active */
 }
 
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:font-normal {
-    font-size: 400;
+  .xl\:object-none {
+    -o-object-fit: none;
+       object-fit: none;
   }
   /* hover */
-  .xl\:hover\:font-normal:hover {
-    font-size: 400;
-  }
   /* focus */
-  .xl\:focus\:font-normal:focus {
-    font-size: 400;
-  }
   /* active */
 }
 
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:font-normal {
-    font-size: 400;
+  .\32k\:object-none {
+    -o-object-fit: none;
+       object-fit: none;
   }
   /* hover */
-  .\32k\:hover\:font-normal:hover {
-    font-size: 400;
-  }
   /* focus */
-  .\32k\:focus\:font-normal:focus {
-    font-size: 400;
-  }
   /* active */
 }
 
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:font-normal {
-    font-size: 400;
+  .\33k\:object-none {
+    -o-object-fit: none;
+       object-fit: none;
   }
   /* hover */
-  .\33k\:hover\:font-normal:hover {
-    font-size: 400;
-  }
   /* focus */
-  .\33k\:focus\:font-normal:focus {
-    font-size: 400;
-  }
   /* active */
 }
 
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:font-normal {
-    font-size: 400;
+  .\34k\:object-none {
+    -o-object-fit: none;
+       object-fit: none;
   }
   /* hover */
-  .\34k\:hover\:font-normal:hover {
-    font-size: 400;
-  }
   /* focus */
-  .\34k\:focus\:font-normal:focus {
-    font-size: 400;
-  }
   /* active */
 }
 
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:font-normal {
-    font-size: 400;
+  .\35k\:object-none {
+    -o-object-fit: none;
+       object-fit: none;
   }
   /* hover */
-  .\35k\:hover\:font-normal:hover {
-    font-size: 400;
-  }
   /* focus */
-  .\35k\:focus\:font-normal:focus {
-    font-size: 400;
-  }
   /* active */
 }
 
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:font-normal {
-    font-size: 400;
+  .\36k\:object-none {
+    -o-object-fit: none;
+       object-fit: none;
   }
   /* hover */
-  .\36k\:hover\:font-normal:hover {
-    font-size: 400;
-  }
   /* focus */
-  .\36k\:focus\:font-normal:focus {
-    font-size: 400;
-  }
   /* active */
 }
 
 /* basic */
-.font-medium {
-  font-size: 500;
+.object-scale-down {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 
 /* hover */
-.hover\:font-medium:hover {
-  font-size: 500;
-}
-
 /* focus */
-.focus\:font-medium:focus {
-  font-size: 500;
-}
-
 /* active */
 /* responsive */
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:font-medium {
-    font-size: 500;
+  .xs\:object-scale-down {
+    -o-object-fit: scale-down;
+       object-fit: scale-down;
   }
   /* hover */
-  .xs\:hover\:font-medium:hover {
-    font-size: 500;
-  }
   /* focus */
-  .xs\:focus\:font-medium:focus {
-    font-size: 500;
-  }
   /* active */
 }
 
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:font-medium {
-    font-size: 500;
+  .sm\:object-scale-down {
+    -o-object-fit: scale-down;
+       object-fit: scale-down;
   }
   /* hover */
-  .sm\:hover\:font-medium:hover {
-    font-size: 500;
-  }
   /* focus */
-  .sm\:focus\:font-medium:focus {
-    font-size: 500;
-  }
   /* active */
 }
 
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:font-medium {
-    font-size: 500;
+  .md\:object-scale-down {
+    -o-object-fit: scale-down;
+       object-fit: scale-down;
   }
   /* hover */
-  .md\:hover\:font-medium:hover {
-    font-size: 500;
-  }
   /* focus */
-  .md\:focus\:font-medium:focus {
-    font-size: 500;
-  }
   /* active */
 }
 
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:font-medium {
-    font-size: 500;
+  .lg\:object-scale-down {
+    -o-object-fit: scale-down;
+       object-fit: scale-down;
   }
   /* hover */
-  .lg\:hover\:font-medium:hover {
-    font-size: 500;
-  }
   /* focus */
-  .lg\:focus\:font-medium:focus {
-    font-size: 500;
-  }
   /* active */
 }
 
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:font-medium {
-    font-size: 500;
+  .xl\:object-scale-down {
+    -o-object-fit: scale-down;
+       object-fit: scale-down;
   }
   /* hover */
-  .xl\:hover\:font-medium:hover {
-    font-size: 500;
-  }
   /* focus */
-  .xl\:focus\:font-medium:focus {
-    font-size: 500;
-  }
   /* active */
 }
 
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:font-medium {
-    font-size: 500;
+  .\32k\:object-scale-down {
+    -o-object-fit: scale-down;
+       object-fit: scale-down;
   }
   /* hover */
-  .\32k\:hover\:font-medium:hover {
-    font-size: 500;
-  }
   /* focus */
-  .\32k\:focus\:font-medium:focus {
-    font-size: 500;
-  }
   /* active */
 }
 
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:font-medium {
-    font-size: 500;
+  .\33k\:object-scale-down {
+    -o-object-fit: scale-down;
+       object-fit: scale-down;
   }
   /* hover */
-  .\33k\:hover\:font-medium:hover {
-    font-size: 500;
-  }
   /* focus */
-  .\33k\:focus\:font-medium:focus {
-    font-size: 500;
-  }
   /* active */
 }
 
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:font-medium {
-    font-size: 500;
+  .\34k\:object-scale-down {
+    -o-object-fit: scale-down;
+       object-fit: scale-down;
   }
   /* hover */
-  .\34k\:hover\:font-medium:hover {
-    font-size: 500;
-  }
   /* focus */
-  .\34k\:focus\:font-medium:focus {
-    font-size: 500;
-  }
   /* active */
 }
 
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:font-medium {
-    font-size: 500;
+  .\35k\:object-scale-down {
+    -o-object-fit: scale-down;
+       object-fit: scale-down;
   }
   /* hover */
-  .\35k\:hover\:font-medium:hover {
-    font-size: 500;
-  }
   /* focus */
-  .\35k\:focus\:font-medium:focus {
-    font-size: 500;
-  }
   /* active */
 }
 
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:font-medium {
-    font-size: 500;
+  .\36k\:object-scale-down {
+    -o-object-fit: scale-down;
+       object-fit: scale-down;
   }
   /* hover */
-  .\36k\:hover\:font-medium:hover {
-    font-size: 500;
-  }
   /* focus */
-  .\36k\:focus\:font-medium:focus {
-    font-size: 500;
-  }
-  /* active */
-}
-
-/* basic */
-.font-semibold {
-  font-size: 600;
-}
-
-/* hover */
-.hover\:font-semibold:hover {
-  font-size: 600;
-}
-
-/* focus */
-.focus\:font-semibold:focus {
-  font-size: 600;
-}
-
-/* active */
-/* responsive */
-@media (min-width: 320px) {
-  /* default */
-  /* basic */
-  .xs\:font-semibold {
-    font-size: 600;
-  }
-  /* hover */
-  .xs\:hover\:font-semibold:hover {
-    font-size: 600;
-  }
-  /* focus */
-  .xs\:focus\:font-semibold:focus {
-    font-size: 600;
-  }
-  /* active */
-}
-
-@media (min-width: 640px) {
-  /* default */
-  /* basic */
-  .sm\:font-semibold {
-    font-size: 600;
-  }
-  /* hover */
-  .sm\:hover\:font-semibold:hover {
-    font-size: 600;
-  }
-  /* focus */
-  .sm\:focus\:font-semibold:focus {
-    font-size: 600;
-  }
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* default */
-  /* basic */
-  .md\:font-semibold {
-    font-size: 600;
-  }
-  /* hover */
-  .md\:hover\:font-semibold:hover {
-    font-size: 600;
-  }
-  /* focus */
-  .md\:focus\:font-semibold:focus {
-    font-size: 600;
-  }
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* default */
-  /* basic */
-  .lg\:font-semibold {
-    font-size: 600;
-  }
-  /* hover */
-  .lg\:hover\:font-semibold:hover {
-    font-size: 600;
-  }
-  /* focus */
-  .lg\:focus\:font-semibold:focus {
-    font-size: 600;
-  }
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* default */
-  /* basic */
-  .xl\:font-semibold {
-    font-size: 600;
-  }
-  /* hover */
-  .xl\:hover\:font-semibold:hover {
-    font-size: 600;
-  }
-  /* focus */
-  .xl\:focus\:font-semibold:focus {
-    font-size: 600;
-  }
-  /* active */
-}
-
-@media (min-width: 1920px) {
-  /* default */
-  /* basic */
-  .\32k\:font-semibold {
-    font-size: 600;
-  }
-  /* hover */
-  .\32k\:hover\:font-semibold:hover {
-    font-size: 600;
-  }
-  /* focus */
-  .\32k\:focus\:font-semibold:focus {
-    font-size: 600;
-  }
-  /* active */
-}
-
-@media (min-width: 2560px) {
-  /* default */
-  /* basic */
-  .\33k\:font-semibold {
-    font-size: 600;
-  }
-  /* hover */
-  .\33k\:hover\:font-semibold:hover {
-    font-size: 600;
-  }
-  /* focus */
-  .\33k\:focus\:font-semibold:focus {
-    font-size: 600;
-  }
-  /* active */
-}
-
-@media (min-width: 3840px) {
-  /* default */
-  /* basic */
-  .\34k\:font-semibold {
-    font-size: 600;
-  }
-  /* hover */
-  .\34k\:hover\:font-semibold:hover {
-    font-size: 600;
-  }
-  /* focus */
-  .\34k\:focus\:font-semibold:focus {
-    font-size: 600;
-  }
-  /* active */
-}
-
-@media (min-width: 6400px) {
-  /* default */
-  /* basic */
-  .\35k\:font-semibold {
-    font-size: 600;
-  }
-  /* hover */
-  .\35k\:hover\:font-semibold:hover {
-    font-size: 600;
-  }
-  /* focus */
-  .\35k\:focus\:font-semibold:focus {
-    font-size: 600;
-  }
-  /* active */
-}
-
-@media (min-width: 7680px) {
-  /* default */
-  /* basic */
-  .\36k\:font-semibold {
-    font-size: 600;
-  }
-  /* hover */
-  .\36k\:hover\:font-semibold:hover {
-    font-size: 600;
-  }
-  /* focus */
-  .\36k\:focus\:font-semibold:focus {
-    font-size: 600;
-  }
-  /* active */
-}
-
-/* basic */
-.font-bold {
-  font-size: 700;
-}
-
-/* hover */
-.hover\:font-bold:hover {
-  font-size: 700;
-}
-
-/* focus */
-.focus\:font-bold:focus {
-  font-size: 700;
-}
-
-/* active */
-/* responsive */
-@media (min-width: 320px) {
-  /* default */
-  /* basic */
-  .xs\:font-bold {
-    font-size: 700;
-  }
-  /* hover */
-  .xs\:hover\:font-bold:hover {
-    font-size: 700;
-  }
-  /* focus */
-  .xs\:focus\:font-bold:focus {
-    font-size: 700;
-  }
-  /* active */
-}
-
-@media (min-width: 640px) {
-  /* default */
-  /* basic */
-  .sm\:font-bold {
-    font-size: 700;
-  }
-  /* hover */
-  .sm\:hover\:font-bold:hover {
-    font-size: 700;
-  }
-  /* focus */
-  .sm\:focus\:font-bold:focus {
-    font-size: 700;
-  }
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* default */
-  /* basic */
-  .md\:font-bold {
-    font-size: 700;
-  }
-  /* hover */
-  .md\:hover\:font-bold:hover {
-    font-size: 700;
-  }
-  /* focus */
-  .md\:focus\:font-bold:focus {
-    font-size: 700;
-  }
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* default */
-  /* basic */
-  .lg\:font-bold {
-    font-size: 700;
-  }
-  /* hover */
-  .lg\:hover\:font-bold:hover {
-    font-size: 700;
-  }
-  /* focus */
-  .lg\:focus\:font-bold:focus {
-    font-size: 700;
-  }
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* default */
-  /* basic */
-  .xl\:font-bold {
-    font-size: 700;
-  }
-  /* hover */
-  .xl\:hover\:font-bold:hover {
-    font-size: 700;
-  }
-  /* focus */
-  .xl\:focus\:font-bold:focus {
-    font-size: 700;
-  }
-  /* active */
-}
-
-@media (min-width: 1920px) {
-  /* default */
-  /* basic */
-  .\32k\:font-bold {
-    font-size: 700;
-  }
-  /* hover */
-  .\32k\:hover\:font-bold:hover {
-    font-size: 700;
-  }
-  /* focus */
-  .\32k\:focus\:font-bold:focus {
-    font-size: 700;
-  }
-  /* active */
-}
-
-@media (min-width: 2560px) {
-  /* default */
-  /* basic */
-  .\33k\:font-bold {
-    font-size: 700;
-  }
-  /* hover */
-  .\33k\:hover\:font-bold:hover {
-    font-size: 700;
-  }
-  /* focus */
-  .\33k\:focus\:font-bold:focus {
-    font-size: 700;
-  }
-  /* active */
-}
-
-@media (min-width: 3840px) {
-  /* default */
-  /* basic */
-  .\34k\:font-bold {
-    font-size: 700;
-  }
-  /* hover */
-  .\34k\:hover\:font-bold:hover {
-    font-size: 700;
-  }
-  /* focus */
-  .\34k\:focus\:font-bold:focus {
-    font-size: 700;
-  }
-  /* active */
-}
-
-@media (min-width: 6400px) {
-  /* default */
-  /* basic */
-  .\35k\:font-bold {
-    font-size: 700;
-  }
-  /* hover */
-  .\35k\:hover\:font-bold:hover {
-    font-size: 700;
-  }
-  /* focus */
-  .\35k\:focus\:font-bold:focus {
-    font-size: 700;
-  }
-  /* active */
-}
-
-@media (min-width: 7680px) {
-  /* default */
-  /* basic */
-  .\36k\:font-bold {
-    font-size: 700;
-  }
-  /* hover */
-  .\36k\:hover\:font-bold:hover {
-    font-size: 700;
-  }
-  /* focus */
-  .\36k\:focus\:font-bold:focus {
-    font-size: 700;
-  }
-  /* active */
-}
-
-/* basic */
-.font-extrabold {
-  font-size: 800;
-}
-
-/* hover */
-.hover\:font-extrabold:hover {
-  font-size: 800;
-}
-
-/* focus */
-.focus\:font-extrabold:focus {
-  font-size: 800;
-}
-
-/* active */
-/* responsive */
-@media (min-width: 320px) {
-  /* default */
-  /* basic */
-  .xs\:font-extrabold {
-    font-size: 800;
-  }
-  /* hover */
-  .xs\:hover\:font-extrabold:hover {
-    font-size: 800;
-  }
-  /* focus */
-  .xs\:focus\:font-extrabold:focus {
-    font-size: 800;
-  }
-  /* active */
-}
-
-@media (min-width: 640px) {
-  /* default */
-  /* basic */
-  .sm\:font-extrabold {
-    font-size: 800;
-  }
-  /* hover */
-  .sm\:hover\:font-extrabold:hover {
-    font-size: 800;
-  }
-  /* focus */
-  .sm\:focus\:font-extrabold:focus {
-    font-size: 800;
-  }
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* default */
-  /* basic */
-  .md\:font-extrabold {
-    font-size: 800;
-  }
-  /* hover */
-  .md\:hover\:font-extrabold:hover {
-    font-size: 800;
-  }
-  /* focus */
-  .md\:focus\:font-extrabold:focus {
-    font-size: 800;
-  }
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* default */
-  /* basic */
-  .lg\:font-extrabold {
-    font-size: 800;
-  }
-  /* hover */
-  .lg\:hover\:font-extrabold:hover {
-    font-size: 800;
-  }
-  /* focus */
-  .lg\:focus\:font-extrabold:focus {
-    font-size: 800;
-  }
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* default */
-  /* basic */
-  .xl\:font-extrabold {
-    font-size: 800;
-  }
-  /* hover */
-  .xl\:hover\:font-extrabold:hover {
-    font-size: 800;
-  }
-  /* focus */
-  .xl\:focus\:font-extrabold:focus {
-    font-size: 800;
-  }
-  /* active */
-}
-
-@media (min-width: 1920px) {
-  /* default */
-  /* basic */
-  .\32k\:font-extrabold {
-    font-size: 800;
-  }
-  /* hover */
-  .\32k\:hover\:font-extrabold:hover {
-    font-size: 800;
-  }
-  /* focus */
-  .\32k\:focus\:font-extrabold:focus {
-    font-size: 800;
-  }
-  /* active */
-}
-
-@media (min-width: 2560px) {
-  /* default */
-  /* basic */
-  .\33k\:font-extrabold {
-    font-size: 800;
-  }
-  /* hover */
-  .\33k\:hover\:font-extrabold:hover {
-    font-size: 800;
-  }
-  /* focus */
-  .\33k\:focus\:font-extrabold:focus {
-    font-size: 800;
-  }
-  /* active */
-}
-
-@media (min-width: 3840px) {
-  /* default */
-  /* basic */
-  .\34k\:font-extrabold {
-    font-size: 800;
-  }
-  /* hover */
-  .\34k\:hover\:font-extrabold:hover {
-    font-size: 800;
-  }
-  /* focus */
-  .\34k\:focus\:font-extrabold:focus {
-    font-size: 800;
-  }
-  /* active */
-}
-
-@media (min-width: 6400px) {
-  /* default */
-  /* basic */
-  .\35k\:font-extrabold {
-    font-size: 800;
-  }
-  /* hover */
-  .\35k\:hover\:font-extrabold:hover {
-    font-size: 800;
-  }
-  /* focus */
-  .\35k\:focus\:font-extrabold:focus {
-    font-size: 800;
-  }
-  /* active */
-}
-
-@media (min-width: 7680px) {
-  /* default */
-  /* basic */
-  .\36k\:font-extrabold {
-    font-size: 800;
-  }
-  /* hover */
-  .\36k\:hover\:font-extrabold:hover {
-    font-size: 800;
-  }
-  /* focus */
-  .\36k\:focus\:font-extrabold:focus {
-    font-size: 800;
-  }
-  /* active */
-}
-
-/* basic */
-.font-black {
-  font-size: 900;
-}
-
-/* hover */
-.hover\:font-black:hover {
-  font-size: 900;
-}
-
-/* focus */
-.focus\:font-black:focus {
-  font-size: 900;
-}
-
-/* active */
-/* responsive */
-@media (min-width: 320px) {
-  /* default */
-  /* basic */
-  .xs\:font-black {
-    font-size: 900;
-  }
-  /* hover */
-  .xs\:hover\:font-black:hover {
-    font-size: 900;
-  }
-  /* focus */
-  .xs\:focus\:font-black:focus {
-    font-size: 900;
-  }
-  /* active */
-}
-
-@media (min-width: 640px) {
-  /* default */
-  /* basic */
-  .sm\:font-black {
-    font-size: 900;
-  }
-  /* hover */
-  .sm\:hover\:font-black:hover {
-    font-size: 900;
-  }
-  /* focus */
-  .sm\:focus\:font-black:focus {
-    font-size: 900;
-  }
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* default */
-  /* basic */
-  .md\:font-black {
-    font-size: 900;
-  }
-  /* hover */
-  .md\:hover\:font-black:hover {
-    font-size: 900;
-  }
-  /* focus */
-  .md\:focus\:font-black:focus {
-    font-size: 900;
-  }
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* default */
-  /* basic */
-  .lg\:font-black {
-    font-size: 900;
-  }
-  /* hover */
-  .lg\:hover\:font-black:hover {
-    font-size: 900;
-  }
-  /* focus */
-  .lg\:focus\:font-black:focus {
-    font-size: 900;
-  }
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* default */
-  /* basic */
-  .xl\:font-black {
-    font-size: 900;
-  }
-  /* hover */
-  .xl\:hover\:font-black:hover {
-    font-size: 900;
-  }
-  /* focus */
-  .xl\:focus\:font-black:focus {
-    font-size: 900;
-  }
-  /* active */
-}
-
-@media (min-width: 1920px) {
-  /* default */
-  /* basic */
-  .\32k\:font-black {
-    font-size: 900;
-  }
-  /* hover */
-  .\32k\:hover\:font-black:hover {
-    font-size: 900;
-  }
-  /* focus */
-  .\32k\:focus\:font-black:focus {
-    font-size: 900;
-  }
-  /* active */
-}
-
-@media (min-width: 2560px) {
-  /* default */
-  /* basic */
-  .\33k\:font-black {
-    font-size: 900;
-  }
-  /* hover */
-  .\33k\:hover\:font-black:hover {
-    font-size: 900;
-  }
-  /* focus */
-  .\33k\:focus\:font-black:focus {
-    font-size: 900;
-  }
-  /* active */
-}
-
-@media (min-width: 3840px) {
-  /* default */
-  /* basic */
-  .\34k\:font-black {
-    font-size: 900;
-  }
-  /* hover */
-  .\34k\:hover\:font-black:hover {
-    font-size: 900;
-  }
-  /* focus */
-  .\34k\:focus\:font-black:focus {
-    font-size: 900;
-  }
-  /* active */
-}
-
-@media (min-width: 6400px) {
-  /* default */
-  /* basic */
-  .\35k\:font-black {
-    font-size: 900;
-  }
-  /* hover */
-  .\35k\:hover\:font-black:hover {
-    font-size: 900;
-  }
-  /* focus */
-  .\35k\:focus\:font-black:focus {
-    font-size: 900;
-  }
-  /* active */
-}
-
-@media (min-width: 7680px) {
-  /* default */
-  /* basic */
-  .\36k\:font-black {
-    font-size: 900;
-  }
-  /* hover */
-  .\36k\:hover\:font-black:hover {
-    font-size: 900;
-  }
-  /* focus */
-  .\36k\:focus\:font-black:focus {
-    font-size: 900;
-  }
   /* active */
 }
 
