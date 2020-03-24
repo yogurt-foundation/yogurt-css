@@ -63,8 +63,9 @@
 /* position */
 /* resize */
 /* table layout */
+/* text align */
 /**
- * @module: _tableLayout.scss
+ * @module: _textAlign.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -76,8 +77,8 @@
 /* focus */
 /* active */
 /* basic */
-.table-auto {
-  table-layout: auto;
+.text-left {
+  text-align: left;
 }
 
 /* hover */
@@ -87,8 +88,8 @@
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:table-auto {
-    table-layout: auto;
+  .xs\:text-left {
+    text-align: left;
   }
   /* hover */
   /* focus */
@@ -98,8 +99,8 @@
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:table-auto {
-    table-layout: auto;
+  .sm\:text-left {
+    text-align: left;
   }
   /* hover */
   /* focus */
@@ -109,8 +110,8 @@
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:table-auto {
-    table-layout: auto;
+  .md\:text-left {
+    text-align: left;
   }
   /* hover */
   /* focus */
@@ -120,8 +121,8 @@
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:table-auto {
-    table-layout: auto;
+  .lg\:text-left {
+    text-align: left;
   }
   /* hover */
   /* focus */
@@ -131,8 +132,8 @@
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:table-auto {
-    table-layout: auto;
+  .xl\:text-left {
+    text-align: left;
   }
   /* hover */
   /* focus */
@@ -142,8 +143,8 @@
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:table-auto {
-    table-layout: auto;
+  .\32k\:text-left {
+    text-align: left;
   }
   /* hover */
   /* focus */
@@ -153,8 +154,8 @@
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:table-auto {
-    table-layout: auto;
+  .\33k\:text-left {
+    text-align: left;
   }
   /* hover */
   /* focus */
@@ -164,8 +165,8 @@
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:table-auto {
-    table-layout: auto;
+  .\34k\:text-left {
+    text-align: left;
   }
   /* hover */
   /* focus */
@@ -175,8 +176,8 @@
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:table-auto {
-    table-layout: auto;
+  .\35k\:text-left {
+    text-align: left;
   }
   /* hover */
   /* focus */
@@ -186,8 +187,8 @@
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:table-auto {
-    table-layout: auto;
+  .\36k\:text-left {
+    text-align: left;
   }
   /* hover */
   /* focus */
@@ -195,8 +196,8 @@
 }
 
 /* basic */
-.table-fixed {
-  table-layout: fixed;
+.text-right {
+  text-align: right;
 }
 
 /* hover */
@@ -206,8 +207,8 @@
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:table-fixed {
-    table-layout: fixed;
+  .xs\:text-right {
+    text-align: right;
   }
   /* hover */
   /* focus */
@@ -217,8 +218,8 @@
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:table-fixed {
-    table-layout: fixed;
+  .sm\:text-right {
+    text-align: right;
   }
   /* hover */
   /* focus */
@@ -228,8 +229,8 @@
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:table-fixed {
-    table-layout: fixed;
+  .md\:text-right {
+    text-align: right;
   }
   /* hover */
   /* focus */
@@ -239,8 +240,8 @@
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:table-fixed {
-    table-layout: fixed;
+  .lg\:text-right {
+    text-align: right;
   }
   /* hover */
   /* focus */
@@ -250,8 +251,8 @@
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:table-fixed {
-    table-layout: fixed;
+  .xl\:text-right {
+    text-align: right;
   }
   /* hover */
   /* focus */
@@ -261,8 +262,8 @@
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:table-fixed {
-    table-layout: fixed;
+  .\32k\:text-right {
+    text-align: right;
   }
   /* hover */
   /* focus */
@@ -272,8 +273,8 @@
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:table-fixed {
-    table-layout: fixed;
+  .\33k\:text-right {
+    text-align: right;
   }
   /* hover */
   /* focus */
@@ -283,8 +284,8 @@
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:table-fixed {
-    table-layout: fixed;
+  .\34k\:text-right {
+    text-align: right;
   }
   /* hover */
   /* focus */
@@ -294,8 +295,8 @@
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:table-fixed {
-    table-layout: fixed;
+  .\35k\:text-right {
+    text-align: right;
   }
   /* hover */
   /* focus */
@@ -305,8 +306,246 @@
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:table-fixed {
-    table-layout: fixed;
+  .\36k\:text-right {
+    text-align: right;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.text-center {
+  text-align: center;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:text-center {
+    text-align: center;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:text-center {
+    text-align: center;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:text-center {
+    text-align: center;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:text-center {
+    text-align: center;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:text-center {
+    text-align: center;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:text-center {
+    text-align: center;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:text-center {
+    text-align: center;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:text-center {
+    text-align: center;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:text-center {
+    text-align: center;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:text-center {
+    text-align: center;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.text-justify {
+  text-align: justify;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:text-justify {
+    text-align: justify;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:text-justify {
+    text-align: justify;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:text-justify {
+    text-align: justify;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:text-justify {
+    text-align: justify;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:text-justify {
+    text-align: justify;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:text-justify {
+    text-align: justify;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:text-justify {
+    text-align: justify;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:text-justify {
+    text-align: justify;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:text-justify {
+    text-align: justify;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:text-justify {
+    text-align: justify;
   }
   /* hover */
   /* focus */

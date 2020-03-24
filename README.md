@@ -54,7 +54,7 @@
 - **(OK)** resize ~ (responsive)
 - **(OK)** stroke ~ (responsive)
 - **(OK)** tableLayout ~ (responsive)
-- textAlign ~ (responsive)
+- **(OK)** textAlign ~ (responsive)
 - textColor ~ (responsive) (hover) (focus)
 - textDecoration ~ (responsive) (hover) (focus)
 - textTransform ~ (responsive)

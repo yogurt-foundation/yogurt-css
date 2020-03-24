@@ -414,3 +414,12 @@ $resize:
 $table-layout:
   (auto, auto),
   (fixed, fixed);
+
+/* text align */
+
+$text-align:
+  (left, left),
+  (right, right),
+  (center, center),
+  (justify, justify);
+
