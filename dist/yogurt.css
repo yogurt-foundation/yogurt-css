@@ -63,7 +63,7 @@
 /* position */
 /* resize */
 /**
- * @module: _resize.scss
+ * @module: _outline.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -71,457 +71,159 @@
  * @license: MIT
  */
 /* default */
-.resize {
-  resize: both;
-}
-
 /* hover */
 /* focus */
 /* active */
 /* basic */
-.resize-none {
-  resize: none;
+.outline {
+  outline: 0;
 }
 
 /* hover */
 /* focus */
+.focus\:outline:focus {
+  outline: 0;
+}
+
 /* active */
 /* responsive */
 @media (min-width: 320px) {
   /* default */
-  .xs\:resize {
-    resize: both;
-  }
   /* basic */
-  .xs\:resize-none {
-    resize: none;
+  .xs\:outline {
+    outline: 0;
   }
   /* hover */
   /* focus */
+  .xs\:focus\:outline:focus {
+    outline: 0;
+  }
   /* active */
 }
 
 @media (min-width: 640px) {
   /* default */
-  .sm\:resize {
-    resize: both;
-  }
   /* basic */
-  .sm\:resize-none {
-    resize: none;
+  .sm\:outline {
+    outline: 0;
   }
   /* hover */
   /* focus */
+  .sm\:focus\:outline:focus {
+    outline: 0;
+  }
   /* active */
 }
 
 @media (min-width: 768px) {
   /* default */
-  .md\:resize {
-    resize: both;
-  }
   /* basic */
-  .md\:resize-none {
-    resize: none;
+  .md\:outline {
+    outline: 0;
   }
   /* hover */
   /* focus */
+  .md\:focus\:outline:focus {
+    outline: 0;
+  }
   /* active */
 }
 
 @media (min-width: 1024px) {
   /* default */
-  .lg\:resize {
-    resize: both;
-  }
   /* basic */
-  .lg\:resize-none {
-    resize: none;
+  .lg\:outline {
+    outline: 0;
   }
   /* hover */
   /* focus */
+  .lg\:focus\:outline:focus {
+    outline: 0;
+  }
   /* active */
 }
 
 @media (min-width: 1280px) {
   /* default */
-  .xl\:resize {
-    resize: both;
-  }
   /* basic */
-  .xl\:resize-none {
-    resize: none;
+  .xl\:outline {
+    outline: 0;
   }
   /* hover */
   /* focus */
+  .xl\:focus\:outline:focus {
+    outline: 0;
+  }
   /* active */
 }
 
 @media (min-width: 1920px) {
   /* default */
-  .\32k\:resize {
-    resize: both;
-  }
   /* basic */
-  .\32k\:resize-none {
-    resize: none;
+  .\32k\:outline {
+    outline: 0;
   }
   /* hover */
   /* focus */
+  .\32k\:focus\:outline:focus {
+    outline: 0;
+  }
   /* active */
 }
 
 @media (min-width: 2560px) {
   /* default */
-  .\33k\:resize {
-    resize: both;
-  }
   /* basic */
-  .\33k\:resize-none {
-    resize: none;
+  .\33k\:outline {
+    outline: 0;
   }
   /* hover */
   /* focus */
+  .\33k\:focus\:outline:focus {
+    outline: 0;
+  }
   /* active */
 }
 
 @media (min-width: 3840px) {
   /* default */
-  .\34k\:resize {
-    resize: both;
-  }
   /* basic */
-  .\34k\:resize-none {
-    resize: none;
+  .\34k\:outline {
+    outline: 0;
   }
   /* hover */
   /* focus */
+  .\34k\:focus\:outline:focus {
+    outline: 0;
+  }
   /* active */
 }
 
 @media (min-width: 6400px) {
   /* default */
-  .\35k\:resize {
-    resize: both;
-  }
   /* basic */
-  .\35k\:resize-none {
-    resize: none;
+  .\35k\:outline {
+    outline: 0;
   }
   /* hover */
   /* focus */
+  .\35k\:focus\:outline:focus {
+    outline: 0;
+  }
   /* active */
 }
 
 @media (min-width: 7680px) {
   /* default */
-  .\36k\:resize {
-    resize: both;
-  }
   /* basic */
-  .\36k\:resize-none {
-    resize: none;
+  .\36k\:outline {
+    outline: 0;
   }
   /* hover */
   /* focus */
-  /* active */
-}
-
-/* basic */
-.resize-x {
-  resize: horizontal;
-}
-
-/* hover */
-/* focus */
-/* active */
-/* responsive */
-@media (min-width: 320px) {
-  /* default */
-  .xs\:resize {
-    resize: both;
+  .\36k\:focus\:outline:focus {
+    outline: 0;
   }
-  /* basic */
-  .xs\:resize-x {
-    resize: horizontal;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 640px) {
-  /* default */
-  .sm\:resize {
-    resize: both;
-  }
-  /* basic */
-  .sm\:resize-x {
-    resize: horizontal;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* default */
-  .md\:resize {
-    resize: both;
-  }
-  /* basic */
-  .md\:resize-x {
-    resize: horizontal;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* default */
-  .lg\:resize {
-    resize: both;
-  }
-  /* basic */
-  .lg\:resize-x {
-    resize: horizontal;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* default */
-  .xl\:resize {
-    resize: both;
-  }
-  /* basic */
-  .xl\:resize-x {
-    resize: horizontal;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1920px) {
-  /* default */
-  .\32k\:resize {
-    resize: both;
-  }
-  /* basic */
-  .\32k\:resize-x {
-    resize: horizontal;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 2560px) {
-  /* default */
-  .\33k\:resize {
-    resize: both;
-  }
-  /* basic */
-  .\33k\:resize-x {
-    resize: horizontal;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 3840px) {
-  /* default */
-  .\34k\:resize {
-    resize: both;
-  }
-  /* basic */
-  .\34k\:resize-x {
-    resize: horizontal;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 6400px) {
-  /* default */
-  .\35k\:resize {
-    resize: both;
-  }
-  /* basic */
-  .\35k\:resize-x {
-    resize: horizontal;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 7680px) {
-  /* default */
-  .\36k\:resize {
-    resize: both;
-  }
-  /* basic */
-  .\36k\:resize-x {
-    resize: horizontal;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-/* basic */
-.resize-y {
-  resize: vertical;
-}
-
-/* hover */
-/* focus */
-/* active */
-/* responsive */
-@media (min-width: 320px) {
-  /* default */
-  .xs\:resize {
-    resize: both;
-  }
-  /* basic */
-  .xs\:resize-y {
-    resize: vertical;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 640px) {
-  /* default */
-  .sm\:resize {
-    resize: both;
-  }
-  /* basic */
-  .sm\:resize-y {
-    resize: vertical;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* default */
-  .md\:resize {
-    resize: both;
-  }
-  /* basic */
-  .md\:resize-y {
-    resize: vertical;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* default */
-  .lg\:resize {
-    resize: both;
-  }
-  /* basic */
-  .lg\:resize-y {
-    resize: vertical;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* default */
-  .xl\:resize {
-    resize: both;
-  }
-  /* basic */
-  .xl\:resize-y {
-    resize: vertical;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1920px) {
-  /* default */
-  .\32k\:resize {
-    resize: both;
-  }
-  /* basic */
-  .\32k\:resize-y {
-    resize: vertical;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 2560px) {
-  /* default */
-  .\33k\:resize {
-    resize: both;
-  }
-  /* basic */
-  .\33k\:resize-y {
-    resize: vertical;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 3840px) {
-  /* default */
-  .\34k\:resize {
-    resize: both;
-  }
-  /* basic */
-  .\34k\:resize-y {
-    resize: vertical;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 6400px) {
-  /* default */
-  .\35k\:resize {
-    resize: both;
-  }
-  /* basic */
-  .\35k\:resize-y {
-    resize: vertical;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 7680px) {
-  /* default */
-  .\36k\:resize {
-    resize: both;
-  }
-  /* basic */
-  .\36k\:resize-y {
-    resize: vertical;
-  }
-  /* hover */
-  /* focus */
   /* active */
 }
 

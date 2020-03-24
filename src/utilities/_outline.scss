@@ -22,7 +22,7 @@
 @include outline("", "", ".")
 /* hover */
 /* focus */
-@include outline(".focus\\:", ":focus", ".")
+@include outline(".focus\\:", ":focus", "")
 /* active */
 
 /* responsive */
@@ -33,7 +33,7 @@
     @include outline(".#{$screen}\\:", "", "")
     /* hover */
     /* focus */
-    @include outline(".#{$screen}\\:focus\\:", ":focus", ".")
+    @include outline(".#{$screen}\\:focus\\:", ":focus", "")
     /* active */
   }
 }
