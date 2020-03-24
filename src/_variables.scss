@@ -387,3 +387,8 @@ $overflow-scrolling:
   (touch, touch),
   (auto, auto);
 
+/* pointer events */
+
+$pointer-events:
+  (none, none),
+  (auto, auto);

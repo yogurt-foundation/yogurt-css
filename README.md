@@ -49,7 +49,7 @@
 - **(OK)** outline ~ (responsive), (focus)
 - **(OK)** overflow ~ (responsive)
 - **(OK)** padding ~ (responsive)
-- pointerEvents ~ (responsive)
+- **(OK)** pointerEvents ~ (responsive)
 - position ~ (responsive) (hover)
 - resize ~ (responsive)
 - stroke ~ (responsive)

@@ -1,0 +1,36 @@
+/**
+ * @module: _pointerEvents.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin pointerEvents($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}pointer-events-#{$modifier}#{$pseudo} {
+    pointer-events: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $pointer-events {
+  /* basic */
+  @include pointerEvents("", "", ".", $modifier, $value)
+  /* hover */
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
+      @include pointerEvents(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      /* focus */
+      /* active */
+    }
+  }
+}
