@@ -1,0 +1,55 @@
+/**
+ * @module: _blue.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin textBlue($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
+  #{$prefix}#{$class}text-#{$color}-#{$strength}#{$pseudo} {
+    color: #{$hex}#{$override}
+  }
+}
+
+/* default */
+/* hover */
+/* focus */
+/* active */
+
+@each $modifier, $value in $width {
+  /* basic */
+  @each $mode, $hex, $radius in $blue {
+    @include textBlue("", "", ".", blue, $mode, $hex, $radius)
+  }
+  /* hover */
+  @each $mode, $hex, $radius in $blue {
+    @include textBlue(".hover\\:", ":hover", "", blue, $mode, $hex, $radius)
+  }
+  /* focus */
+  @each $mode, $hex, $radius in $blue {
+    @include textBlue(".focus\\:", ":focus", "", blue, $mode, $hex, $radius)
+  }
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
+      @each $mode, $hex, $radius in $blue {
+        @include textBlue(".#{$screen}\\:", "", "", blue, $mode, $hex, $radius)
+      }
+      /* hover */
+      @each $mode, $hex, $radius in $blue {
+        @include textBlue(".#{$screen}\\:hover\\:", ":hover", "", blue, $mode, $hex, $radius)
+      }
+      /* focus */
+      @each $mode, $hex, $radius in $blue {
+        @include textBlue(".#{$screen}\\:focus\\:", ":focus", "", blue, $mode, $hex, $radius)
+      }
+      /* active */
+    }
+  }
+}
