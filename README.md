@@ -43,8 +43,8 @@
 - **(OK)** minHeight ~ (responsive)
 - **(OK)** minWidth ~ (responsive)
 - **(OK)** objectFit ~ (responsive)
-- objectPosition ~ (responsive)
-- opacity ~ (responsive) (hover)
+- **(OK)** objectPosition ~ (responsive)
+- **(OK)** opacity ~ (responsive) (hover)
 - order ~ (responsive)
 - outline ~ ['responsive', 'focus']
 - overflow ~ (responsive)

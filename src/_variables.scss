@@ -337,3 +337,17 @@ $object-fit:
   (fill, fill),
   (none, none),
   (scale-down, scale-down);
+
+/* object position */
+
+$object-position:
+  (top, top),
+  (bottom, bottom),
+  (center, center),
+  (left, left),
+  (right, right),
+  (left-bottom, left bottom),
+  (left-top, left top),
+  (right-bottom, right bottom),
+  (right-top, right top);
+

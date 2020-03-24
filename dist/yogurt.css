@@ -56,8 +56,9 @@
 /* min width */
 /* opacity */
 /* object fit */
+/* object position */
 /**
- * @module: _objectFit.scss
+ * @module: _objectPosition.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -66,9 +67,9 @@
  */
 /* default */
 /* basic */
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
+.object-top {
+  -o-object-position: top;
+     object-position: top;
 }
 
 /* hover */
@@ -78,9 +79,9 @@
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:object-contain {
-    -o-object-fit: contain;
-       object-fit: contain;
+  .xs\:object-top {
+    -o-object-position: top;
+       object-position: top;
   }
   /* hover */
   /* focus */
@@ -90,9 +91,9 @@
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:object-contain {
-    -o-object-fit: contain;
-       object-fit: contain;
+  .sm\:object-top {
+    -o-object-position: top;
+       object-position: top;
   }
   /* hover */
   /* focus */
@@ -102,9 +103,9 @@
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:object-contain {
-    -o-object-fit: contain;
-       object-fit: contain;
+  .md\:object-top {
+    -o-object-position: top;
+       object-position: top;
   }
   /* hover */
   /* focus */
@@ -114,9 +115,9 @@
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:object-contain {
-    -o-object-fit: contain;
-       object-fit: contain;
+  .lg\:object-top {
+    -o-object-position: top;
+       object-position: top;
   }
   /* hover */
   /* focus */
@@ -126,9 +127,9 @@
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:object-contain {
-    -o-object-fit: contain;
-       object-fit: contain;
+  .xl\:object-top {
+    -o-object-position: top;
+       object-position: top;
   }
   /* hover */
   /* focus */
@@ -138,9 +139,9 @@
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:object-contain {
-    -o-object-fit: contain;
-       object-fit: contain;
+  .\32k\:object-top {
+    -o-object-position: top;
+       object-position: top;
   }
   /* hover */
   /* focus */
@@ -150,9 +151,9 @@
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:object-contain {
-    -o-object-fit: contain;
-       object-fit: contain;
+  .\33k\:object-top {
+    -o-object-position: top;
+       object-position: top;
   }
   /* hover */
   /* focus */
@@ -162,9 +163,9 @@
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:object-contain {
-    -o-object-fit: contain;
-       object-fit: contain;
+  .\34k\:object-top {
+    -o-object-position: top;
+       object-position: top;
   }
   /* hover */
   /* focus */
@@ -174,9 +175,9 @@
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:object-contain {
-    -o-object-fit: contain;
-       object-fit: contain;
+  .\35k\:object-top {
+    -o-object-position: top;
+       object-position: top;
   }
   /* hover */
   /* focus */
@@ -186,9 +187,9 @@
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:object-contain {
-    -o-object-fit: contain;
-       object-fit: contain;
+  .\36k\:object-top {
+    -o-object-position: top;
+       object-position: top;
   }
   /* hover */
   /* focus */
@@ -196,9 +197,9 @@
 }
 
 /* basic */
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
+.object-bottom {
+  -o-object-position: bottom;
+     object-position: bottom;
 }
 
 /* hover */
@@ -208,9 +209,9 @@
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:object-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
+  .xs\:object-bottom {
+    -o-object-position: bottom;
+       object-position: bottom;
   }
   /* hover */
   /* focus */
@@ -220,9 +221,9 @@
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:object-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
+  .sm\:object-bottom {
+    -o-object-position: bottom;
+       object-position: bottom;
   }
   /* hover */
   /* focus */
@@ -232,9 +233,9 @@
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:object-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
+  .md\:object-bottom {
+    -o-object-position: bottom;
+       object-position: bottom;
   }
   /* hover */
   /* focus */
@@ -244,9 +245,9 @@
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:object-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
+  .lg\:object-bottom {
+    -o-object-position: bottom;
+       object-position: bottom;
   }
   /* hover */
   /* focus */
@@ -256,9 +257,9 @@
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:object-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
+  .xl\:object-bottom {
+    -o-object-position: bottom;
+       object-position: bottom;
   }
   /* hover */
   /* focus */
@@ -268,9 +269,9 @@
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:object-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
+  .\32k\:object-bottom {
+    -o-object-position: bottom;
+       object-position: bottom;
   }
   /* hover */
   /* focus */
@@ -280,9 +281,9 @@
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:object-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
+  .\33k\:object-bottom {
+    -o-object-position: bottom;
+       object-position: bottom;
   }
   /* hover */
   /* focus */
@@ -292,9 +293,9 @@
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:object-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
+  .\34k\:object-bottom {
+    -o-object-position: bottom;
+       object-position: bottom;
   }
   /* hover */
   /* focus */
@@ -304,9 +305,9 @@
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:object-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
+  .\35k\:object-bottom {
+    -o-object-position: bottom;
+       object-position: bottom;
   }
   /* hover */
   /* focus */
@@ -316,9 +317,9 @@
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:object-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
+  .\36k\:object-bottom {
+    -o-object-position: bottom;
+       object-position: bottom;
   }
   /* hover */
   /* focus */
@@ -326,9 +327,9 @@
 }
 
 /* basic */
-.object-fill {
-  -o-object-fit: fill;
-     object-fit: fill;
+.object-center {
+  -o-object-position: center;
+     object-position: center;
 }
 
 /* hover */
@@ -338,9 +339,9 @@
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:object-fill {
-    -o-object-fit: fill;
-       object-fit: fill;
+  .xs\:object-center {
+    -o-object-position: center;
+       object-position: center;
   }
   /* hover */
   /* focus */
@@ -350,9 +351,9 @@
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:object-fill {
-    -o-object-fit: fill;
-       object-fit: fill;
+  .sm\:object-center {
+    -o-object-position: center;
+       object-position: center;
   }
   /* hover */
   /* focus */
@@ -362,9 +363,9 @@
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:object-fill {
-    -o-object-fit: fill;
-       object-fit: fill;
+  .md\:object-center {
+    -o-object-position: center;
+       object-position: center;
   }
   /* hover */
   /* focus */
@@ -374,9 +375,9 @@
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:object-fill {
-    -o-object-fit: fill;
-       object-fit: fill;
+  .lg\:object-center {
+    -o-object-position: center;
+       object-position: center;
   }
   /* hover */
   /* focus */
@@ -386,9 +387,9 @@
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:object-fill {
-    -o-object-fit: fill;
-       object-fit: fill;
+  .xl\:object-center {
+    -o-object-position: center;
+       object-position: center;
   }
   /* hover */
   /* focus */
@@ -398,9 +399,9 @@
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:object-fill {
-    -o-object-fit: fill;
-       object-fit: fill;
+  .\32k\:object-center {
+    -o-object-position: center;
+       object-position: center;
   }
   /* hover */
   /* focus */
@@ -410,9 +411,9 @@
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:object-fill {
-    -o-object-fit: fill;
-       object-fit: fill;
+  .\33k\:object-center {
+    -o-object-position: center;
+       object-position: center;
   }
   /* hover */
   /* focus */
@@ -422,9 +423,9 @@
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:object-fill {
-    -o-object-fit: fill;
-       object-fit: fill;
+  .\34k\:object-center {
+    -o-object-position: center;
+       object-position: center;
   }
   /* hover */
   /* focus */
@@ -434,9 +435,9 @@
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:object-fill {
-    -o-object-fit: fill;
-       object-fit: fill;
+  .\35k\:object-center {
+    -o-object-position: center;
+       object-position: center;
   }
   /* hover */
   /* focus */
@@ -446,9 +447,9 @@
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:object-fill {
-    -o-object-fit: fill;
-       object-fit: fill;
+  .\36k\:object-center {
+    -o-object-position: center;
+       object-position: center;
   }
   /* hover */
   /* focus */
@@ -456,9 +457,9 @@
 }
 
 /* basic */
-.object-none {
-  -o-object-fit: none;
-     object-fit: none;
+.object-left {
+  -o-object-position: left;
+     object-position: left;
 }
 
 /* hover */
@@ -468,9 +469,9 @@
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:object-none {
-    -o-object-fit: none;
-       object-fit: none;
+  .xs\:object-left {
+    -o-object-position: left;
+       object-position: left;
   }
   /* hover */
   /* focus */
@@ -480,9 +481,9 @@
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:object-none {
-    -o-object-fit: none;
-       object-fit: none;
+  .sm\:object-left {
+    -o-object-position: left;
+       object-position: left;
   }
   /* hover */
   /* focus */
@@ -492,9 +493,9 @@
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:object-none {
-    -o-object-fit: none;
-       object-fit: none;
+  .md\:object-left {
+    -o-object-position: left;
+       object-position: left;
   }
   /* hover */
   /* focus */
@@ -504,9 +505,9 @@
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:object-none {
-    -o-object-fit: none;
-       object-fit: none;
+  .lg\:object-left {
+    -o-object-position: left;
+       object-position: left;
   }
   /* hover */
   /* focus */
@@ -516,9 +517,9 @@
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:object-none {
-    -o-object-fit: none;
-       object-fit: none;
+  .xl\:object-left {
+    -o-object-position: left;
+       object-position: left;
   }
   /* hover */
   /* focus */
@@ -528,9 +529,9 @@
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:object-none {
-    -o-object-fit: none;
-       object-fit: none;
+  .\32k\:object-left {
+    -o-object-position: left;
+       object-position: left;
   }
   /* hover */
   /* focus */
@@ -540,9 +541,9 @@
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:object-none {
-    -o-object-fit: none;
-       object-fit: none;
+  .\33k\:object-left {
+    -o-object-position: left;
+       object-position: left;
   }
   /* hover */
   /* focus */
@@ -552,9 +553,9 @@
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:object-none {
-    -o-object-fit: none;
-       object-fit: none;
+  .\34k\:object-left {
+    -o-object-position: left;
+       object-position: left;
   }
   /* hover */
   /* focus */
@@ -564,9 +565,9 @@
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:object-none {
-    -o-object-fit: none;
-       object-fit: none;
+  .\35k\:object-left {
+    -o-object-position: left;
+       object-position: left;
   }
   /* hover */
   /* focus */
@@ -576,9 +577,9 @@
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:object-none {
-    -o-object-fit: none;
-       object-fit: none;
+  .\36k\:object-left {
+    -o-object-position: left;
+       object-position: left;
   }
   /* hover */
   /* focus */
@@ -586,9 +587,9 @@
 }
 
 /* basic */
-.object-scale-down {
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
+.object-right {
+  -o-object-position: right;
+     object-position: right;
 }
 
 /* hover */
@@ -598,9 +599,9 @@
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:object-scale-down {
-    -o-object-fit: scale-down;
-       object-fit: scale-down;
+  .xs\:object-right {
+    -o-object-position: right;
+       object-position: right;
   }
   /* hover */
   /* focus */
@@ -610,9 +611,9 @@
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:object-scale-down {
-    -o-object-fit: scale-down;
-       object-fit: scale-down;
+  .sm\:object-right {
+    -o-object-position: right;
+       object-position: right;
   }
   /* hover */
   /* focus */
@@ -622,9 +623,9 @@
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:object-scale-down {
-    -o-object-fit: scale-down;
-       object-fit: scale-down;
+  .md\:object-right {
+    -o-object-position: right;
+       object-position: right;
   }
   /* hover */
   /* focus */
@@ -634,9 +635,9 @@
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:object-scale-down {
-    -o-object-fit: scale-down;
-       object-fit: scale-down;
+  .lg\:object-right {
+    -o-object-position: right;
+       object-position: right;
   }
   /* hover */
   /* focus */
@@ -646,9 +647,9 @@
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:object-scale-down {
-    -o-object-fit: scale-down;
-       object-fit: scale-down;
+  .xl\:object-right {
+    -o-object-position: right;
+       object-position: right;
   }
   /* hover */
   /* focus */
@@ -658,9 +659,9 @@
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:object-scale-down {
-    -o-object-fit: scale-down;
-       object-fit: scale-down;
+  .\32k\:object-right {
+    -o-object-position: right;
+       object-position: right;
   }
   /* hover */
   /* focus */
@@ -670,9 +671,9 @@
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:object-scale-down {
-    -o-object-fit: scale-down;
-       object-fit: scale-down;
+  .\33k\:object-right {
+    -o-object-position: right;
+       object-position: right;
   }
   /* hover */
   /* focus */
@@ -682,9 +683,9 @@
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:object-scale-down {
-    -o-object-fit: scale-down;
-       object-fit: scale-down;
+  .\34k\:object-right {
+    -o-object-position: right;
+       object-position: right;
   }
   /* hover */
   /* focus */
@@ -694,9 +695,9 @@
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:object-scale-down {
-    -o-object-fit: scale-down;
-       object-fit: scale-down;
+  .\35k\:object-right {
+    -o-object-position: right;
+       object-position: right;
   }
   /* hover */
   /* focus */
@@ -706,9 +707,529 @@
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:object-scale-down {
-    -o-object-fit: scale-down;
-       object-fit: scale-down;
+  .\36k\:object-right {
+    -o-object-position: right;
+       object-position: right;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.object-left-bottom {
+  -o-object-position: left bottom;
+     object-position: left bottom;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:object-left-bottom {
+    -o-object-position: left bottom;
+       object-position: left bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:object-left-bottom {
+    -o-object-position: left bottom;
+       object-position: left bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:object-left-bottom {
+    -o-object-position: left bottom;
+       object-position: left bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:object-left-bottom {
+    -o-object-position: left bottom;
+       object-position: left bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:object-left-bottom {
+    -o-object-position: left bottom;
+       object-position: left bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:object-left-bottom {
+    -o-object-position: left bottom;
+       object-position: left bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:object-left-bottom {
+    -o-object-position: left bottom;
+       object-position: left bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:object-left-bottom {
+    -o-object-position: left bottom;
+       object-position: left bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:object-left-bottom {
+    -o-object-position: left bottom;
+       object-position: left bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:object-left-bottom {
+    -o-object-position: left bottom;
+       object-position: left bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.object-left-top {
+  -o-object-position: left top;
+     object-position: left top;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:object-left-top {
+    -o-object-position: left top;
+       object-position: left top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:object-left-top {
+    -o-object-position: left top;
+       object-position: left top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:object-left-top {
+    -o-object-position: left top;
+       object-position: left top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:object-left-top {
+    -o-object-position: left top;
+       object-position: left top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:object-left-top {
+    -o-object-position: left top;
+       object-position: left top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:object-left-top {
+    -o-object-position: left top;
+       object-position: left top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:object-left-top {
+    -o-object-position: left top;
+       object-position: left top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:object-left-top {
+    -o-object-position: left top;
+       object-position: left top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:object-left-top {
+    -o-object-position: left top;
+       object-position: left top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:object-left-top {
+    -o-object-position: left top;
+       object-position: left top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.object-right-bottom {
+  -o-object-position: right bottom;
+     object-position: right bottom;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:object-right-bottom {
+    -o-object-position: right bottom;
+       object-position: right bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:object-right-bottom {
+    -o-object-position: right bottom;
+       object-position: right bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:object-right-bottom {
+    -o-object-position: right bottom;
+       object-position: right bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:object-right-bottom {
+    -o-object-position: right bottom;
+       object-position: right bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:object-right-bottom {
+    -o-object-position: right bottom;
+       object-position: right bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:object-right-bottom {
+    -o-object-position: right bottom;
+       object-position: right bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:object-right-bottom {
+    -o-object-position: right bottom;
+       object-position: right bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:object-right-bottom {
+    -o-object-position: right bottom;
+       object-position: right bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:object-right-bottom {
+    -o-object-position: right bottom;
+       object-position: right bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:object-right-bottom {
+    -o-object-position: right bottom;
+       object-position: right bottom;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.object-right-top {
+  -o-object-position: right top;
+     object-position: right top;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:object-right-top {
+    -o-object-position: right top;
+       object-position: right top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:object-right-top {
+    -o-object-position: right top;
+       object-position: right top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:object-right-top {
+    -o-object-position: right top;
+       object-position: right top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:object-right-top {
+    -o-object-position: right top;
+       object-position: right top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:object-right-top {
+    -o-object-position: right top;
+       object-position: right top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:object-right-top {
+    -o-object-position: right top;
+       object-position: right top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:object-right-top {
+    -o-object-position: right top;
+       object-position: right top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:object-right-top {
+    -o-object-position: right top;
+       object-position: right top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:object-right-top {
+    -o-object-position: right top;
+       object-position: right top;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:object-right-top {
+    -o-object-position: right top;
+       object-position: right top;
   }
   /* hover */
   /* focus */
