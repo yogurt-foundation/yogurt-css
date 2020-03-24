@@ -1,0 +1,41 @@
+/**
+ * @module: _height.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin height($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}h-#{$modifier}#{$pseudo} {
+    height: #{$value}#{$override}
+  }
+}
+
+/* default */
+/* hover */
+/* focus */
+/* active */
+
+@each $modifier, $value in $height {
+  /* basic */
+  @include height("", "", ".", $modifier, $value)
+  /* hover */
+  @include height(".hover\\:", ":hover", "", $modifier, $value)
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
+      @include height(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      @include height(".#{$screen}\\:.hover\\:", ":hover", "", $modifier, $value)
+      /* focus */
+      /* active */
+    }
+  }
+}
