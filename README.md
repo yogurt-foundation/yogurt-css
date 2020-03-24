@@ -48,7 +48,7 @@
 - **(OK)** order ~ (responsive)
 - **(OK)** outline ~ (responsive), (focus)
 - **(OK)** overflow ~ (responsive)
-- padding ~ (responsive)
+- **(OK)** padding ~ (responsive)
 - pointerEvents ~ (responsive)
 - position ~ (responsive) (hover)
 - resize ~ (responsive)

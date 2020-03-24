@@ -1,0 +1,56 @@
+/**
+ * @module: _padding.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin padding($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}p-#{$modifier}#{$pseudo} {
+    padding: #{$value}
+  }
+  #{$prefix}#{$class}px-#{$modifier}#{$pseudo} { // px
+    padding-left: #{$value};
+    padding-right: #{$value}
+  }
+  #{$prefix}#{$class}py-#{$modifier}#{$pseudo} { // py
+    padding-top: #{$value};
+    padding-bottom: #{$value}
+  }
+  #{$prefix}#{$class}pt-#{$modifier}#{$pseudo} { // pt
+    padding-top: #{$value}
+  }
+  #{$prefix}#{$class}pb-#{$modifier}#{$pseudo} { // pb
+    padding-bottom: #{$value}
+  }
+  #{$prefix}#{$class}pl-#{$modifier}#{$pseudo} { // pl
+    padding-left: #{$value}
+  }
+  #{$prefix}#{$class}pl-#{$modifier}#{$pseudo} { // pr
+    padding-right: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $spacing {
+  /* basic */
+  @include padding("", "", ".", $modifier, $value)
+  /* hover */
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
+      @include padding(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      /* focus */
+      /* active */
+    }
+  }
+}
