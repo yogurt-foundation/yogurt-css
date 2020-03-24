@@ -392,3 +392,12 @@ $overflow-scrolling:
 $pointer-events:
   (none, none),
   (auto, auto);
+
+/* position */
+
+$position:
+  (static, static),
+  (fixed, fixed),
+  (absolute, absolute),
+  (relative, relative),
+  (sticky, sticky);

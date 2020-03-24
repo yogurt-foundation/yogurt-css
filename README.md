@@ -50,7 +50,7 @@
 - **(OK)** overflow ~ (responsive)
 - **(OK)** padding ~ (responsive)
 - **(OK)** pointerEvents ~ (responsive)
-- position ~ (responsive) (hover)
+- **(OK)** position ~ (responsive) (hover)
 - resize ~ (responsive)
 - stroke ~ (responsive)
 - tableLayout ~ (responsive)

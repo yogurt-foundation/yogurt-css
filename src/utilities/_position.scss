@@ -1,0 +1,38 @@
+/**
+ * @module: _position.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin position($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}#{$modifier}#{$pseudo} {
+    position: #{$value}
+  }
+}
+
+/* default */
+
+@each $modifier, $value in $position {
+  /* basic */
+  @include position("", "", ".", $modifier, $value)
+  /* hover */
+  @include position(".hover\\:", ":hover", "", $modifier, $value)
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
+      @include position(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      @include position(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      /* focus */
+      /* active */
+    }
+  }
+}

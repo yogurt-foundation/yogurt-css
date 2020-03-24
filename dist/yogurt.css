@@ -60,8 +60,9 @@
 /* order */
 /* overflow */
 /* pointer events */
+/* position */
 /**
- * @module: _pointerEvents.scss
+ * @module: _position.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -70,21 +71,28 @@
  */
 /* default */
 /* basic */
-.pointer-events-none {
-  pointer-events: none;
+.static {
+  position: static;
 }
 
 /* hover */
+.hover\:static:hover {
+  position: static;
+}
+
 /* focus */
 /* active */
 /* responsive */
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:pointer-events-none {
-    pointer-events: none;
+  .xs\:static {
+    position: static;
   }
   /* hover */
+  .xs\:hover\:static:hover {
+    position: static;
+  }
   /* focus */
   /* active */
 }
@@ -92,10 +100,13 @@
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:pointer-events-none {
-    pointer-events: none;
+  .sm\:static {
+    position: static;
   }
   /* hover */
+  .sm\:hover\:static:hover {
+    position: static;
+  }
   /* focus */
   /* active */
 }
@@ -103,10 +114,13 @@
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:pointer-events-none {
-    pointer-events: none;
+  .md\:static {
+    position: static;
   }
   /* hover */
+  .md\:hover\:static:hover {
+    position: static;
+  }
   /* focus */
   /* active */
 }
@@ -114,10 +128,13 @@
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:pointer-events-none {
-    pointer-events: none;
+  .lg\:static {
+    position: static;
   }
   /* hover */
+  .lg\:hover\:static:hover {
+    position: static;
+  }
   /* focus */
   /* active */
 }
@@ -125,10 +142,13 @@
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:pointer-events-none {
-    pointer-events: none;
+  .xl\:static {
+    position: static;
   }
   /* hover */
+  .xl\:hover\:static:hover {
+    position: static;
+  }
   /* focus */
   /* active */
 }
@@ -136,10 +156,13 @@
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:pointer-events-none {
-    pointer-events: none;
+  .\32k\:static {
+    position: static;
   }
   /* hover */
+  .\32k\:hover\:static:hover {
+    position: static;
+  }
   /* focus */
   /* active */
 }
@@ -147,10 +170,13 @@
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:pointer-events-none {
-    pointer-events: none;
+  .\33k\:static {
+    position: static;
   }
   /* hover */
+  .\33k\:hover\:static:hover {
+    position: static;
+  }
   /* focus */
   /* active */
 }
@@ -158,10 +184,13 @@
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:pointer-events-none {
-    pointer-events: none;
+  .\34k\:static {
+    position: static;
   }
   /* hover */
+  .\34k\:hover\:static:hover {
+    position: static;
+  }
   /* focus */
   /* active */
 }
@@ -169,10 +198,13 @@
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:pointer-events-none {
-    pointer-events: none;
+  .\35k\:static {
+    position: static;
   }
   /* hover */
+  .\35k\:hover\:static:hover {
+    position: static;
+  }
   /* focus */
   /* active */
 }
@@ -180,30 +212,40 @@
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:pointer-events-none {
-    pointer-events: none;
+  .\36k\:static {
+    position: static;
   }
   /* hover */
+  .\36k\:hover\:static:hover {
+    position: static;
+  }
   /* focus */
   /* active */
 }
 
 /* basic */
-.pointer-events-auto {
-  pointer-events: auto;
+.fixed {
+  position: fixed;
 }
 
 /* hover */
+.hover\:fixed:hover {
+  position: fixed;
+}
+
 /* focus */
 /* active */
 /* responsive */
 @media (min-width: 320px) {
   /* default */
   /* basic */
-  .xs\:pointer-events-auto {
-    pointer-events: auto;
+  .xs\:fixed {
+    position: fixed;
   }
   /* hover */
+  .xs\:hover\:fixed:hover {
+    position: fixed;
+  }
   /* focus */
   /* active */
 }
@@ -211,10 +253,13 @@
 @media (min-width: 640px) {
   /* default */
   /* basic */
-  .sm\:pointer-events-auto {
-    pointer-events: auto;
+  .sm\:fixed {
+    position: fixed;
   }
   /* hover */
+  .sm\:hover\:fixed:hover {
+    position: fixed;
+  }
   /* focus */
   /* active */
 }
@@ -222,10 +267,13 @@
 @media (min-width: 768px) {
   /* default */
   /* basic */
-  .md\:pointer-events-auto {
-    pointer-events: auto;
+  .md\:fixed {
+    position: fixed;
   }
   /* hover */
+  .md\:hover\:fixed:hover {
+    position: fixed;
+  }
   /* focus */
   /* active */
 }
@@ -233,10 +281,13 @@
 @media (min-width: 1024px) {
   /* default */
   /* basic */
-  .lg\:pointer-events-auto {
-    pointer-events: auto;
+  .lg\:fixed {
+    position: fixed;
   }
   /* hover */
+  .lg\:hover\:fixed:hover {
+    position: fixed;
+  }
   /* focus */
   /* active */
 }
@@ -244,10 +295,13 @@
 @media (min-width: 1280px) {
   /* default */
   /* basic */
-  .xl\:pointer-events-auto {
-    pointer-events: auto;
+  .xl\:fixed {
+    position: fixed;
   }
   /* hover */
+  .xl\:hover\:fixed:hover {
+    position: fixed;
+  }
   /* focus */
   /* active */
 }
@@ -255,10 +309,13 @@
 @media (min-width: 1920px) {
   /* default */
   /* basic */
-  .\32k\:pointer-events-auto {
-    pointer-events: auto;
+  .\32k\:fixed {
+    position: fixed;
   }
   /* hover */
+  .\32k\:hover\:fixed:hover {
+    position: fixed;
+  }
   /* focus */
   /* active */
 }
@@ -266,10 +323,13 @@
 @media (min-width: 2560px) {
   /* default */
   /* basic */
-  .\33k\:pointer-events-auto {
-    pointer-events: auto;
+  .\33k\:fixed {
+    position: fixed;
   }
   /* hover */
+  .\33k\:hover\:fixed:hover {
+    position: fixed;
+  }
   /* focus */
   /* active */
 }
@@ -277,10 +337,13 @@
 @media (min-width: 3840px) {
   /* default */
   /* basic */
-  .\34k\:pointer-events-auto {
-    pointer-events: auto;
+  .\34k\:fixed {
+    position: fixed;
   }
   /* hover */
+  .\34k\:hover\:fixed:hover {
+    position: fixed;
+  }
   /* focus */
   /* active */
 }
@@ -288,10 +351,13 @@
 @media (min-width: 6400px) {
   /* default */
   /* basic */
-  .\35k\:pointer-events-auto {
-    pointer-events: auto;
+  .\35k\:fixed {
+    position: fixed;
   }
   /* hover */
+  .\35k\:hover\:fixed:hover {
+    position: fixed;
+  }
   /* focus */
   /* active */
 }
@@ -299,10 +365,494 @@
 @media (min-width: 7680px) {
   /* default */
   /* basic */
-  .\36k\:pointer-events-auto {
-    pointer-events: auto;
+  .\36k\:fixed {
+    position: fixed;
   }
   /* hover */
+  .\36k\:hover\:fixed:hover {
+    position: fixed;
+  }
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.absolute {
+  position: absolute;
+}
+
+/* hover */
+.hover\:absolute:hover {
+  position: absolute;
+}
+
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:absolute {
+    position: absolute;
+  }
+  /* hover */
+  .xs\:hover\:absolute:hover {
+    position: absolute;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:absolute {
+    position: absolute;
+  }
+  /* hover */
+  .sm\:hover\:absolute:hover {
+    position: absolute;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:absolute {
+    position: absolute;
+  }
+  /* hover */
+  .md\:hover\:absolute:hover {
+    position: absolute;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:absolute {
+    position: absolute;
+  }
+  /* hover */
+  .lg\:hover\:absolute:hover {
+    position: absolute;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:absolute {
+    position: absolute;
+  }
+  /* hover */
+  .xl\:hover\:absolute:hover {
+    position: absolute;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:absolute {
+    position: absolute;
+  }
+  /* hover */
+  .\32k\:hover\:absolute:hover {
+    position: absolute;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:absolute {
+    position: absolute;
+  }
+  /* hover */
+  .\33k\:hover\:absolute:hover {
+    position: absolute;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:absolute {
+    position: absolute;
+  }
+  /* hover */
+  .\34k\:hover\:absolute:hover {
+    position: absolute;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:absolute {
+    position: absolute;
+  }
+  /* hover */
+  .\35k\:hover\:absolute:hover {
+    position: absolute;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:absolute {
+    position: absolute;
+  }
+  /* hover */
+  .\36k\:hover\:absolute:hover {
+    position: absolute;
+  }
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.relative {
+  position: relative;
+}
+
+/* hover */
+.hover\:relative:hover {
+  position: relative;
+}
+
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:relative {
+    position: relative;
+  }
+  /* hover */
+  .xs\:hover\:relative:hover {
+    position: relative;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:relative {
+    position: relative;
+  }
+  /* hover */
+  .sm\:hover\:relative:hover {
+    position: relative;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:relative {
+    position: relative;
+  }
+  /* hover */
+  .md\:hover\:relative:hover {
+    position: relative;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:relative {
+    position: relative;
+  }
+  /* hover */
+  .lg\:hover\:relative:hover {
+    position: relative;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:relative {
+    position: relative;
+  }
+  /* hover */
+  .xl\:hover\:relative:hover {
+    position: relative;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:relative {
+    position: relative;
+  }
+  /* hover */
+  .\32k\:hover\:relative:hover {
+    position: relative;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:relative {
+    position: relative;
+  }
+  /* hover */
+  .\33k\:hover\:relative:hover {
+    position: relative;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:relative {
+    position: relative;
+  }
+  /* hover */
+  .\34k\:hover\:relative:hover {
+    position: relative;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:relative {
+    position: relative;
+  }
+  /* hover */
+  .\35k\:hover\:relative:hover {
+    position: relative;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:relative {
+    position: relative;
+  }
+  /* hover */
+  .\36k\:hover\:relative:hover {
+    position: relative;
+  }
+  /* focus */
+  /* active */
+}
+
+/* basic */
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+/* hover */
+.hover\:sticky:hover {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* default */
+  /* basic */
+  .xs\:sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  /* hover */
+  .xs\:hover\:sticky:hover {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* default */
+  /* basic */
+  .sm\:sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  /* hover */
+  .sm\:hover\:sticky:hover {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* default */
+  /* basic */
+  .md\:sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  /* hover */
+  .md\:hover\:sticky:hover {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* default */
+  /* basic */
+  .lg\:sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  /* hover */
+  .lg\:hover\:sticky:hover {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* default */
+  /* basic */
+  .xl\:sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  /* hover */
+  .xl\:hover\:sticky:hover {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1920px) {
+  /* default */
+  /* basic */
+  .\32k\:sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  /* hover */
+  .\32k\:hover\:sticky:hover {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 2560px) {
+  /* default */
+  /* basic */
+  .\33k\:sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  /* hover */
+  .\33k\:hover\:sticky:hover {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 3840px) {
+  /* default */
+  /* basic */
+  .\34k\:sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  /* hover */
+  .\34k\:hover\:sticky:hover {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 6400px) {
+  /* default */
+  /* basic */
+  .\35k\:sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  /* hover */
+  .\35k\:hover\:sticky:hover {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 7680px) {
+  /* default */
+  /* basic */
+  .\36k\:sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  /* hover */
+  .\36k\:hover\:sticky:hover {
+    position: -webkit-sticky;
+    position: sticky;
+  }
   /* focus */
   /* active */
 }
