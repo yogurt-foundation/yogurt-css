@@ -33,10 +33,6 @@ In this concept, the `margin`, `padding`, `font-size` and so on are considered a
 <p align="left">
   <img src="assets/Screenshot_3.jpeg" width="420">
   <img src="assets/Screenshot_4.jpeg" width="420">
-  <img src="assets/Screenshot_5.jpeg" width="420">
-  <img src="assets/Screenshot_6.jpeg" width="420">
-  <img src="assets/Screenshot_7.jpeg" width="420">
-  <img src="assets/Screenshot_8.jpeg" width="420">
 </p>
 
 ### _get
