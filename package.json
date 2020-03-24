@@ -1,7 +1,7 @@
 {
   "name": "yogurt.css",
   "version": "2.0.0",
-  "description": "",
+  "description": "A colossal size CSS framework for manipulating utility in analogue or stepping controls.",
   "main": "index.js",
   "scripts": {
     "gulp": "gulp",
