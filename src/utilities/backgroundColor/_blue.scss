@@ -10,16 +10,13 @@
 @each $modifier, $value in $width {
   /* basic */
   @each $mode, $hex, $radius in $blue {
-    @include textColor("", "", ".", blue, $mode, $hex, $radius)
+    @include backgroundColor("", "", ".", blue, $mode, $hex, $radius)
   }
   /* hover */
   @each $mode, $hex, $radius in $blue {
-    @include textColor(".hover\\:", ":hover", "", blue, $mode, $hex, $radius)
+    @include backgroundColor(".hover\\:", ":hover", "", blue, $mode, $hex, $radius)
   }
   /* focus */
-  @each $mode, $hex, $radius in $blue {
-    @include textColor(".focus\\:", ":focus", "", blue, $mode, $hex, $radius)
-  }
   /* active */
 
   /* responsive */

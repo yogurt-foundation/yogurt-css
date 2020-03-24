@@ -1,0 +1,20 @@
+/**
+ * @module: _mixin.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin textColor($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
+  #{$prefix}#{$class}text-#{$color}-#{$strength}#{$pseudo} {
+    color: #{$hex}#{$override}
+  }
+}
+
+@mixin backgroundColor($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
+  #{$prefix}#{$class}bg-#{$color}-#{$strength}#{$pseudo} {
+    background-color: #{$hex}#{$override}
+  }
+}

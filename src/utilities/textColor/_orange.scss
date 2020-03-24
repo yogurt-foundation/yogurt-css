@@ -7,30 +7,16 @@
  * @license: MIT
  */
 
-@mixin textOrange($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
-  #{$prefix}#{$class}text-#{$color}-#{$strength}#{$pseudo} {
-    color: #{$hex}#{$override}
-  }
-}
-
-/* default */
-/* hover */
-/* focus */
-/* active */
-
 @each $modifier, $value in $width {
   /* basic */
   @each $mode, $hex, $radius in $orange {
-    @include textOrange("", "", ".", orange, $mode, $hex, $radius)
+    @include textColor("", "", ".", orange, $mode, $hex, $radius)
   }
   /* hover */
   @each $mode, $hex, $radius in $orange {
-    @include textOrange(".hover\\:", ":hover", "", orange, $mode, $hex, $radius)
+    @include textColor(".hover\\:", ":hover", "", orange, $mode, $hex, $radius)
   }
   /* focus */
-  @each $mode, $hex, $radius in $orange {
-    @include textOrange(".focus\\:", ":focus", "", orange, $mode, $hex, $radius)
-  }
   /* active */
 
   /* responsive */
@@ -38,17 +24,8 @@
     @media (min-width: #{$size}) {
       /* default */
       /* basic */
-      @each $mode, $hex, $radius in $orange {
-        @include textOrange(".#{$screen}\\:", "", "", orange, $mode, $hex, $radius)
-      }
       /* hover */
-      @each $mode, $hex, $radius in $orange {
-        @include textOrange(".#{$screen}\\:hover\\:", ":hover", "", orange, $mode, $hex, $radius)
-      }
       /* focus */
-      @each $mode, $hex, $radius in $orange {
-        @include textOrange(".#{$screen}\\:focus\\:", ":focus", "", orange, $mode, $hex, $radius)
-      }
       /* active */
     }
   }

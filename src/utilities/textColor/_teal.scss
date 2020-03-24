@@ -7,30 +7,16 @@
  * @license: MIT
  */
 
-@mixin textTeal($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
-  #{$prefix}#{$class}text-#{$color}-#{$strength}#{$pseudo} {
-    color: #{$hex}#{$override}
-  }
-}
-
-/* default */
-/* hover */
-/* focus */
-/* active */
-
 @each $modifier, $value in $width {
   /* basic */
   @each $mode, $hex, $radius in $teal {
-    @include textTeal("", "", ".", teal, $mode, $hex, $radius)
+    @include textColor("", "", ".", teal, $mode, $hex, $radius)
   }
   /* hover */
   @each $mode, $hex, $radius in $teal {
-    @include textTeal(".hover\\:", ":hover", "", teal, $mode, $hex, $radius)
+    @include textColor(".hover\\:", ":hover", "", teal, $mode, $hex, $radius)
   }
   /* focus */
-  @each $mode, $hex, $radius in $teal {
-    @include textTeal(".focus\\:", ":focus", "", teal, $mode, $hex, $radius)
-  }
   /* active */
 
   /* responsive */
@@ -38,17 +24,8 @@
     @media (min-width: #{$size}) {
       /* default */
       /* basic */
-      @each $mode, $hex, $radius in $teal {
-        @include textTeal(".#{$screen}\\:", "", "", teal, $mode, $hex, $radius)
-      }
       /* hover */
-      @each $mode, $hex, $radius in $teal {
-        @include textTeal(".#{$screen}\\:hover\\:", ":hover", "", teal, $mode, $hex, $radius)
-      }
       /* focus */
-      @each $mode, $hex, $radius in $teal {
-        @include textTeal(".#{$screen}\\:focus\\:", ":focus", "", teal, $mode, $hex, $radius)
-      }
       /* active */
     }
   }

@@ -40,15 +40,9 @@
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* default */
-      @include boxShadowDefault(".#{$screen}\\:", "", "")
       /* basic */
-      @include boxShadow(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
-      @include boxShadowDefault(".#{$screen}\\:hover\\:", "", ":hover")
-      @include boxShadow(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
       /* focus */
-      @include boxShadowDefault(".#{$screen}\\:focus\\:", "", ":focus")
-      @include boxShadow(".#{$screen}\\:focus\\:", ":focus", "", $modifier, $value)
       /* active */
     }
   }

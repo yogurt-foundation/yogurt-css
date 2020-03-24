@@ -7,30 +7,16 @@
  * @license: MIT
  */
 
-@mixin textBlack($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
-  #{$prefix}#{$class}text-#{$color}-#{$strength}#{$pseudo} {
-    color: #{$hex}#{$override}
-  }
-}
-
-/* default */
-/* hover */
-/* focus */
-/* active */
-
 @each $modifier, $value in $width {
   /* basic */
   @each $mode, $hex, $radius in $black {
-    @include textBlack("", "", ".", black, $mode, $hex, $radius)
+    @include textColor("", "", ".", black, $mode, $hex, $radius)
   }
   /* hover */
   @each $mode, $hex, $radius in $black {
-    @include textBlack(".hover\\:", ":hover", "", black, $mode, $hex, $radius)
+    @include textColor(".hover\\:", ":hover", "", black, $mode, $hex, $radius)
   }
   /* focus */
-  @each $mode, $hex, $radius in $black {
-    @include textBlack(".focus\\:", ":focus", "", black, $mode, $hex, $radius)
-  }
   /* active */
 
   /* responsive */
@@ -38,17 +24,8 @@
     @media (min-width: #{$size}) {
       /* default */
       /* basic */
-      @each $mode, $hex, $radius in $black {
-        @include textBlack(".#{$screen}\\:", "", "", black, $mode, $hex, $radius)
-      }
       /* hover */
-      @each $mode, $hex, $radius in $black {
-        @include textBlack(".#{$screen}\\:hover\\:", ":hover", "", black, $mode, $hex, $radius)
-      }
       /* focus */
-      @each $mode, $hex, $radius in $black {
-        @include textBlack(".#{$screen}\\:focus\\:", ":focus", "", black, $mode, $hex, $radius)
-      }
       /* active */
     }
   }

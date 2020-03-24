@@ -7,29 +7,18 @@
  * @license: MIT
  */
 
-@mixin textGray($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
-  #{$prefix}#{$class}text-#{$color}-#{$strength}#{$pseudo} {
-    color: #{$hex}#{$override}
-  }
-}
-
-/* default */
-/* hover */
-/* focus */
-/* active */
-
 @each $modifier, $value in $width {
   /* basic */
   @each $mode, $hex, $radius in $gray {
-    @include textGray("", "", ".", gray, $mode, $hex, $radius)
+    @include textColor("", "", ".", gray, $mode, $hex, $radius)
   }
   /* hover */
   @each $mode, $hex, $radius in $gray {
-    @include textGray(".hover\\:", ":hover", "", gray, $mode, $hex, $radius)
+    @include textColor(".hover\\:", ":hover", "", gray, $mode, $hex, $radius)
   }
   /* focus */
   @each $mode, $hex, $radius in $gray {
-    @include textGray(".focus\\:", ":focus", "", gray, $mode, $hex, $radius)
+    @include textColor(".focus\\:", ":focus", "", gray, $mode, $hex, $radius)
   }
   /* active */
 
@@ -38,17 +27,8 @@
     @media (min-width: #{$size}) {
       /* default */
       /* basic */
-      @each $mode, $hex, $radius in $gray {
-        @include textGray(".#{$screen}\\:", "", "", gray, $mode, $hex, $radius)
-      }
       /* hover */
-      @each $mode, $hex, $radius in $gray {
-        @include textGray(".#{$screen}\\:hover\\:", ":hover", "", gray, $mode, $hex, $radius)
-      }
       /* focus */
-      @each $mode, $hex, $radius in $gray {
-        @include textGray(".#{$screen}\\:focus\\:", ":focus", "", gray, $mode, $hex, $radius)
-      }
       /* active */
     }
   }

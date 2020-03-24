@@ -7,30 +7,16 @@
  * @license: MIT
  */
 
-@mixin textIndigo($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
-  #{$prefix}#{$class}text-#{$color}-#{$strength}#{$pseudo} {
-    color: #{$hex}#{$override}
-  }
-}
-
-/* default */
-/* hover */
-/* focus */
-/* active */
-
 @each $modifier, $value in $width {
   /* basic */
   @each $mode, $hex, $radius in $indigo {
-    @include textIndigo("", "", ".", indigo, $mode, $hex, $radius)
+    @include textColor("", "", ".", indigo, $mode, $hex, $radius)
   }
   /* hover */
   @each $mode, $hex, $radius in $indigo {
-    @include textIndigo(".hover\\:", ":hover", "", indigo, $mode, $hex, $radius)
+    @include textColor(".hover\\:", ":hover", "", indigo, $mode, $hex, $radius)
   }
   /* focus */
-  @each $mode, $hex, $radius in $indigo {
-    @include textIndigo(".focus\\:", ":focus", "", indigo, $mode, $hex, $radius)
-  }
   /* active */
 
   /* responsive */
@@ -38,17 +24,8 @@
     @media (min-width: #{$size}) {
       /* default */
       /* basic */
-      @each $mode, $hex, $radius in $indigo {
-        @include textIndigo(".#{$screen}\\:", "", "", indigo, $mode, $hex, $radius)
-      }
       /* hover */
-      @each $mode, $hex, $radius in $indigo {
-        @include textIndigo(".#{$screen}\\:hover\\:", ":hover", "", indigo, $mode, $hex, $radius)
-      }
       /* focus */
-      @each $mode, $hex, $radius in $indigo {
-        @include textIndigo(".#{$screen}\\:focus\\:", ":focus", "", indigo, $mode, $hex, $radius)
-      }
       /* active */
     }
   }

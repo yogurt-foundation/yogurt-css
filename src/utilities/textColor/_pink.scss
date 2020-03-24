@@ -7,30 +7,16 @@
  * @license: MIT
  */
 
-@mixin textPink($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
-  #{$prefix}#{$class}text-#{$color}-#{$strength}#{$pseudo} {
-    color: #{$hex}#{$override}
-  }
-}
-
-/* default */
-/* hover */
-/* focus */
-/* active */
-
 @each $modifier, $value in $width {
   /* basic */
   @each $mode, $hex, $radius in $pink {
-    @include textPink("", "", ".", pink, $mode, $hex, $radius)
+    @include textColor("", "", ".", pink, $mode, $hex, $radius)
   }
   /* hover */
   @each $mode, $hex, $radius in $pink {
-    @include textPink(".hover\\:", ":hover", "", pink, $mode, $hex, $radius)
+    @include textColor(".hover\\:", ":hover", "", pink, $mode, $hex, $radius)
   }
   /* focus */
-  @each $mode, $hex, $radius in $pink {
-    @include textPink(".focus\\:", ":focus", "", pink, $mode, $hex, $radius)
-  }
   /* active */
 
   /* responsive */
@@ -38,17 +24,8 @@
     @media (min-width: #{$size}) {
       /* default */
       /* basic */
-      @each $mode, $hex, $radius in $pink {
-        @include textPink(".#{$screen}\\:", "", "", pink, $mode, $hex, $radius)
-      }
       /* hover */
-      @each $mode, $hex, $radius in $pink {
-        @include textPink(".#{$screen}\\:hover\\:", ":hover", "", pink, $mode, $hex, $radius)
-      }
       /* focus */
-      @each $mode, $hex, $radius in $pink {
-        @include textPink(".#{$screen}\\:focus\\:", ":focus", "", pink, $mode, $hex, $radius)
-      }
       /* active */
     }
   }

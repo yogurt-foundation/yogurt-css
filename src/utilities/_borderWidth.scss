@@ -50,12 +50,8 @@
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* default */
-      @include borderWidthDefault(".#{$screen}\\:", "", "")
       /* basic */
-      @include borderWidth(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
-      @include borderWidthDefault(".#{$screen}\\:hover\\:", "", ":hover")
-      @include borderWidth(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
       /* focus */
       /* active */
     }

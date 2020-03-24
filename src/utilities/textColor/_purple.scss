@@ -7,30 +7,16 @@
  * @license: MIT
  */
 
-@mixin textPurple($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
-  #{$prefix}#{$class}text-#{$color}-#{$strength}#{$pseudo} {
-    color: #{$hex}#{$override}
-  }
-}
-
-/* default */
-/* hover */
-/* focus */
-/* active */
-
 @each $modifier, $value in $width {
   /* basic */
   @each $mode, $hex, $radius in $purple {
-    @include textPurple("", "", ".", purple, $mode, $hex, $radius)
+    @include textColor("", "", ".", purple, $mode, $hex, $radius)
   }
   /* hover */
   @each $mode, $hex, $radius in $purple {
-    @include textPurple(".hover\\:", ":hover", "", purple, $mode, $hex, $radius)
+    @include textColor(".hover\\:", ":hover", "", purple, $mode, $hex, $radius)
   }
   /* focus */
-  @each $mode, $hex, $radius in $purple {
-    @include textPurple(".focus\\:", ":focus", "", purple, $mode, $hex, $radius)
-  }
   /* active */
 
   /* responsive */
@@ -38,17 +24,8 @@
     @media (min-width: #{$size}) {
       /* default */
       /* basic */
-      @each $mode, $hex, $radius in $purple {
-        @include textPurple(".#{$screen}\\:", "", "", purple, $mode, $hex, $radius)
-      }
       /* hover */
-      @each $mode, $hex, $radius in $purple {
-        @include textPurple(".#{$screen}\\:hover\\:", ":hover", "", purple, $mode, $hex, $radius)
-      }
       /* focus */
-      @each $mode, $hex, $radius in $purple {
-        @include textPurple(".#{$screen}\\:focus\\:", ":focus", "", purple, $mode, $hex, $radius)
-      }
       /* active */
     }
   }

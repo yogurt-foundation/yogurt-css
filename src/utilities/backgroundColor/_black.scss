@@ -1,5 +1,5 @@
 /**
- * @module: _blue.scss
+ * @module: _black.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -9,17 +9,14 @@
 
 @each $modifier, $value in $width {
   /* basic */
-  @each $mode, $hex, $radius in $blue {
-    @include textColor("", "", ".", blue, $mode, $hex, $radius)
+  @each $mode, $hex, $radius in $black {
+    @include backgroundColor("", "", ".", black, $mode, $hex, $radius)
   }
   /* hover */
-  @each $mode, $hex, $radius in $blue {
-    @include textColor(".hover\\:", ":hover", "", blue, $mode, $hex, $radius)
+  @each $mode, $hex, $radius in $black {
+    @include backgroundColor(".hover\\:", ":hover", "", black, $mode, $hex, $radius)
   }
   /* focus */
-  @each $mode, $hex, $radius in $blue {
-    @include textColor(".focus\\:", ":focus", "", blue, $mode, $hex, $radius)
-  }
   /* active */
 
   /* responsive */

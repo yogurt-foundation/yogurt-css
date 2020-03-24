@@ -7,30 +7,16 @@
  * @license: MIT
  */
 
-@mixin textYellow($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
-  #{$prefix}#{$class}text-#{$color}-#{$strength}#{$pseudo} {
-    color: #{$hex}#{$override}
-  }
-}
-
-/* default */
-/* hover */
-/* focus */
-/* active */
-
 @each $modifier, $value in $width {
   /* basic */
   @each $mode, $hex, $radius in $yellow {
-    @include textYellow("", "", ".", yellow, $mode, $hex, $radius)
+    @include textColor("", "", ".", yellow, $mode, $hex, $radius)
   }
   /* hover */
   @each $mode, $hex, $radius in $yellow {
-    @include textYellow(".hover\\:", ":hover", "", yellow, $mode, $hex, $radius)
+    @include textColor(".hover\\:", ":hover", "", yellow, $mode, $hex, $radius)
   }
   /* focus */
-  @each $mode, $hex, $radius in $yellow {
-    @include textYellow(".focus\\:", ":focus", "", yellow, $mode, $hex, $radius)
-  }
   /* active */
 
   /* responsive */
@@ -38,17 +24,8 @@
     @media (min-width: #{$size}) {
       /* default */
       /* basic */
-      @each $mode, $hex, $radius in $yellow {
-        @include textYellow(".#{$screen}\\:", "", "", yellow, $mode, $hex, $radius)
-      }
       /* hover */
-      @each $mode, $hex, $radius in $yellow {
-        @include textYellow(".#{$screen}\\:hover\\:", ":hover", "", yellow, $mode, $hex, $radius)
-      }
       /* focus */
-      @each $mode, $hex, $radius in $yellow {
-        @include textYellow(".#{$screen}\\:focus\\:", ":focus", "", yellow, $mode, $hex, $radius)
-      }
       /* active */
     }
   }

@@ -7,30 +7,16 @@
  * @license: MIT
  */
 
-@mixin textGreen($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
-  #{$prefix}#{$class}text-#{$color}-#{$strength}#{$pseudo} {
-    color: #{$hex}#{$override}
-  }
-}
-
-/* default */
-/* hover */
-/* focus */
-/* active */
-
 @each $modifier, $value in $width {
   /* basic */
   @each $mode, $hex, $radius in $green {
-    @include textGreen("", "", ".", green, $mode, $hex, $radius)
+    @include textColor("", "", ".", green, $mode, $hex, $radius)
   }
   /* hover */
   @each $mode, $hex, $radius in $green {
-    @include textGreen(".hover\\:", ":hover", "", green, $mode, $hex, $radius)
+    @include textColor(".hover\\:", ":hover", "", green, $mode, $hex, $radius)
   }
   /* focus */
-  @each $mode, $hex, $radius in $green {
-    @include textGreen(".focus\\:", ":focus", "", green, $mode, $hex, $radius)
-  }
   /* active */
 
   /* responsive */
@@ -38,17 +24,8 @@
     @media (min-width: #{$size}) {
       /* default */
       /* basic */
-      @each $mode, $hex, $radius in $green {
-        @include textGreen(".#{$screen}\\:", "", "", green, $mode, $hex, $radius)
-      }
       /* hover */
-      @each $mode, $hex, $radius in $green {
-        @include textGreen(".#{$screen}\\:hover\\:", ":hover", "", green, $mode, $hex, $radius)
-      }
       /* focus */
-      @each $mode, $hex, $radius in $green {
-        @include textGreen(".#{$screen}\\:focus\\:", ":focus", "", green, $mode, $hex, $radius)
-      }
       /* active */
     }
   }
