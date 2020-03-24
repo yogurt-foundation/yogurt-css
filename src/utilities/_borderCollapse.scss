@@ -9,7 +9,7 @@
 
 @mixin borderCollapse($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}border-#{$modifier}#{$pseudo} {
-    border-#{$value}: #{$value}#{$important}
+    border-#{$value}: #{$value}#{$override}
   }
 }
 

@@ -9,7 +9,7 @@
 
 @mixin textAlign($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}text-#{$modifier}#{$pseudo} {
-    text-align: #{$value}#{$important}
+    text-align: #{$value}#{$override}
   }
 }
 
