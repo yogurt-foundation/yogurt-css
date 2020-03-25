@@ -1,0 +1,41 @@
+/**
+ * @module: _transitionProperty.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin transitionProperty($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}#{$modifier}#{$pseudo} {
+    transition-property: #{$value}#{$override};
+  }
+}
+
+/* standalone */
+/* hover */
+/* focus */
+/* active */
+
+@each $modifier, $value in $transition-property {
+  /* global */
+  @include transitionProperty("", "", ".", $modifier, $value)
+  /* hover */
+  @include transitionProperty(".hover\\:", ":hover", "", $modifier, $value)
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* standalone */
+      /* global */
+      @include transitionProperty(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      @include transitionProperty(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      /* focus */
+      /* active */
+    }
+  }
+}

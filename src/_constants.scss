@@ -690,6 +690,17 @@ $translate:
   (1#{$of}2, 50%),
   (full, 100%);
 
+/* transition property */
+
+$transition-property:
+  (transition-none, none),
+  (transition-all, all),
+  (transition, (background-color, border-color, color, fill, stroke, opacity, box-shadow, transform)),
+  (transition-colors, (background-color, border-color, color, fill, stroke)),
+  (transition-opacity, opacity),
+  (transition-shadow, box-shadow),
+  (transition-transform, transform);
+
 /* user select */
 
 $user-select:
