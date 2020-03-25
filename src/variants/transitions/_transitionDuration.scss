@@ -22,7 +22,6 @@
   /* global */
   @include transitionDuration("", "", ".", $modifier, $value)
   /* hover */
-  @include transitionDuration(".hover\\:", ":hover", "", $modifier, $value)
   /* focus */
   /* active */
 
@@ -33,7 +32,6 @@
       /* global */
       @include transitionDuration(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
-      @include transitionDuration(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
       /* focus */
       /* active */
     }
