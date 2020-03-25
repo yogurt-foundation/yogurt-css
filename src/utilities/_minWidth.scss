@@ -13,7 +13,7 @@
   }
 }
 
-/* default */
+/* standalone */
 /* hover */
 /* focus */
 /* active */
@@ -28,7 +28,7 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
-      /* default */
+      /* standalone */
       /* global */
       @include minWidth(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */

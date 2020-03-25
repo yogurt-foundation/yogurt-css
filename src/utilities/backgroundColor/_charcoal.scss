@@ -22,7 +22,7 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
-      /* default */
+      /* standalone */
       /* global */
       /* hover */
       /* focus */

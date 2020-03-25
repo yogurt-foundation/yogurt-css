@@ -19,7 +19,7 @@
   }
 }
 
-/* default */
+/* standalone */
 @include containerDefault("", ".")
 /* hover */
 /* focus */
@@ -28,7 +28,7 @@
 /* responsive */
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
-    /* default */
+    /* standalone */
     @include containerDefault(".#{$screen}\\:", "")
     /* global */
     @include container(".#{$screen}\\:", "", "", "", $size)

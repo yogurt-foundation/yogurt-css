@@ -19,7 +19,7 @@
   }
 }
 
-/* default */
+/* standalone */
 @include flexShrinkDefault("", ".")
 /* hover */
 /* focus */
@@ -34,7 +34,7 @@
 /* responsive */
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
-    /* default */
+    /* standalone */
     @include flexShrinkDefault(".#{$screen}\\:", "")
     /* global */
     @include flexShrink(".#{$screen}\\:", "", "")
