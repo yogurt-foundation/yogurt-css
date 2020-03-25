@@ -1,0 +1,42 @@
+/**
+ * @module: _scale.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin scale($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}scale-#{$modifier}#{$pseudo} {
+    --transform-scale-x: #{$value}#{$override};
+    --transform-scale-y: #{$value}#{$override}
+  }
+}
+
+/* standalone */
+/* hover */
+/* focus */
+/* active */
+
+@each $modifier, $value in $scale {
+  /* global */
+  @include scale("", "", ".", $modifier, $value)
+  /* hover */
+  @include scale(".hover\\:", ":hover", "", $modifier, $value)
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* standalone */
+      /* global */
+      @include scale(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      @include scale(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      /* focus */
+      /* active */
+    }
+  }
+}
