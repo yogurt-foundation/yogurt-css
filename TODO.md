@@ -10,7 +10,7 @@
 - **(OK)** backgroundRepeat ~ (responsive)
 - **(OK)** backgroundSize ~ (responsive)
 - **(OK)** borderCollapse ~ (responsive)
-- borderColor ~ (responsive) (hover)
+- **(OK)** borderColor ~ (responsive) (hover)
 - **(OK)** borderRadius ~ (responsive) (hover)
 - **(OK)** borderStyle ~ (responsive)
 - **(OK)** borderWidth ~ (responsive) (hover)

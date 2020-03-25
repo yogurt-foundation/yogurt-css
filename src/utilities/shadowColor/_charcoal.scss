@@ -1,0 +1,29 @@
+/**
+ * @module: _charcoal.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@each $modifier, $value in $width {
+  /* basic */
+  @each $mode, $hex, $radius in $charcoal {
+    @include shadowColor("", "", ".", charcoal, $mode, $hex, $radius)
+  }
+  /* hover */
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* default */
+      /* basic */
+      /* hover */
+      /* focus */
+      /* active */
+    }
+  }
+}

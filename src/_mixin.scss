@@ -7,6 +7,8 @@
  * @license: MIT
  */
 
+/* colors */
+
 @mixin textColor($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
   #{$prefix}#{$class}text-#{$color}-#{$strength}#{$pseudo} {
     color: #{$hex}#{$override}
@@ -18,3 +20,18 @@
     background-color: #{$hex}#{$override}
   }
 }
+
+@mixin borderColor($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
+  #{$prefix}#{$class}b-#{$color}-#{$strength}#{$pseudo} {
+    border-color: #{$hex}#{$override}
+  }
+}
+
+@mixin shadowColor($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
+  @each $size, $radius in $shadows {
+    #{$prefix}#{$class}shadow-#{$size}-#{$color}-#{$strength}#{$pseudo} {
+      box-shadow: 0 0 #{$radius} #{$hex}#{$override}
+     }
+   }
+}
+
