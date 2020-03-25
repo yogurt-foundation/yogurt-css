@@ -613,6 +613,14 @@ $scale:
   (125, 1.25),
   (150, 1.5);
 
+/* rotate */
+
+$rotate:
+  (0,	0),
+  (45, 45deg),
+  (90, 90deg),
+  (180, 180deg);
+
 /* stroke width */
 
 $stroke-width:
