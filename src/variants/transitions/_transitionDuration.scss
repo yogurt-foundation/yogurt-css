@@ -1,0 +1,41 @@
+/**
+ * @module: _transitionDuration.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin transitionDuration($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}duration-#{$modifier}#{$pseudo} {
+    transition-duration: #{$value}#{$override};
+  }
+}
+
+/* standalone */
+/* hover */
+/* focus */
+/* active */
+
+@each $modifier, $value in $transition-duration {
+  /* global */
+  @include transitionDuration("", "", ".", $modifier, $value)
+  /* hover */
+  @include transitionDuration(".hover\\:", ":hover", "", $modifier, $value)
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* standalone */
+      /* global */
+      @include transitionDuration(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      @include transitionDuration(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      /* focus */
+      /* active */
+    }
+  }
+}
