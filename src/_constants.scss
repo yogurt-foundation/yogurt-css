@@ -52,6 +52,14 @@ $spacing: // for margin, padding
   (56, 14rem),
   (64, 16rem);
 
+/* clear */
+
+$clear:
+  (left, left),
+  (right, right),
+  (both, both),
+  (none, none);
+
 /* color */
 
 // light/darkness, colorcode(hex)

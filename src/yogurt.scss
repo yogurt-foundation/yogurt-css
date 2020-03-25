@@ -18,14 +18,15 @@
 
 //////////
 
-@import 'reset'; // 2.01k
-@import 'base'; // 218b
+// @import 'reset'; // 2.01k
+// @import 'base'; // 218b
 @import 'mixin';
 
 //////////
 
 /* layout */
 
+@import 'variants/clear'; //
 // @import 'variants/container'; // 525b
 // @import 'variants/display'; // 4.71k
 // @import 'variants/float'; // 1.58k
