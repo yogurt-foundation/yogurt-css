@@ -623,6 +623,14 @@ $rotate:
   (90, 90deg),
   (180, 180deg);
 
+/* skew */
+
+$skew:
+  (0, 0),
+  (3, 3deg),
+  (6, 6deg),
+  (12, 12deg);
+
 /* stroke width */
 
 $stroke-width:

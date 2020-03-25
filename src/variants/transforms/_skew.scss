@@ -1,0 +1,48 @@
+/**
+ * @module: _skew.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin skew($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}skew-x-#{$modifier}#{$pseudo} {
+    --transform-skew-x: #{$value}#{$override};
+  }
+  #{$prefix}#{$class}skew-y-#{$modifier}#{$pseudo} {
+    --transform-skew-y: #{$value}#{$override};
+  }
+}
+
+/* standalone */
+/* hover */
+/* focus */
+/* active */
+
+@each $modifier, $value in $skew {
+  /* global */
+  @include skew("", "", ".", $modifier, $value)
+  @include skew("", "", ".-", $modifier, "-#{$value}") // negative
+  /* hover */
+  @include skew(".hover\\:", ":hover", "", $modifier, $value)
+  @include skew(".hover\\:", ":hover", "-", $modifier, "-#{$value}") // negative
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* standalone */
+      /* global */
+      @include skew(".#{$screen}\\:", "", "", $modifier, $value)
+      @include skew(".#{$screen}\\:", "", "-", $modifier, "-#{$value}") // negative
+      /* hover */
+      @include skew(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      @include skew(".#{$screen}\\:hover\\:", ":hover", "-", $modifier, "-#{$value}") // negative
+      /* focus */
+      /* active */
+    }
+  }
+}

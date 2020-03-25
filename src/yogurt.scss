@@ -127,8 +127,9 @@
 
 /* transforms */
 
-// @import 'variants/transforms/scale'; // 17.42k
-// @import 'variants/transforms/rotate'; // 4.26k
-// @import 'variants/transforms/translate'; // 49.20k
+// @import 'variants/transforms/rotate'; // 4.26k (optional)
+// @import 'variants/transforms/scale'; // 17.42k (optional)
+// @import 'variants/transforms/skew'; //  // 7.69k (optional)
+// @import 'variants/transforms/translate'; // 49.20k (optional)
 
 /*! yogurt.css v2.0.0 | MIT License | gtihub.com/loouislow81/yogurt-foundation */
