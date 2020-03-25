@@ -599,6 +599,13 @@ $resize:
   (x, horizontal),
   (y, vertical);
 
+/* stroke width */
+
+$stroke-width:
+  (0,	0),
+  (1,	1),
+  (2,	2);
+
 /* table layout */
 
 $table-layout:

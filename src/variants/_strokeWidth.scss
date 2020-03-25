@@ -1,0 +1,39 @@
+/**
+ * @module: _strokeWidth.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin strokeWidth($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}stroke-#{$modifier}#{$pseudo} {
+    stroke-width: #{$value}#{$override}
+  }
+}
+
+/* standalone */
+/* hover */
+/* focus */
+/* active */
+
+@each $modifier, $value in $stroke-width {
+  /* global */
+  @include strokeWidth("", "", ".", $modifier, $value)
+  /* hover */
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* standalone */
+      /* global */
+      @include strokeWidth(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      /* focus */
+      /* active */
+    }
+  }
+}

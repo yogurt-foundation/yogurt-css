@@ -68,6 +68,7 @@
 /* pointer events */
 /* position */
 /* resize */
+/* stroke width */
 /* table layout */
 /* text align */
 /* user select */
@@ -85,124 +86,6 @@
  */
 /* colors */
 /* layout */
-/**
- * @module: _boxSizing.scss
- *
- * @repo: https://github.com/loouislow81/yogurt-foundation
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
-/* standalone */
-/* hover */
-/* focus */
-/* active */
-/* global */
-.box-border {
-  box-sizing: border-box;
-}
-
-/* hover */
-/* focus */
-/* active */
-/* responsive */
-@media (min-width: 640px) {
-  /* standalone */
-  /* global */
-  .sm\:box-border {
-    box-sizing: border-box;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* standalone */
-  /* global */
-  .md\:box-border {
-    box-sizing: border-box;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* standalone */
-  /* global */
-  .lg\:box-border {
-    box-sizing: border-box;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* standalone */
-  /* global */
-  .xl\:box-border {
-    box-sizing: border-box;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-/* global */
-.box-content {
-  box-sizing: content-box;
-}
-
-/* hover */
-/* focus */
-/* active */
-/* responsive */
-@media (min-width: 640px) {
-  /* standalone */
-  /* global */
-  .sm\:box-content {
-    box-sizing: content-box;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* standalone */
-  /* global */
-  .md\:box-content {
-    box-sizing: content-box;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* standalone */
-  /* global */
-  .lg\:box-content {
-    box-sizing: content-box;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* standalone */
-  /* global */
-  .xl\:box-content {
-    box-sizing: content-box;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
 /* flexbox */
 /* spacing */
 /* sizing */
