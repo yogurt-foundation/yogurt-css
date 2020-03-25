@@ -1,0 +1,48 @@
+/**
+ * @module: _translate.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin translate($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}translate-x-#{$modifier}#{$pseudo} {
+    --transform-translate-x: #{$value}#{$override};
+  }
+  #{$prefix}#{$class}translate-y-#{$modifier}#{$pseudo} {
+    --transform-translate-y: #{$value}#{$override};
+  }
+}
+
+/* standalone */
+/* hover */
+/* focus */
+/* active */
+
+@each $modifier, $value in $translate {
+  /* global */
+  @include translate("", "", ".", $modifier, $value)
+  @include translate("", "", ".-", $modifier, "-#{$value}") // negative
+  /* hover */
+  @include translate(".hover\\:", ":hover", "", $modifier, $value)
+  @include translate(".hover\\:", ":hover", "-", $modifier, "-#{$value}") // negative
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* standalone */
+      /* global */
+      @include translate(".#{$screen}\\:", "", "", $modifier, $value)
+      @include translate(".#{$screen}\\:", "", "-", $modifier, "-#{$value}") // negative
+      /* hover */
+      @include translate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      @include translate(".#{$screen}\\:hover\\:", ":hover", "-", $modifier, "-#{$value}")
+      /* focus */
+      /* active */
+    }
+  }
+}
