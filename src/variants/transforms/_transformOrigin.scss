@@ -1,0 +1,41 @@
+/**
+ * @module: _transformOrigin.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin transformOrigin($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}origin-#{$modifier}#{$pseudo} {
+    transform-origin: #{$value}#{$override};
+  }
+}
+
+/* standalone */
+/* hover */
+/* focus */
+/* active */
+
+@each $modifier, $value in $transform-origin {
+  /* global */
+  @include transformOrigin("", "", ".", $modifier, $value)
+  /* hover */
+  @include transformOrigin(".hover\\:", ":hover", "", $modifier, $value)
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* standalone */
+      /* global */
+      @include transformOrigin(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      @include transformOrigin(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      /* focus */
+      /* active */
+    }
+  }
+}
