@@ -24,6 +24,21 @@
   }
 }
 
+@mixin insetTBLR($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}top-#{$modifier}#{$pseudo} {
+    top: #{$value}#{$override}
+  }
+  #{$prefix}#{$class}bottom-#{$modifier}#{$pseudo} {
+    bottom: #{$value}#{$override}
+  }
+  #{$prefix}#{$class}left-#{$modifier}#{$pseudo} {
+    left: #{$value}#{$override}
+  }
+  #{$prefix}#{$class}right-#{$modifier}#{$pseudo} {
+    right: #{$value}#{$override}
+  }
+}
+
 /* default */
 /* hover */
 /* focus */
@@ -42,6 +57,26 @@
       /* default */
       /* global */
       @include inset(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      /* focus */
+      /* active */
+    }
+  }
+}
+
+@each $modifier, $value in $spacing {
+  /* global */
+  @include insetTBLR("", "", ".", $modifier, $value)
+  /* hover */
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* default */
+      /* global */
+      @include insetTBLR(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
       /* focus */
       /* active */
