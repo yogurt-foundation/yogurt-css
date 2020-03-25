@@ -21,7 +21,7 @@
 /* focus */
 /* active */
 
-/* basic */
+/* global */
 @include listStylePosition("", ".")
 /* hover */
 /* focus */
@@ -31,7 +31,7 @@
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* default */
-    /* basic */
+    /* global */
     @include listStylePosition(".#{$screen}\\:", "")
     /* hover */
     /* focus */

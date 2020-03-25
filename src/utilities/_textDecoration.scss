@@ -24,7 +24,7 @@
 /* focus */
 /* active */
 
-/* basic */
+/* global */
 @include textDecoration("", "", ".")
 /* hover */
 @include textDecoration(".hover\\:", ":hover", "")
@@ -36,7 +36,7 @@
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* default */
-    /* basic */
+    /* global */
     @include textDecoration(".#{$screen}\\:", "", "")
     /* hover */
     @include textDecoration(".#{$screen}\\:hover\\:", ":hover", "")

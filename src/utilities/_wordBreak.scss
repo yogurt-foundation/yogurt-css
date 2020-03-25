@@ -31,7 +31,7 @@
 /* active */
 
 @each $modifier, $value in $width {
-  /* basic */
+  /* global */
   @include wordBreak("", "", ".")
   /* hover */
   /* focus */
@@ -41,7 +41,7 @@
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* default */
-      /* basic */
+      /* global */
       @include wordBreak(".#{$screen}\\:", "", "")
       /* hover */
       /* focus */

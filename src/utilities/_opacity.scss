@@ -19,7 +19,7 @@
 /* active */
 
 @each $modifier, $value in $opacity {
-  /* basic */
+  /* global */
   @include opacity("", "", ".", $modifier, $value)
   /* hover */
   @include opacity(".hover\\:", ":hover", "", $modifier, $value)
@@ -30,7 +30,7 @@
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* default */
-      /* basic */
+      /* global */
       @include opacity(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
       @include opacity(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)

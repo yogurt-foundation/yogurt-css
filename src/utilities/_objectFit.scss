@@ -19,7 +19,7 @@
 /* active */
 
 @each $modifier, $value in $object-fit {
-  /* basic */
+  /* global */
   @include objectFit("", "", ".", $modifier, $value)
   /* hover */
   /* focus */
@@ -29,7 +29,7 @@
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* default */
-      /* basic */
+      /* global */
       @include objectFit(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
       /* focus */

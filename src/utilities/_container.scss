@@ -30,7 +30,7 @@
   @media (min-width: #{$size}) {
     /* default */
     @include containerDefault(".#{$screen}\\:", "")
-    /* basic */
+    /* global */
     @include container(".#{$screen}\\:", "", "", "", $size)
     /* hover */
     /* focus */

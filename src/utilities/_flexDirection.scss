@@ -19,7 +19,7 @@
 /* active */
 
 @each $modifier, $value in $flex-direction {
-  /* basic */
+  /* global */
   @include flexDirection("", "", ".", $modifier, $value)
   /* hover */
   @include flexDirection(".hover\\:", ":hover", "", $modifier, $value)
@@ -30,7 +30,7 @@
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* default */
-      /* basic */
+      /* global */
       @include flexDirection(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
       @include flexDirection(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)

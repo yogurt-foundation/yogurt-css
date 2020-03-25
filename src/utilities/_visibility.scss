@@ -21,7 +21,7 @@
 /* focus */
 /* active */
 
-/* basic */
+/* global */
 @include visibility("", "", ".")
 /* hover */
 @include visibility(".hover\\:", ":hover", "")
@@ -32,7 +32,7 @@
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* default */
-    /* basic */
+    /* global */
     @include visibility(".#{$screen}\\:", "", "")
     /* hover */
     @include visibility(".#{$screen}\\:hover\\:", ":hover", "")

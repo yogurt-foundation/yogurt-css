@@ -27,7 +27,7 @@
 /* focus */
 /* active */
 
-/* basic */
+/* global */
 @include textTransform("", "", ".")
 /* hover */
 /* focus */
@@ -37,7 +37,7 @@
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* default */
-    /* basic */
+    /* global */
     @include textTransform(".#{$screen}\\:", "", "")
     /* hover */
     /* focus */

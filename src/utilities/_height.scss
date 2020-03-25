@@ -19,7 +19,7 @@
 /* active */
 
 @each $modifier, $value in $height {
-  /* basic */
+  /* global */
   @include height("", "", ".", $modifier, $value)
   /* hover */
   @include height(".hover\\:", ":hover", "", $modifier, $value)
@@ -30,7 +30,7 @@
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* default */
-      /* basic */
+      /* global */
       @include height(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
       @include height(".#{$screen}\\:.hover\\:", ":hover", "", $modifier, $value)

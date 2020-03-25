@@ -18,7 +18,7 @@
 /* focus */
 /* active */
 
-/* basic */
+/* global */
 @include stroke("", "", ".")
 /* hover */
 /* focus */
@@ -28,7 +28,7 @@
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* default */
-    /* basic */
+    /* global */
     @include stroke(".#{$screen}\\:", "", "")
     /* hover */
     /* focus */

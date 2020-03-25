@@ -19,7 +19,7 @@
 /* active */
 
 @each $modifier, $value in $background-attachment {
-  /* basic */
+  /* global */
   @include backgroundAttachment("", "", ".", $modifier, $value)
   /* hover */
   @include backgroundAttachment(".hover\\:", ":hover", "", $modifier, $value)
@@ -30,7 +30,7 @@
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* default */
-      /* basic */
+      /* global */
       @include backgroundAttachment(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
       @include backgroundAttachment(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)

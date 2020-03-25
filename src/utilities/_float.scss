@@ -28,7 +28,7 @@
 /* active */
 
 @each $modifier, $value in $float {
-  /* basic */
+  /* global */
   @include float("", "", ".", $modifier, $value)
   /* hover */
   /* focus */
@@ -39,7 +39,7 @@
     @media (min-width: #{$size}) {
       /* default */
       @include floatDefault(".#{$screen}\\:", "")
-      /* basic */
+      /* global */
       @include float(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
       /* focus */

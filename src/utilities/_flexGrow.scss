@@ -25,7 +25,7 @@
 /* focus */
 /* active */
 
-/* basic */
+/* global */
 @include flexGrow("", "", ".")
 /* hover */
 /* focus */
@@ -36,7 +36,7 @@
   @media (min-width: #{$size}) {
     /* default */
     @include flexGrowDefault(".#{$screen}\\:", "")
-    /* basic */
+    /* global */
     @include flexGrow(".#{$screen}\\:", "", "")
     /* hover */
     /* focus */

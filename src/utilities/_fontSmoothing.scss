@@ -23,7 +23,7 @@
 /* focus */
 /* active */
 
-/* basic */
+/* global */
 @include fontSmoothing("", ".")
 /* hover */
 /* focus */
@@ -33,7 +33,7 @@
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* default */
-    /* basic */
+    /* global */
     @include fontSmoothing(".#{$screen}\\:", "")
     /* hover */
     /* focus */

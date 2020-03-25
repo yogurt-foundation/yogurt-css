@@ -19,7 +19,7 @@
 /* active */
 
 @each $modifier, $value in $line-height {
-  /* basic */
+  /* global */
   @include lineHeight("", "", ".", $modifier, $value)
   /* hover */
   /* focus */
@@ -29,7 +29,7 @@
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* default */
-      /* basic */
+      /* global */
       @include lineHeight(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
       /* focus */

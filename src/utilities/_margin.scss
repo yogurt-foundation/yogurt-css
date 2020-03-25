@@ -39,7 +39,7 @@
 /* active */
 
 @each $modifier, $value in $spacing {
-  /* basic */
+  /* global */
   @include margin("", "", ".", $modifier, $value, "")
   @include margin("", "", ".", $modifier, $value, "-") // negative
   /* hover */
@@ -50,7 +50,7 @@
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* default */
-      /* basic */
+      /* global */
       @include margin(".#{$screen}\\:", "", "", $modifier, $value, "")
       @include margin(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
       /* hover */

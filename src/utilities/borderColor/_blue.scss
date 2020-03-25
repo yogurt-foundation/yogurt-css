@@ -8,7 +8,7 @@
  */
 
 @each $modifier, $value in $width {
-  /* basic */
+  /* global */
   @each $mode, $hex, $radius in $blue {
     @include borderColor("", "", ".", blue, $mode, $hex, $radius)
   }
@@ -23,7 +23,7 @@
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* default */
-      /* basic */
+      /* global */
       /* hover */
       /* focus */
       /* active */

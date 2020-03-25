@@ -38,7 +38,7 @@
 /* active */
 
 @each $modifier, $value in $border-width {
-  /* basic */
+  /* global */
   @include borderWidth("", "", ".", $modifier, $value)
   /* hover */
   @include borderWidthDefault(".hover\\:", "", ":hover")
@@ -50,7 +50,7 @@
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* default */
-      /* basic */
+      /* global */
       /* hover */
       /* focus */
       /* active */

@@ -39,7 +39,7 @@
 /* active */
 
 @each $modifier, $value in $spacing {
-  /* basic */
+  /* global */
   @include padding("", "", ".", $modifier, $value)
   /* hover */
   /* focus */
@@ -49,7 +49,7 @@
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* default */
-      /* basic */
+      /* global */
       @include padding(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
       /* focus */

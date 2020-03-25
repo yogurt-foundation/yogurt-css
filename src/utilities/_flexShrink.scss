@@ -25,7 +25,7 @@
 /* focus */
 /* active */
 
-/* basic */
+/* global */
 @include flexShrink("", "", ".")
 /* hover */
 /* focus */
@@ -36,7 +36,7 @@
   @media (min-width: #{$size}) {
     /* default */
     @include flexShrinkDefault(".#{$screen}\\:", "")
-    /* basic */
+    /* global */
     @include flexShrink(".#{$screen}\\:", "", "")
     /* hover */
     /* focus */

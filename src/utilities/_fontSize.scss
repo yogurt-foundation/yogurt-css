@@ -19,7 +19,7 @@
 /* active */
 
 @each $modifier, $value in $font-size {
-  /* basic */
+  /* global */
   @include fontSize("", "", ".", $modifier, $value)
   /* hover */
   @include fontSize(".hover\\:", ":hover", "", $modifier, $value)
@@ -30,7 +30,7 @@
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* default */
-      /* basic */
+      /* global */
       @include fontSize(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
       @include fontSize(".hover\\:", ":hover", "", $modifier, $value)

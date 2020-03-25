@@ -19,7 +19,7 @@
 /* active */
 
 @each $modifier, $value in $position {
-  /* basic */
+  /* global */
   @include position("", "", ".", $modifier, $value)
   /* hover */
   @include position(".hover\\:", ":hover", "", $modifier, $value)
@@ -30,7 +30,7 @@
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* default */
-      /* basic */
+      /* global */
       @include position(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
       @include position(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
