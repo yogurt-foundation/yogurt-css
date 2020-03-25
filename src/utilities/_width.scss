@@ -22,6 +22,7 @@
   /* global */
   @include width("", "", ".", $modifier, $value)
   /* hover */
+  @include width(".hover\\:", ":hover", "", $modifier, $value)
   /* focus */
   /* active */
 
@@ -32,6 +33,7 @@
       /* global */
       @include width(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
+      @include width(".#{$screen}\\:hover\\:", "", "", $modifier, $value)
       /* focus */
       /* active */
     }

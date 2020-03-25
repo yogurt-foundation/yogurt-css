@@ -22,7 +22,7 @@
 }
 
 @mixin borderColor($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
-  #{$prefix}#{$class}b-#{$color}-#{$strength}#{$pseudo} {
+  #{$prefix}#{$class}border-#{$color}-#{$strength}#{$pseudo} {
     border-color: #{$hex}#{$override}
   }
 }
