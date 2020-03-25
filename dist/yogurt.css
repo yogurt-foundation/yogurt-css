@@ -25,6 +25,7 @@
 */
 /* screens */
 /* spacing */
+/* box sizing */
 /* clear */
 /* color */
 /* shadowColor */
@@ -85,7 +86,7 @@
 /* colors */
 /* layout */
 /**
- * @module: _clear.scss
+ * @module: _boxSizing.scss
  *
  * @repo: https://github.com/loouislow81/yogurt-foundation
  * @author: Loouis Low (loouis@gmail.com)
@@ -97,8 +98,8 @@
 /* focus */
 /* active */
 /* global */
-.clear-left {
-  clear: left;
+.box-border {
+  box-sizing: border-box;
 }
 
 /* hover */
@@ -108,8 +109,8 @@
 @media (min-width: 640px) {
   /* standalone */
   /* global */
-  .sm\:clear-left {
-    clear: left;
+  .sm\:box-border {
+    box-sizing: border-box;
   }
   /* hover */
   /* focus */
@@ -119,8 +120,8 @@
 @media (min-width: 768px) {
   /* standalone */
   /* global */
-  .md\:clear-left {
-    clear: left;
+  .md\:box-border {
+    box-sizing: border-box;
   }
   /* hover */
   /* focus */
@@ -130,8 +131,8 @@
 @media (min-width: 1024px) {
   /* standalone */
   /* global */
-  .lg\:clear-left {
-    clear: left;
+  .lg\:box-border {
+    box-sizing: border-box;
   }
   /* hover */
   /* focus */
@@ -141,8 +142,8 @@
 @media (min-width: 1280px) {
   /* standalone */
   /* global */
-  .xl\:clear-left {
-    clear: left;
+  .xl\:box-border {
+    box-sizing: border-box;
   }
   /* hover */
   /* focus */
@@ -150,8 +151,8 @@
 }
 
 /* global */
-.clear-right {
-  clear: right;
+.box-content {
+  box-sizing: content-box;
 }
 
 /* hover */
@@ -161,8 +162,8 @@
 @media (min-width: 640px) {
   /* standalone */
   /* global */
-  .sm\:clear-right {
-    clear: right;
+  .sm\:box-content {
+    box-sizing: content-box;
   }
   /* hover */
   /* focus */
@@ -172,8 +173,8 @@
 @media (min-width: 768px) {
   /* standalone */
   /* global */
-  .md\:clear-right {
-    clear: right;
+  .md\:box-content {
+    box-sizing: content-box;
   }
   /* hover */
   /* focus */
@@ -183,8 +184,8 @@
 @media (min-width: 1024px) {
   /* standalone */
   /* global */
-  .lg\:clear-right {
-    clear: right;
+  .lg\:box-content {
+    box-sizing: content-box;
   }
   /* hover */
   /* focus */
@@ -194,114 +195,8 @@
 @media (min-width: 1280px) {
   /* standalone */
   /* global */
-  .xl\:clear-right {
-    clear: right;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-/* global */
-.clear-both {
-  clear: both;
-}
-
-/* hover */
-/* focus */
-/* active */
-/* responsive */
-@media (min-width: 640px) {
-  /* standalone */
-  /* global */
-  .sm\:clear-both {
-    clear: both;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* standalone */
-  /* global */
-  .md\:clear-both {
-    clear: both;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* standalone */
-  /* global */
-  .lg\:clear-both {
-    clear: both;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* standalone */
-  /* global */
-  .xl\:clear-both {
-    clear: both;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-/* global */
-.clear-none {
-  clear: none;
-}
-
-/* hover */
-/* focus */
-/* active */
-/* responsive */
-@media (min-width: 640px) {
-  /* standalone */
-  /* global */
-  .sm\:clear-none {
-    clear: none;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* standalone */
-  /* global */
-  .md\:clear-none {
-    clear: none;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* standalone */
-  /* global */
-  .lg\:clear-none {
-    clear: none;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* standalone */
-  /* global */
-  .xl\:clear-none {
-    clear: none;
+  .xl\:box-content {
+    box-sizing: content-box;
   }
   /* hover */
   /* focus */

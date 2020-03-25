@@ -1,0 +1,39 @@
+/**
+ * @module: _boxSizing.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin boxSizing($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}box-#{$modifier}#{$pseudo} {
+    box-sizing: #{$value}#{$override}
+  }
+}
+
+/* standalone */
+/* hover */
+/* focus */
+/* active */
+
+@each $modifier, $value in $box-sizing {
+  /* global */
+  @include boxSizing("", "", ".", $modifier, $value)
+  /* hover */
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* standalone */
+      /* global */
+      @include boxSizing(".#{$screen}\\:", "", "", $modifier, $value)
+      /* hover */
+      /* focus */
+      /* active */
+    }
+  }
+}

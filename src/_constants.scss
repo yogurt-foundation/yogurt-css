@@ -52,6 +52,12 @@ $spacing: // for margin, padding
   (56, 14rem),
   (64, 16rem);
 
+/* box sizing */
+
+$box-sizing:
+  (border, border-box),
+  (content, content-box);
+
 /* clear */
 
 $clear:
