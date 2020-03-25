@@ -30,7 +30,6 @@
     @media (min-width: #{$size}) {
       /* standalone */
       /* global */
-      @include transitionTiming(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
       /* focus */
       /* active */
