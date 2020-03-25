@@ -9,7 +9,7 @@
 
 @mixin fontWeight($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}font-#{$modifier}#{$pseudo} {
-    font-size: #{$value}#{$override}
+    font-weight: #{$value}#{$override}
   }
 }
 
