@@ -52,7 +52,7 @@
 - **(OK)** pointerEvents ~ (responsive)
 - **(OK)** position ~ (responsive) (hover)
 - **(OK)** resize ~ (responsive)
-- shadowColor ~ (responsive) (hover)
+- **(OK)** shadowColor ~ (responsive) (hover)
 - **(OK)** stroke ~ (responsive)
 - **(OK)** tableLayout ~ (responsive)
 - **(OK)** textAlign ~ (responsive)
