@@ -14,20 +14,19 @@
 
 /*! yogurt.css v2.0.0 | MIT License | gtihub.com/loouislow81/yogurt-foundation */
 
-@import 'constants';
+// @import 'reset'; // 2.01k
 
 //////////
 
-// @import 'reset'; // 2.01k
-// @import 'base'; // 218b
+@import 'constants';
 @import 'mixin';
 
 //////////
 
 /* layout */
 
-// @import 'variants/boxSizing'; //
-// @import 'variants/clear'; //
+// @import 'variants/boxSizing'; // 765b
+// @import 'variants/clear'; // 1.11k
 // @import 'variants/container'; // 525b
 // @import 'variants/display'; // 4.71k
 // @import 'variants/float'; // 1.58k
@@ -124,6 +123,6 @@
 
 // @import 'variants/fill'; // 449b
 // @import 'variants/stroke'; // 469b
-// @import 'variants/strokeWidth'; //
+// @import 'variants/strokeWidth'; // 916b
 
 /*! yogurt.css v2.0.0 | MIT License | gtihub.com/loouislow81/yogurt-foundation */
