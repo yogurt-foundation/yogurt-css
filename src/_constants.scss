@@ -190,13 +190,13 @@ $pink:
   (800, #97266d),
   (900, #702459);
 
-/* shadow */
+/* shadowColor */
 
-$shadows:
-  (sm, 5px),
-  (md, 10px);
-  // (lg, 20px), // (new)
-  // (xl, 30px); // (new)
+$shadow-color:
+  (md, 6px),
+  (lg, 15px),
+  (xl, 25px), // (new)
+  (\32xl, 50px); // (new)
 
 /* alignContent */
 

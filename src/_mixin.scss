@@ -28,7 +28,7 @@
 }
 
 @mixin shadowColor($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
-  @each $size, $radius in $shadows {
+  @each $size, $radius in $shadow-color {
     #{$prefix}#{$class}shadow-#{$size}-#{$color}-#{$strength}#{$pseudo} {
       box-shadow: 0 0 #{$radius} #{$hex}#{$override}
      }

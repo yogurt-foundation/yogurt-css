@@ -13,6 +13,9 @@
     @include shadowColor("", "", ".", blue, $mode, $hex, $radius)
   }
   /* hover */
+  @each $mode, $hex, $radius in $blue {
+    @include shadowColor(".hover\\:", ":hover", "", blue, $mode, $hex, $radius)
+  }
   /* focus */
   /* active */
 
