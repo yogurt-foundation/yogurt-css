@@ -25,109 +25,109 @@
 
 /* layout */
 
-// @import 'variants/boxSizing'; // 765b
-// @import 'variants/clear'; // 1.11k
-// @import 'variants/container'; // 525b
-// @import 'variants/display'; // 4.71k
-// @import 'variants/float'; // 1.58k
-// @import 'variants/inset'; // 12.25k
-// @import 'variants/objectFit'; // 2.09k
-// @import 'variants/objectPosition'; // 4.23k
-// @import 'variants/overflow'; // 3.70k
-// @import 'variants/position'; // 2.63k
-// @import 'variants/visibility'; // 1.01k
-// @import 'variants/zIndex'; // 1.61k
+// @import 'layouts/boxSizing'; // 765b
+// @import 'layouts/clear'; // 1.11k
+// @import 'layouts/container'; // 525b
+// @import 'layouts/display'; // 4.71k
+// @import 'layouts/float'; // 1.58k
+// @import 'layouts/inset'; // 12.25k
+// @import 'layouts/objectFit'; // 2.09k
+// @import 'layouts/objectPosition'; // 4.23k
+// @import 'layouts/overflow'; // 3.70k
+// @import 'layouts/position'; // 2.63k
+// @import 'layouts/visibility'; // 1.01k
+// @import 'layouts/zIndex'; // 1.61k
 
 /* flexbox */
 
-// @import 'variants/alignContent'; // 2.40k
-// @import 'variants/alignItems'; // 2.15k
-// @import 'variants/alignSelf'; // 2.17k
-// @import 'variants/flex'; // 1.43k
-// @import 'variants/flexDirection'; // 3.58k
-// @import 'variants/flexGrow'; // 745b
-// @import 'variants/flexShrink'; // 775b
-// @import 'variants/flexWrap'; // 1.34k
-// @import 'variants/justifyContent'; // 2.32k
-// @import 'variants/order'; // 4.66k
+// @import 'flexbox/alignContent'; // 2.40k
+// @import 'flexbox/alignItems'; // 2.15k
+// @import 'flexbox/alignSelf'; // 2.17k
+// @import 'flexbox/flex'; // 1.43k
+// @import 'flexbox/flexDirection'; // 3.58k
+// @import 'flexbox/flexGrow'; // 745b
+// @import 'flexbox/flexShrink'; // 775b
+// @import 'flexbox/flexWrap'; // 1.34k
+// @import 'flexbox/justifyContent'; // 2.32k
+// @import 'flexbox/order'; // 4.66k
 
 /* spacing */
 
-// @import 'variants/margin'; // 45.46k
-// @import 'variants/padding'; // 23.92k
+// @import 'spacing/margin'; // 45.46k
+// @import 'spacing/padding'; // 23.92k
 
 /* sizing */
 
-// @import 'variants/height'; // 8.69k
-// @import 'variants/maxHeight'; // 710b
-// @import 'variants/maxWidth'; // 3.45k
-// @import 'variants/minHeight'; // 946b
-// @import 'variants/minWidth'; // 655b
-// @import 'variants/width'; // 18.02k
+// @import 'sizing/height'; // 8.69k
+// @import 'sizing/maxHeight'; // 710b
+// @import 'sizing/maxWidth'; // 3.45k
+// @import 'sizing/minHeight'; // 946b
+// @import 'sizing/minWidth'; // 655b
+// @import 'sizing/width'; // 18.02k
 
 /* typography */
 
-// @import 'variants/fontFamily'; // 3.47k
-// @import 'variants/fontSize'; // 4.64k
-// @import 'variants/fontSmoothing'; // 1.08k
-// @import 'variants/fontStyle'; // 585b
-// @import 'variants/fontWeight'; // 6.26k
-// @import 'variants/letterSpacing'; // 1.99k
-// @import 'variants/lineHeight'; // 1.76k
-// @import 'variants/listStylePosition'; // 715b
-// @import 'variants/listStyleType'; // 1.03k
-// @import 'variants/textAlign'; // 1.24k
-// @import 'variants/textColor/**/*'; // 424.94k
-// @import 'variants/textDecoration'; // 2.47k
-// @import 'variants/textTransform'; // 1.03k
-// @import 'variants/verticalAlign'; // 2.01k
-// @import 'variants/whitespace'; // 1.72k
-// @import 'variants/wordBreak'; // 51.67k
+// @import 'typography/fontFamily'; // 3.47k
+// @import 'typography/fontSize'; // 4.64k
+// @import 'typography/fontSmoothing'; // 1.08k
+// @import 'typography/fontStyle'; // 585b
+// @import 'typography/fontWeight'; // 6.26k
+// @import 'typography/letterSpacing'; // 1.99k
+// @import 'typography/lineHeight'; // 1.76k
+// @import 'typography/listStylePosition'; // 715b
+// @import 'typography/listStyleType'; // 1.03k
+// @import 'typography/textAlign'; // 1.24k
+// @import 'typography/textColor/**/*'; // 424.94k
+// @import 'typography/textDecoration'; // 2.47k
+// @import 'typography/textTransform'; // 1.03k
+// @import 'typography/verticalAlign'; // 2.01k
+// @import 'typography/whitespace'; // 1.72k
+// @import 'typography/wordBreak'; // 51.67k
 
 /* backgrounds */
 
-// @import 'variants/backgroundAttachment'; // 1.90k
-// @import 'variants/backgroundColor/**/*'; // 461.22k
-// @import 'variants/backgroundPosition'; // 3.03k
-// @import 'variants/backgroundRepeat'; // 2.07k
-// @import 'variants/backgroundSize'; // 1.01k
+// @import 'backgrounds/backgroundAttachment'; // 1.90k
+// @import 'backgrounds/backgroundColor/**/*'; // 461.22k
+// @import 'backgrounds/backgroundPosition'; // 3.03k
+// @import 'backgrounds/backgroundRepeat'; // 2.07k
+// @import 'backgrounds/backgroundSize'; // 1.01k
 
 /* borders */
 
-// @import 'variants/borderColor/**/*'; // 410.60k (optional)
-// @import 'variants/borderRadius'; // 3.27k
-// @import 'variants/borderStyle'; // 1.31k
-// @import 'variants/borderWidth'; // 1.94k
+// @import 'borders/borderColor/**/*'; // 410.60k (optional)
+// @import 'borders/borderRadius'; // 3.27k
+// @import 'borders/borderStyle'; // 1.31k
+// @import 'borders/borderWidth'; // 1.94k
 
 /* tables */
 
-// @import 'variants/borderCollapse'; // 835k
-// @import 'variants/tableLayout'; // 725b
+// @import 'tables/borderCollapse'; // 835k
+// @import 'tables/tableLayout'; // 725b
 
 /* effects */
 
-// @import 'variants/boxShadow'; // 2.72k
-// @import 'variants/opacity'; // 2.29k
-// @import 'variants/shadowColor/**/*'; // 2.22M (optional)
+// @import 'effects/boxShadow'; // 2.72k
+// @import 'effects/opacity'; // 2.29k
+// @import 'effects/shadowColor/**/*'; // 2.22M (optional)
 
 /* interactivity */
 
-// @import 'variants/appearance'; // 589b
-// @import 'variants/cursor'; // 2.00k
-// @import 'variants/outline'; // 560b
-// @import 'variants/pointerEvents'; // 825b
-// @import 'variants/resize'; // 1.21k
-// @import 'variants/userSelect'; // 2.54k
+// @import 'interactivity/appearance'; // 589b
+// @import 'interactivity/cursor'; // 2.00k
+// @import 'interactivity/outline'; // 560b
+// @import 'interactivity/pointerEvents'; // 825b
+// @import 'interactivity/resize'; // 1.21k
+// @import 'interactivity/userSelect'; // 2.54k
 
 /* svg */
 
-// @import 'variants/fill'; // 449b
-// @import 'variants/stroke'; // 469b
-// @import 'variants/strokeWidth'; // 916b
+// @import 'svg/fill'; // 449b
+// @import 'svg/stroke'; // 469b
+// @import 'svg/strokeWidth'; // 916b
 
 /* transforms */
 
-// @import 'variants/scale'; // 17.42k
-@import 'variants/rotate'; // 4.26k
+// @import 'transforms/scale'; // 17.42k
+// @import 'transforms/rotate'; // 4.26k
 
 /*! yogurt.css v2.0.0 | MIT License | gtihub.com/loouislow81/yogurt-foundation */
