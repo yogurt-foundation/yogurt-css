@@ -12,6 +12,12 @@
     --transform-scale-x: #{$value}#{$override};
     --transform-scale-y: #{$value}#{$override}
   }
+  #{$prefix}#{$class}scale-x-#{$modifier}#{$pseudo} {
+    --transform-scale-x: #{$value}#{$override};
+  }
+  #{$prefix}#{$class}scale-y-#{$modifier}#{$pseudo} {
+    --transform-scale-x: #{$value}#{$override};
+  }
 }
 
 /* standalone */
