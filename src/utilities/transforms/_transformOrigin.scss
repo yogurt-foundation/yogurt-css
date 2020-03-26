@@ -22,7 +22,6 @@
   /* global */
   @include transformOrigin("", "", ".", $modifier, $value)
   /* hover */
-  @include transformOrigin(".hover\\:", ":hover", "", $modifier, $value)
   /* focus */
   /* active */
 
@@ -33,7 +32,6 @@
       /* global */
       @include transformOrigin(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
-      @include transformOrigin(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
       /* focus */
       /* active */
     }
