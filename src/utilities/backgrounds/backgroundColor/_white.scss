@@ -7,7 +7,7 @@
  * @license: MIT
  */
 
-@mixin specialackgroundColor($prefix, $pseudo, $class, $modifier, $value) {
+@mixin specialBackgroundColor($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}bg-#{$modifier}#{$pseudo} {
     background-color: #{$value}#{$override}
   }
@@ -15,9 +15,9 @@
 
 @each $modifier, $value in $special-colors {
   /* global */
-  @include specialackgroundColor("", "", ".", $modifier, $value)
+  @include specialBackgroundColor("", "", ".", $modifier, $value)
   /* hover */
-  @include specialackgroundColor(".hover\\:", ":hover", "", $modifier, $value)
+  @include specialBackgroundColor(".hover\\:", ":hover", "", $modifier, $value)
   /* focus */
   /* active */
 
