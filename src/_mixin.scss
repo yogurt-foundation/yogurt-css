@@ -35,3 +35,25 @@
    }
 }
 
+@mixin placeholderColor($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
+  #{$prefix}#{$class}placeholder-#{$color}-#{$strength}:-ms-input-placeholder#{$pseudo} {
+    color: #{$hex}#{$override}
+  }
+  #{$prefix}#{$class}placeholder-#{$color}-#{$strength}::-ms-input-placeholder#{$pseudo} {
+    color: #{$hex}#{$override}
+  }
+  #{$prefix}#{$class}placeholder-#{$color}-#{$strength}::placeholder#{$pseudo} {
+    color: #{$hex}#{$override}
+  }
+  .placeholder-transparent:-ms-input-placeholder {
+    color: transparent
+  }
+
+  .placeholder-transparent::-ms-input-placeholder {
+    color: transparent
+  }
+
+  .placeholder-transparent::placeholder {
+    color: transparent
+  }
+}

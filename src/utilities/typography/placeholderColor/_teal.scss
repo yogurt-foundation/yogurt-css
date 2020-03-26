@@ -1,0 +1,32 @@
+/**
+ * @module: _teal.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@each $modifier, $value in $width {
+  /* global */
+  @each $mode, $hex, $radius in $teal {
+    @include placeholderColor("", "", ".", teal, $mode, $hex, $radius)
+  }
+  /* hover */
+  /* focus */
+  @each $mode, $hex, $radius in $teal {
+    @include placeholderColor(".focus\\:", ":focus", "", teal, $mode, $hex, $radius)
+  }
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* standalone */
+      /* global */
+      /* hover */
+      /* focus */
+      /* active */
+    }
+  }
+}
