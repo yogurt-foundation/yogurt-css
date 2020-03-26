@@ -14,9 +14,6 @@
   }
   /* hover */
   /* focus */
-  @each $mode, $hex, $radius in $purple {
-    @include placeholderColor(".focus\\:", ":focus", "", purple, $mode, $hex, $radius)
-  }
   /* active */
 
   /* responsive */

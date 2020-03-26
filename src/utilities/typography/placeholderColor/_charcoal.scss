@@ -14,9 +14,6 @@
   }
   /* hover */
   /* focus */
-  @each $mode, $hex, $radius in $charcoal {
-    @include placeholderColor(".focus\\:", ":focus", "", charcoal, $mode, $hex, $radius)
-  }
   /* active */
 
   /* responsive */

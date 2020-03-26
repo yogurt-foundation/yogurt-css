@@ -45,15 +45,4 @@
   #{$prefix}#{$class}placeholder-#{$color}-#{$strength}::placeholder#{$pseudo} {
     color: #{$hex}#{$override}
   }
-  .placeholder-transparent:-ms-input-placeholder {
-    color: transparent
-  }
-
-  .placeholder-transparent::-ms-input-placeholder {
-    color: transparent
-  }
-
-  .placeholder-transparent::placeholder {
-    color: transparent
-  }
 }
