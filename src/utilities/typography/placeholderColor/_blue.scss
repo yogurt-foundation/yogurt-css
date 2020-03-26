@@ -7,23 +7,24 @@
  * @license: MIT
  */
 
-@each $modifier, $value in $width {
-  /* global */
-  @each $mode, $hex, $radius in $blue {
-    @include placeholderColor("", "", ".", blue, $mode, $hex, $radius)
-  }
-  /* hover */
-  /* focus */
-  /* active */
+/* global */
+@each $mode, $hex, $radius in $blue {
+  @include placeholderColor("", "", ".", blue, $mode, $hex, $radius)
+}
+/* hover */
+/* focus */
+@each $mode, $hex, $radius in $blue {
+  @include placeholderColor(".focus\\:", ":hover", "", blue, $mode, $hex, $radius)
+}
+/* active */
 
-  /* responsive */
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
-      /* standalone */
-      /* global */
-      /* hover */
-      /* focus */
-      /* active */
-    }
+/* responsive */
+@each $screen, $size in $screens {
+  @media (min-width: #{$size}) {
+    /* standalone */
+    /* global */
+    /* hover */
+    /* focus */
+    /* active */
   }
 }
