@@ -1,0 +1,34 @@
+/**
+ * @module: _white.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin specialackgroundColor($prefix, $pseudo, $class, $modifier, $value) {
+  #{$prefix}#{$class}bg-#{$modifier}#{$pseudo} {
+    background-color: #{$value}#{$override}
+  }
+}
+
+@each $modifier, $value in $special-colors {
+  /* global */
+  @include specialackgroundColor("", "", ".", $modifier, $value)
+  /* hover */
+  @include specialackgroundColor(".hover\\:", ":hover", "", $modifier, $value)
+  /* focus */
+  /* active */
+
+  /* responsive */
+  @each $screen, $size in $screens {
+    @media (min-width: #{$size}) {
+      /* standalone */
+      /* global */
+      /* hover */
+      /* focus */
+      /* active */
+    }
+  }
+}
