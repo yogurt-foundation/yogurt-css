@@ -7,26 +7,24 @@
  * @license: MIT
  */
 
-@each $modifier, $value in $width {
-  /* global */
-  @each $mode, $hex, $radius in $blue {
-    @include borderColor("", "", ".", blue, $mode, $hex, $radius)
-  }
-  /* hover */
-  @each $mode, $hex, $radius in $blue {
-    @include borderColor(".hover\\:", ":hover", "", blue, $mode, $hex, $radius)
-  }
-  /* focus */
-  /* active */
+/* global */
+@each $mode, $hex, $radius in $blue {
+  @include borderColor("", "", ".", blue, $mode, $hex, $radius)
+}
+/* hover */
+@each $mode, $hex, $radius in $blue {
+  @include borderColor(".hover\\:", ":hover", "", blue, $mode, $hex, $radius)
+}
+/* focus */
+/* active */
 
-  /* responsive */
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
-      /* standalone */
-      /* global */
-      /* hover */
-      /* focus */
-      /* active */
-    }
+/* responsive */
+@each $screen, $size in $screens {
+  @media (min-width: #{$size}) {
+    /* standalone */
+    /* global */
+    /* hover */
+    /* focus */
+    /* active */
   }
 }
