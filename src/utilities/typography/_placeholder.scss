@@ -1,0 +1,42 @@
+/**
+ * @module: _placeholder.scss
+ *
+ * @repo: https://github.com/loouislow81/yogurt-foundation
+ * @author: Loouis Low (loouis@gmail.com)
+ * @copyright: Loouis Low (loouis@gmail.com)
+ * @license: MIT
+ */
+
+@mixin placeholder() {
+  .placeholder-transparent:-ms-input-placeholder {
+    color: transparent
+  }
+  .placeholder-transparent::-ms-input-placeholder {
+    color: transparent
+  }
+  .placeholder-transparent::placeholder {
+    color: transparent
+  }
+}
+
+/* standalone */
+/* hover */
+/* focus */
+/* active */
+
+/* global */
+@include placeholder()
+/* hover */
+/* focus */
+/* active */
+
+/* responsive */
+@each $screen, $size in $screens {
+  @media (min-width: #{$size}) {
+    /* standalone */
+    /* global */
+    /* hover */
+    /* focus */
+    /* active */
+  }
+}
