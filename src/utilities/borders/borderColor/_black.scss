@@ -13,6 +13,9 @@
     @include borderColor("", "", ".", black, $mode, $hex, $radius)
   }
   /* hover */
+  @each $mode, $hex, $radius in $black {
+    @include borderColor(".hover\\:", ":hover", "", black, $mode, $hex, $radius)
+  }
   /* focus */
   /* active */
 
