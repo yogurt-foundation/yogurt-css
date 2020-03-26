@@ -26,8 +26,6 @@
   @include translate("", "", ".", $modifier, $value)
   @include translate("", "", ".-", $modifier, "-#{$value}") // negative
   /* hover */
-  @include translate(".hover\\:", ":hover", "", $modifier, $value)
-  @include translate(".hover\\:", ":hover", "-", $modifier, "-#{$value}") // negative
   /* focus */
   /* active */
 
@@ -39,8 +37,6 @@
       @include translate(".#{$screen}\\:", "", "", $modifier, $value)
       @include translate(".#{$screen}\\:", "", "-", $modifier, "-#{$value}") // negative
       /* hover */
-      @include translate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-      @include translate(".#{$screen}\\:hover\\:", ":hover", "-", $modifier, "-#{$value}")
       /* focus */
       /* active */
     }
