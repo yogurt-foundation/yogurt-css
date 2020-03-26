@@ -13,9 +13,6 @@
     @include borderColor("", "", ".", pink, $mode, $hex, $radius)
   }
   /* hover */
-  @each $mode, $hex, $radius in $pink {
-    @include borderColor(".hover\\:", ":hover", "", pink, $mode, $hex, $radius)
-  }
   /* focus */
   /* active */
 
