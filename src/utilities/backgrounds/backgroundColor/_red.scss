@@ -17,6 +17,9 @@
     @include backgroundColor(".hover\\:", ":hover", "", red, $mode, $hex, $radius)
   }
   /* focus */
+  @each $mode, $hex, $radius in $red {
+    @include backgroundColor(".focus\\:", ":focus", "", red, $mode, $hex, $radius)
+  }
   /* active */
 
   /* responsive */

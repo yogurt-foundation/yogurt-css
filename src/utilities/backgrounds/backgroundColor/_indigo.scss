@@ -17,6 +17,9 @@
     @include backgroundColor(".hover\\:", ":hover", "", indigo, $mode, $hex, $radius)
   }
   /* focus */
+  @each $mode, $hex, $radius in $indigo {
+    @include backgroundColor(".focus\\:", ":focus", "", indigo, $mode, $hex, $radius)
+  }
   /* active */
 
   /* responsive */
