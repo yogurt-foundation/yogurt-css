@@ -29,6 +29,7 @@
   /* global */
   @include scale("", "", ".", $modifier, $value)
   /* hover */
+  @include scale(".hover\\:", ":hover", "", $modifier, $value)
   /* focus */
   /* active */
 
@@ -39,6 +40,7 @@
       /* global */
       @include scale(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
+      @include scale(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
       /* focus */
       /* active */
     }

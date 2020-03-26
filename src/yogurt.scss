@@ -53,7 +53,7 @@
 
 /* spacing */
 
-// @import 'utilities/spacing/margin'; // 45.46k
+// @import 'utilities/spacing/margin'; // 45.46k (w/ negative)
 // @import 'utilities/spacing/padding'; // 23.92k
 
 /* sizing */
@@ -128,7 +128,7 @@
 /* transforms */
 
 // @import 'utilities/transforms/rotate'; // 2.17k
-// @import 'utilities/transforms/scale'; // 8.37k
+@import 'utilities/transforms/scale'; // 17.42k
 // @import 'utilities/transforms/skew'; //  // 3.63k
 // @import 'utilities/transforms/translate'; // 23.14k
 // @import 'utilities/transforms/transformOrigin'; // 5.81k
