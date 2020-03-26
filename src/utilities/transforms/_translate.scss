@@ -24,10 +24,10 @@
 @each $modifier, $value in $translate {
   /* global */
   @include translate("", "", ".", $modifier, $value)
-  @include translate("", "", ".-", $modifier, "-#{$value}") // negative
+  @include translate("", "", ".-", $modifier, "-0#{$value}") // negative
   /* hover */
   @include translate(".hover\\:", ":hover", "", $modifier, $value)
-  @include translate(".hover\\:", ":hover", "-", $modifier, "-#{$value}") // negative
+  @include translate(".hover\\:", ":hover", "-", $modifier, "-0#{$value}") // negative
   /* focus */
   /* active */
 
@@ -37,10 +37,10 @@
       /* standalone */
       /* global */
       @include translate(".#{$screen}\\:", "", "", $modifier, $value)
-      @include translate(".#{$screen}\\:", "", "-", $modifier, "-#{$value}") // negative
+      @include translate(".#{$screen}\\:", "", "-", $modifier, "-0#{$value}") // negative
       /* hover */
       @include translate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-      @include translate(".#{$screen}\\:hover\\:", ":hover", "-", $modifier, "-#{$value}") // negative
+      @include translate(".#{$screen}\\:hover\\:", ":hover", "-", $modifier, "-0#{$value}") // negative
       /* focus */
       /* active */
     }
