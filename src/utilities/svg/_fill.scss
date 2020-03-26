@@ -29,7 +29,6 @@
   @media (min-width: #{$size}) {
     /* standalone */
     /* global */
-    @include fill(".#{$screen}\\:", "", "")
     /* hover */
     /* focus */
     /* active */
