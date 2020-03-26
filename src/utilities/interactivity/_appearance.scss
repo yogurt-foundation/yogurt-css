@@ -23,7 +23,6 @@
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */
-    @include appearance(".#{$screen}\\:", "")
     /* hover */
     /* focus */
     /* active */
