@@ -94,14 +94,14 @@
 
 /* borders */
 
-@import 'utilities/borders/borderColor/**/*'; // 461.22k
+// @import 'utilities/borders/borderColor/**/*'; // 461.22k (optional)
 // @import 'utilities/borders/borderRadius'; // 3.27k
 // @import 'utilities/borders/borderStyle'; // 1.31k
 // @import 'utilities/borders/borderWidth'; // 1.94k
 
 /* tables */
 
-// @import 'utilities/tables/borderCollapse'; // 835k
+@import 'utilities/tables/borderCollapse'; // 247k
 // @import 'utilities/tables/tableLayout'; // 725b
 
 /* effects */
