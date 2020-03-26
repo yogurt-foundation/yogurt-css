@@ -9,9 +9,6 @@
 
 @each $modifier, $value in $width {
   /* global */
-  @each $mode, $hex, $radius in $red {
-    @include shadowColor("", "", ".", red, $mode, $hex, $radius)
-  }
   /* hover */
   @each $mode, $hex, $radius in $red {
     @include shadowColor(".hover\\:", ":hover", "", red, $mode, $hex, $radius)
