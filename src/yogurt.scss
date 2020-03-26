@@ -14,7 +14,7 @@
 
 /*! yogurt.css v2.0.0 | MIT License | gtihub.com/loouislow81/yogurt-foundation */
 
-// @import 'reset'; // 2.02k
+@import 'reset'; // 2.02k
 
 //////////
 
@@ -25,119 +25,119 @@
 
 /* layout */
 
-// @import 'utilities/layouts/boxSizing'; // 765b
-// @import 'utilities/layouts/clear'; // 1.11k
-// @import 'utilities/layouts/container'; // 525b
-// @import 'utilities/layouts/display'; // 4.71k
-// @import 'utilities/layouts/float'; // 1.58k
-// @import 'utilities/layouts/inset'; // 12.25k
-// @import 'utilities/layouts/objectFit'; // 2.09k
-// @import 'utilities/layouts/objectPosition'; // 4.23k
-// @import 'utilities/layouts/overflow'; // 3.70k
-// @import 'utilities/layouts/position'; // 2.63k
-// @import 'utilities/layouts/visibility'; // 1.01k
-// @import 'utilities/layouts/zIndex'; // 1.61k
+@import 'utilities/layouts/boxSizing'; // 765b
+@import 'utilities/layouts/clear'; // 1.11k
+@import 'utilities/layouts/container'; // 525b
+@import 'utilities/layouts/display'; // 4.71k
+@import 'utilities/layouts/float'; // 1.58k
+@import 'utilities/layouts/inset'; // 12.25k
+@import 'utilities/layouts/objectFit'; // 2.09k
+@import 'utilities/layouts/objectPosition'; // 4.23k
+@import 'utilities/layouts/overflow'; // 3.70k
+@import 'utilities/layouts/position'; // 2.63k
+@import 'utilities/layouts/visibility'; // 1.01k
+@import 'utilities/layouts/zIndex'; // 1.61k
 
 /* flexbox */
 
-// @import 'utilities/flexbox/alignContent'; // 2.40k
-// @import 'utilities/flexbox/alignItems'; // 2.15k
-// @import 'utilities/flexbox/alignSelf'; // 2.17k
-// @import 'utilities/flexbox/flex'; // 1.43k
-// @import 'utilities/flexbox/flexDirection'; // 3.58k
-// @import 'utilities/flexbox/flexGrow'; // 745b
-// @import 'utilities/flexbox/flexShrink'; // 775b
-// @import 'utilities/flexbox/flexWrap'; // 1.34k
-// @import 'utilities/flexbox/justifyContent'; // 2.32k
-// @import 'utilities/flexbox/order'; // 4.66k
+@import 'utilities/flexbox/alignContent'; // 2.40k
+@import 'utilities/flexbox/alignItems'; // 2.15k
+@import 'utilities/flexbox/alignSelf'; // 2.17k
+@import 'utilities/flexbox/flex'; // 1.43k
+@import 'utilities/flexbox/flexDirection'; // 3.58k
+@import 'utilities/flexbox/flexGrow'; // 745b
+@import 'utilities/flexbox/flexShrink'; // 775b
+@import 'utilities/flexbox/flexWrap'; // 1.34k
+@import 'utilities/flexbox/justifyContent'; // 2.32k
+@import 'utilities/flexbox/order'; // 4.66k
 
 /* spacing */
 
-// @import 'utilities/spacing/margin'; // 45.46k (w/ negative)
-// @import 'utilities/spacing/padding'; // 23.92k
+@import 'utilities/spacing/margin'; // 45.46k (w/ negative)
+@import 'utilities/spacing/padding'; // 23.92k
 
 /* sizing */
 
-// @import 'utilities/sizing/height'; // 8.69k
-// @import 'utilities/sizing/maxHeight'; // 710b
-// @import 'utilities/sizing/maxWidth'; // 3.45k
-// @import 'utilities/sizing/minHeight'; // 946b
-// @import 'utilities/sizing/minWidth'; // 655b
-// @import 'utilities/sizing/width'; // 18.02k
+@import 'utilities/sizing/height'; // 8.69k
+@import 'utilities/sizing/maxHeight'; // 710b
+@import 'utilities/sizing/maxWidth'; // 3.45k
+@import 'utilities/sizing/minHeight'; // 946b
+@import 'utilities/sizing/minWidth'; // 655b
+@import 'utilities/sizing/width'; // 18.02k
 
 /* typography */
 
-// @import 'utilities/typography/fontFamily'; // 3.47k
-// @import 'utilities/typography/fontSize'; // 4.64k
-// @import 'utilities/typography/fontSmoothing'; // 324b
-// @import 'utilities/typography/fontStyle'; // 585b
-// @import 'utilities/typography/fontWeight'; // 6.26k
-// @import 'utilities/typography/letterSpacing'; // 1.99k
-// @import 'utilities/typography/lineHeight'; // 1.76k
-// @import 'utilities/typography/listStylePosition'; // 715b
-// @import 'utilities/typography/listStyleType'; // 1.03k
-// @import 'utilities/typography/textAlign'; // 1.24k
-// @import 'utilities/typography/textColor/**/*'; // 370.10k
-// @import 'utilities/typography/textDecoration'; // 2.47k
-// @import 'utilities/typography/textTransform'; // 1.03k
-// @import 'utilities/typography/verticalAlign'; // 2.01k
-// @import 'utilities/typography/whitespace'; // 1.72k
-// @import 'utilities/typography/wordBreak'; // 51.67k
+@import 'utilities/typography/fontFamily'; // 3.47k
+@import 'utilities/typography/fontSize'; // 4.64k
+@import 'utilities/typography/fontSmoothing'; // 324b
+@import 'utilities/typography/fontStyle'; // 585b
+@import 'utilities/typography/fontWeight'; // 6.26k
+@import 'utilities/typography/letterSpacing'; // 1.99k
+@import 'utilities/typography/lineHeight'; // 1.76k
+@import 'utilities/typography/listStylePosition'; // 715b
+@import 'utilities/typography/listStyleType'; // 1.03k
+@import 'utilities/typography/textAlign'; // 1.24k
+@import 'utilities/typography/textColor/**/*'; // 370.10k
+@import 'utilities/typography/textDecoration'; // 2.47k
+@import 'utilities/typography/textTransform'; // 1.03k
+@import 'utilities/typography/verticalAlign'; // 2.01k
+@import 'utilities/typography/whitespace'; // 1.72k
+@import 'utilities/typography/wordBreak'; // 51.67k
 
 /* backgrounds */
 
-// @import 'utilities/backgrounds/backgroundAttachment'; // 1.90k
-// @import 'utilities/backgrounds/backgroundColor/**/*'; // 461.22k
-// @import 'utilities/backgrounds/backgroundPosition'; // 3.03k
-// @import 'utilities/backgrounds/backgroundRepeat'; // 2.07k
-// @import 'utilities/backgrounds/backgroundSize'; // 1.01k
+@import 'utilities/backgrounds/backgroundAttachment'; // 1.90k
+@import 'utilities/backgrounds/backgroundColor/**/*'; // 461.22k
+@import 'utilities/backgrounds/backgroundPosition'; // 3.03k
+@import 'utilities/backgrounds/backgroundRepeat'; // 2.07k
+@import 'utilities/backgrounds/backgroundSize'; // 1.01k
 
 /* borders */
 
 // @import 'utilities/borders/borderColor/**/*'; // 461.22k (optional)
-// @import 'utilities/borders/borderRadius'; // 3.27k
-// @import 'utilities/borders/borderStyle'; // 1.31k
-// @import 'utilities/borders/borderWidth'; // 1.94k
+@import 'utilities/borders/borderRadius'; // 3.27k
+@import 'utilities/borders/borderStyle'; // 1.31k
+@import 'utilities/borders/borderWidth'; // 1.94k
 
 /* tables */
 
-// @import 'utilities/tables/borderCollapse'; // 247b
-// @import 'utilities/tables/tableLayout'; // 225b
+@import 'utilities/tables/borderCollapse'; // 247b
+@import 'utilities/tables/tableLayout'; // 225b
 
 /* effects */
 
-// @import 'utilities/effects/boxShadow'; // 2.72k
-// @import 'utilities/effects/opacity'; // 2.29k
+@import 'utilities/effects/boxShadow'; // 2.72k
+@import 'utilities/effects/opacity'; // 2.29k
 // @import 'utilities/effects/shadowColor/**/*'; // 1.24M (optional)
 
 /* interactivity */
 
-// @import 'utilities/interactivity/appearance'; // 223b
-// @import 'utilities/interactivity/cursor'; // 364b
-// @import 'utilities/interactivity/outline'; // 560b
-// @import 'utilities/interactivity/pointerEvents'; // 825b
-// @import 'utilities/interactivity/resize'; // 1.21k
-// @import 'utilities/interactivity/userSelect'; // 2.54k
+@import 'utilities/interactivity/appearance'; // 223b
+@import 'utilities/interactivity/cursor'; // 364b
+@import 'utilities/interactivity/outline'; // 560b
+@import 'utilities/interactivity/pointerEvents'; // 825b
+@import 'utilities/interactivity/resize'; // 1.21k
+@import 'utilities/interactivity/userSelect'; // 2.54k
 
 /* svg */
 
-// @import 'utilities/svg/fill'; // 195b
-// @import 'utilities/svg/stroke'; // 199b
-// @import 'utilities/svg/strokeWidth'; // 238b
+@import 'utilities/svg/fill'; // 195b
+@import 'utilities/svg/stroke'; // 199b
+@import 'utilities/svg/strokeWidth'; // 238b
 
 /* transforms */
 
-// @import 'utilities/transforms/rotate'; // 4.26k
-// @import 'utilities/transforms/scale'; // 17.42k
-// @import 'utilities/transforms/skew'; //  // 7.69k
-// @import 'utilities/transforms/transform'; // 1.15k
-// @import 'utilities/transforms/translate'; // 49.20k
-// @import 'utilities/transforms/transformOrigin'; // 11.07k
+@import 'utilities/transforms/rotate'; // 4.26k
+@import 'utilities/transforms/scale'; // 17.42k
+@import 'utilities/transforms/skew'; //  // 7.69k
+@import 'utilities/transforms/transform'; // 1.15k
+@import 'utilities/transforms/translate'; // 49.20k
+@import 'utilities/transforms/transformOrigin'; // 11.07k
 
 /* transitions */
 
-// @import 'utilities/transitions/transitionProperty'; // 4.61k
-// @import 'utilities/transitions/transitionDuration'; // 2.71k
-// @import 'utilities/transitions/transitionTiming'; // 1.84k
+@import 'utilities/transitions/transitionProperty'; // 4.61k
+@import 'utilities/transitions/transitionDuration'; // 2.71k
+@import 'utilities/transitions/transitionTiming'; // 1.84k
 
 /*! yogurt.css v2.0.0 | MIT License | gtihub.com/loouislow81/yogurt-foundation */
