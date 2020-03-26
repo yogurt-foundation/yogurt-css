@@ -26,8 +26,6 @@
   @include skew("", "", ".", $modifier, $value)
   @include skew("", "", ".-", $modifier, "-#{$value}") // negative
   /* hover */
-  @include skew(".hover\\:", ":hover", "", $modifier, $value)
-  @include skew(".hover\\:", ":hover", "-", $modifier, "-#{$value}") // negative
   /* focus */
   /* active */
 
@@ -39,8 +37,6 @@
       @include skew(".#{$screen}\\:", "", "", $modifier, $value)
       @include skew(".#{$screen}\\:", "", "-", $modifier, "-#{$value}") // negative
       /* hover */
-      @include skew(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-      @include skew(".#{$screen}\\:hover\\:", ":hover", "-", $modifier, "-#{$value}") // negative
       /* focus */
       /* active */
     }
