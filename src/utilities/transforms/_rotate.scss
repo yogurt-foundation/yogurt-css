@@ -25,7 +25,6 @@
   /* global */
   @include rotate("", "", ".", $modifier, $value)
   /* hover */
-  @include rotate(".hover\\:", ":hover", "", $modifier, $value)
   /* focus */
   /* active */
 
@@ -36,7 +35,6 @@
       /* global */
       @include rotate(".#{$screen}\\:", "", "", $modifier, $value)
       /* hover */
-      @include rotate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
       /* focus */
       /* active */
     }
