@@ -7,29 +7,27 @@
  * @license: MIT
  */
 
-@each $modifier, $value in $width {
-  /* global */
-  @each $mode, $hex, $radius in $green {
-    @include backgroundColor("", "", ".", green, $mode, $hex, $radius)
-  }
-  /* hover */
-  @each $mode, $hex, $radius in $green {
-    @include backgroundColor(".hover\\:", ":hover", "", green, $mode, $hex, $radius)
-  }
-  /* focus */
-  @each $mode, $hex, $radius in $green {
-    @include backgroundColor(".focus\\:", ":focus", "", green, $mode, $hex, $radius)
-  }
-  /* active */
+/* global */
+@each $mode, $hex, $radius in $green {
+  @include backgroundColor("", "", ".", green, $mode, $hex, $radius)
+}
+/* hover */
+@each $mode, $hex, $radius in $green {
+  @include backgroundColor(".hover\\:", ":hover", "", green, $mode, $hex, $radius)
+}
+/* focus */
+@each $mode, $hex, $radius in $green {
+  @include backgroundColor(".focus\\:", ":focus", "", green, $mode, $hex, $radius)
+}
+/* active */
 
-  /* responsive */
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
-      /* standalone */
-      /* global */
-      /* hover */
-      /* focus */
-      /* active */
-    }
+/* responsive */
+@each $screen, $size in $screens {
+  @media (min-width: #{$size}) {
+    /* standalone */
+    /* global */
+    /* hover */
+    /* focus */
+    /* active */
   }
 }
