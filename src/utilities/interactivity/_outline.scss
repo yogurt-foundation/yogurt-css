@@ -8,7 +8,7 @@
  */
 
 @mixin outline($prefix, $pseudo, $class) {
-  #{$prefix}#{$class}outline#{$pseudo} {
+  #{$prefix}#{$class}outline-none#{$pseudo} {
     outline: 0#{$override}
   }
 }
