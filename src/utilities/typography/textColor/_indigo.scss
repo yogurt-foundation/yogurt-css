@@ -15,6 +15,9 @@
 @each $mode, $hex, $radius in $indigo {
   @include textColor(".hover\\:", ":hover", "", indigo, $mode, $hex, $radius)
 }
+@each $mode, $hex, $radius in $indigo {
+  @include textColor(".group:hover .group-hover\\:", "", "", indigo, $mode, $hex, $radius)
+}
 /* focus */
 /* active */
 

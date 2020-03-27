@@ -15,6 +15,9 @@
 @each $mode, $hex, $radius in $charcoal {
   @include textColor(".hover\\:", ":hover", "", charcoal, $mode, $hex, $radius)
 }
+@each $mode, $hex, $radius in $charcoal {
+  @include textColor(".group:hover .group-hover\\:", "", "", charcoal, $mode, $hex, $radius)
+}
 /* focus */
 /* active */
 

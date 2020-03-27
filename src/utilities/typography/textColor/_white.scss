@@ -18,6 +18,7 @@
   @include specialTextColor("", "", ".", $modifier, $value)
   /* hover */
   @include specialTextColor(".hover\\:", ":hover", "", $modifier, $value)
+  @include specialTextColor(".group:hover .group-hover\\:", "", "", $modifier, $value)
   /* focus */
   /* active */
 

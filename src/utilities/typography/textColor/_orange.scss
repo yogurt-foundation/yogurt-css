@@ -15,6 +15,9 @@
 @each $mode, $hex, $radius in $orange {
   @include textColor(".hover\\:", ":hover", "", orange, $mode, $hex, $radius)
 }
+@each $mode, $hex, $radius in $orange {
+  @include textColor(".group:hover .group-hover\\:", "", "", orange, $mode, $hex, $radius)
+}
 /* focus */
 /* active */
 
