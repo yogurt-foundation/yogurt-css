@@ -2,17 +2,18 @@
   "name": "yogurt.css",
   "version": "1.0.0",
   "description": "A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "gulp": "gulp",
     "watch": "gulp watch",
     "build": "npm run gulp sass"
   },
   "keywords": [
-    "ui-framework",
-    "ui-toolkit",
-    "ui-utility",
-    "ui-low-level-utility"
+    "css-framework",
+    "css-library",
+    "css-utilites",
+    "css-ui",
+    "css-atomic-elements"
   ],
   "author": "Loouis Low <loouis@gmail.com>",
   "license": "MIT",
