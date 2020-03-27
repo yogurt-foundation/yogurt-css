@@ -24,7 +24,7 @@
 
 > Work in progress
 
-This toolkit allows me to manipulates the `font-size`, `padding`, `margin`, `line-height`, `color`, and so on, with analog or stepping utility control. I am more prefer atomized CSS selectors with added full-range of different settings for me to choose from so that I can less or even not to mess with the CSS.
+This toolkit allows to manipulates the humanized naming convention such as `font-size`, `padding`, `margin`, `line-height`, `color`, and so on, easy to reason about and more reable code. Deliver a balance between consistency and flexibility design. Play well with your CSS, library and frameworks. No side effects.
 
 ### _abstract
 
