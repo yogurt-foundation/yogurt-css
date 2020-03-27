@@ -11,6 +11,12 @@
   #{$prefix}#{$class}text-#{$modifier}#{$pseudo} {
     color: #{$value}#{$override}
   }
+  #{$prefix}#{$class}text-transparent#{$pseudo} {
+    color: transparent#{$override}
+  }
+  #{$prefix}#{$class}text-current#{$pseudo} {
+    color: currentColor#{$override}
+  }
 }
 
 @each $modifier, $value in $special-colors {
