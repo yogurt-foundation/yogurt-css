@@ -11,6 +11,12 @@
   #{$prefix}#{$class}bg-#{$modifier}#{$pseudo} {
     background-color: #{$value}#{$override}
   }
+  #{$prefix}#{$class}bg-transparent#{$pseudo} {
+    background-color: transparent#{$override}
+  }
+  #{$prefix}#{$class}bg-current#{$pseudo} {
+    background-color: currentColor#{$override}
+  }
 }
 
 @each $modifier, $value in $special-colors {
