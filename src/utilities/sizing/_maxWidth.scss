@@ -1,16 +1,14 @@
-/**
- * @module: _maxWidth.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin maxWidth($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}max-w-#{$modifier}#{$pseudo} {
-    max-width: #{$value}#{$override}
-  }
+@mixin maxWidth(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "max-w-", $modifier,
+    "max-width", $value#{$override}
+  )
+
 }
 
 /* standalone */
@@ -19,8 +17,12 @@
 /* active */
 
 @each $modifier, $value in $max-width {
+
   /* global */
-  @include maxWidth("", "", ".", $modifier, $value)
+  @include maxWidth(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -28,9 +30,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include maxWidth(".#{$screen}\\:", "", "", $modifier, $value)
+      @include maxWidth(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

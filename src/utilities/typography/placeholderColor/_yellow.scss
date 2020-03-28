@@ -1,21 +1,14 @@
-/**
- * @module: _yellow.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
-
 /* global */
 @each $mode, $hex, $radius in $yellow {
   @include placeholderColor("", "", ".", yellow, $mode, $hex, $radius)
 }
+
 /* hover */
 /* focus */
 @each $mode, $hex, $radius in $yellow {
   @include placeholderColor(".focus\\:", ":focus", "", yellow, $mode, $hex, $radius)
 }
+
 /* active */
 
 /* responsive */

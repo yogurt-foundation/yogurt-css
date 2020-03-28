@@ -1,17 +1,17 @@
-/**
- * @module: _objectPosition.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin objectPosition($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}object-#{$modifier}#{$pseudo} {
-    object-position: #{$value}#{$override}
-  }
+@mixin objectPosition(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "object-", $modifier,
+    "object-position", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,11 @@
 /* active */
 
 @each $modifier, $value in $object-position {
+
   /* global */
-  @include objectPosition("", "", ".", $modifier, $value)
+  @include objectPosition(
+    "", "", ".", $modifier, $value
+  )
   /* hover */
   /* focus */
   /* active */
@@ -28,9 +31,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include objectPosition(".#{$screen}\\:", "", "", $modifier, $value)
+      @include objectPosition(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

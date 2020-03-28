@@ -1,17 +1,17 @@
-/**
- * @module: _boxSizing.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin boxSizing($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}box-#{$modifier}#{$pseudo} {
-    box-sizing: #{$value}#{$override}
-  }
+@mixin boxSizing(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "box-", $modifier,
+    "box-sizing", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $box-sizing {
+
   /* global */
-  @include boxSizing("", "", ".", $modifier, $value)
+  @include boxSizing(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -28,9 +32,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include boxSizing(".#{$screen}\\:", "", "", $modifier, $value)
+      @include boxSizing(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

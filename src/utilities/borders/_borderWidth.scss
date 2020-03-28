@@ -1,48 +1,76 @@
-/**
- * @module: _borderWidth.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin borderWidth($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}border-#{$modifier}#{$pseudo} {
-    border-width: #{$value}#{$override}
-  }
-  #{$prefix}#{$class}border-t-#{$modifier}#{$pseudo} { // top
-    border-top-width: #{$value}#{$override}
-  }
-  #{$prefix}#{$class}border-b-#{$modifier}#{$pseudo} { // bottom
-    border-bottom-width: #{$value}#{$override}
-  }
-  #{$prefix}#{$class}border-l-#{$modifier}#{$pseudo} { // left
-    border-left-width: #{$value}#{$override}
-  }
-  #{$prefix}#{$class}border-r-#{$modifier}#{$pseudo} { // right
-    border-right-width: #{$value}#{$override}
-  }
+@mixin borderWidth(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "border-", $modifier,
+    "border-width", $value#{$override}
+  )
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "border-t-", $modifier,
+    "border-top-width", $value#{$override}
+  )
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "border-b-", $modifier,
+    "border-bottom-width", $value#{$override}
+  )
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "border-l-", $modifier,
+    "border-left-width", $value#{$override}
+  )
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "border-r-", $modifier,
+    "border-right-width", $value#{$override}
+  )
+
 }
 
-@mixin borderWidthDefault($prefix, $class, $pseudo) {
-  #{$prefix}#{$class}border#{$pseudo} {
-    border-width: 0.0625em#{$override}
-  }
+@mixin borderWidthDefault(
+  $prefix, $class, $pseudo) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "border", "",
+    "border-width", "0.0625em#{$override}"
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
-@include borderWidthDefault("", ".", "")
+@include borderWidthDefault(
+  "", ".", ""
+)
 /* hover */
 /* focus */
 /* active */
 
 @each $modifier, $value in $border-width {
+
   /* global */
-  @include borderWidth("", "", ".", $modifier, $value)
+  @include borderWidth(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
-  @include borderWidthDefault(".hover\\:", "", ":hover")
-  @include borderWidth(".hover\\:", ":hover", "", $modifier, $value)
+  @include borderWidthDefault(
+    ".hover\\:", "", ":hover"
+  )
+  @include borderWidth(
+    ".hover\\:", ":hover", "", $modifier, $value
+  )
+
   /* focus */
   /* active */
 

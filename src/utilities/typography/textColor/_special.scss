@@ -1,30 +1,35 @@
-/**
- * @module: _special.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+@mixin specialTextColor(
+  $prefix, $pseudo, $class, $modifier, $value) {
 
-@mixin specialTextColor($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}text-#{$modifier}#{$pseudo} {
     color: #{$value}#{$override}
   }
+
   #{$prefix}#{$class}text-transparent#{$pseudo} {
     color: transparent#{$override}
   }
+
   #{$prefix}#{$class}text-current#{$pseudo} {
     color: currentColor#{$override}
   }
+
 }
 
 @each $modifier, $value in $special-colors {
+
   /* global */
-  @include specialTextColor("", "", ".", $modifier, $value)
+  @include specialTextColor(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
-  @include specialTextColor(".hover\\:", ":hover", "", $modifier, $value)
-  @include specialTextColor(".group:hover .group-hover\\:", "", "", $modifier, $value)
+  @include specialTextColor(
+    ".hover\\:", ":hover", "", $modifier, $value
+  )
+  @include specialTextColor(
+    ".group:hover .group-hover\\:", "", "", $modifier, $value
+  )
+
   /* focus */
   /* active */
 

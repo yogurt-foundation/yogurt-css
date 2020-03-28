@@ -1,43 +1,58 @@
-/**
- * @module: _inset.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin inset($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}inset-#{$modifier}#{$pseudo} {
-    top: #{$value}#{$override};
-    right: #{$value}#{$override};
-    bottom: #{$value}#{$override};
-    left: #{$value}#{$override}
-  }
-  #{$prefix}#{$class}inset-x-#{$modifier}#{$pseudo} {
-    left: #{$value}#{$override};
-    right: #{$value}#{$override}
-  }
-  #{$prefix}#{$class}inset-y-#{$modifier}#{$pseudo} {
-    top: #{$value}#{$override};
-    bottom: #{$value}#{$override}
-  }
+@mixin inset(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleQuad(
+    $prefix, $pseudo, $class,
+    "inset-", $modifier,
+    "top", "bottom", "left", "right", $value#{$override}
+  )
+
+  @include setRuleDouble(
+    $prefix, $pseudo, $class,
+    "inset-x-", $modifier,
+    "left", "right", $value#{$override}
+  )
+
+  @include setRuleDouble(
+    $prefix, $pseudo, $class,
+    "inset-y-", $modifier,
+    "top", "bottom", $value#{$override}
+  )
+
 }
 
-@mixin insetTBLR($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}top-#{$modifier}#{$pseudo} {
-    top: #{$value}#{$override}
-  }
-  #{$prefix}#{$class}bottom-#{$modifier}#{$pseudo} {
-    bottom: #{$value}#{$override}
-  }
-  #{$prefix}#{$class}left-#{$modifier}#{$pseudo} {
-    left: #{$value}#{$override}
-  }
-  #{$prefix}#{$class}right-#{$modifier}#{$pseudo} {
-    right: #{$value}#{$override}
-  }
+@mixin insetTBLR(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "top-", $modifier,
+    "top", $value#{$override}
+  )
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "bottom-", $modifier,
+    "bottom", $value#{$override}
+  )
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "left-", $modifier,
+    "left", $value#{$override}
+  )
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "right-", $modifier,
+    "right", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -45,8 +60,12 @@
 /* active */
 
 @each $modifier, $value in $inset {
+
   /* global */
-  @include inset("", "", ".", $modifier, $value)
+  @include inset(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -54,9 +73,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include inset(".#{$screen}\\:", "", "", $modifier, $value)
+      @include inset(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */
@@ -65,8 +89,12 @@
 }
 
 @each $modifier, $value in $spacing {
+
   /* global */
-  @include insetTBLR("", "", ".", $modifier, $value)
+  @include insetTBLR(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -74,9 +102,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include insetTBLR(".#{$screen}\\:", "", "", $modifier, $value)
+      @include insetTBLR(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

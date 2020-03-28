@@ -1,32 +1,43 @@
-/**
- * @module: _flexShrink.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin flexShrink($prefix, $pseudo, $class) {
-  #{$prefix}#{$class}flex-shrink-0#{$pseudo} {
-    flex-grow: 0#{$override}
-  }
+@mixin flexShrink(
+  $prefix, $pseudo, $class) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "flex-shrink-0", "",
+    "flex-shrink", "0#{$override}"
+  )
+
 }
 
-@mixin flexShrinkDefault($prefix, $class) {
-  #{$prefix}#{$class}flex-shrink {
-    flex-shrink: 1#{$override}
-  }
+@mixin flexShrinkDefault(
+  $prefix, $class) {
+
+  @include setRuleSingle(
+    $prefix, "", $class,
+    "flex-shrink", "",
+    "flex-shrink", "1#{$override}"
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
-@include flexShrinkDefault("", ".")
+@include flexShrinkDefault(
+  "", "."
+)
+
 /* hover */
 /* focus */
 /* active */
 
 /* global */
-@include flexShrink("", "", ".")
+@include flexShrink(
+  "", "", "."
+)
+
 /* hover */
 /* focus */
 /* active */
@@ -34,10 +45,17 @@
 /* responsive */
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
+
     /* standalone */
-    @include flexShrinkDefault(".#{$screen}\\:", "")
+    @include flexShrinkDefault(
+      ".#{$screen}\\:", ""
+    )
+
     /* global */
-    @include flexShrink(".#{$screen}\\:", "", "")
+    @include flexShrink(
+      ".#{$screen}\\:", "", ""
+    )
+
     /* hover */
     /* focus */
     /* active */

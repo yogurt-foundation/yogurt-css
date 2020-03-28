@@ -1,17 +1,17 @@
-/**
- * @module: _borderStyle.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin borderStyle($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}border-#{$modifier}#{$pseudo} {
-    border-style: #{$value}#{$override}
-  }
+@mixin borderStyle(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "border-", $modifier,
+    "border-style", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $border-style {
+
   /* global */
-  @include borderStyle("", "", ".", $modifier, $value)
+  @include borderStyle(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -28,9 +32,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include borderStyle(".#{$screen}\\:", "", "", $modifier, $value)
+      @include borderStyle(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

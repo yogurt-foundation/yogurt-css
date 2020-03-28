@@ -1,17 +1,17 @@
-/**
- * @module: _whitespace.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin whitespace($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}whitespace-#{$modifier}#{$pseudo} {
-    white-space: #{$value}#{$override}
-  }
+@mixin whitespace(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "whitespace-", $modifier,
+    "white-space", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $whitespace {
+
   /* global */
-  @include whitespace("", "", ".", $modifier, $value)
+  @include whitespace(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -28,9 +32,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include whitespace(".#{$screen}\\:", "", "", $modifier, $value)
+      @include whitespace(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

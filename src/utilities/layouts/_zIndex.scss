@@ -1,17 +1,17 @@
-/**
- * @module: _zIndex.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin zIndex($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}z-#{$modifier}#{$pseudo} {
-    z-index: #{$value}#{$override}
-  }
+@mixin zIndex(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "z-", $modifier,
+    "z-index", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $z-index {
+
   /* global */
-  @include zIndex("", "", ".", $modifier, $value)
+  @include zIndex(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -28,9 +32,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include zIndex(".#{$screen}\\:", "", "", $modifier, $value)
+      @include zIndex(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

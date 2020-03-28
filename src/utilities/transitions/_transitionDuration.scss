@@ -1,17 +1,17 @@
-/**
- * @module: _transitionDuration.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin transitionDuration($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}duration-#{$modifier}#{$pseudo} {
-    transition-duration: #{$value}#{$override};
-  }
+@mixin transitionDuration(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "duration-", $modifier,
+    "transition-duration", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $transition-duration {
+
   /* global */
-  @include transitionDuration("", "", ".", $modifier, $value)
+  @include transitionDuration(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */

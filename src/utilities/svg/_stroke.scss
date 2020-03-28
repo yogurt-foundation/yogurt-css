@@ -1,17 +1,17 @@
-/**
- * @module: _stroke.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin stroke($prefix, $pseudo, $class) {
-  #{$prefix}#{$class}stroke-current#{$pseudo} {
-    stroke: currentColor#{$override}
-  }
+@mixin stroke(
+  $prefix, $pseudo, $class) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "stroke-current", "",
+    "stroke", "currentColor#{$override}"
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,7 +19,10 @@
 /* active */
 
 /* global */
-@include stroke("", "", ".")
+@include stroke(
+  "", "", "."
+)
+
 /* hover */
 /* focus */
 /* active */

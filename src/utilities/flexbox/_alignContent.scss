@@ -1,17 +1,17 @@
-/**
- * @module: _alignContent.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin alignContent($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}content-#{$modifier}#{$pseudo} {
-    align-content: #{$value}#{$override}
-  }
+@mixin alignContent(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "content-", $modifier,
+    "align-content", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $align-content {
+
   /* global */
-  @include alignContent("", "", ".", $modifier, $value)
+  @include alignContent(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -28,9 +32,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include alignContent(".#{$screen}\\:", "", "", $modifier, $value)
+      @include alignContent(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

@@ -1,17 +1,17 @@
-/**
- * @module: _backgroundAttachment.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin backgroundAttachment($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}bg-#{$modifier}#{$pseudo} {
-    background-attachment: #{$value}#{$override}
-  }
+@mixin backgroundAttachment(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "bg-", $modifier,
+    "background-attachment", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,21 +19,36 @@
 /* active */
 
 @each $modifier, $value in $background-attachment {
+
   /* global */
-  @include backgroundAttachment("", "", ".", $modifier, $value)
+  @include backgroundAttachment(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
-  @include backgroundAttachment(".hover\\:", ":hover", "", $modifier, $value)
+  @include backgroundAttachment(
+    ".hover\\:", ":hover", "", $modifier, $value
+  )
+
   /* focus */
   /* active */
 
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include backgroundAttachment(".#{$screen}\\:", "", "", $modifier, $value)
+      @include backgroundAttachment(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
-      @include backgroundAttachment(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      @include backgroundAttachment(
+        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value
+      )
+
       /* focus */
       /* active */
     }

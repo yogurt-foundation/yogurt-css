@@ -1,17 +1,17 @@
-/**
- * @module: _justifyContent.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin justifyContent($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}justify-#{$modifier}#{$pseudo} {
-    justify-content: #{$value}#{$override}
-  }
+@mixin justifyContent(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "justify-", $modifier,
+    "justify-content", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $justify-content {
+
   /* global */
-  @include justifyContent("", "", ".", $modifier, $value)
+  @include justifyContent(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -28,9 +32,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include justifyContent(".#{$screen}\\:", "", "", $modifier, $value)
+      @include justifyContent(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

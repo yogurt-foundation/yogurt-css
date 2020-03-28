@@ -1,20 +1,23 @@
-/**
- * @module: _translate.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin translate($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}translate-x-#{$modifier}#{$pseudo} {
-    --transform-translate-x: #{$value}#{$override};
-  }
-  #{$prefix}#{$class}translate-y-#{$modifier}#{$pseudo} {
-    --transform-translate-y: #{$value}#{$override};
-  }
+@mixin translate(
+  $prefix, $pseudo, $class, $modifier, $value, $negative) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "#{$negative}translate-x-", $modifier,
+    "--transform-translate-x", #{$negative}#{$value}#{$override}
+  )
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "#{$negative}translate-y-", $modifier,
+    "--transform-translate-y", #{$negative}#{$value}#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -22,25 +25,48 @@
 /* active */
 
 @each $modifier, $value in $translate {
+
   /* global */
-  @include translate("", "", ".", $modifier, $value)
-  @include translate("", "", ".-", $modifier, "-0#{$value}") // negative
+  @include translate(
+    "", "", ".", $modifier, $value, ""
+  )
+  @include translate(
+    "", "", ".", $modifier, $value, "-"
+  ) // negative
+
   /* hover */
-  @include translate(".hover\\:", ":hover", "", $modifier, $value)
-  @include translate(".hover\\:", ":hover", "-", $modifier, "-0#{$value}") // negative
+  @include translate(
+    ".hover\\:", ":hover", "", $modifier, $value, ""
+  )
+  @include translate(
+    ".hover\\:", ":hover", "", $modifier, $value, "-"
+  ) // negative
+
   /* focus */
   /* active */
 
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include translate(".#{$screen}\\:", "", "", $modifier, $value)
-      @include translate(".#{$screen}\\:", "", "-", $modifier, "-0#{$value}") // negative
+      @include translate(
+        ".#{$screen}\\:", "", "", $modifier, $value, ""
+      )
+      @include translate(
+        ".#{$screen}\\:", "", "", $modifier, $value, "-"
+      ) // negative
+
       /* hover */
-      @include translate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-      @include translate(".#{$screen}\\:hover\\:", ":hover", "-", $modifier, "-0#{$value}") // negative
+      @include translate(
+        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, ""
+      )
+      @include translate(
+        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-"
+      ) // negative
+
       /* focus */
       /* active */
     }

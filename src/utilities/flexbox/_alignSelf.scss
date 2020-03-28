@@ -1,17 +1,17 @@
-/**
- * @module: _alignSelf.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin alignSelf($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}self-#{$modifier}#{$pseudo} {
-    align-self: #{$value}#{$override}
-  }
+@mixin alignSelf(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "self-", $modifier,
+    "align-self", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $align-self {
+
   /* global */
-  @include alignSelf("", "", ".", $modifier, $value)
+  @include alignSelf(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -28,9 +32,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include alignSelf(".#{$screen}\\:", "", "", $modifier, $value)
+      @include alignSelf(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

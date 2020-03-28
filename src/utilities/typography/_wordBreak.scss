@@ -1,28 +1,27 @@
-/**
- * @module: _wordBreak.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin wordBreak($prefix, $pseudo, $class) {
+@mixin wordBreak(
+  $prefix, $pseudo, $class) {
+
   #{$prefix}#{$class}break-normal#{$pseudo} {
     overflow-wrap: normal#{$override};
     word-break: normal#{$override}
   }
+
   #{$prefix}#{$class}break-words#{$pseudo} {
     overflow-wrap: break-word#{$override}
   }
+
   #{$prefix}#{$class}break-all#{$pseudo} {
     word-break: all#{$override}
   }
+
   #{$prefix}#{$class}truncate#{$pseudo} {
     overflow: hidden#{$override};
     text-overflow: ellipsis#{$override};
     white-space: nowrap#{$override}
   }
+
 }
 
 /* standalone */
@@ -30,22 +29,28 @@
 /* focus */
 /* active */
 
-@each $modifier, $value in $width {
-  /* global */
-  @include wordBreak("", "", ".")
-  /* hover */
-  /* focus */
-  /* active */
+/* global */
+@include wordBreak(
+  "", "", "."
+)
 
-  /* responsive */
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
-      /* standalone */
-      /* global */
-      @include wordBreak(".#{$screen}\\:", "", "")
-      /* hover */
-      /* focus */
-      /* active */
-    }
+/* hover */
+/* focus */
+/* active */
+
+/* responsive */
+@each $screen, $size in $screens {
+  @media (min-width: #{$size}) {
+
+    /* standalone */
+
+    /* global */
+    @include wordBreak(
+      ".#{$screen}\\:", "", ""
+    )
+
+    /* hover */
+    /* focus */
+    /* active */
   }
 }

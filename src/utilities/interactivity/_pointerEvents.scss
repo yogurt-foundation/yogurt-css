@@ -1,17 +1,17 @@
-/**
- * @module: _pointerEvents.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin pointerEvents($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}pointer-events-#{$modifier}#{$pseudo} {
-    pointer-events: #{$value}#{$override}
-  }
+@mixin pointerEvents(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "pointer-events-", $modifier,
+    "pointer-events", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $pointer-events {
+
   /* global */
-  @include pointerEvents("", "", ".", $modifier, $value)
+  @include pointerEvents(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -28,9 +32,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include pointerEvents(".#{$screen}\\:", "", "", $modifier, $value)
+      @include pointerEvents(
+      ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

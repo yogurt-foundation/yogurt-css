@@ -1,17 +1,17 @@
-/**
- * @module: _alignItems.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin alignItems($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}items-#{$modifier}#{$pseudo} {
-    align-items: #{$value}#{$override}
-  }
+@mixin alignItems(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "items-", $modifier,
+    "align-items", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $align-items {
+
   /* global */
-  @include alignItems("", "", ".", $modifier, $value)
+  @include alignItems(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -28,9 +32,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include alignItems(".#{$screen}\\:", "", "", $modifier, $value)
+      @include alignItems(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

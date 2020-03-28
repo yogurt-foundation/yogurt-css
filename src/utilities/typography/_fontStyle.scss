@@ -1,20 +1,18 @@
-/**
- * @module: _fontStyle.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin fontStyle($prefix, $class) {
+@mixin fontStyle(
+  $prefix, $class) {
+
   #{$prefix}#{$class}italic {
     font-style: italic#{$override};
   }
   #{$prefix}#{$class}not-italic {
     font-style: normal#{$override};
   }
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -22,7 +20,10 @@
 /* active */
 
 /* global */
-@include fontStyle("", ".")
+@include fontStyle(
+  "", "."
+)
+
 /* hover */
 /* focus */
 /* active */
@@ -30,9 +31,14 @@
 /* responsive */
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
+
     /* standalone */
+
     /* global */
-    @include fontStyle(".#{$screen}\\:", "")
+    @include fontStyle(
+      ".#{$screen}\\:", ""
+    )
+
     /* hover */
     /* focus */
     /* active */

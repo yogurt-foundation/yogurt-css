@@ -1,24 +1,29 @@
-/**
- * @module: _scale.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin scale($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}scale-#{$modifier}#{$pseudo} {
-    --transform-scale-x: #{$value}#{$override};
-    --transform-scale-y: #{$value}#{$override}
-  }
-  #{$prefix}#{$class}scale-x-#{$modifier}#{$pseudo} {
-    --transform-scale-x: #{$value}#{$override};
-  }
-  #{$prefix}#{$class}scale-y-#{$modifier}#{$pseudo} {
-    --transform-scale-x: #{$value}#{$override};
-  }
+@mixin scale(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleDouble(
+    $prefix, $pseudo, $class,
+    "scale-", $modifier,
+    "--transform-scale-x", "--transform-scale-y", $value#{$override}
+  )
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "scale-x-", $modifier,
+    "--transform-scale-x", $value#{$override}
+  )
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "scale-y-", $modifier,
+    "--transform-scale-y", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -26,21 +31,36 @@
 /* active */
 
 @each $modifier, $value in $scale {
+
   /* global */
-  @include scale("", "", ".", $modifier, $value)
+  @include scale(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
-  @include scale(".hover\\:", ":hover", "", $modifier, $value)
+  @include scale(
+    ".hover\\:", ":hover", "", $modifier, $value
+  )
+
   /* focus */
   /* active */
 
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include scale(".#{$screen}\\:", "", "", $modifier, $value)
+      @include scale(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
-      @include scale(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      @include scale(
+        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value
+      )
+
       /* focus */
       /* active */
     }

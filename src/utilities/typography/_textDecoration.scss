@@ -1,23 +1,23 @@
-/**
- * @module: _textDecoration.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin textDecoration($prefix, $pseudo, $class) {
+@mixin textDecoration(
+  $prefix, $pseudo, $class) {
+
   #{$prefix}#{$class}underline#{$pseudo} {
     text-decoration: underline#{$override}
   }
+
   #{$prefix}#{$class}line-through#{$pseudo} {
     text-decoration: line-through#{$override}
   }
+
   #{$prefix}#{$class}no-underline#{$pseudo} {
     text-decoration: none#{$override}
   }
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -25,23 +25,43 @@
 /* active */
 
 /* global */
-@include textDecoration("", "", ".")
+@include textDecoration(
+  "", "", "."
+)
+
 /* hover */
-@include textDecoration(".hover\\:", ":hover", "")
+@include textDecoration(
+  ".hover\\:", ":hover", ""
+)
+
 /* focus */
-@include textDecoration(".focus\\:", ":focus", "")
+@include textDecoration(
+  ".focus\\:", ":focus", ""
+)
+
 /* active */
 
 /* responsive */
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
+
     /* standalone */
+
     /* global */
-    @include textDecoration(".#{$screen}\\:", "", "")
+    @include textDecoration(
+      ".#{$screen}\\:", "", ""
+    )
+
     /* hover */
-    @include textDecoration(".#{$screen}\\:hover\\:", ":hover", "")
+    @include textDecoration(
+      ".#{$screen}\\:hover\\:", ":hover", ""
+    )
+
     /* focus */
-    @include textDecoration(".#{$screen}\\:focus\\:", ":focus", "")
+    @include textDecoration(
+      ".#{$screen}\\:focus\\:", ":focus", ""
+    )
+
     /* active */
   }
 }

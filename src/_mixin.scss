@@ -7,6 +7,30 @@
  * @license: MIT
  */
 
+/* rules */
+
+@mixin setRuleSingle($prefix, $pseudo, $class, $selector, $modifier, $property, $value) {
+  #{$prefix}#{$class}#{$selector}#{$modifier}#{$pseudo} {
+    #{$property}: #{$value}
+  }
+}
+
+@mixin setRuleDouble($prefix, $pseudo, $class, $selector, $modifier, $property1, $property2, $value) {
+  #{$prefix}#{$class}#{$selector}#{$modifier}#{$pseudo} {
+    #{$property1}: #{$value};
+    #{$property2}: #{$value}
+  }
+}
+
+@mixin setRuleQuad($prefix, $pseudo, $class, $selector, $modifier, $property1, $property2, $property3, $property4, $value) {
+  #{$prefix}#{$class}#{$selector}#{$modifier}#{$pseudo} {
+    #{$property1}: #{$value};
+    #{$property2}: #{$value};
+    #{$property3}: #{$value};
+    #{$property4}: #{$value}
+  }
+}
+
 /* colors */
 
 @mixin textColor($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {

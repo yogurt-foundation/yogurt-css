@@ -1,23 +1,22 @@
-/**
- * @module: _purple.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
-
 /* global */
 @each $mode, $hex, $radius in $purple {
-  @include textColor("", "", ".", purple, $mode, $hex, $radius)
+  @include textColor(
+    "", "", ".", purple, $mode, $hex, $radius
+  )
 }
+
 /* hover */
 @each $mode, $hex, $radius in $purple {
-  @include textColor(".hover\\:", ":hover", "", purple, $mode, $hex, $radius)
+  @include textColor(
+    ".hover\\:", ":hover", "", purple, $mode, $hex, $radius
+  )
 }
 @each $mode, $hex, $radius in $purple {
-  @include textColor(".group:hover .group-hover\\:", "", "", purple, $mode, $hex, $radius)
+  @include textColor(
+    ".group:hover .group-hover\\:", "", "", purple, $mode, $hex, $radius
+  )
 }
+
 /* focus */
 /* active */
 

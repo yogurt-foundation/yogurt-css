@@ -1,32 +1,42 @@
-/**
- * @module: _flexGrow.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin flexGrow($prefix, $pseudo, $class) {
-  #{$prefix}#{$class}flex-grow-0#{$pseudo} {
-    flex-grow: 0#{$override}
-  }
+@mixin flexGrow(
+  $prefix, $pseudo, $class) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "flex-grow-0", "",
+    "flex-grow", "0#{$override}"
+  )
+
 }
 
 @mixin flexGrowDefault($prefix, $class) {
-  #{$prefix}#{$class}flex-grow {
-    flex-grow: 1#{$override}
-  }
+
+  @include setRuleSingle(
+    $prefix, "", $class,
+    "flex-grow", "",
+    "flex-grow", "1#{$override}"
+  )
+
 }
 
+///// variants /////
+
 /* standalone */
-@include flexGrowDefault("", ".")
+@include flexGrowDefault(
+  "", "."
+)
+
 /* hover */
 /* focus */
 /* active */
 
 /* global */
-@include flexGrow("", "", ".")
+@include flexGrow(
+  "", "", "."
+)
+
 /* hover */
 /* focus */
 /* active */
@@ -34,10 +44,17 @@
 /* responsive */
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
+
     /* standalone */
-    @include flexGrowDefault(".#{$screen}\\:", "")
+    @include flexGrowDefault(
+      ".#{$screen}\\:", ""
+    )
+
     /* global */
-    @include flexGrow(".#{$screen}\\:", "", "")
+    @include flexGrow(
+      ".#{$screen}\\:", "", ""
+    )
+
     /* hover */
     /* focus */
     /* active */

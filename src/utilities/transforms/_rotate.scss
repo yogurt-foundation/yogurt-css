@@ -1,20 +1,17 @@
-/**
- * @module: _rotate.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin rotate($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}rotate-#{$modifier}#{$pseudo} {
-    --transform-rotate: #{$value}#{$override};
-  }
-  #{$prefix}#{$class}-rotate-#{$modifier}#{$pseudo} { // negative
-    --transform-rotate: -#{$value}#{$override};
-  }
+@mixin rotate(
+  $prefix, $pseudo, $class, $modifier, $value, $negative) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "#{$negative}rotate-", $modifier,
+    "--transform-rotate", #{$negative}$value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -22,21 +19,48 @@
 /* active */
 
 @each $modifier, $value in $rotate {
+
   /* global */
-  @include rotate("", "", ".", $modifier, $value)
+  @include rotate(
+    "", "", ".", $modifier, $value, ""
+  )
+  @include rotate(
+    "", "", ".", $modifier, $value, "-"
+  ) // negative
+
   /* hover */
-  @include rotate(".hover\\:", ":hover", "", $modifier, $value)
+  @include rotate(
+    ".hover\\:", ":hover", "", $modifier, $value, ""
+  )
+  @include rotate(
+    ".hover\\:", ":hover", "", $modifier, $value, "-"
+  ) // negative
+
   /* focus */
   /* active */
 
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include rotate(".#{$screen}\\:", "", "", $modifier, $value)
+      @include rotate(
+        ".#{$screen}\\:", "", "", $modifier, $value, ""
+      )
+      @include rotate(
+        ".#{$screen}\\:", "", "", $modifier, $value, "-"
+      ) // negative
+
       /* hover */
-      @include rotate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      @include rotate(
+        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, ""
+      )
+      @include rotate(
+        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-"
+      ) // negative
+
       /* focus */
       /* active */
     }

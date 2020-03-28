@@ -1,20 +1,22 @@
-/**
- * @module: _teal.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
-
 /* global */
 @each $mode, $hex, $radius in $teal {
-  @include borderColor("", "", ".", teal, $mode, $hex, $radius)
+  @include borderColor(
+    "", "", ".", teal, $mode, $hex, $radius
+  )
 }
+
 /* hover */
 @each $mode, $hex, $radius in $teal {
-  @include borderColor(".hover\\:", ":hover", "", teal, $mode, $hex, $radius)
+  @include borderColor(
+    ".hover\\:", ":hover", "", teal, $mode, $hex, $radius
+  )
 }
+@each $mode, $hex, $radius in $teal {
+  @include borderColor(
+    ".group:hover .group-hover\\:", "", "", teal, $mode, $hex, $radius
+  )
+}
+
 /* focus */
 /* active */
 

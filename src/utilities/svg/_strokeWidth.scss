@@ -1,17 +1,17 @@
-/**
- * @module: _strokeWidth.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin strokeWidth($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}stroke-#{$modifier}#{$pseudo} {
-    stroke-width: #{$value}#{$override}
-  }
+@mixin strokeWidth(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "stroke-", $modifier,
+    "stroke-width", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $stroke-width {
+
   /* global */
-  @include strokeWidth("", "", ".", $modifier, $value)
+  @include strokeWidth(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */

@@ -1,17 +1,16 @@
-/**
- * @module: _userSelect.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin userSelect($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}select-#{$modifier}#{$pseudo} {
-    user-select: #{$value}#{$override}
-  }
+@mixin userSelect(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "select-", $modifier,
+    "user-select", $value#{$override}
+  )
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +18,12 @@
 /* active */
 
 @each $modifier, $value in $user-select {
+
   /* global */
-  @include userSelect("", "", ".", $modifier, $value)
+  @include userSelect(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -28,9 +31,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include userSelect(".#{$screen}\\:", "", "", $modifier, $value)
+      @include userSelect(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

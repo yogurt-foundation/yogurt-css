@@ -1,20 +1,22 @@
-/**
- * @module: _orange.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
-
 /* global */
 @each $mode, $hex, $radius in $orange {
-  @include borderColor("", "", ".", orange, $mode, $hex, $radius)
+  @include borderColor(
+    "", "", ".", orange, $mode, $hex, $radius
+  )
 }
+
 /* hover */
 @each $mode, $hex, $radius in $orange {
-  @include borderColor(".hover\\:", ":hover", "", orange, $mode, $hex, $radius)
+  @include borderColor(
+    ".hover\\:", ":hover", "", orange, $mode, $hex, $radius
+  )
 }
+@each $mode, $hex, $radius in $orange {
+  @include borderColor(
+    ".group:hover .group-hover\\:", "", "", orange, $mode, $hex, $radius
+  )
+}
+
 /* focus */
 /* active */
 

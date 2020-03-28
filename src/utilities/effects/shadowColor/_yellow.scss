@@ -1,30 +1,27 @@
-/**
- * @module: _yellow.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+/* global */
+@each $mode, $hex, $radius in $yellow {
+  @include shadowColor(
+    "", "", ".", yellow, $mode, $hex, $radius
+  )
+}
 
-  /* global */
-  @each $mode, $hex, $radius in $yellow {
-    @include shadowColor("", "", ".", yellow, $mode, $hex, $radius)
-  }
-  /* hover */
-  @each $mode, $hex, $radius in $yellow {
-    @include shadowColor(".hover\\:", ":hover", "", yellow, $mode, $hex, $radius)
-  }
-  /* focus */
-  /* active */
+/* hover */
+@each $mode, $hex, $radius in $yellow {
+  @include shadowColor(
+    ".hover\\:", ":hover", "", yellow, $mode, $hex, $radius
+  )
+}
 
-  /* responsive */
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
-      /* standalone */
-      /* global */
-      /* hover */
-      /* focus */
-      /* active */
-    }
+/* focus */
+/* active */
+
+/* responsive */
+@each $screen, $size in $screens {
+  @media (min-width: #{$size}) {
+    /* standalone */
+    /* global */
+    /* hover */
+    /* focus */
+    /* active */
   }
+}

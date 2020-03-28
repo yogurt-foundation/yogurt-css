@@ -1,17 +1,17 @@
-/**
- * @module: _transitionProperty.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin transitionProperty($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}#{$modifier}#{$pseudo} {
-    transition-property: #{$value}#{$override};
-  }
+@mixin transitionProperty(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "", $modifier,
+    "transition-property", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $transition-property {
+
   /* global */
-  @include transitionProperty("", "", ".", $modifier, $value)
+  @include transitionProperty(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */

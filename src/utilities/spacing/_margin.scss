@@ -1,37 +1,53 @@
-/**
- * @module: _margin.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin margin($prefix, $pseudo, $class, $modifier, $value, $negative) {
-  #{$prefix}#{$class}#{$negative}m-#{$modifier}#{$pseudo}{
-    margin: #{$negative}#{$value}#{$override};
-  }
-  #{$prefix}#{$class}#{$negative}mx-#{$modifier}#{$pseudo}{ // mx
-    margin-left: #{$negative}#{$value}#{$override};
-    margin-right: #{$negative}#{$value}#{$override}
-  }
-  #{$prefix}#{$class}#{$negative}my-#{$modifier}#{$pseudo}{ // my
-    margin-top: #{$negative}#{$value}#{$override};
-    margin-bottom: #{$negative}#{$value}#{$override}
-  }
-  #{$prefix}#{$class}#{$negative}mt-#{$modifier}#{$pseudo}{ // mt
-    margin-top: #{$negative}#{$value}#{$override}
-  }
-  #{$prefix}#{$class}#{$negative}mb-#{$modifier}#{$pseudo}{ // mb
-    margin-bottom: #{$negative}#{$value}#{$override}
-  }
-  #{$prefix}#{$class}#{$negative}ml-#{$modifier}#{$pseudo}{ // ml
-    margin-left: #{$negative}#{$value}#{$override}
-  }
-  #{$prefix}#{$class}#{$negative}mr-#{$modifier}#{$pseudo}{ // mr
-    margin-right: #{$negative}#{$value}#{$override}
-  }
+@mixin margin(
+  $prefix, $pseudo, $class, $modifier, $value, $negative) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "#{$negative}m-", $modifier,
+    "margin", #{$negative}$value#{$override}
+  )
+
+  @include setRuleDouble(
+    $prefix, $pseudo, $class,
+    "#{$negative}mx-", $modifier,
+    "margin-left", "margin-right", #{$negative}$value#{$override}
+  )
+
+  @include setRuleDouble(
+    $prefix, $pseudo, $class,
+    "#{$negative}my-", $modifier,
+    "margin-top", "margin-bottom", #{$negative}$value#{$override}
+  )
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "#{$negative}mt-", $modifier,
+    "margin-top", #{$negative}$value#{$override}
+  )
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "#{$negative}mb-", $modifier,
+    "margin-bottom", #{$negative}$value#{$override}
+  )
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "#{$negative}ml-", $modifier,
+    "margin-left", #{$negative}$value#{$override}
+  )
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "#{$negative}mr-", $modifier,
+    "margin-right", #{$negative}$value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -39,9 +55,15 @@
 /* active */
 
 @each $modifier, $value in $spacing {
+
   /* global */
-  @include margin("", "", ".", $modifier, $value, "")
-  @include margin("", "", ".", $modifier, $value, "-") // negative
+  @include margin(
+    "", "", ".", $modifier, $value, ""
+  )
+  @include margin(
+    "", "", ".", $modifier, $value, "-"
+  ) // negative
+
   /* hover */
   /* focus */
   /* active */
@@ -49,10 +71,17 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include margin(".#{$screen}\\:", "", "", $modifier, $value, "")
-      @include margin(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
+      @include margin(
+        ".#{$screen}\\:", "", "", $modifier, $value, ""
+      )
+      @include margin(
+        ".#{$screen}\\:", "", "", $modifier, $value, "-"
+      ) // negative
+
       /* hover */
       /* focus */
       /* active */

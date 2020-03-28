@@ -1,17 +1,17 @@
-/**
- * @module: _lineHeight.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin lineHeight($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}depth-#{$modifier}#{$pseudo} {
-    line-height: #{$value}#{$override}
-  }
+@mixin lineHeight(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "depth-", $modifier,
+    "line-height", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $line-height {
+
   /* global */
-  @include lineHeight("", "", ".", $modifier, $value)
+  @include lineHeight(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -28,9 +32,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include lineHeight(".#{$screen}\\:", "", "", $modifier, $value)
+      @include lineHeight(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

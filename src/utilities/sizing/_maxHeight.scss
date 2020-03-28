@@ -1,17 +1,17 @@
-/**
- * @module: _maxHeight.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin maxHeight($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}max-h-#{$modifier}#{$pseudo} {
-    max-height: #{$value}#{$override}
-  }
+@mixin maxHeight(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "max-h-", $modifier,
+    "max-height", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $max-height {
+
   /* global */
-  @include maxHeight("", "", ".", $modifier, $value)
+  @include maxHeight(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -28,9 +32,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include maxHeight(".#{$screen}\\:", "", "", $modifier, $value)
+      @include maxHeight(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

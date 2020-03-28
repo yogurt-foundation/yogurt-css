@@ -1,17 +1,17 @@
-/**
- * @module: _backgroundSize.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin backgroundSize($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}bg-#{$modifier}#{$pseudo} {
-    background-size: #{$value}#{$override}
-  }
+@mixin backgroundSize(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "bg-", $modifier,
+    "background-size", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $background-size {
+
   /* global */
-  @include backgroundSize("", "", ".", $modifier, $value)
+  @include backgroundSize(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -28,9 +32,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include backgroundSize(".#{$screen}\\:", "", "", $modifier, $value)
+      @include backgroundSize(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

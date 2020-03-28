@@ -1,38 +1,58 @@
-/**
- * @module: _overflow.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin overflow($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}overflow-#{$modifier}#{$pseudo} {
-    overflow: #{$value}#{$override}
-  }
+@mixin overflow(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "overflow-", $modifier,
+    "overflow", $value#{$override}
+  )
+
 }
 
-@mixin overflow-xy($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}overflow-x-#{$modifier}#{$pseudo} {
-    overflow-x: #{$value}#{$override}
-  }
-  #{$prefix}#{$class}overflow-y-#{$modifier}#{$pseudo} {
-    overflow-y: #{$value}#{$override}
-  }
+@mixin overflow-xy(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "overflow-x-", $modifier,
+    "overflow-x", $value#{$override}
+  )
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "overflow-y-", $modifier,
+    "overflow-y", $value#{$override}
+  )
+
 }
 
-@mixin overflow-scrolling($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}scrolling-#{$modifier}#{$pseudo} {
-    -webkit-overflow-scrolling: #{$value}#{$override}
-  }
+@mixin overflow-scrolling(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "scrolling-", $modifier,
+    "-webkit-overflow-scrolling", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
+/* hover */
+/* focus */
+/* active */
 
 @each $modifier, $value in $overflow {
+
   /* global */
-  @include overflow("", "", ".", $modifier, $value)
+  @include overflow(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -40,9 +60,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include overflow(".#{$screen}\\:", "", "", $modifier, $value)
+      @include overflow(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */
@@ -56,8 +81,12 @@
 /* active */
 
 @each $modifier, $value in $overflow-xy {
+
   /* global */
-  @include overflow-xy("", "", ".", $modifier, $value)
+  @include overflow-xy(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -65,9 +94,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include overflow-xy(".#{$screen}\\:", "", "", $modifier, $value)
+      @include overflow-xy(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */
@@ -76,10 +110,17 @@
 }
 
 /* standalone */
+/* hover */
+/* focus */
+/* active */
 
 @each $modifier, $value in $overflow-scrolling {
+
   /* global */
-  @include overflow-scrolling("", "", ".", $modifier, $value)
+  @include overflow-scrolling(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -87,9 +128,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include overflow-scrolling(".#{$screen}\\:", "", "", $modifier, $value)
+      @include overflow-scrolling(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

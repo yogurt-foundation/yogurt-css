@@ -1,17 +1,17 @@
-/**
- * @module: _flexDirection.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin flexDirection($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}flex-#{$modifier}#{$pseudo} {
-    flex-direction: #{$value}#{$override}
-  }
+@mixin flexDirection(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "flex-", $modifier,
+    "flex-direction", $value#{$override}
+  )
+
 }
+
+///// rules /////
 
 /* standalone */
 /* hover */
@@ -19,21 +19,36 @@
 /* active */
 
 @each $modifier, $value in $flex-direction {
+
   /* global */
-  @include flexDirection("", "", ".", $modifier, $value)
+  @include flexDirection(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
-  @include flexDirection(".hover\\:", ":hover", "", $modifier, $value)
+  @include flexDirection(
+    ".hover\\:", ":hover", "", $modifier, $value
+  )
+
   /* focus */
   /* active */
 
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include flexDirection(".#{$screen}\\:", "", "", $modifier, $value)
+      @include flexDirection(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
-      @include flexDirection(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      @include flexDirection(
+        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value
+      )
+
       /* focus */
       /* active */
     }

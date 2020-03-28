@@ -1,26 +1,33 @@
-/**
- * @module: _container.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin container($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}container#{$modifier}#{$pseudo} {
-    max-width: #{$value}#{$override}
-  }
+@mixin container(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "container", $modifier,
+    "max-width", $value#{$override}
+  )
+
 }
 
-@mixin containerDefault($prefix, $class) {
-  #{$prefix}#{$class}container {
-    width: 100%#{$override}
-  }
+@mixin containerDefault(
+  $prefix, $class) {
+
+  @include setRuleSingle(
+    $prefix, "", $class,
+    "container", "",
+    "max-width", "100%#{$override}"
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
-@include containerDefault("", ".")
+@include containerDefault(
+  "", "."
+)
 /* hover */
 /* focus */
 /* active */
@@ -28,10 +35,17 @@
 /* responsive */
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
+
     /* standalone */
-    @include containerDefault(".#{$screen}\\:", "")
+    @include containerDefault(
+      ".#{$screen}\\:", ""
+    )
+
     /* global */
-    @include container(".#{$screen}\\:", "", "", "", $size)
+    @include container(
+      ".#{$screen}\\:", "", "", "", $size
+    )
+
     /* hover */
     /* focus */
     /* active */

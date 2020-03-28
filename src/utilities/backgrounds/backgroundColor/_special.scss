@@ -1,13 +1,6 @@
-/**
- * @module: _special.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+@mixin specialBackgroundColor(
+  $prefix, $pseudo, $class, $modifier, $value) {
 
-@mixin specialBackgroundColor($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}bg-#{$modifier}#{$pseudo} {
     background-color: #{$value}#{$override}
   }
@@ -17,13 +10,21 @@
   #{$prefix}#{$class}bg-current#{$pseudo} {
     background-color: currentColor#{$override}
   }
+
 }
 
 @each $modifier, $value in $special-colors {
+
   /* global */
-  @include specialBackgroundColor("", "", ".", $modifier, $value)
+  @include specialBackgroundColor(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
-  @include specialBackgroundColor(".hover\\:", ":hover", "", $modifier, $value)
+  @include specialBackgroundColor(
+    ".hover\\:", ":hover", "", $modifier, $value
+  )
+
   /* focus */
   /* active */
 

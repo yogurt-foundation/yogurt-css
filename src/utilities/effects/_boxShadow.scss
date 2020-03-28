@@ -1,39 +1,60 @@
-/**
- * @module: _boxShadow.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin boxShadow($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}shadow-#{$modifier}#{$pseudo} {
-    box-shadow: #{$value}#{$override}
-  }
+@mixin boxShadow(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "shadow-", $modifier,
+    "box-shadow", $value#{$override}
+  )
+
 }
 
-@mixin boxShadowDefault($prefix, $class, $pseudo) {
-  #{$prefix}#{$class}shadow#{$pseudo} {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)#{$override}
-  }
+@mixin boxShadowDefault(
+  $prefix, $class, $pseudo) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "shadow", "",
+    "box-shadow", "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)#{$override}"
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
-@include boxShadowDefault("", ".", "")
+@include boxShadowDefault(
+  "", ".", ""
+)
 /* hover */
 /* focus */
 /* active */
 
 @each $modifier, $value in $box-shadow {
+
   /* global */
-  @include boxShadow("", "", ".", $modifier, $value)
+  @include boxShadow(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
-  @include boxShadowDefault(".hover\\:", "", ":hover")
-  @include boxShadow(".hover\\:", ":hover", "", $modifier, $value)
+  @include boxShadowDefault(
+    ".hover\\:", "", ":hover"
+  )
+  @include boxShadow(
+    ".hover\\:", ":hover", "", $modifier, $value
+  )
+
   /* focus */
-  @include boxShadowDefault(".focus\\:", "", ":focus")
-  @include boxShadow(".focus\\:", ":focus", "", $modifier, $value)
+  @include boxShadowDefault(
+    ".focus\\:", "", ":focus"
+  )
+  @include boxShadow(
+    ".focus\\:", ":focus", "", $modifier, $value
+  )
+
   /* active */
 
   /* responsive */

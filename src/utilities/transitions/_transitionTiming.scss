@@ -1,17 +1,17 @@
-/**
- * @module: _transitionTiming.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin transitionTiming($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}ease-#{$modifier}#{$pseudo} {
-    transition-timing-function: #{$value}#{$override};
-  }
+@mixin transitionTiming(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "ease-", $modifier,
+    "transition-timing-function", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $transition-timing {
+
   /* global */
-  @include transitionTiming("", "", ".", $modifier, $value)
+  @include transitionTiming(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */

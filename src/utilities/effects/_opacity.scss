@@ -1,17 +1,17 @@
-/**
- * @module: _opacity.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin opacity($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}opacity-#{$modifier}#{$pseudo} {
-    opacity: #{$value}#{$override}
-  }
+@mixin opacity(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "opacity-", $modifier,
+    "opacity", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,21 +19,36 @@
 /* active */
 
 @each $modifier, $value in $opacity {
+
   /* global */
-  @include opacity("", "", ".", $modifier, $value)
+  @include opacity(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
-  @include opacity(".hover\\:", ":hover", "", $modifier, $value)
+  @include opacity(
+    ".hover\\:", ":hover", "", $modifier, $value
+  )
+
   /* focus */
   /* active */
 
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include opacity(".#{$screen}\\:", "", "", $modifier, $value)
+      @include opacity(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
-      @include opacity(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      @include opacity(
+        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value
+      )
+
       /* focus */
       /* active */
     }

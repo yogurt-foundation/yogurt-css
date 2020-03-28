@@ -1,17 +1,17 @@
-/**
- * @module: _outline.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin outline($prefix, $pseudo, $class) {
-  #{$prefix}#{$class}outline-none#{$pseudo} {
-    outline: 0#{$override}
-  }
+@mixin outline(
+  $prefix, $pseudo, $class) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "outline-none", "",
+    "outline", "0#{$override}"
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,21 +19,36 @@
 /* active */
 
 /* global */
-@include outline("", "", ".")
+@include outline(
+  "", "", "."
+)
+
 /* hover */
+
 /* focus */
-@include outline(".focus\\:", ":focus", "")
+@include outline(
+  ".focus\\:", ":focus", ""
+)
+
 /* active */
 
 /* responsive */
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
+
     /* standalone */
+
     /* global */
-    @include outline(".#{$screen}\\:", "", "")
+    @include outline(
+      ".#{$screen}\\:", "", ""
+    )
+
     /* hover */
     /* focus */
-    @include outline(".#{$screen}\\:focus\\:", ":focus", "")
+    @include outline(
+      ".#{$screen}\\:focus\\:", ":focus", ""
+    )
+
     /* active */
   }
 }

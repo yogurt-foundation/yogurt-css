@@ -1,17 +1,17 @@
-/**
- * @module: _objectFit.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin objectFit($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}object-#{$modifier}#{$pseudo} {
-    object-fit: #{$value}#{$override}
-  }
+@mixin objectFit(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "object-", $modifier,
+    "object-fit", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $object-fit {
+
   /* global */
-  @include objectFit("", "", ".", $modifier, $value)
+  @include objectFit(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -28,9 +32,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include objectFit(".#{$screen}\\:", "", "", $modifier, $value)
+      @include objectFit(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

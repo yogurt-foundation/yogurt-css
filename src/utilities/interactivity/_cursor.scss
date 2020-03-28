@@ -1,17 +1,17 @@
-/**
- * @module: _cursor.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin cursor($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}cursor-#{$modifier}#{$pseudo} {
-    cursor: #{$value}#{$override}
-  }
+@mixin cursor(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "cursor-", $modifier,
+    "cursor", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $cursor {
+
   /* global */
-  @include cursor("", "", ".", $modifier, $value)
+  @include cursor(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */

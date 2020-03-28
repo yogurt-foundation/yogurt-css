@@ -1,17 +1,17 @@
-/**
- * @module: _backgroundPosition.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin backgroundPosition($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}bg-#{$modifier}#{$pseudo} {
-    background-position: #{$value}#{$override}
-  }
+@mixin backgroundPosition(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "bg-", $modifier,
+    "background-position", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $background-position {
+
   /* global */
-  @include backgroundPosition("", "", ".", $modifier, $value)
+  @include backgroundPosition(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -28,9 +32,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include backgroundPosition(".#{$screen}\\:", "", "", $modifier, $value)
+      @include backgroundPosition(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

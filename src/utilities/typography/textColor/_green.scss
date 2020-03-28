@@ -1,23 +1,22 @@
-/**
- * @module: _green.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
-
 /* global */
 @each $mode, $hex, $radius in $green {
-  @include textColor("", "", ".", green, $mode, $hex, $radius)
+  @include textColor(
+    "", "", ".", green, $mode, $hex, $radius
+  )
 }
+
 /* hover */
 @each $mode, $hex, $radius in $green {
-  @include textColor(".hover\\:", ":hover", "", green, $mode, $hex, $radius)
+  @include textColor(
+    ".hover\\:", ":hover", "", green, $mode, $hex, $radius
+  )
 }
 @each $mode, $hex, $radius in $green {
-  @include textColor(".group:hover .group-hover\\:", "", "", green, $mode, $hex, $radius)
+  @include textColor(
+    ".group:hover .group-hover\\:", "", "", green, $mode, $hex, $radius
+  )
 }
+
 /* focus */
 /* active */
 

@@ -1,17 +1,17 @@
-/**
- * @module: _height.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin height($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}h-#{$modifier}#{$pseudo} {
-    height: #{$value}#{$override}
-  }
+@mixin height(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "h-", $modifier,
+    "height", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,21 +19,36 @@
 /* active */
 
 @each $modifier, $value in $height {
+
   /* global */
-  @include height("", "", ".", $modifier, $value)
+  @include height(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
-  @include height(".hover\\:", ":hover", "", $modifier, $value)
+  @include height(
+    ".hover\\:", ":hover", "", $modifier, $value
+  )
+
   /* focus */
   /* active */
 
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include height(".#{$screen}\\:", "", "", $modifier, $value)
+      @include height(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
-      @include height(".#{$screen}\\:.hover\\:", ":hover", "", $modifier, $value)
+      @include height(
+        ".#{$screen}\\:.hover\\:", ":hover", "", $modifier, $value
+      )
+
       /* focus */
       /* active */
     }

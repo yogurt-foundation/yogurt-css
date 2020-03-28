@@ -1,22 +1,20 @@
-/**
- * @module: _fontSmoothing.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
 @mixin fontSmoothing($prefix, $class) {
+
   #{$prefix}#{$class}antialiased {
     -webkit-font-smoothing: antialiased#{$override};
     -moz-osx-font-smoothing: grayscale#{$override}
   }
+
   #{$prefix}#{$class}subpixel-antialiased {
     -webkit-font-smoothing: auto#{$override};
     -moz-osx-font-smoothing: auto#{$override}
   }
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -24,7 +22,10 @@
 /* active */
 
 /* global */
-@include fontSmoothing("", ".")
+@include fontSmoothing(
+  "", "."
+)
+
 /* hover */
 /* focus */
 /* active */

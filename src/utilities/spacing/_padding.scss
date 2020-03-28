@@ -1,37 +1,53 @@
-/**
- * @module: _padding.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin padding($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}p-#{$modifier}#{$pseudo} {
-    padding: #{$value}#{$override}
-  }
-  #{$prefix}#{$class}px-#{$modifier}#{$pseudo} { // px
-    padding-left: #{$value}#{$override};
-    padding-right: #{$value}#{$override}
-  }
-  #{$prefix}#{$class}py-#{$modifier}#{$pseudo} { // py
-    padding-top: #{$value}#{$override};
-    padding-bottom: #{$value}#{$override}
-  }
-  #{$prefix}#{$class}pt-#{$modifier}#{$pseudo} { // pt
-    padding-top: #{$value}#{$override}
-  }
-  #{$prefix}#{$class}pb-#{$modifier}#{$pseudo} { // pb
-    padding-bottom: #{$value}#{$override}
-  }
-  #{$prefix}#{$class}pl-#{$modifier}#{$pseudo} { // pl
-    padding-left: #{$value}#{$override}
-  }
-  #{$prefix}#{$class}pr-#{$modifier}#{$pseudo} { // pr
-    padding-right: #{$value}#{$override}
-  }
+@mixin padding(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "p-", $modifier,
+    "padding", $value#{$override}
+  )
+
+  @include setRuleDouble(
+    $prefix, $pseudo, $class,
+    "px-", $modifier,
+    "padding-left", "padding-right", $value#{$override}
+  )
+
+  @include setRuleDouble(
+    $prefix, $pseudo, $class,
+    "py-", $modifier,
+    "padding-top", "padding-bottom", $value#{$override}
+  )
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "pt-", $modifier,
+    "padding-top", $value#{$override}
+  )
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "pb-", $modifier,
+    "padding-bottom", $value#{$override}
+  )
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "pl-", $modifier,
+    "padding-left", $value#{$override}
+  )
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "pr-", $modifier,
+    "padding-right", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -39,8 +55,12 @@
 /* active */
 
 @each $modifier, $value in $spacing {
+
   /* global */
-  @include padding("", "", ".", $modifier, $value)
+  @include padding(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -48,9 +68,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include padding(".#{$screen}\\:", "", "", $modifier, $value)
+      @include padding(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

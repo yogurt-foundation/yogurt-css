@@ -1,26 +1,27 @@
-/**
- * @module: _textTransform.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin textTransform($prefix, $pseudo, $class) {
+@mixin textTransform(
+  $prefix, $pseudo, $class) {
+
   #{$prefix}#{$class}uppercase#{$pseudo} {
     text-transform: uppercase#{$override}
   }
+
   #{$prefix}#{$class}lowercase#{$pseudo} {
     text-transform: lowercase#{$override}
   }
+
   #{$prefix}#{$class}capitalize#{$pseudo} {
     text-transform: capitalize#{$override}
   }
+
   #{$prefix}#{$class}normal-case#{$pseudo} {
     text-transform: none#{$override}
   }
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -29,6 +30,7 @@
 
 /* global */
 @include textTransform("", "", ".")
+
 /* hover */
 /* focus */
 /* active */
@@ -36,9 +38,12 @@
 /* responsive */
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
+
     /* standalone */
+
     /* global */
     @include textTransform(".#{$screen}\\:", "", "")
+
     /* hover */
     /* focus */
     /* active */

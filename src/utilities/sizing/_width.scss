@@ -1,17 +1,17 @@
-/**
- * @module: _width.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin width($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}w-#{$modifier}#{$pseudo} {
-    width: #{$value}#{$override}
-  }
+@mixin width(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "w-", $modifier,
+    "width", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,21 +19,36 @@
 /* active */
 
 @each $modifier, $value in $width {
+
   /* global */
-  @include width("", "", ".", $modifier, $value)
+  @include width(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
-  @include width(".hover\\:", ":hover", "", $modifier, $value)
+  @include width(
+    ".hover\\:", ":hover", "", $modifier, $value
+  )
+
   /* focus */
   /* active */
 
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include width(".#{$screen}\\:", "", "", $modifier, $value)
+      @include width(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
-      @include width(".#{$screen}\\:hover\\:", "", "", $modifier, $value)
+      @include width(
+        ".#{$screen}\\:hover\\:", "", "", $modifier, $value
+      )
+
       /* focus */
       /* active */
     }

@@ -1,17 +1,17 @@
-/**
- * @module: _verticalAlign.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin verticalAlign($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}align-#{$modifier}#{$pseudo} {
-    vertical-align: #{$value}#{$override}
-  }
+@mixin verticalAlign(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "align-", $modifier,
+    "vertical-align", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $vertical-align {
+
   /* global */
-  @include verticalAlign("", "", ".", $modifier, $value)
+  @include verticalAlign(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -28,9 +32,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include verticalAlign(".#{$screen}\\:", "", "", $modifier, $value)
+      @include verticalAlign(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

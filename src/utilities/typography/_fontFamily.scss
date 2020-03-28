@@ -1,17 +1,17 @@
-/**
- * @module: _fontFamily.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin fontFamily($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}font-#{$modifier}#{$pseudo} {
-    font-family: #{$value}#{$override}
-  }
+@mixin fontFamily(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "font-", $modifier,
+    "font-family", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,8 +19,12 @@
 /* active */
 
 @each $modifier, $value in $font-family {
+
   /* global */
-  @include fontFamily("", "", ".", $modifier, $value)
+  @include fontFamily(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
   /* focus */
   /* active */
@@ -28,9 +32,14 @@
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include fontFamily(".#{$screen}\\:", "", "", $modifier, $value)
+      @include fontFamily(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
       /* focus */
       /* active */

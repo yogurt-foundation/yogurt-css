@@ -1,17 +1,17 @@
-/**
- * @module: _fontWeight.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin fontWeight($prefix, $pseudo, $class, $modifier, $value) {
-  #{$prefix}#{$class}font-#{$modifier}#{$pseudo} {
-    font-weight: #{$value}#{$override}
-  }
+@mixin fontWeight(
+  $prefix, $pseudo, $class, $modifier, $value) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "font-", $modifier,
+    "font-weight", $value#{$override}
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,24 +19,45 @@
 /* active */
 
 @each $modifier, $value in $font-weight {
+
   /* global */
-  @include fontWeight("", "", ".", $modifier, $value)
+  @include fontWeight(
+    "", "", ".", $modifier, $value
+  )
+
   /* hover */
-  @include fontWeight(".hover\\:", ":hover", "", $modifier, $value)
+  @include fontWeight(
+    ".hover\\:", ":hover", "", $modifier, $value
+  )
+
   /* focus */
-  @include fontWeight(".focus\\:", ":focus", "", $modifier, $value)
+  @include fontWeight(
+    ".focus\\:", ":focus", "", $modifier, $value
+  )
+
   /* active */
 
   /* responsive */
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
+
       /* standalone */
+
       /* global */
-      @include fontWeight(".#{$screen}\\:", "", "", $modifier, $value)
+      @include fontWeight(
+        ".#{$screen}\\:", "", "", $modifier, $value
+      )
+
       /* hover */
-      @include fontWeight(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+      @include fontWeight(
+        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value
+      )
+
       /* focus */
-      @include fontWeight(".#{$screen}\\:focus\\:", ":focus", "", $modifier, $value)
+      @include fontWeight(
+        ".#{$screen}\\:focus\\:", ":focus", "", $modifier, $value
+      )
+
       /* active */
     }
   }

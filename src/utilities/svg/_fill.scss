@@ -1,17 +1,17 @@
-/**
- * @module: _fill.scss
- *
- * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @author: Loouis Low (loouis@gmail.com)
- * @copyright: Loouis Low (loouis@gmail.com)
- * @license: MIT
- */
+///// rules /////
 
-@mixin fill($prefix, $pseudo, $class) {
-  #{$prefix}#{$class}fill-current#{$pseudo} {
-    fill: currentColor#{$override}
-  }
+@mixin fill(
+  $prefix, $pseudo, $class) {
+
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "fill-current", "",
+    "fill", "currentColor#{$override}"
+  )
+
 }
+
+///// variants /////
 
 /* standalone */
 /* hover */
@@ -19,7 +19,10 @@
 /* active */
 
 /* global */
-@include fill("", "", ".")
+@include fill(
+  "", "", "."
+)
+
 /* hover */
 /* focus */
 /* active */
