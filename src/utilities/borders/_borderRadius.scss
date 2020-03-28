@@ -27,11 +27,35 @@
     border-top-right-radius: #{$value}#{$override};
     border-bottom-right-radius: #{$value}#{$override}
   }
+  #{$prefix}#{$class}rounded-tl-#{$modifier}#{$pseudo} { // top-left
+    border-top-left-radius: #{$value}#{$override};
+  }
+  #{$prefix}#{$class}rounded-tr-#{$modifier}#{$pseudo} { // top-right
+    border-top-right-radius: #{$value}#{$override};
+  }
+  #{$prefix}#{$class}rounded-bl-#{$modifier}#{$pseudo} { // bottom-left
+    border-bottom-left-radius: #{$value}#{$override};
+  }
+  #{$prefix}#{$class}rounded-br-#{$modifier}#{$pseudo} { // bottom-right
+    border-bottom-right-radius: #{$value}#{$override};
+  }
 }
 
 @mixin borderRadiusDefault($prefix, $class, $pseudo) {
   #{$prefix}#{$class}rounded#{$pseudo} {
     border-radius: 0.25rem#{$override}
+  }
+  #{$prefix}#{$class}rounded-tl#{$pseudo} {
+    border-top-left-radius: 0.25rem#{$override}
+  }
+  #{$prefix}#{$class}rounded-tr#{$pseudo} {
+    border-top-right-radius: 0.25rem#{$override}
+  }
+  #{$prefix}#{$class}rounded-bl#{$pseudo} {
+    border-bottom-left-radius: 0.25rem#{$override}
+  }
+  #{$prefix}#{$class}rounded-br#{$pseudo} {
+    border-bottom-right-radius: 0.25rem#{$override}
   }
 }
 
