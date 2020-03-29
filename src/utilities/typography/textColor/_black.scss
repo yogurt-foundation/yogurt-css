@@ -1,26 +1,31 @@
+/**
+ * @utility: typography
+ * @module: textColor/_black.scss
+ */
+
 /* global */
+
 @each $mode, $hex, $radius in $black {
-  @include textColor(
-  "", "", ".", black, $mode, $hex, $radius
-  )
+  @include textColor
+    ("", "", ".", black, $mode, $hex, $radius)
 }
 
 /* hover */
+
 @each $mode, $hex, $radius in $black {
-  @include textColor(
-  ".hover\\:", ":hover", "", black, $mode, $hex, $radius
-  )
+  @include textColor
+    (".hover\\:", ":hover", "", black, $mode, $hex, $radius)
 }
 @each $mode, $hex, $radius in $black {
-  @include textColor(
-    ".group:hover .group-hover\\:", "", "", black, $mode, $hex, $radius
-  )
+  @include textColor
+    (".group:hover .group-hover\\:", "", "", black, $mode, $hex, $radius)
 }
 
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

@@ -1,27 +1,33 @@
+/**
+ * @utility: backgrounds
+ * @module: backgroundColor/_indigo.scss
+ */
+ 
 /* global */
+
 @each $mode, $hex, $radius in $indigo {
-  @include backgroundColor(
-    "", "", ".", indigo, $mode, $hex, $radius
-  )
+  @include backgroundColor
+    ("", "", ".", indigo, $mode, $hex, $radius)
 }
 
 /* hover */
+
 @each $mode, $hex, $radius in $indigo {
-  @include backgroundColor(
-    ".hover\\:", ":hover", "", indigo, $mode, $hex, $radius
-  )
+  @include backgroundColor
+    (".hover\\:", ":hover", "", indigo, $mode, $hex, $radius)
 }
 
 /* focus */
+
 @each $mode, $hex, $radius in $indigo {
-  @include backgroundColor(
-    ".focus\\:", ":focus", "", indigo, $mode, $hex, $radius
-  )
+  @include backgroundColor
+    (".focus\\:", ":focus", "", indigo, $mode, $hex, $radius)
 }
 
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

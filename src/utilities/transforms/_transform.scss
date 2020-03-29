@@ -1,3 +1,8 @@
+/**
+ * @utility: transforms
+ * @module: _transform.scss
+ */
+
 ///// rules /////
 
 @mixin transform(
@@ -28,15 +33,16 @@
 /* active */
 
 /* global */
-@include transform(
-  "", "", "."
-)
+
+@include transform
+  ("", "", ".")
 
 /* hover */
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

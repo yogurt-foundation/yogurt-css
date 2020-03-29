@@ -1,3 +1,8 @@
+/**
+ * @utility: layouts
+ * @module: _overflow.scss
+ */
+
 ///// rules /////
 
 @mixin overflow(
@@ -49,24 +54,24 @@
 @each $modifier, $value in $overflow {
 
   /* global */
-  @include overflow(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include overflow
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include overflow(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include overflow
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */
@@ -83,24 +88,24 @@
 @each $modifier, $value in $overflow-xy {
 
   /* global */
-  @include overflow-xy(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include overflow-xy
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include overflow-xy(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include overflow-xy
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */
@@ -117,24 +122,24 @@
 @each $modifier, $value in $overflow-scrolling {
 
   /* global */
-  @include overflow-scrolling(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include overflow-scrolling
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include overflow-scrolling(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include overflow-scrolling
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

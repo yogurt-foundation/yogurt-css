@@ -1,3 +1,8 @@
+/**
+ * @utility: interactivity
+ * @module: _resize.scss
+ */
+
 ///// rules /////
 
 @mixin resize(
@@ -25,9 +30,9 @@
 ///// variants /////
 
 /* standalone */
-@include resizeDefault(
-  "", "", "."
-)
+
+@include resizeDefault
+  ("", "", ".")
 /* hover */
 /* focus */
 /* active */
@@ -35,27 +40,28 @@
 @each $modifier, $value in $resize {
 
   /* global */
-  @include resize(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include resize
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-      @include resizeDefault(
-        ".#{$screen}\\:", "", ""
-      )
+      
+      @include resizeDefault
+        (".#{$screen}\\:", "", "")
 
       /* global */
-      @include resize(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include resize
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

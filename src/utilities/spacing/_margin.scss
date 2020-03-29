@@ -1,3 +1,8 @@
+/**
+ * @utility: spacing
+ * @module: _margin.scss
+ */
+
 ///// rules /////
 
 @mixin margin(
@@ -57,30 +62,28 @@
 @each $modifier, $value in $spacing {
 
   /* global */
-  @include margin(
-    "", "", ".", $modifier, $value, ""
-  )
-  @include margin(
-    "", "", ".", $modifier, $value, "-"
-  ) // negative
+  
+  @include margin
+    ("", "", ".", $modifier, $value, "")
+  @include margin
+    ("", "", ".", $modifier, $value, "-") // negative
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include margin(
-        ".#{$screen}\\:", "", "", $modifier, $value, ""
-      )
-      @include margin(
-        ".#{$screen}\\:", "", "", $modifier, $value, "-"
-      ) // negative
+      
+      @include margin
+        (".#{$screen}\\:", "", "", $modifier, $value, "")
+      @include margin
+        (".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
 
       /* hover */
       /* focus */

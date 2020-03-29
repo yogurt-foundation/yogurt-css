@@ -1,3 +1,8 @@
+/**
+ * @utility: backgrounds
+ * @module: _backgroundRepeat.scss
+ */
+
 ///// rules /////
 
 @mixin backgroundRepeat(
@@ -21,24 +26,24 @@
 @each $modifier, $value in $background-repeat {
 
   /* global */
-  @include backgroundRepeat(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include backgroundRepeat
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include backgroundRepeat(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include backgroundRepeat
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

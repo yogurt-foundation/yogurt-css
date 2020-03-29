@@ -1,3 +1,8 @@
+/**
+ * @utility: borders
+ * @module: _borderStyle.scss
+ */
+
 ///// rules /////
 
 @mixin borderStyle(
@@ -21,24 +26,24 @@
 @each $modifier, $value in $border-style {
 
   /* global */
-  @include borderStyle(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include borderStyle
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include borderStyle(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include borderStyle
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

@@ -1,3 +1,8 @@
+/**
+ * @utility: svg
+ * @module: _strokeWidth.scss
+ */
+
 ///// rules /////
 
 @mixin strokeWidth(
@@ -21,15 +26,16 @@
 @each $modifier, $value in $stroke-width {
 
   /* global */
-  @include strokeWidth(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include strokeWidth
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* standalone */

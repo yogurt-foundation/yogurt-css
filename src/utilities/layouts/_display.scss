@@ -1,3 +1,8 @@
+/**
+ * @utility: layouts
+ * @module: _display.scss
+ */
+
 ///// rules /////
 
 @mixin display(
@@ -21,33 +26,33 @@
 @each $modifier, $value in $display {
 
   /* global */
-  @include display(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include display
+    ("", "", ".", $modifier, $value)
 
   /* hover */
-  @include display(
-    ".hover\\:", ":hover", "", $modifier, $value
-  )
+  
+  @include display
+    (".hover\\:", ":hover", "", $modifier, $value)
 
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include display(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include display
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
-      @include display(
-        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value
-      )
+      
+      @include display
+        (".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
 
       /* focus */
       /* active */

@@ -1,21 +1,27 @@
+/**
+ * @utility: effects
+ * @module: shadowColor/_gray.scss
+ */
+
 /* global */
+
 @each $mode, $hex, $radius in $gray {
-  @include shadowColor(
-    "", "", ".", gray, $mode, $hex, $radius
-  )
+  @include shadowColor
+    ("", "", ".", gray, $mode, $hex, $radius)
 }
 
 /* hover */
+
 @each $mode, $hex, $radius in $gray {
-  @include shadowColor(
-    ".hover\\:", ":hover", "", gray, $mode, $hex, $radius
-  )
+  @include shadowColor
+    (".hover\\:", ":hover", "", gray, $mode, $hex, $radius)
 }
 
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

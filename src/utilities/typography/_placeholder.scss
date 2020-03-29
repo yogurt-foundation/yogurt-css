@@ -1,3 +1,8 @@
+/**
+ * @utility: typography
+ * @module: _placeholder.scss
+ */
+
 ///// rules /////
 
 @mixin placeholder() {
@@ -24,12 +29,15 @@
 /* active */
 
 /* global */
+
 @include placeholder()
+
 /* hover */
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

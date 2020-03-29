@@ -1,3 +1,8 @@
+/**
+ * @utility: sizing
+ * @module: _width.scss
+ */
+
 ///// rules /////
 
 @mixin width(
@@ -21,33 +26,33 @@
 @each $modifier, $value in $width {
 
   /* global */
-  @include width(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include width
+    ("", "", ".", $modifier, $value)
 
   /* hover */
-  @include width(
-    ".hover\\:", ":hover", "", $modifier, $value
-  )
+  
+  @include width
+    (".hover\\:", ":hover", "", $modifier, $value)
 
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include width(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include width
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
-      @include width(
-        ".#{$screen}\\:hover\\:", "", "", $modifier, $value
-      )
+      
+      @include width
+        (".#{$screen}\\:hover\\:", "", "", $modifier, $value)
 
       /* focus */
       /* active */

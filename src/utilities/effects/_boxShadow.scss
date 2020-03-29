@@ -1,3 +1,8 @@
+/**
+ * @utility: effects
+ * @module: _boxShadow.scss
+ */
+
 ///// rules /////
 
 @mixin boxShadow(
@@ -25,9 +30,10 @@
 ///// variants /////
 
 /* standalone */
-@include boxShadowDefault(
-  "", ".", ""
-)
+
+@include boxShadowDefault
+  ("", ".", "")
+
 /* hover */
 /* focus */
 /* active */
@@ -35,29 +41,28 @@
 @each $modifier, $value in $box-shadow {
 
   /* global */
-  @include boxShadow(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include boxShadow
+    ("", "", ".", $modifier, $value)
 
   /* hover */
-  @include boxShadowDefault(
-    ".hover\\:", "", ":hover"
-  )
-  @include boxShadow(
-    ".hover\\:", ":hover", "", $modifier, $value
-  )
+  
+  @include boxShadowDefault
+    (".hover\\:", "", ":hover")
+  @include boxShadow
+    (".hover\\:", ":hover", "", $modifier, $value)
 
   /* focus */
-  @include boxShadowDefault(
-    ".focus\\:", "", ":focus"
-  )
-  @include boxShadow(
-    ".focus\\:", ":focus", "", $modifier, $value
-  )
+  
+  @include boxShadowDefault
+    (".focus\\:", "", ":focus")
+  @include boxShadow
+    (".focus\\:", ":focus", "", $modifier, $value)
 
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* standalone */

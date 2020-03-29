@@ -1,3 +1,8 @@
+/**
+ * @utility: layouts
+ * @module: _inset.scss
+ */
+
 ///// rules /////
 
 @mixin inset(
@@ -62,24 +67,25 @@
 @each $modifier, $value in $inset {
 
   /* global */
-  @include inset(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include inset
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
 
       /* global */
-      @include inset(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include inset
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */
@@ -91,24 +97,24 @@
 @each $modifier, $value in $spacing {
 
   /* global */
-  @include insetTBLR(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include insetTBLR
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include insetTBLR(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include insetTBLR
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

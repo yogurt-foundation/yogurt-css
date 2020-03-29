@@ -1,3 +1,8 @@
+/**
+ * @utility: layouts
+ * @module: _visibility.scss
+ */
+
 ///// rules /////
 
 @mixin visibility(
@@ -25,33 +30,33 @@
 /* active */
 
 /* global */
-@include visibility(
-  "", "", "."
-)
+
+@include visibility
+  ("", "", ".")
 
 /* hover */
-@include visibility(
-  ".hover\\:", ":hover", ""
-)
+
+@include visibility
+  (".hover\\:", ":hover", "")
 
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
 
     /* standalone */
-
     /* global */
-    @include visibility(
-      ".#{$screen}\\:", "", ""
-    )
+    
+    @include visibility
+      (".#{$screen}\\:", "", "")
 
     /* hover */
-    @include visibility(
-      ".#{$screen}\\:hover\\:", ":hover", ""
-    )
+    
+    @include visibility
+      (".#{$screen}\\:hover\\:", ":hover", "")
 
     /* focus */
     /* active */

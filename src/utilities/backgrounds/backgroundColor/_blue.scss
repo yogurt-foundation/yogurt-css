@@ -1,27 +1,33 @@
+/**
+ * @utility: backgrounds
+ * @module: backgroundColor/_blue.scss
+ */
+
 /* global */
+
 @each $mode, $hex, $radius in $blue {
-  @include backgroundColor(
-    "", "", ".", blue, $mode, $hex, $radius
-  )
+  @include backgroundColor
+    ("", "", ".", blue, $mode, $hex, $radius)
 }
 
 /* hover */
+
 @each $mode, $hex, $radius in $blue {
-  @include backgroundColor(
-    ".hover\\:", ":hover", "", blue, $mode, $hex, $radius
-  )
+  @include backgroundColor
+    (".hover\\:", ":hover", "", blue, $mode, $hex, $radius)
 }
 
 /* focus */
+
 @each $mode, $hex, $radius in $blue {
-  @include backgroundColor(
-    ".focus\\:", ":focus", "", blue, $mode, $hex, $radius
-  )
+  @include backgroundColor
+    (".focus\\:", ":focus", "", blue, $mode, $hex, $radius)
 }
 
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

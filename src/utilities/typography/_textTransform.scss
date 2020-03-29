@@ -1,3 +1,8 @@
+/**
+ * @utility: typography
+ * @module: _textTransform.scss
+ */
+
 ///// rules /////
 
 @mixin textTransform(
@@ -29,7 +34,9 @@
 /* active */
 
 /* global */
-@include textTransform("", "", ".")
+
+@include textTransform
+  ("", "", ".")
 
 /* hover */
 /* focus */
@@ -40,9 +47,10 @@
   @media (min-width: #{$size}) {
 
     /* standalone */
-
     /* global */
-    @include textTransform(".#{$screen}\\:", "", "")
+    
+    @include textTransform
+      (".#{$screen}\\:", "", "")
 
     /* hover */
     /* focus */

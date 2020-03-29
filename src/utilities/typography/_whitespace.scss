@@ -1,3 +1,8 @@
+/**
+ * @utility: typography
+ * @module: _whitespace.scss
+ */
+
 ///// rules /////
 
 @mixin whitespace(
@@ -21,24 +26,24 @@
 @each $modifier, $value in $whitespace {
 
   /* global */
-  @include whitespace(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include whitespace
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include whitespace(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include whitespace
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

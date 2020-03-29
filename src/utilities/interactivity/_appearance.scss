@@ -1,3 +1,8 @@
+/**
+ * @utility: interactivity
+ * @module: _appearance.scss
+ */
+
 ///// rules /////
 
 @mixin appearance(
@@ -14,15 +19,16 @@
 ///// variants /////
 
 /* standalone */
-@include appearance(
-  "", "."
-)
+
+@include appearance
+  ("", ".")
 
 /* hover */
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

@@ -1,3 +1,8 @@
+/**
+ * @utility: typography
+ * @module: _listStylePostion.scss
+ */
+
 ///// rules /////
 
 @mixin listStylePosition(
@@ -21,23 +26,24 @@
 /* active */
 
 /* global */
-@include listStylePosition(
-  "", "."
-)
+
+@include listStylePosition
+  ("", ".")
+
 /* hover */
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
 
     /* standalone */
-
     /* global */
-    @include listStylePosition(
-      ".#{$screen}\\:", ""
-    )
+    
+    @include listStylePosition
+      (".#{$screen}\\:", "")
 
     /* hover */
     /* focus */

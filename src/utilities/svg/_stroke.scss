@@ -1,3 +1,8 @@
+/**
+ * @utility: svg
+ * @module: _stroke.scss
+ */
+
 ///// rules /////
 
 @mixin stroke(
@@ -19,15 +24,16 @@
 /* active */
 
 /* global */
-@include stroke(
-  "", "", "."
-)
+
+@include stroke
+  ("", "", ".")
 
 /* hover */
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

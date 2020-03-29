@@ -1,26 +1,31 @@
+/**
+ * @utility: typography
+ * @module: textColor/_charcoal.scss
+ */
+
 /* global */
+
 @each $mode, $hex, $radius in $charcoal {
-  @include textColor(
-    "", "", ".", charcoal, $mode, $hex, $radius
-  )
+  @include textColor
+    ("", "", ".", charcoal, $mode, $hex, $radius)
 }
 
 /* hover */
+
 @each $mode, $hex, $radius in $charcoal {
-  @include textColor(
-    ".hover\\:", ":hover", "", charcoal, $mode, $hex, $radius
-  )
+  @include textColor
+    (".hover\\:", ":hover", "", charcoal, $mode, $hex, $radius)
 }
 @each $mode, $hex, $radius in $charcoal {
-  @include textColor(
-    ".group:hover .group-hover\\:", "", "", charcoal, $mode, $hex, $radius
-  )
+  @include textColor
+    (".group:hover .group-hover\\:", "", "", charcoal, $mode, $hex, $radius)
 }
 
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

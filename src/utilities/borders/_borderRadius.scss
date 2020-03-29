@@ -1,3 +1,8 @@
+/**
+ * @utility: borders
+ * @module: _borderRadius.scss
+ */
+
 ///// rules /////
 
 @mixin borderRadius(
@@ -101,9 +106,8 @@
 ///// variants /////
 
 /* standalone */
-@include borderRadiusDefault(
-  "", "", "."
-)
+@include borderRadiusDefault
+  ("", "", ".")
 
 /* hover */
 /* focus */
@@ -112,22 +116,22 @@
 @each $modifier, $value in $border-radius {
 
   /* global */
-  @include borderRadius(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include borderRadius
+    ("", "", ".", $modifier, $value)
 
   /* hover */
-  @include borderRadiusDefault(
-    ".hover\\:", "", ":hover"
-  )
-  @include borderRadius(
-    ".hover\\:", ":hover", "", $modifier, $value
-  )
+  
+  @include borderRadiusDefault
+    (".hover\\:", "", ":hover")
+  @include borderRadius
+    (".hover\\:", ":hover", "", $modifier, $value)
 
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* standalone */

@@ -1,3 +1,8 @@
+/**
+ * @utility: transforms
+ * @module: _rotate.scss
+ */
+
 ///// rules /////
 
 @mixin rotate(
@@ -21,45 +26,41 @@
 @each $modifier, $value in $rotate {
 
   /* global */
-  @include rotate(
-    "", "", ".", $modifier, $value, ""
-  )
-  @include rotate(
-    "", "", ".", $modifier, $value, "-"
-  ) // negative
+  
+  @include rotate
+    ("", "", ".", $modifier, $value, "")
+  @include rotate
+    ("", "", ".", $modifier, $value, "-") // negative
 
   /* hover */
-  @include rotate(
-    ".hover\\:", ":hover", "", $modifier, $value, ""
-  )
-  @include rotate(
-    ".hover\\:", ":hover", "", $modifier, $value, "-"
-  ) // negative
+  
+  @include rotate
+    (".hover\\:", ":hover", "", $modifier, $value, "")
+  @include rotate
+    (".hover\\:", ":hover", "", $modifier, $value, "-") // negative
 
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include rotate(
-        ".#{$screen}\\:", "", "", $modifier, $value, ""
-      )
-      @include rotate(
-        ".#{$screen}\\:", "", "", $modifier, $value, "-"
-      ) // negative
+      
+      @include rotate
+        (".#{$screen}\\:", "", "", $modifier, $value, "")
+      @include rotate
+        (".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
 
       /* hover */
-      @include rotate(
-        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, ""
-      )
-      @include rotate(
-        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-"
-      ) // negative
+      
+      @include rotate
+        (".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "")
+      @include rotate
+        (".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-") // negative
 
       /* focus */
       /* active */

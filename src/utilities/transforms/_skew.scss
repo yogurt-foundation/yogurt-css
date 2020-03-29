@@ -1,3 +1,8 @@
+/**
+ * @utility: transforms
+ * @module: _skew.scss
+ */
+
 ///// rules /////
 
 @mixin skew(
@@ -27,45 +32,41 @@
 @each $modifier, $value in $skew {
 
   /* global */
-  @include skew(
-    "", "", ".", $modifier, $value, ""
-  )
-  @include skew(
-    "", "", ".", $modifier, $value, "-"
-  ) // negative
+  
+  @include skew
+    ("", "", ".", $modifier, $value, "")
+  @include skew
+    ("", "", ".", $modifier, $value, "-") // negative
 
   /* hover */
-  @include skew(
-    ".hover\\:", ":hover", "", $modifier, $value, ""
-  )
-  @include skew(
-    ".hover\\:", ":hover", "", $modifier, $value, "-"
-  ) // negative
+  
+  @include skew
+    (".hover\\:", ":hover", "", $modifier, $value, "")
+  @include skew
+    (".hover\\:", ":hover", "", $modifier, $value, "-") // negative
 
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include skew(
-        ".#{$screen}\\:", "", "", $modifier, $value, ""
-      )
-      @include skew(
-        ".#{$screen}\\:", "", "", $modifier, $value, "-"
-      ) // negative
+      
+      @include skew
+        (".#{$screen}\\:", "", "", $modifier, $value, "")
+      @include skew
+        (".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
 
       /* hover */
-      @include skew(
-        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, ""
-      )
-      @include skew(
-        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-"
-      ) // negative
+      
+      @include skew
+        (".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "")
+      @include skew
+        (".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-") // negative
 
       /* focus */
       /* active */

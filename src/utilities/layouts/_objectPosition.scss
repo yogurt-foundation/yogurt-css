@@ -1,3 +1,8 @@
+/**
+ * @utility: layouts
+ * @module: _objectPosition.scss
+ */
+
 ///// rules /////
 
 @mixin objectPosition(
@@ -21,23 +26,24 @@
 @each $modifier, $value in $object-position {
 
   /* global */
-  @include objectPosition(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include objectPosition
+    ("", "", ".", $modifier, $value)
+  
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include objectPosition(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include objectPosition
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

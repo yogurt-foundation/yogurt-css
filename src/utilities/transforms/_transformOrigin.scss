@@ -1,3 +1,8 @@
+/**
+ * @utility: transforms
+ * @module: _transformOrigin.scss
+ */
+
 ///// rules /////
 
 @mixin transformOrigin(
@@ -21,33 +26,32 @@
 @each $modifier, $value in $transform-origin {
 
   /* global */
-  @include transformOrigin(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include transformOrigin
+    ("", "", ".", $modifier, $value)
 
   /* hover */
-  @include transformOrigin(
-    ".hover\\:", ":hover", "", $modifier, $value
-  )
+  @include transformOrigin
+    (".hover\\:", ":hover", "", $modifier, $value)
 
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include transformOrigin(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include transformOrigin
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
-      @include transformOrigin(
-        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value
-      )
+      
+      @include transformOrigin
+        (".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
 
       /* focus */
       /* active */

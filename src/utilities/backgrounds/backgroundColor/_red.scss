@@ -1,27 +1,33 @@
+/**
+ * @utility: backgrounds
+ * @module: backgroundColor/_red.scss
+ */
+
 /* global */
+
 @each $mode, $hex, $radius in $red {
-  @include backgroundColor(
-    "", "", ".", red, $mode, $hex, $radius
-  )
+  @include backgroundColor
+    ("", "", ".", red, $mode, $hex, $radius)
 }
 
 /* hover */
+
 @each $mode, $hex, $radius in $red {
-  @include backgroundColor(
-    ".hover\\:", ":hover", "", red, $mode, $hex, $radius
-  )
+  @include backgroundColor
+    (".hover\\:", ":hover", "", red, $mode, $hex, $radius)
 }
 
 /* focus */
+
 @each $mode, $hex, $radius in $red {
-  @include backgroundColor(
-    ".focus\\:", ":focus", "", red, $mode, $hex, $radius
-  )
+  @include backgroundColor
+    (".focus\\:", ":focus", "", red, $mode, $hex, $radius)
 }
 
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

@@ -1,26 +1,31 @@
+/**
+ * @utility: typography
+ * @module: textColor/_indigo.scss
+ */
+
 /* global */
+
 @each $mode, $hex, $radius in $indigo {
-  @include textColor(
-    "", "", ".", indigo, $mode, $hex, $radius
-  )
+  @include textColor
+    ("", "", ".", indigo, $mode, $hex, $radius)
 }
 
 /* hover */
+
 @each $mode, $hex, $radius in $indigo {
-  @include textColor(
-    ".hover\\:", ":hover", "", indigo, $mode, $hex, $radius
-  )
+  @include textColor
+    (".hover\\:", ":hover", "", indigo, $mode, $hex, $radius)
 }
 @each $mode, $hex, $radius in $indigo {
-  @include textColor(
-    ".group:hover .group-hover\\:", "", "", indigo, $mode, $hex, $radius
-  )
+  @include textColor
+    (".group:hover .group-hover\\:", "", "", indigo, $mode, $hex, $radius)
 }
 
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

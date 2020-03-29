@@ -1,17 +1,27 @@
+/**
+ * @utility: typography
+ * @module: placeholderColor/_gray.scss
+ */
+
 /* global */
+
 @each $mode, $hex, $radius in $gray {
-  @include placeholderColor("", "", ".", gray, $mode, $hex, $radius)
+  @include placeholderColor
+    ("", "", ".", gray, $mode, $hex, $radius)
 }
 
 /* hover */
 /* focus */
+
 @each $mode, $hex, $radius in $gray {
-  @include placeholderColor(".focus\\:", ":focus", "", gray, $mode, $hex, $radius)
+  @include placeholderColor
+    (".focus\\:", ":focus", "", gray, $mode, $hex, $radius)
 }
 
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

@@ -1,3 +1,8 @@
+/**
+ * @utility: interactivity
+ * @module: _outline.scss
+ */
+
 ///// rules /////
 
 @mixin outline(
@@ -19,35 +24,35 @@
 /* active */
 
 /* global */
-@include outline(
-  "", "", "."
-)
+
+@include outline
+  ("", "", ".")
 
 /* hover */
 
 /* focus */
-@include outline(
-  ".focus\\:", ":focus", ""
-)
+
+@include outline
+  (".focus\\:", ":focus", "")
 
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
 
     /* standalone */
-
     /* global */
-    @include outline(
-      ".#{$screen}\\:", "", ""
-    )
+    
+    @include outline
+      (".#{$screen}\\:", "", "")
 
     /* hover */
     /* focus */
-    @include outline(
-      ".#{$screen}\\:focus\\:", ":focus", ""
-    )
+    
+    @include outline
+      (".#{$screen}\\:focus\\:", ":focus", "")
 
     /* active */
   }

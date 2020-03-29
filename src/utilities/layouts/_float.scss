@@ -1,3 +1,8 @@
+/**
+ * @utility: layouts
+ * @module: _float.scss
+ */
+
 ///// rules /////
 
 @mixin float(
@@ -25,6 +30,7 @@
 ///// variants /////
 
 /* standalone */
+
 @include floatDefault(
   "", "."
 )
@@ -36,27 +42,28 @@
 @each $modifier, $value in $float {
 
   /* global */
-  @include float(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include float
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-      @include floatDefault(
-        ".#{$screen}\\:", ""
-      )
+      
+      @include floatDefault
+        (".#{$screen}\\:", "")
 
       /* global */
-      @include float(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include float
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

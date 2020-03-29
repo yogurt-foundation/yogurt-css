@@ -1,3 +1,8 @@
+/**
+ * @utility: typography
+ * @module: _fontSmoothing.scss
+ */
+
 ///// rules /////
 
 @mixin fontSmoothing($prefix, $class) {
@@ -22,15 +27,16 @@
 /* active */
 
 /* global */
-@include fontSmoothing(
-  "", "."
-)
+
+@include fontSmoothing
+  ("", ".")
 
 /* hover */
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

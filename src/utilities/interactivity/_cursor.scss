@@ -1,3 +1,8 @@
+/**
+ * @utility: interactivity
+ * @module: _cursor.scss
+ */
+
 ///// rules /////
 
 @mixin cursor(
@@ -21,15 +26,16 @@
 @each $modifier, $value in $cursor {
 
   /* global */
-  @include cursor(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include cursor
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* standalone */

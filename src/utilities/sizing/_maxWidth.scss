@@ -1,3 +1,8 @@
+/**
+ * @utility: sizing
+ * @module: _maxWidth.scss
+ */
+
 ///// rules /////
 
 @mixin maxWidth(
@@ -19,24 +24,24 @@
 @each $modifier, $value in $max-width {
 
   /* global */
-  @include maxWidth(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include maxWidth
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include maxWidth(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include maxWidth
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

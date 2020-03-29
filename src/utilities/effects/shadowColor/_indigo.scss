@@ -1,21 +1,27 @@
+/**
+ * @utility: effects
+ * @module: shadowColor/_indigo.scss
+ */
+
 /* global */
+
 @each $mode, $hex, $radius in $indigo {
-  @include shadowColor(
-    "", "", ".", indigo, $mode, $hex, $radius
-  )
+  @include shadowColor
+    ("", "", ".", indigo, $mode, $hex, $radius)
 }
 
 /* hover */
+
 @each $mode, $hex, $radius in $indigo {
-  @include shadowColor(
-    ".hover\\:", ":hover", "", indigo, $mode, $hex, $radius
-  )
+  @include shadowColor
+    (".hover\\:", ":hover", "", indigo, $mode, $hex, $radius)
 }
 
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

@@ -1,3 +1,8 @@
+/**
+ * @utility: typography
+ * @module: _fontStyle.scss
+ */
+
 ///// rules /////
 
 @mixin fontStyle(
@@ -20,24 +25,24 @@
 /* active */
 
 /* global */
-@include fontStyle(
-  "", "."
-)
+
+@include fontStyle
+  ("", ".")
 
 /* hover */
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
 
     /* standalone */
-
     /* global */
-    @include fontStyle(
-      ".#{$screen}\\:", ""
-    )
+    
+    @include fontStyle
+      (".#{$screen}\\:", "")
 
     /* hover */
     /* focus */

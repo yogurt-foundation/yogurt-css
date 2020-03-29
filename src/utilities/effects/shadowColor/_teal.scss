@@ -1,21 +1,27 @@
+/**
+ * @utility: effects
+ * @module: shadowColor/_teal.scss
+ */
+
 /* global */
+
 @each $mode, $hex, $radius in $teal {
-  @include shadowColor(
-    "", "", ".", teal, $mode, $hex, $radius
-  )
+  @include shadowColor
+    ("", "", ".", teal, $mode, $hex, $radius)
 }
 
 /* hover */
+
 @each $mode, $hex, $radius in $teal {
-  @include shadowColor(
-    ".hover\\:", ":hover", "", teal, $mode, $hex, $radius
-  )
+  @include shadowColor
+    (".hover\\:", ":hover", "", teal, $mode, $hex, $radius)
 }
 
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

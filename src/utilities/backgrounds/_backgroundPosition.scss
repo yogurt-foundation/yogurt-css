@@ -1,3 +1,8 @@
+/**
+ * @utility: backgrounds
+ * @module: _backgroundPosition.scss
+ */
+
 ///// rules /////
 
 @mixin backgroundPosition(
@@ -21,24 +26,24 @@
 @each $modifier, $value in $background-position {
 
   /* global */
-  @include backgroundPosition(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include backgroundPosition
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include backgroundPosition(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include backgroundPosition
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

@@ -1,3 +1,8 @@
+/**
+ * @utility: transforms
+ * @module: _scale.scss
+ */
+
 ///// rules /////
 
 @mixin scale(
@@ -33,33 +38,33 @@
 @each $modifier, $value in $scale {
 
   /* global */
-  @include scale(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include scale
+    ("", "", ".", $modifier, $value)
 
   /* hover */
-  @include scale(
-    ".hover\\:", ":hover", "", $modifier, $value
-  )
+  
+  @include scale
+    (".hover\\:", ":hover", "", $modifier, $value)
 
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include scale(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include scale
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
-      @include scale(
-        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value
-      )
+      
+      @include scale
+        (".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
 
       /* focus */
       /* active */

@@ -1,3 +1,8 @@
+/**
+ * @utility: flexbox
+ * @module: _flexgrow.scss
+ */
+
 ///// rules /////
 
 @mixin flexGrow(
@@ -24,36 +29,37 @@
 ///// variants /////
 
 /* standalone */
-@include flexGrowDefault(
-  "", "."
-)
+
+@include flexGrowDefault
+  ("", ".")
 
 /* hover */
 /* focus */
 /* active */
 
 /* global */
-@include flexGrow(
-  "", "", "."
-)
+
+@include flexGrow
+  ("", "", ".")
 
 /* hover */
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
 
     /* standalone */
-    @include flexGrowDefault(
-      ".#{$screen}\\:", ""
-    )
+    
+    @include flexGrowDefault
+      (".#{$screen}\\:", "")
 
     /* global */
-    @include flexGrow(
-      ".#{$screen}\\:", "", ""
-    )
+    
+    @include flexGrow
+      (".#{$screen}\\:", "", "")
 
     /* hover */
     /* focus */

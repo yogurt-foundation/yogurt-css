@@ -1,3 +1,8 @@
+/**
+ * @utility: tables
+ * @module: _tableLayout.scss
+ */
+
 ///// rules /////
 
 @mixin tableLayout(
@@ -21,15 +26,16 @@
 @each $modifier, $value in $table-layout {
 
   /* global */
-  @include tableLayout(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include tableLayout
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* standalone */

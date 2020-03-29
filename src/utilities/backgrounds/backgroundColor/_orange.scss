@@ -1,27 +1,33 @@
+/**
+ * @utility: backgrounds
+ * @module: backgroundColor/_orange.scss
+ */
+
 /* global */
+
 @each $mode, $hex, $radius in $orange {
-  @include backgroundColor(
-    "", "", ".", orange, $mode, $hex, $radius
-  )
+  @include backgroundColor
+    ("", "", ".", orange, $mode, $hex, $radius)
 }
 
 /* hover */
+
 @each $mode, $hex, $radius in $orange {
-  @include backgroundColor(
-    ".hover\\:", ":hover", "", orange, $mode, $hex, $radius
-  )
+  @include backgroundColor
+    (".hover\\:", ":hover", "", orange, $mode, $hex, $radius)
 }
 
 /* focus */
+
 @each $mode, $hex, $radius in $orange {
-  @include backgroundColor(
-    ".focus\\:", ":focus", "", orange, $mode, $hex, $radius
-  )
+  @include backgroundColor
+    (".focus\\:", ":focus", "", orange, $mode, $hex, $radius)
 }
 
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

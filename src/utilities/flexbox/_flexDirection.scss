@@ -1,3 +1,8 @@
+/**
+ * @utility: flexbox
+ * @module: _flexDirection.scss
+ */
+
 ///// rules /////
 
 @mixin flexDirection(
@@ -21,33 +26,33 @@
 @each $modifier, $value in $flex-direction {
 
   /* global */
-  @include flexDirection(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include flexDirection
+    ("", "", ".", $modifier, $value)
 
   /* hover */
-  @include flexDirection(
-    ".hover\\:", ":hover", "", $modifier, $value
-  )
+  
+  @include flexDirection
+    (".hover\\:", ":hover", "", $modifier, $value)
 
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include flexDirection(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include flexDirection
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
-      @include flexDirection(
-        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value
-      )
+      
+      @include flexDirection
+        (".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
 
       /* focus */
       /* active */

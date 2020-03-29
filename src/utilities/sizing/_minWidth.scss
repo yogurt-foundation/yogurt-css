@@ -1,3 +1,8 @@
+/**
+ * @utility: sizing
+ * @module: _minWidth.scss
+ */
+
 ///// rules /////
 
 @mixin minWidth(
@@ -19,24 +24,24 @@
 @each $modifier, $value in $min-width {
 
   /* global */
-  @include minWidth(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include minWidth
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include minWidth(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include minWidth
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

@@ -1,3 +1,8 @@
+/**
+ * @utility: interactivity
+ * @module: _userSelect.scss
+ */
+
 ///// rules /////
 
 @mixin userSelect(
@@ -20,24 +25,24 @@
 @each $modifier, $value in $user-select {
 
   /* global */
-  @include userSelect(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include userSelect
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include userSelect(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include userSelect
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

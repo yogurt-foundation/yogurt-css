@@ -1,3 +1,8 @@
+/**
+ * @utility: interactivity
+ * @module: _pointerEvents.scss
+ */
+
 ///// rules /////
 
 @mixin pointerEvents(
@@ -21,24 +26,24 @@
 @each $modifier, $value in $pointer-events {
 
   /* global */
-  @include pointerEvents(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include pointerEvents
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include pointerEvents(
-      ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include pointerEvents
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

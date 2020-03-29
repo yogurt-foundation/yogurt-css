@@ -1,3 +1,8 @@
+/**
+ * @utility: sizing
+ * @module: _maxHeight.scss
+ */
+
 ///// rules /////
 
 @mixin maxHeight(
@@ -21,24 +26,24 @@
 @each $modifier, $value in $max-height {
 
   /* global */
-  @include maxHeight(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include maxHeight
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include maxHeight(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include maxHeight
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

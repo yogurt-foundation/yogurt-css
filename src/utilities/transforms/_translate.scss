@@ -1,3 +1,8 @@
+/**
+ * @utility: transforms
+ * @module: _translate.scss
+ */
+
 ///// rules /////
 
 @mixin translate(
@@ -27,45 +32,41 @@
 @each $modifier, $value in $translate {
 
   /* global */
-  @include translate(
-    "", "", ".", $modifier, $value, ""
-  )
-  @include translate(
-    "", "", ".", $modifier, $value, "-"
-  ) // negative
+  
+  @include translate
+    ("", "", ".", $modifier, $value, "")
+  @include translate
+    ("", "", ".", $modifier, $value, "-") // negative
 
   /* hover */
-  @include translate(
-    ".hover\\:", ":hover", "", $modifier, $value, ""
-  )
-  @include translate(
-    ".hover\\:", ":hover", "", $modifier, $value, "-"
-  ) // negative
+  
+  @include translate
+    (".hover\\:", ":hover", "", $modifier, $value, "")
+  @include translate
+    (".hover\\:", ":hover", "", $modifier, $value, "-") // negative
 
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include translate(
-        ".#{$screen}\\:", "", "", $modifier, $value, ""
-      )
-      @include translate(
-        ".#{$screen}\\:", "", "", $modifier, $value, "-"
-      ) // negative
+      
+      @include translate
+        (".#{$screen}\\:", "", "", $modifier, $value, "")
+      @include translate
+        (".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
 
       /* hover */
-      @include translate(
-        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, ""
-      )
-      @include translate(
-        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-"
-      ) // negative
+      
+      @include translate
+        (".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "")
+      @include translate
+        (".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-") // negative
 
       /* focus */
       /* active */

@@ -1,26 +1,31 @@
+/**
+ * @utility: borders
+ * @module: borderColor/_pink.scss
+ */
+
 /* global */
+
 @each $mode, $hex, $radius in $pink {
-  @include borderColor(
-    "", "", ".", pink, $mode, $hex, $radius
-  )
+  @include borderColor
+    ("", "", ".", pink, $mode, $hex, $radius)
 }
 
 /* hover */
+
 @each $mode, $hex, $radius in $pink {
-  @include borderColor(
-    ".hover\\:", ":hover", "", pink, $mode, $hex, $radius
-  )
+  @include borderColor
+    (".hover\\:", ":hover", "", pink, $mode, $hex, $radius)
 }
 @each $mode, $hex, $radius in $pink {
-  @include borderColor(
-    ".group:hover .group-hover\\:", "", "", pink, $mode, $hex, $radius
-  )
+  @include borderColor
+    (".group:hover .group-hover\\:", "", "", pink, $mode, $hex, $radius)
 }
 
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

@@ -1,3 +1,8 @@
+/**
+ * @utility: typography
+ * @module: _fontSize.scss
+ */
+
 ///// rules /////
 
 @mixin fontSize(
@@ -19,33 +24,33 @@
 @each $modifier, $value in $font-size {
 
   /* global */
-  @include fontSize(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include fontSize
+    ("", "", ".", $modifier, $value)
 
   /* hover */
-  @include fontSize(
-    ".hover\\:", ":hover", "", $modifier, $value
-  )
+  
+  @include fontSize
+    (".hover\\:", ":hover", "", $modifier, $value)
 
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include fontSize(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include fontSize
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
-      @include fontSize(
-        ".hover\\:", ":hover", "", $modifier, $value
-      )
+      
+      @include fontSize
+        (".hover\\:", ":hover", "", $modifier, $value)
 
       /* focus */
       /* active */

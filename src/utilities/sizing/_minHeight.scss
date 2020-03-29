@@ -1,3 +1,8 @@
+/**
+ * @utility: sizing
+ * @module: _minHeight.scss
+ */
+
 ///// rules /////
 
 @mixin minHeight(
@@ -21,24 +26,24 @@
 @each $modifier, $value in $min-height {
 
   /* global */
-  @include minHeight(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include minHeight
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include minHeight(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include minHeight
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

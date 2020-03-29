@@ -1,3 +1,8 @@
+/**
+ * @utility: transitions
+ * @module: _transitionTiming.scss
+ */
+
 ///// rules /////
 
 @mixin transitionTiming(
@@ -21,15 +26,16 @@
 @each $modifier, $value in $transition-timing {
 
   /* global */
-  @include transitionTiming(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include transitionTiming
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* standalone */

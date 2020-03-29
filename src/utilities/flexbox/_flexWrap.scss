@@ -1,3 +1,8 @@
+/**
+ * @utility: flexbox
+ * @module: _flexWrap.scss
+ */
+
 ///// rules /////
 
 @mixin flexWrap(
@@ -21,24 +26,24 @@
 @each $modifier, $value in $flex-wrap {
 
   /* global */
-  @include flexWrap(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include flexWrap
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include flexWrap(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include flexWrap
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

@@ -1,17 +1,27 @@
+/**
+ * @utility: typography
+ * @module: placeholderColor/_green.scss
+ */
+
 /* global */
+
 @each $mode, $hex, $radius in $green {
-  @include placeholderColor("", "", ".", green, $mode, $hex, $radius)
+  @include placeholderColor
+    ("", "", ".", green, $mode, $hex, $radius)
 }
 
 /* hover */
 /* focus */
+
 @each $mode, $hex, $radius in $green {
-  @include placeholderColor(".focus\\:", ":focus", "", green, $mode, $hex, $radius)
+  @include placeholderColor
+    (".focus\\:", ":focus", "", green, $mode, $hex, $radius)
 }
 
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

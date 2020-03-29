@@ -1,3 +1,8 @@
+/**
+ * @utility: typography
+ * @module: _verticalAlign.scss
+ */
+
 ///// rules /////
 
 @mixin verticalAlign(
@@ -21,24 +26,24 @@
 @each $modifier, $value in $vertical-align {
 
   /* global */
-  @include verticalAlign(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include verticalAlign
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include verticalAlign(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include verticalAlign
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

@@ -1,3 +1,8 @@
+/**
+ * @utility: flexbox
+ * @module: _order.scss
+ */
+
 ///// rules /////
 
 @mixin order(
@@ -21,9 +26,9 @@
 @each $modifier, $value in $order {
 
   /* global */
-  @include order(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include order
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
@@ -34,11 +39,10 @@
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include order(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include order
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

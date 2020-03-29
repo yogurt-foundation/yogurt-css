@@ -1,3 +1,8 @@
+/**
+ * @utility: typography
+ * @module: _wordBreak.scss
+ */
+
 ///// rules /////
 
 @mixin wordBreak(
@@ -30,24 +35,24 @@
 /* active */
 
 /* global */
-@include wordBreak(
-  "", "", "."
-)
+
+@include wordBreak
+  ("", "", ".")
 
 /* hover */
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
 
     /* standalone */
-
     /* global */
-    @include wordBreak(
-      ".#{$screen}\\:", "", ""
-    )
+    
+    @include wordBreak
+      (".#{$screen}\\:", "", "")
 
     /* hover */
     /* focus */

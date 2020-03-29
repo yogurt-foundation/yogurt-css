@@ -1,3 +1,8 @@
+/**
+ * @utility: layouts
+ * @module: _objectFit.scss
+ */
+
 ///// rules /////
 
 @mixin objectFit(
@@ -21,24 +26,24 @@
 @each $modifier, $value in $object-fit {
 
   /* global */
-  @include objectFit(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include objectFit
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include objectFit(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include objectFit
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

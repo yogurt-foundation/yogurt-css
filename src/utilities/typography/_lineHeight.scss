@@ -1,3 +1,8 @@
+/**
+ * @utility: typography
+ * @module: _lineHeight.scss
+ */
+
 ///// rules /////
 
 @mixin lineHeight(
@@ -21,24 +26,24 @@
 @each $modifier, $value in $line-height {
 
   /* global */
-  @include lineHeight(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include lineHeight
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include lineHeight(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include lineHeight
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

@@ -1,3 +1,8 @@
+/**
+ * @utility: layouts
+ * @module: _container.scss
+ */
+
 ///// rules /////
 
 @mixin container(
@@ -25,26 +30,28 @@
 ///// variants /////
 
 /* standalone */
-@include containerDefault(
-  "", "."
-)
+
+@include containerDefault
+  ("", ".")
+
 /* hover */
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
 
     /* standalone */
-    @include containerDefault(
-      ".#{$screen}\\:", ""
-    )
+    
+    @include containerDefault
+      (".#{$screen}\\:", "")
 
     /* global */
-    @include container(
-      ".#{$screen}\\:", "", "", "", $size
-    )
+    
+    @include container
+      (".#{$screen}\\:", "", "", "", $size)
 
     /* hover */
     /* focus */

@@ -1,26 +1,31 @@
+/**
+ * @utility: typography
+ * @module: textColor/_teal.scss
+ */
+
 /* global */
+
 @each $mode, $hex, $radius in $teal {
-  @include textColor(
-    "", "", ".", teal, $mode, $hex, $radius
-  )
+  @include textColor
+    ("", "", ".", teal, $mode, $hex, $radius)
 }
 
 /* hover */
+
 @each $mode, $hex, $radius in $teal {
-  @include textColor(
-    ".hover\\:", ":hover", "", teal, $mode, $hex, $radius
-  )
+  @include textColor
+    (".hover\\:", ":hover", "", teal, $mode, $hex, $radius)
 }
 @each $mode, $hex, $radius in $teal {
-  @include textColor(
-    ".group:hover .group-hover\\:", "", "", teal, $mode, $hex, $radius
-  )
+  @include textColor
+    (".group:hover .group-hover\\:", "", "", teal, $mode, $hex, $radius)
 }
 
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

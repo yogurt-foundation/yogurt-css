@@ -1,3 +1,8 @@
+/**
+ * @utility: typography
+ * @module: textColor/_special.scss
+ */
+
 @mixin specialTextColor(
   $prefix, $pseudo, $class, $modifier, $value) {
 
@@ -18,22 +23,22 @@
 @each $modifier, $value in $special-colors {
 
   /* global */
-  @include specialTextColor(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include specialTextColor
+    ("", "", ".", $modifier, $value)
 
   /* hover */
-  @include specialTextColor(
-    ".hover\\:", ":hover", "", $modifier, $value
-  )
-  @include specialTextColor(
-    ".group:hover .group-hover\\:", "", "", $modifier, $value
-  )
+  
+  @include specialTextColor
+    (".hover\\:", ":hover", "", $modifier, $value)
+  @include specialTextColor
+    (".group:hover .group-hover\\:", "", "", $modifier, $value)
 
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* standalone */

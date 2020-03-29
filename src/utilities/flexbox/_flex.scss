@@ -1,3 +1,8 @@
+/**
+ * @utility: flexbox
+ * @module: _flex.scss
+ */
+
 ///// rules /////
 
 @mixin flex(
@@ -21,9 +26,9 @@
 @each $modifier, $value in $flex {
 
   /* global */
-  @include flex(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include flex
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
@@ -34,11 +39,10 @@
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include flex(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include flex
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

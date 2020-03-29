@@ -1,3 +1,8 @@
+/**
+ * @utility: typography
+ * @module: _textAlign.scss
+ */
+
 ///// rules /////
 
 @mixin textAlign(
@@ -21,24 +26,24 @@
 @each $modifier, $value in $text-align {
 
   /* global */
-  @include textAlign(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include textAlign
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include textAlign(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include textAlign
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

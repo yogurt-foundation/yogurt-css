@@ -1,3 +1,8 @@
+/**
+ * @utility: typography
+ * @module: _fontWeight.scss
+ */
+
 ///// rules /////
 
 @mixin fontWeight(
@@ -21,19 +26,19 @@
 @each $modifier, $value in $font-weight {
 
   /* global */
-  @include fontWeight(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include fontWeight
+    ("", "", ".", $modifier, $value)
 
   /* hover */
-  @include fontWeight(
-    ".hover\\:", ":hover", "", $modifier, $value
-  )
+  
+  @include fontWeight
+    (".hover\\:", ":hover", "", $modifier, $value)
 
   /* focus */
-  @include fontWeight(
-    ".focus\\:", ":focus", "", $modifier, $value
-  )
+  
+  @include fontWeight
+    (".focus\\:", ":focus", "", $modifier, $value)
 
   /* active */
 
@@ -42,21 +47,20 @@
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include fontWeight(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include fontWeight
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
-      @include fontWeight(
-        ".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value
-      )
+      
+      @include fontWeight
+        (".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
 
       /* focus */
-      @include fontWeight(
-        ".#{$screen}\\:focus\\:", ":focus", "", $modifier, $value
-      )
+      
+      @include fontWeight
+        (".#{$screen}\\:focus\\:", ":focus", "", $modifier, $value)
 
       /* active */
     }

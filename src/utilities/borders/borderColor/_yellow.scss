@@ -1,26 +1,31 @@
+/**
+ * @utility: borders
+ * @module: borderColor/_yellow.scss
+ */
+
 /* global */
+
 @each $mode, $hex, $radius in $yellow {
-  @include borderColor(
-    "", "", ".", yellow, $mode, $hex, $radius
-  )
+  @include borderColor
+    ("", "", ".", yellow, $mode, $hex, $radius)
 }
 
 /* hover */
+
 @each $mode, $hex, $radius in $yellow {
-  @include borderColor(
-    ".hover\\:", ":hover", "", yellow, $mode, $hex, $radius
-  )
+  @include borderColor
+    (".hover\\:", ":hover", "", yellow, $mode, $hex, $radius)
 }
 @each $mode, $hex, $radius in $yellow {
-  @include borderColor(
-    ".group:hover .group-hover\\:", "", "", yellow, $mode, $hex, $radius
-  )
+  @include borderColor
+    (".group:hover .group-hover\\:", "", "", yellow, $mode, $hex, $radius)
 }
 
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */

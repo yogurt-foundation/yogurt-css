@@ -1,3 +1,8 @@
+/**
+ * @utility: backgrounds
+ * @module: backgroundColor/_special.scss
+ */
+
 @mixin specialBackgroundColor(
   $prefix, $pseudo, $class, $modifier, $value) {
 
@@ -16,19 +21,21 @@
 @each $modifier, $value in $special-colors {
 
   /* global */
-  @include specialBackgroundColor(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include specialBackgroundColor
+    ("", "", ".", $modifier, $value)
 
   /* hover */
-  @include specialBackgroundColor(
-    ".hover\\:", ":hover", "", $modifier, $value
-  )
+  
+  @include specialBackgroundColor
+    (".hover\\:", ":hover", "", $modifier, $value)
 
   /* focus */
+  
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* standalone */

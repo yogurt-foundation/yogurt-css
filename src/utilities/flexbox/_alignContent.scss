@@ -1,3 +1,8 @@
+/**
+ * @utility: flexbox
+ * @module: _alignContent.scss
+ */
+
 ///// rules /////
 
 @mixin alignContent(
@@ -21,24 +26,24 @@
 @each $modifier, $value in $align-content {
 
   /* global */
-  @include alignContent(
-    "", "", ".", $modifier, $value
-  )
+  
+  @include alignContent
+    ("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
+  
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
 
       /* standalone */
-
       /* global */
-      @include alignContent(
-        ".#{$screen}\\:", "", "", $modifier, $value
-      )
+      
+      @include alignContent
+        (".#{$screen}\\:", "", "", $modifier, $value)
 
       /* hover */
       /* focus */

@@ -1,3 +1,8 @@
+/**
+ * @utility: typography
+ * @module: _textDecoration.scss
+ */
+
 ///// rules /////
 
 @mixin textDecoration(
@@ -25,42 +30,42 @@
 /* active */
 
 /* global */
-@include textDecoration(
-  "", "", "."
-)
+
+@include textDecoration
+  ("", "", ".")
 
 /* hover */
-@include textDecoration(
-  ".hover\\:", ":hover", ""
-)
+
+@include textDecoration
+  (".hover\\:", ":hover", "")
 
 /* focus */
-@include textDecoration(
-  ".focus\\:", ":focus", ""
-)
+
+@include textDecoration
+  (".focus\\:", ":focus", "")
 
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
 
     /* standalone */
-
     /* global */
-    @include textDecoration(
-      ".#{$screen}\\:", "", ""
-    )
+    
+    @include textDecoration
+      (".#{$screen}\\:", "", "")
 
     /* hover */
-    @include textDecoration(
-      ".#{$screen}\\:hover\\:", ":hover", ""
-    )
+    
+    @include textDecoration
+      (".#{$screen}\\:hover\\:", ":hover", "")
 
     /* focus */
-    @include textDecoration(
-      ".#{$screen}\\:focus\\:", ":focus", ""
-    )
+    
+    @include textDecoration
+      (".#{$screen}\\:focus\\:", ":focus", "")
 
     /* active */
   }

@@ -1,3 +1,8 @@
+/**
+ * @utility: svg
+ * @module: _fill.scss
+ */
+
 ///// rules /////
 
 @mixin fill(
@@ -19,15 +24,16 @@
 /* active */
 
 /* global */
-@include fill(
-  "", "", "."
-)
+
+@include fill
+  ("", "", ".")
 
 /* hover */
 /* focus */
 /* active */
 
 /* responsive */
+
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
     /* standalone */
