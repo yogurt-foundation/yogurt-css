@@ -8,9 +8,8 @@
   @media (min-width: #{$size}) {
 
     /* standalone */
-    /* global */
 
-    // @@ typography
+    /* global */
 
     // @include textColorBlack(".#{$screen}\\:", "", "")
     // @include textColorBlue(".#{$screen}\\:", "", "")
@@ -25,8 +24,6 @@
     // @include textColorTeal(".#{$screen}\\:", "", "")
     // @include textColorYellow(".#{$screen}\\:", "", "")
 
-    // @@ backgrounds
-
     // @include backgroundColorBlack(".#{$screen}\\:", "", "")
     // @include backgroundColorBlue(".#{$screen}\\:", "", "")
     // @include backgroundColorCharcoal(".#{$screen}\\:", "", "")
@@ -40,8 +37,19 @@
     // @include backgroundColorTeal(".#{$screen}\\:", "", "")
     // @include backgroundColorYellow(".#{$screen}\\:", "", "")
 
+    @each $modifier, $value in $background-attachment {
+      @include backgroundAttachment(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+
+
     /* hover */
+
+    @each $modifier, $value in $background-attachment {
+      @include backgroundAttachment(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+    }
+
     /* focus */
+
     /* active */
 
   }

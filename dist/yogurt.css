@@ -88,6 +88,46 @@
 /* sizing */
 /* typography */
 /* backgrounds */
+/**
+ * @utility: backgrounds
+ * @module: _backgroundAttachment.scss
+ */
+/* global */
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+/* hover */
+.hover\:bg-fixed:hover {
+  background-attachment: fixed;
+}
+
+/* focus */
+/* active */
+/* global */
+.bg-local {
+  background-attachment: local;
+}
+
+/* hover */
+.hover\:bg-local:hover {
+  background-attachment: local;
+}
+
+/* focus */
+/* active */
+/* global */
+.bg-scroll {
+  background-attachment: scroll;
+}
+
+/* hover */
+.hover\:bg-scroll:hover {
+  background-attachment: scroll;
+}
+
+/* focus */
+/* active */
 /* borders */
 /* tables */
 /* effects */
@@ -103,7 +143,25 @@
 @media (min-width: 320px) {
   /* standalone */
   /* global */
+  .xs\:bg-fixed {
+    background-attachment: fixed;
+  }
+  .xs\:bg-local {
+    background-attachment: local;
+  }
+  .xs\:bg-scroll {
+    background-attachment: scroll;
+  }
   /* hover */
+  .xs\:hover\:bg-fixed:hover {
+    background-attachment: fixed;
+  }
+  .xs\:hover\:bg-local:hover {
+    background-attachment: local;
+  }
+  .xs\:hover\:bg-scroll:hover {
+    background-attachment: scroll;
+  }
   /* focus */
   /* active */
 }
@@ -111,7 +169,25 @@
 @media (min-width: 640px) {
   /* standalone */
   /* global */
+  .sm\:bg-fixed {
+    background-attachment: fixed;
+  }
+  .sm\:bg-local {
+    background-attachment: local;
+  }
+  .sm\:bg-scroll {
+    background-attachment: scroll;
+  }
   /* hover */
+  .sm\:hover\:bg-fixed:hover {
+    background-attachment: fixed;
+  }
+  .sm\:hover\:bg-local:hover {
+    background-attachment: local;
+  }
+  .sm\:hover\:bg-scroll:hover {
+    background-attachment: scroll;
+  }
   /* focus */
   /* active */
 }
@@ -119,7 +195,25 @@
 @media (min-width: 768px) {
   /* standalone */
   /* global */
+  .md\:bg-fixed {
+    background-attachment: fixed;
+  }
+  .md\:bg-local {
+    background-attachment: local;
+  }
+  .md\:bg-scroll {
+    background-attachment: scroll;
+  }
   /* hover */
+  .md\:hover\:bg-fixed:hover {
+    background-attachment: fixed;
+  }
+  .md\:hover\:bg-local:hover {
+    background-attachment: local;
+  }
+  .md\:hover\:bg-scroll:hover {
+    background-attachment: scroll;
+  }
   /* focus */
   /* active */
 }
@@ -127,7 +221,25 @@
 @media (min-width: 1024px) {
   /* standalone */
   /* global */
+  .lg\:bg-fixed {
+    background-attachment: fixed;
+  }
+  .lg\:bg-local {
+    background-attachment: local;
+  }
+  .lg\:bg-scroll {
+    background-attachment: scroll;
+  }
   /* hover */
+  .lg\:hover\:bg-fixed:hover {
+    background-attachment: fixed;
+  }
+  .lg\:hover\:bg-local:hover {
+    background-attachment: local;
+  }
+  .lg\:hover\:bg-scroll:hover {
+    background-attachment: scroll;
+  }
   /* focus */
   /* active */
 }
@@ -135,7 +247,25 @@
 @media (min-width: 1280px) {
   /* standalone */
   /* global */
+  .xl\:bg-fixed {
+    background-attachment: fixed;
+  }
+  .xl\:bg-local {
+    background-attachment: local;
+  }
+  .xl\:bg-scroll {
+    background-attachment: scroll;
+  }
   /* hover */
+  .xl\:hover\:bg-fixed:hover {
+    background-attachment: fixed;
+  }
+  .xl\:hover\:bg-local:hover {
+    background-attachment: local;
+  }
+  .xl\:hover\:bg-scroll:hover {
+    background-attachment: scroll;
+  }
   /* focus */
   /* active */
 }
