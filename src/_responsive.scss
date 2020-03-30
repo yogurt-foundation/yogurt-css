@@ -37,16 +37,19 @@
     // @include backgroundColorTeal(".#{$screen}\\:", "", "")
     // @include backgroundColorYellow(".#{$screen}\\:", "", "")
 
-    @each $modifier, $value in $background-attachment {
-      @include backgroundAttachment(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $background-attachment {
+    //   @include backgroundAttachment(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
+    // @each $modifier, $value in $background-position {
+    //   @include backgroundPosition(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
     /* hover */
 
-    @each $modifier, $value in $background-attachment {
-      @include backgroundAttachment(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $background-attachment {
+    //   @include backgroundAttachment(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+    // }
 
     /* focus */
 

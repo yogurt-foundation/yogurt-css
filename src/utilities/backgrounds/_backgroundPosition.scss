@@ -3,51 +3,25 @@
  * @module: _backgroundPosition.scss
  */
 
-///// rules /////
-
 @mixin backgroundPosition(
   $prefix, $pseudo, $class, $modifier, $value) {
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "bg-", $modifier,
-    "background-position", $value#{$override}
-  )
-
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "bg-", $modifier,
+      "background-position", $value#{$override}
+    )
 }
-
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 
 @each $modifier, $value in $background-position {
 
   /* global */
-  
-  @include backgroundPosition
-    ("", "", ".", $modifier, $value)
+
+  @include backgroundPosition("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
-  /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
-
-      /* standalone */
-      /* global */
-      
-      @include backgroundPosition
-        (".#{$screen}\\:", "", "", $modifier, $value)
-
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

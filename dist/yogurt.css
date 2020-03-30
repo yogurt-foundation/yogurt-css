@@ -90,44 +90,396 @@
 /* backgrounds */
 /**
  * @utility: backgrounds
- * @module: _backgroundAttachment.scss
+ * @module: _backgroundRepeat.scss
  */
-/* global */
-.bg-fixed {
-  background-attachment: fixed;
-}
-
+/* standalone */
 /* hover */
-.hover\:bg-fixed:hover {
-  background-attachment: fixed;
-}
-
 /* focus */
 /* active */
 /* global */
-.bg-local {
-  background-attachment: local;
+.bg-repeat {
+  background-repeat: repeat;
 }
 
 /* hover */
-.hover\:bg-local:hover {
-  background-attachment: local;
-}
-
 /* focus */
 /* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* standalone */
+  /* global */
+  .xs\:bg-repeat {
+    background-repeat: repeat;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* standalone */
+  /* global */
+  .sm\:bg-repeat {
+    background-repeat: repeat;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* standalone */
+  /* global */
+  .md\:bg-repeat {
+    background-repeat: repeat;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* standalone */
+  /* global */
+  .lg\:bg-repeat {
+    background-repeat: repeat;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* standalone */
+  /* global */
+  .xl\:bg-repeat {
+    background-repeat: repeat;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
 /* global */
-.bg-scroll {
-  background-attachment: scroll;
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 /* hover */
-.hover\:bg-scroll:hover {
-  background-attachment: scroll;
-}
-
 /* focus */
 /* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* standalone */
+  /* global */
+  .xs\:bg-no-repeat {
+    background-repeat: no-repeat;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* standalone */
+  /* global */
+  .sm\:bg-no-repeat {
+    background-repeat: no-repeat;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* standalone */
+  /* global */
+  .md\:bg-no-repeat {
+    background-repeat: no-repeat;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* standalone */
+  /* global */
+  .lg\:bg-no-repeat {
+    background-repeat: no-repeat;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* standalone */
+  /* global */
+  .xl\:bg-no-repeat {
+    background-repeat: no-repeat;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* global */
+.bg-repeat-x {
+  background-repeat: repeat-x;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* standalone */
+  /* global */
+  .xs\:bg-repeat-x {
+    background-repeat: repeat-x;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* standalone */
+  /* global */
+  .sm\:bg-repeat-x {
+    background-repeat: repeat-x;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* standalone */
+  /* global */
+  .md\:bg-repeat-x {
+    background-repeat: repeat-x;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* standalone */
+  /* global */
+  .lg\:bg-repeat-x {
+    background-repeat: repeat-x;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* standalone */
+  /* global */
+  .xl\:bg-repeat-x {
+    background-repeat: repeat-x;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* global */
+.bg-repeat-y {
+  background-repeat: repeat-y;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* standalone */
+  /* global */
+  .xs\:bg-repeat-y {
+    background-repeat: repeat-y;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* standalone */
+  /* global */
+  .sm\:bg-repeat-y {
+    background-repeat: repeat-y;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* standalone */
+  /* global */
+  .md\:bg-repeat-y {
+    background-repeat: repeat-y;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* standalone */
+  /* global */
+  .lg\:bg-repeat-y {
+    background-repeat: repeat-y;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* standalone */
+  /* global */
+  .xl\:bg-repeat-y {
+    background-repeat: repeat-y;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* global */
+.bg-repeat-round {
+  background-repeat: round;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* standalone */
+  /* global */
+  .xs\:bg-repeat-round {
+    background-repeat: round;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* standalone */
+  /* global */
+  .sm\:bg-repeat-round {
+    background-repeat: round;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* standalone */
+  /* global */
+  .md\:bg-repeat-round {
+    background-repeat: round;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* standalone */
+  /* global */
+  .lg\:bg-repeat-round {
+    background-repeat: round;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* standalone */
+  /* global */
+  .xl\:bg-repeat-round {
+    background-repeat: round;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+/* global */
+.bg-repeat-space {
+  background-repeat: space;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* responsive */
+@media (min-width: 320px) {
+  /* standalone */
+  /* global */
+  .xs\:bg-repeat-space {
+    background-repeat: space;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 640px) {
+  /* standalone */
+  /* global */
+  .sm\:bg-repeat-space {
+    background-repeat: space;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 768px) {
+  /* standalone */
+  /* global */
+  .md\:bg-repeat-space {
+    background-repeat: space;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1024px) {
+  /* standalone */
+  /* global */
+  .lg\:bg-repeat-space {
+    background-repeat: space;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
+@media (min-width: 1280px) {
+  /* standalone */
+  /* global */
+  .xl\:bg-repeat-space {
+    background-repeat: space;
+  }
+  /* hover */
+  /* focus */
+  /* active */
+}
+
 /* borders */
 /* tables */
 /* effects */
@@ -143,25 +495,7 @@
 @media (min-width: 320px) {
   /* standalone */
   /* global */
-  .xs\:bg-fixed {
-    background-attachment: fixed;
-  }
-  .xs\:bg-local {
-    background-attachment: local;
-  }
-  .xs\:bg-scroll {
-    background-attachment: scroll;
-  }
   /* hover */
-  .xs\:hover\:bg-fixed:hover {
-    background-attachment: fixed;
-  }
-  .xs\:hover\:bg-local:hover {
-    background-attachment: local;
-  }
-  .xs\:hover\:bg-scroll:hover {
-    background-attachment: scroll;
-  }
   /* focus */
   /* active */
 }
@@ -169,25 +503,7 @@
 @media (min-width: 640px) {
   /* standalone */
   /* global */
-  .sm\:bg-fixed {
-    background-attachment: fixed;
-  }
-  .sm\:bg-local {
-    background-attachment: local;
-  }
-  .sm\:bg-scroll {
-    background-attachment: scroll;
-  }
   /* hover */
-  .sm\:hover\:bg-fixed:hover {
-    background-attachment: fixed;
-  }
-  .sm\:hover\:bg-local:hover {
-    background-attachment: local;
-  }
-  .sm\:hover\:bg-scroll:hover {
-    background-attachment: scroll;
-  }
   /* focus */
   /* active */
 }
@@ -195,25 +511,7 @@
 @media (min-width: 768px) {
   /* standalone */
   /* global */
-  .md\:bg-fixed {
-    background-attachment: fixed;
-  }
-  .md\:bg-local {
-    background-attachment: local;
-  }
-  .md\:bg-scroll {
-    background-attachment: scroll;
-  }
   /* hover */
-  .md\:hover\:bg-fixed:hover {
-    background-attachment: fixed;
-  }
-  .md\:hover\:bg-local:hover {
-    background-attachment: local;
-  }
-  .md\:hover\:bg-scroll:hover {
-    background-attachment: scroll;
-  }
   /* focus */
   /* active */
 }
@@ -221,25 +519,7 @@
 @media (min-width: 1024px) {
   /* standalone */
   /* global */
-  .lg\:bg-fixed {
-    background-attachment: fixed;
-  }
-  .lg\:bg-local {
-    background-attachment: local;
-  }
-  .lg\:bg-scroll {
-    background-attachment: scroll;
-  }
   /* hover */
-  .lg\:hover\:bg-fixed:hover {
-    background-attachment: fixed;
-  }
-  .lg\:hover\:bg-local:hover {
-    background-attachment: local;
-  }
-  .lg\:hover\:bg-scroll:hover {
-    background-attachment: scroll;
-  }
   /* focus */
   /* active */
 }
@@ -247,25 +527,7 @@
 @media (min-width: 1280px) {
   /* standalone */
   /* global */
-  .xl\:bg-fixed {
-    background-attachment: fixed;
-  }
-  .xl\:bg-local {
-    background-attachment: local;
-  }
-  .xl\:bg-scroll {
-    background-attachment: scroll;
-  }
   /* hover */
-  .xl\:hover\:bg-fixed:hover {
-    background-attachment: fixed;
-  }
-  .xl\:hover\:bg-local:hover {
-    background-attachment: local;
-  }
-  .xl\:hover\:bg-scroll:hover {
-    background-attachment: scroll;
-  }
   /* focus */
   /* active */
 }
