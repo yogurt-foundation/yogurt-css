@@ -10,19 +10,20 @@
     /* standalone */
     /* global */
 
-    // typography/textColor
-    @include black(".#{$screen}\\:", "", "");
-    @include blue(".#{$screen}\\:", "", "");
-    @include charcoal(".#{$screen}\\:", "", "");
-    @include gray(".#{$screen}\\:", "", "");
-    @include green(".#{$screen}\\:", "", "");
-    @include indigo(".#{$screen}\\:", "", "");
-    @include orange(".#{$screen}\\:", "", "");
-    @include pink(".#{$screen}\\:", "", "");
-    @include purple(".#{$screen}\\:", "", "");
-    @include red(".#{$screen}\\:", "", "");
-    @include teal(".#{$screen}\\:", "", "");
-    @include yellow(".#{$screen}\\:", "", "");
+    // @@ typography
+
+    @include textColorBlack(".#{$screen}\\:", "", "");
+    @include textColorBlue(".#{$screen}\\:", "", "");
+    @include textColorCharcoal(".#{$screen}\\:", "", "");
+    @include textColorGray(".#{$screen}\\:", "", "");
+    @include textColorGreen(".#{$screen}\\:", "", "");
+    @include textColorIndigo(".#{$screen}\\:", "", "");
+    @include textColorOrange(".#{$screen}\\:", "", "");
+    @include textColorPink(".#{$screen}\\:", "", "");
+    @include textColorPurple(".#{$screen}\\:", "", "");
+    @include textColorRed(".#{$screen}\\:", "", "");
+    @include textColorTeal(".#{$screen}\\:", "", "");
+    @include textColorYellow(".#{$screen}\\:", "", "");
 
     /* hover */
     /* focus */

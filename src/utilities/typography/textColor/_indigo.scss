@@ -3,7 +3,7 @@
  * @module: textColor/_indigo.scss
  */
 
-@mixin indigo($prefix, $pseudo, $class) {
+@mixin textColorIndigo($prefix, $pseudo, $class) {
   @each $mode, $hex, $radius in $indigo {
     @include textColor
       ($prefix, $pseudo, $class, indigo, $mode, $hex, $radius)
@@ -12,20 +12,20 @@
 
 /* global */
 
-@include indigo("", "", ".");
+@include textColorIndigo("", "", ".");
 
 /* hover */
 
-@include indigo(".hover\\:", ":hover", "");
+@include textColorIndigo(".hover\\:", ":hover", "");
 
 /* group hover */
 
-@include indigo(".group:hover .group-hover\\:", "", "");
+@include textColorIndigo(".group:hover .group-hover\\:", "", "");
 
 /* focus */
 
-// @include indigo(".focus\\:", ":focus", "");
+// @include textColorIndigo(".focus\\:", ":focus", "");
 
 /* active */
 
-// @include indigo(".active\\:", ":active", "");
+// @include textColorIndigo(".active\\:", ":active", "");

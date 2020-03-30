@@ -3,7 +3,7 @@
  * @module: textColor/_pink.scss
  */
 
-@mixin pink($prefix, $pseudo, $class) {
+@mixin textColorPink($prefix, $pseudo, $class) {
   @each $mode, $hex, $radius in $pink {
     @include textColor
       ($prefix, $pseudo, $class, pink, $mode, $hex, $radius)
@@ -12,20 +12,20 @@
 
 /* global */
 
-@include pink("", "", ".");
+@include textColorPink("", "", ".");
 
 /* hover */
 
-@include pink(".hover\\:", ":hover", "");
+@include textColorPink(".hover\\:", ":hover", "");
 
 /* group hover */
 
-@include pink(".group:hover .group-hover\\:", "", "");
+@include textColorPink(".group:hover .group-hover\\:", "", "");
 
 /* focus */
 
-// @include pink(".focus\\:", ":focus", "");
+// @include textColorPink(".focus\\:", ":focus", "");
 
 /* active */
 
-// @include pink(".active\\:", ":active", "");
+// @include textColorPink(".active\\:", ":active", "");

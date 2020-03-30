@@ -3,7 +3,7 @@
  * @module: textColor/_orange.scss
  */
 
-@mixin orange($prefix, $pseudo, $class) {
+@mixin textColorOrange($prefix, $pseudo, $class) {
   @each $mode, $hex, $radius in $orange {
     @include textColor
       ($prefix, $pseudo, $class, orange, $mode, $hex, $radius)
@@ -12,20 +12,20 @@
 
 /* global */
 
-@include orange("", "", ".");
+@include textColorOrange("", "", ".");
 
 /* hover */
 
-@include orange(".hover\\:", ":hover", "");
+@include textColorOrange(".hover\\:", ":hover", "");
 
 /* group hover */
 
-@include orange(".group:hover .group-hover\\:", "", "");
+@include textColorOrange(".group:hover .group-hover\\:", "", "");
 
 /* focus */
 
-// @include orange(".focus\\:", ":focus", "");
+// @include textColorOrange(".focus\\:", ":focus", "");
 
 /* active */
 
-// @include orange(".active\\:", ":active", "");
+// @include textColorOrange(".active\\:", ":active", "");

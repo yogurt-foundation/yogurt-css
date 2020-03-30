@@ -3,7 +3,7 @@
  * @module: textColor/_teal.scss
  */
 
-@mixin teal($prefix, $pseudo, $class) {
+@mixin textColorTeal($prefix, $pseudo, $class) {
   @each $mode, $hex, $radius in $teal {
     @include textColor
       ($prefix, $pseudo, $class, teal, $mode, $hex, $radius)
@@ -12,20 +12,20 @@
 
 /* global */
 
-@include teal("", "", ".");
+@include textColorTeal("", "", ".");
 
 /* hover */
 
-@include teal(".hover\\:", ":hover", "");
+@include textColorTeal(".hover\\:", ":hover", "");
 
 /* group hover */
 
-@include teal(".group:hover .group-hover\\:", "", "");
+@include textColorTeal(".group:hover .group-hover\\:", "", "");
 
 /* focus */
 
-// @include teal(".focus\\:", ":focus", "");
+// @include textColorTeal(".focus\\:", ":focus", "");
 
 /* active */
 
-// @include teal(".active\\:", ":active", "");
+// @include textColorTeal(".active\\:", ":active", "");

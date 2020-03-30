@@ -3,7 +3,7 @@
  * @module: textColor/_purple.scss
  */
 
-@mixin purple($prefix, $pseudo, $class) {
+@mixin textColorPurple($prefix, $pseudo, $class) {
   @each $mode, $hex, $radius in $purple {
     @include textColor
       ($prefix, $pseudo, $class, purple, $mode, $hex, $radius)
@@ -12,20 +12,20 @@
 
 /* global */
 
-@include purple("", "", ".");
+@include textColorPurple("", "", ".");
 
 /* hover */
 
-@include purple(".hover\\:", ":hover", "");
+@include textColorPurple(".hover\\:", ":hover", "");
 
 /* group hover */
 
-@include purple(".group:hover .group-hover\\:", "", "");
+@include textColorPurple(".group:hover .group-hover\\:", "", "");
 
 /* focus */
 
-// @include purple(".focus\\:", ":focus", "");
+// @include textColorPurple(".focus\\:", ":focus", "");
 
 /* active */
 
-// @include purple(".active\\:", ":active", "");
+// @include textColorPurple(".active\\:", ":active", "");

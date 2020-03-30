@@ -3,7 +3,7 @@
  * @module: textColor/_yellow.scss
  */
 
-@mixin yellow($prefix, $pseudo, $class) {
+@mixin textColorYellow($prefix, $pseudo, $class) {
   @each $mode, $hex, $radius in $yellow {
     @include textColor
       ($prefix, $pseudo, $class, yellow, $mode, $hex, $radius)
@@ -12,20 +12,20 @@
 
 /* global */
 
-@include yellow("", "", ".");
+@include textColorYellow("", "", ".");
 
 /* hover */
 
-@include yellow(".hover\\:", ":hover", "");
+@include textColorYellow(".hover\\:", ":hover", "");
 
 /* group hover */
 
-@include yellow(".group:hover .group-hover\\:", "", "");
+@include textColorYellow(".group:hover .group-hover\\:", "", "");
 
 /* focus */
 
-// @include teal(".focus\\:", ":focus", "");
+// @include textColorYellow(".focus\\:", ":focus", "");
 
 /* active */
 
-// @include teal(".active\\:", ":active", "");
+// @include textColorYellow(".active\\:", ":active", "");

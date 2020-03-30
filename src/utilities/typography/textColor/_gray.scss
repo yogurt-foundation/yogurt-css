@@ -3,7 +3,7 @@
  * @module: textColor/_gray.scss
  */
 
-@mixin gray($prefix, $pseudo, $class) {
+@mixin textColorGray($prefix, $pseudo, $class) {
   @each $mode, $hex, $radius in $gray {
     @include textColor
       ($prefix, $pseudo, $class, gray, $mode, $hex, $radius)
@@ -12,20 +12,20 @@
 
 /* global */
 
-@include gray("", "", ".");
+@include textColorGray("", "", ".");
 
 /* hover */
 
-@include gray(".hover\\:", ":hover", "");
+@include textColorGray(".hover\\:", ":hover", "");
 
 /* group hover */
 
-@include gray(".group:hover .group-hover\\:", "", "");
+@include textColorGray(".group:hover .group-hover\\:", "", "");
 
 /* focus */
 
-// @include gray(".focus\\:", ":focus", "");
+// @include textColorGray(".focus\\:", ":focus", "");
 
 /* active */
 
-// @include gray(".active\\:", ":active", "");
+// @include textColorGray(".active\\:", ":active", "");

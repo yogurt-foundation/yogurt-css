@@ -3,7 +3,7 @@
  * @module: textColor/_special.scss
  */
 
-@mixin special($prefix, $pseudo, $class, $modifier, $value) {
+@mixin textColorSpecial($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}text-#{$modifier}#{$pseudo} {
     color: #{$value}#{$override}
   }
@@ -13,22 +13,22 @@
 
   /* global */
 
-  @include special ("", "", ".", $modifier, $value)
+  @include textColorSpecial("", "", ".", $modifier, $value)
 
   /* hover */
 
-  @include special (".hover\\:", ":hover", "", $modifier, $value)
+  @include textColorSpecial(".hover\\:", ":hover", "", $modifier, $value)
 
   /* group hover */
 
-  @include special (".group:hover .group-hover\\:", "", "", $modifier, $value)
+  @include textColorSpecial(".group:hover .group-hover\\:", "", "", $modifier, $value)
 
   /* focus */
 
-  // @include special (".focus\\:", ":focus", "", $modifier, $value)
+  // @include textColorSpecial(".focus\\:", ":focus", "", $modifier, $value)
 
   /* active */
 
-  // @include special (".active\\:", ":active", "", $modifier, $value)
+  // @include textColorSpecial(".active\\:", ":active", "", $modifier, $value)
 
 }

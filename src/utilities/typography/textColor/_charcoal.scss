@@ -3,7 +3,7 @@
  * @module: textColor/_charcoal.scss
  */
 
-@mixin charcoal($prefix, $pseudo, $class) {
+@mixin textColorCharcoal($prefix, $pseudo, $class) {
   @each $mode, $hex, $radius in $charcoal {
     @include textColor
       ($prefix, $pseudo, $class, charcoal, $mode, $hex, $radius)
@@ -12,20 +12,20 @@
 
 /* global */
 
-@include charcoal("", "", ".");
+@include textColorCharcoal("", "", ".");
 
 /* hover */
 
-@include charcoal(".hover\\:", ":hover", "");
+@include textColorCharcoal(".hover\\:", ":hover", "");
 
 /* group hover */
 
-@include charcoal(".group:hover .group-hover\\:", "", "");
+@include textColorCharcoal(".group:hover .group-hover\\:", "", "");
 
 /* focus */
 
-// @include charcoal(".focus\\:", ":focus", "");
+// @include textColorCharcoal(".focus\\:", ":focus", "");
 
 /* active */
 
-// @include charcoal(".active\\:", ":active", "");
+// @include textColorCharcoal(".active\\:", ":active", "");

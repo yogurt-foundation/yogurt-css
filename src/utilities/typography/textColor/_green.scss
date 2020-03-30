@@ -3,7 +3,7 @@
  * @module: textColor/_green.scss
  */
 
-@mixin green($prefix, $pseudo, $class) {
+@mixin textColorGreen($prefix, $pseudo, $class) {
   @each $mode, $hex, $radius in $green {
     @include textColor
       ($prefix, $pseudo, $class, green, $mode, $hex, $radius)
@@ -12,20 +12,20 @@
 
 /* global */
 
-@include green("", "", ".");
+@include textColorGreen("", "", ".");
 
 /* hover */
 
-@include green(".hover\\:", ":hover", "");
+@include textColorGreen(".hover\\:", ":hover", "");
 
 /* group hover */
 
-@include green(".group:hover .group-hover\\:", "", "");
+@include textColorGreen(".group:hover .group-hover\\:", "", "");
 
 /* focus */
 
-// @include green(".focus\\:", ":focus", "");
+// @include textColorGreen(".focus\\:", ":focus", "");
 
 /* active */
 
-// @include green(".active\\:", ":active", "");
+// @include textColorGreen(".active\\:", ":active", "");

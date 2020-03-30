@@ -3,7 +3,7 @@
  * @module: textColor/_black.scss
  */
 
-@mixin black($prefix, $pseudo, $class){
+@mixin textColorBlack($prefix, $pseudo, $class){
   @each $mode, $hex, $radius in $black {
     @include textColor
       ($prefix, $pseudo, $class, black, $mode, $hex, $radius)
@@ -12,20 +12,20 @@
 
 /* global */
 
-@include black("", "", ".");
+@include textColorBlack("", "", ".");
 
 /* hover */
 
-@include black(".hover\\:", ":hover", "");
+@include textColorBlack(".hover\\:", ":hover", "");
 
 /* group hover */
 
-@include black(".group:hover .group-hover\\:", "", "");
+@include textColorBlack(".group:hover .group-hover\\:", "", "");
 
 /* focus */
 
-// @include black(".focus\\:", ":focus", "");
+// @include textColorBlack(".focus\\:", ":focus", "");
 
 /* active */
 
-// @include black(".active\\:", ":active", "");
+// @include textColorBlack(".active\\:", ":active", "");

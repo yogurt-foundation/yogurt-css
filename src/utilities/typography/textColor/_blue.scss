@@ -3,7 +3,7 @@
  * @module: textColor/_blue.scss
  */
 
-@mixin blue($prefix, $pseudo, $class) {
+@mixin textColorBlue($prefix, $pseudo, $class) {
   @each $mode, $hex, $radius in $blue {
     @include textColor
       ($prefix, $pseudo, $class, blue, $mode, $hex, $radius)
@@ -12,20 +12,20 @@
 
 /* global */
 
-@include blue("", "", ".");
+@include textColorBlue("", "", ".");
 
 /* hover */
 
-@include blue(".hover\\:", ":hover", "");
+@include textColorBlue(".hover\\:", ":hover", "");
 
 /* group hover */
 
-@include blue(".group:hover .group-hover\\:", "", "");
+@include textColorBlue(".group:hover .group-hover\\:", "", "");
 
 /* focus */
 
-// @include blue(".focus\\:", ":focus", "");
+// @include textColorBlue(".focus\\:", ":focus", "");
 
 /* active */
 
-// @include blue(".active\\:", ":active", "");
+// @include textColorBlue(".active\\:", ":active", "");

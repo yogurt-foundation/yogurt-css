@@ -3,7 +3,7 @@
  * @module: textColor/_red.scss
  */
 
-@mixin red($prefix, $pseudo, $class) {
+@mixin textColorRed($prefix, $pseudo, $class) {
   @each $mode, $hex, $radius in $red {
     @include textColor
       ($prefix, $pseudo, $class, red, $mode, $hex, $radius)
@@ -12,20 +12,20 @@
 
 /* global */
 
-@include red("", "", ".");
+@include textColorRed("", "", ".");
 
 /* hover */
 
-@include red(".hover\\:", ":hover", "");
+@include textColorRed(".hover\\:", ":hover", "");
 
 /* group hover */
 
-@include red(".group:hover .group-hover\\:", "", "");
+@include textColorRed(".group:hover .group-hover\\:", "", "");
 
 /* focus */
 
-// @include red(".focus\\:", ":focus", "");
+// @include textColorRed(".focus\\:", ":focus", "");
 
 /* active */
 
-// @include red(".active\\:", ":active", "");
+// @include textColorRed(".active\\:", ":active", "");
