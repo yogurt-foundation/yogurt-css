@@ -71,9 +71,9 @@
 // @import 'utilities/typography/listStylePosition';
 // @import 'utilities/typography/listStyleType';
 // @import 'utilities/typography/placeholder';
-// @import 'utilities/typography/placeholderColor/black';
+@import 'utilities/typography/placeholderColor/*'; // ok
 // @import 'utilities/typography/textAlign';
-@import 'utilities/typography/textColor/*'; // ok
+// @import 'utilities/typography/textColor/*'; // ok
 // @import 'utilities/typography/textDecoration';
 // @import 'utilities/typography/textTransform';
 // @import 'utilities/typography/verticalAlign';

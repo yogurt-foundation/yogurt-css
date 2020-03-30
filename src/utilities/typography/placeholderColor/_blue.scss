@@ -3,31 +3,21 @@
  * @module: placeholderColor/_blue.scss
  */
 
-/* global */
-
-@each $mode, $hex, $radius in $blue {
-  @include placeholderColor
-    ("", "", ".", blue, $mode, $hex, $radius)
-}
-
-/* hover */
-/* focus */
-
-@each $mode, $hex, $radius in $blue {
-  @include placeholderColor
-    (".focus\\:", ":hover", "", blue, $mode, $hex, $radius)
-}
-
-/* active */
-
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
+@mixin placeholderColorBlue($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $blue {
+    @include placeholderColor
+      ($prefix, $pseudo, $class, blue, $mode, $hex, $radius)
   }
 }
+
+/* global */
+
+@include placeholderColorBlue("", "", ".")
+
+/* hover */
+
+/* focus */
+
+@include placeholderColorBlue(".focus\\:", ":hover", "")
+
+/* active */

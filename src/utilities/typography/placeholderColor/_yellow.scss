@@ -3,31 +3,22 @@
  * @module: placeholderColor/_yellow.scss
  */
 
+@mixin placeholderColorYellow($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $yellow {
+    @include placeholderColor
+      ($prefix, $pseudo, $class, yellow, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $yellow {
-  @include placeholderColor
-    ("", "", ".", yellow, $mode, $hex, $radius)
-}
+@include placeholderColorYellow("", "", ".")
 
 /* hover */
+
 /* focus */
 
-@each $mode, $hex, $radius in $yellow {
-  @include placeholderColor
-    (".focus\\:", ":focus", "", yellow, $mode, $hex, $radius)
-}
+@include placeholderColorYellow(".focus\\:", ":focus", "")
 
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}

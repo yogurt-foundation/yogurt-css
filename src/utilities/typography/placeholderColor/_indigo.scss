@@ -3,31 +3,22 @@
  * @module: placeholderColor/_indigo.scss
  */
 
+@mixin placeholderColorIndigo($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $indigo {
+    @include placeholderColor
+      ($prefix, $pseudo, $class, indigo, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $indigo {
-  @include placeholderColor
-    ("", "", ".", indigo, $mode, $hex, $radius)
-}
+@include placeholderColorIndigo("", "", ".")
 
 /* hover */
+
 /* focus */
 
-@each $mode, $hex, $radius in $indigo {
-  @include placeholderColor
-    (".focus\\:", ":hover", "", indigo, $mode, $hex, $radius)
-}
+@include placeholderColorIndigo(".focus\\:", ":hover", "")
 
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}

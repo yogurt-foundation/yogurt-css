@@ -3,31 +3,22 @@
  * @module: placeholderColor/_green.scss
  */
 
+@mixin placeholderColorGreen($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $green {
+    @include placeholderColor
+      ($prefix, $pseudo, $class, green, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $green {
-  @include placeholderColor
-    ("", "", ".", green, $mode, $hex, $radius)
-}
+@include placeholderColorGreen("", "", ".")
 
 /* hover */
+
 /* focus */
 
-@each $mode, $hex, $radius in $green {
-  @include placeholderColor
-    (".focus\\:", ":focus", "", green, $mode, $hex, $radius)
-}
+@include placeholderColorGreen(".focus\\:", ":focus", "")
 
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}

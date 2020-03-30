@@ -3,31 +3,22 @@
  * @module: placeholderColor/_charcoal.scss
  */
 
+@mixin placeholderColorCharcoal($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $charcoal {
+    @include placeholderColor
+      ($prefix, $pseudo, $class, charcoal, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $charcoal {
-  @include placeholderColor
-    ("", "", ".", charcoal, $mode, $hex, $radius)
-}
+@include placeholderColorCharcoal("", "", ".")
 
 /* hover */
+
 /* focus */
 
-@each $mode, $hex, $radius in $charcoal {
-  @include placeholderColor
-    (".focus\\:", ":focus", "", charcoal, $mode, $hex, $radius)
-}
+@include placeholderColorCharcoal(".focus\\:", ":focus", "")
 
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}

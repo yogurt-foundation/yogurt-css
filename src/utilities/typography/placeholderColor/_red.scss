@@ -3,31 +3,22 @@
  * @module: placeholderColor/_red.scss
  */
 
+@mixin placeholderColorRed($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $red {
+    @include placeholderColor
+      ($prefix, $pseudo, $class, red, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $red {
-  @include placeholderColor
-    ("", "", ".", red, $mode, $hex, $radius)
-}
+@include placeholderColorRed("", "", ".")
 
 /* hover */
+
 /* focus */
 
-@each $mode, $hex, $radius in $red {
-  @include placeholderColor
-    (".focus\\:", ":focus", ".", red, $mode, $hex, $radius)
-}
+@include placeholderColorRed(".focus\\:", ":focus", "")
 
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}

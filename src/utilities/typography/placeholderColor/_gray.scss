@@ -3,31 +3,22 @@
  * @module: placeholderColor/_gray.scss
  */
 
+@mixin placeholderColorGray($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $gray {
+    @include placeholderColor
+      ($prefix, $pseudo, $class, gray, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $gray {
-  @include placeholderColor
-    ("", "", ".", gray, $mode, $hex, $radius)
-}
+@include placeholderColorGray("", "", ".")
 
 /* hover */
+
 /* focus */
 
-@each $mode, $hex, $radius in $gray {
-  @include placeholderColor
-    (".focus\\:", ":focus", "", gray, $mode, $hex, $radius)
-}
+@include placeholderColorGray(".focus\\:", ":focus", "")
 
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}

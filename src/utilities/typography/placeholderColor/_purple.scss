@@ -3,31 +3,22 @@
  * @module: placeholderColor/_purple.scss
  */
 
+@mixin placeholderColorPurple($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $purple {
+    @include placeholderColor
+      ($prefix, $pseudo, $class, purple, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $purple {
-  @include placeholderColor
-    ("", "", ".", purple, $mode, $hex, $radius)
-}
+@include placeholderColorPurple("", "", ".")
 
 /* hover */
+
 /* focus */
 
-@each $mode, $hex, $radius in $purple {
-  @include placeholderColor
-    (".focus\\:", ":focus", "", purple, $mode, $hex, $radius)
-}
+@include placeholderColorPurple(".focus\\:", ":focus", "")
 
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
