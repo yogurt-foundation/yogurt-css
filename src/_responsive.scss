@@ -45,6 +45,10 @@
     //   @include backgroundPosition(".#{$screen}\\:", "", "", $modifier, $value)
     // }
 
+    // @each $modifier, $value in $background-repeat {
+    //   @include backgroundRepeat(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
     /* hover */
 
     // @each $modifier, $value in $background-attachment {

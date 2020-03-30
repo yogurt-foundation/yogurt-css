@@ -92,10 +92,6 @@
  * @utility: backgrounds
  * @module: _backgroundRepeat.scss
  */
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 /* global */
 .bg-repeat {
   background-repeat: repeat;
@@ -104,62 +100,6 @@
 /* hover */
 /* focus */
 /* active */
-/* responsive */
-@media (min-width: 320px) {
-  /* standalone */
-  /* global */
-  .xs\:bg-repeat {
-    background-repeat: repeat;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 640px) {
-  /* standalone */
-  /* global */
-  .sm\:bg-repeat {
-    background-repeat: repeat;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* standalone */
-  /* global */
-  .md\:bg-repeat {
-    background-repeat: repeat;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* standalone */
-  /* global */
-  .lg\:bg-repeat {
-    background-repeat: repeat;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* standalone */
-  /* global */
-  .xl\:bg-repeat {
-    background-repeat: repeat;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
 /* global */
 .bg-no-repeat {
   background-repeat: no-repeat;
@@ -168,62 +108,6 @@
 /* hover */
 /* focus */
 /* active */
-/* responsive */
-@media (min-width: 320px) {
-  /* standalone */
-  /* global */
-  .xs\:bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 640px) {
-  /* standalone */
-  /* global */
-  .sm\:bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* standalone */
-  /* global */
-  .md\:bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* standalone */
-  /* global */
-  .lg\:bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* standalone */
-  /* global */
-  .xl\:bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
 /* global */
 .bg-repeat-x {
   background-repeat: repeat-x;
@@ -232,62 +116,6 @@
 /* hover */
 /* focus */
 /* active */
-/* responsive */
-@media (min-width: 320px) {
-  /* standalone */
-  /* global */
-  .xs\:bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 640px) {
-  /* standalone */
-  /* global */
-  .sm\:bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* standalone */
-  /* global */
-  .md\:bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* standalone */
-  /* global */
-  .lg\:bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* standalone */
-  /* global */
-  .xl\:bg-repeat-x {
-    background-repeat: repeat-x;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
 /* global */
 .bg-repeat-y {
   background-repeat: repeat-y;
@@ -296,62 +124,6 @@
 /* hover */
 /* focus */
 /* active */
-/* responsive */
-@media (min-width: 320px) {
-  /* standalone */
-  /* global */
-  .xs\:bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 640px) {
-  /* standalone */
-  /* global */
-  .sm\:bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* standalone */
-  /* global */
-  .md\:bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* standalone */
-  /* global */
-  .lg\:bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* standalone */
-  /* global */
-  .xl\:bg-repeat-y {
-    background-repeat: repeat-y;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
 /* global */
 .bg-repeat-round {
   background-repeat: round;
@@ -360,62 +132,6 @@
 /* hover */
 /* focus */
 /* active */
-/* responsive */
-@media (min-width: 320px) {
-  /* standalone */
-  /* global */
-  .xs\:bg-repeat-round {
-    background-repeat: round;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 640px) {
-  /* standalone */
-  /* global */
-  .sm\:bg-repeat-round {
-    background-repeat: round;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* standalone */
-  /* global */
-  .md\:bg-repeat-round {
-    background-repeat: round;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* standalone */
-  /* global */
-  .lg\:bg-repeat-round {
-    background-repeat: round;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* standalone */
-  /* global */
-  .xl\:bg-repeat-round {
-    background-repeat: round;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
 /* global */
 .bg-repeat-space {
   background-repeat: space;
@@ -424,62 +140,6 @@
 /* hover */
 /* focus */
 /* active */
-/* responsive */
-@media (min-width: 320px) {
-  /* standalone */
-  /* global */
-  .xs\:bg-repeat-space {
-    background-repeat: space;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 640px) {
-  /* standalone */
-  /* global */
-  .sm\:bg-repeat-space {
-    background-repeat: space;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 768px) {
-  /* standalone */
-  /* global */
-  .md\:bg-repeat-space {
-    background-repeat: space;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1024px) {
-  /* standalone */
-  /* global */
-  .lg\:bg-repeat-space {
-    background-repeat: space;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
-@media (min-width: 1280px) {
-  /* standalone */
-  /* global */
-  .xl\:bg-repeat-space {
-    background-repeat: space;
-  }
-  /* hover */
-  /* focus */
-  /* active */
-}
-
 /* borders */
 /* tables */
 /* effects */
