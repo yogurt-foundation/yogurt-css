@@ -3,46 +3,25 @@
  * @module: backgroundColor/_special.scss
  */
 
-@mixin specialBackgroundColor(
+@mixin backgroundColorSpecial(
   $prefix, $pseudo, $class, $modifier, $value) {
-
-  #{$prefix}#{$class}bg-#{$modifier}#{$pseudo} {
-    background-color: #{$value}#{$override}
-  }
-  #{$prefix}#{$class}bg-transparent#{$pseudo} {
-    background-color: transparent#{$override}
-  }
-  #{$prefix}#{$class}bg-current#{$pseudo} {
-    background-color: currentColor#{$override}
-  }
-
+    #{$prefix}#{$class}bg-#{$modifier}#{$pseudo} {
+      background-color: #{$value}#{$override}
+    }
 }
 
 @each $modifier, $value in $special-colors {
 
   /* global */
-  
-  @include specialBackgroundColor
-    ("", "", ".", $modifier, $value)
+
+  @include backgroundColorSpecial("", "", ".", $modifier, $value)
 
   /* hover */
-  
-  @include specialBackgroundColor
-    (".hover\\:", ":hover", "", $modifier, $value)
+
+  @include backgroundColorSpecial(".hover\\:", ":hover", "", $modifier, $value)
 
   /* focus */
-  
+
   /* active */
 
-  /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
-      /* standalone */
-      /* global */
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

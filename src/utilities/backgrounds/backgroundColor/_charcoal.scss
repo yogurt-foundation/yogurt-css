@@ -3,43 +3,23 @@
  * @module: backgroundColor/_charcoal.scss
  */
 
+@mixin backgroundColorCharcoal($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $charcoal {
+    @include backgroundColor
+      ($prefix, $pseudo, $class, charcoal, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $charcoal {
-  @include backgroundColor
-    ("", "", ".", charcoal, $mode, $hex, $radius)
-}
+@include backgroundColorCharcoal("", "", ".")
 
 /* hover */
 
-@each $mode, $hex, $radius in $charcoal {
-  @include backgroundColor
-    (".hover\\:", ":hover", "", charcoal, $mode, $hex, $radius)
-}
+@include backgroundColorCharcoal(".hover\\:", ":hover", "")
 
 /* focus */
 
-@each $mode, $hex, $radius in $charcoal {
-  @include backgroundColor
-    (".focus\\:", ":focus", "", charcoal, $mode, $hex, $radius)
-}
+@include backgroundColorCharcoal(".focus\\:", ":focus", "")
 
 /* active */
-
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-
-    @each $mode, $hex, $radius in $charcoal {
-      @include backgroundColor
-        (".#{$screen}\\:", "", "", charcoal, $mode, $hex, $radius)
-    }
-
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}

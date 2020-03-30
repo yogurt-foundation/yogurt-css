@@ -3,44 +3,24 @@
  * @module: backgroundColor/_indigo.scss
  */
 
+@mixin backgroundColorIndigo($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $indigo {
+    @include backgroundColor
+      ($prefix, $pseudo, $class, indigo, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $indigo {
-  @include backgroundColor
-    ("", "", ".", indigo, $mode, $hex, $radius)
-}
+@include backgroundColorIndigo("", "", ".")
 
 /* hover */
 
-@each $mode, $hex, $radius in $indigo {
-  @include backgroundColor
-    (".hover\\:", ":hover", "", indigo, $mode, $hex, $radius)
-}
+@include backgroundColorIndigo(".hover\\:", ":hover", "")
 
 /* focus */
 
-@each $mode, $hex, $radius in $indigo {
-  @include backgroundColor
-    (".focus\\:", ":focus", "", indigo, $mode, $hex, $radius)
-}
+@include backgroundColorIndigo(".focus\\:", ":focus", "")
 
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-
-    @each $mode, $hex, $radius in $indigo {
-      @include backgroundColor
-        (".#{$screen}\\:", "", "", indigo, $mode, $hex, $radius)
-    }
-
-
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}

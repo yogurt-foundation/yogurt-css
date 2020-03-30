@@ -3,43 +3,24 @@
  * @module: backgroundColor/_green.scss
  */
 
+@mixin backgroundColorGreen($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $green {
+    @include backgroundColor
+      ($prefix, $pseudo, $class, green, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $green {
-  @include backgroundColor
-    ("", "", ".", green, $mode, $hex, $radius)
-}
+@include backgroundColorGreen("", "", ".")
 
 /* hover */
 
-@each $mode, $hex, $radius in $green {
-  @include backgroundColor
-    (".hover\\:", ":hover", "", green, $mode, $hex, $radius)
-}
+@include backgroundColorGreen(".hover\\:", ":hover", "")
 
 /* focus */
 
-@each $mode, $hex, $radius in $green {
-  @include backgroundColor
-    (".focus\\:", ":focus", "", green, $mode, $hex, $radius)
-}
+@include backgroundColorGreen(".focus\\:", ":focus", "")
 
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-
-    @each $mode, $hex, $radius in $green {
-      @include backgroundColor
-        (".#{$screen}\\:", "", "", green, $mode, $hex, $radius)
-    }
-
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}

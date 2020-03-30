@@ -3,43 +3,24 @@
  * @module: backgroundColor/_pink.scss
  */
 
+@mixin backgroundColorPink($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $pink {
+    @include backgroundColor
+      ($prefix, $pseudo, $class, pink, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $pink {
-  @include backgroundColor
-    ("", "", ".", pink, $mode, $hex, $radius)
-}
+@include backgroundColorPink("", "", ".")
 
 /* hover */
 
-@each $mode, $hex, $radius in $pink {
-  @include backgroundColor
-    (".hover\\:", ":hover", "", pink, $mode, $hex, $radius)
-}
+@include backgroundColorPink(".hover\\:", ":hover", "")
 
 /* focus */
 
-@each $mode, $hex, $radius in $pink {
-  @include backgroundColor
-    (".focus\\:", ":focus", "", pink, $mode, $hex, $radius)
-}
+@include backgroundColorPink(".focus\\:", ":focus", "")
 
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-
-    @each $mode, $hex, $radius in $pink {
-      @include backgroundColor
-        (".#{$screen}\\:", "", "", pink, $mode, $hex, $radius)
-    }
-
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}

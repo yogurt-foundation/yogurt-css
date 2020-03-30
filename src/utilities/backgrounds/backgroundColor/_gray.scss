@@ -3,43 +3,24 @@
  * @module: backgroundColor/_gray.scss
  */
 
+@mixin backgroundColorGray($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $gray {
+    @include backgroundColor
+      ($prefix, $pseudo, $class, gray, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $gray {
-  @include backgroundColor
-    ("", "", ".", gray, $mode, $hex, $radius)
-}
+@include backgroundColorGray("", "", ".")
 
 /* hover */
 
-@each $mode, $hex, $radius in $gray {
-  @include backgroundColor
-    (".hover\\:", ":hover", "", gray, $mode, $hex, $radius)
-}
+@include backgroundColorGray(".hover\\:", ":hover", "")
 
 /* focus */
 
-@each $mode, $hex, $radius in $gray {
-  @include backgroundColor
-    (".focus\\:", ":focus", "", gray, $mode, $hex, $radius)
-}
+@include backgroundColorGray(".focus\\:", ":focus", "")
 
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-
-    @each $mode, $hex, $radius in $gray {
-      @include backgroundColor
-        (".#{$screen}\\:", "", "", gray, $mode, $hex, $radius)
-    }
-
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}

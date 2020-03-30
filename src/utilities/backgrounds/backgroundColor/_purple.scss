@@ -3,43 +3,24 @@
  * @module: backgroundColor/_purple.scss
  */
 
+@mixin backgroundColorPurple($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $purple {
+    @include backgroundColor
+      ($prefix, $pseudo, $class, purple, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $purple {
-  @include backgroundColor
-    ("", "", ".", purple, $mode, $hex, $radius)
-}
+@include backgroundColorPurple("", "", ".")
 
 /* hover */
 
-@each $mode, $hex, $radius in $purple {
-  @include backgroundColor
-    (".hover\\:", ":hover", "", purple, $mode, $hex, $radius)
-}
+@include backgroundColorPurple(".hover\\:", ":hover", "")
 
 /* focus */
 
-@each $mode, $hex, $radius in $purple {
-  @include backgroundColor
-    (".focus\\:", ":focus", "", purple, $mode, $hex, $radius)
-}
+@include backgroundColorPurple(".focus\\:", ":focus", "")
 
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-
-    @each $mode, $hex, $radius in $purple {
-      @include backgroundColor
-        (".#{$screen}\\:", "", "", purple, $mode, $hex, $radius)
-    }
-
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
