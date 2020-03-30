@@ -3,35 +3,29 @@
  * @module: textColor/_teal.scss
  */
 
+@mixin teal($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $teal {
+    @include textColor
+      ($prefix, $pseudo, $class, teal, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $teal {
-  @include textColor
-    ("", "", ".", teal, $mode, $hex, $radius)
-}
+@include teal("", "", ".");
 
 /* hover */
 
-@each $mode, $hex, $radius in $teal {
-  @include textColor
-    (".hover\\:", ":hover", "", teal, $mode, $hex, $radius)
-}
-@each $mode, $hex, $radius in $teal {
-  @include textColor
-    (".group:hover .group-hover\\:", "", "", teal, $mode, $hex, $radius)
-}
+@include teal(".hover\\:", ":hover", "");
+
+/* group hover */
+
+@include teal(".group:hover .group-hover\\:", "", "");
 
 /* focus */
+
+// @include teal(".focus\\:", ":focus", "");
+
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// @include teal(".active\\:", ":active", "");

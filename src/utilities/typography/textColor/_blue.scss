@@ -3,35 +3,29 @@
  * @module: textColor/_blue.scss
  */
 
+@mixin blue($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $blue {
+    @include textColor
+      ($prefix, $pseudo, $class, blue, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $blue {
-  @include textColor
-    ("", "", ".", blue, $mode, $hex, $radius)
-}
+@include blue("", "", ".");
 
 /* hover */
 
-@each $mode, $hex, $radius in $blue {
-  @include textColor
-    (".hover\\:", ":hover", "", blue, $mode, $hex, $radius)
-}
-@each $mode, $hex, $radius in $blue {
-  @include textColor
-    (".group:hover .group-hover\\:", "", "", blue, $mode, $hex, $radius)
-}
+@include blue(".hover\\:", ":hover", "");
+
+/* group hover */
+
+@include blue(".group:hover .group-hover\\:", "", "");
 
 /* focus */
+
+// @include blue(".focus\\:", ":focus", "");
+
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// @include blue(".active\\:", ":active", "");

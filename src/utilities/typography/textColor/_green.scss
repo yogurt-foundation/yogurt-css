@@ -3,35 +3,29 @@
  * @module: textColor/_green.scss
  */
 
+@mixin green($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $green {
+    @include textColor
+      ($prefix, $pseudo, $class, green, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $green {
-  @include textColor
-    ("", "", ".", green, $mode, $hex, $radius)
-}
+@include green("", "", ".");
 
 /* hover */
 
-@each $mode, $hex, $radius in $green {
-  @include textColor
-    (".hover\\:", ":hover", "", green, $mode, $hex, $radius)
-}
-@each $mode, $hex, $radius in $green {
-  @include textColor
-    (".group:hover .group-hover\\:", "", "", green, $mode, $hex, $radius)
-}
+@include green(".hover\\:", ":hover", "");
+
+/* group hover */
+
+@include green(".group:hover .group-hover\\:", "", "");
 
 /* focus */
+
+// @include green(".focus\\:", ":focus", "");
+
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// @include green(".active\\:", ":active", "");

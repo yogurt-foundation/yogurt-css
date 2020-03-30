@@ -15,7 +15,7 @@ gulp.task('sass', () => {
     .pipe(sassGlob())
     // outputStyle: `expanded` for debugging,
     // `compressed` for production.
-    .pipe(sass({ outputStyle: 'compressed' })
+    .pipe(sass({ outputStyle: 'expanded' })
       .on('error', sass.logError))
     .pipe(postCss([autoPrefixer()]))
     .pipe(gulp.dest(distCssPath))

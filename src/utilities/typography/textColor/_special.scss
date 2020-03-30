@@ -3,49 +3,32 @@
  * @module: textColor/_special.scss
  */
 
-@mixin specialTextColor(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin special($prefix, $pseudo, $class, $modifier, $value) {
   #{$prefix}#{$class}text-#{$modifier}#{$pseudo} {
     color: #{$value}#{$override}
   }
-
-  #{$prefix}#{$class}text-transparent#{$pseudo} {
-    color: transparent#{$override}
-  }
-
-  #{$prefix}#{$class}text-current#{$pseudo} {
-    color: currentColor#{$override}
-  }
-
 }
 
 @each $modifier, $value in $special-colors {
 
   /* global */
-  
-  @include specialTextColor
-    ("", "", ".", $modifier, $value)
+
+  @include special ("", "", ".", $modifier, $value)
 
   /* hover */
-  
-  @include specialTextColor
-    (".hover\\:", ":hover", "", $modifier, $value)
-  @include specialTextColor
-    (".group:hover .group-hover\\:", "", "", $modifier, $value)
+
+  @include special (".hover\\:", ":hover", "", $modifier, $value)
+
+  /* group hover */
+
+  @include special (".group:hover .group-hover\\:", "", "", $modifier, $value)
 
   /* focus */
+
+  // @include special (".focus\\:", ":focus", "", $modifier, $value)
+
   /* active */
 
-  /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
-      /* standalone */
-      /* global */
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
+  // @include special (".active\\:", ":active", "", $modifier, $value)
+
 }

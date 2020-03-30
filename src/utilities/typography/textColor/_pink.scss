@@ -3,35 +3,29 @@
  * @module: textColor/_pink.scss
  */
 
+@mixin pink($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $pink {
+    @include textColor
+      ($prefix, $pseudo, $class, pink, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $pink {
-  @include textColor
-    ("", "", ".", pink, $mode, $hex, $radius)
-}
+@include pink("", "", ".");
 
 /* hover */
 
-@each $mode, $hex, $radius in $pink {
-  @include textColor
-    (".hover\\:", ":hover", "", pink, $mode, $hex, $radius)
-}
-@each $mode, $hex, $radius in $pink {
-  @include textColor
-    (".group:hover .group-hover\\:", "", "", pink, $mode, $hex, $radius)
-}
+@include pink(".hover\\:", ":hover", "");
+
+/* group hover */
+
+@include pink(".group:hover .group-hover\\:", "", "");
 
 /* focus */
+
+// @include pink(".focus\\:", ":focus", "");
+
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// @include pink(".active\\:", ":active", "");

@@ -3,35 +3,29 @@
  * @module: textColor/_purple.scss
  */
 
+@mixin purple($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $purple {
+    @include textColor
+      ($prefix, $pseudo, $class, purple, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $purple {
-  @include textColor
-    ("", "", ".", purple, $mode, $hex, $radius)
-}
+@include purple("", "", ".");
 
 /* hover */
 
-@each $mode, $hex, $radius in $purple {
-  @include textColor
-    (".hover\\:", ":hover", "", purple, $mode, $hex, $radius)
-}
-@each $mode, $hex, $radius in $purple {
-  @include textColor
-    (".group:hover .group-hover\\:", "", "", purple, $mode, $hex, $radius)
-}
+@include purple(".hover\\:", ":hover", "");
+
+/* group hover */
+
+@include purple(".group:hover .group-hover\\:", "", "");
 
 /* focus */
+
+// @include purple(".focus\\:", ":focus", "");
+
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// @include purple(".active\\:", ":active", "");

@@ -19,121 +19,125 @@
 
 /* layout */
 
-@import 'utilities/layouts/boxSizing';
-@import 'utilities/layouts/clear';
-@import 'utilities/layouts/container';
-@import 'utilities/layouts/display';
-@import 'utilities/layouts/float';
-@import 'utilities/layouts/inset';
-@import 'utilities/layouts/objectFit';
-@import 'utilities/layouts/objectPosition';
-@import 'utilities/layouts/overflow';
-@import 'utilities/layouts/position';
-@import 'utilities/layouts/visibility';
-@import 'utilities/layouts/zIndex';
+// @import 'utilities/layouts/boxSizing';
+// @import 'utilities/layouts/clear';
+// @import 'utilities/layouts/container';
+// @import 'utilities/layouts/display';
+// @import 'utilities/layouts/float';
+// @import 'utilities/layouts/inset';
+// @import 'utilities/layouts/objectFit';
+// @import 'utilities/layouts/objectPosition';
+// @import 'utilities/layouts/overflow';
+// @import 'utilities/layouts/position';
+// @import 'utilities/layouts/visibility';
+// @import 'utilities/layouts/zIndex';
 
 /* flexbox */
 
-@import 'utilities/flexbox/alignContent';
-@import 'utilities/flexbox/alignItems';
-@import 'utilities/flexbox/alignSelf';
-@import 'utilities/flexbox/flex';
-@import 'utilities/flexbox/flexDirection';
-@import 'utilities/flexbox/flexGrow';
-@import 'utilities/flexbox/flexShrink';
-@import 'utilities/flexbox/flexWrap';
-@import 'utilities/flexbox/justifyContent';
-@import 'utilities/flexbox/order';
+// @import 'utilities/flexbox/alignContent';
+// @import 'utilities/flexbox/alignItems';
+// @import 'utilities/flexbox/alignSelf';
+// @import 'utilities/flexbox/flex';
+// @import 'utilities/flexbox/flexDirection';
+// @import 'utilities/flexbox/flexGrow';
+// @import 'utilities/flexbox/flexShrink';
+// @import 'utilities/flexbox/flexWrap';
+// @import 'utilities/flexbox/justifyContent';
+// @import 'utilities/flexbox/order';
 
 /* spacing */
 
-@import 'utilities/spacing/margin';
-@import 'utilities/spacing/padding';
+// @import 'utilities/spacing/margin';
+// @import 'utilities/spacing/padding';
 
 /* sizing */
 
-@import 'utilities/sizing/height';
-@import 'utilities/sizing/maxHeight';
-@import 'utilities/sizing/maxWidth';
-@import 'utilities/sizing/minHeight';
-@import 'utilities/sizing/minWidth';
-@import 'utilities/sizing/width';
+// @import 'utilities/sizing/height';
+// @import 'utilities/sizing/maxHeight';
+// @import 'utilities/sizing/maxWidth';
+// @import 'utilities/sizing/minHeight';
+// @import 'utilities/sizing/minWidth';
+// @import 'utilities/sizing/width';
 
 /* typography */
 
-@import 'utilities/typography/fontFamily';
-@import 'utilities/typography/fontSize';
-@import 'utilities/typography/fontSmoothing';
-@import 'utilities/typography/fontStyle';
-@import 'utilities/typography/fontWeight';
-@import 'utilities/typography/letterSpacing';
-@import 'utilities/typography/lineHeight';
-@import 'utilities/typography/listStylePosition';
-@import 'utilities/typography/listStyleType';
-@import 'utilities/typography/placeholder';
-@import 'utilities/typography/placeholderColor/**/*';
-@import 'utilities/typography/textAlign';
-@import 'utilities/typography/textColor/**/*';
-@import 'utilities/typography/textDecoration';
-@import 'utilities/typography/textTransform';
-@import 'utilities/typography/verticalAlign';
-@import 'utilities/typography/whitespace';
-@import 'utilities/typography/wordBreak';
+// @import 'utilities/typography/fontFamily';
+// @import 'utilities/typography/fontSize';
+// @import 'utilities/typography/fontSmoothing';
+// @import 'utilities/typography/fontStyle';
+// @import 'utilities/typography/fontWeight';
+// @import 'utilities/typography/letterSpacing';
+// @import 'utilities/typography/lineHeight';
+// @import 'utilities/typography/listStylePosition';
+// @import 'utilities/typography/listStyleType';
+// @import 'utilities/typography/placeholder';
+// @import 'utilities/typography/placeholderColor/*';
+// @import 'utilities/typography/textAlign';
+@import 'utilities/typography/textColor/*';
+// @import 'utilities/typography/textDecoration';
+// @import 'utilities/typography/textTransform';
+// @import 'utilities/typography/verticalAlign';
+// @import 'utilities/typography/whitespace';
+// @import 'utilities/typography/wordBreak';
 
 /* backgrounds */
 
-@import 'utilities/backgrounds/backgroundAttachment';
-@import 'utilities/backgrounds/backgroundColor/**/*';
-@import 'utilities/backgrounds/backgroundPosition';
-@import 'utilities/backgrounds/backgroundRepeat';
-@import 'utilities/backgrounds/backgroundSize';
+// @import 'utilities/backgrounds/backgroundAttachment';
+// @import 'utilities/backgrounds/backgroundColor/*';
+// @import 'utilities/backgrounds/backgroundPosition';
+// @import 'utilities/backgrounds/backgroundRepeat';
+// @import 'utilities/backgrounds/backgroundSize';
 
 /* borders */
 
-@import 'utilities/borders/borderColor/**/*';
-@import 'utilities/borders/borderRadius';
-@import 'utilities/borders/borderStyle';
-@import 'utilities/borders/borderWidth';
+// @import 'utilities/borders/borderColor/*';
+// @import 'utilities/borders/borderRadius';
+// @import 'utilities/borders/borderStyle';
+// @import 'utilities/borders/borderWidth';
 
 /* tables */
 
-@import 'utilities/tables/borderCollapse';
-@import 'utilities/tables/tableLayout';
+// @import 'utilities/tables/borderCollapse';
+// @import 'utilities/tables/tableLayout';
 
 /* effects */
 
-@import 'utilities/effects/boxShadow';
-@import 'utilities/effects/opacity';
-@import 'utilities/effects/shadowColor/**/*';
+// @import 'utilities/effects/boxShadow';
+// @import 'utilities/effects/opacity';
+// @import 'utilities/effects/shadowColor/*';
 
 /* interactivity */
 
-@import 'utilities/interactivity/appearance';
-@import 'utilities/interactivity/cursor';
-@import 'utilities/interactivity/outline';
-@import 'utilities/interactivity/pointerEvents';
-@import 'utilities/interactivity/resize';
-@import 'utilities/interactivity/userSelect';
+// @import 'utilities/interactivity/appearance';
+// @import 'utilities/interactivity/cursor';
+// @import 'utilities/interactivity/outline';
+// @import 'utilities/interactivity/pointerEvents';
+// @import 'utilities/interactivity/resize';
+// @import 'utilities/interactivity/userSelect';
 
 /* svg */
 
-@import 'utilities/svg/fill';
-@import 'utilities/svg/stroke';
-@import 'utilities/svg/strokeWidth';
+// @import 'utilities/svg/fill';
+// @import 'utilities/svg/stroke';
+// @import 'utilities/svg/strokeWidth';
 
 /* transforms */
 
-@import 'utilities/transforms/rotate';
-@import 'utilities/transforms/scale';
-@import 'utilities/transforms/skew';
-@import 'utilities/transforms/transform';
-@import 'utilities/transforms/translate';
-@import 'utilities/transforms/transformOrigin';
+// @import 'utilities/transforms/rotate';
+// @import 'utilities/transforms/scale';
+// @import 'utilities/transforms/skew';
+// @import 'utilities/transforms/transform';
+// @import 'utilities/transforms/translate';
+// @import 'utilities/transforms/transformOrigin';
 
 /* transitions */
 
-@import 'utilities/transitions/transitionProperty';
-@import 'utilities/transitions/transitionDuration';
-@import 'utilities/transitions/transitionTiming';
+// @import 'utilities/transitions/transitionProperty';
+// @import 'utilities/transitions/transitionDuration';
+// @import 'utilities/transitions/transitionTiming';
+
+/* responsive */
+
+@import 'responsive'
 
 /*! yogurt.css v1.0.1-proto | MIT License | gtihub.com/yogurt-foundation/yogurt-css */

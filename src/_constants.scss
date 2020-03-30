@@ -18,11 +18,11 @@ $screens:
   (xs, 320px), // (primitive)
   (sm, 640px),
   (md, 768px),
-  (lg, 1024px), // 1k
-  (xl, 1280px), // 1k
-  (\32k, 1920px), // 2k
-  (\33k, 2560px), // 3k
-  (\34k, 3840px); // 4k
+  (lg, 1024px),
+  (xl, 1280px);
+  // (\32k, 1920px), // 2k
+  // (\33k, 2560px), // 3k
+  // (\34k, 3840px); // 4k
   // (\35k, 5120px), // 5k
   // (\36k, 5760px), // 6k
   // (\37k, 7000px), // 7k
@@ -73,7 +73,8 @@ $clear:
 
 $special-colors:
   (white, #fff),
-  (transparent, transparent);
+  (transparent, transparent),
+  (current, currentColor);
 
 $black:
   (100, #b9b9b9),

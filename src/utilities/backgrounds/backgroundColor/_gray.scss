@@ -32,6 +32,12 @@
   @media (min-width: #{$size}) {
     /* standalone */
     /* global */
+
+    @each $mode, $hex, $radius in $gray {
+      @include backgroundColor
+        (".#{$screen}\\:", "", "", gray, $mode, $hex, $radius)
+    }
+
     /* hover */
     /* focus */
     /* active */

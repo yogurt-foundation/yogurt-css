@@ -3,35 +3,29 @@
  * @module: textColor/_charcoal.scss
  */
 
+@mixin charcoal($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $charcoal {
+    @include textColor
+      ($prefix, $pseudo, $class, charcoal, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $charcoal {
-  @include textColor
-    ("", "", ".", charcoal, $mode, $hex, $radius)
-}
+@include charcoal("", "", ".");
 
 /* hover */
 
-@each $mode, $hex, $radius in $charcoal {
-  @include textColor
-    (".hover\\:", ":hover", "", charcoal, $mode, $hex, $radius)
-}
-@each $mode, $hex, $radius in $charcoal {
-  @include textColor
-    (".group:hover .group-hover\\:", "", "", charcoal, $mode, $hex, $radius)
-}
+@include charcoal(".hover\\:", ":hover", "");
+
+/* group hover */
+
+@include charcoal(".group:hover .group-hover\\:", "", "");
 
 /* focus */
+
+// @include charcoal(".focus\\:", ":focus", "");
+
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// @include charcoal(".active\\:", ":active", "");

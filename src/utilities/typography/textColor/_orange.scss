@@ -3,35 +3,29 @@
  * @module: textColor/_orange.scss
  */
 
+@mixin orange($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $orange {
+    @include textColor
+      ($prefix, $pseudo, $class, orange, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $orange {
-  @include textColor
-    ("", "", ".", orange, $mode, $hex, $radius)
-}
+@include orange("", "", ".");
 
 /* hover */
 
-@each $mode, $hex, $radius in $orange {
-  @include textColor
-    (".hover\\:", ":hover", "", orange, $mode, $hex, $radius)
-}
-@each $mode, $hex, $radius in $orange {
-  @include textColor
-    (".group:hover .group-hover\\:", "", "", orange, $mode, $hex, $radius)
-}
+@include orange(".hover\\:", ":hover", "");
+
+/* group hover */
+
+@include orange(".group:hover .group-hover\\:", "", "");
 
 /* focus */
+
+// @include orange(".focus\\:", ":focus", "");
+
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// @include orange(".active\\:", ":active", "");

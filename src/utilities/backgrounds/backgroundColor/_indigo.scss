@@ -2,7 +2,7 @@
  * @utility: backgrounds
  * @module: backgroundColor/_indigo.scss
  */
- 
+
 /* global */
 
 @each $mode, $hex, $radius in $indigo {
@@ -32,6 +32,13 @@
   @media (min-width: #{$size}) {
     /* standalone */
     /* global */
+
+    @each $mode, $hex, $radius in $indigo {
+      @include backgroundColor
+        (".#{$screen}\\:", "", "", indigo, $mode, $hex, $radius)
+    }
+
+
     /* hover */
     /* focus */
     /* active */

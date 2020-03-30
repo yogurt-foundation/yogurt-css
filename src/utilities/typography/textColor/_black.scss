@@ -3,35 +3,29 @@
  * @module: textColor/_black.scss
  */
 
+@mixin black($prefix, $pseudo, $class){
+  @each $mode, $hex, $radius in $black {
+    @include textColor
+      ($prefix, $pseudo, $class, black, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $black {
-  @include textColor
-    ("", "", ".", black, $mode, $hex, $radius)
-}
+@include black("", "", ".");
 
 /* hover */
 
-@each $mode, $hex, $radius in $black {
-  @include textColor
-    (".hover\\:", ":hover", "", black, $mode, $hex, $radius)
-}
-@each $mode, $hex, $radius in $black {
-  @include textColor
-    (".group:hover .group-hover\\:", "", "", black, $mode, $hex, $radius)
-}
+@include black(".hover\\:", ":hover", "");
+
+/* group hover */
+
+@include black(".group:hover .group-hover\\:", "", "");
 
 /* focus */
+
+// @include black(".focus\\:", ":focus", "");
+
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// @include black(".active\\:", ":active", "");

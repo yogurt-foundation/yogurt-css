@@ -3,35 +3,29 @@
  * @module: textColor/_yellow.scss
  */
 
+@mixin yellow($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $yellow {
+    @include textColor
+      ($prefix, $pseudo, $class, yellow, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $yellow {
-  @include textColor
-    ("", "", ".", yellow, $mode, $hex, $radius)
-}
+@include yellow("", "", ".");
 
 /* hover */
 
-@each $mode, $hex, $radius in $yellow {
-  @include textColor
-    (".hover\\:", ":hover", "", yellow, $mode, $hex, $radius)
-}
-@each $mode, $hex, $radius in $yellow {
-  @include textColor
-    (".group:hover .group-hover\\:", "", "", yellow, $mode, $hex, $radius)
-}
+@include yellow(".hover\\:", ":hover", "");
+
+/* group hover */
+
+@include yellow(".group:hover .group-hover\\:", "", "");
 
 /* focus */
+
+// @include teal(".focus\\:", ":focus", "");
+
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// @include teal(".active\\:", ":active", "");

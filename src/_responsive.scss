@@ -1,0 +1,32 @@
+/**
+ * @module: _responsive.scss
+ */
+
+/* responsive generator */
+
+@each $screen, $size in $screens {
+  @media (min-width: #{$size}) {
+
+    /* standalone */
+    /* global */
+
+    // typography/textColor
+    @include black(".#{$screen}\\:", "", "");
+    @include blue(".#{$screen}\\:", "", "");
+    @include charcoal(".#{$screen}\\:", "", "");
+    @include gray(".#{$screen}\\:", "", "");
+    @include green(".#{$screen}\\:", "", "");
+    @include indigo(".#{$screen}\\:", "", "");
+    @include orange(".#{$screen}\\:", "", "");
+    @include pink(".#{$screen}\\:", "", "");
+    @include purple(".#{$screen}\\:", "", "");
+    @include red(".#{$screen}\\:", "", "");
+    @include teal(".#{$screen}\\:", "", "");
+    @include yellow(".#{$screen}\\:", "", "");
+
+    /* hover */
+    /* focus */
+    /* active */
+
+  }
+}

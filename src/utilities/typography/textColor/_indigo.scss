@@ -3,35 +3,29 @@
  * @module: textColor/_indigo.scss
  */
 
+@mixin indigo($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $indigo {
+    @include textColor
+      ($prefix, $pseudo, $class, indigo, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $indigo {
-  @include textColor
-    ("", "", ".", indigo, $mode, $hex, $radius)
-}
+@include indigo("", "", ".");
 
 /* hover */
 
-@each $mode, $hex, $radius in $indigo {
-  @include textColor
-    (".hover\\:", ":hover", "", indigo, $mode, $hex, $radius)
-}
-@each $mode, $hex, $radius in $indigo {
-  @include textColor
-    (".group:hover .group-hover\\:", "", "", indigo, $mode, $hex, $radius)
-}
+@include indigo(".hover\\:", ":hover", "");
+
+/* group hover */
+
+@include indigo(".group:hover .group-hover\\:", "", "");
 
 /* focus */
+
+// @include indigo(".focus\\:", ":focus", "");
+
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// @include indigo(".active\\:", ":active", "");

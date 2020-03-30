@@ -32,6 +32,12 @@
   @media (min-width: #{$size}) {
     /* standalone */
     /* global */
+
+    @each $mode, $hex, $radius in $teal {
+      @include backgroundColor
+        (".#{$screen}\\:", "", "", teal, $mode, $hex, $radius)
+    }
+
     /* hover */
     /* focus */
     /* active */

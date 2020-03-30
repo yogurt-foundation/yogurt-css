@@ -3,35 +3,29 @@
  * @module: textColor/_gray.scss
  */
 
+@mixin gray($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $gray {
+    @include textColor
+      ($prefix, $pseudo, $class, gray, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $gray {
-  @include textColor
-    ("", "", ".", gray, $mode, $hex, $radius)
-}
+@include gray("", "", ".");
 
 /* hover */
 
-@each $mode, $hex, $radius in $gray {
-  @include textColor
-    (".hover\\:", ":hover", "", gray, $mode, $hex, $radius)
-}
-@each $mode, $hex, $radius in $gray {
-  @include textColor
-    (".group:hover .group-hover\\:", "", "", gray, $mode, $hex, $radius)
-}
+@include gray(".hover\\:", ":hover", "");
+
+/* group hover */
+
+@include gray(".group:hover .group-hover\\:", "", "");
 
 /* focus */
+
+// @include gray(".focus\\:", ":focus", "");
+
 /* active */
 
-/* responsive */
-
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// @include gray(".active\\:", ":active", "");
