@@ -12,20 +12,20 @@
 
 /* global */
 
-@include textColorIndigo("", "", ".");
+@include textColorIndigo("", "", ".")
 
 /* hover */
 
-@include textColorIndigo(".hover\\:", ":hover", "");
+@include textColorIndigo(".hover\\:", ":hover", "")
 
 /* group hover */
 
-@include textColorIndigo(".group:hover .group-hover\\:", "", "");
+@include textColorIndigo(".group:hover .group-hover\\:", "", "")
 
 /* focus */
 
-// @include textColorIndigo(".focus\\:", ":focus", "");
+// @include textColorIndigo(".focus\\:", ":focus", "")
 
 /* active */
 
-// @include textColorIndigo(".active\\:", ":active", "");
+// @include textColorIndigo(".active\\:", ":active", "")

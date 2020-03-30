@@ -12,20 +12,20 @@
 
 /* global */
 
-@include textColorCharcoal("", "", ".");
+@include textColorCharcoal("", "", ".")
 
 /* hover */
 
-@include textColorCharcoal(".hover\\:", ":hover", "");
+@include textColorCharcoal(".hover\\:", ":hover", "")
 
 /* group hover */
 
-@include textColorCharcoal(".group:hover .group-hover\\:", "", "");
+@include textColorCharcoal(".group:hover .group-hover\\:", "", "")
 
 /* focus */
 
-// @include textColorCharcoal(".focus\\:", ":focus", "");
+// @include textColorCharcoal(".focus\\:", ":focus", "")
 
 /* active */
 
-// @include textColorCharcoal(".active\\:", ":active", "");
+// @include textColorCharcoal(".active\\:", ":active", "")

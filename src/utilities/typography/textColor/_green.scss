@@ -12,20 +12,20 @@
 
 /* global */
 
-@include textColorGreen("", "", ".");
+@include textColorGreen("", "", ".")
 
 /* hover */
 
-@include textColorGreen(".hover\\:", ":hover", "");
+@include textColorGreen(".hover\\:", ":hover", "")
 
 /* group hover */
 
-@include textColorGreen(".group:hover .group-hover\\:", "", "");
+@include textColorGreen(".group:hover .group-hover\\:", "", "")
 
 /* focus */
 
-// @include textColorGreen(".focus\\:", ":focus", "");
+// @include textColorGreen(".focus\\:", ":focus", "")
 
 /* active */
 
-// @include textColorGreen(".active\\:", ":active", "");
+// @include textColorGreen(".active\\:", ":active", "")
