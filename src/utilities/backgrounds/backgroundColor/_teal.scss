@@ -18,6 +18,10 @@
 
 @include backgroundColorTeal(".hover\\:", ":hover", "")
 
+/* group hover */
+
+@include backgroundColorTeal(".group:hover .group-hover\\:", "", "")
+
 /* focus */
 
 @include backgroundColorTeal(".focus\\:", ":focus", "")

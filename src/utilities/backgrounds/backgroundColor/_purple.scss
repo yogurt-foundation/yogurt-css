@@ -18,6 +18,10 @@
 
 @include backgroundColorPurple(".hover\\:", ":hover", "")
 
+/* group hover */
+
+@include backgroundColorPurple(".group:hover .group-hover\\:", "", "")
+
 /* focus */
 
 @include backgroundColorPurple(".focus\\:", ":focus", "")

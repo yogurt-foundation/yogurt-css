@@ -18,6 +18,10 @@
 
 @include backgroundColorBlack(".hover\\:", ":hover", "")
 
+/* group hover */
+
+@include backgroundColorBlack(".group:hover .group-hover\\:", "", "")
+
 /* focus */
 
 @include backgroundColorBlack(".focus\\:", ":focus", "")

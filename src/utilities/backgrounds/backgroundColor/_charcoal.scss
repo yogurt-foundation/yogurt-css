@@ -18,6 +18,10 @@
 
 @include backgroundColorCharcoal(".hover\\:", ":hover", "")
 
+/* group hover */
+
+@include backgroundColorCharcoal(".group:hover .group-hover\\:", "", "")
+
 /* focus */
 
 @include backgroundColorCharcoal(".focus\\:", ":focus", "")

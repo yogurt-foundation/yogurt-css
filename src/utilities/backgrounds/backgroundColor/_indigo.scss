@@ -18,6 +18,10 @@
 
 @include backgroundColorIndigo(".hover\\:", ":hover", "")
 
+/* hover */
+
+@include backgroundColorIndigo(".group:hover .group-hover\\:", "", "")
+
 /* focus */
 
 @include backgroundColorIndigo(".focus\\:", ":focus", "")

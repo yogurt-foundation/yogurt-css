@@ -88,58 +88,6 @@
 /* sizing */
 /* typography */
 /* backgrounds */
-/**
- * @utility: backgrounds
- * @module: _backgroundRepeat.scss
- */
-/* global */
-.bg-repeat {
-  background-repeat: repeat;
-}
-
-/* hover */
-/* focus */
-/* active */
-/* global */
-.bg-no-repeat {
-  background-repeat: no-repeat;
-}
-
-/* hover */
-/* focus */
-/* active */
-/* global */
-.bg-repeat-x {
-  background-repeat: repeat-x;
-}
-
-/* hover */
-/* focus */
-/* active */
-/* global */
-.bg-repeat-y {
-  background-repeat: repeat-y;
-}
-
-/* hover */
-/* focus */
-/* active */
-/* global */
-.bg-repeat-round {
-  background-repeat: round;
-}
-
-/* hover */
-/* focus */
-/* active */
-/* global */
-.bg-repeat-space {
-  background-repeat: space;
-}
-
-/* hover */
-/* focus */
-/* active */
 /* borders */
 /* tables */
 /* effects */
