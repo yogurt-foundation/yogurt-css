@@ -51,6 +51,15 @@ $ yarn build
 
 > (!!) Documentation is in progress.
 
+
+### _companion
+
+introducting the new pre-made extensions,
+
+- [FX-Motion](https://github.com/yogurt-foundation/fx-motion), CSS animation library, total 187 effects.
+- [FX-Filter](https://github.com/yogurt-foundation/fx-filter), CSS filter library, total 26 effects [(previewer)](https://fx-filter-previewer.netlify.com/).
+- [FX-Gradient](https://github.com/yogurt-foundation/fx-gradient), CSS gradient library, total 169 effects [(previewer)](https://fx-gradient-previewer.netlify.com/).
+
 ---
 
 [MIT](https://github.com/yogurt-foundation/yogurt-css/blob/master/LICENSE)
