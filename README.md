@@ -28,7 +28,7 @@ This UI toolkit allows to manipulate the humanized naming convention such as `fo
 
 ### _abstract
 
-In this concept, the `margin`, `padding`, `font-size` and so on are considered as `utility` components. Using the `prefix` naming (e.g. `border` as `border-width` in CSS property) combines with preset `value` (or `strength` value) makes perfect sense to mix among the utilities to form a complex styling with CSS. The `value` or `strength` value giving linear options changing the properties of a utility either in an analog or stepping manipulation, which gives you a `low-level` control over this framework. The `Sass` being used on this concept is acting like a compiler generating distributable asset (e.g. /dist/yogur.css).
+In this concept, the `margin`, `padding`, `font-size` and so on are considered as `utility` components. Using the `prefix` naming (e.g. `border` as `border-width` in CSS property) combines with preset `value` (or `strength` value) makes perfect sense to mix among the utilities to form a complex styling with CSS. The `value` or `strength` value giving linear options changing the properties of a utility either in an analog or stepping manipulation, which gives you a `low-level` control over this framework. The `Sass` being used on this concept is acting like a compiler generating distributable asset (e.g. /dist/yogurt.css).
 
 ### _build
 
