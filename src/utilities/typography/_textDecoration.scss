@@ -27,6 +27,10 @@
 
 @include textDecoration(".hover\\:", ":hover", "")
 
+/* group hover */
+
+@include textDecoration(".group:hover .group-hover\\:", "", "")
+
 /* focus */
 
 @include textDecoration(".focus\\:", ":focus", "")
