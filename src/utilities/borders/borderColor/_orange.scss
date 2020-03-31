@@ -3,35 +3,29 @@
  * @module: borderColor/_orange.scss
  */
 
+@mixin borderColorOrange($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $orange {
+    @include borderColor
+      ($prefix, $pseudo, $class, orange, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $orange {
-  @include borderColor
-    ("", "", ".", orange, $mode, $hex, $radius)
-}
+@include borderColorOrange("", "", ".")
 
 /* hover */
 
-@each $mode, $hex, $radius in $orange {
-  @include borderColor
-    (".hover\\:", ":hover", "", orange, $mode, $hex, $radius)
-}
-@each $mode, $hex, $radius in $orange {
-  @include borderColor
-    (".group:hover .group-hover\\:", "", "", orange, $mode, $hex, $radius)
-}
+@include borderColorOrange(".hover\\:", ":hover", "")
+
+/* group hover */
+
+@include borderColorOrange(".group:hover .group-hover\\:", "", "")
 
 /* focus */
+
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// for {responsive}, see `_responsive.scss`

@@ -37,6 +37,19 @@
     // @include backgroundColorTeal(".#{$screen}\\:", "", "")
     // @include backgroundColorYellow(".#{$screen}\\:", "", "")
 
+    // @include borderColorBlack(".#{$screen}\\:", "", "")
+    // @include borderColorBlue(".#{$screen}\\:", "", "")
+    // @include borderColorCharcoal(".#{$screen}\\:", "", "")
+    // @include borderColorGray(".#{$screen}\\:", "", "")
+    // @include borderColorGreen(".#{$screen}\\:", "", "")
+    // @include borderColorIndigo(".#{$screen}\\:", "", "")
+    // @include borderColorOrange(".#{$screen}\\:", "", "")
+    // @include borderColorPink(".#{$screen}\\:", "", "")
+    // @include borderColorPurple(".#{$screen}\\:", "", "")
+    // @include borderColorRed(".#{$screen}\\:", "", "")
+    // @include borderColorTeal(".#{$screen}\\:", "", "")
+    // @include borderColorYellow(".#{$screen}\\:", "", "")
+
     // @each $modifier, $value in $background-attachment {
     //   @include backgroundAttachment(".#{$screen}\\:", "", "", $modifier, $value)
     // }

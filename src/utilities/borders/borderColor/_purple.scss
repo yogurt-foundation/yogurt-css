@@ -3,35 +3,29 @@
  * @module: borderColor/_purple.scss
  */
 
+@mixin borderColorPurple($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $purple {
+    @include borderColor
+      ($prefix, $pseudo, $class, purple, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $purple {
-  @include borderColor
-    ("", "", ".", purple, $mode, $hex, $radius)
-}
+@include borderColorPurple("", "", ".")
 
 /* hover */
 
-@each $mode, $hex, $radius in $purple {
-  @include borderColor
-    (".hover\\:", ":hover", "", purple, $mode, $hex, $radius)
-}
-@each $mode, $hex, $radius in $purple {
-  @include borderColor
-    (".group:hover .group-hover\\:", "", "", purple, $mode, $hex, $radius)
-}
+@include borderColorPurple(".hover\\:", ":hover", "")
+
+/* group hover */
+
+@include borderColorPurple(".group:hover .group-hover\\:", "", "")
 
 /* focus */
+
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// for {responsive}, see `_responsive.scss`
