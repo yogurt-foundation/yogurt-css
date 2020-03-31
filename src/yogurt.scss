@@ -47,8 +47,8 @@
 
 /* spacing */
 
-// @import 'utilities/spacing/margin';
-// @import 'utilities/spacing/padding';
+// @import 'utilities/spacing/margin'; // ok
+@import 'utilities/spacing/padding';
 
 /* sizing */
 
@@ -104,7 +104,7 @@
 
 // @import 'utilities/effects/boxShadow'; // ok
 // @import 'utilities/effects/opacity'; // ok
-@import 'utilities/effects/shadowColor/*';
+// @import 'utilities/effects/shadowColor/*'; // ok
 
 /* interactivity */
 

@@ -74,6 +74,12 @@
     //   @include opacity(".#{$screen}\\:", "", "", $modifier, $value)
     // }
 
+    @each $modifier, $value in $spacing {
+      // @include margin(".#{$screen}\\:", "", "", $modifier, $value, "")
+      // @include margin(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
+      // @include padding(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+
     /* hover */
 
     // @each $modifier, $value in $background-attachment {

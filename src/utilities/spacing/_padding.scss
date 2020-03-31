@@ -3,8 +3,6 @@
  * @module: _padding.scss
  */
 
-///// rules /////
-
 @mixin padding(
   $prefix, $pseudo, $class, $modifier, $value) {
 
@@ -52,38 +50,28 @@
 
 }
 
-///// variants /////
-
 /* standalone */
+
 /* hover */
+
 /* focus */
+
 /* active */
 
 @each $modifier, $value in $spacing {
 
   /* global */
-  
-  @include padding
-    ("", "", ".", $modifier, $value)
+
+  @include padding("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include padding
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }
