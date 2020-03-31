@@ -3,31 +3,25 @@
  * @module: shadowColor/_purple.scss
  */
 
+@mixin shadowColorPurple($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $purple {
+    @include shadowColor
+      ($prefix, $pseudo, $class, purple, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $purple {
-  @include shadowColor
-    ("", "", ".", purple, $mode, $hex, $radius)
-}
+@include shadowColorPurple("", "", ".")
 
 /* hover */
 
-@each $mode, $hex, $radius in $purple {
-  @include shadowColor
-    (".hover\\:", ":hover", "", purple, $mode, $hex, $radius)
-}
+@include shadowColorPurple(".hover\\:", ":hover", "")
 
 /* focus */
+
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// See `_responsive.scss`

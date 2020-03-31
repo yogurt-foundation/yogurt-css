@@ -3,31 +3,25 @@
  * @module: shadowColor/_pink.scss
  */
 
+@mixin shadowColorPink($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $pink {
+    @include shadowColor
+      ($prefix, $pseudo, $class, pink, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $pink {
-  @include shadowColor
-    ("", "", ".", pink, $mode, $hex, $radius)
-}
+@include shadowColorPink("", "", ".")
 
 /* hover */
 
-@each $mode, $hex, $radius in $pink {
-  @include shadowColor
-    (".hover\\:", ":hover", "", pink, $mode, $hex, $radius)
-}
+@include shadowColorPink(".hover\\:", ":hover", "")
 
 /* focus */
+
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// See `_responsive.scss`

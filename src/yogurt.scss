@@ -97,14 +97,14 @@
 
 /* tables */
 
-@import 'utilities/tables/borderCollapse';
-// @import 'utilities/tables/tableLayout';
+// @import 'utilities/tables/borderCollapse'; // ok
+// @import 'utilities/tables/tableLayout'; // ok
 
 /* effects */
 
-// @import 'utilities/effects/boxShadow';
-// @import 'utilities/effects/opacity';
-// @import 'utilities/effects/shadowColor/*';
+// @import 'utilities/effects/boxShadow'; // ok
+// @import 'utilities/effects/opacity'; // ok
+@import 'utilities/effects/shadowColor/*';
 
 /* interactivity */
 

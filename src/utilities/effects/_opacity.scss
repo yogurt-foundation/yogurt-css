@@ -3,58 +3,38 @@
  * @module: _opacity.scss
  */
 
-///// rules /////
-
-@mixin opacity(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin opacity($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "opacity-", $modifier,
     "opacity", $value#{$override}
   )
-
 }
 
-///// variants /////
-
 /* standalone */
+
 /* hover */
+
 /* focus */
+
 /* active */
 
 @each $modifier, $value in $opacity {
 
   /* global */
-  
-  @include opacity
-    ("", "", ".", $modifier, $value)
+
+  @include opacity("", "", ".", $modifier, $value)
 
   /* hover */
-  
-  @include opacity
-    (".hover\\:", ":hover", "", $modifier, $value)
+
+  @include opacity(".hover\\:", ":hover", "", $modifier, $value)
 
   /* focus */
+
   /* active */
 
   /* responsive */
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include opacity
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      
-      @include opacity
-        (".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-
-      /* focus */
-      /* active */
-    }
-  }
 }

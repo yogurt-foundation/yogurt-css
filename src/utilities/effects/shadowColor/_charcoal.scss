@@ -3,31 +3,25 @@
  * @module: shadowColor/_charcoal.scss
  */
 
+@mixin shadowColorCharcoal($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $charcoal {
+    @include shadowColor
+      ($prefix, $pseudo, $class, charcoal, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $charcoal {
-  @include shadowColor
-    ("", "", ".", charcoal, $mode, $hex, $radius)
-}
+@include shadowColorCharcoal("", "", ".")
 
 /* hover */
 
-@each $mode, $hex, $radius in $charcoal {
-  @include shadowColor
-    (".hover\\:", ":hover", "", charcoal, $mode, $hex, $radius)
-}
+@include shadowColorCharcoal(".hover\\:", ":hover", "")
 
 /* focus */
+
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// See `_responsive.scss`

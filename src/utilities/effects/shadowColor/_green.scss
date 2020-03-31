@@ -3,31 +3,25 @@
  * @module: shadowColor/_green.scss
  */
 
+@mixin shadowColorGreen($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $green {
+    @include shadowColor
+      ($prefix, $pseudo, $class, green, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $green {
-  @include shadowColor
-    ("", "", ".", green, $mode, $hex, $radius)
-}
+@include shadowColorGreen("", "", ".")
 
 /* hover */
 
-@each $mode, $hex, $radius in $green {
-  @include shadowColor
-    (".hover\\:", ":hover", "", green, $mode, $hex, $radius)
-}
+@include shadowColorGreen(".hover\\:", ":hover", "")
 
 /* focus */
+
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// See `_responsive.scss`

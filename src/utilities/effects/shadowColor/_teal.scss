@@ -3,31 +3,25 @@
  * @module: shadowColor/_teal.scss
  */
 
+@mixin shadowColorTeal($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $teal {
+    @include shadowColor
+      ($prefix, $pseudo, $class, teal, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $teal {
-  @include shadowColor
-    ("", "", ".", teal, $mode, $hex, $radius)
-}
+@include shadowColorTeal("", "", ".")
 
 /* hover */
 
-@each $mode, $hex, $radius in $teal {
-  @include shadowColor
-    (".hover\\:", ":hover", "", teal, $mode, $hex, $radius)
-}
+@include shadowColorTeal(".hover\\:", ":hover", "")
 
 /* focus */
+
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// See `_responsive.scss`

@@ -70,10 +70,18 @@
     //   @include borderStyle(".#{$screen}\\:", "", "", $modifier, $value)
     // }
 
+    // @each $modifier, $value in $opacity {
+    //   @include opacity(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
     /* hover */
 
     // @each $modifier, $value in $background-attachment {
     //   @include backgroundAttachment(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $opacity {
+    //   @include opacity(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
     // }
 
     /* focus */

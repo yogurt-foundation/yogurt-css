@@ -3,31 +3,25 @@
  * @module: shadowColor/_indigo.scss
  */
 
+@mixin shadowColorIndigo($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $indigo {
+    @include shadowColor
+      ($prefix, $pseudo, $class, indigo, $mode, $hex, $radius)
+  }
+}
+
 /* global */
 
-@each $mode, $hex, $radius in $indigo {
-  @include shadowColor
-    ("", "", ".", indigo, $mode, $hex, $radius)
-}
+@include shadowColorIndigo("", "", ".")
 
 /* hover */
 
-@each $mode, $hex, $radius in $indigo {
-  @include shadowColor
-    (".hover\\:", ":hover", "", indigo, $mode, $hex, $radius)
-}
+@include shadowColorIndigo(".hover\\:", ":hover", "")
 
 /* focus */
+
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// See `_responsive.scss`
