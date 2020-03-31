@@ -21,6 +21,10 @@
 
   @include display(".hover\\:", ":hover", "", $modifier, $value)
 
+  /* group hover */
+
+  @include display(".group:hover .group-hover\\:", "", "", $modifier, $value)
+
   /* focus */
 
   /* active */

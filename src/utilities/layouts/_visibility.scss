@@ -27,6 +27,10 @@
 
 @include visibility(".hover\\:", ":hover", "")
 
+/* group hover */
+
+@include visibility(".group:hover .group-hover\\:", "", "")
+
 /* focus */
 
 /* active */
