@@ -116,12 +116,12 @@
 @each $modifier, $value in $border-radius {
 
   /* global */
-  
+
   @include borderRadius
     ("", "", ".", $modifier, $value)
 
   /* hover */
-  
+
   @include borderRadiusDefault
     (".hover\\:", "", ":hover")
   @include borderRadius
@@ -131,7 +131,7 @@
   /* active */
 
   /* responsive */
-  
+
   @each $screen, $size in $screens {
     @media (min-width: #{$size}) {
       /* standalone */
