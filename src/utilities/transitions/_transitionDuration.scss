@@ -3,46 +3,28 @@
  * @module: _transitionDuration.scss
  */
 
-///// rules /////
-
-@mixin transitionDuration(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin transitionDuration($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "duration-", $modifier,
     "transition-duration", $value#{$override}
   )
-
 }
-
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 
 @each $modifier, $value in $transition-duration {
 
   /* global */
-  
-  @include transitionDuration
-    ("", "", ".", $modifier, $value)
+
+  @include transitionDuration("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
-      /* standalone */
-      /* global */
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
+
+  // See `_responsive.scss`
+
 }
