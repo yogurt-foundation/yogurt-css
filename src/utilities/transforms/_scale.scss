@@ -3,10 +3,7 @@
  * @module: _scale.scss
  */
 
-///// rules /////
-
-@mixin scale(
-  $prefix, $pseudo, $class, $modifier, $value) {
+@mixin scale($prefix, $pseudo, $class, $modifier, $value) {
 
   @include setRuleDouble(
     $prefix, $pseudo, $class,
@@ -28,46 +25,22 @@
 
 }
 
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
-
 @each $modifier, $value in $scale {
 
   /* global */
-  
-  @include scale
-    ("", "", ".", $modifier, $value)
+
+  @include scale("", "", ".", $modifier, $value)
 
   /* hover */
-  
-  @include scale
-    (".hover\\:", ":hover", "", $modifier, $value)
+
+  @include scale(".hover\\:", ":hover", "", $modifier, $value)
 
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include scale
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      
-      @include scale
-        (".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-
-      /* focus */
-      /* active */
-    }
-  }
 }

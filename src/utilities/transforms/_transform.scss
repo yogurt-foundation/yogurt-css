@@ -3,10 +3,7 @@
  * @module: _transform.scss
  */
 
-///// rules /////
-
-@mixin transform(
-  $prefix, $pseudo, $class) {
+@mixin transform($prefix, $pseudo, $class) {
 
   #{$prefix}#{$class}transform#{$pseudo} {
     --transform-translate-x: 0;
@@ -25,30 +22,16 @@
 
 }
 
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
-
 /* global */
 
-@include transform
-  ("", "", ".")
+@include transform("", "", ".")
 
 /* hover */
+
 /* focus */
+
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// See `_responsive.scss`

@@ -157,6 +157,29 @@
     //   @include userSelect(".#{$screen}\\:", "", "", $modifier, $value)
     // }
 
+    // @each $modifier, $value in $rotate {
+    //   @include rotate(".#{$screen}\\:", "", "", $modifier, $value, "")
+    //   @include rotate(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
+    // }
+
+    // @each $modifier, $value in $scale {
+    //   @include scale(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $skew {
+    //   @include skew(".#{$screen}\\:", "", "", $modifier, $value, "")
+    //   @include skew(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
+    // }
+
+    // @each $modifier, $value in $transform-origin {
+    //   @include transformOrigin(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $translate {
+    //   @include translate(".#{$screen}\\:", "", "", $modifier, $value, "")
+    //   @include translate(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
+    // }
+
     /* hover */
 
     // @each $modifier, $value in $background-attachment {
@@ -177,6 +200,29 @@
 
     // @each $modifier, $value in $flex-direction {
     //   @include flexDirection(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $rotate {
+    //   @include rotate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "")
+    //   @include rotate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-") // negative
+    // }
+
+    // @each $modifier, $value in $scale {
+    //   @include scale(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $skew {
+    //   @include skew(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "")
+    //   @include skew(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-") // negative
+    // }
+
+    // @each $modifier, $value in $transform-origin {
+    //   @include transformOrigin(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $translate {
+    //   @include translate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "")
+    //   @include translate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-") // negative
     // }
 
     /* focus */
