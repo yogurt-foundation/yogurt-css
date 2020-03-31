@@ -180,6 +180,64 @@
     //   @include translate(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
     // }
 
+    // @each $modifier, $value in $box-sizing {
+    //   @include boxSizing(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $clear {
+    //   @include clear(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @include containerDefault(".#{$screen}\\:", "")
+    // @include container(".#{$screen}\\:", "", "", "", $size)
+
+    // @each $modifier, $value in $display {
+    //   @include display(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $float {
+    //   @include floatDefault(".#{$screen}\\:", "")
+    //   @include float(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $inset {
+    //   @include inset(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $spacing {
+    //   @include insetTBLR(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $object-fit {
+    //   @include objectFit(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $object-position {
+    //   @include objectPosition(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $overflow {
+    //   @include overflow(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $overflow-xy {
+    //   @include overflow-xy(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $overflow-scrolling {
+    //   @include overflow-scrolling(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $position {
+    //   @include position(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @include visibility(".#{$screen}\\:", "", "")
+
+    // @each $modifier, $value in $z-index {
+    //   @include zIndex(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
     /* hover */
 
     // @each $modifier, $value in $background-attachment {
@@ -224,6 +282,16 @@
     //   @include translate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "")
     //   @include translate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-") // negative
     // }
+
+    // @each $modifier, $value in $display {
+    //   @include display(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $position {
+    //   @include position(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+    // }
+
+    // @include visibility(".#{$screen}\\:hover\\:", ":hover", "")
 
     /* focus */
 

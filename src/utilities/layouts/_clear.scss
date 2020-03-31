@@ -3,11 +3,7 @@
  * @module: _clear.scss
  */
 
-///// rules /////
-
-@mixin clear(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin clear($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "clear-", $modifier,
@@ -15,38 +11,20 @@
   )
 }
 
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
-
 @each $modifier, $value in $clear {
 
   /* global */
-  
-  @include clear
-    ("", "", ".", $modifier, $value)
+
+  @include clear("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include clear
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

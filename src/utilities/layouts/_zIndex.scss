@@ -3,51 +3,28 @@
  * @module: _zIndex.scss
  */
 
-///// rules /////
-
-@mixin zIndex(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin zIndex($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "z-", $modifier,
     "z-index", $value#{$override}
   )
-
 }
-
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 
 @each $modifier, $value in $z-index {
 
   /* global */
-  
-  @include zIndex
-    ("", "", ".", $modifier, $value)
+
+  @include zIndex("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include zIndex
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

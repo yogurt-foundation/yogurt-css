@@ -3,58 +3,32 @@
  * @module: _container.scss
  */
 
-///// rules /////
-
-@mixin container(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin container($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "container", $modifier,
     "max-width", $value#{$override}
   )
-
 }
 
-@mixin containerDefault(
-  $prefix, $class) {
-
+@mixin containerDefault($prefix, $class) {
   @include setRuleSingle(
     $prefix, "", $class,
     "container", "",
     "max-width", "100%#{$override}"
   )
-
 }
 
-///// variants /////
+/* global */
 
-/* standalone */
-
-@include containerDefault
-  ("", ".")
+@include containerDefault("", ".")
 
 /* hover */
+
 /* focus */
+
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-
-    /* standalone */
-    
-    @include containerDefault
-      (".#{$screen}\\:", "")
-
-    /* global */
-    
-    @include container
-      (".#{$screen}\\:", "", "", "", $size)
-
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// See `_responsive.scss`

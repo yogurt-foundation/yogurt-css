@@ -3,10 +3,7 @@
  * @module: _inset.scss
  */
 
-///// rules /////
-
-@mixin inset(
-  $prefix, $pseudo, $class, $modifier, $value) {
+@mixin inset($prefix, $pseudo, $class, $modifier, $value) {
 
   @include setRuleQuad(
     $prefix, $pseudo, $class,
@@ -28,8 +25,7 @@
 
 }
 
-@mixin insetTBLR(
-  $prefix, $pseudo, $class, $modifier, $value) {
+@mixin insetTBLR($prefix, $pseudo, $class, $modifier, $value) {
 
   @include setRuleSingle(
     $prefix, $pseudo, $class,
@@ -57,68 +53,37 @@
 
 }
 
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
-
 @each $modifier, $value in $inset {
 
   /* global */
-  
-  @include inset
-    ("", "", ".", $modifier, $value)
+
+  @include inset("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-
-      /* global */
-      
-      @include inset
-        (".#{$screen}\\:", "", "", $modifier, $value)
-
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
+  // See `_responsive.scss`
 }
 
 @each $modifier, $value in $spacing {
 
   /* global */
-  
-  @include insetTBLR
-    ("", "", ".", $modifier, $value)
+
+  @include insetTBLR("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include insetTBLR
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

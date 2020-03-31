@@ -3,59 +3,30 @@
  * @module: _display.scss
  */
 
-///// rules /////
-
-@mixin display(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin display($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "", $modifier,
     "display", $value#{$override}
   )
-
 }
-
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 
 @each $modifier, $value in $display {
 
   /* global */
-  
-  @include display
-    ("", "", ".", $modifier, $value)
+
+  @include display("", "", ".", $modifier, $value)
 
   /* hover */
-  
-  @include display
-    (".hover\\:", ":hover", "", $modifier, $value)
+
+  @include display(".hover\\:", ":hover", "", $modifier, $value)
 
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include display
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      
-      @include display
-        (".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-
-      /* focus */
-      /* active */
-    }
-  }
 }

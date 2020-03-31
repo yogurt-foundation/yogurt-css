@@ -3,71 +3,47 @@
  * @module: _float.scss
  */
 
-///// rules /////
-
-@mixin float(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin float($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "float-", $modifier,
     "float", $value#{$override}
   )
-
 }
 
-@mixin floatDefault(
-  $prefix, $class) {
-
+@mixin floatDefault($prefix, $class) {
   #{$prefix}#{$class}clearfix:after {
     content: ""#{$override};
     display: table#{$override};
     clear: both#{$override}
   }
-
 }
 
-///// variants /////
 
-/* standalone */
+/* global */
 
-@include floatDefault(
-  "", "."
-)
+@include floatDefault("", ".")
 
 /* hover */
+
 /* focus */
+
 /* active */
 
 @each $modifier, $value in $float {
 
   /* global */
-  
-  @include float
-    ("", "", ".", $modifier, $value)
+
+  @include float("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      
-      @include floatDefault
-        (".#{$screen}\\:", "")
+  // See `_responsive.scss`
 
-      /* global */
-      
-      @include float
-        (".#{$screen}\\:", "", "", $modifier, $value)
-
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

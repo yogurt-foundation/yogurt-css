@@ -3,51 +3,28 @@
  * @module: _objectPosition.scss
  */
 
-///// rules /////
-
-@mixin objectPosition(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin objectPosition($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "object-", $modifier,
     "object-position", $value#{$override}
   )
-
 }
-
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 
 @each $modifier, $value in $object-position {
 
   /* global */
-  
-  @include objectPosition
-    ("", "", ".", $modifier, $value)
-  
+
+  @include objectPosition("", "", ".", $modifier, $value)
+
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include objectPosition
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

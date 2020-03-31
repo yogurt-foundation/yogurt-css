@@ -3,21 +3,15 @@
  * @module: _overflow.scss
  */
 
-///// rules /////
-
-@mixin overflow(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin overflow($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "overflow-", $modifier,
     "overflow", $value#{$override}
   )
-
 }
 
-@mixin overflow-xy(
-  $prefix, $pseudo, $class, $modifier, $value) {
+@mixin overflow-xy($prefix, $pseudo, $class, $modifier, $value) {
 
   @include setRuleSingle(
     $prefix, $pseudo, $class,
@@ -33,8 +27,7 @@
 
 }
 
-@mixin overflow-scrolling(
-  $prefix, $pseudo, $class, $modifier, $value) {
+@mixin overflow-scrolling($prefix, $pseudo, $class, $modifier, $value) {
 
   @include setRuleSingle(
     $prefix, $pseudo, $class,
@@ -44,106 +37,56 @@
 
 }
 
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
-
 @each $modifier, $value in $overflow {
 
   /* global */
-  
-  @include overflow
-    ("", "", ".", $modifier, $value)
+
+  @include overflow("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include overflow
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 
 @each $modifier, $value in $overflow-xy {
 
   /* global */
-  
-  @include overflow-xy
-    ("", "", ".", $modifier, $value)
+
+  @include overflow-xy("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include overflow-xy
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 
 @each $modifier, $value in $overflow-scrolling {
 
   /* global */
-  
-  @include overflow-scrolling
-    ("", "", ".", $modifier, $value)
+
+  @include overflow-scrolling("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include overflow-scrolling
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

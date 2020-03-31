@@ -3,51 +3,28 @@
  * @module: _objectFit.scss
  */
 
-///// rules /////
-
-@mixin objectFit(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin objectFit($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "object-", $modifier,
     "object-fit", $value#{$override}
   )
-
 }
-
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 
 @each $modifier, $value in $object-fit {
 
   /* global */
-  
-  @include objectFit
-    ("", "", ".", $modifier, $value)
+
+  @include objectFit("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include objectFit
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

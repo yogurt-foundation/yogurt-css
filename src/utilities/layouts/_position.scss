@@ -3,59 +3,30 @@
  * @module: _position.scss
  */
 
-///// rules /////
-
-@mixin position(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin position($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "", $modifier,
     "position", $value#{$override}
   )
-
 }
-
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 
 @each $modifier, $value in $position {
 
   /* global */
-  
-  @include position
-    ("", "", ".", $modifier, $value)
+
+  @include position("", "", ".", $modifier, $value)
 
   /* hover */
-  
-  @include position
-    (".hover\\:", ":hover", "", $modifier, $value)
+
+  @include position(".hover\\:", ":hover", "", $modifier, $value)
 
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include position
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      
-      @include position
-        (".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-
-      /* focus */
-      /* active */
-    }
-  }
 }
