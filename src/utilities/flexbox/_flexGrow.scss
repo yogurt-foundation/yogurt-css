@@ -3,66 +3,33 @@
  * @module: _flexgrow.scss
  */
 
-///// rules /////
-
-@mixin flexGrow(
-  $prefix, $pseudo, $class) {
-
+@mixin flexGrow($prefix, $pseudo, $class) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "flex-grow-0", "",
     "flex-grow", "0#{$override}"
   )
-
 }
 
 @mixin flexGrowDefault($prefix, $class) {
-
   @include setRuleSingle(
     $prefix, "", $class,
     "flex-grow", "",
     "flex-grow", "1#{$override}"
   )
-
 }
-
-///// variants /////
-
-/* standalone */
-
-@include flexGrowDefault
-  ("", ".")
-
-/* hover */
-/* focus */
-/* active */
 
 /* global */
 
-@include flexGrow
-  ("", "", ".")
+@include flexGrowDefault("", ".")
+@include flexGrow("", "", ".")
 
 /* hover */
+
 /* focus */
+
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-
-    /* standalone */
-    
-    @include flexGrowDefault
-      (".#{$screen}\\:", "")
-
-    /* global */
-    
-    @include flexGrow
-      (".#{$screen}\\:", "", "")
-
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// See `_responsive.scss`

@@ -3,67 +3,33 @@
  * @module: _flexShrink.scss
  */
 
-///// rules /////
-
-@mixin flexShrink(
-  $prefix, $pseudo, $class) {
-
+@mixin flexShrink($prefix, $pseudo, $class) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "flex-shrink-0", "",
     "flex-shrink", "0#{$override}"
   )
-
 }
 
-@mixin flexShrinkDefault(
-  $prefix, $class) {
-
+@mixin flexShrinkDefault($prefix, $class) {
   @include setRuleSingle(
     $prefix, "", $class,
     "flex-shrink", "",
     "flex-shrink", "1#{$override}"
   )
-
 }
-
-///// variants /////
-
-/* standalone */
-
-@include flexShrinkDefault(
-  "", "."
-)
-
-/* hover */
-/* focus */
-/* active */
 
 /* global */
 
-@include flexShrink
-  ("", "", ".")
+@include flexShrinkDefault("", ".")
+@include flexShrink("", "", ".")
 
 /* hover */
+
 /* focus */
+
 /* active */
 
 /* responsive */
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
 
-    /* standalone */
-    
-    @include flexShrinkDefault
-      (".#{$screen}\\:", "")
-
-    /* global */
-    
-    @include flexShrink
-      (".#{$screen}\\:", "", "")
-
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// See `_responsive.scss`

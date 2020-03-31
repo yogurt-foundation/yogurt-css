@@ -104,6 +104,44 @@
     //   @include width(".#{$screen}\\:", "", "", $modifier, $value)
     // }
 
+    // @each $modifier, $value in $align-content {
+    //   @include alignContent(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $align-items {
+    //   @include alignItems(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $align-self {
+    //   @include alignSelf(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $flex {
+    //   @include flex(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $flex-direction {
+    //   @include flexDirection(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @include flexGrowDefault(".#{$screen}\\:", "")
+    // @include flexGrow(".#{$screen}\\:", "", "")
+
+    // @include flexShrinkDefault(".#{$screen}\\:", "")
+    // @include flexShrink(".#{$screen}\\:", "", "")
+
+    // @each $modifier, $value in $flex-wrap {
+    //   @include flexWrap(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $justify-content {
+    //   @include justifyContent(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $order {
+    //   @include order(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
     /* hover */
 
     // @each $modifier, $value in $background-attachment {
@@ -120,6 +158,10 @@
 
     // @each $modifier, $value in $width {
     //   @include width(".#{$screen}\\:hover\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $flex-direction {
+    //   @include flexDirection(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
     // }
 
     /* focus */

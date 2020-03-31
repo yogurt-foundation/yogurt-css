@@ -3,51 +3,28 @@
  * @module: _justifyContent.scss
  */
 
-///// rules /////
-
-@mixin justifyContent(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin justifyContent($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "justify-", $modifier,
     "justify-content", $value#{$override}
   )
-
 }
-
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 
 @each $modifier, $value in $justify-content {
 
   /* global */
-  
-  @include justifyContent
-    ("", "", ".", $modifier, $value)
+
+  @include justifyContent("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include justifyContent
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

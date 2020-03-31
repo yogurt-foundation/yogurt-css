@@ -3,50 +3,36 @@
  * @module: _flex.scss
  */
 
-///// rules /////
-
-@mixin flex(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin flex($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "flex-", $modifier,
     "flex", $value#{$override}
   )
-
 }
 
-///// variants /////
-
 /* standalone */
+
 /* hover */
+
 /* focus */
+
 /* active */
 
 @each $modifier, $value in $flex {
 
   /* global */
-  
-  @include flex
-    ("", "", ".", $modifier, $value)
+
+  @include flex("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include flex
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

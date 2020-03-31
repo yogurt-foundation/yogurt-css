@@ -3,50 +3,28 @@
  * @module: _order.scss
  */
 
-///// rules /////
-
-@mixin order(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin order($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "order-", $modifier,
     "order", $value#{$override}
   )
-
 }
-
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 
 @each $modifier, $value in $order {
 
   /* global */
-  
-  @include order
-    ("", "", ".", $modifier, $value)
+
+  @include order("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include order
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

@@ -3,59 +3,38 @@
  * @module: _flexDirection.scss
  */
 
-///// rules /////
-
-@mixin flexDirection(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin flexDirection($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "flex-", $modifier,
     "flex-direction", $value#{$override}
   )
-
 }
 
-///// rules /////
-
 /* standalone */
+
 /* hover */
+
 /* focus */
+
 /* active */
 
 @each $modifier, $value in $flex-direction {
 
   /* global */
-  
-  @include flexDirection
-    ("", "", ".", $modifier, $value)
+
+  @include flexDirection("", "", ".", $modifier, $value)
 
   /* hover */
-  
-  @include flexDirection
-    (".hover\\:", ":hover", "", $modifier, $value)
+
+  @include flexDirection(".hover\\:", ":hover", "", $modifier, $value)
 
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include flexDirection
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      
-      @include flexDirection
-        (".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-
-      /* focus */
-      /* active */
-    }
-  }
 }
