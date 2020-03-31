@@ -3,10 +3,7 @@
  * @module: _listStylePostion.scss
  */
 
-///// rules /////
-
-@mixin listStylePosition(
-  $prefix, $class) {
+@mixin listStylePosition($prefix, $class) {
 
   #{$prefix}#{$class}list-inside {
     list-style-position: inside#{$override};
@@ -18,35 +15,16 @@
 
 }
 
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
-
 /* global */
 
-@include listStylePosition
-  ("", ".")
+@include listStylePosition("", ".")
 
 /* hover */
+
 /* focus */
+
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-
-    /* standalone */
-    /* global */
-    
-    @include listStylePosition
-      (".#{$screen}\\:", "")
-
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// See `_responsive.scss`

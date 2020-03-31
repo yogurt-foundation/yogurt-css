@@ -3,51 +3,28 @@
  * @module: _verticalAlign.scss
  */
 
-///// rules /////
-
-@mixin verticalAlign(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin verticalAlign($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "align-", $modifier,
     "vertical-align", $value#{$override}
   )
-
 }
-
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 
 @each $modifier, $value in $vertical-align {
 
   /* global */
-  
-  @include verticalAlign
-    ("", "", ".", $modifier, $value)
+
+  @include verticalAlign("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include verticalAlign
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

@@ -3,8 +3,6 @@
  * @module: _placeholder.scss
  */
 
-///// rules /////
-
 @mixin placeholder() {
 
   .placeholder-transparent:-ms-input-placeholder {
@@ -21,29 +19,16 @@
 
 }
 
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
-
 /* global */
 
 @include placeholder()
 
 /* hover */
+
 /* focus */
+
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// See `_responsive.scss`

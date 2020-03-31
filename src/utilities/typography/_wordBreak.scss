@@ -3,10 +3,7 @@
  * @module: _wordBreak.scss
  */
 
-///// rules /////
-
-@mixin wordBreak(
-  $prefix, $pseudo, $class) {
+@mixin wordBreak($prefix, $pseudo, $class) {
 
   #{$prefix}#{$class}break-normal#{$pseudo} {
     overflow-wrap: normal#{$override};
@@ -29,33 +26,16 @@
 
 }
 
-/* standalone */
-/* hover */
-/* focus */
-/* active */
-
 /* global */
 
-@include wordBreak
-  ("", "", ".")
+@include wordBreak("", "", ".")
 
 /* hover */
+
 /* focus */
+
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-
-    /* standalone */
-    /* global */
-    
-    @include wordBreak
-      (".#{$screen}\\:", "", "")
-
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// See `_responsive.scss`

@@ -3,10 +3,7 @@
  * @module: _textTransform.scss
  */
 
-///// rules /////
-
-@mixin textTransform(
-  $prefix, $pseudo, $class) {
+@mixin textTransform($prefix, $pseudo, $class) {
 
   #{$prefix}#{$class}uppercase#{$pseudo} {
     text-transform: uppercase#{$override}
@@ -26,34 +23,16 @@
 
 }
 
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
-
 /* global */
 
-@include textTransform
-  ("", "", ".")
+@include textTransform("", "", ".")
 
 /* hover */
+
 /* focus */
+
 /* active */
 
 /* responsive */
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
 
-    /* standalone */
-    /* global */
-    
-    @include textTransform
-      (".#{$screen}\\:", "", "")
-
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// See `_responsive.scss`

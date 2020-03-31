@@ -3,51 +3,28 @@
  * @module: _fontFamily.scss
  */
 
-///// rules /////
-
-@mixin fontFamily(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin fontFamily($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "font-", $modifier,
     "font-family", $value#{$override}
   )
-
 }
-
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 
 @each $modifier, $value in $font-family {
 
   /* global */
-  
-  @include fontFamily
-    ("", "", ".", $modifier, $value)
+
+  @include fontFamily("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include fontFamily
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

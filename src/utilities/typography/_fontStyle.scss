@@ -3,49 +3,28 @@
  * @module: _fontStyle.scss
  */
 
-///// rules /////
-
-@mixin fontStyle(
-  $prefix, $class) {
+@mixin fontStyle($prefix, $class) {
 
   #{$prefix}#{$class}italic {
     font-style: italic#{$override};
   }
+
   #{$prefix}#{$class}not-italic {
     font-style: normal#{$override};
   }
 
 }
 
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
-
 /* global */
 
-@include fontStyle
-  ("", ".")
+@include fontStyle("", ".")
 
 /* hover */
+
 /* focus */
+
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-
-    /* standalone */
-    /* global */
-    
-    @include fontStyle
-      (".#{$screen}\\:", "")
-
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// See `_responsive.scss`

@@ -3,51 +3,28 @@
  * @module: _letterSpacing.scss
  */
 
-///// rules /////
-
-@mixin letterSpacing(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin letterSpacing($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "tracking-", $modifier,
     "letter-spacing", $value#{$override}
   )
-
 }
-
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 
 @each $modifier, $value in $letter-spacing {
 
   /* global */
-  
-  @include letterSpacing
-    ("", "", ".", $modifier, $value)
+
+  @include letterSpacing("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include letterSpacing
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

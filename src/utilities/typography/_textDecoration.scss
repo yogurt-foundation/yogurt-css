@@ -3,10 +3,7 @@
  * @module: _textDecoration.scss
  */
 
-///// rules /////
-
-@mixin textDecoration(
-  $prefix, $pseudo, $class) {
+@mixin textDecoration($prefix, $pseudo, $class) {
 
   #{$prefix}#{$class}underline#{$pseudo} {
     text-decoration: underline#{$override}
@@ -22,51 +19,20 @@
 
 }
 
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
-
 /* global */
 
-@include textDecoration
-  ("", "", ".")
+@include textDecoration("", "", ".")
 
 /* hover */
 
-@include textDecoration
-  (".hover\\:", ":hover", "")
+@include textDecoration(".hover\\:", ":hover", "")
 
 /* focus */
 
-@include textDecoration
-  (".focus\\:", ":focus", "")
+@include textDecoration(".focus\\:", ":focus", "")
 
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-
-    /* standalone */
-    /* global */
-    
-    @include textDecoration
-      (".#{$screen}\\:", "", "")
-
-    /* hover */
-    
-    @include textDecoration
-      (".#{$screen}\\:hover\\:", ":hover", "")
-
-    /* focus */
-    
-    @include textDecoration
-      (".#{$screen}\\:focus\\:", ":focus", "")
-
-    /* active */
-  }
-}
+// See `_responsive.scss`

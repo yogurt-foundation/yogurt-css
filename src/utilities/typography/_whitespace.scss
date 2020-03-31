@@ -3,51 +3,28 @@
  * @module: _whitespace.scss
  */
 
-///// rules /////
-
-@mixin whitespace(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin whitespace($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "whitespace-", $modifier,
     "white-space", $value#{$override}
   )
-
 }
-
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 
 @each $modifier, $value in $whitespace {
 
   /* global */
-  
-  @include whitespace
-    ("", "", ".", $modifier, $value)
+
+  @include whitespace("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include whitespace
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }
