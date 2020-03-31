@@ -3,51 +3,28 @@
  * @module: _pointerEvents.scss
  */
 
-///// rules /////
-
-@mixin pointerEvents(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin pointerEvents($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "pointer-events-", $modifier,
     "pointer-events", $value#{$override}
   )
-
 }
-
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 
 @each $modifier, $value in $pointer-events {
 
   /* global */
-  
-  @include pointerEvents
-    ("", "", ".", $modifier, $value)
+
+  @include pointerEvents("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include pointerEvents
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

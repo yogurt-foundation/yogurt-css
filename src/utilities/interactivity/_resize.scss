@@ -3,69 +3,46 @@
  * @module: _resize.scss
  */
 
-///// rules /////
-
-@mixin resize(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin resize($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "resize-", $modifier,
     "resize", $value#{$override}
   )
-
 }
 
-@mixin resizeDefault(
-  $prefix, $pseudo, $class) {
-
+@mixin resizeDefault($prefix, $pseudo, $class) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "resize", "",
     "resize", "both#{$override}"
   )
-
 }
-
-///// variants /////
 
 /* standalone */
 
-@include resizeDefault
-  ("", "", ".")
+@include resizeDefault("", "", ".")
+
 /* hover */
+
 /* focus */
+
 /* active */
 
 @each $modifier, $value in $resize {
 
   /* global */
-  
-  @include resize
-    ("", "", ".", $modifier, $value)
+
+  @include resize("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      
-      @include resizeDefault
-        (".#{$screen}\\:", "", "")
+  // See `_responsive.scss`
 
-      /* global */
-      
-      @include resize
-        (".#{$screen}\\:", "", "", $modifier, $value)
-
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

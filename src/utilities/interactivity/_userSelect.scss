@@ -3,11 +3,7 @@
  * @module: _userSelect.scss
  */
 
-///// rules /////
-
-@mixin userSelect(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin userSelect($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "select-", $modifier,
@@ -15,38 +11,20 @@
   )
 }
 
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
-
 @each $modifier, $value in $user-select {
 
   /* global */
-  
-  @include userSelect
-    ("", "", ".", $modifier, $value)
+
+  @include userSelect("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include userSelect
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

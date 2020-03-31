@@ -3,57 +3,26 @@
  * @module: _outline.scss
  */
 
-///// rules /////
-
-@mixin outline(
-  $prefix, $pseudo, $class) {
-
+@mixin outline($prefix, $pseudo, $class) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "outline-none", "",
     "outline", "0#{$override}"
   )
-
 }
-
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 
 /* global */
 
-@include outline
-  ("", "", ".")
+@include outline("", "", ".")
 
 /* hover */
 
 /* focus */
 
-@include outline
-  (".focus\\:", ":focus", "")
+@include outline(".focus\\:", ":focus", "")
 
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-
-    /* standalone */
-    /* global */
-    
-    @include outline
-      (".#{$screen}\\:", "", "")
-
-    /* hover */
-    /* focus */
-    
-    @include outline
-      (".#{$screen}\\:focus\\:", ":focus", "")
-
-    /* active */
-  }
-}
+// See `_responsive.scss`

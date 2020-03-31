@@ -3,37 +3,24 @@
  * @module: _appearance.scss
  */
 
-///// rules /////
-
-@mixin appearance(
-  $prefix, $class) {
-
+@mixin appearance($prefix, $class) {
   @include setRuleSingle(
     $prefix, "", $class,
     "appearance-none", "",
     "appearance", "none#{$override}"
   )
-
 }
 
-///// variants /////
+/* global */
 
-/* standalone */
-
-@include appearance
-  ("", ".")
+@include appearance("", ".")
 
 /* hover */
+
 /* focus */
+
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// See `_responsive.scss`

@@ -142,6 +142,21 @@
     //   @include order(".#{$screen}\\:", "", "", $modifier, $value)
     // }
 
+    // @include outline(".#{$screen}\\:", "", "")
+
+    // @each $modifier, $value in $pointer-events {
+    //   @include pointerEvents(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $resize {
+    //   @include resizeDefault(".#{$screen}\\:", "", "")
+    //   @include resize(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $user-select {
+    //   @include userSelect(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
     /* hover */
 
     // @each $modifier, $value in $background-attachment {
@@ -165,6 +180,8 @@
     // }
 
     /* focus */
+
+    // @include outline(".#{$screen}\\:focus\\:", ":focus", "")
 
     /* active */
 
