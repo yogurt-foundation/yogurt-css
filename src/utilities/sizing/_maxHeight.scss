@@ -3,51 +3,34 @@
  * @module: _maxHeight.scss
  */
 
-///// rules /////
-
-@mixin maxHeight(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin maxHeight($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "max-h-", $modifier,
     "max-height", $value#{$override}
   )
-
 }
 
-///// variants /////
-
 /* standalone */
+
 /* hover */
+
 /* focus */
+
 /* active */
 
 @each $modifier, $value in $max-height {
 
   /* global */
-  
-  @include maxHeight
-    ("", "", ".", $modifier, $value)
+
+  @include maxHeight("", "", ".", $modifier, $value)
 
   /* hover */
   /* focus */
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include maxHeight
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

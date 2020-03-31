@@ -3,51 +3,36 @@
  * @module: _minHeight.scss
  */
 
-///// rules /////
-
-@mixin minHeight(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin minHeight($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "min-h-", $modifier,
     "min-height", $value#{$override}
   )
-
 }
 
-///// variants /////
-
 /* standalone */
+
 /* hover */
+
 /* focus */
+
 /* active */
 
 @each $modifier, $value in $min-height {
 
   /* global */
-  
-  @include minHeight
-    ("", "", ".", $modifier, $value)
+
+  @include minHeight("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include minHeight
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }

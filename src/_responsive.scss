@@ -80,6 +80,30 @@
       // @include padding(".#{$screen}\\:", "", "", $modifier, $value)
     }
 
+    // @each $modifier, $value in $height {
+    //   @include height(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $max-height {
+    //   @include maxHeight(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $max-width {
+    //   @include maxWidth(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $min-height {
+    //   @include minHeight(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $min-width {
+    //   @include minWidth(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $width {
+    //   @include width(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
     /* hover */
 
     // @each $modifier, $value in $background-attachment {
@@ -88,6 +112,14 @@
 
     // @each $modifier, $value in $opacity {
     //   @include opacity(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $height {
+    //   @include height(".#{$screen}\\:.hover\\:", ":hover", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $width {
+    //   @include width(".#{$screen}\\:hover\\:", "", "", $modifier, $value)
     // }
 
     /* focus */

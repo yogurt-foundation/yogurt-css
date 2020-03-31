@@ -3,49 +3,36 @@
  * @module: _maxWidth.scss
  */
 
-///// rules /////
-
-@mixin maxWidth(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin maxWidth($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "max-w-", $modifier,
     "max-width", $value#{$override}
   )
-
 }
 
 /* standalone */
+
 /* hover */
+
 /* focus */
+
 /* active */
 
 @each $modifier, $value in $max-width {
 
   /* global */
-  
-  @include maxWidth
-    ("", "", ".", $modifier, $value)
+
+  @include maxWidth("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
 
-      /* standalone */
-      /* global */
-      
-      @include maxWidth
-        (".#{$screen}\\:", "", "", $modifier, $value)
+  // See `_responsive.scss`
 
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
 }
