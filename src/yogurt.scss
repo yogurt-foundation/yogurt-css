@@ -93,11 +93,11 @@
 // @import 'utilities/borders/borderColor/*'; // ok
 // @import 'utilities/borders/borderRadius'; // ok
 // @import 'utilities/borders/borderStyle'; // ok
-@import 'utilities/borders/borderWidth';
+// @import 'utilities/borders/borderWidth'; // ok
 
 /* tables */
 
-// @import 'utilities/tables/borderCollapse';
+@import 'utilities/tables/borderCollapse';
 // @import 'utilities/tables/tableLayout';
 
 /* effects */

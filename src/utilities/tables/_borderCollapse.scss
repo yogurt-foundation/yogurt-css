@@ -3,47 +3,37 @@
  * @module: _borderCollapse.scss
  */
 
-///// rules /////
-
-@mixin borderCollapse(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin borderCollapse($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "border-", $modifier,
     "border-#{$value}", $value#{$override}
   )
-
 }
 
-///// variants /////
-
 /* standalone */
+
 /* hover */
+
 /* focus */
+
 /* active */
 
 @each $modifier, $value in $border-collapse {
 
   /* global */
-  
-  @include borderCollapse
-    ("", "", ".", $modifier, $value)
+
+  @include borderCollapse("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
-      /* standalone */
-      /* global */
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
+
+  // See `_responsive.scss`
+
 }
 

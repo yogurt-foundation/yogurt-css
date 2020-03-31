@@ -3,46 +3,36 @@
  * @module: _tableLayout.scss
  */
 
-///// rules /////
-
-@mixin tableLayout(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
+@mixin tableLayout($prefix, $pseudo, $class, $modifier, $value) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "table-", $modifier,
     "table-layout", $value#{$override}
   )
-
 }
 
-///// variants /////
-
 /* standalone */
+
 /* hover */
+
 /* focus */
+
 /* active */
 
 @each $modifier, $value in $table-layout {
 
   /* global */
-  
-  @include tableLayout
-    ("", "", ".", $modifier, $value)
+
+  @include tableLayout("", "", ".", $modifier, $value)
 
   /* hover */
+
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
-      /* standalone */
-      /* global */
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
+
+  // See `_responsive.scss`
+
 }
