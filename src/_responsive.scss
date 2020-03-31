@@ -66,6 +66,10 @@
     //   @include backgroundSize(".#{$screen}\\:", "", "", $modifier, $value)
     // }
 
+    // @each $modifier, $value in $border-style {
+    //   @include borderStyle(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
     /* hover */
 
     // @each $modifier, $value in $background-attachment {

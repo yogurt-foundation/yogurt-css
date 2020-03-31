@@ -90,6 +90,214 @@
 /* typography */
 /* backgrounds */
 /* borders */
+/**
+ * @utility: borders
+ * @module: _borderWidth.scss
+ */
+/* standalone */
+.border {
+  border-width: 0.0625em;
+}
+
+/* hover */
+/* focus */
+/* active */
+/* global */
+.border-0 {
+  border-width: 0;
+}
+
+.border-t-0 {
+  border-top-width: 0;
+}
+
+.border-b-0 {
+  border-bottom-width: 0;
+}
+
+.border-l-0 {
+  border-left-width: 0;
+}
+
+.border-r-0 {
+  border-right-width: 0;
+}
+
+/* hover */
+.hover\:border:hover {
+  border-width: 0.0625em;
+}
+
+.hover\:border-0:hover {
+  border-width: 0;
+}
+
+.hover\:border-t-0:hover {
+  border-top-width: 0;
+}
+
+.hover\:border-b-0:hover {
+  border-bottom-width: 0;
+}
+
+.hover\:border-l-0:hover {
+  border-left-width: 0;
+}
+
+.hover\:border-r-0:hover {
+  border-right-width: 0;
+}
+
+/* focus */
+/* active */
+/* responsive */
+/* global */
+.border-2 {
+  border-width: 0.125em;
+}
+
+.border-t-2 {
+  border-top-width: 0.125em;
+}
+
+.border-b-2 {
+  border-bottom-width: 0.125em;
+}
+
+.border-l-2 {
+  border-left-width: 0.125em;
+}
+
+.border-r-2 {
+  border-right-width: 0.125em;
+}
+
+/* hover */
+.hover\:border:hover {
+  border-width: 0.0625em;
+}
+
+.hover\:border-2:hover {
+  border-width: 0.125em;
+}
+
+.hover\:border-t-2:hover {
+  border-top-width: 0.125em;
+}
+
+.hover\:border-b-2:hover {
+  border-bottom-width: 0.125em;
+}
+
+.hover\:border-l-2:hover {
+  border-left-width: 0.125em;
+}
+
+.hover\:border-r-2:hover {
+  border-right-width: 0.125em;
+}
+
+/* focus */
+/* active */
+/* responsive */
+/* global */
+.border-4 {
+  border-width: 0.25em;
+}
+
+.border-t-4 {
+  border-top-width: 0.25em;
+}
+
+.border-b-4 {
+  border-bottom-width: 0.25em;
+}
+
+.border-l-4 {
+  border-left-width: 0.25em;
+}
+
+.border-r-4 {
+  border-right-width: 0.25em;
+}
+
+/* hover */
+.hover\:border:hover {
+  border-width: 0.0625em;
+}
+
+.hover\:border-4:hover {
+  border-width: 0.25em;
+}
+
+.hover\:border-t-4:hover {
+  border-top-width: 0.25em;
+}
+
+.hover\:border-b-4:hover {
+  border-bottom-width: 0.25em;
+}
+
+.hover\:border-l-4:hover {
+  border-left-width: 0.25em;
+}
+
+.hover\:border-r-4:hover {
+  border-right-width: 0.25em;
+}
+
+/* focus */
+/* active */
+/* responsive */
+/* global */
+.border-8 {
+  border-width: 0.5em;
+}
+
+.border-t-8 {
+  border-top-width: 0.5em;
+}
+
+.border-b-8 {
+  border-bottom-width: 0.5em;
+}
+
+.border-l-8 {
+  border-left-width: 0.5em;
+}
+
+.border-r-8 {
+  border-right-width: 0.5em;
+}
+
+/* hover */
+.hover\:border:hover {
+  border-width: 0.0625em;
+}
+
+.hover\:border-8:hover {
+  border-width: 0.5em;
+}
+
+.hover\:border-t-8:hover {
+  border-top-width: 0.5em;
+}
+
+.hover\:border-b-8:hover {
+  border-bottom-width: 0.5em;
+}
+
+.hover\:border-l-8:hover {
+  border-left-width: 0.5em;
+}
+
+.hover\:border-r-8:hover {
+  border-right-width: 0.5em;
+}
+
+/* focus */
+/* active */
+/* responsive */
 /* tables */
 /* effects */
 /* interactivity */

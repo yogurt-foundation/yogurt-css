@@ -3,8 +3,6 @@
  * @module: _borderWidth.scss
  */
 
-///// rules /////
-
 @mixin borderWidth(
   $prefix, $pseudo, $class, $modifier, $value) {
 
@@ -51,45 +49,34 @@
 
 }
 
-///// variants /////
-
 /* standalone */
 
-@include borderWidthDefault(
-  "", ".", ""
-)
+@include borderWidthDefault("", ".", "")
 
 /* hover */
+
 /* focus */
+
 /* active */
 
 @each $modifier, $value in $border-width {
 
   /* global */
-  
-  @include borderWidth
-    ("", "", ".", $modifier, $value)
+
+  @include borderWidth("", "", ".", $modifier, $value)
 
   /* hover */
-  
-  @include borderWidthDefault
-    (".hover\\:", "", ":hover")
-  @include borderWidth
-    (".hover\\:", ":hover", "", $modifier, $value)
+
+  @include borderWidthDefault(".hover\\:", "", ":hover")
+  @include borderWidth(".hover\\:", ":hover", "", $modifier, $value)
 
   /* focus */
+
   /* active */
 
   /* responsive */
-  
-  @each $screen, $size in $screens {
-    @media (min-width: #{$size}) {
-      /* standalone */
-      /* global */
-      /* hover */
-      /* focus */
-      /* active */
-    }
-  }
+
+  // see `_responsive.scss`
+
 }
 
