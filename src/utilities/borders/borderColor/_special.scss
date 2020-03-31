@@ -1,0 +1,31 @@
+/**
+ * @utility: borders
+ * @module: borderColor/_special.scss
+ */
+
+@mixin borderColorSpecial(
+  $prefix, $pseudo, $class, $modifier, $value) {
+    #{$prefix}#{$class}border-#{$modifier}#{$pseudo} {
+      border-color: #{$value}#{$override}
+    }
+}
+
+@each $modifier, $value in $special-colors {
+
+  /* global */
+
+  @include borderColorSpecial("", "", ".", $modifier, $value)
+
+  /* hover */
+
+  @include borderColorSpecial(".hover\\:", ":hover", "", $modifier, $value)
+
+  /* group hover */
+
+  @include borderColorSpecial(".group:hover .group-hover\\:", "", "", $modifier, $value)
+
+  /* focus */
+
+  /* active */
+
+}
