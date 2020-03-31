@@ -3,43 +3,24 @@
  * @module: _fill.scss
  */
 
-///// rules /////
-
-@mixin fill(
-  $prefix, $pseudo, $class) {
-
+@mixin fill($prefix, $pseudo, $class) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "fill-current", "",
     "fill", "currentColor#{$override}"
   )
-
 }
-
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 
 /* global */
 
-@include fill
-  ("", "", ".")
+@include fill("", "", ".")
 
 /* hover */
+
 /* focus */
+
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// See `_responsive.scss`

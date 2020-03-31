@@ -3,43 +3,24 @@
  * @module: _stroke.scss
  */
 
-///// rules /////
-
-@mixin stroke(
-  $prefix, $pseudo, $class) {
-
+@mixin stroke($prefix, $pseudo, $class) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "stroke-current", "",
     "stroke", "currentColor#{$override}"
   )
-
 }
-
-///// variants /////
-
-/* standalone */
-/* hover */
-/* focus */
-/* active */
 
 /* global */
 
-@include stroke
-  ("", "", ".")
+@include stroke("", "", ".")
 
 /* hover */
+
 /* focus */
+
 /* active */
 
 /* responsive */
 
-@each $screen, $size in $screens {
-  @media (min-width: #{$size}) {
-    /* standalone */
-    /* global */
-    /* hover */
-    /* focus */
-    /* active */
-  }
-}
+// See `_responsive.scss`
