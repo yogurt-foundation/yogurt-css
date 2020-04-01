@@ -4,7 +4,7 @@
  */
 
 @mixin filterCompose($prefix, $pseudo, $class, $modifier1, $modifier2, $modifier3, $value1, $value2, $value3) {
-  #{$prefix}#{$class}filter-bsc\:#{$modifier1}-#{$modifier2}-#{$modifier3}#{$pseudo} {
+  #{$prefix}#{$class}filter\:b#{$modifier1}-s#{$modifier2}-c#{$modifier3}#{$pseudo} {
         filter: brightness(#{$value1}) saturate(#{$value2}) contrast(#{$value3})
   }
 }
