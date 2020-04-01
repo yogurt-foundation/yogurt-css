@@ -1,0 +1,32 @@
+/**
+ * @utility: filters
+ * @module: _filterCompose.scss
+ */
+
+@mixin filterCompose($prefix, $pseudo, $class, $modifier1, $modifier2, $modifier3, $value1, $value2, $value3) {
+  #{$prefix}#{$class}filter-bsc\:#{$modifier1}-#{$modifier2}-#{$modifier3}#{$pseudo} {
+        filter: brightness(#{$value1}) saturate(#{$value2}) contrast(#{$value3})
+  }
+}
+
+@each $modifier1, $value1 in $filter-bsc {
+  @each $modifier2, $value2 in $filter-bsc {
+    @each $modifier3, $value3 in $filter-bsc {
+
+      /* global */
+
+      @include filterCompose("", "", ".", $modifier1, $modifier2, $modifier3, $value1, $value2, $value3)
+
+      /* hover */
+
+      /* focus */
+
+      /* active */
+
+      /* responsive */
+
+      // See `_responsive.scss`
+
+      }
+    }
+}

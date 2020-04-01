@@ -71,7 +71,7 @@
 @import 'utilities/typography/listStylePosition';
 @import 'utilities/typography/listStyleType';
 @import 'utilities/typography/placeholder';
-@import 'utilities/typography/placeholderColor/*';
+// @import 'utilities/typography/placeholderColor/*';
 @import 'utilities/typography/textAlign';
 @import 'utilities/typography/textColor/*';
 @import 'utilities/typography/textDecoration';
@@ -104,7 +104,7 @@
 
 @import 'utilities/effects/boxShadow';
 @import 'utilities/effects/opacity';
-@import 'utilities/effects/shadowColor/*';
+// @import 'utilities/effects/shadowColor/*';
 
 /* interactivity */
 
@@ -135,6 +135,12 @@
 @import 'utilities/transitions/transitionProperty';
 @import 'utilities/transitions/transitionDuration';
 @import 'utilities/transitions/transitionTiming';
+
+/* filter */
+
+// @import 'utilities/filters/blur';
+@import 'utilities/filters/filterCompose';
+@import 'utilities/filters/invert';
 
 /* responsive */
 
