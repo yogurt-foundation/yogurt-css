@@ -64,6 +64,11 @@
       @include backgroundSize(".#{$screen}\\:", "", "", $modifier, $value)
     }
 
+    @each $modifier, $value in $border-radius {
+      @include borderRadiusDefault(".#{$screen}\\:", "", "")
+      @include borderRadius(".#{$screen}\\:", "", "", $modifier, $value)
+    }
+
     @each $modifier, $value in $border-style {
       @include borderStyle(".#{$screen}\\:", "", "", $modifier, $value)
     }
