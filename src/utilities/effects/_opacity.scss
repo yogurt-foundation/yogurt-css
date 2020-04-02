@@ -13,16 +13,6 @@
   }
 }
 
-@mixin __opacity($screen, $pseudo) {
-  @each $modifier, $value in $opacity {
-    @include setRuleSingle(
-      "#{$screen}\\:", $pseudo, "",
-      "opacity-", $modifier,
-      "opacity", $value#{$override}
-    )
-  }
-}
-
 /* global */
 
 @include opacity("", "", ".")

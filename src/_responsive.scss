@@ -63,7 +63,7 @@
 
     // @include borderStyle(".#{$screen}\\:", "", "")
 
-    // @include __opacity($screen, "")
+    @include opacity(".#{$screen}\\:", "", "")
 
     // @each $modifier, $value in $spacing {
     //   @include margin(".#{$screen}\\:", "", "", $modifier, $value, "")
@@ -253,9 +253,7 @@
     //   @include backgroundAttachment(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
     // }
 
-    // @each $modifier, $value in $opacity {
-    //   @include opacity(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-    // }
+    @include opacity(".#{$screen}\\:hover\\:", ":hover", "")
 
     // @each $modifier, $value in $height {
     //   @include height(".#{$screen}\\:.hover\\:", ":hover", "", $modifier, $value)
@@ -292,9 +290,7 @@
     //   @include translate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-") // negative
     // }
 
-    // @each $modifier, $value in $display {
-    //   @include display(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-    // }
+    // @include display(".#{$screen}\\:hover\\:", ":hover", "")
 
     // @each $modifier, $value in $position {
     //   @include position(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
