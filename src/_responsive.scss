@@ -63,7 +63,7 @@
 
     // @include borderStyle(".#{$screen}\\:", "", "")
 
-    @include opacity(".#{$screen}\\:", "", "")
+    // @include opacity(".#{$screen}\\:", "", "")
 
     // @each $modifier, $value in $spacing {
     //   @include margin(".#{$screen}\\:", "", "", $modifier, $value, "")
@@ -249,11 +249,9 @@
 
     /* hover */
 
-    // @each $modifier, $value in $background-attachment {
-    //   @include backgroundAttachment(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-    // }
+    @include backgroundAttachment(".#{$screen}\\:hover\\:", ":hover", "")
 
-    @include opacity(".#{$screen}\\:hover\\:", ":hover", "")
+    // @include opacity(".#{$screen}\\:hover\\:", ":hover", "")
 
     // @each $modifier, $value in $height {
     //   @include height(".#{$screen}\\:.hover\\:", ":hover", "", $modifier, $value)
