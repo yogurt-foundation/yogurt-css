@@ -92,27 +92,6 @@
 /* sizing */
 /* typography */
 /* backgrounds */
-/**
- * @utility: backgrounds
- * @module: _backgroundSize.scss
- */
-/* global */
-.bg-auto {
-  background-size: auto;
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-contain {
-  background-size: contain;
-}
-
-/* hover */
-/* focus */
-/* active */
-/* responsive */
 /* borders */
 /* tables */
 /* effects */
@@ -128,15 +107,6 @@
 /* responsive generator */
 @media (min-width: 320px) {
   /* global */
-  .xs\:bg-auto {
-    background-size: auto;
-  }
-  .xs\:bg-cover {
-    background-size: cover;
-  }
-  .xs\:bg-contain {
-    background-size: contain;
-  }
   /* hover */
   /* focus */
   /* active */
@@ -144,15 +114,6 @@
 
 @media (min-width: 640px) {
   /* global */
-  .sm\:bg-auto {
-    background-size: auto;
-  }
-  .sm\:bg-cover {
-    background-size: cover;
-  }
-  .sm\:bg-contain {
-    background-size: contain;
-  }
   /* hover */
   /* focus */
   /* active */
@@ -160,15 +121,6 @@
 
 @media (min-width: 768px) {
   /* global */
-  .md\:bg-auto {
-    background-size: auto;
-  }
-  .md\:bg-cover {
-    background-size: cover;
-  }
-  .md\:bg-contain {
-    background-size: contain;
-  }
   /* hover */
   /* focus */
   /* active */
@@ -176,15 +128,6 @@
 
 @media (min-width: 1024px) {
   /* global */
-  .lg\:bg-auto {
-    background-size: auto;
-  }
-  .lg\:bg-cover {
-    background-size: cover;
-  }
-  .lg\:bg-contain {
-    background-size: contain;
-  }
   /* hover */
   /* focus */
   /* active */
@@ -192,15 +135,6 @@
 
 @media (min-width: 1280px) {
   /* global */
-  .xl\:bg-auto {
-    background-size: auto;
-  }
-  .xl\:bg-cover {
-    background-size: cover;
-  }
-  .xl\:bg-contain {
-    background-size: contain;
-  }
   /* hover */
   /* focus */
   /* active */
@@ -208,15 +142,6 @@
 
 @media (min-width: 1920px) {
   /* global */
-  .\32k\:bg-auto {
-    background-size: auto;
-  }
-  .\32k\:bg-cover {
-    background-size: cover;
-  }
-  .\32k\:bg-contain {
-    background-size: contain;
-  }
   /* hover */
   /* focus */
   /* active */
@@ -224,15 +149,6 @@
 
 @media (min-width: 3840px) {
   /* global */
-  .\34k\:bg-auto {
-    background-size: auto;
-  }
-  .\34k\:bg-cover {
-    background-size: cover;
-  }
-  .\34k\:bg-contain {
-    background-size: contain;
-  }
   /* hover */
   /* focus */
   /* active */

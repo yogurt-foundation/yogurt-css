@@ -13,16 +13,6 @@
   }
 }
 
-@mixin __borderStyle($screen, $pseudo) {
-  @each $modifier, $value in $border-style {
-    @include setRuleSingle(
-      ".#{$screen}\\:", $pseudo, "",
-      "border-", $modifier,
-      "border-style", $value#{$override}
-    )
-  }
-}
-
 /* global */
 
 @include borderStyle("", "", ".")

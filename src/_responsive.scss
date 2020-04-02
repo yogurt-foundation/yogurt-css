@@ -56,12 +56,12 @@
 
     // @include backgroundRepeat(".#{$screen}\\:", "", "")
 
-    @include backgroundSize(".#{$screen}\\:", "", "")
+    // @include backgroundSize(".#{$screen}\\:", "", "")
 
-    // @include __borderRadiusDefault($screen, "")
-    // @include __borderRadius($screen, "")
+    // @include borderRadiusDefault(".#{$screen}\\:", "", "")
+    // @include borderRadius(".#{$screen}\\:", "", "")
 
-    // @include __borderStyle($screen, "")
+    // @include borderStyle(".#{$screen}\\:", "", "")
 
     // @include __opacity($screen, "")
 

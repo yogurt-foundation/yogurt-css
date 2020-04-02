@@ -57,12 +57,6 @@
   }
 }
 
-@mixin __borderRadius($screen, $pseudo) {
-  @each $modifier, $value in $border-radius {
-    @include borderRadius(".#{$screen}\\:", $pseudo, "")
-  }
-}
-
 @mixin borderRadiusDefault($prefix, $pseudo, $class) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
@@ -89,12 +83,6 @@
     "rounded-br", "",
     "border-bottom-right-radius", "0.25rem#{$override}"
   )
-}
-
-@mixin __borderRadiusDefault($screen, $pseudo) {
-  @each $modifier, $value in $border-radius {
-    @include borderRadiusDefault(".#{$screen}\\:", $pseudo, "")
-  }
 }
 
 /* global */
