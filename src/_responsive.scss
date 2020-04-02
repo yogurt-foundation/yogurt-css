@@ -9,358 +9,351 @@
 
     /* global */
 
-    @include textColorBlack(".#{$screen}\\:", "", "")
-    @include textColorBlue(".#{$screen}\\:", "", "")
-    @include textColorCharcoal(".#{$screen}\\:", "", "")
-    @include textColorGray(".#{$screen}\\:", "", "")
-    @include textColorGreen(".#{$screen}\\:", "", "")
-    @include textColorIndigo(".#{$screen}\\:", "", "")
-    @include textColorOrange(".#{$screen}\\:", "", "")
-    @include textColorPink(".#{$screen}\\:", "", "")
-    @include textColorPurple(".#{$screen}\\:", "", "")
-    @include textColorRed(".#{$screen}\\:", "", "")
-    @include textColorTeal(".#{$screen}\\:", "", "")
-    @include textColorYellow(".#{$screen}\\:", "", "")
-
-    @include backgroundColorBlack(".#{$screen}\\:", "", "")
-    @include backgroundColorBlue(".#{$screen}\\:", "", "")
-    @include backgroundColorCharcoal(".#{$screen}\\:", "", "")
-    @include backgroundColorGray(".#{$screen}\\:", "", "")
-    @include backgroundColorGreen(".#{$screen}\\:", "", "")
-    @include backgroundColorIndigo(".#{$screen}\\:", "", "")
-    @include backgroundColorOrange(".#{$screen}\\:", "", "")
-    @include backgroundColorPink(".#{$screen}\\:", "", "")
-    @include backgroundColorPurple(".#{$screen}\\:", "", "")
-    @include backgroundColorRed(".#{$screen}\\:", "", "")
-    @include backgroundColorTeal(".#{$screen}\\:", "", "")
-    @include backgroundColorYellow(".#{$screen}\\:", "", "")
-
-    @include borderColorBlack(".#{$screen}\\:", "", "")
-    @include borderColorBlue(".#{$screen}\\:", "", "")
-    @include borderColorCharcoal(".#{$screen}\\:", "", "")
-    @include borderColorGray(".#{$screen}\\:", "", "")
-    @include borderColorGreen(".#{$screen}\\:", "", "")
-    @include borderColorIndigo(".#{$screen}\\:", "", "")
-    @include borderColorOrange(".#{$screen}\\:", "", "")
-    @include borderColorPink(".#{$screen}\\:", "", "")
-    @include borderColorPurple(".#{$screen}\\:", "", "")
-    @include borderColorRed(".#{$screen}\\:", "", "")
-    @include borderColorTeal(".#{$screen}\\:", "", "")
-    @include borderColorYellow(".#{$screen}\\:", "", "")
-
-    @each $modifier, $value in $background-attachment {
-      @include backgroundAttachment(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @each $modifier, $value in $background-position {
-      @include backgroundPosition(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @each $modifier, $value in $background-repeat {
-      @include backgroundRepeat(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @each $modifier, $value in $background-size {
-      @include backgroundSize(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @each $modifier, $value in $border-radius {
-      @include borderRadiusDefault(".#{$screen}\\:", "", "")
-      @include borderRadius(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @each $modifier, $value in $border-style {
-      @include borderStyle(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @each $modifier, $value in $opacity {
-      @include opacity(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @each $modifier, $value in $spacing {
-      @include margin(".#{$screen}\\:", "", "", $modifier, $value, "")
-      @include margin(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
-      @include padding(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @each $modifier, $value in $height {
-      @include height(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @each $modifier, $value in $max-height {
-      @include maxHeight(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @each $modifier, $value in $max-width {
-      @include maxWidth(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @each $modifier, $value in $min-height {
-      @include minHeight(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @each $modifier, $value in $min-width {
-      @include minWidth(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @each $modifier, $value in $width {
-      @include width(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @each $modifier, $value in $align-content {
-      @include alignContent(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @each $modifier, $value in $align-items {
-      @include alignItems(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @each $modifier, $value in $align-self {
-      @include alignSelf(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @each $modifier, $value in $flex {
-      @include flex(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @each $modifier, $value in $flex-direction {
-      @include flexDirection(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @include flexGrowDefault(".#{$screen}\\:", "")
-    @include flexGrow(".#{$screen}\\:", "", "")
+    // @include textColorBlack(".#{$screen}\\:", "", "")
+    // @include textColorBlue(".#{$screen}\\:", "", "")
+    // @include textColorCharcoal(".#{$screen}\\:", "", "")
+    // @include textColorGray(".#{$screen}\\:", "", "")
+    // @include textColorGreen(".#{$screen}\\:", "", "")
+    // @include textColorIndigo(".#{$screen}\\:", "", "")
+    // @include textColorOrange(".#{$screen}\\:", "", "")
+    // @include textColorPink(".#{$screen}\\:", "", "")
+    // @include textColorPurple(".#{$screen}\\:", "", "")
+    // @include textColorRed(".#{$screen}\\:", "", "")
+    // @include textColorTeal(".#{$screen}\\:", "", "")
+    // @include textColorYellow(".#{$screen}\\:", "", "")
+
+    // @include backgroundColorBlack(".#{$screen}\\:", "", "")
+    // @include backgroundColorBlue(".#{$screen}\\:", "", "")
+    // @include backgroundColorCharcoal(".#{$screen}\\:", "", "")
+    // @include backgroundColorGray(".#{$screen}\\:", "", "")
+    // @include backgroundColorGreen(".#{$screen}\\:", "", "")
+    // @include backgroundColorIndigo(".#{$screen}\\:", "", "")
+    // @include backgroundColorOrange(".#{$screen}\\:", "", "")
+    // @include backgroundColorPink(".#{$screen}\\:", "", "")
+    // @include backgroundColorPurple(".#{$screen}\\:", "", "")
+    // @include backgroundColorRed(".#{$screen}\\:", "", "")
+    // @include backgroundColorSpecial(".#{$screen}\\:", "", "")
+    // @include backgroundColorTeal(".#{$screen}\\:", "", "")
+    // @include backgroundColorYellow(".#{$screen}\\:", "", "")
+
+    // @include borderColorBlack(".#{$screen}\\:", "", "")
+    // @include borderColorBlue(".#{$screen}\\:", "", "")
+    // @include borderColorCharcoal(".#{$screen}\\:", "", "")
+    // @include borderColorGray(".#{$screen}\\:", "", "")
+    // @include borderColorGreen(".#{$screen}\\:", "", "")
+    // @include borderColorIndigo(".#{$screen}\\:", "", "")
+    // @include borderColorOrange(".#{$screen}\\:", "", "")
+    // @include borderColorPink(".#{$screen}\\:", "", "")
+    // @include borderColorPurple(".#{$screen}\\:", "", "")
+    // @include borderColorRed(".#{$screen}\\:", "", "")
+    // @include borderColorTeal(".#{$screen}\\:", "", "")
+    // @include borderColorYellow(".#{$screen}\\:", "", "")
+
+    // @include __backgroundAttachment($screen, "")
+
+    // @include __backgroundPosition($screen, "")
+
+    // @include __backgroundRepeat($screen, "")
+
+    // @include __backgroundSize($screen, "")
+
+    // @each $modifier, $value in $border-radius {
+    //   @include borderRadiusDefault(".#{$screen}\\:", "", "")
+    //   @include borderRadius(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $border-style {
+    //   @include borderStyle(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $opacity {
+    //   @include opacity(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $spacing {
+    //   @include margin(".#{$screen}\\:", "", "", $modifier, $value, "")
+    //   @include margin(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
+    //   @include padding(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $height {
+    //   @include height(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $max-height {
+    //   @include maxHeight(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $max-width {
+    //   @include maxWidth(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $min-height {
+    //   @include minHeight(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $min-width {
+    //   @include minWidth(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $width {
+    //   @include width(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $align-content {
+    //   @include alignContent(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $align-items {
+    //   @include alignItems(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $align-self {
+    //   @include alignSelf(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $flex {
+    //   @include flex(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @each $modifier, $value in $flex-direction {
+    //   @include flexDirection(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
+
+    // @include flexGrowDefault(".#{$screen}\\:", "")
+    // @include flexGrow(".#{$screen}\\:", "", "")
+
+    // @include flexShrinkDefault(".#{$screen}\\:", "")
+    // @include flexShrink(".#{$screen}\\:", "", "")
 
-    @include flexShrinkDefault(".#{$screen}\\:", "")
-    @include flexShrink(".#{$screen}\\:", "", "")
+    // @each $modifier, $value in $flex-wrap {
+    //   @include flexWrap(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $flex-wrap {
-      @include flexWrap(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $justify-content {
+    //   @include justifyContent(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $justify-content {
-      @include justifyContent(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $order {
+    //   @include order(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $order {
-      @include order(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @include outline(".#{$screen}\\:", "", "")
 
-    @include outline(".#{$screen}\\:", "", "")
+    // @each $modifier, $value in $pointer-events {
+    //   @include pointerEvents(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $pointer-events {
-      @include pointerEvents(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $resize {
+    //   @include resizeDefault(".#{$screen}\\:", "", "")
+    //   @include resize(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $resize {
-      @include resizeDefault(".#{$screen}\\:", "", "")
-      @include resize(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $user-select {
+    //   @include userSelect(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $user-select {
-      @include userSelect(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $rotate {
+    //   @include rotate(".#{$screen}\\:", "", "", $modifier, $value, "")
+    //   @include rotate(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
+    // }
 
-    @each $modifier, $value in $rotate {
-      @include rotate(".#{$screen}\\:", "", "", $modifier, $value, "")
-      @include rotate(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
-    }
+    // @each $modifier, $value in $scale {
+    //   @include scale(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $scale {
-      @include scale(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $skew {
+    //   @include skew(".#{$screen}\\:", "", "", $modifier, $value, "")
+    //   @include skew(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
+    // }
 
-    @each $modifier, $value in $skew {
-      @include skew(".#{$screen}\\:", "", "", $modifier, $value, "")
-      @include skew(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
-    }
+    // @each $modifier, $value in $transform-origin {
+    //   @include transformOrigin(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $transform-origin {
-      @include transformOrigin(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $translate {
+    //   @include translate(".#{$screen}\\:", "", "", $modifier, $value, "")
+    //   @include translate(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
+    // }
 
-    @each $modifier, $value in $translate {
-      @include translate(".#{$screen}\\:", "", "", $modifier, $value, "")
-      @include translate(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
-    }
+    // @each $modifier, $value in $box-sizing {
+    //   @include boxSizing(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $box-sizing {
-      @include boxSizing(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $clear {
+    //   @include clear(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $clear {
-      @include clear(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @include containerDefault(".#{$screen}\\:", "")
+    // @include container(".#{$screen}\\:", "", "", "", $size)
 
-    @include containerDefault(".#{$screen}\\:", "")
-    @include container(".#{$screen}\\:", "", "", "", $size)
+    // @each $modifier, $value in $display {
+    //   @include display(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $display {
-      @include display(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $float {
+    //   @include floatDefault(".#{$screen}\\:", "")
+    //   @include float(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $float {
-      @include floatDefault(".#{$screen}\\:", "")
-      @include float(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $inset {
+    //   @include inset(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $inset {
-      @include inset(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $spacing {
+    //   @include insetTBLR(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $spacing {
-      @include insetTBLR(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $object-fit {
+    //   @include objectFit(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $object-fit {
-      @include objectFit(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $object-position {
+    //   @include objectPosition(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $object-position {
-      @include objectPosition(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $overflow {
+    //   @include overflow(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $overflow {
-      @include overflow(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $overflow-xy {
+    //   @include overflow-xy(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $overflow-xy {
-      @include overflow-xy(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $overflow-scrolling {
+    //   @include overflow-scrolling(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $overflow-scrolling {
-      @include overflow-scrolling(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $position {
+    //   @include position(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $position {
-      @include position(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @include visibility(".#{$screen}\\:", "", "")
 
-    @include visibility(".#{$screen}\\:", "", "")
+    // @each $modifier, $value in $z-index {
+    //   @include zIndex(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $z-index {
-      @include zIndex(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $font-family {
+    //   @include fontFamily(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $font-family {
-      @include fontFamily(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $font-size {
+    //   @include fontSize(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $font-size {
-      @include fontSize(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @include fontStyle(".#{$screen}\\:", "")
 
-    @include fontStyle(".#{$screen}\\:", "")
+    // @each $modifier, $value in $font-weight {
+    //   @include fontWeight(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $font-weight {
-      @include fontWeight(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $letter-spacing {
+    //   @include letterSpacing(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $letter-spacing {
-      @include letterSpacing(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $line-height {
+    //   @include lineHeight(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $line-height {
-      @include lineHeight(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @include listStylePosition(".#{$screen}\\:", "")
 
-    @include listStylePosition(".#{$screen}\\:", "")
+    // @each $modifier, $value in $list-style-type {
+    //   @include listStyleType(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $list-style-type {
-      @include listStyleType(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $text-align {
+    //   @include textAlign(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $text-align {
-      @include textAlign(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @include textDecoration(".#{$screen}\\:", "", "")
 
-    @include textDecoration(".#{$screen}\\:", "", "")
+    // @include textTransform(".#{$screen}\\:", "", "")
 
-    @include textTransform(".#{$screen}\\:", "", "")
+    // @each $modifier, $value in $vertical-align {
+    //   @include verticalAlign(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $vertical-align {
-      @include verticalAlign(".#{$screen}\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $whitespace {
+    //   @include whitespace(".#{$screen}\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $whitespace {
-      @include whitespace(".#{$screen}\\:", "", "", $modifier, $value)
-    }
-
-    @include wordBreak(".#{$screen}\\:", "", "")
+    // @include wordBreak(".#{$screen}\\:", "", "")
 
     /* hover */
 
-    @each $modifier, $value in $background-attachment {
-      @include backgroundAttachment(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $background-attachment {
+    //   @include backgroundAttachment(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $opacity {
-      @include opacity(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $opacity {
+    //   @include opacity(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $height {
-      @include height(".#{$screen}\\:.hover\\:", ":hover", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $height {
+    //   @include height(".#{$screen}\\:.hover\\:", ":hover", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $width {
-      @include width(".#{$screen}\\:hover\\:", "", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $width {
+    //   @include width(".#{$screen}\\:hover\\:", "", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $flex-direction {
-      @include flexDirection(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $flex-direction {
+    //   @include flexDirection(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $rotate {
-      @include rotate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "")
-      @include rotate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-") // negative
-    }
+    // @each $modifier, $value in $rotate {
+    //   @include rotate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "")
+    //   @include rotate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-") // negative
+    // }
 
-    @each $modifier, $value in $scale {
-      @include scale(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $scale {
+    //   @include scale(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $skew {
-      @include skew(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "")
-      @include skew(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-") // negative
-    }
+    // @each $modifier, $value in $skew {
+    //   @include skew(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "")
+    //   @include skew(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-") // negative
+    // }
 
-    @each $modifier, $value in $transform-origin {
-      @include transformOrigin(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $transform-origin {
+    //   @include transformOrigin(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $translate {
-      @include translate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "")
-      @include translate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-") // negative
-    }
+    // @each $modifier, $value in $translate {
+    //   @include translate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "")
+    //   @include translate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-") // negative
+    // }
 
-    @each $modifier, $value in $display {
-      @include display(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $display {
+    //   @include display(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $position {
-      @include position(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $position {
+    //   @include position(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+    // }
 
-    @include visibility(".#{$screen}\\:hover\\:", ":hover", "")
+    // @include visibility(".#{$screen}\\:hover\\:", ":hover", "")
 
-    @each $modifier, $value in $font-size {
-      @include fontSize(".hover\\:", ":hover", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $font-size {
+    //   @include fontSize(".hover\\:", ":hover", "", $modifier, $value)
+    // }
 
-    @each $modifier, $value in $font-weight {
-      @include fontWeight(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $font-weight {
+    //   @include fontWeight(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
+    // }
 
-    @include textDecoration(".#{$screen}\\:hover\\:", ":hover", "")
+    // @include textDecoration(".#{$screen}\\:hover\\:", ":hover", "")
 
     /* focus */
 
-    @include outline(".#{$screen}\\:focus\\:", ":focus", "")
+    // @include outline(".#{$screen}\\:focus\\:", ":focus", "")
 
-    @each $modifier, $value in $font-weight {
-      @include fontWeight(".#{$screen}\\:focus\\:", ":focus", "", $modifier, $value)
-    }
+    // @each $modifier, $value in $font-weight {
+    //   @include fontWeight(".#{$screen}\\:focus\\:", ":focus", "", $modifier, $value)
+    // }
 
-    @include textDecoration(".#{$screen}\\:focus\\:", ":focus", "")
+    // @include textDecoration(".#{$screen}\\:focus\\:", ":focus", "")
 
     /* active */
 

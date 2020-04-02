@@ -3,31 +3,39 @@
  * @module: _backgroundAttachment.scss
  */
 
-@mixin backgroundAttachment(
-  $prefix, $pseudo, $class, $modifier, $value) {
+@mixin backgroundAttachment($prefix, $pseudo, $class) {
+  @each $modifier, $value in $background-attachment {
     @include setRuleSingle(
       $prefix, $pseudo, $class,
       "bg-", $modifier,
       "background-attachment", $value#{$override}
     )
+  }
 }
 
-@each $modifier, $value in $background-attachment {
-
-  /* global */
-
-  @include backgroundAttachment("", "", ".", $modifier, $value)
-
-  /* hover */
-
-  @include backgroundAttachment(".hover\\:", ":hover", "", $modifier, $value)
-
-  /* focus */
-
-  /* active */
-
-  /* responsive */
-
-  // See `_responsive.scss`
-
+@mixin __backgroundAttachment($screen, $pseudo) {
+  @each $modifier, $value in $background-attachment {
+    @include setRuleSingle(
+      ".#{$screen}\\:", $pseudo, "",
+      "bg-", $modifier,
+      "background-attachment", $value#{$override}
+    )
+  }
 }
+
+/* global */
+
+@include backgroundAttachment("", "", ".")
+
+/* hover */
+
+@include backgroundAttachment(".hover\\:", ":hover", "")
+
+/* focus */
+
+/* active */
+
+/* responsive */
+
+// See `_responsive.scss`
+

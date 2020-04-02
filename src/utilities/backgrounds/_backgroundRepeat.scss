@@ -3,29 +3,36 @@
  * @module: _backgroundRepeat.scss
  */
 
-@mixin backgroundRepeat(
-  $prefix, $pseudo, $class, $modifier, $value) {
+@mixin backgroundRepeat($prefix, $pseudo, $class) {
+  @each $modifier, $value in $background-repeat {
     @include setRuleSingle(
       $prefix, $pseudo, $class,
       "bg-", $modifier,
       "background-repeat", $value#{$override}
     )
+  }
 }
 
-@each $modifier, $value in $background-repeat {
-
-  /* global */
-
-  @include backgroundRepeat("", "", ".", $modifier, $value)
-
-  /* hover */
-
-  /* focus */
-
-  /* active */
-
-  /* responsive */
-
-  // See `_responsive.scss`
-
+@mixin __backgroundRepeat($screen, $pseudo) {
+  @each $modifier, $value in $background-repeat {
+    @include setRuleSingle(
+      ".#{$screen}\\:", $pseudo, "",
+      "bg-", $modifier,
+      "background-repeat", $value#{$override}
+    )
+  }
 }
+
+/* global */
+
+@include backgroundRepeat("", "", ".")
+
+/* hover */
+
+/* focus */
+
+/* active */
+
+/* responsive */
+
+// See `_responsive.scss`

@@ -3,25 +3,36 @@
  * @module: _backgroundPosition.scss
  */
 
-@mixin backgroundPosition(
-  $prefix, $pseudo, $class, $modifier, $value) {
+@mixin backgroundPosition($prefix, $pseudo, $class) {
+  @each $modifier, $value in $background-position {
     @include setRuleSingle(
       $prefix, $pseudo, $class,
       "bg-", $modifier,
       "background-position", $value#{$override}
     )
+  }
 }
 
-@each $modifier, $value in $background-position {
-
-  /* global */
-
-  @include backgroundPosition("", "", ".", $modifier, $value)
-
-  /* hover */
-
-  /* focus */
-
-  /* active */
-
+@mixin __backgroundPosition($screen, $pseudo) {
+  @each $modifier, $value in $background-position {
+    @include setRuleSingle(
+      ".#{$screen}\\:", $pseudo, "",
+      "bg-", $modifier,
+      "background-position", $value#{$override}
+    )
+  }
 }
+
+/* global */
+
+@include backgroundPosition("", "", ".")
+
+/* hover */
+
+/* focus */
+
+/* active */
+
+/* responsive */
+
+// See `_responsive.scss`

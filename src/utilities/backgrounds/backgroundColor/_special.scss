@@ -3,29 +3,30 @@
  * @module: backgroundColor/_special.scss
  */
 
-@mixin backgroundColorSpecial(
-  $prefix, $pseudo, $class, $modifier, $value) {
+@mixin backgroundColorSpecial($prefix, $pseudo, $class) {
+  @each $modifier, $value in $special-colors {
     #{$prefix}#{$class}bg-#{$modifier}#{$pseudo} {
       background-color: #{$value}#{$override}
     }
+  }
 }
 
-@each $modifier, $value in $special-colors {
+/* global */
 
-  /* global */
+@include backgroundColorSpecial("", "", ".")
 
-  @include backgroundColorSpecial("", "", ".", $modifier, $value)
+/* hover */
 
-  /* hover */
+@include backgroundColorSpecial(".hover\\:", ":hover", "")
 
-  @include backgroundColorSpecial(".hover\\:", ":hover", "", $modifier, $value)
+/* group hover */
 
-  /* group hover */
+@include backgroundColorSpecial(".group:hover .group-hover\\:", "", "")
 
-  @include backgroundColorSpecial(".group:hover .group-hover\\:", "", "", $modifier, $value)
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-}
+// See `_responsive.scss`

@@ -3,29 +3,36 @@
  * @module: _backgroundSize.scss
  */
 
-@mixin backgroundSize(
-  $prefix, $pseudo, $class, $modifier, $value) {
+@mixin backgroundSize($prefix, $pseudo, $class) {
+  @each $modifier, $value in $background-size {
     @include setRuleSingle(
       $prefix, $pseudo, $class,
       "bg-", $modifier,
       "background-size", $value#{$override}
     )
+  }
 }
 
-@each $modifier, $value in $background-size {
-
-  /* global */
-
-  @include backgroundSize("", "", ".", $modifier, $value)
-
-  /* hover */
-
-  /* focus */
-
-  /* active */
-
-  /* responsive */
-
-  // See `_responsive.scss`
-
+@mixin __backgroundSize($screen, $pseudo) {
+  @each $modifier, $value in $background-size {
+    @include setRuleSingle(
+      ".#{$screen}\\:", $pseudo, "",
+      "bg-", $modifier,
+      "background-size", $value#{$override}
+    )
+  }
 }
+
+/* global */
+
+@include backgroundSize("", "", ".")
+
+/* hover */
+
+/* focus */
+
+/* active */
+
+/* responsive */
+
+// See `_responsive.scss`
