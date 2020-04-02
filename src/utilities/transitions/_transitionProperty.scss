@@ -3,28 +3,27 @@
  * @module: _transitionProperty.scss
  */
 
-@mixin transitionProperty($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "", $modifier,
-    "transition-property", $value#{$override}
-  )
+@mixin transitionProperty($prefix, $pseudo, $class) {
+  @each $modifier, $value in $transition-property {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "", $modifier,
+      "transition-property", $value#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $transition-property {
+/* global */
 
-  /* global */
+@include transitionProperty("", "", ".")
 
-  @include transitionProperty("", "", ".", $modifier, $value)
+/* hover */
 
-  /* hover */
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-  /* responsive */
+// See `_responsive.scss`
 
-  // See `_responsive.scss`
-
-}

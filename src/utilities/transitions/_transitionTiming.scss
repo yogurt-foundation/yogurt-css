@@ -3,28 +3,27 @@
  * @module: _transitionTiming.scss
  */
 
-@mixin transitionTiming($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "ease-", $modifier,
-    "transition-timing-function", $value#{$override}
-  )
+@mixin transitionTiming($prefix, $pseudo, $class) {
+  @each $modifier, $value in $transition-timing {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "ease-", $modifier,
+      "transition-timing-function", $value#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $transition-timing {
+/* global */
 
-  /* global */
+@include transitionTiming("", "", ".")
 
-  @include transitionTiming("", "", ".", $modifier, $value)
+/* hover */
 
-  /* hover */
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-  /* responsive */
+// See `_responsive.scss`
 
-  // See `_responsive.scss`
-
-}
