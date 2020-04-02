@@ -3,30 +3,29 @@
  * @module: _transformOrigin.scss
  */
 
-@mixin transformOrigin($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "origin-", $modifier,
-    "transform-origin", $value#{$override}
-  )
+@mixin transformOrigin($prefix, $pseudo, $class) {
+  @each $modifier, $value in $transform-origin {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "origin-", $modifier,
+      "transform-origin", $value#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $transform-origin {
+/* global */
 
-  /* global */
+@include transformOrigin("", "", ".")
 
-  @include transformOrigin("", "", ".", $modifier, $value)
+/* hover */
 
-  /* hover */
+@include transformOrigin(".hover\\:", ":hover", "")
 
-  @include transformOrigin(".hover\\:", ":hover", "", $modifier, $value)
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-  /* responsive */
+// See `_responsive.scss`
 
-  // See `_responsive.scss`
-
-}

@@ -3,40 +3,36 @@
  * @module: _skew.scss
  */
 
-@mixin skew($prefix, $pseudo, $class, $modifier, $value, $negative) {
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "#{$negative}skew-x-", $modifier,
-    "--transform-skew-x", "#{$negative}#{$value}#{$override}"
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "#{$negative}skew-y-", $modifier,
-    "--transform-skew-y", "#{$negative}#{$value}#{$override}"
-  )
-
+@mixin skew($prefix, $pseudo, $class, $negative) {
+  @each $modifier, $value in $skew {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "#{$negative}skew-x-", $modifier,
+      "--transform-skew-x", "#{$negative}#{$value}#{$override}"
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "#{$negative}skew-y-", $modifier,
+      "--transform-skew-y", "#{$negative}#{$value}#{$override}"
+    )
+  }
 }
 
-@each $modifier, $value in $skew {
+/* global */
 
-  /* global */
+@include skew("", "", ".", "")
+@include skew("", "", ".", "-") // negative
 
-  @include skew("", "", ".", $modifier, $value, "")
-  @include skew("", "", ".", $modifier, $value, "-") // negative
+/* hover */
 
-  /* hover */
+@include skew(".hover\\:", ":hover", "", "")
+@include skew(".hover\\:", ":hover", "", "-") // negative
 
-  @include skew(".hover\\:", ":hover", "", $modifier, $value, "")
-  @include skew(".hover\\:", ":hover", "", $modifier, $value, "-") // negative
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-  /* responsive */
+// See `_responsive.scss`
 
-  // See `_responsive.scss`
-
-}

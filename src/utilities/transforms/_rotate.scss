@@ -3,32 +3,31 @@
  * @module: _rotate.scss
  */
 
-@mixin rotate($prefix, $pseudo, $class, $modifier, $value, $negative) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "#{$negative}rotate-", $modifier,
-    "--transform-rotate", #{$negative}$value#{$override}
-  )
+@mixin rotate($prefix, $pseudo, $class, $negative) {
+  @each $modifier, $value in $rotate {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "#{$negative}rotate-", $modifier,
+      "--transform-rotate", #{$negative}$value#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $rotate {
+/* global */
 
-  /* global */
+@include rotate("", "", ".", "")
+@include rotate("", "", ".", "-") // negative
 
-  @include rotate("", "", ".", $modifier, $value, "")
-  @include rotate("", "", ".", $modifier, $value, "-") // negative
+/* hover */
 
-  /* hover */
+@include rotate(".hover\\:", ":hover", "", "")
+@include rotate(".hover\\:", ":hover", "", "-") // negative
 
-  @include rotate(".hover\\:", ":hover", "", $modifier, $value, "")
-  @include rotate(".hover\\:", ":hover", "", $modifier, $value, "-") // negative
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-  /* responsive */
+// See `_responsive.scss`
 
-  // See `_responsive.scss`
-
-}

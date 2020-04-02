@@ -3,44 +3,39 @@
  * @module: _scale.scss
  */
 
-@mixin scale($prefix, $pseudo, $class, $modifier, $value) {
-
-  @include setRuleDouble(
-    $prefix, $pseudo, $class,
-    "scale-", $modifier,
-    "--transform-scale-x", "--transform-scale-y", $value#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "scale-x-", $modifier,
-    "--transform-scale-x", $value#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "scale-y-", $modifier,
-    "--transform-scale-y", $value#{$override}
-  )
-
+@mixin scale($prefix, $pseudo, $class) {
+  @each $modifier, $value in $scale {
+    @include setRuleDouble(
+      $prefix, $pseudo, $class,
+      "scale-", $modifier,
+      "--transform-scale-x", "--transform-scale-y", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "scale-x-", $modifier,
+      "--transform-scale-x", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "scale-y-", $modifier,
+      "--transform-scale-y", $value#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $scale {
+/* global */
 
-  /* global */
+@include scale("", "", ".")
 
-  @include scale("", "", ".", $modifier, $value)
+/* hover */
 
-  /* hover */
+@include scale(".hover\\:", ":hover", "")
 
-  @include scale(".hover\\:", ":hover", "", $modifier, $value)
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-  /* responsive */
+// See `_responsive.scss`
 
-  // See `_responsive.scss`
-
-}

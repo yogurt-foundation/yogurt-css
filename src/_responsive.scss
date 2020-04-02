@@ -51,23 +51,18 @@
     // @include borderColorYellow(".#{$screen}\\:", "", "")
 
     // @include backgroundAttachment(".#{$screen}\\:", "", "")
-
     // @include backgroundPosition(".#{$screen}\\:", "", "")
-
     // @include backgroundRepeat(".#{$screen}\\:", "", "")
-
     // @include backgroundSize(".#{$screen}\\:", "", "")
 
     // @include borderRadiusDefault(".#{$screen}\\:", "", "")
     // @include borderRadius(".#{$screen}\\:", "", "")
-
     // @include borderStyle(".#{$screen}\\:", "", "")
 
     // @include opacity(".#{$screen}\\:", "", "")
 
     // @include margin(".#{$screen}\\:", "", "", "")
     // @include margin(".#{$screen}\\:", "", "", "-") // negative
-
     // @include padding(".#{$screen}\\:", "", "",)
 
     // @each $modifier, $value in $height {
@@ -141,28 +136,18 @@
 
     // @include userSelect(".#{$screen}\\:", "", "")
 
-    // @each $modifier, $value in $rotate {
-    //   @include rotate(".#{$screen}\\:", "", "", $modifier, $value, "")
-    //   @include rotate(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
-    // }
+    // @include rotate(".#{$screen}\\:", "", "", "")
+    // @include rotate(".#{$screen}\\:", "", "", "-") // negative
 
-    // @each $modifier, $value in $scale {
-    //   @include scale(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include scale(".#{$screen}\\:", "", "")
 
-    // @each $modifier, $value in $skew {
-    //   @include skew(".#{$screen}\\:", "", "", $modifier, $value, "")
-    //   @include skew(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
-    // }
+    // @include skew(".#{$screen}\\:", "", "", "")
+    // @include skew(".#{$screen}\\:", "", "", "-") // negative
 
-    // @each $modifier, $value in $transform-origin {
-    //   @include transformOrigin(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include transformOrigin(".#{$screen}\\:", "", "")
 
-    // @each $modifier, $value in $translate {
-    //   @include translate(".#{$screen}\\:", "", "", $modifier, $value, "")
-    //   @include translate(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
-    // }
+    // @include translate(".#{$screen}\\:", "", "", "")
+    // @include translate(".#{$screen}\\:", "", "", "-") // negative
 
     // @include boxSizing(".#{$screen}\\:", "", "")
 
@@ -256,28 +241,18 @@
     //   @include flexDirection(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
     // }
 
-    // @each $modifier, $value in $rotate {
-    //   @include rotate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "")
-    //   @include rotate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-") // negative
-    // }
+    // @include rotate(".#{$screen}\\:hover\\:", ":hover", "", "")
+    // @include rotate(".#{$screen}\\:hover\\:", ":hover", "", "-") // negative
 
-    // @each $modifier, $value in $scale {
-    //   @include scale(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-    // }
+    // @include scale(".#{$screen}\\:hover\\:", ":hover", "")
 
-    // @each $modifier, $value in $skew {
-    //   @include skew(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "")
-    //   @include skew(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-") // negative
-    // }
+    // @include skew(".#{$screen}\\:hover\\:", ":hover", "", "")
+    // @include skew(".#{$screen}\\:hover\\:", ":hover", "", "-") // negative
 
-    // @each $modifier, $value in $transform-origin {
-    //   @include transformOrigin(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-    // }
+    // @include transformOrigin(".#{$screen}\\:hover\\:", ":hover", "")
 
-    // @each $modifier, $value in $translate {
-    //   @include translate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "")
-    //   @include translate(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value, "-") // negative
-    // }
+    // @include translate(".#{$screen}\\:hover\\:", ":hover", "", "")
+    // @include translate(".#{$screen}\\:hover\\:", ":hover", "", "-") // negative
 
     // @include display(".#{$screen}\\:hover\\:", ":hover", "")
 

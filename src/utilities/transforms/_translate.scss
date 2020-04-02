@@ -3,40 +3,36 @@
  * @module: _translate.scss
  */
 
-@mixin translate($prefix, $pseudo, $class, $modifier, $value, $negative) {
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "#{$negative}translate-x-", $modifier,
-    "--transform-translate-x", #{$negative}#{$value}#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "#{$negative}translate-y-", $modifier,
-    "--transform-translate-y", #{$negative}#{$value}#{$override}
-  )
-
+@mixin translate($prefix, $pseudo, $class, $negative) {
+  @each $modifier, $value in $translate {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "#{$negative}translate-x-", $modifier,
+      "--transform-translate-x", #{$negative}#{$value}#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "#{$negative}translate-y-", $modifier,
+      "--transform-translate-y", #{$negative}#{$value}#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $translate {
+/* global */
 
-  /* global */
+@include translate("", "", ".", "")
+@include translate("", "", ".", "-") // negative
 
-  @include translate("", "", ".", $modifier, $value, "")
-  @include translate("", "", ".", $modifier, $value, "-") // negative
+/* hover */
 
-  /* hover */
+@include translate(".hover\\:", ":hover", "", "")
+@include translate(".hover\\:", ":hover", "", "-") // negative
 
-  @include translate(".hover\\:", ":hover", "", $modifier, $value, "")
-  @include translate(".hover\\:", ":hover", "", $modifier, $value, "-") // negative
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-  /* responsive */
+// See `_responsive.scss`
 
-  // See `_responsive.scss`
-
-}
