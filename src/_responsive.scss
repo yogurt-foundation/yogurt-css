@@ -46,6 +46,7 @@
     // @include borderColorPink(".#{$screen}\\:", "", "")
     // @include borderColorPurple(".#{$screen}\\:", "", "")
     // @include borderColorRed(".#{$screen}\\:", "", "")
+    // @include borderColorSpecial(".#{$screen}\\:", "", "")
     // @include borderColorTeal(".#{$screen}\\:", "", "")
     // @include borderColorYellow(".#{$screen}\\:", "", "")
 
@@ -57,14 +58,10 @@
 
     // @include __backgroundSize($screen, "")
 
-    // @each $modifier, $value in $border-radius {
-    //   @include borderRadiusDefault(".#{$screen}\\:", "", "")
-    //   @include borderRadius(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include __borderRadiusDefault($screen, "")
+    // @include __borderRadius($screen, "")
 
-    // @each $modifier, $value in $border-style {
-    //   @include borderStyle(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include __borderStyle($screen, "")
 
     // @each $modifier, $value in $opacity {
     //   @include opacity(".#{$screen}\\:", "", "", $modifier, $value)

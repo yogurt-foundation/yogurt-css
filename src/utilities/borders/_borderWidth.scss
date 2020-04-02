@@ -3,80 +3,60 @@
  * @module: _borderWidth.scss
  */
 
-@mixin borderWidth(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "border-", $modifier,
-    "border-width", $value#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "border-t-", $modifier,
-    "border-top-width", $value#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "border-b-", $modifier,
-    "border-bottom-width", $value#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "border-l-", $modifier,
-    "border-left-width", $value#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "border-r-", $modifier,
-    "border-right-width", $value#{$override}
-  )
-
+@mixin borderWidth($prefix, $pseudo, $class) {
+  @each $modifier, $value in $border-width {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "border-", $modifier,
+      "border-width", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "border-t-", $modifier,
+      "border-top-width", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "border-b-", $modifier,
+      "border-bottom-width", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "border-l-", $modifier,
+      "border-left-width", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "border-r-", $modifier,
+      "border-right-width", $value#{$override}
+    )
+  }
 }
 
-@mixin borderWidthDefault(
-  $prefix, $class, $pseudo) {
-
+@mixin borderWidthDefault($prefix, $pseudo, $class,) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "border", "",
     "border-width", "0.0625em#{$override}"
   )
-
 }
 
-/* standalone */
+/* global */
 
-@include borderWidthDefault("", ".", "")
+@include borderWidthDefault("", "", ".")
+@include borderWidth("", "", ".")
 
 /* hover */
+
+@include borderWidthDefault(".hover\\:", ":hover", "")
+@include borderWidth(".hover\\:", ":hover", "")
 
 /* focus */
 
 /* active */
 
-@each $modifier, $value in $border-width {
+/* responsive */
 
-  /* global */
+// see `_responsive.scss`
 
-  @include borderWidth("", "", ".", $modifier, $value)
-
-  /* hover */
-
-  @include borderWidthDefault(".hover\\:", "", ":hover")
-  @include borderWidth(".hover\\:", ":hover", "", $modifier, $value)
-
-  /* focus */
-
-  /* active */
-
-  /* responsive */
-
-  // see `_responsive.scss`
-
-}
 

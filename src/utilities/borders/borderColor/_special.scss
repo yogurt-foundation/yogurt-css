@@ -3,29 +3,30 @@
  * @module: borderColor/_special.scss
  */
 
-@mixin borderColorSpecial(
-  $prefix, $pseudo, $class, $modifier, $value) {
+@mixin borderColorSpecial($prefix, $pseudo, $class) {
+  @each $modifier, $value in $special-colors {
     #{$prefix}#{$class}border-#{$modifier}#{$pseudo} {
       border-color: #{$value}#{$override}
     }
+  }
 }
 
-@each $modifier, $value in $special-colors {
+/* global */
 
-  /* global */
+@include borderColorSpecial("", "", ".")
 
-  @include borderColorSpecial("", "", ".", $modifier, $value)
+/* hover */
 
-  /* hover */
+@include borderColorSpecial(".hover\\:", ":hover", "")
 
-  @include borderColorSpecial(".hover\\:", ":hover", "", $modifier, $value)
+/* group hover */
 
-  /* group hover */
+@include borderColorSpecial(".group:hover .group-hover\\:", "", "")
 
-  @include borderColorSpecial(".group:hover .group-hover\\:", "", "", $modifier, $value)
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-}
+// See `_responsive.scss`

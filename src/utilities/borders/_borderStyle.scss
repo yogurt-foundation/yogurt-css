@@ -3,18 +3,29 @@
  * @module: _borderStyle.scss
  */
 
-@mixin borderStyle(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "border-", $modifier,
-    "border-style", $value#{$override}
-  )
-
+@mixin borderStyle($prefix, $pseudo, $class) {
+  @each $modifier, $value in $border-style {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "border-", $modifier,
+      "border-style", $value#{$override}
+    )
+  }
 }
 
-/* standalone */
+@mixin __borderStyle($screen, $pseudo) {
+  @each $modifier, $value in $border-style {
+    @include setRuleSingle(
+      ".#{$screen}\\:", $pseudo, "",
+      "border-", $modifier,
+      "border-style", $value#{$override}
+    )
+  }
+}
+
+/* global */
+
+@include borderStyle("", "", ".")
 
 /* hover */
 
@@ -22,21 +33,9 @@
 
 /* active */
 
-@each $modifier, $value in $border-style {
+/* responsive */
 
-  /* global */
+// See `_responsive.scss`
 
-  @include borderStyle("", "", ".", $modifier, $value)
 
-  /* hover */
-
-  /* focus */
-
-  /* active */
-
-  /* responsive */
-
-  // See `_responsive.scss`
-
-}
 

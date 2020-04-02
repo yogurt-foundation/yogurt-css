@@ -3,132 +3,114 @@
  * @module: _borderRadius.scss
  */
 
-@mixin borderRadius(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "rounded-", $modifier,
-    "border-radius", $value#{$override}
-  )
-
-  @include setRuleDouble(
-    $prefix, $pseudo, $class,
-    "rounded-t-", $modifier,
-    "border-top-left-radius",
-    "border-top-right-radius", $value#{$override}
-  )
-
-  @include setRuleDouble(
-    $prefix, $pseudo, $class,
-    "rounded-b-", $modifier,
-    "border-bottom-right-radius",
-    "border-bottom-left-radius", $value#{$override}
-  )
-
-  @include setRuleDouble(
-    $prefix, $pseudo, $class,
-    "rounded-l-", $modifier,
-    "border-top-left-radius",
-    "border-bottom-left-radius", $value#{$override}
-  )
-
-  @include setRuleDouble(
-    $prefix, $pseudo, $class,
-    "rounded-r-", $modifier,
-    "border-top-right-radius",
-    "border-bottom-right-radius", $value#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "rounded-tl-", $modifier,
-    "border-top-left-radius", $value#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "rounded-tr-", $modifier,
-    "border-top-right-radius", $value#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "rounded-bl-", $modifier,
-    "border-bottom-left-radius", $value#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "rounded-br-", $modifier,
-    "border-bottom-right-radius", $value#{$override}
-  )
-
+@mixin borderRadius($prefix, $pseudo, $class) {
+  @each $modifier, $value in $border-radius {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "rounded-", $modifier,
+      "border-radius", $value#{$override}
+    )
+    @include setRuleDouble(
+      $prefix, $pseudo, $class,
+      "rounded-t-", $modifier,
+      "border-top-left-radius",
+      "border-top-right-radius", $value#{$override}
+    )
+    @include setRuleDouble(
+      $prefix, $pseudo, $class,
+      "rounded-b-", $modifier,
+      "border-bottom-right-radius",
+      "border-bottom-left-radius", $value#{$override}
+    )
+    @include setRuleDouble(
+      $prefix, $pseudo, $class,
+      "rounded-l-", $modifier,
+      "border-top-left-radius",
+      "border-bottom-left-radius", $value#{$override}
+    )
+    @include setRuleDouble(
+      $prefix, $pseudo, $class,
+      "rounded-r-", $modifier,
+      "border-top-right-radius",
+      "border-bottom-right-radius", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "rounded-tl-", $modifier,
+      "border-top-left-radius", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "rounded-tr-", $modifier,
+      "border-top-right-radius", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "rounded-bl-", $modifier,
+      "border-bottom-left-radius", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "rounded-br-", $modifier,
+      "border-bottom-right-radius", $value#{$override}
+    )
+  }
 }
 
-@mixin borderRadiusDefault(
-  $prefix, $pseudo, $class) {
+@mixin __borderRadius($screen, $pseudo) {
+  @each $modifier, $value in $border-radius {
+    @include borderRadius(".#{$screen}\\:", $pseudo, "")
+  }
+}
 
+@mixin borderRadiusDefault($prefix, $pseudo, $class) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "rounded", "",
     "border-radius", "0.25rem#{$override}"
   )
-
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "rounded-tl", "",
     "border-top-left-radius", "0.25rem#{$override}"
   )
-
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "rounded-tr", "",
     "border-top-right-radius", "0.25rem#{$override}"
   )
-
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "rounded-bl", "",
     "border-bottom-left-radius", "0.25rem#{$override}"
   )
-
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "rounded-br", "",
     "border-bottom-right-radius", "0.25rem#{$override}"
   )
-
 }
 
-/* standalone */
+@mixin __borderRadiusDefault($screen, $pseudo) {
+  @each $modifier, $value in $border-radius {
+    @include borderRadiusDefault(".#{$screen}\\:", $pseudo, "")
+  }
+}
+
+/* global */
 
 @include borderRadiusDefault("", "", ".")
+@include borderRadius("", "", ".")
 
 /* hover */
+
+@include borderRadiusDefault(".hover\\:", "", ":hover")
+@include borderRadius(".hover\\:", ":hover", "")
 
 /* focus */
 
 /* active */
 
-@each $modifier, $value in $border-radius {
+/* responsive */
 
-  /* global */
-
-  @include borderRadius("", "", ".", $modifier, $value)
-
-  /* hover */
-
-  @include borderRadiusDefault(".hover\\:", "", ":hover")
-  @include borderRadius(".hover\\:", ":hover", "", $modifier, $value)
-
-  /* focus */
-
-  /* active */
-
-  /* responsive */
-
-  // See `_responsive.scss`
-
-}
-
+// See `_responsive.scss`
