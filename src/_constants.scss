@@ -832,9 +832,22 @@ $z-index:
   (40, 40),
   (50, 50);
 
-/* brightness, saturate, contrast */
+/* filters (brightness, contrast, saturate) */
 
-$filter-bsc:
+$filter-brightness:
+  (0, 0),
+  (1, 1),
+  (2, 1.06),
+  (3, 1.12),
+  (4, 1.18),
+  (5, 1.24),
+  (6, 1.30),
+  (7, 1.36),
+  (8, 1.42),
+  (9, 1.48),
+  (10, 1.54);
+
+$filter-contrast:
   (0, 0),
   (1, 1),
   (2, 1.10),
@@ -847,7 +860,20 @@ $filter-bsc:
   (9, 1.80),
   (10, 1.90);
 
-/* blur */
+$filter-saturate:
+  (0, 0),
+  (1, 1),
+  (2, 1.10),
+  (3, 1.20),
+  (4, 1.30),
+  (5, 1.40),
+  (6, 1.50),
+  (7, 1.60),
+  (8, 1.70),
+  (9, 1.80),
+  (10, 1.90);
+
+/* filter (blur) */
 
 $filter-blur:
   (0, 0px),
@@ -857,7 +883,7 @@ $filter-blur:
   (4, 8px),
   (5, 10px);
 
-/* invert */
+/* filter (invert) */
 
 $filter-invert:
   (normal, 0),
