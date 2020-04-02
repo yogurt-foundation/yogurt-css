@@ -3,38 +3,29 @@
  * @module: _width.scss
  */
 
-@mixin width($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "w-", $modifier,
-    "width", $value#{$override}
-  )
+@mixin width($prefix, $pseudo, $class) {
+  @each $modifier, $value in $width {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "w-", $modifier,
+      "width", $value#{$override}
+    )
+  }
 }
 
-/* standalone */
+/* global */
+
+@include width("", "", ".")
 
 /* hover */
+
+@include width(".hover\\:", ":hover", "")
 
 /* focus */
 
 /* active */
 
-@each $modifier, $value in $width {
+/* responsive */
 
-  /* global */
+// See `_responsive.scss`
 
-  @include width("", "", ".", $modifier, $value)
-
-  /* hover */
-
-  @include width(".hover\\:", ":hover", "", $modifier, $value)
-
-  /* focus */
-
-  /* active */
-
-  /* responsive */
-
-  // See `_responsive.scss`
-
-}

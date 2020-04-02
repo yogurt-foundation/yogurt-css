@@ -3,15 +3,19 @@
  * @module: _maxWidth.scss
  */
 
-@mixin maxWidth($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "max-w-", $modifier,
-    "max-width", $value#{$override}
-  )
+@mixin maxWidth($prefix, $pseudo, $class) {
+  @each $modifier, $value in $max-width {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "max-w-", $modifier,
+      "max-width", $value#{$override}
+    )
+  }
 }
 
-/* standalone */
+/* global */
+
+@include maxWidth("", "", ".")
 
 /* hover */
 
@@ -19,20 +23,7 @@
 
 /* active */
 
-@each $modifier, $value in $max-width {
+/* responsive */
 
-  /* global */
+// See `_responsive.scss`
 
-  @include maxWidth("", "", ".", $modifier, $value)
-
-  /* hover */
-
-  /* focus */
-
-  /* active */
-
-  /* responsive */
-
-  // See `_responsive.scss`
-
-}

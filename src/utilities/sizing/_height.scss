@@ -3,38 +3,28 @@
  * @module: _height.scss
  */
 
-@mixin height($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "h-", $modifier,
-    "height", $value#{$override}
-  )
+@mixin height($prefix, $pseudo, $class) {
+  @each $modifier, $value in $height {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "h-", $modifier,
+      "height", $value#{$override}
+    )
+  }
 }
 
-/* standalone */
+/* global */
+
+@include height("", "", ".")
 
 /* hover */
+
+@include height(".hover\\:", ":hover", "")
 
 /* focus */
 
 /* active */
 
-@each $modifier, $value in $height {
+/* responsive */
 
-  /* global */
-
-  @include height("", "", ".", $modifier, $value)
-
-  /* hover */
-
-  @include height(".hover\\:", ":hover", "", $modifier, $value)
-
-  /* focus */
-
-  /* active */
-
-  /* responsive */
-
-  // See `_responsive.scss`
-
-}
+// See `_responsive.scss`

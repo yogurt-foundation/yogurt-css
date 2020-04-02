@@ -65,29 +65,12 @@
     // @include margin(".#{$screen}\\:", "", "", "-") // negative
     // @include padding(".#{$screen}\\:", "", "",)
 
-    // @each $modifier, $value in $height {
-    //   @include height(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $max-height {
-    //   @include maxHeight(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $max-width {
-    //   @include maxWidth(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $min-height {
-    //   @include minHeight(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $min-width {
-    //   @include minWidth(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $width {
-    //   @include width(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include height(".#{$screen}\\:", "", "")
+    // @include maxHeight(".#{$screen}\\:", "", "")
+    // @include maxWidth(".#{$screen}\\:", "", "")
+    // @include minHeight(".#{$screen}\\:", "", "")
+    // @include minWidth(".#{$screen}\\:", "", "")
+    // @include width(".#{$screen}\\:", "", "")
 
     // @include alignContent(".#{$screen}\\:", "", "")
     // @include alignItems(".#{$screen}\\:", "", "")
@@ -204,9 +187,7 @@
 
     // @include opacity(".#{$screen}\\:hover\\:", ":hover", "")
 
-    // @each $modifier, $value in $height {
-    //   @include height(".#{$screen}\\:.hover\\:", ":hover", "", $modifier, $value)
-    // }
+    // @include height(".#{$screen}\\:.hover\\:", ":hover", "")
 
     // @each $modifier, $value in $width {
     //   @include width(".#{$screen}\\:hover\\:", "", "", $modifier, $value)

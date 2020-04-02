@@ -3,15 +3,19 @@
  * @module: _minWidth.scss
  */
 
-@mixin minWidth($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "min-w-", $modifier,
-    "min-width", $value#{$override}
-  )
+@mixin minWidth($prefix, $pseudo, $class) {
+  @each $modifier, $value in $min-width {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "min-w-", $modifier,
+      "min-width", $value#{$override}
+    )
+  }
 }
 
-/* standalone */
+/* global */
+
+@include minWidth("", "", ".")
 
 /* hover */
 
@@ -19,20 +23,7 @@
 
 /* active */
 
-@each $modifier, $value in $min-width {
+/* responsive */
 
-  /* global */
+// See `_responsive.scss`
 
-  @include minWidth("", "", ".", $modifier, $value)
-
-  /* hover */
-
-  /* focus */
-
-  /* active */
-
-  /* responsive */
-
-  // See `_responsive.scss`
-
-}
