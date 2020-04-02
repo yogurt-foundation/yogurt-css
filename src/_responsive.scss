@@ -171,53 +171,27 @@
     //   @include translate(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
     // }
 
-    // @each $modifier, $value in $box-sizing {
-    //   @include boxSizing(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include boxSizing(".#{$screen}\\:", "", "")
 
-    // @each $modifier, $value in $clear {
-    //   @include clear(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include clear(".#{$screen}\\:", "", "")
 
-    // @include containerDefault(".#{$screen}\\:", "")
-    // @include container(".#{$screen}\\:", "", "", "", $size)
+    // @include container($size)
 
-    // @each $modifier, $value in $display {
-    //   @include display(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include display(".#{$screen}\\:", "", "")
 
-    // @each $modifier, $value in $float {
-    //   @include floatDefault(".#{$screen}\\:", "")
-    //   @include float(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include floatDefault(".#{$screen}\\:", "")
+    // @include float(".#{$screen}\\:", "", "")
 
-    // @each $modifier, $value in $inset {
-    //   @include inset(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include inset(".#{$screen}\\:", "", "")
+    // @include insetTBLR(".#{$screen}\\:", "", "")
 
-    // @each $modifier, $value in $spacing {
-    //   @include insetTBLR(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include objectFit(".#{$screen}\\:", "", "")
 
-    // @each $modifier, $value in $object-fit {
-    //   @include objectFit(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include objectPosition(".#{$screen}\\:", "", "")
 
-    // @each $modifier, $value in $object-position {
-    //   @include objectPosition(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $overflow {
-    //   @include overflow(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $overflow-xy {
-    //   @include overflow-xy(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $overflow-scrolling {
-    //   @include overflow-scrolling(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include overflow(".#{$screen}\\:", "", "")
+    // @include overflow-xy(".#{$screen}\\:", "", "")
+    // @include overflow-scrolling(".#{$screen}\\:", "", "")
 
     // @each $modifier, $value in $position {
     //   @include position(".#{$screen}\\:", "", "", $modifier, $value)
@@ -225,9 +199,7 @@
 
     // @include visibility(".#{$screen}\\:", "", "")
 
-    // @each $modifier, $value in $z-index {
-    //   @include zIndex(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include zIndex(".#{$screen}\\:", "", "")
 
     // @each $modifier, $value in $font-family {
     //   @include fontFamily(".#{$screen}\\:", "", "", $modifier, $value)

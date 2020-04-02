@@ -3,28 +3,26 @@
  * @module: _objectFit.scss
  */
 
-@mixin objectFit($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "object-", $modifier,
-    "object-fit", $value#{$override}
-  )
+@mixin objectFit($prefix, $pseudo, $class) {
+  @each $modifier, $value in $object-fit {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "object-", $modifier,
+      "object-fit", $value#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $object-fit {
+/* global */
 
-  /* global */
+@include objectFit("", "", ".")
 
-  @include objectFit("", "", ".", $modifier, $value)
+/* hover */
 
-  /* hover */
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-  /* responsive */
-
-  // See `_responsive.scss`
-
-}
+// See `_responsive.scss`

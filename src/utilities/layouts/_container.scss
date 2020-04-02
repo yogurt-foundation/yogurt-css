@@ -3,19 +3,19 @@
  * @module: _container.scss
  */
 
-@mixin container($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "container", $modifier,
-    "max-width", $value#{$override}
-  )
-}
-
 @mixin containerDefault($prefix, $class) {
   @include setRuleSingle(
     $prefix, "", $class,
     "container", "",
-    "max-width", "100%#{$override}"
+    "width", "100%#{$override}"
+  )
+}
+
+@mixin container($value) {
+  @include setRuleSingle(
+    ".", "", "",
+    "container", "",
+    "max-width", $value#{$override}
   )
 }
 

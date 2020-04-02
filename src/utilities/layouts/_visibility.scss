@@ -4,19 +4,16 @@
  */
 
 @mixin visibility($prefix, $pseudo, $class) {
-
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "visible", "",
     "visibility", "visible#{$override}"
   )
-
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "invisible", "",
     "visibility", "hidden#{$override}"
   )
-
 }
 
 /* global */

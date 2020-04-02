@@ -3,12 +3,14 @@
  * @module: _float.scss
  */
 
-@mixin float($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "float-", $modifier,
-    "float", $value#{$override}
-  )
+@mixin float($prefix, $pseudo, $class) {
+  @each $modifier, $value in $float {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "float-", $modifier,
+      "float", $value#{$override}
+    )
+  }
 }
 
 @mixin floatDefault($prefix, $class) {
@@ -19,10 +21,10 @@
   }
 }
 
-
 /* global */
 
 @include floatDefault("", ".")
+@include float("", "", ".")
 
 /* hover */
 
@@ -30,20 +32,7 @@
 
 /* active */
 
-@each $modifier, $value in $float {
+/* responsive */
 
-  /* global */
+// See `_responsive.scss`
 
-  @include float("", "", ".", $modifier, $value)
-
-  /* hover */
-
-  /* focus */
-
-  /* active */
-
-  /* responsive */
-
-  // See `_responsive.scss`
-
-}

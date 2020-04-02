@@ -3,28 +3,27 @@
  * @module: _clear.scss
  */
 
-@mixin clear($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "clear-", $modifier,
-    "clear", $value#{$override}
-  )
+@mixin clear($prefix, $pseudo, $class) {
+  @each $modifier, $value in $clear {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "clear-", $modifier,
+      "clear", $value#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $clear {
+/* global */
 
-  /* global */
+@include clear("", "", ".")
 
-  @include clear("", "", ".", $modifier, $value)
+/* hover */
 
-  /* hover */
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-  /* responsive */
+// See `_responsive.scss`
 
-  // See `_responsive.scss`
-
-}

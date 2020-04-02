@@ -3,28 +3,27 @@
  * @module: _boxSizing.scss
  */
 
-@mixin boxSizing($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "box-", $modifier,
-    "box-sizing", $value#{$override}
-  )
+@mixin boxSizing($prefix, $pseudo, $class) {
+  @each $modifier, $value in $box-sizing {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "box-", $modifier,
+      "box-sizing", $value#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $box-sizing {
+/* global */
 
-  /* global */
+@include boxSizing("", "", ".")
 
-  @include boxSizing("", "", ".", $modifier, $value)
+/* hover */
 
-  /* hover */
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-  /* responsive */
+// See `_responsive.scss`
 
-  // See `_responsive.scss`
-
-}

@@ -3,90 +3,54 @@
  * @module: _overflow.scss
  */
 
-@mixin overflow($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "overflow-", $modifier,
-    "overflow", $value#{$override}
-  )
+@mixin overflow($prefix, $pseudo, $class) {
+  @each $modifier, $value in $overflow {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "overflow-", $modifier,
+      "overflow", $value#{$override}
+    )
+  }
 }
 
-@mixin overflow-xy($prefix, $pseudo, $class, $modifier, $value) {
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "overflow-x-", $modifier,
-    "overflow-x", $value#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "overflow-y-", $modifier,
-    "overflow-y", $value#{$override}
-  )
-
+@mixin overflow-xy($prefix, $pseudo, $class) {
+  @each $modifier, $value in $overflow-xy {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "overflow-x-", $modifier,
+      "overflow-x", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "overflow-y-", $modifier,
+      "overflow-y", $value#{$override}
+    )
+  }
 }
 
-@mixin overflow-scrolling($prefix, $pseudo, $class, $modifier, $value) {
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "scrolling-", $modifier,
-    "-webkit-overflow-scrolling", $value#{$override}
-  )
-
+@mixin overflow-scrolling($prefix, $pseudo, $class) {
+  @each $modifier, $value in $overflow-scrolling {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "scrolling-", $modifier,
+      "-webkit-overflow-scrolling", $value#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $overflow {
+/* global */
 
-  /* global */
+@include overflow("", "", ".")
+@include overflow-xy("", "", ".")
+@include overflow-scrolling("", "", ".")
 
-  @include overflow("", "", ".", $modifier, $value)
+/* hover */
 
-  /* hover */
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-  /* responsive */
+// See `_responsive.scss`
 
-  // See `_responsive.scss`
-
-}
-
-@each $modifier, $value in $overflow-xy {
-
-  /* global */
-
-  @include overflow-xy("", "", ".", $modifier, $value)
-
-  /* hover */
-
-  /* focus */
-
-  /* active */
-
-  /* responsive */
-
-  // See `_responsive.scss`
-
-}
-
-@each $modifier, $value in $overflow-scrolling {
-
-  /* global */
-
-  @include overflow-scrolling("", "", ".", $modifier, $value)
-
-  /* hover */
-
-  /* focus */
-
-  /* active */
-
-  /* responsive */
-
-  // See `_responsive.scss`
-
-}
