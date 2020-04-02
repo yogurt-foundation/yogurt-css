@@ -4,19 +4,15 @@
  */
 
 @mixin textDecoration($prefix, $pseudo, $class) {
-
   #{$prefix}#{$class}underline#{$pseudo} {
     text-decoration: underline#{$override}
   }
-
   #{$prefix}#{$class}line-through#{$pseudo} {
     text-decoration: line-through#{$override}
   }
-
   #{$prefix}#{$class}no-underline#{$pseudo} {
     text-decoration: none#{$override}
   }
-
 }
 
 /* global */

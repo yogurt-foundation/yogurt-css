@@ -3,29 +3,29 @@
  * @module: _fontSize.scss
  */
 
-@mixin fontSize($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "text-", $modifier,
-    "font-size", $value#{$override}
-  )
+@mixin fontSize($prefix, $pseudo, $class) {
+  @each $modifier, $value in $font-size {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "text-", $modifier,
+      "font-size", $value#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $font-size {
+/* global */
 
-  /* global */
+@include fontSize("", "", ".")
 
-  @include fontSize("", "", ".", $modifier, $value)
+/* hover */
 
-  /* hover */
+@include fontSize(".hover\\:", ":hover", "")
 
-  @include fontSize(".hover\\:", ":hover", "", $modifier, $value)
+/* focus */
 
-  /* focus */
-  /* active */
+/* active */
 
-  /* responsive */
+/* responsive */
 
-  // See `_responsive.scss`
+// See `_responsive.scss`
 
-}

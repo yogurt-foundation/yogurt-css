@@ -3,28 +3,27 @@
  * @module: _whitespace.scss
  */
 
-@mixin whitespace($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "whitespace-", $modifier,
-    "white-space", $value#{$override}
-  )
+@mixin whitespace($prefix, $pseudo, $class) {
+  @each $modifier, $value in $whitespace {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "whitespace-", $modifier,
+      "white-space", $value#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $whitespace {
+/* global */
 
-  /* global */
+@include whitespace("", "", ".")
 
-  @include whitespace("", "", ".", $modifier, $value)
+/* hover */
 
-  /* hover */
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-  /* responsive */
+// See `_responsive.scss`
 
-  // See `_responsive.scss`
-
-}

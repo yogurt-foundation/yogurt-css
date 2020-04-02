@@ -3,28 +3,27 @@
  * @module: _listStyleType.scss
  */
 
-@mixin listStyleType($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "list-", $modifier,
-    "list-style-type", $value#{$override}
-  )
+@mixin listStyleType($prefix, $pseudo, $class) {
+  @each $modifier, $value in $list-style-type {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "list-", $modifier,
+      "list-style-type", $value#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $list-style-type {
+/* global */
 
-  /* global */
+@include listStyleType("", "", ".")
 
-  @include listStyleType("", "", ".", $modifier, $value)
+/* hover */
 
-  /* hover */
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-  /* responsive */
+// See `_responsive.scss`
 
-  // See `_responsive.scss`
-
-}

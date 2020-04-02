@@ -3,32 +3,31 @@
  * @module: _fontWeight.scss
  */
 
-@mixin fontWeight($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "font-", $modifier,
-    "font-weight", $value#{$override}
-  )
+@mixin fontWeight($prefix, $pseudo, $class) {
+  @each $modifier, $value in $font-weight {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "font-", $modifier,
+      "font-weight", $value#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $font-weight {
+/* global */
 
-  /* global */
+@include fontWeight("", "", ".")
 
-  @include fontWeight("", "", ".", $modifier, $value)
+/* hover */
 
-  /* hover */
+@include fontWeight(".hover\\:", ":hover", "")
 
-  @include fontWeight(".hover\\:", ":hover", "", $modifier, $value)
+/* focus */
 
-  /* focus */
+@include fontWeight(".focus\\:", ":focus", "")
 
-  @include fontWeight(".focus\\:", ":focus", "", $modifier, $value)
+/* active */
 
-  /* active */
+/* responsive */
 
-  /* responsive */
+// See `_responsive.scss`
 
-  // See `_responsive.scss`
-
-}

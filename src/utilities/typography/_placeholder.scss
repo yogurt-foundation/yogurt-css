@@ -4,19 +4,15 @@
  */
 
 @mixin placeholder() {
-
   .placeholder-transparent:-ms-input-placeholder {
     color: transparent
   }
-
   .placeholder-transparent::-ms-input-placeholder {
     color: transparent
   }
-
   .placeholder-transparent::placeholder {
     color: transparent
   }
-
 }
 
 /* global */

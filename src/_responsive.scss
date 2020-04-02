@@ -86,99 +86,50 @@
     // @include order(".#{$screen}\\:", "", "")
 
     // @include outline(".#{$screen}\\:", "", "")
-
     // @include pointerEvents(".#{$screen}\\:", "", "")
-
     // @include resizeDefault(".#{$screen}\\:", "", "")
     // @include resize(".#{$screen}\\:", "", "")
-
     // @include userSelect(".#{$screen}\\:", "", "")
 
     // @include rotate(".#{$screen}\\:", "", "", "")
     // @include rotate(".#{$screen}\\:", "", "", "-") // negative
-
     // @include scale(".#{$screen}\\:", "", "")
-
     // @include skew(".#{$screen}\\:", "", "", "")
     // @include skew(".#{$screen}\\:", "", "", "-") // negative
-
     // @include transformOrigin(".#{$screen}\\:", "", "")
-
     // @include translate(".#{$screen}\\:", "", "", "")
     // @include translate(".#{$screen}\\:", "", "", "-") // negative
 
     // @include boxSizing(".#{$screen}\\:", "", "")
-
     // @include clear(".#{$screen}\\:", "", "")
-
     // @include container($size)
-
     // @include display(".#{$screen}\\:", "", "")
-
     // @include floatDefault(".#{$screen}\\:", "")
     // @include float(".#{$screen}\\:", "", "")
-
     // @include inset(".#{$screen}\\:", "", "")
     // @include insetTBLR(".#{$screen}\\:", "", "")
-
     // @include objectFit(".#{$screen}\\:", "", "")
-
     // @include objectPosition(".#{$screen}\\:", "", "")
-
     // @include overflow(".#{$screen}\\:", "", "")
     // @include overflow-xy(".#{$screen}\\:", "", "")
     // @include overflow-scrolling(".#{$screen}\\:", "", "")
-
     // @include position(".#{$screen}\\:", "", "")
-
     // @include visibility(".#{$screen}\\:", "", "")
-
     // @include zIndex(".#{$screen}\\:", "", "")
 
-    // @each $modifier, $value in $font-family {
-    //   @include fontFamily(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $font-size {
-    //   @include fontSize(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
+    // @include fontFamily(".#{$screen}\\:", "", "")
+    // @include fontSize(".#{$screen}\\:", "", "")
     // @include fontStyle(".#{$screen}\\:", "")
-
-    // @each $modifier, $value in $font-weight {
-    //   @include fontWeight(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $letter-spacing {
-    //   @include letterSpacing(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $line-height {
-    //   @include lineHeight(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
+    // @include fontWeight(".#{$screen}\\:", "", "")
+    // @include letterSpacing(".#{$screen}\\:", "", "")
+    // @include lineHeight(".#{$screen}\\:", "", "")
     // @include listStylePosition(".#{$screen}\\:", "")
-
-    // @each $modifier, $value in $list-style-type {
-    //   @include listStyleType(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $text-align {
-    //   @include textAlign(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
+    // @include listStyleType(".#{$screen}\\:", "", "")
+    // @include textAlign(".#{$screen}\\:", "", "")
     // @include textDecoration(".#{$screen}\\:", "", "")
-
     // @include textTransform(".#{$screen}\\:", "", "")
-
-    // @each $modifier, $value in $vertical-align {
-    //   @include verticalAlign(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $whitespace {
-    //   @include whitespace(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
+    // @include verticalAlign(".#{$screen}\\:", "", "")
+    // @include whitespace(".#{$screen}\\:", "", "")
     // @include wordBreak(".#{$screen}\\:", "", "")
 
     /* hover */
@@ -188,50 +139,32 @@
     // @include opacity(".#{$screen}\\:hover\\:", ":hover", "")
 
     // @include height(".#{$screen}\\:.hover\\:", ":hover", "")
-
-    // @each $modifier, $value in $width {
-    //   @include width(".#{$screen}\\:hover\\:", "", "", $modifier, $value)
-    // }
+    // @include width(".#{$screen}\\:hover\\:", "", "")
 
     // @include flexDirection(".#{$screen}\\:hover\\:", ":hover", "")
 
     // @include rotate(".#{$screen}\\:hover\\:", ":hover", "", "")
     // @include rotate(".#{$screen}\\:hover\\:", ":hover", "", "-") // negative
-
     // @include scale(".#{$screen}\\:hover\\:", ":hover", "")
-
     // @include skew(".#{$screen}\\:hover\\:", ":hover", "", "")
     // @include skew(".#{$screen}\\:hover\\:", ":hover", "", "-") // negative
-
     // @include transformOrigin(".#{$screen}\\:hover\\:", ":hover", "")
-
     // @include translate(".#{$screen}\\:hover\\:", ":hover", "", "")
     // @include translate(".#{$screen}\\:hover\\:", ":hover", "", "-") // negative
 
     // @include display(".#{$screen}\\:hover\\:", ":hover", "")
-
     // @include position(".#{$screen}\\:hover\\:", ":hover", "")
-
     // @include visibility(".#{$screen}\\:hover\\:", ":hover", "")
 
-    // @each $modifier, $value in $font-size {
-    //   @include fontSize(".hover\\:", ":hover", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $font-weight {
-    //   @include fontWeight(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-    // }
-
+    // @include fontSize(".hover\\:", ":hover", "")
+    // @include fontWeight(".#{$screen}\\:hover\\:", ":hover", "")
     // @include textDecoration(".#{$screen}\\:hover\\:", ":hover", "")
 
     /* focus */
 
     // @include outline(".#{$screen}\\:focus\\:", ":focus", "")
 
-    // @each $modifier, $value in $font-weight {
-    //   @include fontWeight(".#{$screen}\\:focus\\:", ":focus", "", $modifier, $value)
-    // }
-
+    // @include fontWeight(".#{$screen}\\:focus\\:", ":focus", "")
     // @include textDecoration(".#{$screen}\\:focus\\:", ":focus", "")
 
     /* active */
