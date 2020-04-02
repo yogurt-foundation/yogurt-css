@@ -3,54 +3,50 @@
  * @module: _margin.scss
  */
 
-@mixin margin(
-  $prefix, $pseudo, $class, $modifier, $value, $negative) {
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "#{$negative}m-", $modifier,
-    "margin", #{$negative}$value#{$override}
-  )
-
-  @include setRuleDouble(
-    $prefix, $pseudo, $class,
-    "#{$negative}mx-", $modifier,
-    "margin-left", "margin-right", #{$negative}$value#{$override}
-  )
-
-  @include setRuleDouble(
-    $prefix, $pseudo, $class,
-    "#{$negative}my-", $modifier,
-    "margin-top", "margin-bottom", #{$negative}$value#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "#{$negative}mt-", $modifier,
-    "margin-top", #{$negative}$value#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "#{$negative}mb-", $modifier,
-    "margin-bottom", #{$negative}$value#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "#{$negative}ml-", $modifier,
-    "margin-left", #{$negative}$value#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "#{$negative}mr-", $modifier,
-    "margin-right", #{$negative}$value#{$override}
-  )
-
+@mixin margin($prefix, $pseudo, $class, $negative) {
+  @each $modifier, $value in $spacing {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "#{$negative}m-", $modifier,
+      "margin", #{$negative}$value#{$override}
+    )
+    @include setRuleDouble(
+      $prefix, $pseudo, $class,
+      "#{$negative}mx-", $modifier,
+      "margin-left", "margin-right", #{$negative}$value#{$override}
+    )
+    @include setRuleDouble(
+      $prefix, $pseudo, $class,
+      "#{$negative}my-", $modifier,
+      "margin-top", "margin-bottom", #{$negative}$value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "#{$negative}mt-", $modifier,
+      "margin-top", #{$negative}$value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "#{$negative}mb-", $modifier,
+      "margin-bottom", #{$negative}$value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "#{$negative}ml-", $modifier,
+      "margin-left", #{$negative}$value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "#{$negative}mr-", $modifier,
+      "margin-right", #{$negative}$value#{$override}
+    )
+  }
 }
 
-/* standalone */
+/* global */
+
+@include margin("", "", ".", "")
+@include margin("", "", ".", "-") // negative
 
 /* hover */
 
@@ -58,21 +54,6 @@
 
 /* active */
 
-@each $modifier, $value in $spacing {
+/* responsive */
 
-  /* global */
-
-  @include margin("", "", ".", $modifier, $value, "")
-  @include margin("", "", ".", $modifier, $value, "-") // negative
-
-  /* hover */
-
-  /* focus */
-
-  /* active */
-
-  /* responsive */
-
-  // See `_responsive.scss`
-
-}
+// See `_responsive.scss`

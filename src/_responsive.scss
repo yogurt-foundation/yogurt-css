@@ -65,11 +65,10 @@
 
     // @include opacity(".#{$screen}\\:", "", "")
 
-    // @each $modifier, $value in $spacing {
-    //   @include margin(".#{$screen}\\:", "", "", $modifier, $value, "")
-    //   @include margin(".#{$screen}\\:", "", "", $modifier, $value, "-") // negative
-    //   @include padding(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include margin(".#{$screen}\\:", "", "", "")
+    // @include margin(".#{$screen}\\:", "", "", "-") // negative
+
+    // @include padding(".#{$screen}\\:", "", "",)
 
     // @each $modifier, $value in $height {
     //   @include height(".#{$screen}\\:", "", "", $modifier, $value)

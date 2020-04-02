@@ -3,54 +3,49 @@
  * @module: _padding.scss
  */
 
-@mixin padding(
-  $prefix, $pseudo, $class, $modifier, $value) {
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "p-", $modifier,
-    "padding", $value#{$override}
-  )
-
-  @include setRuleDouble(
-    $prefix, $pseudo, $class,
-    "px-", $modifier,
-    "padding-left", "padding-right", $value#{$override}
-  )
-
-  @include setRuleDouble(
-    $prefix, $pseudo, $class,
-    "py-", $modifier,
-    "padding-top", "padding-bottom", $value#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "pt-", $modifier,
-    "padding-top", $value#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "pb-", $modifier,
-    "padding-bottom", $value#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "pl-", $modifier,
-    "padding-left", $value#{$override}
-  )
-
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "pr-", $modifier,
-    "padding-right", $value#{$override}
-  )
-
+@mixin padding($prefix, $pseudo, $class) {
+  @each $modifier, $value in $spacing {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "p-", $modifier,
+      "padding", $value#{$override}
+    )
+    @include setRuleDouble(
+      $prefix, $pseudo, $class,
+      "px-", $modifier,
+      "padding-left", "padding-right", $value#{$override}
+    )
+    @include setRuleDouble(
+      $prefix, $pseudo, $class,
+      "py-", $modifier,
+      "padding-top", "padding-bottom", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "pt-", $modifier,
+      "padding-top", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "pb-", $modifier,
+      "padding-bottom", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "pl-", $modifier,
+      "padding-left", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "pr-", $modifier,
+      "padding-right", $value#{$override}
+    )
+  }
 }
 
-/* standalone */
+/* global */
+
+@include padding("", "", ".")
 
 /* hover */
 
@@ -58,20 +53,6 @@
 
 /* active */
 
-@each $modifier, $value in $spacing {
+/* responsive */
 
-  /* global */
-
-  @include padding("", "", ".", $modifier, $value)
-
-  /* hover */
-
-  /* focus */
-
-  /* active */
-
-  /* responsive */
-
-  // See `_responsive.scss`
-
-}
+// See `_responsive.scss`
