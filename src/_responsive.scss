@@ -63,9 +63,7 @@
 
     // @include __borderStyle($screen, "")
 
-    // @each $modifier, $value in $opacity {
-    //   @include opacity(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include __opacity($screen, "")
 
     // @each $modifier, $value in $spacing {
     //   @include margin(".#{$screen}\\:", "", "", $modifier, $value, "")

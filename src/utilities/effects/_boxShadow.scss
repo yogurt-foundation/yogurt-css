@@ -3,15 +3,17 @@
  * @module: _boxShadow.scss
  */
 
-@mixin boxShadow($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "shadow-", $modifier,
-    "box-shadow", $value#{$override}
-  )
+@mixin boxShadow($prefix, $pseudo, $class) {
+  @each $modifier, $value in $box-shadow {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "shadow-", $modifier,
+      "box-shadow", $value#{$override}
+    )
+  }
 }
 
-@mixin boxShadowDefault($prefix, $class, $pseudo) {
+@mixin boxShadowDefault($prefix, $pseudo, $class) {
   @include setRuleSingle(
     $prefix, $pseudo, $class,
     "shadow", "",
@@ -19,37 +21,25 @@
   )
 }
 
-/* standalone */
+/* global */
 
-@include boxShadowDefault("", ".", "")
+@include boxShadowDefault("", "", ".")
+@include boxShadow("", "", ".")
 
 /* hover */
 
+@include boxShadowDefault(".hover\\:", ":hover", "")
+@include boxShadow(".hover\\:", ":hover", "")
+
 /* focus */
+
+@include boxShadowDefault(".focus\\:", ":focus", "")
+@include boxShadow(".focus\\:", ":focus", "")
 
 /* active */
 
-@each $modifier, $value in $box-shadow {
+/* responsive */
 
-  /* global */
+// See `_responsive.scss`
 
-  @include boxShadow("", "", ".", $modifier, $value)
-
-  /* hover */
-
-  @include boxShadowDefault(".hover\\:", "", ":hover")
-  @include boxShadow(".hover\\:", ":hover", "", $modifier, $value)
-
-  /* focus */
-
-  @include boxShadowDefault(".focus\\:", "", ":focus")
-  @include boxShadow(".focus\\:", ":focus", "", $modifier, $value)
-
-  /* active */
-
-  /* responsive */
-
-  // See `_responsive.scss`
-
-}
 
