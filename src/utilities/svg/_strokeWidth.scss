@@ -3,28 +3,27 @@
  * @module: _strokeWidth.scss
  */
 
-@mixin strokeWidth($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "stroke-", $modifier,
-    "stroke-width", $value#{$override}
-  )
+@mixin strokeWidth($prefix, $pseudo, $class) {
+  @each $modifier, $value in $stroke-width {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "stroke-", $modifier,
+      "stroke-width", $value#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $stroke-width {
+/* global */
 
-  /* global */
+@include strokeWidth("", "", ".")
 
-  @include strokeWidth("", "", ".", $modifier, $value)
+/* hover */
 
-  /* hover */
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-  /* responsive */
+// See `_responsive.scss`
 
-  // See `_responsive.scss`
-
-}
