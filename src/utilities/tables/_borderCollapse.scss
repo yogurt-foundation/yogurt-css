@@ -3,15 +3,19 @@
  * @module: _borderCollapse.scss
  */
 
-@mixin borderCollapse($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "border-", $modifier,
-    "border-#{$value}", $value#{$override}
-  )
+@mixin borderCollapse($prefix, $pseudo, $class) {
+  @each $modifier, $value in $border-collapse {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "border-", $modifier,
+      "border-#{$value}", $value#{$override}
+    )
+  }
 }
 
-/* standalone */
+/* global */
+
+@include borderCollapse("", "", ".")
 
 /* hover */
 
@@ -19,21 +23,9 @@
 
 /* active */
 
-@each $modifier, $value in $border-collapse {
+/* responsive */
 
-  /* global */
+// See `_responsive.scss`
 
-  @include borderCollapse("", "", ".", $modifier, $value)
 
-  /* hover */
-
-  /* focus */
-
-  /* active */
-
-  /* responsive */
-
-  // See `_responsive.scss`
-
-}
 
