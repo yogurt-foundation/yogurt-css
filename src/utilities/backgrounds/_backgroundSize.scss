@@ -13,16 +13,6 @@
   }
 }
 
-@mixin __backgroundSize($screen, $pseudo) {
-  @each $modifier, $value in $background-size {
-    @include setRuleSingle(
-      ".#{$screen}\\:", $pseudo, "",
-      "bg-", $modifier,
-      "background-size", $value#{$override}
-    )
-  }
-}
-
 /* global */
 
 @include backgroundSize("", "", ".")

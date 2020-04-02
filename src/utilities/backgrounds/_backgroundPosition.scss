@@ -13,16 +13,6 @@
   }
 }
 
-@mixin __backgroundPosition($screen, $pseudo) {
-  @each $modifier, $value in $background-position {
-    @include setRuleSingle(
-      ".#{$screen}\\:", $pseudo, "",
-      "bg-", $modifier,
-      "background-position", $value#{$override}
-    )
-  }
-}
-
 /* global */
 
 @include backgroundPosition("", "", ".")

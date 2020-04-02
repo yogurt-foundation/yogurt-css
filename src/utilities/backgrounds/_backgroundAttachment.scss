@@ -13,16 +13,6 @@
   }
 }
 
-@mixin __backgroundAttachment($screen, $pseudo) {
-  @each $modifier, $value in $background-attachment {
-    @include setRuleSingle(
-      ".#{$screen}\\:", $pseudo, "",
-      "bg-", $modifier,
-      "background-attachment", $value#{$override}
-    )
-  }
-}
-
 /* global */
 
 @include backgroundAttachment("", "", ".")

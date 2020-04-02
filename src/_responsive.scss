@@ -50,13 +50,13 @@
     // @include borderColorTeal(".#{$screen}\\:", "", "")
     // @include borderColorYellow(".#{$screen}\\:", "", "")
 
-    // @include __backgroundAttachment($screen, "")
+    // @include backgroundAttachment(".#{$screen}\\:", "", "")
 
-    // @include __backgroundPosition($screen, "")
+    // @include backgroundPosition(".#{$screen}\\:", "", "")
 
-    // @include __backgroundRepeat($screen, "")
+    // @include backgroundRepeat(".#{$screen}\\:", "", "")
 
-    // @include __backgroundSize($screen, "")
+    @include backgroundSize(".#{$screen}\\:", "", "")
 
     // @include __borderRadiusDefault($screen, "")
     // @include __borderRadius($screen, "")

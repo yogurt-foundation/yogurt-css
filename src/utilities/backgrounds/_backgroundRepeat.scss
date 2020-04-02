@@ -13,16 +13,6 @@
   }
 }
 
-@mixin __backgroundRepeat($screen, $pseudo) {
-  @each $modifier, $value in $background-repeat {
-    @include setRuleSingle(
-      ".#{$screen}\\:", $pseudo, "",
-      "bg-", $modifier,
-      "background-repeat", $value#{$override}
-    )
-  }
-}
-
 /* global */
 
 @include backgroundRepeat("", "", ".")
