@@ -3,30 +3,29 @@
  * @module: _position.scss
  */
 
-@mixin position($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "", $modifier,
-    "position", $value#{$override}
-  )
+@mixin position($prefix, $pseudo, $class) {
+  @each $modifier, $value in $position {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "", $modifier,
+      "position", $value#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $position {
+/* global */
 
-  /* global */
+@include position("", "", ".")
 
-  @include position("", "", ".", $modifier, $value)
+/* hover */
 
-  /* hover */
+@include position(".hover\\:", ":hover", "")
 
-  @include position(".hover\\:", ":hover", "", $modifier, $value)
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-  /* responsive */
+// See `_responsive.scss`
 
-  // See `_responsive.scss`
-
-}

@@ -193,9 +193,7 @@
     // @include overflow-xy(".#{$screen}\\:", "", "")
     // @include overflow-scrolling(".#{$screen}\\:", "", "")
 
-    // @each $modifier, $value in $position {
-    //   @include position(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include position(".#{$screen}\\:", "", "")
 
     // @include visibility(".#{$screen}\\:", "", "")
 
@@ -290,9 +288,7 @@
 
     // @include display(".#{$screen}\\:hover\\:", ":hover", "")
 
-    // @each $modifier, $value in $position {
-    //   @include position(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-    // }
+    // @include position(".#{$screen}\\:hover\\:", ":hover", "")
 
     // @include visibility(".#{$screen}\\:hover\\:", ":hover", "")
 
