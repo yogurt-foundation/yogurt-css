@@ -3,12 +3,14 @@
  * @module: _resize.scss
  */
 
-@mixin resize($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "resize-", $modifier,
-    "resize", $value#{$override}
-  )
+@mixin resize($prefix, $pseudo, $class) {
+  @each $modifier, $value in $resize {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "resize-", $modifier,
+      "resize", $value#{$override}
+    )
+  }
 }
 
 @mixin resizeDefault($prefix, $pseudo, $class) {
@@ -19,9 +21,10 @@
   )
 }
 
-/* standalone */
+/* global */
 
 @include resizeDefault("", "", ".")
+@include resize("", "", ".")
 
 /* hover */
 
@@ -29,20 +32,7 @@
 
 /* active */
 
-@each $modifier, $value in $resize {
+/* responsive */
 
-  /* global */
+// See `_responsive.scss`
 
-  @include resize("", "", ".", $modifier, $value)
-
-  /* hover */
-
-  /* focus */
-
-  /* active */
-
-  /* responsive */
-
-  // See `_responsive.scss`
-
-}

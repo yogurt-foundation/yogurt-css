@@ -134,18 +134,12 @@
 
     // @include outline(".#{$screen}\\:", "", "")
 
-    // @each $modifier, $value in $pointer-events {
-    //   @include pointerEvents(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include pointerEvents(".#{$screen}\\:", "", "")
 
-    // @each $modifier, $value in $resize {
-    //   @include resizeDefault(".#{$screen}\\:", "", "")
-    //   @include resize(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include resizeDefault(".#{$screen}\\:", "", "")
+    // @include resize(".#{$screen}\\:", "", "")
 
-    // @each $modifier, $value in $user-select {
-    //   @include userSelect(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include userSelect(".#{$screen}\\:", "", "")
 
     // @each $modifier, $value in $rotate {
     //   @include rotate(".#{$screen}\\:", "", "", $modifier, $value, "")

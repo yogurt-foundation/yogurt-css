@@ -3,28 +3,29 @@
  * @module: _userSelect.scss
  */
 
-@mixin userSelect($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "select-", $modifier,
-    "user-select", $value#{$override}
-  )
+@mixin userSelect($prefix, $pseudo, $class) {
+  @each $modifier, $value in $user-select {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "select-", $modifier,
+      "user-select", $value#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $user-select {
 
-  /* global */
 
-  @include userSelect("", "", ".", $modifier, $value)
+/* global */
 
-  /* hover */
+@include userSelect("", "", ".")
 
-  /* focus */
+/* hover */
 
-  /* active */
+/* focus */
 
-  /* responsive */
+/* active */
 
-  // See `_responsive.scss`
+/* responsive */
 
-}
+// See `_responsive.scss`
+

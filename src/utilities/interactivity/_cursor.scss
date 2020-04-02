@@ -3,28 +3,27 @@
  * @module: _cursor.scss
  */
 
-@mixin cursor($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "cursor-", $modifier,
-    "cursor", $value#{$override}
-  )
+@mixin cursor($prefix, $pseudo, $class) {
+  @each $modifier, $value in $cursor {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "cursor-", $modifier,
+      "cursor", $value#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $cursor {
+/* global */
 
-  /* global */
+@include cursor("", "", ".")
 
-  @include cursor("", "", ".", $modifier, $value)
+/* hover */
 
-  /* hover */
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-  /* responsive */
+// See `_responsive.scss`
 
-  // See `_responsive.scss`
-
-}

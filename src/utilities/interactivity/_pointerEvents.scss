@@ -3,28 +3,27 @@
  * @module: _pointerEvents.scss
  */
 
-@mixin pointerEvents($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "pointer-events-", $modifier,
-    "pointer-events", $value#{$override}
-  )
+@mixin pointerEvents($prefix, $pseudo, $class) {
+  @each $modifier, $value in $pointer-events {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "pointer-events-", $modifier,
+      "pointer-events", $value#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $pointer-events {
+/* global */
 
-  /* global */
+@include pointerEvents("", "", ".")
 
-  @include pointerEvents("", "", ".", $modifier, $value)
+/* hover */
 
-  /* hover */
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-  /* responsive */
+// See `_responsive.scss`
 
-  // See `_responsive.scss`
-
-}
