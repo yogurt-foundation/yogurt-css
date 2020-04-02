@@ -3,28 +3,27 @@
  * @module: _order.scss
  */
 
-@mixin order($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "order-", $modifier,
-    "order", $value#{$override}
-  )
+@mixin order($prefix, $pseudo, $class) {
+  @each $modifier, $value in $order {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "order-", $modifier,
+      "order", $value#{$override}
+    )
+  }
 }
 
-@each $modifier, $value in $order {
+/* global */
 
-  /* global */
+@include order("", "", ".")
 
-  @include order("", "", ".", $modifier, $value)
+/* hover */
 
-  /* hover */
+/* focus */
 
-  /* focus */
+/* active */
 
-  /* active */
+/* responsive */
 
-  /* responsive */
+// See `_responsive.scss`
 
-  // See `_responsive.scss`
-
-}

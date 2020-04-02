@@ -3,15 +3,19 @@
  * @module: _alignContent.scss
  */
 
-@mixin alignContent($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "content-", $modifier,
-    "align-content", $value#{$override}
-  )
+@mixin alignContent($prefix, $pseudo, $class) {
+  @each $modifier, $value in $align-content {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "content-", $modifier,
+      "align-content", $value#{$override}
+    )
+  }
 }
 
-/* standalone */
+/* global */
+
+@include alignContent("", "", ".")
 
 /* hover */
 
@@ -19,20 +23,7 @@
 
 /* active */
 
-@each $modifier, $value in $align-content {
+/* responsive */
 
-  /* global */
+// See `_responsive.scss`
 
-  @include alignContent("", "", ".", $modifier, $value)
-
-  /* hover */
-
-  /* focus */
-
-  /* active */
-
-  /* responsive */
-
-  // See `_responsive.scss`
-
-}

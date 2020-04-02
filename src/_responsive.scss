@@ -89,43 +89,18 @@
     //   @include width(".#{$screen}\\:", "", "", $modifier, $value)
     // }
 
-    // @each $modifier, $value in $align-content {
-    //   @include alignContent(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $align-items {
-    //   @include alignItems(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $align-self {
-    //   @include alignSelf(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $flex {
-    //   @include flex(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $flex-direction {
-    //   @include flexDirection(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
+    // @include alignContent(".#{$screen}\\:", "", "")
+    // @include alignItems(".#{$screen}\\:", "", "")
+    // @include alignSelf(".#{$screen}\\:", "", "")
+    // @include flex(".#{$screen}\\:", "", "")
+    // @include flexDirection(".#{$screen}\\:", "", "")
     // @include flexGrowDefault(".#{$screen}\\:", "")
     // @include flexGrow(".#{$screen}\\:", "", "")
-
     // @include flexShrinkDefault(".#{$screen}\\:", "")
     // @include flexShrink(".#{$screen}\\:", "", "")
-
-    // @each $modifier, $value in $flex-wrap {
-    //   @include flexWrap(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $justify-content {
-    //   @include justifyContent(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
-
-    // @each $modifier, $value in $order {
-    //   @include order(".#{$screen}\\:", "", "", $modifier, $value)
-    // }
+    // @include flexWrap(".#{$screen}\\:", "", "")
+    // @include justifyContent(".#{$screen}\\:", "", "")
+    // @include order(".#{$screen}\\:", "", "")
 
     // @include outline(".#{$screen}\\:", "", "")
 
@@ -237,9 +212,7 @@
     //   @include width(".#{$screen}\\:hover\\:", "", "", $modifier, $value)
     // }
 
-    // @each $modifier, $value in $flex-direction {
-    //   @include flexDirection(".#{$screen}\\:hover\\:", ":hover", "", $modifier, $value)
-    // }
+    // @include flexDirection(".#{$screen}\\:hover\\:", ":hover", "")
 
     // @include rotate(".#{$screen}\\:hover\\:", ":hover", "", "")
     // @include rotate(".#{$screen}\\:hover\\:", ":hover", "", "-") // negative

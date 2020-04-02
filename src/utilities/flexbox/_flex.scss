@@ -3,15 +3,19 @@
  * @module: _flex.scss
  */
 
-@mixin flex($prefix, $pseudo, $class, $modifier, $value) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "flex-", $modifier,
-    "flex", $value#{$override}
-  )
+@mixin flex($prefix, $pseudo, $class) {
+  @each $modifier, $value in $flex {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "flex-", $modifier,
+      "flex", $value#{$override}
+    )
+  }
 }
 
-/* standalone */
+/* global */
+
+@include flex("", "", ".")
 
 /* hover */
 
@@ -19,20 +23,6 @@
 
 /* active */
 
-@each $modifier, $value in $flex {
+/* responsive */
 
-  /* global */
-
-  @include flex("", "", ".", $modifier, $value)
-
-  /* hover */
-
-  /* focus */
-
-  /* active */
-
-  /* responsive */
-
-  // See `_responsive.scss`
-
-}
+// See `_responsive.scss`
