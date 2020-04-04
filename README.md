@@ -18,7 +18,7 @@
   <img src="https://badgen.net/github/license/yogurt-foundation/yogurt-css">
 </p>
 
-# yogurt-css (1.0.2)
+# yogurt v1.0.2-solidcore
 
 > A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level without writing a single line of CSS.
 
