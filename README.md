@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="assets/promo.jpg" height="auto" width="auto">
+  <img src="assets/promo_2.jpg" height="auto" width="auto">
 </p>
 
 <p align="center">
