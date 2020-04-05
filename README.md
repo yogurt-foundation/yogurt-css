@@ -22,39 +22,19 @@
 
 > A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level without writing a single line of CSS.
 
-> (!!) Documentation is in progress.
+**Yogurt CSS** using the humanized naming convention such as `font-size`, `padding`, `margin`, `line-height`, `color`, and so on, easy to reason about, easy to manipulate and more readable code. **Yogurt CSS** also delivers a balance between consistency and flexibility design without overwriting existing stylesheets and unlike other frameworks. Play well with your CSS, library, and frameworks. No side effects. Support up to 4k screen size enabled by default.
 
-This UI toolkit allows to manipulate the humanized naming convention such as `font-size`, `padding`, `margin`, `line-height`, `color`, and so on, easy to reason about and more readble code. Deliver a balance between consistency and flexibility design. Play well with your CSS, library and frameworks. No side effects. Support up to 4k screen size enabled by default.
+### _concept
 
-### _abstract
+The `margin`, `padding`, `font-size` and so on are considered utility components. Using the human-friendly CSS class naming (e.g. `border-` instead of `b-`) combines with values makes perfect sense to mix among the utilities to form a complex styling. The value is usually linear changing the properties of a utility in a very precise manipulation, which gives you low-level control over this framework. Almost all utilities can be configured with the responsive option, by combining the screen size `prefix` with a utility (e.g. `sm:text-md`, the text size in `md` value only activate on screen size `sm` as in screen width 640px).
 
-In this concept, the `margin`, `padding`, `font-size` and so on are considered as `utility` components. Using the `prefix` naming (e.g. `border` as `border-width` in CSS property) combines with preset `value` (or `strength` value) makes perfect sense to mix among the utilities to form a complex styling with CSS. The `value` or `strength` value giving linear options changing the properties of a utility either in an analog or stepping manipulation, which gives you a `low-level` control over this framework. The `Sass` being used on this concept is acting like a compiler generating distributable asset (e.g. /dist/yogurt.css).
-
-### _build
-
-```bash
-$ git clone https://github.com/yogurt-foundation/yogurt-css.git
-$ cd yogurt-css
-$ yarn install
-$ yarn build
-```
-
-### _usage
-
-```html
-<head>
-  ...
-    <link rel="stylesheet" href="dist/yogurt.css">
-  ...
-</head>
-```
+### _support
 
 > (!!) Documentation is in progress.
-
 
 ### _companion
 
-introducting the new pre-made extensions,
+introducing new pre-made effects,
 
 - [FX-Motion](https://github.com/yogurt-foundation/fx-motion), CSS animation library, total 187 effects.
 - [FX-Filter](https://github.com/yogurt-foundation/fx-filter), CSS filter library, total 26 effects [(previewer)](https://fx-filter-previewer.netlify.com/).
