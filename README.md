@@ -34,6 +34,8 @@ The `margin`, `padding`, `font-size` and so on are considered utility components
 
 > (!!) Documentation is in progress.
 
+[Read the documentation](https://yogurt-css-documentation.netlify.com)
+
 ### _companion
 
 introducing new pre-made effects,
