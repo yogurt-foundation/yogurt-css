@@ -3,7 +3,7 @@
   <img src="assets/promo_2.jpg" height="auto" width="auto">
 </p>
 
-<p align="center">
+<p align="left">
   <img src="https://badgen.net/github/release/yogurt-foundation/yogurt-css">
   <img src="https://badgen.net/github/releases/yogurt-foundation/yogurt-css">
   <img src="https://badgen.net/github/assets-dl/yogurt-foundation/yogurt-css">
@@ -18,9 +18,11 @@
   <img src="https://badgen.net/github/license/yogurt-foundation/yogurt-css">
 </p>
 
-# yogurt v1.0.2-solidcore
-
 > A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level without writing a single line of CSS.
+
+> Version 1.0.2-solidcore, 05 April 2020
+
+> The `SOLID CORE` means the next major Yogurt CSS update is depending on any major release of the CSS version. It also means you will less frequently updating the framework for your frontend development. Which makes this utility framework a futureproof.
 
 **Yogurt CSS** using the humanized naming convention such as `font-size`, `padding`, `margin`, `line-height`, `color`, and so on, easy to reason about, easy to manipulate and more readable code. **Yogurt CSS** also delivers a balance between consistency and flexibility design without overwriting existing stylesheets and unlike other frameworks. Play well with your CSS, library, and frameworks. No side effects. Support up to 4k screen size enabled by default.
 
