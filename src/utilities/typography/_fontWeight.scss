@@ -17,6 +17,8 @@
 
 @include fontWeight("", "", ".")
 
+/* Variants */
+
 // hover
 
 @include fontWeight(".hover\\:", ":hover", "")
@@ -26,6 +28,10 @@
 @include fontWeight(".focus\\:", ":focus", "")
 
 // active
+
+// visited
+
+// disabled
 
 // responsive (see `_responsive.scss`)
 

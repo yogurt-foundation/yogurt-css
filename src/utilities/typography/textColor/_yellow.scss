@@ -14,6 +14,8 @@
 
 @include textColorYellow("", "", ".")
 
+/* Variants */
+
 // hover
 
 @include textColorYellow(".hover\\:", ":hover", "")
@@ -24,8 +26,8 @@
 
 // focus
 
-// @include textColorYellow(".focus\\:", ":focus", "")
-
 // active
 
-// @include textColorYellow(".active\\:", ":active", "")
+// visited
+
+// disabled

@@ -17,6 +17,8 @@
 
 @include fontSize("", "", ".")
 
+/* Variants */
+
 // hover
 
 @include fontSize(".hover\\:", ":hover", "")
@@ -24,6 +26,10 @@
 // focus
 
 // active
+
+// visited
+
+// disabled
 
 // responsive (see `_responsive.scss`)
 

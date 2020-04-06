@@ -19,6 +19,7 @@
     @include textColorPink(".#{$screen}\\:", "", "")
     @include textColorPurple(".#{$screen}\\:", "", "")
     @include textColorRed(".#{$screen}\\:", "", "")
+    @include textColorSpecial(".#{$screen}\\:", "", "")
     @include textColorTeal(".#{$screen}\\:", "", "")
     @include textColorYellow(".#{$screen}\\:", "", "")
 

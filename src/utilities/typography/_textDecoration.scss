@@ -19,6 +19,8 @@
 
 @include textDecoration("", "", ".")
 
+/* Variants */
+
 // hover
 
 @include textDecoration(".hover\\:", ":hover", "")
@@ -32,5 +34,9 @@
 @include textDecoration(".focus\\:", ":focus", "")
 
 // active
+
+// visited
+
+// disabled
 
 // responsive (see `_responsive.scss`)

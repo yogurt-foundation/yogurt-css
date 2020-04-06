@@ -14,6 +14,8 @@
 
 @include textColorCharcoal("", "", ".")
 
+/* Variants */
+
 // hover
 
 @include textColorCharcoal(".hover\\:", ":hover", "")
@@ -24,8 +26,8 @@
 
 // focus
 
-// @include textColorCharcoal(".focus\\:", ":focus", "")
-
 // active
 
-// @include textColorCharcoal(".active\\:", ":active", "")
+// visited
+
+// disabled

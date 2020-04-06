@@ -14,6 +14,8 @@
 
 @include placeholderColorPink("", "", ".")
 
+/* Variants */
+
 // hover
 
 // focus
@@ -21,4 +23,8 @@
 @include placeholderColorPink(".focus\\:", ":focus", "")
 
 // active
+
+// visited
+
+// disabled
 
