@@ -7,7 +7,7 @@
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
 
-    /* global */
+    /* Default */
 
     @include textColorBlack(".#{$screen}\\:", "", "")
     @include textColorBlue(".#{$screen}\\:", "", "")
@@ -135,7 +135,9 @@
     @include whitespace(".#{$screen}\\:", "", "")
     @include wordBreak(".#{$screen}\\:", "", "")
 
-    /* hover */
+    /* Variants */
+
+    // hover
 
     @include backgroundAttachment(".#{$screen}\\:hover\\:", ":hover", "")
 
@@ -163,14 +165,18 @@
     @include fontWeight(".#{$screen}\\:hover\\:", ":hover", "")
     @include textDecoration(".#{$screen}\\:hover\\:", ":hover", "")
 
-    /* focus */
+    // focus
 
     @include outline(".#{$screen}\\:focus\\:", ":focus", "")
 
     @include fontWeight(".#{$screen}\\:focus\\:", ":focus", "")
     @include textDecoration(".#{$screen}\\:focus\\:", ":focus", "")
 
-    /* active */
+    // active
+
+    // visited
+
+    // disabled
 
   }
 }
