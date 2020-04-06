@@ -17,6 +17,8 @@
 
 @include display("", "", ".")
 
+/* Variants*/
+
 // hover
 
 @include display(".hover\\:", ":hover", "")
@@ -28,6 +30,10 @@
 // focus
 
 // active
+
+// visited
+
+// disabled
 
 // responsive (see `_responsive.scss`)
 
