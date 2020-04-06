@@ -17,6 +17,8 @@
 
 @include height("", "", ".")
 
+/* Variants */
+
 // hover
 
 @include height(".hover\\:", ":hover", "")
@@ -24,5 +26,9 @@
 // focus
 
 // active
+
+// visited
+
+// disabled
 
 // responsive (see `_responsive.scss`)
