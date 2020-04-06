@@ -14,6 +14,8 @@
 
 @include borderColorBlue("", "", ".")
 
+/* Variants */
+
 // hover
 
 @include borderColorBlue(".hover\\:", ":hover", "")
@@ -26,6 +28,8 @@
 
 // active
 
-/* responsive */
+// visited
 
-// See `_responsive.scss`
+// disabled
+
+// responsive (see `_responsive.scss`)
