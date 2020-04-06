@@ -5,20 +5,20 @@
 /* rules */
 
 @mixin setRuleSingle($prefix, $pseudo, $class, $selector, $modifier, $property, $value) {
-  #{$prefix}#{$class}#{$selector}#{$modifier}#{$pseudo} {
+  #{$prefix}#{$class}#{$id}#{$selector}#{$modifier}#{$pseudo} {
     #{$property}: #{$value}
   }
 }
 
 @mixin setRuleDouble($prefix, $pseudo, $class, $selector, $modifier, $property1, $property2, $value) {
-  #{$prefix}#{$class}#{$selector}#{$modifier}#{$pseudo} {
+  #{$prefix}#{$class}#{$id}#{$selector}#{$modifier}#{$pseudo} {
     #{$property1}: #{$value};
     #{$property2}: #{$value}
   }
 }
 
 @mixin setRuleQuad($prefix, $pseudo, $class, $selector, $modifier, $property1, $property2, $property3, $property4, $value) {
-  #{$prefix}#{$class}#{$selector}#{$modifier}#{$pseudo} {
+  #{$prefix}#{$class}#{$id}#{$selector}#{$modifier}#{$pseudo} {
     #{$property1}: #{$value};
     #{$property2}: #{$value};
     #{$property3}: #{$value};
@@ -29,42 +29,40 @@
 /* colors */
 
 @mixin textColor($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
-  #{$prefix}#{$class}text-#{$color}-#{$strength}#{$pseudo} {
+  #{$prefix}#{$class}#{$id}text-#{$color}-#{$strength}#{$pseudo} {
     color: #{$hex}#{$override}
   }
 }
 
 @mixin backgroundColor($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
-  #{$prefix}#{$class}bg-#{$color}-#{$strength}#{$pseudo} {
+  #{$prefix}#{$class}#{$id}bg-#{$color}-#{$strength}#{$pseudo} {
     background-color: #{$hex}#{$override}
   }
 }
 
 @mixin borderColor($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
-  #{$prefix}#{$class}border-#{$color}-#{$strength}#{$pseudo} {
+  #{$prefix}#{$class}#{$id}border-#{$color}-#{$strength}#{$pseudo} {
     border-color: #{$hex}#{$override}
   }
 }
 
 @mixin shadowColor($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
   @each $size, $radius in $shadow-color {
-    #{$prefix}#{$class}shadow-#{$size}-#{$color}-#{$strength}#{$pseudo} {
+    #{$prefix}#{$class}#{$id}shadow-#{$size}-#{$color}-#{$strength}#{$pseudo} {
       box-shadow: 0 0 #{$radius} #{$hex}#{$override}
      }
    }
 }
 
 @mixin placeholderColor($prefix, $pseudo, $class, $color, $strength, $hex, $radius) {
-  #{$prefix}#{$class}placeholder-#{$color}-#{$strength}:-ms-input-placeholder#{$pseudo} {
+  #{$prefix}#{$class}#{$id}placeholder-#{$color}-#{$strength}:-ms-input-placeholder#{$pseudo} {
     color: #{$hex}#{$override}
   }
-  #{$prefix}#{$class}placeholder-#{$color}-#{$strength}::-ms-input-placeholder#{$pseudo} {
+  #{$prefix}#{$class}#{$id}placeholder-#{$color}-#{$strength}::-ms-input-placeholder#{$pseudo} {
     color: #{$hex}#{$override}
   }
-  #{$prefix}#{$class}placeholder-#{$color}-#{$strength}::placeholder#{$pseudo} {
+  #{$prefix}#{$class}#{$id}placeholder-#{$color}-#{$strength}::placeholder#{$pseudo} {
     color: #{$hex}#{$override}
   }
 }
-
-/* utility */
 

@@ -14,7 +14,7 @@
 }
 
 @mixin floatDefault($prefix, $class) {
-  #{$prefix}#{$class}clearfix:after {
+  #{$prefix}#{$class}#{$id}clearfix:after {
     content: ""#{$override};
     display: table#{$override};
     clear: both#{$override}

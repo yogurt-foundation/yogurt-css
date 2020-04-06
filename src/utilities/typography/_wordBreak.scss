@@ -4,17 +4,17 @@
  */
 
 @mixin wordBreak($prefix, $pseudo, $class) {
-  #{$prefix}#{$class}break-normal#{$pseudo} {
+  #{$prefix}#{$class}#{$id}break-normal#{$pseudo} {
     overflow-wrap: normal#{$override};
     word-break: normal#{$override}
   }
-  #{$prefix}#{$class}break-words#{$pseudo} {
+  #{$prefix}#{$class}#{$id}break-words#{$pseudo} {
     overflow-wrap: break-word#{$override}
   }
-  #{$prefix}#{$class}break-all#{$pseudo} {
+  #{$prefix}#{$class}#{$id}break-all#{$pseudo} {
     word-break: all#{$override}
   }
-  #{$prefix}#{$class}truncate#{$pseudo} {
+  #{$prefix}#{$class}#{$id}truncate#{$pseudo} {
     overflow: hidden#{$override};
     text-overflow: ellipsis#{$override};
     white-space: nowrap#{$override}

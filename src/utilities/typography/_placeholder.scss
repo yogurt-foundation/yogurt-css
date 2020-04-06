@@ -4,13 +4,13 @@
  */
 
 @mixin placeholder() {
-  .placeholder-transparent:-ms-input-placeholder {
+  .#{$id}placeholder-transparent:-ms-input-placeholder {
     color: transparent
   }
-  .placeholder-transparent::-ms-input-placeholder {
+  .#{$id}placeholder-transparent::-ms-input-placeholder {
     color: transparent
   }
-  .placeholder-transparent::placeholder {
+  .#{$id}placeholder-transparent::placeholder {
     color: transparent
   }
 }

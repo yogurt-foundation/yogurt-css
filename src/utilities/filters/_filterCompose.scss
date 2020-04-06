@@ -7,7 +7,7 @@
   @each $modifier1, $value1 in $filter-brightness {
     @each $modifier2, $value2 in $filter-contrast {
       @each $modifier3, $value3 in $filter-saturate {
-        #{$class}brightness-#{$modifier1}#{$class}contrast-#{$modifier2}#{$class}saturate-#{$modifier3} {
+        #{$class}#{$id}brightness-#{$modifier1}#{$class}#{$id}contrast-#{$modifier2}#{$class}#{$id}saturate-#{$modifier3} {
           filter: brightness(#{$value1}) contrast(#{$value3}) saturate(#{$value2})
         }
       }

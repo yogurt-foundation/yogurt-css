@@ -4,16 +4,16 @@
  */
 
 @mixin textTransform($prefix, $pseudo, $class) {
-  #{$prefix}#{$class}uppercase#{$pseudo} {
+  #{$prefix}#{$class}#{$id}uppercase#{$pseudo} {
     text-transform: uppercase#{$override}
   }
-  #{$prefix}#{$class}lowercase#{$pseudo} {
+  #{$prefix}#{$class}#{$id}lowercase#{$pseudo} {
     text-transform: lowercase#{$override}
   }
-  #{$prefix}#{$class}capitalize#{$pseudo} {
+  #{$prefix}#{$class}#{$id}capitalize#{$pseudo} {
     text-transform: capitalize#{$override}
   }
-  #{$prefix}#{$class}normal-case#{$pseudo} {
+  #{$prefix}#{$class}#{$id}normal-case#{$pseudo} {
     text-transform: none#{$override}
   }
 }

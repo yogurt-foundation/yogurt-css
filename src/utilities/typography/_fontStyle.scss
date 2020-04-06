@@ -4,10 +4,10 @@
  */
 
 @mixin fontStyle($prefix, $class) {
-  #{$prefix}#{$class}italic {
+  #{$prefix}#{$class}#{$id}italic {
     font-style: italic#{$override};
   }
-  #{$prefix}#{$class}not-italic {
+  #{$prefix}#{$class}#{$id}not-italic {
     font-style: normal#{$override};
   }
 }
