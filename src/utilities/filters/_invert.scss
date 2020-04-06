@@ -1,0 +1,34 @@
+/**
+ * @utility: filters
+ * @module: _invert.scss
+ */
+
+@mixin filterInvert($prefix, $pseudo, $class) {
+  @each $modifier, $value in $filter-invert {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "invert-", $modifier,
+      "filter", "invert(#{$value})#{$override}"
+    )
+  }
+}
+
+/* Default */
+
+@include filterInvert("", "", ".")
+
+/* Variants */
+
+// hover
+
+// focus
+
+// active
+
+// visited
+
+// disabled
+
+// responsive (see `_responsive.scss`)
+
+

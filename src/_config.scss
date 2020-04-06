@@ -1,5 +1,5 @@
 /**
- * @module: _constants.scss
+ * @module: _config.scss
  */
 
 $of: \/; // escaping `forward-slash`
@@ -886,5 +886,5 @@ $filter-blur:
 /* filter (invert) */
 
 $filter-invert:
-  (normal, 0),
-  (true, 1.0);
+  (0, 0),
+  (1, 1.0);

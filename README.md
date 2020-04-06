@@ -20,11 +20,11 @@
 
 > A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level without writing a single line of CSS.
 
-> Version 1.0.2-solidcore, 05 April 2020
+> Version 1.0.3-solidcore, 07 April 2020
 
 > The `SOLID CORE` means the next major Yogurt CSS update is depending on any major release of the CSS version. It also means you will less frequently updating the framework for your frontend development. Which makes this utility framework a futureproof.
 
-**Yogurt CSS** using the humanized naming convention such as `font-size`, `padding`, `margin`, `line-height`, `color`, and so on, easy to reason about, easy to manipulate and more readable code. **Yogurt CSS** also delivers a balance between consistency and flexibility design without overwriting existing stylesheets and unlike other frameworks. Play well with your CSS, library, and frameworks. No side effects. Support up to 4k screen size enabled by default.
+**Yogurt CSS** using the humanized naming convention such as `font-size`, `padding`, `margin`, `line-height`, `color`, and so on, easy to reason about, easy to manipulate and more readable code. Yogurt CSS also delivers a balance between consistency and flexibility design without overwriting existing stylesheets and unlike other frameworks. Play well with your CSS, library, and frameworks. No side effects. Support up to 4k screen size enabled by default.
 
 ### _concept
 

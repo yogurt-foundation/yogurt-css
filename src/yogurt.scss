@@ -12,9 +12,9 @@
 
 @import 'reset'; // normalize.css v8.0.1
 
-/*! yogurt.css v1.0.2-stable | MIT License | github.com/yogurt-foundation/yogurt-css */
+/*! yogurt.css v1.0.3-stable | MIT License | github.com/yogurt-foundation/yogurt-css */
 
-@import 'constants';
+@import 'config';
 @import 'mixin';
 
 /* layout */
@@ -139,9 +139,10 @@
 /* filters */
 
 // @import 'utilities/filters/filterCompose'; // optional
+@import 'utilities/filters/invert'; // optional (v1.0.3)
 
 /* responsive */
 
 @import 'responsive'
 
-/*! yogurt.css v1.0.2-stable | MIT License | github.com/yogurt-foundation/yogurt-css */
+/*! yogurt.css v1.0.3-stable | MIT License | github.com/yogurt-foundation/yogurt-css */
