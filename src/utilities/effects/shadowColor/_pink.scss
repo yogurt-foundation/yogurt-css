@@ -10,17 +10,17 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include shadowColorPink("", "", ".")
 
-/* hover */
+// hover
 
 @include shadowColorPink(".hover\\:", ":hover", "")
 
-/* focus */
+// focus
 
-/* active */
+// active
 
 /* responsive */
 

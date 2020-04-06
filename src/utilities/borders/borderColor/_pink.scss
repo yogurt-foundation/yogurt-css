@@ -10,21 +10,21 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include borderColorPink("", "", ".")
 
-/* hover */
+// hover
 
 @include borderColorPink(".hover\\:", ":hover", "")
 
-/* group hover */
+// group hover
 
 @include borderColorPink(".group:hover .group-hover\\:", "", "")
 
-/* focus */
+// focus
 
-/* active */
+// active
 
 /* responsive */
 

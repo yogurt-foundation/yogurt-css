@@ -10,24 +10,29 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include backgroundColorCharcoal("", "", ".")
 
-/* hover */
+/* Variants */
+
+// hover
 
 @include backgroundColorCharcoal(".hover\\:", ":hover", "")
 
-/* group hover */
+// group hover
 
 @include backgroundColorCharcoal(".group:hover .group-hover\\:", "", "")
 
-/* focus */
+// focus
 
 @include backgroundColorCharcoal(".focus\\:", ":focus", "")
 
-/* active */
+// active
 
-/* responsive */
+// visited
 
+// disabled
+
+// responsive
 // See `_responsive.scss`

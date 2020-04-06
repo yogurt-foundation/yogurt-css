@@ -10,18 +10,18 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include shadowColorGray("", "", ".")
 
 
-/* hover */
+// hover
 
 @include shadowColorGray(".hover\\:", ":hover", "")
 
-/* focus */
+// focus
 
-/* active */
+// active
 
 /* responsive */
 

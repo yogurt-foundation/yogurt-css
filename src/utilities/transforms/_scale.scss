@@ -23,17 +23,17 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include scale("", "", ".")
 
-/* hover */
+// hover
 
 @include scale(".hover\\:", ":hover", "")
 
-/* focus */
+// focus
 
-/* active */
+// active
 
 /* responsive */
 

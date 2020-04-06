@@ -13,19 +13,19 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include rotate("", "", ".", "")
 @include rotate("", "", ".", "-") // negative
 
-/* hover */
+// hover
 
 @include rotate(".hover\\:", ":hover", "", "")
 @include rotate(".hover\\:", ":hover", "", "-") // negative
 
-/* focus */
+// focus
 
-/* active */
+// active
 
 /* responsive */
 

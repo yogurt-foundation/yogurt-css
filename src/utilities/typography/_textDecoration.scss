@@ -15,23 +15,23 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include textDecoration("", "", ".")
 
-/* hover */
+// hover
 
 @include textDecoration(".hover\\:", ":hover", "")
 
-/* group hover */
+// group hover
 
 @include textDecoration(".group:hover .group-hover\\:", "", "")
 
-/* focus */
+// focus
 
 @include textDecoration(".focus\\:", ":focus", "")
 
-/* active */
+// active
 
 /* responsive */
 

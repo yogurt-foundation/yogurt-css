@@ -10,17 +10,17 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include shadowColorPurple("", "", ".")
 
-/* hover */
+// hover
 
 @include shadowColorPurple(".hover\\:", ":hover", "")
 
-/* focus */
+// focus
 
-/* active */
+// active
 
 /* responsive */
 

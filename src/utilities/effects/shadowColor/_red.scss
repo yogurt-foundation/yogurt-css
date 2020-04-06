@@ -10,17 +10,17 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include shadowColorRed("", "", ".")
 
-/* hover */
+// hover
 
 @include shadowColorRed(".hover\\:", ":hover", "")
 
-/* focus */
+// focus
 
-/* active */
+// active
 
 /* responsive */
 

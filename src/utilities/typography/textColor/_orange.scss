@@ -10,22 +10,22 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include textColorOrange("", "", ".")
 
-/* hover */
+// hover
 
 @include textColorOrange(".hover\\:", ":hover", "")
 
-/* group hover */
+// group hover
 
 @include textColorOrange(".group:hover .group-hover\\:", "", "")
 
-/* focus */
+// focus
 
 // @include textColorOrange(".focus\\:", ":focus", "")
 
-/* active */
+// active
 
 // @include textColorOrange(".active\\:", ":active", "")

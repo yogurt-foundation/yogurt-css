@@ -10,17 +10,17 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include shadowColorIndigo("", "", ".")
 
-/* hover */
+// hover
 
 @include shadowColorIndigo(".hover\\:", ":hover", "")
 
-/* focus */
+// focus
 
-/* active */
+// active
 
 /* responsive */
 

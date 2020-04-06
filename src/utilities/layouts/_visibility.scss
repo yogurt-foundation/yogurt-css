@@ -16,21 +16,21 @@
   )
 }
 
-/* global */
+/* Default */
 
 @include visibility("", "", ".")
 
-/* hover */
+// hover
 
 @include visibility(".hover\\:", ":hover", "")
 
-/* group hover */
+// group hover
 
 @include visibility(".group:hover .group-hover\\:", "", "")
 
-/* focus */
+// focus
 
-/* active */
+// active
 
 /* responsive */
 

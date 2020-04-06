@@ -10,21 +10,21 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include borderColorIndigo("", "", ".")
 
-/* hover */
+// hover
 
 @include borderColorIndigo(".hover\\:", ":hover", "")
 
-/* group hover */
+// group hover
 
 @include borderColorIndigo(".group:hover .group-hover\\:", "", "")
 
-/* focus */
+// focus
 
-/* active */
+// active
 
 /* responsive */
 

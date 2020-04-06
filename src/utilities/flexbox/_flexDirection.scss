@@ -13,17 +13,17 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include flexDirection("", "", ".")
 
-/* hover */
+// hover
 
 @include flexDirection(".hover\\:", ":hover", "")
 
-/* focus */
+// focus
 
-/* active */
+// active
 
 /* responsive */
 

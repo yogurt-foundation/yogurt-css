@@ -10,15 +10,15 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include placeholderColorPink("", "", ".")
 
-/* hover */
+// hover
 
-/* focus */
+// focus
 
 @include placeholderColorPink(".focus\\:", ":focus", "")
 
-/* active */
+// active
 

@@ -10,22 +10,22 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include textColorPurple("", "", ".")
 
-/* hover */
+// hover
 
 @include textColorPurple(".hover\\:", ":hover", "")
 
-/* group hover */
+// group hover
 
 @include textColorPurple(".group:hover .group-hover\\:", "", "")
 
-/* focus */
+// focus
 
 // @include textColorPurple(".focus\\:", ":focus", "")
 
-/* active */
+// active
 
 // @include textColorPurple(".active\\:", ":active", "")

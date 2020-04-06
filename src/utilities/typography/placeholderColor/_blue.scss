@@ -10,14 +10,14 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include placeholderColorBlue("", "", ".")
 
-/* hover */
+// hover
 
-/* focus */
+// focus
 
 @include placeholderColorBlue(".focus\\:", ":hover", "")
 
-/* active */
+// active

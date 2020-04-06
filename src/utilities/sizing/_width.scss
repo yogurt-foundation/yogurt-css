@@ -13,17 +13,17 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include width("", "", ".")
 
-/* hover */
+// hover
 
 @include width(".hover\\:", ":hover", "")
 
-/* focus */
+// focus
 
-/* active */
+// active
 
 /* responsive */
 

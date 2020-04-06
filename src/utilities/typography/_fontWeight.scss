@@ -13,19 +13,19 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include fontWeight("", "", ".")
 
-/* hover */
+// hover
 
 @include fontWeight(".hover\\:", ":hover", "")
 
-/* focus */
+// focus
 
 @include fontWeight(".focus\\:", ":focus", "")
 
-/* active */
+// active
 
 /* responsive */
 

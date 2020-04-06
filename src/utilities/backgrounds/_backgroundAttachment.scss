@@ -13,19 +13,24 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include backgroundAttachment("", "", ".")
 
-/* hover */
+/* Variants */
+
+// hover
 
 @include backgroundAttachment(".hover\\:", ":hover", "")
 
-/* focus */
+// focus
 
-/* active */
+// active
+
+// visited
+
+// disabled
 
 /* responsive */
-
 // See `_responsive.scss`
 

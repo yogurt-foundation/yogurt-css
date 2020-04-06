@@ -13,17 +13,17 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include fontSize("", "", ".")
 
-/* hover */
+// hover
 
 @include fontSize(".hover\\:", ":hover", "")
 
-/* focus */
+// focus
 
-/* active */
+// active
 
 /* responsive */
 

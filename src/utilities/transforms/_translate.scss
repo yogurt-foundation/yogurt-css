@@ -18,19 +18,19 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include translate("", "", ".", "")
 @include translate("", "", ".", "-") // negative
 
-/* hover */
+// hover
 
 @include translate(".hover\\:", ":hover", "", "")
 @include translate(".hover\\:", ":hover", "", "-") // negative
 
-/* focus */
+// focus
 
-/* active */
+// active
 
 /* responsive */
 

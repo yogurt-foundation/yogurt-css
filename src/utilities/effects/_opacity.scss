@@ -13,17 +13,17 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include opacity("", "", ".")
 
-/* hover */
+// hover
 
 @include opacity(".hover\\:", ":hover", "")
 
-/* focus */
+// focus
 
-/* active */
+// active
 
 /* responsive */
 

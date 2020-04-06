@@ -10,15 +10,15 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include placeholderColorIndigo("", "", ".")
 
-/* hover */
+// hover
 
-/* focus */
+// focus
 
 @include placeholderColorIndigo(".focus\\:", ":hover", "")
 
-/* active */
+// active
 

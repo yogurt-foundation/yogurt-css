@@ -11,22 +11,27 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include backgroundColorSpecial("", "", ".")
 
-/* hover */
+/* Variants */
+
+// hover
 
 @include backgroundColorSpecial(".hover\\:", ":hover", "")
 
-/* group hover */
+// group hover
 
 @include backgroundColorSpecial(".group:hover .group-hover\\:", "", "")
 
-/* focus */
+// focus
 
-/* active */
+// active
 
-/* responsive */
+// visited
 
+// disabled
+
+// responsive
 // See `_responsive.scss`

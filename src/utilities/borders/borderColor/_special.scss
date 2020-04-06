@@ -11,21 +11,21 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include borderColorSpecial("", "", ".")
 
-/* hover */
+// hover
 
 @include borderColorSpecial(".hover\\:", ":hover", "")
 
-/* group hover */
+// group hover
 
 @include borderColorSpecial(".group:hover .group-hover\\:", "", "")
 
-/* focus */
+// focus
 
-/* active */
+// active
 
 /* responsive */
 

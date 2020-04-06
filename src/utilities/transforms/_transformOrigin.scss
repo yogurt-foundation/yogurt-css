@@ -13,17 +13,17 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include transformOrigin("", "", ".")
 
-/* hover */
+// hover
 
 @include transformOrigin(".hover\\:", ":hover", "")
 
-/* focus */
+// focus
 
-/* active */
+// active
 
 /* responsive */
 

@@ -11,23 +11,23 @@
 
 @each $modifier, $value in $special-colors {
 
-  /* global */
+  /* Default */
 
   @include textColorSpecial("", "", ".", $modifier, $value)
 
-  /* hover */
+  // hover
 
   @include textColorSpecial(".hover\\:", ":hover", "", $modifier, $value)
 
-  /* group hover */
+  // group hover
 
   @include textColorSpecial(".group:hover .group-hover\\:", "", "", $modifier, $value)
 
-  /* focus */
+  // focus
 
   // @include textColorSpecial(".focus\\:", ":focus", "", $modifier, $value)
 
-  /* active */
+  // active
 
   // @include textColorSpecial(".active\\:", ":active", "", $modifier, $value)
 

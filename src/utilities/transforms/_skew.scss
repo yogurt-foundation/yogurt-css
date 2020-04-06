@@ -18,19 +18,19 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include skew("", "", ".", "")
 @include skew("", "", ".", "-") // negative
 
-/* hover */
+// hover
 
 @include skew(".hover\\:", ":hover", "", "")
 @include skew(".hover\\:", ":hover", "", "-") // negative
 
-/* focus */
+// focus
 
-/* active */
+// active
 
 /* responsive */
 

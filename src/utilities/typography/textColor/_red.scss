@@ -10,22 +10,22 @@
   }
 }
 
-/* global */
+/* Default */
 
 @include textColorRed("", "", ".")
 
-/* hover */
+// hover
 
 @include textColorRed(".hover\\:", ":hover", "")
 
-/* group hover */
+// group hover
 
 @include textColorRed(".group:hover .group-hover\\:", "", "")
 
-/* focus */
+// focus
 
 // @include textColorRed(".focus\\:", ":focus", "")
 
-/* active */
+// active
 
 // @include textColorRed(".active\\:", ":active", "")

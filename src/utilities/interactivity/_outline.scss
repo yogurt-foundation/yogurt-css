@@ -11,17 +11,17 @@
   )
 }
 
-/* global */
+/* Default */
 
 @include outline("", "", ".")
 
-/* hover */
+// hover
 
-/* focus */
+// focus
 
 @include outline(".focus\\:", ":focus", "")
 
-/* active */
+// active
 
 /* responsive */
 

@@ -21,22 +21,22 @@
   )
 }
 
-/* global */
+/* Default */
 
 @include boxShadowDefault("", "", ".")
 @include boxShadow("", "", ".")
 
-/* hover */
+// hover
 
 @include boxShadowDefault(".hover\\:", ":hover", "")
 @include boxShadow(".hover\\:", ":hover", "")
 
-/* focus */
+// focus
 
 @include boxShadowDefault(".focus\\:", ":focus", "")
 @include boxShadow(".focus\\:", ":focus", "")
 
-/* active */
+// active
 
 /* responsive */
 
