@@ -17,6 +17,8 @@
 
 @include flexDirection("", "", ".")
 
+/* Variants */
+
 // hover
 
 @include flexDirection(".hover\\:", ":hover", "")
@@ -24,6 +26,10 @@
 // focus
 
 // active
+
+// visited
+
+// disabled
 
 // responsive (see `_responsive.scss`)
 
