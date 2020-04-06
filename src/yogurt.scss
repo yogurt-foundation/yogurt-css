@@ -104,7 +104,7 @@
 
 @import 'utilities/effects/boxShadow';
 @import 'utilities/effects/opacity';
-// @import 'utilities/effects/shadowColor/*'; // optional
+// @import 'utilities/effects/shadowColor/*'; // optional (v1.0.2)
 
 /* interactivity */
 
@@ -138,8 +138,9 @@
 
 /* filters */
 
+// @import 'utilities/filters/blur'; // optional (v1.0.3)
 // @import 'utilities/filters/filterCompose'; // optional
-@import 'utilities/filters/invert'; // optional (v1.0.3)
+// @import 'utilities/filters/invert'; // optional (v1.0.3)
 
 /* responsive */
 

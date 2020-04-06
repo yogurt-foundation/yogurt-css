@@ -1,0 +1,34 @@
+/**
+ * @utility: filters
+ * @module: _blur.scss
+ */
+
+@mixin filterBlur($prefix, $pseudo, $class) {
+  @each $modifier, $value in $filter-blur {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "blur-", $modifier,
+      "filter", "blur(#{$value})#{$override}"
+    )
+  }
+}
+
+/* Default */
+
+@include filterBlur("", "", ".")
+
+/* Variants */
+
+// hover
+
+// focus
+
+// active
+
+// visited
+
+// disabled
+
+// responsive (see `_responsive.scss`)
+
+
