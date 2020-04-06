@@ -27,6 +27,8 @@
 
 @include scale("", "", ".")
 
+/* Variants */
+
 // hover
 
 @include scale(".hover\\:", ":hover", "")
@@ -34,6 +36,10 @@
 // focus
 
 // active
+
+// visited
+
+// disabled
 
 // responsive (see `_responsive.scss`)
 

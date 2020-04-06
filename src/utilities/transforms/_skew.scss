@@ -23,6 +23,8 @@
 @include skew("", "", ".", "")
 @include skew("", "", ".", "-") // negative
 
+/* Variants */
+
 // hover
 
 @include skew(".hover\\:", ":hover", "", "")
@@ -31,6 +33,10 @@
 // focus
 
 // active
+
+// visited
+
+// disabled
 
 // responsive (see `_responsive.scss`)
 

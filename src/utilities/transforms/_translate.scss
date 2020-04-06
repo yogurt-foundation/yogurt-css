@@ -23,6 +23,8 @@
 @include translate("", "", ".", "")
 @include translate("", "", ".", "-") // negative
 
+/* Variants */
+
 // hover
 
 @include translate(".hover\\:", ":hover", "", "")
@@ -31,6 +33,10 @@
 // focus
 
 // active
+
+// visited
+
+// disabled
 
 // responsive (see `_responsive.scss`)
 

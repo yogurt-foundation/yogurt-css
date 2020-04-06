@@ -18,6 +18,8 @@
 @include rotate("", "", ".", "")
 @include rotate("", "", ".", "-") // negative
 
+/* Variants */
+
 // hover
 
 @include rotate(".hover\\:", ":hover", "", "")
@@ -26,6 +28,10 @@
 // focus
 
 // active
+
+// visited
+
+// disabled
 
 // responsive (see `_responsive.scss`)
 
