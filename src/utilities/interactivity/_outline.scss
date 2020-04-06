@@ -15,6 +15,8 @@
 
 @include outline("", "", ".")
 
+/* Variants*/
+
 // hover
 
 // focus
@@ -22,5 +24,9 @@
 @include outline(".focus\\:", ":focus", "")
 
 // active
+
+// visited
+
+// disabled
 
 // responsive (see `_responsive.scss`)
