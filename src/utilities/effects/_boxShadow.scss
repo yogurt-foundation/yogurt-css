@@ -26,6 +26,8 @@
 @include boxShadowDefault("", "", ".")
 @include boxShadow("", "", ".")
 
+/* Variants */
+
 // hover
 
 @include boxShadowDefault(".hover\\:", ":hover", "")
@@ -37,6 +39,10 @@
 @include boxShadow(".focus\\:", ":focus", "")
 
 // active
+
+// visited
+
+// disabled
 
 // responsive (see `_responsive.scss`)
 

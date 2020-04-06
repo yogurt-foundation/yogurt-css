@@ -14,6 +14,8 @@
 
 @include shadowColorPurple("", "", ".")
 
+/* Variants */
+
 // hover
 
 @include shadowColorPurple(".hover\\:", ":hover", "")
@@ -21,5 +23,9 @@
 // focus
 
 // active
+
+// visited
+
+// disabled
 
 // responsive (see `_responsive.scss`)

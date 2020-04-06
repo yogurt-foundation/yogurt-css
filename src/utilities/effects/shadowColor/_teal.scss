@@ -14,6 +14,8 @@
 
 @include shadowColorTeal("", "", ".")
 
+/* Variants */
+
 // hover
 
 @include shadowColorTeal(".hover\\:", ":hover", "")
@@ -21,5 +23,9 @@
 // focus
 
 // active
+
+// visited
+
+// disabled
 
 // responsive (see `_responsive.scss`)

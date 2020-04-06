@@ -14,6 +14,8 @@
 
 @include shadowColorYellow("", "", ".")
 
+/* Variants */
+
 // hover
 
 @include shadowColorYellow(".hover\\:", ":hover", "")
@@ -21,5 +23,9 @@
 // focus
 
 // active
+
+// visited
+
+// disabled
 
 // responsive (see `_responsive.scss`)
