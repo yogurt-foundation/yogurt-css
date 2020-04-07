@@ -7,7 +7,7 @@
   @each $modifier, $value in $letter-spacing {
     @include setRuleSingle(
       $prefix, $pseudo, $class,
-      "tracking-", $modifier,
+      "gap-", $modifier,
       "letter-spacing", $value#{$override}
     )
   }
