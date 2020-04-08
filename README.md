@@ -40,7 +40,7 @@ The `margin`, `padding`, `font-size` and so on are calling the utility component
 
 [Read the documentation](https://yogurt-css-documentation.netlify.com)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/07b893f5-2d17-413d-a3b6-e657ef9dbef3/deploy-status)](https://app.netlify.com/sites/yogurt-css-documentation/deploys
+[![Netlify Status](https://api.netlify.com/api/v1/badges/07b893f5-2d17-413d-a3b6-e657ef9dbef3/deploy-status)](https://app.netlify.com/sites/yogurt-css-documentation/deploys)
 
 ### _companion
 
