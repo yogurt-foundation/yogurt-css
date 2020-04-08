@@ -104,7 +104,7 @@
 
 @import 'utilities/effects/boxShadow';
 @import 'utilities/effects/opacity';
-@import 'utilities/effects/shadowColor/*'; // optional (v1.0.2)
+// @import 'utilities/effects/shadowColor/*'; // optional (v1.0.2)
 
 /* interactivity */
 
@@ -144,6 +144,7 @@
 
 /* responsive */
 
-@import 'responsive'
+@import 'responsive/minWidth';
+// @import 'responsive/maxWidth'; // optional (v1.0.3)
 
 /*! yogurt.css v1.0.3-stable | MIT License | github.com/yogurt-foundation/yogurt-css */

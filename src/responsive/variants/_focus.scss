@@ -1,0 +1,9 @@
+/**
+ * @module: responsive/variants/
+ * @type: _focus.scss
+ */
+
+@include outline($prefix-responsive-focus, $pseudo-focus, $class-false)
+
+@include fontWeight($prefix-responsive-focus, $pseudo-focus, $class-false)
+@include textDecoration($prefix-responsive-focus, $pseudo-focus, $class-false)

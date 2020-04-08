@@ -1,0 +1,14 @@
+/**
+ * @module: responsive
+ * @type: _constants.scss
+ */
+
+// prefix responsive
+$prefix-responsive: ".#{$screen}\\#{$separator}";
+
+// prefix responsive with variants
+$prefix-responsive-hover: ".#{$screen}\\:hover\\#{$separator}";
+$prefix-responsive-focus: ".#{$screen}\\:focus\\#{$separator}";
+$prefix-responsive-active: ".#{$screen}\\:active\\#{$separator}";
+$prefix-responsive-visited: ".#{$screen}\\:visited\\#{$separator}";
+$prefix-responsive-disabled: ".#{$screen}\\:disabled\\#{$separator}";

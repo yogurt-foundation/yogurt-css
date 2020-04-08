@@ -2,8 +2,6 @@
  * @module: _config.scss
  */
 
-$of: \/; // escaping `forward-slash`
-
 // create an explicitly separate version with
 // ID to avoid CSS conflicts or when more than
 // one CSS library or framework is being used.
@@ -20,6 +18,8 @@ $separator: ":"; // do not empty!
 // override existing css with this option,
 // default is empty, to enable add `!important`.
 $override: "";
+
+$of: \/; // escaping `forward-slash`
 
 /*
   @params $modifier, $value

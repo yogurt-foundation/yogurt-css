@@ -1,0 +1,24 @@
+/**
+ * @module: responsive
+ * @type: _maxWidth.scss
+ */
+
+@each $screen, $size in $screens {
+  @media (max-width: #{$size}) {
+
+    @import 'responsive/constants';
+
+    /* Default */
+
+    @import 'responsive/default';
+
+    /* Variants */
+
+    @import 'responsive/variants/hover';
+    @import 'responsive/variants/focus';
+    @import 'responsive/variants/active';
+    @import 'responsive/variants/visited';
+    @import 'responsive/variants/disabled';
+
+  }
+}
