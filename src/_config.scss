@@ -10,6 +10,13 @@ $of: \/; // escaping `forward-slash`
 // Default is empty. (e.g. new-) with a `dash`.
 $id: "";
 
+// by default using `:` symbol character to
+// separate in between the {prefix} and the
+// {class}. Use this option to make changes
+// for templating engine that do no support
+// special characters.
+$separator: ":"; // do not empty!
+
 // override existing css with this option,
 // default is empty, to enable add `!important`.
 $override: "";

@@ -8,7 +8,7 @@
   @media (min-width: #{$size}) {
 
     // prefix responsive
-    $prefix-responsive: ".#{$screen}\\:";
+    $prefix-responsive: ".#{$screen}\\#{$separator}";
 
     /* Default */
 
@@ -141,11 +141,11 @@
     /* Variants */
 
       // prefix responsive with variants
-      $prefix-responsive-hover: ".#{$screen}\\:hover\\:";
-      $prefix-responsive-focus: ".#{$screen}\\:focus\\:";
-      $prefix-responsive-active: ".#{$screen}\\:active\\:";
-      $prefix-responsive-visited: ".#{$screen}\\:visited\\:";
-      $prefix-responsive-disabled: ".#{$screen}\\:disabled\\:";
+      $prefix-responsive-hover: ".#{$screen}\\:hover\\#{$separator}";
+      $prefix-responsive-focus: ".#{$screen}\\:focus\\#{$separator}";
+      $prefix-responsive-active: ".#{$screen}\\:active\\#{$separator}";
+      $prefix-responsive-visited: ".#{$screen}\\:visited\\#{$separator}";
+      $prefix-responsive-disabled: ".#{$screen}\\:disabled\\#{$separator}";
 
       // hover
 

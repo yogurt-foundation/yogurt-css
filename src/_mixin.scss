@@ -15,12 +15,12 @@ $prefix-false: "";
 $pseudo-false: "";
 
 // prefix variants
-$prefix-hover: ".hover\\:";
-$prefix-group-hover: ".group:hover .group-hover\\:";
-$prefix-focus: ".focus\\:";
-$prefix-active: ".active\\:";
-$prefix-visited: ".variants\\:";
-$prefix-disabled: ".disabled\\:";
+$prefix-hover: ".hover\\#{$separator}";
+$prefix-group-hover: ".group:hover .group-hover\\#{$separator}";
+$prefix-focus: ".focus\\#{$separator}";
+$prefix-active: ".active\\#{$separator}";
+$prefix-visited: ".variants\\#{$separator}";
+$prefix-disabled: ".disabled\\#{$separator}";
 
 // pseudo variants
 $pseudo-hover: ":hover";
