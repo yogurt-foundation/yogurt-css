@@ -12,19 +12,19 @@
 
 /* Default */
 
-@include placeholderColorOrange("", "", ".")
+  @include placeholderColorOrange($prefix-false, $pseudo-false, $class-true)
 
 /* Variants */
 
-// hover
+  // hover
 
-// focus
+  // focus
 
-@include placeholderColorOrange(".focus\\:", ":focus", "")
+  @include placeholderColorOrange($prefix-focus, $pseudo-focus, $class-false)
 
-// active
+  // active
 
-// visited
+  // visited
 
-// disabled
+  // disabled
 

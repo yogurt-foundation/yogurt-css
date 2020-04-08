@@ -15,20 +15,20 @@
 
 /* Default */
 
-@include height("", "", ".")
+  @include height($prefix-false, $pseudo-false, $class-true)
 
 /* Variants */
 
-// hover
+  // hover
 
-@include height(".hover\\:", ":hover", "")
+  @include height($prefix-hover, $pseudo-hover, $class-false)
 
-// focus
+  // focus
 
-// active
+  // active
 
-// visited
+  // visited
 
-// disabled
+  // disabled
 
-// responsive (see `_responsive.scss`)
+  // responsive (see `_responsive.scss`)

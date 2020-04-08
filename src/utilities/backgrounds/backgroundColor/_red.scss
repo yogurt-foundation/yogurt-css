@@ -12,26 +12,26 @@
 
 /* Default */
 
-@include backgroundColorRed("", "", ".")
+  @include backgroundColorRed($prefix-false, $pseudo-false, $class-true)
 
 /* Variants */
 
-// hover
+  // hover
 
-@include backgroundColorRed(".hover\\:", ":hover", "")
+  @include backgroundColorRed($prefix-hover, $pseudo-hover, $class-false)
 
-// group hover
+  // group hover
 
-@include backgroundColorRed(".group:hover .group-hover\\:", "", "")
+  @include backgroundColorRed($prefix-group-hover, $pseudo-false, $class-false)
 
-// focus
+  // focus
 
-@include backgroundColorRed(".focus\\:", ":focus", "")
+  @include backgroundColorRed($prefix-focus, $pseudo-focus, $class-false)
 
-// active
+  // active
 
-// visited
+  // visited
 
-// disabled
+  // disabled
 
-// responsive (see `_responsive.scss`)
+  // responsive (see `_responsive.scss`)

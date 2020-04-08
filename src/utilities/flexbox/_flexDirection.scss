@@ -15,21 +15,21 @@
 
 /* Default */
 
-@include flexDirection("", "", ".")
+  @include flexDirection($prefix-false, $pseudo-false, $class-true)
 
 /* Variants */
 
 // hover
 
-@include flexDirection(".hover\\:", ":hover", "")
+  @include flexDirection($prefix-hover, $pseudo-hover, $class-false)
 
-// focus
+  // focus
 
-// active
+  // active
 
-// visited
+  // visited
 
-// disabled
+  // disabled
 
-// responsive (see `_responsive.scss`)
+  // responsive (see `_responsive.scss`)
 

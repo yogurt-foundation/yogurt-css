@@ -12,19 +12,19 @@
 
 /* Default */
 
-@include placeholderColorIndigo("", "", ".")
+  @include placeholderColorIndigo($prefix-false, $pseudo-false, $class-true)
 
 /* Variants */
 
-// hover
+  // hover
 
-// focus
+  // focus
 
-@include placeholderColorIndigo(".focus\\:", ":hover", "")
+  @include placeholderColorIndigo($prefix-focus, $pseudo-focus, $class-false)
 
-// active
+  // active
 
-// visited
+  // visited
 
-// disabled
+  // disabled
 

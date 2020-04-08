@@ -23,20 +23,20 @@
 
 /* Default */
 
-@include resizeDefault("", "", ".")
-@include resize("", "", ".")
+  @include resizeDefault($prefix-false, $pseudo-false, $class-true)
+  @include resize($prefix-false, $pseudo-false, $class-true)
 
 /* Variants*/
 
-// hover
+  // hover
 
-// focus
+  // focus
 
-// active
+  // active
 
-// visited
+  // visited
 
-// disabled
+  // disabled
 
-// responsive (see `_responsive.scss`)
+  // responsive (see `_responsive.scss`)
 

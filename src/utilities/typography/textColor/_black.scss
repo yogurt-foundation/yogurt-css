@@ -12,22 +12,22 @@
 
 /* Default */
 
-@include textColorBlack("", "", ".")
+  @include textColorBlack($prefix-false, $pseudo-false, $class-true)
 
 /* Variants */
 
-// hover
+  // hover
 
-@include textColorBlack(".hover\\:", ":hover", "")
+  @include textColorBlack($prefix-hover, $pseudo-hover, $class-false)
 
-// group hover
+  // group hover
 
-@include textColorBlack(".group:hover .group-hover\\:", "", "")
+  @include textColorBlack($prefix-group-hover, $pseudo-false, $class-false)
 
-// focus
+  // focus
 
-// active
+  // active
 
-// visited
+  // visited
 
-// disabled
+  // disabled

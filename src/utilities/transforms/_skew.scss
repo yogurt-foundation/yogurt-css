@@ -20,23 +20,23 @@
 
 /* Default */
 
-@include skew("", "", ".", "")
-@include skew("", "", ".", "-") // negative
+  @include skew($prefix-false, $pseudo-false, $class-true, $negative-false)
+  @include skew($prefix-false, $pseudo-false, $class-true, $negative-true) // negative
 
 /* Variants */
 
-// hover
+  // hover
 
-@include skew(".hover\\:", ":hover", "", "")
-@include skew(".hover\\:", ":hover", "", "-") // negative
+  @include skew($prefix-hover, $pseudo-hover, $class-false, $negative-false)
+  @include skew($prefix-hover, $pseudo-hover, $class-false, $negative-true) // negative
 
-// focus
+  // focus
 
-// active
+  // active
 
-// visited
+  // visited
 
-// disabled
+  // disabled
 
-// responsive (see `_responsive.scss`)
+  // responsive (see `_responsive.scss`)
 

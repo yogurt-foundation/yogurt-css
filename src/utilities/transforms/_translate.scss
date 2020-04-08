@@ -20,23 +20,23 @@
 
 /* Default */
 
-@include translate("", "", ".", "")
-@include translate("", "", ".", "-") // negative
+  @include translate($prefix-false, $pseudo-false, $class-true, $negative-false)
+  @include translate($prefix-false, $pseudo-false, $class-true, $negative-true) // negative
 
 /* Variants */
 
-// hover
+  // hover
 
-@include translate(".hover\\:", ":hover", "", "")
-@include translate(".hover\\:", ":hover", "", "-") // negative
+  @include translate($prefix-hover, $pseudo-hover, $class-false, $negative-false)
+  @include translate($prefix-hover, $pseudo-hover, $class-false, $negative-true) // negative
 
-// focus
+  // focus
 
-// active
+  // active
 
-// visited
+  // visited
 
-// disabled
+  // disabled
 
-// responsive (see `_responsive.scss`)
+  // responsive (see `_responsive.scss`)
 

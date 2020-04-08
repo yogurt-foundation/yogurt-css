@@ -12,26 +12,26 @@
 
 /* Default */
 
-@include backgroundColorGreen("", "", ".")
+  @include backgroundColorGreen($prefix-false, $pseudo-false, $class-true)
 
 /* Variants */
 
-// hover
+  // hover
 
-@include backgroundColorGreen(".hover\\:", ":hover", "")
+  @include backgroundColorGreen($prefix-hover, $pseudo-hover, $class-false)
 
-// group hover
+  // group hover
 
-@include backgroundColorGreen(".group:hover .group-hover\\:", "", "")
+  @include backgroundColorGreen($prefix-group-hover, $pseudo-false, $class-false)
 
-// focus
+  // focus
 
-@include backgroundColorGreen(".focus\\:", ":focus", "")
+  @include backgroundColorGreen($prefix-focus, $pseudo-focus, $class-false)
 
-// active
+  // active
 
-// visited
+  // visited
 
-// disabled
+  // disabled
 
-// responsive (see `_responsive.scss`)
+  // responsive (see `_responsive.scss`)

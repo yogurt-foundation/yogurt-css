@@ -12,18 +12,18 @@
 
 /* Default */
 
-@include placeholderColorBlack("", "", ".")
+  @include placeholderColorBlack($prefix-false, $pseudo-false, $class-true)
 
 /* Variants */
 
-// hover
+  // hover
 
-// focus
+  // focus
 
-@include placeholderColorBlack(".focus\\:", ":focus", "")
+  @include placeholderColorBlack($prefix-focus, $pseudo-focus, $class-false)
 
-// active
+  // active
 
-// visited
+  // visited
 
-// disabled
+  // disabled

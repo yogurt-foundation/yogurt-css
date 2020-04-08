@@ -15,23 +15,23 @@
 
 /* Default */
 
-@include fontWeight("", "", ".")
+  @include fontWeight($prefix-false, $pseudo-false, $class-true)
 
 /* Variants */
 
-// hover
+  // hover
 
-@include fontWeight(".hover\\:", ":hover", "")
+  @include fontWeight($prefix-hover, $pseudo-hover, $class-false)
 
-// focus
+  // focus
 
-@include fontWeight(".focus\\:", ":focus", "")
+  @include fontWeight($prefix-focus, $pseudo-focus, $class-false)
 
-// active
+  // active
 
-// visited
+  // visited
 
-// disabled
+  // disabled
 
-// responsive (see `_responsive.scss`)
+  // responsive (see `_responsive.scss`)
 

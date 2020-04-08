@@ -15,19 +15,19 @@
 
 /* Default */
 
-@include clear("", "", ".")
+  @include clear($prefix-false, $pseudo-false, $class-true)
 
 /* Variants*/
 
-// hover
+  // hover
 
-// focus
+  // focus
 
-// active
+  // active
 
-// visited
+  // visited
 
-// disabled
+  // disabled
 
-// responsive (see `_responsive.scss`)
+  // responsive (see `_responsive.scss`)
 

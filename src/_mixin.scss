@@ -2,6 +2,35 @@
  * @module: _mixin.scss
  */
 
+// class options
+$class-true: ".";
+$class-false: "";
+$negative-true: "-";
+$negative-false: "";
+
+// prefix options
+$prefix-false: "";
+
+// pseudo options
+$pseudo-false: "";
+
+// prefix variants
+$prefix-hover: ".hover\\:";
+$prefix-group-hover: ".group:hover .group-hover\\:";
+$prefix-focus: ".focus\\:";
+$prefix-active: ".active\\:";
+$prefix-visited: ".variants\\:";
+$prefix-disabled: ".disabled\\:";
+
+// pseudo variants
+$pseudo-hover: ":hover";
+$pseudo-focus: ":focus";
+$pseudo-active: ":active";
+$pseudo-visited: ":visited";
+$pseudo-disabled: ":disabled";
+
+// responsive prefix and variants, see `_responsive.scss`
+
 /* rules */
 
 @mixin setRuleSingle($prefix, $pseudo, $class, $selector, $modifier, $property, $value) {

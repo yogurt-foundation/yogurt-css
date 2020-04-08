@@ -23,27 +23,27 @@
 
 /* Default */
 
-@include boxShadowDefault("", "", ".")
-@include boxShadow("", "", ".")
+  @include boxShadowDefault($prefix-false, $pseudo-false, $class-true)
+  @include boxShadow($prefix-false, $pseudo-false, $class-true)
 
 /* Variants */
 
-// hover
+  // hover
 
-@include boxShadowDefault(".hover\\:", ":hover", "")
-@include boxShadow(".hover\\:", ":hover", "")
+  @include boxShadowDefault($prefix-hover, $pseudo-hover, $class-false)
+  @include boxShadow($prefix-hover, $pseudo-hover, $class-false)
 
-// focus
+  // focus
 
-@include boxShadowDefault(".focus\\:", ":focus", "")
-@include boxShadow(".focus\\:", ":focus", "")
+  @include boxShadowDefault($prefix-focus, $pseudo-focus, $class-false)
+  @include boxShadow($prefix-focus, $pseudo-focus, $class-false)
 
-// active
+  // active
 
-// visited
+  // visited
 
-// disabled
+  // disabled
 
-// responsive (see `_responsive.scss`)
+  // responsive (see `_responsive.scss`)
 
 

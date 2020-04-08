@@ -12,26 +12,26 @@
 
 /* Default */
 
-@include backgroundColorCharcoal("", "", ".")
+  @include backgroundColorCharcoal($prefix-false, $pseudo-false, $class-true)
 
 /* Variants */
 
-// hover
+  // hover
 
-@include backgroundColorCharcoal(".hover\\:", ":hover", "")
+  @include backgroundColorCharcoal($prefix-hover, $pseudo-hover, $class-false)
 
-// group hover
+  // group hover
 
-@include backgroundColorCharcoal(".group:hover .group-hover\\:", "", "")
+  @include backgroundColorCharcoal($prefix-group-hover, $pseudo-false, $class-false)
 
-// focus
+  // focus
 
-@include backgroundColorCharcoal(".focus\\:", ":focus", "")
+  @include backgroundColorCharcoal($prefix-focus, $pseudo-focus, $class-false)
 
-// active
+  // active
 
-// visited
+  // visited
 
-// disabled
+  // disabled
 
-// responsive (see `_responsive.scss`)
+  // responsive (see `_responsive.scss`)

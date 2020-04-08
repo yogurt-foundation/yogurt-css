@@ -12,20 +12,20 @@
 
 /* Default */
 
-@include shadowColorOrange("", "", ".")
+  @include shadowColorOrange($prefix-false, $pseudo-false, $class-true)
 
 /* Variants */
 
-// hover
+  // hover
 
-@include shadowColorOrange(".hover\\:", ":hover", "")
+  @include shadowColorOrange($prefix-hover, $pseudo-hover, $class-false)
 
-// focus
+  // focus
 
-// active
+  // active
 
-// visited
+  // visited
 
-// disabled
+  // disabled
 
-// responsive (see `_responsive.scss`)
+  // responsive (see `_responsive.scss`)

@@ -12,20 +12,20 @@
 
 /* Default */
 
-@include shadowColorYellow("", "", ".")
+  @include shadowColorYellow($prefix-false, $pseudo-false, $class-true)
 
 /* Variants */
 
-// hover
+  // hover
 
-@include shadowColorYellow(".hover\\:", ":hover", "")
+  @include shadowColorYellow($prefix-hover, $pseudo-hover, $class-false)
 
-// focus
+  // focus
 
-// active
+  // active
 
-// visited
+  // visited
 
-// disabled
+  // disabled
 
-// responsive (see `_responsive.scss`)
+  // responsive (see `_responsive.scss`)

@@ -12,20 +12,20 @@
 
 /* Default */
 
-@include shadowColorGreen("", "", ".")
+  @include shadowColorGreen($prefix-false, $pseudo-false, $class-true)
 
 /* Variants */
 
-// hover
+  // hover
 
-@include shadowColorGreen(".hover\\:", ":hover", "")
+  @include shadowColorGreen($prefix-hover, $pseudo-hover, $class-false)
 
-// focus
+  // focus
 
-// active
+  // active
 
-// visited
+  // visited
 
-// disabled
+  // disabled
 
-// responsive (see `_responsive.scss`)
+  // responsive (see `_responsive.scss`)

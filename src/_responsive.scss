@@ -7,176 +7,186 @@
 @each $screen, $size in $screens {
   @media (min-width: #{$size}) {
 
+    // prefix responsive
+    $prefix-responsive: ".#{$screen}\\:";
+
     /* Default */
 
-    @include textColorBlack(".#{$screen}\\:", "", "")
-    @include textColorBlue(".#{$screen}\\:", "", "")
-    @include textColorCharcoal(".#{$screen}\\:", "", "")
-    @include textColorGray(".#{$screen}\\:", "", "")
-    @include textColorGreen(".#{$screen}\\:", "", "")
-    @include textColorIndigo(".#{$screen}\\:", "", "")
-    @include textColorOrange(".#{$screen}\\:", "", "")
-    @include textColorPink(".#{$screen}\\:", "", "")
-    @include textColorPurple(".#{$screen}\\:", "", "")
-    @include textColorRed(".#{$screen}\\:", "", "")
-    @include textColorSpecial(".#{$screen}\\:", "", "")
-    @include textColorTeal(".#{$screen}\\:", "", "")
-    @include textColorYellow(".#{$screen}\\:", "", "")
+      @include textColorBlack($prefix-responsive, $pseudo-false, $class-false)
+      @include textColorBlue($prefix-responsive, $pseudo-false, $class-false)
+      @include textColorCharcoal($prefix-responsive, $pseudo-false, $class-false)
+      @include textColorGray($prefix-responsive, $pseudo-false, $class-false)
+      @include textColorGreen($prefix-responsive, $pseudo-false, $class-false)
+      @include textColorIndigo($prefix-responsive, $pseudo-false, $class-false)
+      @include textColorOrange($prefix-responsive, $pseudo-false, $class-false)
+      @include textColorPink($prefix-responsive, $pseudo-false, $class-false)
+      @include textColorPurple($prefix-responsive, $pseudo-false, $class-false)
+      @include textColorRed($prefix-responsive, $pseudo-false, $class-false)
+      @include textColorSpecial($prefix-responsive, $pseudo-false, $class-false)
+      @include textColorTeal($prefix-responsive, $pseudo-false, $class-false)
+      @include textColorYellow($prefix-responsive, $pseudo-false, $class-false)
 
-    // optional
-    // @include backgroundColorBlack(".#{$screen}\\:", "", "")
-    // @include backgroundColorBlue(".#{$screen}\\:", "", "")
-    // @include backgroundColorCharcoal(".#{$screen}\\:", "", "")
-    // @include backgroundColorGray(".#{$screen}\\:", "", "")
-    // @include backgroundColorGreen(".#{$screen}\\:", "", "")
-    // @include backgroundColorIndigo(".#{$screen}\\:", "", "")
-    // @include backgroundColorOrange(".#{$screen}\\:", "", "")
-    // @include backgroundColorPink(".#{$screen}\\:", "", "")
-    // @include backgroundColorPurple(".#{$screen}\\:", "", "")
-    // @include backgroundColorRed(".#{$screen}\\:", "", "")
-    // @include backgroundColorSpecial(".#{$screen}\\:", "", "")
-    // @include backgroundColorTeal(".#{$screen}\\:", "", "")
-    // @include backgroundColorYellow(".#{$screen}\\:", "", "")
+      // optional
+      // @include backgroundColorBlack($prefix-responsive, $pseudo-false, $class-false)
+      // @include backgroundColorBlue($prefix-responsive, $pseudo-false, $class-false)
+      // @include backgroundColorCharcoal($prefix-responsive, $pseudo-false, $class-false)
+      // @include backgroundColorGray($prefix-responsive, $pseudo-false, $class-false)
+      // @include backgroundColorGreen($prefix-responsive, $pseudo-false, $class-false)
+      // @include backgroundColorIndigo($prefix-responsive, $pseudo-false, $class-false)
+      // @include backgroundColorOrange($prefix-responsive, $pseudo-false, $class-false)
+      // @include backgroundColorPink($prefix-responsive, $pseudo-false, $class-false)
+      // @include backgroundColorPurple($prefix-responsive, $pseudo-false, $class-false)
+      // @include backgroundColorRed($prefix-responsive, $pseudo-false, $class-false)
+      // @include backgroundColorSpecial($prefix-responsive, $pseudo-false, $class-false)
+      // @include backgroundColorTeal($prefix-responsive, $pseudo-false, $class-false)
+      // @include backgroundColorYellow($prefix-responsive, $pseudo-false, $class-false)
 
-    // optional
-    // @include borderColorBlack(".#{$screen}\\:", "", "")
-    // @include borderColorBlue(".#{$screen}\\:", "", "")
-    // @include borderColorCharcoal(".#{$screen}\\:", "", "")
-    // @include borderColorGray(".#{$screen}\\:", "", "")
-    // @include borderColorGreen(".#{$screen}\\:", "", "")
-    // @include borderColorIndigo(".#{$screen}\\:", "", "")
-    // @include borderColorOrange(".#{$screen}\\:", "", "")
-    // @include borderColorPink(".#{$screen}\\:", "", "")
-    // @include borderColorPurple(".#{$screen}\\:", "", "")
-    // @include borderColorRed(".#{$screen}\\:", "", "")
-    // @include borderColorSpecial(".#{$screen}\\:", "", "")
-    // @include borderColorTeal(".#{$screen}\\:", "", "")
-    // @include borderColorYellow(".#{$screen}\\:", "", "")
+      // optional
+      // @include borderColorBlack($prefix-responsive, $pseudo-false, $class-false)
+      // @include borderColorBlue($prefix-responsive, $pseudo-false, $class-false)
+      // @include borderColorCharcoal($prefix-responsive, $pseudo-false, $class-false)
+      // @include borderColorGray($prefix-responsive, $pseudo-false, $class-false)
+      // @include borderColorGreen($prefix-responsive, $pseudo-false, $class-false)
+      // @include borderColorIndigo($prefix-responsive, $pseudo-false, $class-false)
+      // @include borderColorOrange($prefix-responsive, $pseudo-false, $class-false)
+      // @include borderColorPink($prefix-responsive, $pseudo-false, $class-false)
+      // @include borderColorPurple($prefix-responsive, $pseudo-false, $class-false)
+      // @include borderColorRed($prefix-responsive, $pseudo-false, $class-false)
+      // @include borderColorSpecial($prefix-responsive, $pseudo-false, $class-false)
+      // @include borderColorTeal($prefix-responsive, $pseudo-false, $class-false)
+      // @include borderColorYellow($prefix-responsive, $pseudo-false, $class-false)
 
-    @include backgroundAttachment(".#{$screen}\\:", "", "")
-    @include backgroundPosition(".#{$screen}\\:", "", "")
-    @include backgroundRepeat(".#{$screen}\\:", "", "")
-    @include backgroundSize(".#{$screen}\\:", "", "")
+      @include backgroundAttachment($prefix-responsive, $pseudo-false, $class-false)
+      @include backgroundPosition($prefix-responsive, $pseudo-false, $class-false)
+      @include backgroundRepeat($prefix-responsive, $pseudo-false, $class-false)
+      @include backgroundSize($prefix-responsive, $pseudo-false, $class-false)
 
-    @include borderRadiusDefault(".#{$screen}\\:", "", "")
-    @include borderRadius(".#{$screen}\\:", "", "")
-    @include borderStyle(".#{$screen}\\:", "", "")
+      @include borderRadiusDefault($prefix-responsive, $pseudo-false, $class-false)
+      @include borderRadius($prefix-responsive, $pseudo-false, $class-false)
+      @include borderStyle($prefix-responsive, $pseudo-false, $class-false)
 
-    @include opacity(".#{$screen}\\:", "", "")
+      @include opacity($prefix-responsive, $pseudo-false, $class-false)
 
-    @include margin(".#{$screen}\\:", "", "", "")
-    @include margin(".#{$screen}\\:", "", "", "-") // negative
-    @include padding(".#{$screen}\\:", "", "",)
+      @include margin($prefix-responsive, $pseudo-false, $class-false, $negative-false)
+      @include margin($prefix-responsive, $pseudo-false, $class-false, $negative-true) // negative
+      @include padding($prefix-responsive, $pseudo-false, $class-false)
 
-    @include height(".#{$screen}\\:", "", "")
-    @include maxHeight(".#{$screen}\\:", "", "")
-    @include maxWidth(".#{$screen}\\:", "", "")
-    @include minHeight(".#{$screen}\\:", "", "")
-    @include minWidth(".#{$screen}\\:", "", "")
-    @include width(".#{$screen}\\:", "", "")
+      @include height($prefix-responsive, $pseudo-false, $class-false)
+      @include maxHeight($prefix-responsive, $pseudo-false, $class-false)
+      @include maxWidth($prefix-responsive, $pseudo-false, $class-false)
+      @include minHeight($prefix-responsive, $pseudo-false, $class-false)
+      @include minWidth($prefix-responsive, $pseudo-false, $class-false)
+      @include width($prefix-responsive, $pseudo-false, $class-false)
 
-    @include alignContent(".#{$screen}\\:", "", "")
-    @include alignItems(".#{$screen}\\:", "", "")
-    @include alignSelf(".#{$screen}\\:", "", "")
-    @include flex(".#{$screen}\\:", "", "")
-    @include flexDirection(".#{$screen}\\:", "", "")
-    @include flexGrowDefault(".#{$screen}\\:", "")
-    @include flexGrow(".#{$screen}\\:", "", "")
-    @include flexShrinkDefault(".#{$screen}\\:", "")
-    @include flexShrink(".#{$screen}\\:", "", "")
-    @include flexWrap(".#{$screen}\\:", "", "")
-    @include justifyContent(".#{$screen}\\:", "", "")
-    @include order(".#{$screen}\\:", "", "")
+      @include alignContent($prefix-responsive, $pseudo-false, $class-false)
+      @include alignItems($prefix-responsive, $pseudo-false, $class-false)
+      @include alignSelf($prefix-responsive, $pseudo-false, $class-false)
+      @include flex($prefix-responsive, $pseudo-false, $class-false)
+      @include flexDirection($prefix-responsive, $pseudo-false, $class-false)
+      @include flexGrowDefault($prefix-responsive, $class-false)
+      @include flexGrow($prefix-responsive, $pseudo-false, $class-false)
+      @include flexShrinkDefault($prefix-responsive, $class-false)
+      @include flexShrink($prefix-responsive, $pseudo-false, $class-false)
+      @include flexWrap($prefix-responsive, $pseudo-false, $class-false)
+      @include justifyContent($prefix-responsive, $pseudo-false, $class-false)
+      @include order($prefix-responsive, $pseudo-false, $class-false)
 
-    @include outline(".#{$screen}\\:", "", "")
-    @include pointerEvents(".#{$screen}\\:", "", "")
-    @include resizeDefault(".#{$screen}\\:", "", "")
-    @include resize(".#{$screen}\\:", "", "")
-    @include userSelect(".#{$screen}\\:", "", "")
+      @include outline($prefix-responsive, $pseudo-false, $class-false)
+      @include pointerEvents($prefix-responsive, $pseudo-false, $class-false)
+      @include resizeDefault($prefix-responsive, $pseudo-false, $class-false)
+      @include resize($prefix-responsive, $pseudo-false, $class-false)
+      @include userSelect($prefix-responsive, $pseudo-false, $class-false)
 
-    @include rotate(".#{$screen}\\:", "", "", "")
-    @include rotate(".#{$screen}\\:", "", "", "-") // negative
-    @include scale(".#{$screen}\\:", "", "")
-    @include skew(".#{$screen}\\:", "", "", "")
-    @include skew(".#{$screen}\\:", "", "", "-") // negative
-    @include transformOrigin(".#{$screen}\\:", "", "")
-    @include translate(".#{$screen}\\:", "", "", "")
-    @include translate(".#{$screen}\\:", "", "", "-") // negative
+      @include rotate($prefix-responsive, $pseudo-false, $class-false, $negative-false)
+      @include rotate($prefix-responsive, $pseudo-false, $class-false, $negative-true) // negative
+      @include scale($prefix-responsive, $pseudo-false, $class-false)
+      @include skew($prefix-responsive, $pseudo-false, $class-false, $negative-false)
+      @include skew($prefix-responsive, $pseudo-false, $class-false, $negative-true) // negative
+      @include transformOrigin($prefix-responsive, $pseudo-false, $class-false)
+      @include translate($prefix-responsive, $pseudo-false, $class-false, $negative-false)
+      @include translate($prefix-responsive, $pseudo-false, $class-false, $negative-true) // negative
 
-    @include boxSizing(".#{$screen}\\:", "", "")
-    @include clear(".#{$screen}\\:", "", "")
-    @include container($size)
-    @include display(".#{$screen}\\:", "", "")
-    @include floatDefault(".#{$screen}\\:", "")
-    @include float(".#{$screen}\\:", "", "")
-    @include inset(".#{$screen}\\:", "", "")
-    @include insetTBLR(".#{$screen}\\:", "", "")
-    @include objectFit(".#{$screen}\\:", "", "")
-    @include objectPosition(".#{$screen}\\:", "", "")
-    @include overflow(".#{$screen}\\:", "", "")
-    @include overflow-xy(".#{$screen}\\:", "", "")
-    @include overflow-scrolling(".#{$screen}\\:", "", "")
-    @include position(".#{$screen}\\:", "", "")
-    @include visibility(".#{$screen}\\:", "", "")
-    @include zIndex(".#{$screen}\\:", "", "")
+      @include boxSizing($prefix-responsive, $pseudo-false, $class-false)
+      @include clear($prefix-responsive, $pseudo-false, $class-false)
+      @include container($size)
+      @include display($prefix-responsive, $pseudo-false, $class-false)
+      @include floatDefault($prefix-responsive, $class-false)
+      @include float($prefix-responsive, $pseudo-false, $class-false)
+      @include inset($prefix-responsive, $pseudo-false, $class-false)
+      @include insetTBLR($prefix-responsive, $pseudo-false, $class-false)
+      @include objectFit($prefix-responsive, $pseudo-false, $class-false)
+      @include objectPosition($prefix-responsive, $pseudo-false, $class-false)
+      @include overflow($prefix-responsive, $pseudo-false, $class-false)
+      @include overflow-xy($prefix-responsive, $pseudo-false, $class-false)
+      @include overflow-scrolling($prefix-responsive, $pseudo-false, $class-false)
+      @include position($prefix-responsive, $pseudo-false, $class-false)
+      @include visibility($prefix-responsive, $pseudo-false, $class-false)
+      @include zIndex($prefix-responsive, $pseudo-false, $class-false)
 
-    @include fontFamily(".#{$screen}\\:", "", "")
-    @include fontSize(".#{$screen}\\:", "", "")
-    @include fontStyle(".#{$screen}\\:", "")
-    @include fontWeight(".#{$screen}\\:", "", "")
-    @include letterSpacing(".#{$screen}\\:", "", "")
-    @include lineHeight(".#{$screen}\\:", "", "")
-    @include listStylePosition(".#{$screen}\\:", "")
-    @include listStyleType(".#{$screen}\\:", "", "")
-    @include textAlign(".#{$screen}\\:", "", "")
-    @include textDecoration(".#{$screen}\\:", "", "")
-    @include textTransform(".#{$screen}\\:", "", "")
-    @include verticalAlign(".#{$screen}\\:", "", "")
-    @include whitespace(".#{$screen}\\:", "", "")
-    @include wordBreak(".#{$screen}\\:", "", "")
+      @include fontFamily($prefix-responsive, $pseudo-false, $class-false)
+      @include fontSize($prefix-responsive, $pseudo-false, $class-false)
+      @include fontStyle($prefix-responsive, $class-false)
+      @include fontWeight($prefix-responsive, $pseudo-false, $class-false)
+      @include letterSpacing($prefix-responsive, $pseudo-false, $class-false)
+      @include lineHeight($prefix-responsive, $pseudo-false, $class-false)
+      @include listStylePosition($prefix-responsive, $class-false)
+      @include listStyleType($prefix-responsive, $pseudo-false, $class-false)
+      @include textAlign($prefix-responsive, $pseudo-false, $class-false)
+      @include textDecoration($prefix-responsive, $pseudo-false, $class-false)
+      @include textTransform($prefix-responsive, $pseudo-false, $class-false)
+      @include verticalAlign($prefix-responsive, $pseudo-false, $class-false)
+      @include whitespace($prefix-responsive, $pseudo-false, $class-false)
+      @include wordBreak($prefix-responsive, $pseudo-false, $class-false)
 
     /* Variants */
 
-    // hover
+      // prefix responsive with variants
+      $prefix-responsive-hover: ".#{$screen}\\:hover\\:";
+      $prefix-responsive-focus: ".#{$screen}\\:focus\\:";
+      $prefix-responsive-active: ".#{$screen}\\:active\\:";
+      $prefix-responsive-visited: ".#{$screen}\\:visited\\:";
+      $prefix-responsive-disabled: ".#{$screen}\\:disabled\\:";
 
-    @include backgroundAttachment(".#{$screen}\\:hover\\:", ":hover", "")
+      // hover
 
-    @include opacity(".#{$screen}\\:hover\\:", ":hover", "")
+      @include backgroundAttachment($prefix-responsive-hover, $pseudo-hover, $class-false)
 
-    @include height(".#{$screen}\\:.hover\\:", ":hover", "")
-    @include width(".#{$screen}\\:hover\\:", "", "")
+      @include opacity($prefix-responsive-hover, $pseudo-hover, $class-false)
 
-    @include flexDirection(".#{$screen}\\:hover\\:", ":hover", "")
+      @include height($prefix-responsive-hover, $pseudo-hover, $class-false)
+      @include width($prefix-responsive-hover, $pseudo-hover, $class-false)
 
-    @include rotate(".#{$screen}\\:hover\\:", ":hover", "", "")
-    @include rotate(".#{$screen}\\:hover\\:", ":hover", "", "-") // negative
-    @include scale(".#{$screen}\\:hover\\:", ":hover", "")
-    @include skew(".#{$screen}\\:hover\\:", ":hover", "", "")
-    @include skew(".#{$screen}\\:hover\\:", ":hover", "", "-") // negative
-    @include transformOrigin(".#{$screen}\\:hover\\:", ":hover", "")
-    @include translate(".#{$screen}\\:hover\\:", ":hover", "", "")
-    @include translate(".#{$screen}\\:hover\\:", ":hover", "", "-") // negative
+      @include flexDirection($prefix-responsive-hover, $pseudo-hover, $class-false)
 
-    @include display(".#{$screen}\\:hover\\:", ":hover", "")
-    @include position(".#{$screen}\\:hover\\:", ":hover", "")
-    @include visibility(".#{$screen}\\:hover\\:", ":hover", "")
+      @include rotate($prefix-responsive-hover, $pseudo-hover, $class-false, $negative-false)
+      @include rotate($prefix-responsive-hover, $pseudo-hover, $class-false, $negative-true) // negative
+      @include scale($prefix-responsive-hover, $pseudo-hover, $class-false)
+      @include skew($prefix-responsive-hover, $pseudo-hover, $class-false, $negative-false)
+      @include skew($prefix-responsive-hover, $pseudo-hover, $class-false, $negative-true) // negative
+      @include transformOrigin($prefix-responsive-hover, $pseudo-hover, $class-false)
+      @include translate($prefix-responsive-hover, $pseudo-hover, $class-false, $negative-false)
+      @include translate($prefix-responsive-hover, $pseudo-hover, $class-false, $negative-true) // negative
 
-    @include fontSize(".hover\\:", ":hover", "")
-    @include fontWeight(".#{$screen}\\:hover\\:", ":hover", "")
-    @include textDecoration(".#{$screen}\\:hover\\:", ":hover", "")
+      @include display($prefix-responsive-hover, $pseudo-hover, $class-false)
+      @include position($prefix-responsive-hover, $pseudo-hover, $class-false)
+      @include visibility($prefix-responsive-hover, $pseudo-hover, $class-false)
 
-    // focus
+      @include fontSize($prefix-responsive-hover, $pseudo-hover, $class-false)
+      @include fontWeight($prefix-responsive-hover, $pseudo-hover, $class-false)
+      @include textDecoration($prefix-responsive-hover, $pseudo-hover, $class-false)
 
-    @include outline(".#{$screen}\\:focus\\:", ":focus", "")
+      // focus
 
-    @include fontWeight(".#{$screen}\\:focus\\:", ":focus", "")
-    @include textDecoration(".#{$screen}\\:focus\\:", ":focus", "")
+      @include outline($prefix-responsive-focus, $pseudo-focus, $class-false)
 
-    // active
+      @include fontWeight($prefix-responsive-focus, $pseudo-focus, $class-false)
+      @include textDecoration($prefix-responsive-focus, $pseudo-focus, $class-false)
 
-    // visited
+      // active
 
-    // disabled
+      // visited
+
+      // disabled
 
   }
 }
