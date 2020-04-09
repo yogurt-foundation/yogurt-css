@@ -1,5 +1,5 @@
 /**
- * @module: _mixin.scss
+ * @file: _rules.scss
  */
 
 // class options
@@ -29,9 +29,7 @@ $pseudo-active: ":active";
 $pseudo-visited: ":visited";
 $pseudo-disabled: ":disabled";
 
-// responsive prefix and variants, see `_responsive.scss`
-
-/* rules */
+/* at rules */
 
 @mixin setRuleSingle($prefix, $pseudo, $class, $selector, $modifier, $property, $value) {
   #{$prefix}#{$class}#{$id}#{$selector}#{$modifier}#{$pseudo} {

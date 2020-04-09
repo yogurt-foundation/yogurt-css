@@ -1,6 +1,6 @@
 /**
- * @module: responsive
- * @type: _minWidth.scss
+ * @module: responsive/
+ * @file: _minWidth.scss
  */
 
 @each $screen, $size in $screens {
