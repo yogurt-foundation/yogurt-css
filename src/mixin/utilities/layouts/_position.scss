@@ -1,0 +1,15 @@
+/**
+ * @utility: layouts
+ * @module: _position.scss
+ */
+
+@mixin position($prefix, $pseudo, $class) {
+  @each $modifier, $value in $position {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "", $modifier,
+      "position", $value#{$override}
+    )
+  }
+}
+

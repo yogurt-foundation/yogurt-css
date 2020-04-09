@@ -1,0 +1,16 @@
+/**
+ * @utility: typography
+ * @module: _listStyleType.scss
+ */
+
+@mixin listStyleType($prefix, $pseudo, $class) {
+  @each $modifier, $value in $list-style-type {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "list-", $modifier,
+      "list-style-type", $value#{$override}
+    )
+  }
+}
+
+

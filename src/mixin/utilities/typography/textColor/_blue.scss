@@ -1,0 +1,12 @@
+/**
+ * @utility: typography
+ * @module: textColor/_blue.scss
+ */
+
+@mixin textColorBlue($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $blue {
+    @include textColor
+      ($prefix, $pseudo, $class, blue, $mode, $hex, $radius)
+  }
+}
+

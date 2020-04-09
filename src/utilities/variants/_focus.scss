@@ -1,0 +1,67 @@
+/**
+ * @module: default/variants/
+ * @type: _focus.scss
+ */
+
+/* backgrounds */
+
+@include backgroundColorBlack($prefix-focus, $pseudo-focus, $class-false)
+@include backgroundColorBlue($prefix-focus, $pseudo-focus, $class-false)
+@include backgroundColorCharcoal($prefix-focus, $pseudo-focus, $class-false)
+@include backgroundColorGray($prefix-focus, $pseudo-focus, $class-false)
+@include backgroundColorGreen($prefix-focus, $pseudo-focus, $class-false)
+@include backgroundColorIndigo($prefix-focus, $pseudo-focus, $class-false)
+@include backgroundColorOrange($prefix-focus, $pseudo-focus, $class-false)
+@include backgroundColorPink($prefix-focus, $pseudo-focus, $class-false)
+@include backgroundColorPurple($prefix-focus, $pseudo-focus, $class-false)
+@include backgroundColorRed($prefix-focus, $pseudo-focus, $class-false)
+@include backgroundColorTeal($prefix-focus, $pseudo-focus, $class-false)
+@include backgroundColorYellow($prefix-focus, $pseudo-focus, $class-false)
+
+/* borders */
+
+/* effects */
+
+@include boxShadowDefault($prefix-focus, $pseudo-focus, $class-false)
+@include boxShadow($prefix-focus, $pseudo-focus, $class-false)
+
+/* filters */
+
+/* flexbox */
+
+/* interactivity */
+
+@include outline($prefix-focus, $pseudo-focus, $class-false)
+
+/* layouts */
+
+/* sizing */
+
+/* spacing */
+
+/* svg */
+
+/* tables */
+
+/* transforms */
+
+/* transitions */
+
+/* typography */
+
+// (optional)
+// @include placeholderColorBlack($prefix-focus, $pseudo-focus, $class-false)
+// @include placeholderColorBlue($prefix-focus, $pseudo-focus, $class-false)
+// @include placeholderColorCharcoal($prefix-focus, $pseudo-focus, $class-false)
+// @include placeholderColorGray($prefix-focus, $pseudo-focus, $class-false)
+// @include placeholderColorGreen($prefix-focus, $pseudo-focus, $class-false)
+// @include placeholderColorIndigo($prefix-focus, $pseudo-focus, $class-false)
+// @include placeholderColorOrange($prefix-focus, $pseudo-focus, $class-false)
+// @include placeholderColorPink($prefix-focus, $pseudo-focus, $class-false)
+// @include placeholderColorPurple($prefix-focus, $pseudo-focus, $class-false)
+// @include placeholderColorRed($prefix-focus, $pseudo-focus, $class-false)
+// @include placeholderColorTeal($prefix-focus, $pseudo-focus, $class-false)
+// @include placeholderColorYellow($prefix-focus, $pseudo-focus, $class-false)
+
+@include fontWeight($prefix-focus, $pseudo-focus, $class-false)
+@include textDecoration($prefix-focus, $pseudo-focus, $class-false)

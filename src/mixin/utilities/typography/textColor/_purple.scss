@@ -1,0 +1,13 @@
+/**
+ * @utility: typography
+ * @module: textColor/_purple.scss
+ */
+
+@mixin textColorPurple($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $purple {
+    @include textColor
+      ($prefix, $pseudo, $class, purple, $mode, $hex, $radius)
+  }
+}
+
+

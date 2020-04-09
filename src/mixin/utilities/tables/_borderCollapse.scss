@@ -1,0 +1,18 @@
+/**
+ * @utility: tables
+ * @module: _borderCollapse.scss
+ */
+
+@mixin borderCollapse($prefix, $pseudo, $class) {
+  @each $modifier, $value in $border-collapse {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "border-", $modifier,
+      "border-#{$value}", $value#{$override}
+    )
+  }
+}
+
+
+
+

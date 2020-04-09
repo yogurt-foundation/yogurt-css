@@ -1,0 +1,12 @@
+/**
+ * @utility: backgrounds
+ * @module: backgroundColor/_gray.scss
+ */
+
+@mixin backgroundColorGray($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $gray {
+    @include backgroundColor
+      ($prefix, $pseudo, $class, gray, $mode, $hex, $radius)
+  }
+}
+

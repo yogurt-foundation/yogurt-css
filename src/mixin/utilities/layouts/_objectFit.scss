@@ -1,0 +1,16 @@
+/**
+ * @utility: layouts
+ * @module: _objectFit.scss
+ */
+
+@mixin objectFit($prefix, $pseudo, $class) {
+  @each $modifier, $value in $object-fit {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "object-", $modifier,
+      "object-fit", $value#{$override}
+    )
+  }
+}
+
+

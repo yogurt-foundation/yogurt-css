@@ -1,0 +1,51 @@
+/**
+ * @utility: layouts
+ * @module: _inset.scss
+ */
+
+@mixin inset($prefix, $pseudo, $class) {
+  @each $modifier, $value in $inset {
+    @include setRuleQuad(
+      $prefix, $pseudo, $class,
+      "inset-", $modifier,
+      "top", "bottom", "left", "right", $value#{$override}
+    )
+    @include setRuleDouble(
+      $prefix, $pseudo, $class,
+      "inset-x-", $modifier,
+      "left", "right", $value#{$override}
+    )
+    @include setRuleDouble(
+      $prefix, $pseudo, $class,
+      "inset-y-", $modifier,
+      "top", "bottom", $value#{$override}
+    )
+  }
+}
+
+@mixin insetTBLR($prefix, $pseudo, $class) {
+  @each $modifier, $value in $spacing {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "top-", $modifier,
+      "top", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "bottom-", $modifier,
+      "bottom", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "left-", $modifier,
+      "left", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "right-", $modifier,
+      "right", $value#{$override}
+    )
+  }
+}
+
+

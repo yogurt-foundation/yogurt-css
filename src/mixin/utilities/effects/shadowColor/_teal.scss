@@ -1,0 +1,12 @@
+/**
+ * @utility: effects
+ * @module: shadowColor/_teal.scss
+ */
+
+@mixin shadowColorTeal($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $teal {
+    @include shadowColor
+      ($prefix, $pseudo, $class, teal, $mode, $hex, $radius)
+  }
+}
+

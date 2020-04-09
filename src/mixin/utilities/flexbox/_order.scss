@@ -1,0 +1,17 @@
+/**
+ * @utility: flexbox
+ * @module: _order.scss
+ */
+
+@mixin order($prefix, $pseudo, $class) {
+  @each $modifier, $value in $order {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "order-", $modifier,
+      "order", $value#{$override}
+    )
+  }
+}
+
+
+

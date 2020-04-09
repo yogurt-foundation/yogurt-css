@@ -1,0 +1,14 @@
+/**
+ * @utility: transitions
+ * @module: _transitionTiming.scss
+ */
+
+@mixin transitionTiming($prefix, $pseudo, $class) {
+  @each $modifier, $value in $transition-timing {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "ease-", $modifier,
+      "transition-timing-function", $value#{$override}
+    )
+  }
+}

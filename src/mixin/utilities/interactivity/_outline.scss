@@ -1,0 +1,13 @@
+/**
+ * @utility: interactivity
+ * @module: _outline.scss
+ */
+
+@mixin outline($prefix, $pseudo, $class) {
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "outline-none", "",
+    "outline", "0#{$override}"
+  )
+}
+

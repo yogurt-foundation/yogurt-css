@@ -1,0 +1,12 @@
+/**
+ * @utility: effects
+ * @module: shadowColor/_pink.scss
+ */
+
+@mixin shadowColorPink($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $pink {
+    @include shadowColor
+      ($prefix, $pseudo, $class, pink, $mode, $hex, $radius)
+  }
+}
+

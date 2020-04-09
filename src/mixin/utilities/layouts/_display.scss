@@ -1,0 +1,16 @@
+/**
+ * @utility: layouts
+ * @module: _display.scss
+ */
+
+@mixin display($prefix, $pseudo, $class) {
+  @each $modifier, $value in $display {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "", $modifier,
+      "display", $value#{$override}
+    )
+  }
+}
+
+

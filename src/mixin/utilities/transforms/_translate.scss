@@ -1,0 +1,22 @@
+/**
+ * @utility: transforms
+ * @module: _translate.scss
+ */
+
+@mixin translate($prefix, $pseudo, $class, $negative) {
+  @each $modifier, $value in $translate {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "#{$negative}translate-x-", $modifier,
+      "--transform-translate-x", #{$negative}#{$value}#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "#{$negative}translate-y-", $modifier,
+      "--transform-translate-y", #{$negative}#{$value}#{$override}
+    )
+  }
+}
+
+
+

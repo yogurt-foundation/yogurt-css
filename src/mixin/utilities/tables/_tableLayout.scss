@@ -1,0 +1,17 @@
+/**
+ * @utility: tables
+ * @module: _tableLayout.scss
+ */
+
+@mixin tableLayout($prefix, $pseudo, $class) {
+  @each $modifier, $value in $table-layout {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "table-", $modifier,
+      "table-layout", $value#{$override}
+    )
+  }
+}
+
+
+

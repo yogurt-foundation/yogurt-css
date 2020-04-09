@@ -1,0 +1,13 @@
+/**
+ * @utility: backgrounds
+ * @module: backgroundColor/_special.scss
+ */
+
+@mixin backgroundColorSpecial($prefix, $pseudo, $class) {
+  @each $modifier, $value in $special-colors {
+    #{$prefix}#{$class}bg-#{$modifier}#{$pseudo} {
+      background-color: #{$value}#{$override}
+    }
+  }
+}
+

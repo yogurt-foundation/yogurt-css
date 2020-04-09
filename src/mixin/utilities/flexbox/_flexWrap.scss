@@ -1,0 +1,16 @@
+/**
+ * @utility: flexbox
+ * @module: _flexWrap.scss
+ */
+
+@mixin flexWrap($prefix, $pseudo, $class) {
+  @each $modifier, $value in $flex-wrap {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "flex-", $modifier,
+      "flex-wrap", $value#{$override}
+    )
+  }
+}
+
+

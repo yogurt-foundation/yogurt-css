@@ -1,0 +1,17 @@
+/**
+ * @utility: borders
+ * @module: _borderStyle.scss
+ */
+
+@mixin borderStyle($prefix, $pseudo, $class) {
+  @each $modifier, $value in $border-style {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "border-", $modifier,
+      "border-style", $value#{$override}
+    )
+  }
+}
+
+
+

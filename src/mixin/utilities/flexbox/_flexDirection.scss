@@ -1,0 +1,15 @@
+/**
+ * @utility: flexbox
+ * @module: _flexDirection.scss
+ */
+
+@mixin flexDirection($prefix, $pseudo, $class) {
+  @each $modifier, $value in $flex-direction {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "flex-", $modifier,
+      "flex-direction", $value#{$override}
+    )
+  }
+}
+

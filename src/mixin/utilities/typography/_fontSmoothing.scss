@@ -1,0 +1,16 @@
+/**
+ * @utility: typography
+ * @module: _fontSmoothing.scss
+ */
+
+@mixin fontSmoothing($prefix, $class) {
+  #{$prefix}#{$class}#{$id}antialiased {
+    -webkit-font-smoothing: antialiased#{$override};
+    -moz-osx-font-smoothing: grayscale#{$override}
+  }
+  #{$prefix}#{$class}#{$id}subpixel-antialiased {
+    -webkit-font-smoothing: auto#{$override};
+    -moz-osx-font-smoothing: auto#{$override}
+  }
+}
+

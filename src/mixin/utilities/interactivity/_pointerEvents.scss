@@ -1,0 +1,16 @@
+/**
+ * @utility: interactivity
+ * @module: _pointerEvents.scss
+ */
+
+@mixin pointerEvents($prefix, $pseudo, $class) {
+  @each $modifier, $value in $pointer-events {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "pointer-events-", $modifier,
+      "pointer-events", $value#{$override}
+    )
+  }
+}
+
+

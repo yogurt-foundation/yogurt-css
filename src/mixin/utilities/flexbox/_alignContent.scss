@@ -1,0 +1,15 @@
+/**
+ * @utility: flexbox
+ * @module: _alignContent.scss
+ */
+
+@mixin alignContent($prefix, $pseudo, $class) {
+  @each $modifier, $value in $align-content {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "content-", $modifier,
+      "align-content", $value#{$override}
+    )
+  }
+}
+

@@ -3,14 +3,42 @@
  * @type: _hover.scss
  */
 
+/* backgrounds */
+
 @include backgroundAttachment($prefix-responsive-hover, $pseudo-hover, $class-false)
 
+/* borders */
+
+/* effects */
+
 @include opacity($prefix-responsive-hover, $pseudo-hover, $class-false)
+
+/* filters */
+
+/* flexbox */
+
+@include flexDirection($prefix-responsive-hover, $pseudo-hover, $class-false)
+
+/* interactivity */
+
+/* layouts */
+
+@include display($prefix-responsive-hover, $pseudo-hover, $class-false)
+@include position($prefix-responsive-hover, $pseudo-hover, $class-false)
+@include visibility($prefix-responsive-hover, $pseudo-hover, $class-false)
+
+/* sizing */
 
 @include height($prefix-responsive-hover, $pseudo-hover, $class-false)
 @include width($prefix-responsive-hover, $pseudo-hover, $class-false)
 
-@include flexDirection($prefix-responsive-hover, $pseudo-hover, $class-false)
+/* spacing */
+
+/* svg */
+
+/* tables */
+
+/* transforms */
 
 @include rotate($prefix-responsive-hover, $pseudo-hover, $class-false, $negative-false)
 @include rotate($prefix-responsive-hover, $pseudo-hover, $class-false, $negative-true) // negative
@@ -21,11 +49,10 @@
 @include translate($prefix-responsive-hover, $pseudo-hover, $class-false, $negative-false)
 @include translate($prefix-responsive-hover, $pseudo-hover, $class-false, $negative-true) // negative
 
-@include display($prefix-responsive-hover, $pseudo-hover, $class-false)
-@include position($prefix-responsive-hover, $pseudo-hover, $class-false)
-@include visibility($prefix-responsive-hover, $pseudo-hover, $class-false)
+/* transitions */
+
+/* typography */
 
 @include fontSize($prefix-responsive-hover, $pseudo-hover, $class-false)
 @include fontWeight($prefix-responsive-hover, $pseudo-hover, $class-false)
 @include textDecoration($prefix-responsive-hover, $pseudo-hover, $class-false)
-

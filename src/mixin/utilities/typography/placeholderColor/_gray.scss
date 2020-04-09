@@ -1,0 +1,14 @@
+/**
+ * @utility: typography
+ * @module: placeholderColor/_gray.scss
+ */
+
+@mixin placeholderColorGray($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $gray {
+    @include placeholderColor
+      ($prefix, $pseudo, $class, gray, $mode, $hex, $radius)
+  }
+}
+
+
+

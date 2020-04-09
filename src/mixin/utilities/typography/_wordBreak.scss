@@ -1,0 +1,22 @@
+/**
+ * @utility: typography
+ * @module: _wordBreak.scss
+ */
+
+@mixin wordBreak($prefix, $pseudo, $class) {
+  #{$prefix}#{$class}#{$id}break-normal#{$pseudo} {
+    overflow-wrap: normal#{$override};
+    word-break: normal#{$override}
+  }
+  #{$prefix}#{$class}#{$id}break-words#{$pseudo} {
+    overflow-wrap: break-word#{$override}
+  }
+  #{$prefix}#{$class}#{$id}break-all#{$pseudo} {
+    word-break: all#{$override}
+  }
+  #{$prefix}#{$class}#{$id}truncate#{$pseudo} {
+    overflow: hidden#{$override};
+    text-overflow: ellipsis#{$override};
+    white-space: nowrap#{$override}
+  }
+}

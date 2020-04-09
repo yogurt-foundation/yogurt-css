@@ -1,0 +1,13 @@
+/**
+ * @utility: svg
+ * @module: _stroke.scss
+ */
+
+@mixin stroke($prefix, $pseudo, $class) {
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "stroke-current", "",
+    "stroke", "currentColor#{$override}"
+  )
+}
+

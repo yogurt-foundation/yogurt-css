@@ -1,0 +1,11 @@
+/**
+ * @utility: effects
+ * @module: shadowColor/_orange.scss
+ */
+
+@mixin shadowColorOrange($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $orange {
+    @include shadowColor
+      ($prefix, $pseudo, $class, orange, $mode, $hex, $radius)
+  }
+}

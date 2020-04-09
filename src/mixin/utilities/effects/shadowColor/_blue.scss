@@ -1,0 +1,12 @@
+/**
+ * @utility: effects
+ * @module: shadowColor/_blue.scss
+ */
+
+@mixin shadowColorBlue($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $blue {
+    @include shadowColor
+      ($prefix, $pseudo, $class, blue, $mode, $hex, $radius)
+  }
+}
+

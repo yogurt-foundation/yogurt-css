@@ -1,0 +1,11 @@
+/**
+ * @utility: borders
+ * @module: borderColor/_teal.scss
+ */
+
+@mixin borderColorTeal($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $teal {
+    @include borderColor
+      ($prefix, $pseudo, $class, teal, $mode, $hex, $radius)
+  }
+}

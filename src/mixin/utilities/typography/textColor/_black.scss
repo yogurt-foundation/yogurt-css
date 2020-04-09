@@ -1,0 +1,13 @@
+/**
+ * @utility: typography
+ * @module: textColor/_black.scss
+ */
+
+@mixin textColorBlack($prefix, $pseudo, $class){
+  @each $mode, $hex, $radius in $black {
+    @include textColor
+      ($prefix, $pseudo, $class, black, $mode, $hex, $radius)
+  }
+}
+
+

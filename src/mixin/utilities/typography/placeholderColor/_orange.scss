@@ -1,0 +1,13 @@
+/**
+ * @utility: typography
+ * @module: placeholderColor/_orange.scss
+ */
+
+@mixin placeholderColorOrange($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $orange {
+    @include placeholderColor
+      ($prefix, $pseudo, $class, orange, $mode, $hex, $radius)
+  }
+}
+
+

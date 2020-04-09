@@ -1,0 +1,11 @@
+/**
+ * @utility: typography
+ * @module: placeholderColor/_black.scss
+ */
+
+@mixin placeholderColorBlack($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $black {
+    @include placeholderColor
+      ($prefix, $pseudo, $class, black, $mode, $hex, $radius)
+  }
+}

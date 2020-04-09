@@ -1,0 +1,16 @@
+/**
+ * @utility: layouts
+ * @module: _clear.scss
+ */
+
+@mixin clear($prefix, $pseudo, $class) {
+  @each $modifier, $value in $clear {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "clear-", $modifier,
+      "clear", $value#{$override}
+    )
+  }
+}
+
+

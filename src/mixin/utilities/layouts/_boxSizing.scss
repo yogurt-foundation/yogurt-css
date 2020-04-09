@@ -1,0 +1,17 @@
+/**
+ * @utility: layouts
+ * @module: _boxSizing.scss
+ */
+
+@mixin boxSizing($prefix, $pseudo, $class) {
+  @each $modifier, $value in $box-sizing {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "box-", $modifier,
+      "box-sizing", $value#{$override}
+    )
+  }
+}
+
+
+

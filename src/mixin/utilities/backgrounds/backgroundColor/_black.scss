@@ -1,0 +1,12 @@
+/**
+ * @utility: backgrounds
+ * @module: backgroundColor/_black.scss
+ */
+
+@mixin backgroundColorBlack($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $black {
+    @include backgroundColor
+      ($prefix, $pseudo, $class, black, $mode, $hex, $radius)
+  }
+}
+

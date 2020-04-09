@@ -1,0 +1,12 @@
+/**
+ * @utility: borders
+ * @module: borderColor/_gray.scss
+ */
+
+@mixin borderColorGray($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $gray {
+    @include borderColor
+      ($prefix, $pseudo, $class, gray, $mode, $hex, $radius)
+  }
+}
+

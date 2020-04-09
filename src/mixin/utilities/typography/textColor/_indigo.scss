@@ -1,0 +1,12 @@
+/**
+ * @utility: typography
+ * @module: textColor/_indigo.scss
+ */
+
+@mixin textColorIndigo($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $indigo {
+    @include textColor
+      ($prefix, $pseudo, $class, indigo, $mode, $hex, $radius)
+  }
+}
+

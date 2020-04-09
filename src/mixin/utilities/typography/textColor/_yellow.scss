@@ -1,0 +1,12 @@
+/**
+ * @utility: typography
+ * @module: textColor/_yellow.scss
+ */
+
+@mixin textColorYellow($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $yellow {
+    @include textColor
+      ($prefix, $pseudo, $class, yellow, $mode, $hex, $radius)
+  }
+}
+

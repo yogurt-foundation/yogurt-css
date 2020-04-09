@@ -1,0 +1,17 @@
+/**
+ * @utility: interactivity
+ * @module: _cursor.scss
+ */
+
+@mixin cursor($prefix, $pseudo, $class) {
+  @each $modifier, $value in $cursor {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "cursor-", $modifier,
+      "cursor", $value#{$override}
+    )
+  }
+}
+
+
+

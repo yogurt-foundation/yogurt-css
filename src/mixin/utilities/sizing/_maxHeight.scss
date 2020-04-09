@@ -1,0 +1,14 @@
+/**
+ * @utility: sizing
+ * @module: _maxHeight.scss
+ */
+
+@mixin maxHeight($prefix, $pseudo, $class) {
+  @each $modifier, $value in $max-height {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "max-h-", $modifier,
+      "max-height", $value#{$override}
+    )
+  }
+}

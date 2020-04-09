@@ -1,0 +1,15 @@
+/**
+ * @utility: typography
+ * @module: _whitespace.scss
+ */
+
+@mixin whitespace($prefix, $pseudo, $class) {
+  @each $modifier, $value in $whitespace {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "whitespace-", $modifier,
+      "white-space", $value#{$override}
+    )
+  }
+}
+

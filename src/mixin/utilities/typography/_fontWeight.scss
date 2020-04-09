@@ -1,0 +1,16 @@
+/**
+ * @utility: typography
+ * @module: _fontWeight.scss
+ */
+
+@mixin fontWeight($prefix, $pseudo, $class) {
+  @each $modifier, $value in $font-weight {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "font-", $modifier,
+      "font-weight", $value#{$override}
+    )
+  }
+}
+
+

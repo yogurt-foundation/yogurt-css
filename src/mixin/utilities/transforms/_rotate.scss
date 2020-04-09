@@ -1,0 +1,16 @@
+/**
+ * @utility: transforms
+ * @module: _rotate.scss
+ */
+
+@mixin rotate($prefix, $pseudo, $class, $negative) {
+  @each $modifier, $value in $rotate {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "#{$negative}rotate-", $modifier,
+      "--transform-rotate", #{$negative}$value#{$override}
+    )
+  }
+}
+
+

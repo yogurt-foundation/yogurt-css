@@ -1,0 +1,16 @@
+/**
+ * @utility: transitions
+ * @module: _transitionProperty.scss
+ */
+
+@mixin transitionProperty($prefix, $pseudo, $class) {
+  @each $modifier, $value in $transition-property {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "", $modifier,
+      "transition-property", $value#{$override}
+    )
+  }
+}
+
+

@@ -1,0 +1,14 @@
+/**
+ * @utility: typography
+ * @module: placeholderColor/_green.scss
+ */
+
+@mixin placeholderColorGreen($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $green {
+    @include placeholderColor
+      ($prefix, $pseudo, $class, green, $mode, $hex, $radius)
+  }
+}
+
+
+

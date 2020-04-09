@@ -1,0 +1,15 @@
+/**
+ * @utility: typography
+ * @module: _verticalAlign.scss
+ */
+
+@mixin verticalAlign($prefix, $pseudo, $class) {
+  @each $modifier, $value in $vertical-align {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "align-", $modifier,
+      "vertical-align", $value#{$override}
+    )
+  }
+}
+

@@ -1,0 +1,12 @@
+/**
+ * @utility: typography
+ * @module: placeholderColor/_charcoal.scss
+ */
+
+@mixin placeholderColorCharcoal($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $charcoal {
+    @include placeholderColor
+      ($prefix, $pseudo, $class, charcoal, $mode, $hex, $radius)
+  }
+}
+

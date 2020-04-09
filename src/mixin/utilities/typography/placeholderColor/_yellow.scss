@@ -1,0 +1,12 @@
+/**
+ * @utility: typography
+ * @module: placeholderColor/_yellow.scss
+ */
+
+@mixin placeholderColorYellow($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $yellow {
+    @include placeholderColor
+      ($prefix, $pseudo, $class, yellow, $mode, $hex, $radius)
+  }
+}
+

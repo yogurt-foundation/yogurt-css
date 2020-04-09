@@ -1,0 +1,44 @@
+/**
+ * @utility: borders
+ * @module: _borderWidth.scss
+ */
+
+@mixin borderWidth($prefix, $pseudo, $class) {
+  @each $modifier, $value in $border-width {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "border-", $modifier,
+      "border-width", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "border-t-", $modifier,
+      "border-top-width", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "border-b-", $modifier,
+      "border-bottom-width", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "border-l-", $modifier,
+      "border-left-width", $value#{$override}
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "border-r-", $modifier,
+      "border-right-width", $value#{$override}
+    )
+  }
+}
+
+@mixin borderWidthDefault($prefix, $pseudo, $class,) {
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "border", "",
+    "border-width", "0.0625em#{$override}"
+  )
+}
+
+

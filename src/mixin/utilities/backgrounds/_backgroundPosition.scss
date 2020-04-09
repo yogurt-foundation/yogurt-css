@@ -1,0 +1,15 @@
+/**
+ * @utility: backgrounds
+ * @module: _backgroundPosition.scss
+ */
+
+@mixin backgroundPosition($prefix, $pseudo, $class) {
+  @each $modifier, $value in $background-position {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "bg-", $modifier,
+      "background-position", $value#{$override}
+    )
+  }
+}
+

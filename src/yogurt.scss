@@ -12,139 +12,32 @@
 
 @import 'reset'; // normalize.css v8.0.1
 
-/*! yogurt.css v1.0.3-stable | MIT License | github.com/yogurt-foundation/yogurt-css */
+/*! yogurt.css v1.0.4-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
 
 @import 'config';
-@import 'mixin';
 
-/* layout */
+@import 'mixin/rules';
 
-@import 'utilities/layouts/boxSizing';
-@import 'utilities/layouts/clear';
-@import 'utilities/layouts/container';
-@import 'utilities/layouts/display';
-@import 'utilities/layouts/float';
-@import 'utilities/layouts/inset';
-@import 'utilities/layouts/objectFit';
-@import 'utilities/layouts/objectPosition';
-@import 'utilities/layouts/overflow';
-@import 'utilities/layouts/position';
-@import 'utilities/layouts/visibility';
-@import 'utilities/layouts/zIndex';
+@import 'mixin/utilities/backgrounds/**/**/*';
+@import 'mixin/utilities/borders/**/**/*';
+@import 'mixin/utilities/effects/**/**/*';
+// @import 'mixin/utilities/filters/**/**/*'; // optional (v1.0.2)
+@import 'mixin/utilities/flexbox/**/**/*';
+@import 'mixin/utilities/interactivity/**/**/*';
+@import 'mixin/utilities/layouts/**/**/*';
+@import 'mixin/utilities/sizing/**/**/*';
+@import 'mixin/utilities/spacing/**/**/*';
+@import 'mixin/utilities/svg/**/**/*';
+@import 'mixin/utilities/tables/**/**/*';
+@import 'mixin/utilities/transforms/**/**/*';
+@import 'mixin/utilities/transitions/**/**/*';
+@import 'mixin/utilities/typography/**/**/*';
 
-/* flexbox */
+// non-responsive `default` and `variant` utilities
+@import 'utilities/**/**/*';
 
-@import 'utilities/flexbox/alignContent';
-@import 'utilities/flexbox/alignItems';
-@import 'utilities/flexbox/alignSelf';
-@import 'utilities/flexbox/flex';
-@import 'utilities/flexbox/flexDirection';
-@import 'utilities/flexbox/flexGrow';
-@import 'utilities/flexbox/flexShrink';
-@import 'utilities/flexbox/flexWrap';
-@import 'utilities/flexbox/justifyContent';
-@import 'utilities/flexbox/order';
-
-/* spacing */
-
-@import 'utilities/spacing/margin';
-@import 'utilities/spacing/padding';
-
-/* sizing */
-
-@import 'utilities/sizing/height';
-@import 'utilities/sizing/maxHeight';
-@import 'utilities/sizing/maxWidth';
-@import 'utilities/sizing/minHeight';
-@import 'utilities/sizing/minWidth';
-@import 'utilities/sizing/width';
-
-/* typography */
-
-@import 'utilities/typography/fontFamily';
-@import 'utilities/typography/fontSize';
-@import 'utilities/typography/fontSmoothing';
-@import 'utilities/typography/fontStyle';
-@import 'utilities/typography/fontWeight';
-@import 'utilities/typography/letterSpacing';
-@import 'utilities/typography/lineHeight';
-@import 'utilities/typography/listStylePosition';
-@import 'utilities/typography/listStyleType';
-@import 'utilities/typography/placeholder';
-// @import 'utilities/typography/placeholderColor/*'; // optional
-@import 'utilities/typography/textAlign';
-@import 'utilities/typography/textColor/*';
-@import 'utilities/typography/textDecoration';
-@import 'utilities/typography/textTransform';
-@import 'utilities/typography/verticalAlign';
-@import 'utilities/typography/whitespace';
-@import 'utilities/typography/wordBreak';
-
-/* backgrounds */
-
-@import 'utilities/backgrounds/backgroundAttachment';
-@import 'utilities/backgrounds/backgroundColor/*';
-@import 'utilities/backgrounds/backgroundPosition';
-@import 'utilities/backgrounds/backgroundRepeat';
-@import 'utilities/backgrounds/backgroundSize';
-
-/* borders */
-
-@import 'utilities/borders/borderColor/*';
-@import 'utilities/borders/borderRadius';
-@import 'utilities/borders/borderStyle';
-@import 'utilities/borders/borderWidth';
-
-/* tables */
-
-@import 'utilities/tables/borderCollapse';
-@import 'utilities/tables/tableLayout';
-
-/* effects */
-
-@import 'utilities/effects/boxShadow';
-@import 'utilities/effects/opacity';
-// @import 'utilities/effects/shadowColor/*'; // optional (v1.0.2)
-
-/* interactivity */
-
-@import 'utilities/interactivity/appearance';
-@import 'utilities/interactivity/cursor';
-@import 'utilities/interactivity/outline';
-@import 'utilities/interactivity/pointerEvents';
-@import 'utilities/interactivity/resize';
-@import 'utilities/interactivity/userSelect';
-
-/* svg */
-
-@import 'utilities/svg/fill';
-@import 'utilities/svg/stroke';
-@import 'utilities/svg/strokeWidth';
-
-/* transforms */
-
-@import 'utilities/transforms/rotate';
-@import 'utilities/transforms/scale';
-@import 'utilities/transforms/skew';
-@import 'utilities/transforms/transform';
-@import 'utilities/transforms/translate';
-@import 'utilities/transforms/transformOrigin';
-
-/* transitions */
-
-@import 'utilities/transitions/transitionProperty';
-@import 'utilities/transitions/transitionDuration';
-@import 'utilities/transitions/transitionTiming';
-
-/* filters */
-
-// @import 'utilities/filters/blur'; // optional (v1.0.3)
-// @import 'utilities/filters/filterCompose'; // optional
-// @import 'utilities/filters/invert'; // optional (v1.0.3)
-
-/* responsive */
-
+// responsive `default` and `variant` utilities
 @import 'responsive/minWidth';
 // @import 'responsive/maxWidth'; // optional (v1.0.3)
 
-/*! yogurt.css v1.0.3-stable | MIT License | github.com/yogurt-foundation/yogurt-css */
+/*! yogurt.css v1.0.4-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */

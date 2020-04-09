@@ -1,0 +1,16 @@
+/**
+ * @utility: sizing
+ * @module: _height.scss
+ */
+
+@mixin height($prefix, $pseudo, $class) {
+  @each $modifier, $value in $height {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "h-", $modifier,
+      "height", $value#{$override}
+    )
+  }
+}
+
+

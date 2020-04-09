@@ -1,0 +1,15 @@
+/**
+ * @utility: backgrounds
+ * @module: _backgroundSize.scss
+ */
+
+@mixin backgroundSize($prefix, $pseudo, $class) {
+  @each $modifier, $value in $background-size {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "bg-", $modifier,
+      "background-size", $value#{$override}
+    )
+  }
+}
+

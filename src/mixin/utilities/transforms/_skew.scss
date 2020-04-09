@@ -1,0 +1,22 @@
+/**
+ * @utility: transforms
+ * @module: _skew.scss
+ */
+
+@mixin skew($prefix, $pseudo, $class, $negative) {
+  @each $modifier, $value in $skew {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "#{$negative}skew-x-", $modifier,
+      "--transform-skew-x", "#{$negative}#{$value}#{$override}"
+    )
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "#{$negative}skew-y-", $modifier,
+      "--transform-skew-y", "#{$negative}#{$value}#{$override}"
+    )
+  }
+}
+
+
+

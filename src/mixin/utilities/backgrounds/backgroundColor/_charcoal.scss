@@ -1,0 +1,12 @@
+/**
+ * @utility: backgrounds
+ * @module: backgroundColor/_charcoal.scss
+ */
+
+@mixin backgroundColorCharcoal($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $charcoal {
+    @include backgroundColor
+      ($prefix, $pseudo, $class, charcoal, $mode, $hex, $radius)
+  }
+}
+

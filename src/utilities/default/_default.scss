@@ -1,0 +1,222 @@
+/**
+ * @module: utilities/default/
+ * @type: _default.scss
+ */
+
+/* backgrounds */
+
+@include backgroundColorBlack($prefix-false, $pseudo-false, $class-true)
+@include backgroundColorBlue($prefix-false, $pseudo-false, $class-true)
+@include backgroundColorCharcoal($prefix-false, $pseudo-false, $class-true)
+@include backgroundColorGray($prefix-false, $pseudo-false, $class-true)
+@include backgroundColorGreen($prefix-false, $pseudo-false, $class-true)
+@include backgroundColorIndigo($prefix-false, $pseudo-false, $class-true)
+@include backgroundColorOrange($prefix-false, $pseudo-false, $class-true)
+@include backgroundColorPink($prefix-false, $pseudo-false, $class-true)
+@include backgroundColorPurple($prefix-false, $pseudo-false, $class-true)
+@include backgroundColorRed($prefix-false, $pseudo-false, $class-true)
+@include backgroundColorSpecial($prefix-false, $pseudo-false, $class-true)
+@include backgroundColorTeal($prefix-false, $pseudo-false, $class-true)
+@include backgroundColorYellow($prefix-false, $pseudo-false, $class-true)
+
+@include backgroundAttachment($prefix-false, $pseudo-false, $class-true)
+@include backgroundPosition($prefix-false, $pseudo-false, $class-true)
+@include backgroundRepeat($prefix-false, $pseudo-false, $class-true)
+@include backgroundSize($prefix-false, $pseudo-false, $class-true)
+
+/* borders */
+
+@include borderColorBlack($prefix-false, $pseudo-false, $class-true)
+@include borderColorBlue($prefix-false, $pseudo-false, $class-true)
+@include borderColorCharcoal($prefix-false, $pseudo-false, $class-true)
+@include borderColorGray($prefix-false, $pseudo-false, $class-true)
+@include borderColorGreen($prefix-false, $pseudo-false, $class-true)
+@include borderColorIndigo($prefix-false, $pseudo-false, $class-true)
+@include borderColorOrange($prefix-false, $pseudo-false, $class-true)
+@include borderColorPink($prefix-false, $pseudo-false, $class-true)
+@include borderColorPurple($prefix-false, $pseudo-false, $class-true)
+@include borderColorRed($prefix-false, $pseudo-false, $class-true)
+@include borderColorSpecial($prefix-false, $pseudo-false, $class-true)
+@include borderColorTeal($prefix-false, $pseudo-false, $class-true)
+@include borderColorYellow($prefix-false, $pseudo-false, $class-true)
+
+@include borderRadiusDefault($prefix-false, $pseudo-false, $class-true)
+@include borderRadius($prefix-false, $pseudo-false, $class-true)
+
+@include borderStyle($prefix-false, $pseudo-false, $class-true)
+
+@include borderWidthDefault($prefix-false, $pseudo-false, $class-true)
+@include borderWidth($prefix-false, $pseudo-false, $class-true)
+
+/* effects */
+
+// (optional)
+// @include shadowColorBlack($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorBlue($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorCharcoal($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorGray($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorGreen($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorIndigo($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorOrange($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorPink($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorPurple($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorRed($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorTeal($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorYellow($prefix-false, $pseudo-false, $class-true)
+
+@include boxShadowDefault($prefix-false, $pseudo-false, $class-true)
+@include boxShadow($prefix-false, $pseudo-false, $class-true)
+
+@include opacity($prefix-false, $pseudo-false, $class-true)
+
+/* filters */
+
+// (optional)
+// @include filterBlur($prefix-false, $pseudo-false, $class-true) // (v1.0.3)
+// @include filterCompose($prefix-false, $pseudo-false, $class-true) // (v1.0.2)
+// @include filterInvert($prefix-false, $pseudo-false, $class-true) // (v1.0.3)
+
+/* flexbox */
+
+@include alignContent($prefix-false, $pseudo-false, $class-true)
+@include alignItems($prefix-false, $pseudo-false, $class-true)
+@include alignSelf($prefix-false, $pseudo-false, $class-true)
+@include flex($prefix-false, $pseudo-false, $class-true)
+@include flexDirection($prefix-false, $pseudo-false, $class-true)
+@include flexGrowDefault($prefix-false, $class-true)
+@include flexGrow($prefix-false, $pseudo-false, $class-true)
+@include flexShrinkDefault($prefix-false, $class-true)
+@include flexShrink($prefix-false, $pseudo-false, $class-true)
+@include flexWrap($prefix-false, $pseudo-false, $class-true)
+@include justifyContent($prefix-false, $pseudo-false, $class-true)
+@include order($prefix-false, $pseudo-false, $class-true)
+
+/* interactivity */
+
+@include appearance($prefix-false, $class-true)
+@include cursor($prefix-false, $pseudo-false, $class-true)
+@include outline($prefix-false, $pseudo-false, $class-true)
+@include pointerEvents($prefix-false, $pseudo-false, $class-true)
+@include resizeDefault($prefix-false, $pseudo-false, $class-true)
+@include resize($prefix-false, $pseudo-false, $class-true)
+@include userSelect($prefix-false, $pseudo-false, $class-true)
+
+/* layouts */
+
+@include boxSizing($prefix-false, $pseudo-false, $class-true)
+@include clear($prefix-false, $pseudo-false, $class-true)
+@include containerDefault($prefix-false, $class-true)
+@include display($prefix-false, $pseudo-false, $class-true)
+
+@include floatDefault($prefix-false, $class-true)
+@include float($prefix-false, $pseudo-false, $class-true)
+
+@include inset($prefix-false, $pseudo-false, $class-true)
+@include insetTBLR($prefix-false, $pseudo-false, $class-true)
+@include objectFit($prefix-false, $pseudo-false, $class-true)
+@include objectPosition($prefix-false, $pseudo-false, $class-true)
+
+@include overflow($prefix-false, $pseudo-false, $class-true)
+@include overflow-xy($prefix-false, $pseudo-false, $class-true)
+@include overflow-scrolling($prefix-false, $pseudo-false, $class-true)
+@include position($prefix-false, $pseudo-false, $class-true)
+
+@include visibility($prefix-false, $pseudo-false, $class-true)
+@include zIndex($prefix-false, $pseudo-false, $class-true)
+
+/* sizing */
+
+@include height($prefix-false, $pseudo-false, $class-true)
+@include maxHeight($prefix-false, $pseudo-false, $class-true)
+@include maxWidth($prefix-false, $pseudo-false, $class-true)
+@include minHeight($prefix-false, $pseudo-false, $class-true)
+@include minWidth($prefix-false, $pseudo-false, $class-true)
+@include width($prefix-false, $pseudo-false, $class-true)
+
+/* spacing */
+
+@include margin($prefix-false, $pseudo-false, $class-true, $negative-false)
+@include margin($prefix-false, $pseudo-false, $class-true, $negative-true) // negative
+
+@include padding($prefix-false, $pseudo-false, $class-true)
+
+/* svg */
+
+@include fill($prefix-false, $pseudo-false, $class-true)
+@include stroke($prefix-false, $pseudo-false, $class-true)
+@include strokeWidth($prefix-false, $pseudo-false, $class-true)
+
+/* tables */
+
+@include borderCollapse($prefix-false, $pseudo-false, $class-true)
+@include tableLayout($prefix-false, $pseudo-false, $class-true)
+
+/* transforms */
+
+@include rotate($prefix-false, $pseudo-false, $class-true, $negative-false)
+@include rotate($prefix-false, $pseudo-false, $class-true, $negative-true) // negative
+
+@include scale($prefix-false, $pseudo-false, $class-true)
+
+@include skew($prefix-false, $pseudo-false, $class-true, $negative-false)
+@include skew($prefix-false, $pseudo-false, $class-true, $negative-true) // negative
+
+@include transform($prefix-false, $pseudo-false, $class-true)
+
+@include transformOrigin($prefix-false, $pseudo-false, $class-true)
+
+@include translate($prefix-false, $pseudo-false, $class-true, $negative-false)
+@include translate($prefix-false, $pseudo-false, $class-true, $negative-true) // negative
+
+/* transitions */
+
+@include transitionDuration($prefix-false, $pseudo-false, $class-true)
+@include transitionProperty($prefix-false, $pseudo-false, $class-true)
+@include transitionTiming($prefix-false, $pseudo-false, $class-true)
+
+/* typography */
+
+// (optional)
+// @include placeholderColorBlack($prefix-false, $pseudo-false, $class-true)
+// @include placeholderColorBlue($prefix-false, $pseudo-false, $class-true)
+// @include placeholderColorCharcoal($prefix-false, $pseudo-false, $class-true)
+// @include placeholderColorGray($prefix-false, $pseudo-false, $class-true)
+// @include placeholderColorGreen($prefix-false, $pseudo-false, $class-true)
+// @include placeholderColorIndigo($prefix-false, $pseudo-false, $class-true)
+// @include placeholderColorOrange($prefix-false, $pseudo-false, $class-true)
+// @include placeholderColorPink($prefix-false, $pseudo-false, $class-true)
+// @include placeholderColorPurple($prefix-false, $pseudo-false, $class-true)
+// @include placeholderColorRed($prefix-false, $pseudo-false, $class-true)
+// @include placeholderColorTeal($prefix-false, $pseudo-false, $class-true)
+// @include placeholderColorYellow($prefix-false, $pseudo-false, $class-true)
+
+@include textColorBlack($prefix-false, $pseudo-false, $class-true)
+@include textColorBlue($prefix-false, $pseudo-false, $class-true)
+@include textColorCharcoal($prefix-false, $pseudo-false, $class-true)
+@include textColorGray($prefix-false, $pseudo-false, $class-true)
+@include textColorGreen($prefix-false, $pseudo-false, $class-true)
+@include textColorIndigo($prefix-false, $pseudo-false, $class-true)
+@include textColorOrange($prefix-false, $pseudo-false, $class-true)
+@include textColorPink($prefix-false, $pseudo-false, $class-true)
+@include textColorPurple($prefix-false, $pseudo-false, $class-true)
+@include textColorRed($prefix-false, $pseudo-false, $class-true)
+@include textColorSpecial($prefix-false, $pseudo-false, $class-true)
+@include textColorTeal($prefix-false, $pseudo-false, $class-true)
+@include textColorYellow($prefix-false, $pseudo-false, $class-true)
+
+@include fontFamily($prefix-false, $pseudo-false, $class-true)
+@include fontSize($prefix-false, $pseudo-false, $class-true)
+@include fontSmoothing($prefix-false, $class-true)
+@include fontStyle($prefix-false, $class-true)
+@include fontWeight($prefix-false, $pseudo-false, $class-true)
+@include letterSpacing($prefix-false, $pseudo-false, $class-true)
+@include lineHeight($prefix-false, $pseudo-false, $class-true)
+@include listStylePosition($prefix-false, $class-true)
+@include listStyleType($prefix-false, $pseudo-false, $class-true)
+@include placeholder() // static
+@include textAlign($prefix-false, $pseudo-false, $class-true)
+@include textDecoration($prefix-false, $pseudo-false, $class-true)
+@include textTransform($prefix-false, $pseudo-false, $class-true)
+@include verticalAlign($prefix-false, $pseudo-false, $class-true)
+@include whitespace($prefix-false, $pseudo-false, $class-true)
+@include wordBreak($prefix-false, $pseudo-false, $class-true)

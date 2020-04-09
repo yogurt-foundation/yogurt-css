@@ -1,0 +1,15 @@
+/**
+ * @utility: backgrounds
+ * @module: _backgroundRepeat.scss
+ */
+
+@mixin backgroundRepeat($prefix, $pseudo, $class) {
+  @each $modifier, $value in $background-repeat {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "bg-", $modifier,
+      "background-repeat", $value#{$override}
+    )
+  }
+}
+

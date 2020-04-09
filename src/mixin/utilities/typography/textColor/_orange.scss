@@ -1,0 +1,13 @@
+/**
+ * @utility: typography
+ * @module: textColor/_orange.scss
+ */
+
+@mixin textColorOrange($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $orange {
+    @include textColor
+      ($prefix, $pseudo, $class, orange, $mode, $hex, $radius)
+  }
+}
+
+

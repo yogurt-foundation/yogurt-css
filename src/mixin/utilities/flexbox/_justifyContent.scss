@@ -1,0 +1,15 @@
+/**
+ * @utility: flexbox
+ * @module: _justifyContent.scss
+ */
+
+@mixin justifyContent($prefix, $pseudo, $class) {
+  @each $modifier, $value in $justify-content {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "justify-", $modifier,
+      "justify-content", $value#{$override}
+    )
+  }
+}
+

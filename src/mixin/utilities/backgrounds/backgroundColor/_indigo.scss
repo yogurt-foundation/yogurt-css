@@ -1,0 +1,12 @@
+/**
+ * @utility: backgrounds
+ * @module: backgroundColor/_indigo.scss
+ */
+
+@mixin backgroundColorIndigo($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $indigo {
+    @include backgroundColor
+      ($prefix, $pseudo, $class, indigo, $mode, $hex, $radius)
+  }
+}
+

@@ -1,0 +1,15 @@
+/**
+ * @utility: effects
+ * @module: _opacity.scss
+ */
+
+@mixin opacity($prefix, $pseudo, $class) {
+  @each $modifier, $value in $opacity {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "opacity-", $modifier,
+      "opacity", $value#{$override}
+    )
+  }
+}
+

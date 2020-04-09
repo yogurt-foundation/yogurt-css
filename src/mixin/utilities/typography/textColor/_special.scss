@@ -1,0 +1,13 @@
+/**
+ * @utility: typography
+ * @module: textColor/_special.scss
+ */
+
+@mixin textColorSpecial($prefix, $pseudo, $class) {
+  @each $modifier, $value in $special-colors {
+    #{$prefix}#{$class}text-#{$modifier}#{$pseudo} {
+      color: #{$value}#{$override}
+    }
+  }
+}
+

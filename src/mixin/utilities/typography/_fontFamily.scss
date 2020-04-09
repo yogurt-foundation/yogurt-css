@@ -1,0 +1,16 @@
+/**
+ * @utility: typography
+ * @module: _fontFamily.scss
+ */
+
+@mixin fontFamily($prefix, $pseudo, $class) {
+  @each $modifier, $value in $font-family {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "font-", $modifier,
+      "font-family", $value#{$override}
+    )
+  }
+}
+
+

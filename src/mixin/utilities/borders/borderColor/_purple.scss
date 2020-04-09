@@ -1,0 +1,12 @@
+/**
+ * @utility: borders
+ * @module: borderColor/_purple.scss
+ */
+
+@mixin borderColorPurple($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $purple {
+    @include borderColor
+      ($prefix, $pseudo, $class, purple, $mode, $hex, $radius)
+  }
+}
+

@@ -1,0 +1,17 @@
+/**
+ * @utility: layouts
+ * @module: _objectPosition.scss
+ */
+
+@mixin objectPosition($prefix, $pseudo, $class) {
+  @each $modifier, $value in $object-position {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "object-", $modifier,
+      "object-position", $value#{$override}
+    )
+  }
+}
+
+
+

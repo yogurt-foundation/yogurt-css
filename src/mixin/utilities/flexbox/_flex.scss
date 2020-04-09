@@ -1,0 +1,15 @@
+/**
+ * @utility: flexbox
+ * @module: _flex.scss
+ */
+
+@mixin flex($prefix, $pseudo, $class) {
+  @each $modifier, $value in $flex {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "flex-", $modifier,
+      "flex", $value#{$override}
+    )
+  }
+}
+

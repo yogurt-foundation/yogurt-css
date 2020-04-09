@@ -1,0 +1,15 @@
+/**
+ * @utility: interactivity
+ * @module: _userSelect.scss
+ */
+
+@mixin userSelect($prefix, $pseudo, $class) {
+  @each $modifier, $value in $user-select {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "select-", $modifier,
+      "user-select", $value#{$override}
+    )
+  }
+}
+

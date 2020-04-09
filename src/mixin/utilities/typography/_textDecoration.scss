@@ -1,0 +1,17 @@
+/**
+ * @utility: typography
+ * @module: _textDecoration.scss
+ */
+
+@mixin textDecoration($prefix, $pseudo, $class) {
+  #{$prefix}#{$class}#{$id}underline#{$pseudo} {
+    text-decoration: underline#{$override}
+  }
+  #{$prefix}#{$class}#{$id}line-through#{$pseudo} {
+    text-decoration: line-through#{$override}
+  }
+  #{$prefix}#{$class}#{$id}no-underline#{$pseudo} {
+    text-decoration: none#{$override}
+  }
+}
+

@@ -1,0 +1,13 @@
+/**
+ * @utility: typography
+ * @module: textColor/_pink.scss
+ */
+
+@mixin textColorPink($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $pink {
+    @include textColor
+      ($prefix, $pseudo, $class, pink, $mode, $hex, $radius)
+  }
+}
+
+

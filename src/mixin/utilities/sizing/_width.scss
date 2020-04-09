@@ -1,0 +1,15 @@
+/**
+ * @utility: sizing
+ * @module: _width.scss
+ */
+
+@mixin width($prefix, $pseudo, $class) {
+  @each $modifier, $value in $width {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "w-", $modifier,
+      "width", $value#{$override}
+    )
+  }
+}
+

@@ -1,0 +1,13 @@
+/**
+ * @utility: borders
+ * @module: borderColor/_special.scss
+ */
+
+@mixin borderColorSpecial($prefix, $pseudo, $class) {
+  @each $modifier, $value in $special-colors {
+    #{$prefix}#{$class}border-#{$modifier}#{$pseudo} {
+      border-color: #{$value}#{$override}
+    }
+  }
+}
+

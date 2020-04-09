@@ -1,0 +1,12 @@
+/**
+ * @utility: svg
+ * @module: _fill.scss
+ */
+
+@mixin fill($prefix, $pseudo, $class) {
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "fill-current", "",
+    "fill", "currentColor#{$override}"
+  )
+}

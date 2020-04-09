@@ -1,0 +1,12 @@
+/**
+ * @utility: backgrounds
+ * @module: backgroundColor/_blue.scss
+ */
+
+@mixin backgroundColorBlue($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $blue {
+    @include backgroundColor
+      ($prefix, $pseudo, $class, blue, $mode, $hex, $radius)
+  }
+}
+

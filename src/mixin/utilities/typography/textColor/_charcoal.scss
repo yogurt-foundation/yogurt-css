@@ -1,0 +1,13 @@
+/**
+ * @utility: typography
+ * @module: textColor/_charcoal.scss
+ */
+
+@mixin textColorCharcoal($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $charcoal {
+    @include textColor
+      ($prefix, $pseudo, $class, charcoal, $mode, $hex, $radius)
+  }
+}
+
+

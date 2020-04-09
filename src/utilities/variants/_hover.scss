@@ -1,0 +1,200 @@
+/**
+ * @module: utilities/variants/
+ * @type: _hover.scss
+ */
+
+/* backgrounds */
+
+@include backgroundColorBlack($prefix-hover, $pseudo-hover, $class-false)
+@include backgroundColorBlack($prefix-group-hover, $pseudo-false, $class-false)
+
+@include backgroundColorBlue($prefix-hover, $pseudo-hover, $class-false)
+@include backgroundColorBlue($prefix-group-hover, $pseudo-false, $class-false)
+
+@include backgroundColorCharcoal($prefix-hover, $pseudo-hover, $class-false)
+@include backgroundColorCharcoal($prefix-group-hover, $pseudo-false, $class-false)
+
+@include backgroundColorGray($prefix-hover, $pseudo-hover, $class-false)
+@include backgroundColorGray($prefix-group-hover, $pseudo-false, $class-false)
+
+@include backgroundColorGreen($prefix-hover, $pseudo-hover, $class-false)
+@include backgroundColorGreen($prefix-group-hover, $pseudo-false, $class-false)
+
+@include backgroundColorIndigo($prefix-hover, $pseudo-hover, $class-false)
+@include backgroundColorIndigo($prefix-group-hover, $pseudo-false, $class-false)
+
+@include backgroundColorOrange($prefix-hover, $pseudo-hover, $class-false)
+@include backgroundColorOrange($prefix-group-hover, $pseudo-false, $class-false)
+
+@include backgroundColorPink($prefix-hover, $pseudo-hover, $class-false)
+@include backgroundColorPink($prefix-group-hover, $pseudo-false, $class-false)
+
+@include backgroundColorPurple($prefix-hover, $pseudo-hover, $class-false)
+@include backgroundColorPurple($prefix-group-hover, $pseudo-false, $class-false)
+
+@include backgroundColorRed($prefix-hover, $pseudo-hover, $class-false)
+@include backgroundColorRed($prefix-group-hover, $pseudo-false, $class-false)
+
+@include backgroundColorSpecial($prefix-hover, $pseudo-hover, $class-false)
+@include backgroundColorSpecial($prefix-group-hover, $pseudo-false, $class-false)
+
+@include backgroundColorTeal($prefix-hover, $pseudo-hover, $class-false)
+@include backgroundColorTeal($prefix-group-hover, $pseudo-false, $class-false)
+
+@include backgroundColorYellow($prefix-hover, $pseudo-hover, $class-false)
+@include backgroundColorYellow($prefix-group-hover, $pseudo-false, $class-false)
+
+@include backgroundAttachment($prefix-hover, $pseudo-hover, $class-false)
+
+/* borders */
+
+@include borderColorBlack($prefix-hover, $pseudo-hover, $class-false)
+@include borderColorBlack($prefix-group-hover, $pseudo-false, $class-false)
+
+@include borderColorBlue($prefix-hover, $pseudo-hover, $class-false)
+@include borderColorBlue($prefix-group-hover, $pseudo-false, $class-false)
+
+@include borderColorCharcoal($prefix-hover, $pseudo-hover, $class-false)
+@include borderColorCharcoal($prefix-group-hover, $pseudo-false, $class-false)
+
+@include borderColorGray($prefix-hover, $pseudo-hover, $class-false)
+@include borderColorGray($prefix-group-hover, $pseudo-false, $class-false)
+
+@include borderColorGreen($prefix-hover, $pseudo-hover, $class-false)
+@include borderColorGreen($prefix-group-hover, $pseudo-false, $class-false)
+
+@include borderColorIndigo($prefix-hover, $pseudo-hover, $class-false)
+@include borderColorIndigo($prefix-group-hover, $pseudo-false, $class-false)
+
+@include borderColorOrange($prefix-hover, $pseudo-hover, $class-false)
+@include borderColorOrange($prefix-group-hover, $pseudo-false, $class-false)
+
+@include borderColorPink($prefix-hover, $pseudo-hover, $class-false)
+@include borderColorPink($prefix-group-hover, $pseudo-false, $class-false)
+
+@include borderColorPurple($prefix-hover, $pseudo-hover, $class-false)
+@include borderColorPurple($prefix-group-hover, $pseudo-false, $class-false)
+
+@include borderColorRed($prefix-hover, $pseudo-hover, $class-false)
+@include borderColorRed($prefix-group-hover, $pseudo-false, $class-false)
+
+@include borderColorSpecial($prefix-hover, $pseudo-hover, $class-false)
+@include borderColorSpecial($prefix-group-hover, $pseudo-false, $class-false)
+
+@include borderColorTeal($prefix-hover, $pseudo-hover, $class-false)
+@include borderColorTeal($prefix-group-hover, $pseudo-false, $class-false)
+
+@include borderColorYellow($prefix-hover, $pseudo-hover, $class-false)
+@include borderColorYellow($prefix-group-hover, $pseudo-false, $class-false)
+
+/* effects */
+
+// (optional)
+// @include shadowColorBlack($prefix-hover, $pseudo-hover, $class-false)
+// @include shadowColorBlue($prefix-hover, $pseudo-hover, $class-false)
+// @include shadowColorCharcoal($prefix-hover, $pseudo-hover, $class-false)
+// @include shadowColorGray($prefix-hover, $pseudo-hover, $class-false)
+// @include shadowColorGreen($prefix-hover, $pseudo-hover, $class-false)
+// @include shadowColorIndigo($prefix-hover, $pseudo-hover, $class-false)
+// @include shadowColorOrange($prefix-hover, $pseudo-hover, $class-false)
+// @include shadowColorPink($prefix-hover, $pseudo-hover, $class-false)
+// @include shadowColorPurple($prefix-hover, $pseudo-hover, $class-false)
+// @include shadowColorRed($prefix-hover, $pseudo-hover, $class-false)
+// @include shadowColorTeal($prefix-hover, $pseudo-hover, $class-false)
+// @include shadowColorYellow($prefix-hover, $pseudo-hover, $class-false)
+
+@include boxShadowDefault($prefix-hover, $pseudo-hover, $class-false)
+@include boxShadow($prefix-hover, $pseudo-hover, $class-false)
+
+@include opacity($prefix-hover, $pseudo-hover, $class-false)
+
+/* filters */
+
+/* flexbox */
+
+@include flexDirection($prefix-hover, $pseudo-hover, $class-false)
+
+/* interactivity */
+
+/* layouts */
+
+@include display($prefix-hover, $pseudo-hover, $class-false)
+@include display($prefix-group-hover, $pseudo-false, $class-false)
+@include position($prefix-hover, $pseudo-hover, $class-false)
+@include visibility($prefix-hover, $pseudo-hover, $class-false)
+@include visibility($prefix-group-hover, $pseudo-false, $class-false)
+
+/* sizing */
+
+@include height($prefix-hover, $pseudo-hover, $class-false)
+@include width($prefix-hover, $pseudo-hover, $class-false)
+
+/* spacing */
+
+/* svg */
+
+/* tables */
+
+/* transforms */
+
+@include rotate($prefix-hover, $pseudo-hover, $class-false, $negative-false)
+@include rotate($prefix-hover, $pseudo-hover, $class-false, $negative-true) // negative
+@include scale($prefix-hover, $pseudo-hover, $class-false)
+
+@include skew($prefix-hover, $pseudo-hover, $class-false, $negative-false)
+@include skew($prefix-hover, $pseudo-hover, $class-false, $negative-true) // negative
+
+@include transformOrigin($prefix-hover, $pseudo-hover, $class-false)
+
+@include translate($prefix-hover, $pseudo-hover, $class-false, $negative-false)
+@include translate($prefix-hover, $pseudo-hover, $class-false, $negative-true) // negative
+
+/* transitions */
+
+/* typography */
+
+@include textColorBlack($prefix-hover, $pseudo-hover, $class-false)
+@include textColorBlack($prefix-group-hover, $pseudo-false, $class-false)
+
+@include textColorBlue($prefix-hover, $pseudo-hover, $class-false)
+@include textColorBlue($prefix-group-hover, $pseudo-false, $class-false)
+
+@include textColorCharcoal($prefix-hover, $pseudo-hover, $class-false)
+@include textColorCharcoal($prefix-group-hover, $pseudo-false, $class-false)
+
+@include textColorGray($prefix-hover, $pseudo-hover, $class-false)
+@include textColorGray($prefix-group-hover, $pseudo-false, $class-false)
+
+@include textColorGreen($prefix-hover, $pseudo-hover, $class-false)
+@include textColorGreen($prefix-group-hover, $pseudo-false, $class-false)
+
+@include textColorIndigo($prefix-hover, $pseudo-hover, $class-false)
+@include textColorIndigo($prefix-group-hover, $pseudo-false, $class-false)
+
+@include textColorOrange($prefix-hover, $pseudo-hover, $class-false)
+@include textColorOrange($prefix-group-hover, $pseudo-false, $class-false)
+
+@include textColorPink($prefix-hover, $pseudo-hover, $class-false)
+@include textColorPink($prefix-group-hover, $pseudo-false, $class-false)
+
+@include textColorPurple($prefix-hover, $pseudo-hover, $class-false)
+@include textColorPurple($prefix-group-hover, $pseudo-false, $class-false)
+
+@include textColorRed($prefix-hover, $pseudo-hover, $class-false)
+@include textColorRed($prefix-group-hover, $pseudo-false, $class-false)
+
+@include textColorSpecial($prefix-hover, $pseudo-hover, $class-false)
+@include textColorSpecial($prefix-group-hover, $pseudo-false, $class-false)
+
+@include textColorTeal($prefix-hover, $pseudo-hover, $class-false)
+@include textColorTeal($prefix-group-hover, $pseudo-false, $class-false)
+
+@include textColorYellow($prefix-hover, $pseudo-hover, $class-false)
+@include textColorYellow($prefix-group-hover, $pseudo-false, $class-false)
+
+@include fontSize($prefix-hover, $pseudo-hover, $class-false)
+@include fontWeight($prefix-hover, $pseudo-hover, $class-false)
+
+@include textDecoration($prefix-hover, $pseudo-hover, $class-false)
+@include textDecoration($prefix-group-hover, $pseudo-false, $class-false)
+

@@ -1,0 +1,17 @@
+/**
+ * @utility: typography
+ * @module: _lineHeight.scss
+ */
+
+@mixin lineHeight($prefix, $pseudo, $class) {
+  @each $modifier, $value in $line-height {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "depth-", $modifier,
+      "line-height", $value#{$override}
+    )
+  }
+}
+
+
+

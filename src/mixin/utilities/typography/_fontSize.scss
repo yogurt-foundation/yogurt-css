@@ -1,0 +1,17 @@
+/**
+ * @utility: typography
+ * @module: _fontSize.scss
+ */
+
+@mixin fontSize($prefix, $pseudo, $class) {
+  @each $modifier, $value in $font-size {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "text-", $modifier,
+      "font-size", $value#{$override}
+    )
+  }
+}
+
+
+

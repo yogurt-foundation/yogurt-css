@@ -1,0 +1,13 @@
+/**
+ * @utility: typography
+ * @module: textColor/_gray.scss
+ */
+
+@mixin textColorGray($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $gray {
+    @include textColor
+      ($prefix, $pseudo, $class, gray, $mode, $hex, $radius)
+  }
+}
+
+

@@ -1,0 +1,20 @@
+/**
+ * @utility: typography
+ * @module: _textTransform.scss
+ */
+
+@mixin textTransform($prefix, $pseudo, $class) {
+  #{$prefix}#{$class}#{$id}uppercase#{$pseudo} {
+    text-transform: uppercase#{$override}
+  }
+  #{$prefix}#{$class}#{$id}lowercase#{$pseudo} {
+    text-transform: lowercase#{$override}
+  }
+  #{$prefix}#{$class}#{$id}capitalize#{$pseudo} {
+    text-transform: capitalize#{$override}
+  }
+  #{$prefix}#{$class}#{$id}normal-case#{$pseudo} {
+    text-transform: none#{$override}
+  }
+}
+

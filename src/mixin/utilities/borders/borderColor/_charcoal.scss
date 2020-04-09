@@ -1,0 +1,13 @@
+/**
+ * @utility: borders
+ * @module: borderColor/_charcoal.scss
+ */
+
+@mixin borderColorCharcoal($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $charcoal {
+    @include borderColor
+      ($prefix, $pseudo, $class, charcoal, $mode, $hex, $radius)
+  }
+}
+
+

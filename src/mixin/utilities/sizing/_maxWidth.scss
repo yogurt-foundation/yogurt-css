@@ -1,0 +1,15 @@
+/**
+ * @utility: sizing
+ * @module: _maxWidth.scss
+ */
+
+@mixin maxWidth($prefix, $pseudo, $class) {
+  @each $modifier, $value in $max-width {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "max-w-", $modifier,
+      "max-width", $value#{$override}
+    )
+  }
+}
+

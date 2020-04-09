@@ -1,0 +1,12 @@
+/**
+ * @utility: typography
+ * @module: textColor/_teal.scss
+ */
+
+@mixin textColorTeal($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $teal {
+    @include textColor
+      ($prefix, $pseudo, $class, teal, $mode, $hex, $radius)
+  }
+}
+

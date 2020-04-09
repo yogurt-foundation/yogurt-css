@@ -1,0 +1,15 @@
+/**
+ * @utility: sizing
+ * @module: _minHeight.scss
+ */
+
+@mixin minHeight($prefix, $pseudo, $class) {
+  @each $modifier, $value in $min-height {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "min-h-", $modifier,
+      "min-height", $value#{$override}
+    )
+  }
+}
+

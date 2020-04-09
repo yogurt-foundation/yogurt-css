@@ -1,0 +1,15 @@
+/**
+ * @utility: typography
+ * @module: _letterSpacing.scss
+ */
+
+@mixin letterSpacing($prefix, $pseudo, $class) {
+  @each $modifier, $value in $letter-spacing {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "gap-", $modifier,
+      "letter-spacing", $value#{$override}
+    )
+  }
+}
+

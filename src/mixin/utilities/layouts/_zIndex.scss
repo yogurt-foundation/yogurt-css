@@ -1,0 +1,17 @@
+/**
+ * @utility: layouts
+ * @module: _zIndex.scss
+ */
+
+@mixin zIndex($prefix, $pseudo, $class) {
+  @each $modifier, $value in $z-index {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "z-", $modifier,
+      "z-index", $value#{$override}
+    )
+  }
+}
+
+
+

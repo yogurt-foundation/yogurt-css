@@ -1,0 +1,12 @@
+/**
+ * @utility: backgrounds
+ * @module: backgroundColor/_teal.scss
+ */
+
+@mixin backgroundColorTeal($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $teal {
+    @include backgroundColor
+      ($prefix, $pseudo, $class, teal, $mode, $hex, $radius)
+  }
+}
+

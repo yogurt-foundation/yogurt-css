@@ -1,0 +1,17 @@
+/**
+ * @utility: typography
+ * @module: _placeholder.scss
+ */
+
+@mixin placeholder() {
+  .#{$id}placeholder-transparent:-ms-input-placeholder {
+    color: transparent
+  }
+  .#{$id}placeholder-transparent::-ms-input-placeholder {
+    color: transparent
+  }
+  .#{$id}placeholder-transparent::placeholder {
+    color: transparent
+  }
+}
+

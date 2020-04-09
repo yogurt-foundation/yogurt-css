@@ -1,0 +1,17 @@
+/**
+ * @utility: transitions
+ * @module: _transitionDuration.scss
+ */
+
+@mixin transitionDuration($prefix, $pseudo, $class) {
+  @each $modifier, $value in $transition-duration {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "duration-", $modifier,
+      "transition-duration", $value#{$override}
+    )
+  }
+}
+
+
+

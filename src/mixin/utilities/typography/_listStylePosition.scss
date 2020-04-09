@@ -1,0 +1,13 @@
+/**
+ * @utility: typography
+ * @module: _listStylePostion.scss
+ */
+
+@mixin listStylePosition($prefix, $class) {
+  #{$prefix}#{$class}#{$id}list-inside {
+    list-style-position: inside#{$override};
+  }
+  #{$prefix}#{$class}#{$id}list-outside {
+    list-style-position: outside#{$override};
+  }
+}

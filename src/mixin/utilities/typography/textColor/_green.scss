@@ -1,0 +1,13 @@
+/**
+ * @utility: typography
+ * @module: textColor/_green.scss
+ */
+
+@mixin textColorGreen($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $green {
+    @include textColor
+      ($prefix, $pseudo, $class, green, $mode, $hex, $radius)
+  }
+}
+
+

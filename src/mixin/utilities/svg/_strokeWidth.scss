@@ -1,0 +1,17 @@
+/**
+ * @utility: svg
+ * @module: _strokeWidth.scss
+ */
+
+@mixin strokeWidth($prefix, $pseudo, $class) {
+  @each $modifier, $value in $stroke-width {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "stroke-", $modifier,
+      "stroke-width", $value#{$override}
+    )
+  }
+}
+
+
+
