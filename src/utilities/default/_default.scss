@@ -69,9 +69,12 @@
 
 @include opacity($prefix-false, $pseudo-false, $class-true)
 
+// (optional)
+@include mixBlend($prefix-false, $pseudo-false, $class-true) // (v1.0.4)
+@include backgroundBlend($prefix-false, $pseudo-false, $class-true) // (v1.0.4)
+
 /* filters */
 
-// (optional)
 // @include filterBlur($prefix-false, $pseudo-false, $class-true) // (v1.0.3)
 // @include filterCompose($prefix-false, $pseudo-false, $class-true) // (v1.0.2)
 // @include filterInvert($prefix-false, $pseudo-false, $class-true) // (v1.0.3)

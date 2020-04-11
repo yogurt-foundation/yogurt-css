@@ -906,3 +906,23 @@ $filter-blur:
 $filter-invert:
   (0, 0),
   (1, 1.0);
+
+/* effect (blend) */
+
+$effect-blend:
+  (normal, normal),
+  (multiple, multiply),
+  (screen, screen),
+  (overlay, overlay),
+  (darken, darken),
+  (lighten, lighten),
+  (color, color),
+  (color-dodge, color-dodge),
+  (color-burn, color-burn),
+  (hard-light, hard-light),
+  (soft-light, soft-light),
+  (difference, difference),
+  (exclusion, exclusion),
+  (hue, hue),
+  (saturation, saturation),
+  (luminosity, luminosity);

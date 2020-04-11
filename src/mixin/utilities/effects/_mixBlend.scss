@@ -1,0 +1,15 @@
+/**
+ * @utility: effects
+ * @module: _mixBlend.scss
+ */
+
+@mixin mixBlend($prefix, $pseudo, $class) {
+  @each $modifier, $value in $effect-blend {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "blend-", $modifier,
+      "mix-blend-mode", $value#{$override}
+    )
+  }
+}
+

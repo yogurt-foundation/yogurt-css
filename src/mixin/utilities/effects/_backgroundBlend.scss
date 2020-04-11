@@ -1,0 +1,14 @@
+/**
+ * @utility: effects
+ * @module: _backgroundBlend.scss
+ */
+
+@mixin backgroundBlend($prefix, $pseudo, $class) {
+  @each $modifier, $value in $effect-blend {
+    @include setRuleSingle(
+      $prefix, $pseudo, $class,
+      "bg-blend-", $modifier,
+      "background-blend-mode", $value#{$override}
+    )
+  }
+}
