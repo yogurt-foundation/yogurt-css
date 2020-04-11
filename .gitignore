@@ -1,5 +1,4 @@
 node_modules
-wiki
 
 *.DS_Store
 
@@ -14,5 +13,4 @@ Thumbs.db
 Thumbs.db.encryptable
 
 TODO.md
-
 testing.html
