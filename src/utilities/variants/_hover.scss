@@ -48,44 +48,45 @@
 
 /* borders */
 
-@include borderColorBlack($prefix-hover, $pseudo-hover, $class-false)
-@include borderColorBlack($prefix-group-hover, $pseudo-false, $class-false)
+// (optional)
+// @include borderColorBlack($prefix-hover, $pseudo-hover, $class-false)
+// @include borderColorBlack($prefix-group-hover, $pseudo-false, $class-false)
 
-@include borderColorBlue($prefix-hover, $pseudo-hover, $class-false)
-@include borderColorBlue($prefix-group-hover, $pseudo-false, $class-false)
+// @include borderColorBlue($prefix-hover, $pseudo-hover, $class-false)
+// @include borderColorBlue($prefix-group-hover, $pseudo-false, $class-false)
 
-@include borderColorCharcoal($prefix-hover, $pseudo-hover, $class-false)
-@include borderColorCharcoal($prefix-group-hover, $pseudo-false, $class-false)
+// @include borderColorCharcoal($prefix-hover, $pseudo-hover, $class-false)
+// @include borderColorCharcoal($prefix-group-hover, $pseudo-false, $class-false)
 
-@include borderColorGray($prefix-hover, $pseudo-hover, $class-false)
-@include borderColorGray($prefix-group-hover, $pseudo-false, $class-false)
+// @include borderColorGray($prefix-hover, $pseudo-hover, $class-false)
+// @include borderColorGray($prefix-group-hover, $pseudo-false, $class-false)
 
-@include borderColorGreen($prefix-hover, $pseudo-hover, $class-false)
-@include borderColorGreen($prefix-group-hover, $pseudo-false, $class-false)
+// @include borderColorGreen($prefix-hover, $pseudo-hover, $class-false)
+// @include borderColorGreen($prefix-group-hover, $pseudo-false, $class-false)
 
-@include borderColorIndigo($prefix-hover, $pseudo-hover, $class-false)
-@include borderColorIndigo($prefix-group-hover, $pseudo-false, $class-false)
+// @include borderColorIndigo($prefix-hover, $pseudo-hover, $class-false)
+// @include borderColorIndigo($prefix-group-hover, $pseudo-false, $class-false)
 
-@include borderColorOrange($prefix-hover, $pseudo-hover, $class-false)
-@include borderColorOrange($prefix-group-hover, $pseudo-false, $class-false)
+// @include borderColorOrange($prefix-hover, $pseudo-hover, $class-false)
+// @include borderColorOrange($prefix-group-hover, $pseudo-false, $class-false)
 
-@include borderColorPink($prefix-hover, $pseudo-hover, $class-false)
-@include borderColorPink($prefix-group-hover, $pseudo-false, $class-false)
+// @include borderColorPink($prefix-hover, $pseudo-hover, $class-false)
+// @include borderColorPink($prefix-group-hover, $pseudo-false, $class-false)
 
-@include borderColorPurple($prefix-hover, $pseudo-hover, $class-false)
-@include borderColorPurple($prefix-group-hover, $pseudo-false, $class-false)
+// @include borderColorPurple($prefix-hover, $pseudo-hover, $class-false)
+// @include borderColorPurple($prefix-group-hover, $pseudo-false, $class-false)
 
-@include borderColorRed($prefix-hover, $pseudo-hover, $class-false)
-@include borderColorRed($prefix-group-hover, $pseudo-false, $class-false)
+// @include borderColorRed($prefix-hover, $pseudo-hover, $class-false)
+// @include borderColorRed($prefix-group-hover, $pseudo-false, $class-false)
 
-@include borderColorSpecial($prefix-hover, $pseudo-hover, $class-false)
-@include borderColorSpecial($prefix-group-hover, $pseudo-false, $class-false)
+// @include borderColorSpecial($prefix-hover, $pseudo-hover, $class-false)
+// @include borderColorSpecial($prefix-group-hover, $pseudo-false, $class-false)
 
-@include borderColorTeal($prefix-hover, $pseudo-hover, $class-false)
-@include borderColorTeal($prefix-group-hover, $pseudo-false, $class-false)
+// @include borderColorTeal($prefix-hover, $pseudo-hover, $class-false)
+// @include borderColorTeal($prefix-group-hover, $pseudo-false, $class-false)
 
-@include borderColorYellow($prefix-hover, $pseudo-hover, $class-false)
-@include borderColorYellow($prefix-group-hover, $pseudo-false, $class-false)
+// @include borderColorYellow($prefix-hover, $pseudo-hover, $class-false)
+// @include borderColorYellow($prefix-group-hover, $pseudo-false, $class-false)
 
 /* effects */
 
