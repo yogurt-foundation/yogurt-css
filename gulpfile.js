@@ -1,5 +1,4 @@
 const autoPrefixer = require('autoprefixer')
-const concat = require('gulp-concat')
 const gulp = require('gulp')
 const gutil = require('gulp-util')
 const postCss = require('gulp-postcss')
