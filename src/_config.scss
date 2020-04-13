@@ -929,3 +929,11 @@ $effect-blend:
   (hue, hue),
   (saturation, saturation),
   (luminosity, luminosity);
+
+/* auto font size */
+
+$fontBaseline: 1.5rem;
+$minScreenSize: 20rem;
+$maxScreenSize: 50rem;
+$minFontSize: .8rem;
+$maxFontSize: 4rem;

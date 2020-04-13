@@ -653,6 +653,7 @@ y {
 /* filter (blur) */
 /* filter (invert) */
 /* effect (blend) */
+/* auto font size */
 /**
  * @file: _rules.scss
  */
@@ -1062,6 +1063,22 @@ y {
  * @utility: typography
  * @module: _fontSize.scss
  */
+.text-auto {
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .text-auto {
+    font-size: calc(0.8rem + 3.2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .text-auto {
+    font-size: 4rem;
+  }
+}
+
 /**
  * @utility: typography
  * @module: _fontSmoothing.scss
