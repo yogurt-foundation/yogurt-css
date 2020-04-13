@@ -13,7 +13,9 @@
     "css-library",
     "css-utilites",
     "css-ui",
-    "css-atomic-elements"
+    "css-atomic-elements",
+    "functional-css",
+    "lowlevel-css"
   ],
   "author": "Loouis Low <loouis@gmail.com>",
   "license": "MIT",
