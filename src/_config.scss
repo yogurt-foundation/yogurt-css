@@ -932,8 +932,25 @@ $effect-blend:
 
 /* auto font size */
 
-$fontBaseline: 1.5rem;
 $minScreenSize: 20rem;
 $maxScreenSize: 50rem;
-$minFontSize: .8rem;
-$maxFontSize: 4rem;
+$minFontSize: 0.875rem;
+$maxFontSize: 1.5rem;
+
+$auto-property:
+  (text, font-size),
+  (margin, margin),
+  (padding, padding);
+
+  // (xs, 0.75rem),
+  // (sm, 0.875rem),
+  // (md, 1rem),
+  // (lg, 1.125rem),
+  // (xl, 1.25rem),
+  // (2xl, 1.5rem),
+  // (3xl, 1.875rem),
+  // (4xl, 2.25rem),
+  // (5xl, 3rem),
+  // (6xl, 4rem),
+  // (7xl, 5rem),
+  // (8xl, 6rem);

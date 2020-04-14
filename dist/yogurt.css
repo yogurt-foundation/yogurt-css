@@ -1064,18 +1064,50 @@ y {
  * @module: _fontSize.scss
  */
 .text-auto {
-  font-size: 0.8rem;
+  font-size: 0.875rem;
 }
 
 @media screen and (min-width: 20rem) {
   .text-auto {
-    font-size: calc(0.8rem + 3.2 * ((100vw - 20rem) / 30));
+    font-size: calc(0.875rem + 0.625 * ((100vw - 20rem) / 30));
   }
 }
 
 @media screen and (min-width: 50rem) {
   .text-auto {
-    font-size: 4rem;
+    font-size: 1.5rem;
+  }
+}
+
+.margin-auto {
+  margin: 0.875rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .margin-auto {
+    margin: calc(0.875rem + 0.625 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .margin-auto {
+    margin: 1.5rem;
+  }
+}
+
+.padding-auto {
+  padding: 0.875rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .padding-auto {
+    padding: calc(0.875rem + 0.625 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .padding-auto {
+    padding: 1.5rem;
   }
 }
 
