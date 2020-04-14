@@ -42,7 +42,7 @@ Yogurt does not include any kind of component classes, unlike many other CSS fra
 Join our community channel.
 
 <p align="left">
-  <a href="https://discord.gg/jEaq55" target="_blank" title="Join the Discord channel https://discord.gg/jEaq55">
+  <a href="https://discord.gg/A62YjNR" target="_blank" title="Join the Discord channel https://discord.gg/A62YjNR">
      <img src="assets/discord.png" width="60" height="60">
   </a>
 </p>
