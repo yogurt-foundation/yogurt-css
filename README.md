@@ -4,7 +4,7 @@
 </p>
 
 <p align="left">
-   <img src="https://badgen.net/github/release/yogurt-foundation/yogurt-css">
+  <img src="https://badgen.net/github/release/yogurt-foundation/yogurt-css">
   <img src="https://badgen.net/github/releases/yogurt-foundation/yogurt-css">
   <img src="https://badgen.net/github/assets-dl/yogurt-foundation/yogurt-css">
   <img src="https://badgen.net/npm/dw/yogurt-css">
@@ -33,21 +33,21 @@ Yogurt is a CSS framework for crafting custom UI designs by using very smaller b
 
 Yogurt does not include any kind of component classes, unlike many other CSS frameworks. Yogurt using the humanized naming convention such as `font-size`, `padding`, `margin`, `line-height`, `color`, and so on, it easy to reason about, easy to manipulate and more readable code. Yogurt also delivers a balance between consistency and flexibility design without overwriting existing stylesheets and unlike many CSS frameworks. Play well with your CSS, library, and frameworks. No side effects. Support up to 4k screen size enabled by default.
 
-### Concept
-
-The `margin`, `padding`, `font-size` and so on are calling the utility components. Using the human-friendly CSS class naming (e.g. `border-` instead of `b-`) combines with values makes perfect sense to mix among the utilities to form a complex styling. The value is usually linear changing the properties of a utility in a very precise manipulation, which gives you low-level control over this framework. Almost all utilities can be configured with the responsive option, by combining the screen size `prefix` with a utility (e.g. `sm:text-md`, the text size in `md` value only activate on screen size `sm` as in screen width 640px).
-
 ### _support
 
-> (!!) Documentation is in progress.
-
-[Read the documentation](https://yogurt-css-documentation.netlify.com)
+[Read the documentation](https://yogurt-css-documentation.netlify.com).
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/07b893f5-2d17-413d-a3b6-e657ef9dbef3/deploy-status)](https://app.netlify.com/sites/yogurt-css-documentation/deploys)
 
-### _companion
+Join our community channel.
 
-introducing new pre-made effects,
+<p align="left">
+  <a href="https://discord.gg/jEaq55" target="_blank" title="Join the Discord channel https://discord.gg/jEaq55">
+     <img src="assets/discord.png" width="60" height="60">
+  </a>
+</p>
+
+### _other tools
 
 - [FX-Motion](https://github.com/yogurt-foundation/fx-motion), CSS animation library, total 187 effects.
 - [FX-Filter](https://github.com/yogurt-foundation/fx-filter), CSS filter library, total 26 effects [(previewer)](https://fx-filter-previewer.netlify.com/).
