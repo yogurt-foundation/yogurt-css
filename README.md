@@ -47,6 +47,10 @@ Join our community channel.
   </a>
 </p>
 
+### _prototype
+
+New working or broken prototypes are located in our new [laboratory](https://github.com/yogurt-foundation/laboratory) facility.
+
 ### _other tools
 
 - [FX-Motion](https://github.com/yogurt-foundation/fx-motion), CSS animation library, total 187 effects.
