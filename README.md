@@ -4,9 +4,9 @@
 </p>
 
 <p align="left">
-  <a href="https://discord.gg/A62YjNR" 
+  <a href="https://discord.gg/A62YjNR"
      target="_blank">
-    <img title="Join the chat at https://discord.gg/A62YjNR" 
+    <img title="Join the chat at https://discord.gg/A62YjNR"
          src="https://img.shields.io/badge/DISCORD-JOIN_CHANNEL_%E2%86%92-7289da.svg?style=flat">
   </a>
   <img src="https://badgen.net/github/release/yogurt-foundation/yogurt-css">
@@ -28,7 +28,7 @@
 
 A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level without writing a single line of CSS.
 
-> Version 1.0.4-solidcore, 14 April 2020
+> Version 1.0.4-solidcore, 17 April 2020
 
 > The `SOLID CORE` means the next major Yogurt CSS update is depending on any major release of the CSS version. It also means you will less frequently updating the framework for your frontend development. Which makes this utility framework a futureproof.
 
