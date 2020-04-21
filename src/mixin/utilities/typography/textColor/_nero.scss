@@ -1,0 +1,13 @@
+/**
+ * @utility: typography
+ * @module: textColor/_nero.scss
+ */
+
+@mixin textColorNero($prefix, $pseudo, $class){
+  @each $mode, $hex, $radius in $nero {
+    @include textColor
+      ($prefix, $pseudo, $class, nero, $mode, $hex, $radius)
+  }
+}
+
+
