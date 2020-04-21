@@ -1,0 +1,13 @@
+/**
+ * @utility: typography
+ * @module: textColor/_khaki.scss
+ */
+
+@mixin textColorKhaki($prefix, $pseudo, $class){
+  @each $mode, $hex, $radius in $khaki {
+    @include textColor
+      ($prefix, $pseudo, $class, khaki, $mode, $hex, $radius)
+  }
+}
+
+

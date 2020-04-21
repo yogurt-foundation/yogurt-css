@@ -1,0 +1,12 @@
+/**
+ * @utility: borders
+ * @module: borderColor/_khaki.scss
+ */
+
+@mixin borderColorKhaki($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $khaki {
+    @include borderColor
+      ($prefix, $pseudo, $class, khaki, $mode, $hex, $radius)
+  }
+}
+

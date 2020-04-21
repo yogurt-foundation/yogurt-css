@@ -1,0 +1,12 @@
+/**
+ * @utility: backgrounds
+ * @module: backgroundColor/_khaki.scss
+ */
+
+@mixin backgroundColorKhaki($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $khaki {
+    @include backgroundColor
+      ($prefix, $pseudo, $class, khaki, $mode, $hex, $radius)
+  }
+}
+
