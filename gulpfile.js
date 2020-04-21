@@ -22,8 +22,8 @@ gulp.task('sass-min', () => {
     .pipe(sass({ outputStyle: 'compressed' })
       .on('error', sass.logError))
     .pipe(postCss([autoPrefixer()]))
-    // .pipe(rename('yogurt-' + version + '_solidcore.min.css'))
-    .pipe(rename('yogurt.min.css'))
+    .pipe(rename('yogurt-' + version + '_solidcore.min.css'))
+    // .pipe(rename('yogurt.min.css'))
     .pipe(gulp.dest(distCssPath))
 })
 
@@ -31,10 +31,10 @@ gulp.task('sass-min', () => {
 gulp.task('sass-raw', () => {
   return gulp.src(srcScssPath)
     .pipe(sassGlob())
-    .pipe(sass({ outputStyle: 'expanded' })
+    .pipe(sass({ outputStyle: 'compressed' })
       .on('error', sass.logError))
-    // .pipe(rename('yogurt-' + version + '_solidcore.css'))
-    .pipe(rename('yogurt.css'))
+    .pipe(rename('yogurt-' + version + '_solidcore.css'))
+    // .pipe(rename('yogurt.css'))
     .pipe(gulp.dest(distCssPath))
 })
 

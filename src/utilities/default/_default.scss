@@ -5,6 +5,7 @@
 
 /* backgrounds */
 
+@include backgroundColorAmber($prefix-false, $pseudo-false, $class-true)
 @include backgroundColorBlack($prefix-false, $pseudo-false, $class-true)
 @include backgroundColorBlue($prefix-false, $pseudo-false, $class-true)
 @include backgroundColorCharcoal($prefix-false, $pseudo-false, $class-true)
@@ -26,6 +27,7 @@
 
 /* borders */
 
+@include borderColorAmber($prefix-false, $pseudo-false, $class-true)
 @include borderColorBlack($prefix-false, $pseudo-false, $class-true)
 @include borderColorBlue($prefix-false, $pseudo-false, $class-true)
 @include borderColorCharcoal($prefix-false, $pseudo-false, $class-true)
@@ -51,6 +53,7 @@
 /* effects */
 
 // (optional)
+// @include shadowColorAmber($prefix-false, $pseudo-false, $class-true)
 // @include shadowColorBlack($prefix-false, $pseudo-false, $class-true)
 // @include shadowColorBlue($prefix-false, $pseudo-false, $class-true)
 // @include shadowColorCharcoal($prefix-false, $pseudo-false, $class-true)
@@ -180,6 +183,7 @@
 /* typography */
 
 // (optional)
+// @include placeholderColorAmber($prefix-false, $pseudo-false, $class-true)
 // @include placeholderColorBlack($prefix-false, $pseudo-false, $class-true)
 // @include placeholderColorBlue($prefix-false, $pseudo-false, $class-true)
 // @include placeholderColorCharcoal($prefix-false, $pseudo-false, $class-true)
@@ -193,6 +197,7 @@
 // @include placeholderColorTeal($prefix-false, $pseudo-false, $class-true)
 // @include placeholderColorYellow($prefix-false, $pseudo-false, $class-true)
 
+@include textColorAmber($prefix-false, $pseudo-false, $class-true)
 @include textColorBlack($prefix-false, $pseudo-false, $class-true)
 @include textColorBlue($prefix-false, $pseudo-false, $class-true)
 @include textColorCharcoal($prefix-false, $pseudo-false, $class-true)

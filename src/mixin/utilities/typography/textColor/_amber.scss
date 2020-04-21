@@ -1,0 +1,13 @@
+/**
+ * @utility: typography
+ * @module: textColor/_amber.scss
+ */
+
+@mixin textColorAmber($prefix, $pseudo, $class){
+  @each $mode, $hex, $radius in $amber {
+    @include textColor
+      ($prefix, $pseudo, $class, amber, $mode, $hex, $radius)
+  }
+}
+
+

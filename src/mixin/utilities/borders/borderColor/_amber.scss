@@ -1,0 +1,12 @@
+/**
+ * @utility: borders
+ * @module: borderColor/_amber.scss
+ */
+
+@mixin borderColorAmber($prefix, $pseudo, $class) {
+  @each $mode, $hex, $radius in $amber {
+    @include borderColor
+      ($prefix, $pseudo, $class, amber, $mode, $hex, $radius)
+  }
+}
+
