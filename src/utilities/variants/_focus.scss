@@ -5,12 +5,15 @@
 
 /* backgrounds */
 
+@include backgroundColorAmber($prefix-focus, $pseudo-focus, $class-false)
 @include backgroundColorBlack($prefix-focus, $pseudo-focus, $class-false)
 @include backgroundColorBlue($prefix-focus, $pseudo-focus, $class-false)
 @include backgroundColorCharcoal($prefix-focus, $pseudo-focus, $class-false)
 @include backgroundColorGray($prefix-focus, $pseudo-focus, $class-false)
 @include backgroundColorGreen($prefix-focus, $pseudo-focus, $class-false)
 @include backgroundColorIndigo($prefix-focus, $pseudo-focus, $class-false)
+@include backgroundColorKhaki($prefix-focus, $pseudo-focus, $class-false)
+@include backgroundColorNero($prefix-focus, $pseudo-focus, $class-false)
 @include backgroundColorOrange($prefix-focus, $pseudo-focus, $class-false)
 @include backgroundColorPink($prefix-focus, $pseudo-focus, $class-false)
 @include backgroundColorPurple($prefix-focus, $pseudo-focus, $class-false)
@@ -50,12 +53,15 @@
 /* typography */
 
 // (optional)
+// @include placeholderColorAmber($prefix-focus, $pseudo-focus, $class-false)
 // @include placeholderColorBlack($prefix-focus, $pseudo-focus, $class-false)
 // @include placeholderColorBlue($prefix-focus, $pseudo-focus, $class-false)
 // @include placeholderColorCharcoal($prefix-focus, $pseudo-focus, $class-false)
 // @include placeholderColorGray($prefix-focus, $pseudo-focus, $class-false)
 // @include placeholderColorGreen($prefix-focus, $pseudo-focus, $class-false)
 // @include placeholderColorIndigo($prefix-focus, $pseudo-focus, $class-false)
+// @include placeholderColorKhaki($prefix-focus, $pseudo-focus, $class-false)
+// @include placeholderColorNero($prefix-focus, $pseudo-focus, $class-false)
 // @include placeholderColorOrange($prefix-focus, $pseudo-focus, $class-false)
 // @include placeholderColorPink($prefix-focus, $pseudo-focus, $class-false)
 // @include placeholderColorPurple($prefix-focus, $pseudo-focus, $class-false)

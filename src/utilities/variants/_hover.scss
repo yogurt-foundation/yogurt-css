@@ -5,6 +5,9 @@
 
 /* backgrounds */
 
+@include backgroundColorAmber($prefix-hover, $pseudo-hover, $class-false)
+@include backgroundColorAmber($prefix-group-hover, $pseudo-false, $class-false)
+
 @include backgroundColorBlack($prefix-hover, $pseudo-hover, $class-false)
 @include backgroundColorBlack($prefix-group-hover, $pseudo-false, $class-false)
 
@@ -22,6 +25,12 @@
 
 @include backgroundColorIndigo($prefix-hover, $pseudo-hover, $class-false)
 @include backgroundColorIndigo($prefix-group-hover, $pseudo-false, $class-false)
+
+@include backgroundColorKhaki($prefix-hover, $pseudo-hover, $class-false)
+@include backgroundColorKhaki($prefix-group-hover, $pseudo-false, $class-false)
+
+@include backgroundColorNero($prefix-hover, $pseudo-hover, $class-false)
+@include backgroundColorNero($prefix-group-hover, $pseudo-false, $class-false)
 
 @include backgroundColorOrange($prefix-hover, $pseudo-hover, $class-false)
 @include backgroundColorOrange($prefix-group-hover, $pseudo-false, $class-false)
@@ -49,6 +58,9 @@
 /* borders */
 
 // (optional)
+// @include borderColorAmber($prefix-hover, $pseudo-hover, $class-false)
+// @include borderColorAmber($prefix-group-hover, $pseudo-false, $class-false)
+
 // @include borderColorBlack($prefix-hover, $pseudo-hover, $class-false)
 // @include borderColorBlack($prefix-group-hover, $pseudo-false, $class-false)
 
@@ -66,6 +78,12 @@
 
 // @include borderColorIndigo($prefix-hover, $pseudo-hover, $class-false)
 // @include borderColorIndigo($prefix-group-hover, $pseudo-false, $class-false)
+
+// @include borderColorKhaki($prefix-hover, $pseudo-hover, $class-false)
+// @include borderColorKhaki($prefix-group-hover, $pseudo-false, $class-false)
+
+// @include borderColorNero($prefix-hover, $pseudo-hover, $class-false)
+// @include borderColorNero($prefix-group-hover, $pseudo-false, $class-false)
 
 // @include borderColorOrange($prefix-hover, $pseudo-hover, $class-false)
 // @include borderColorOrange($prefix-group-hover, $pseudo-false, $class-false)
@@ -91,6 +109,7 @@
 /* effects */
 
 // (optional)
+// @include shadowColorAmber($prefix-hover, $pseudo-hover, $class-false)
 // @include shadowColorBlack($prefix-hover, $pseudo-hover, $class-false)
 // @include shadowColorBlue($prefix-hover, $pseudo-hover, $class-false)
 // @include shadowColorCharcoal($prefix-hover, $pseudo-hover, $class-false)
@@ -153,6 +172,9 @@
 /* transitions */
 
 /* typography */
+
+@include textColorAmber($prefix-hover, $pseudo-hover, $class-false)
+@include textColorAmber($prefix-group-hover, $pseudo-false, $class-false)
 
 @include textColorBlack($prefix-hover, $pseudo-hover, $class-false)
 @include textColorBlack($prefix-group-hover, $pseudo-false, $class-false)
