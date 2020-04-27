@@ -41,7 +41,7 @@
 // @include borderColorTeal($prefix-responsive, $pseudo-false, $class-false)
 // @include borderColorYellow($prefix-responsive, $pseudo-false, $class-false)
 
-@include borderRadiusDefault($prefix-responsive, $pseudo-false, $class-false)
+// @include borderRadiusDefault($prefix-responsive, $pseudo-false, $class-false)
 @include borderRadius($prefix-responsive, $pseudo-false, $class-false)
 @include borderStyle($prefix-responsive, $pseudo-false, $class-false)
 
@@ -58,9 +58,9 @@
 @include alignSelf($prefix-responsive, $pseudo-false, $class-false)
 @include flex($prefix-responsive, $pseudo-false, $class-false)
 @include flexDirection($prefix-responsive, $pseudo-false, $class-false)
-@include flexGrowDefault($prefix-responsive, $class-false)
+// @include flexGrowDefault($prefix-responsive, $class-false)
 @include flexGrow($prefix-responsive, $pseudo-false, $class-false)
-@include flexShrinkDefault($prefix-responsive, $class-false)
+// @include flexShrinkDefault($prefix-responsive, $class-false)
 @include flexShrink($prefix-responsive, $pseudo-false, $class-false)
 @include flexWrap($prefix-responsive, $pseudo-false, $class-false)
 @include justifyContent($prefix-responsive, $pseudo-false, $class-false)
@@ -70,7 +70,7 @@
 
 @include outline($prefix-responsive, $pseudo-false, $class-false)
 @include pointerEvents($prefix-responsive, $pseudo-false, $class-false)
-@include resizeDefault($prefix-responsive, $pseudo-false, $class-false)
+// @include resizeDefault($prefix-responsive, $pseudo-false, $class-false)
 @include resize($prefix-responsive, $pseudo-false, $class-false)
 @include userSelect($prefix-responsive, $pseudo-false, $class-false)
 
@@ -80,7 +80,7 @@
 @include clear($prefix-responsive, $pseudo-false, $class-false)
 @include container($size)
 @include display($prefix-responsive, $pseudo-false, $class-false)
-@include floatDefault($prefix-responsive, $class-false)
+// @include floatDefault($prefix-responsive, $class-false)
 @include float($prefix-responsive, $pseudo-false, $class-false)
 @include inset($prefix-responsive, $pseudo-false, $class-false)
 @include insetTBLR($prefix-responsive, $pseudo-false, $class-false)

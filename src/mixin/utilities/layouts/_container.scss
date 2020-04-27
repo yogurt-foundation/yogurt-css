@@ -11,6 +11,7 @@
   )
 }
 
+/// fixed only for responsive, can't change anything for now.
 @mixin container($value) {
   @include setRuleSingle(
     ".", "", "",

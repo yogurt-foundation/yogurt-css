@@ -4,6 +4,12 @@
  */
 
 @mixin resize($prefix, $pseudo, $class) {
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "resize", "",
+    "resize", "both#{$override}"
+  )
+
   @each $modifier, $value in $resize {
     @include setRuleSingle(
       $prefix, $pseudo, $class,
@@ -13,12 +19,6 @@
   }
 }
 
-@mixin resizeDefault($prefix, $pseudo, $class) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "resize", "",
-    "resize", "both#{$override}"
-  )
-}
+
 
 

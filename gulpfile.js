@@ -8,6 +8,9 @@ const sassGlob = require('gulp-sass-glob')
 
 const { version } = require('./package.json')
 
+const regularOutput = 'yogurt-' + version + '_solidcore.css'
+const minifiedOuput = 'yogurt-' + version + '_solidcore.min.css'
+
 
 // ...minify/preprocess scss
 
@@ -22,7 +25,7 @@ gulp.task('sass-min', () => {
     .pipe(sass({ outputStyle: 'compressed' })
       .on('error', sass.logError))
     .pipe(postCss([autoPrefixer()]))
-    .pipe(rename('yogurt-' + version + '_solidcore.min.css'))
+    .pipe(rename(minifiedOuput))
     // .pipe(rename('yogurt.min.css'))
     .pipe(gulp.dest(distCssPath))
 })
@@ -31,9 +34,9 @@ gulp.task('sass-min', () => {
 gulp.task('sass-raw', () => {
   return gulp.src(srcScssPath)
     .pipe(sassGlob())
-    .pipe(sass({ outputStyle: 'compressed' })
+    .pipe(sass({ outputStyle: 'expanded' })
       .on('error', sass.logError))
-    .pipe(rename('yogurt-' + version + '_solidcore.css'))
+    .pipe(rename(regularOutput))
     // .pipe(rename('yogurt.css'))
     .pipe(gulp.dest(distCssPath))
 })

@@ -4,6 +4,32 @@
  */
 
 @mixin borderRadius($prefix, $pseudo, $class) {
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "rounded", "",
+    "border-radius", "0.25rem#{$override}"
+  )
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "rounded-tl", "",
+    "border-top-left-radius", "0.25rem#{$override}"
+  )
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "rounded-tr", "",
+    "border-top-right-radius", "0.25rem#{$override}"
+  )
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "rounded-bl", "",
+    "border-bottom-left-radius", "0.25rem#{$override}"
+  )
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "rounded-br", "",
+    "border-bottom-right-radius", "0.25rem#{$override}"
+  )
+
   @each $modifier, $value in $border-radius {
     @include setRuleSingle(
       $prefix, $pseudo, $class,
@@ -57,32 +83,5 @@
   }
 }
 
-@mixin borderRadiusDefault($prefix, $pseudo, $class) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "rounded", "",
-    "border-radius", "0.25rem#{$override}"
-  )
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "rounded-tl", "",
-    "border-top-left-radius", "0.25rem#{$override}"
-  )
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "rounded-tr", "",
-    "border-top-right-radius", "0.25rem#{$override}"
-  )
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "rounded-bl", "",
-    "border-bottom-left-radius", "0.25rem#{$override}"
-  )
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "rounded-br", "",
-    "border-bottom-right-radius", "0.25rem#{$override}"
-  )
-}
 
 

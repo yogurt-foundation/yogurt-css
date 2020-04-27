@@ -4,6 +4,12 @@
  */
 
 @mixin borderWidth($prefix, $pseudo, $class) {
+  @include setRuleSingle(
+    $prefix, $pseudo, $class,
+    "border", "",
+    "border-width", "0.0625em#{$override}"
+  )
+
   @each $modifier, $value in $border-width {
     @include setRuleSingle(
       $prefix, $pseudo, $class,
@@ -33,12 +39,6 @@
   }
 }
 
-@mixin borderWidthDefault($prefix, $pseudo, $class,) {
-  @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "border", "",
-    "border-width", "0.0625em#{$override}"
-  )
-}
+
 
 

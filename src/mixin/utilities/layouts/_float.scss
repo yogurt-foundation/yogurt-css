@@ -4,6 +4,12 @@
  */
 
 @mixin float($prefix, $pseudo, $class) {
+  #{$prefix}#{$class}#{$id}clearfix:after {
+    content: ""#{$override};
+    display: table#{$override};
+    clear: both#{$override}
+  }
+
   @each $modifier, $value in $float {
     @include setRuleSingle(
       $prefix, $pseudo, $class,
@@ -13,13 +19,7 @@
   }
 }
 
-@mixin floatDefault($prefix, $class) {
-  #{$prefix}#{$class}#{$id}clearfix:after {
-    content: ""#{$override};
-    display: table#{$override};
-    clear: both#{$override}
-  }
-}
+
 
 
 
