@@ -123,9 +123,7 @@
 // @include shadowColorTeal($prefix-hover, $pseudo-hover, $class-false)
 // @include shadowColorYellow($prefix-hover, $pseudo-hover, $class-false)
 
-// @include boxShadowDefault($prefix-hover, $pseudo-hover, $class-false)
 @include boxShadow($prefix-hover, $pseudo-hover, $class-false)
-
 @include opacity($prefix-hover, $pseudo-hover, $class-false)
 
 /* filters */

@@ -46,12 +46,8 @@
 @include borderColorTeal($prefix-false, $pseudo-false, $class-true)
 @include borderColorYellow($prefix-false, $pseudo-false, $class-true)
 
-// @include borderRadiusDefault($prefix-false, $pseudo-false, $class-true)
 @include borderRadius($prefix-false, $pseudo-false, $class-true)
-
 @include borderStyle($prefix-false, $pseudo-false, $class-true)
-
-// @include borderWidthDefault($prefix-false, $pseudo-false, $class-true)
 @include borderWidth($prefix-false, $pseudo-false, $class-true)
 
 /* effects */
@@ -73,11 +69,8 @@
 // @include shadowColorTeal($prefix-false, $pseudo-false, $class-true)
 // @include shadowColorYellow($prefix-false, $pseudo-false, $class-true)
 
-// @include boxShadowDefault($prefix-false, $pseudo-false, $class-true)
 @include boxShadow($prefix-false, $pseudo-false, $class-true)
-
 @include opacity($prefix-false, $pseudo-false, $class-true)
-
 @include mixBlend($prefix-false, $pseudo-false, $class-true) // (v1.0.4)
 @include backgroundBlend($prefix-false, $pseudo-false, $class-true) // (v1.0.4)
 
@@ -95,9 +88,7 @@
 @include alignSelf($prefix-false, $pseudo-false, $class-true)
 @include flex($prefix-false, $pseudo-false, $class-true)
 @include flexDirection($prefix-false, $pseudo-false, $class-true)
-// @include flexGrowDefault($prefix-false, $class-true)
 @include flexGrow($prefix-false, $pseudo-false, $class-true)
-// @include flexShrinkDefault($prefix-false, $class-true)
 @include flexShrink($prefix-false, $pseudo-false, $class-true)
 @include flexWrap($prefix-false, $pseudo-false, $class-true)
 @include justifyContent($prefix-false, $pseudo-false, $class-true)
@@ -109,7 +100,6 @@
 @include cursor($prefix-false, $pseudo-false, $class-true)
 @include outline($prefix-false, $pseudo-false, $class-true)
 @include pointerEvents($prefix-false, $pseudo-false, $class-true)
-// @include resizeDefault($prefix-false, $pseudo-false, $class-true)
 @include resize($prefix-false, $pseudo-false, $class-true)
 @include userSelect($prefix-false, $pseudo-false, $class-true)
 
@@ -119,20 +109,15 @@
 @include clear($prefix-false, $pseudo-false, $class-true)
 @include containerDefault($prefix-false, $class-true)
 @include display($prefix-false, $pseudo-false, $class-true)
-
-// @include floatDefault($prefix-false, $class-true)
 @include float($prefix-false, $pseudo-false, $class-true)
-
 @include inset($prefix-false, $pseudo-false, $class-true)
 @include insetTBLR($prefix-false, $pseudo-false, $class-true)
 @include objectFit($prefix-false, $pseudo-false, $class-true)
 @include objectPosition($prefix-false, $pseudo-false, $class-true)
-
 @include overflow($prefix-false, $pseudo-false, $class-true)
 @include overflow-xy($prefix-false, $pseudo-false, $class-true)
 @include overflow-scrolling($prefix-false, $pseudo-false, $class-true)
 @include position($prefix-false, $pseudo-false, $class-true)
-
 @include visibility($prefix-false, $pseudo-false, $class-true)
 @include zIndex($prefix-false, $pseudo-false, $class-true)
 
