@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="../../dist/yogurt-1.0.4_solidcore.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="relative h-full bg-white">
+
+  <y class="h-screen p-4">
+
+    <y class="p-4 text-xl">
+      absolute
+    </y>
+
+    <y class="p-4 text-sm">
+      with absolute positioning
+    </y>
+
+    <!--test-->
+    <y class="relative p-4 h-64 bg-gray-400">
+      Relative Parent
+      <y class="static p-4 h-48 bg-gray-600">
+        Static Parent
+        <y class="absolute top-0 right-0 p-4 text-gray-100 bg-gray-800">
+          Absolute Child
+        </y>
+        <y class="my-4 p-4 bg-gray-400 h-12">
+          Static Sibling
+        </y>
+      </y>
+    </y>
+
+    <y class="p-4 text-sm">
+      with static positioning
+    </y>
+
+    <!--test-->
+    <y class="relative p-4 h-64 bg-gray-400">
+      Relative Parent
+      <y class="static p-4 h-48 bg-gray-600">
+        Static Parent
+        <y class="my-4 p-4 text-gray-100 bg-gray-800">
+          Static Child
+        </y>
+        <y class="my-4 p-4 bg-gray-400 h-12">
+          Static Sibling
+        </y>
+      </y>
+    </y>
+
+  </y>
+
+</body>
+
+</html>
