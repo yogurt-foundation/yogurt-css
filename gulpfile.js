@@ -26,7 +26,6 @@ gulp.task('sass-min', () => {
       .on('error', sass.logError))
     .pipe(postCss([autoPrefixer()]))
     .pipe(rename(minifiedOuput))
-    // .pipe(rename('yogurt.min.css'))
     .pipe(gulp.dest(distCssPath))
 })
 
@@ -37,7 +36,6 @@ gulp.task('sass-raw', () => {
     .pipe(sass({ outputStyle: 'expanded' })
       .on('error', sass.logError))
     .pipe(rename(regularOutput))
-    // .pipe(rename('yogurt.css'))
     .pipe(gulp.dest(distCssPath))
 })
 
@@ -52,6 +50,7 @@ gulp.task('watch', gulp.series([
   ], () => {
 
     gulp.watch(watchSrcScssPath,
+
       gulp.series([
         'sass-raw',
         'sass-min'

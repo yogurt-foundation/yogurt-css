@@ -581,7 +581,7 @@ y {
   display: block;
 }
 
-/*! yogurt.css v1.0.4-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
+/*! yogurt.css v1.0.6-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
 /**
  * @file: _config.scss
  */
@@ -832,6 +832,10 @@ y {
  */
 /**
  * @utility: effects
+ * @module: shadowColor/_amber.scss
+ */
+/**
+ * @utility: effects
  * @module: shadowColor/_black.scss
  */
 /**
@@ -853,6 +857,14 @@ y {
 /**
  * @utility: effects
  * @module: shadowColor/_indigo.scss
+ */
+/**
+ * @utility: effects
+ * @module: shadowColor/_khaki.scss
+ */
+/**
+ * @utility: effects
+ * @module: shadowColor/_nero.scss
  */
 /**
  * @utility: effects
@@ -46752,4 +46764,4 @@ y {
   /* typography */
 }
 
-/*! yogurt.css v1.0.4-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
+/*! yogurt.css v1.0.6-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
