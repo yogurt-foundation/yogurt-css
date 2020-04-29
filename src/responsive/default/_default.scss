@@ -5,12 +5,15 @@
 
 /* backgrounds */
 
+@include backgroundColorAmber($prefix-responsive, $pseudo-false, $class-false)
 @include backgroundColorBlack($prefix-responsive, $pseudo-false, $class-false)
 @include backgroundColorBlue($prefix-responsive, $pseudo-false, $class-false)
 @include backgroundColorCharcoal($prefix-responsive, $pseudo-false, $class-false)
 @include backgroundColorGray($prefix-responsive, $pseudo-false, $class-false)
 @include backgroundColorGreen($prefix-responsive, $pseudo-false, $class-false)
 @include backgroundColorIndigo($prefix-responsive, $pseudo-false, $class-false)
+@include backgroundColorKhaki($prefix-responsive, $pseudo-false, $class-false)
+@include backgroundColorNero($prefix-responsive, $pseudo-false, $class-false)
 @include backgroundColorOrange($prefix-responsive, $pseudo-false, $class-false)
 @include backgroundColorPink($prefix-responsive, $pseudo-false, $class-false)
 @include backgroundColorPurple($prefix-responsive, $pseudo-false, $class-false)
@@ -27,12 +30,15 @@
 /* borders */
 
 // (optional)
+// @include borderColorAmber($prefix-responsive, $pseudo-false, $class-false)
 // @include borderColorBlack($prefix-responsive, $pseudo-false, $class-false)
 // @include borderColorBlue($prefix-responsive, $pseudo-false, $class-false)
 // @include borderColorCharcoal($prefix-responsive, $pseudo-false, $class-false)
 // @include borderColorGray($prefix-responsive, $pseudo-false, $class-false)
 // @include borderColorGreen($prefix-responsive, $pseudo-false, $class-false)
 // @include borderColorIndigo($prefix-responsive, $pseudo-false, $class-false)
+// @include borderColorKhaki($prefix-responsive, $pseudo-false, $class-false)
+// @include borderColorNero($prefix-responsive, $pseudo-false, $class-false)
 // @include borderColorOrange($prefix-responsive, $pseudo-false, $class-false)
 // @include borderColorPink($prefix-responsive, $pseudo-false, $class-false)
 // @include borderColorPurple($prefix-responsive, $pseudo-false, $class-false)
@@ -45,6 +51,23 @@
 @include borderStyle($prefix-responsive, $pseudo-false, $class-false)
 
 /* effects */
+
+// (optional)
+// @include shadowColorAmber($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorBlack($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorBlue($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorCharcoal($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorGray($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorGreen($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorIndigo($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorKhaki($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorNero($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorOrange($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorPink($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorPurple($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorRed($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorTeal($prefix-false, $pseudo-false, $class-true)
+// @include shadowColorYellow($prefix-false, $pseudo-false, $class-true)
 
 @include opacity($prefix-responsive, $pseudo-false, $class-false)
 
@@ -108,12 +131,16 @@
 
 /* transforms */
 
+@include transformOrigin($prefix-responsive, $pseudo-false, $class-false)
+
 @include rotate($prefix-responsive, $pseudo-false, $class-false, $negative-false)
 @include rotate($prefix-responsive, $pseudo-false, $class-false, $negative-true) // negative
+
 @include scale($prefix-responsive, $pseudo-false, $class-false)
+
 @include skew($prefix-responsive, $pseudo-false, $class-false, $negative-false)
 @include skew($prefix-responsive, $pseudo-false, $class-false, $negative-true) // negative
-@include transformOrigin($prefix-responsive, $pseudo-false, $class-false)
+
 @include translate($prefix-responsive, $pseudo-false, $class-false, $negative-false)
 @include translate($prefix-responsive, $pseudo-false, $class-false, $negative-true) // negative
 
@@ -121,12 +148,15 @@
 
 /* typography */
 
+@include textColorAmber($prefix-responsive, $pseudo-false, $class-false)
 @include textColorBlack($prefix-responsive, $pseudo-false, $class-false)
 @include textColorBlue($prefix-responsive, $pseudo-false, $class-false)
 @include textColorCharcoal($prefix-responsive, $pseudo-false, $class-false)
 @include textColorGray($prefix-responsive, $pseudo-false, $class-false)
 @include textColorGreen($prefix-responsive, $pseudo-false, $class-false)
 @include textColorIndigo($prefix-responsive, $pseudo-false, $class-false)
+@include textColorKhaki($prefix-responsive, $pseudo-false, $class-false)
+@include textColorNero($prefix-responsive, $pseudo-false, $class-false)
 @include textColorOrange($prefix-responsive, $pseudo-false, $class-false)
 @include textColorPink($prefix-responsive, $pseudo-false, $class-false)
 @include textColorPurple($prefix-responsive, $pseudo-false, $class-false)
