@@ -149,6 +149,8 @@
 @include tableLayout($prefix-false, $pseudo-false, $class-true)
 
 /* transforms */
+@include transform($prefix-false, $pseudo-false, $class-true)
+@include transformOrigin($prefix-false, $pseudo-false, $class-true)
 
 @include rotate($prefix-false, $pseudo-false, $class-true, $negative-false)
 @include rotate($prefix-false, $pseudo-false, $class-true, $negative-true) // negative
@@ -157,10 +159,6 @@
 
 @include skew($prefix-false, $pseudo-false, $class-true, $negative-false)
 @include skew($prefix-false, $pseudo-false, $class-true, $negative-true) // negative
-
-@include transform($prefix-false, $pseudo-false, $class-true)
-
-@include transformOrigin($prefix-false, $pseudo-false, $class-true)
 
 @include translate($prefix-false, $pseudo-false, $class-true, $negative-false)
 @include translate($prefix-false, $pseudo-false, $class-true, $negative-true) // negative
