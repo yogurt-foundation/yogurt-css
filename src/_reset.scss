@@ -415,11 +415,20 @@ fieldset {
   padding: 0;
 }
 
+/**
+ * 1. use the system default list-style.
+ * 2. use the system default margin for ol, ul so yogurt can takes over.
+ * 3. use the system default padding for ol, ul so yogurt can takes over.
+ */
+
 ol,
 ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  /* 1 */
+  // list-style: none;
+  /* 2 */
+  // margin: 0;
+  /* 3 */
+  // padding: 0;
 }
 
 /**
