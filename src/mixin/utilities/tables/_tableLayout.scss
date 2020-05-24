@@ -3,12 +3,20 @@
  * @module: _tableLayout.scss
  */
 
-@mixin tableLayout($prefix, $pseudo, $class) {
+@mixin tableLayout(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $table-layout {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "table-", $modifier,
-      "table-layout", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "table-",
+      $modifier: $modifier,
+      $property: "table-layout",
+      $value: $value#{$override}
     )
   }
 }

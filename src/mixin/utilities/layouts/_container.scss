@@ -3,20 +3,29 @@
  * @module: _container.scss
  */
 
-@mixin containerDefault($prefix, $class) {
+@mixin containerDefault(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @include setRuleSingle(
-    $prefix, "", $class,
-    "container", "",
-    "width", "100%#{$override}"
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "container",
+    $property: "width",
+    $value: "100%#{$override}"
   )
 }
 
-/// fixed only for responsive, can't change anything for now.
+/// (!) fixed only for responsive,
+/// can't change anything for now.
 @mixin container($value) {
   @include setRuleSingle(
-    ".", "", "",
-    "container", "",
-    "max-width", $value#{$override}
+    $class: $default,
+    $selector: "container",
+    $property: "max-width",
+    $value: $value#{$override}
   )
 }
 

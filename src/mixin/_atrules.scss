@@ -1,0 +1,148 @@
+/**
+ * @file: _atrules.scss
+ */
+
+// class options
+$default: "."; // is class
+$xxx: "."; // is class
+$true: "-"; // is negative
+
+// prefix options
+$variant-hover: ".hover\\#{$separator}";
+$variant-group-hover: ".group:hover .group-hover\\#{$separator}";
+$variant-focus: ".focus\\#{$separator}";
+$variant-active: ".active\\#{$separator}";
+$variant-visited: ".visited\\#{$separator}";
+$variant-disabled: ".disabled\\#{$separator}";
+
+// pseudo options
+$hover: ":hover";
+$focus: ":focus";
+$active: ":active";
+$visited: ":visited";
+$disabled: ":disabled";
+
+
+@mixin setRuleSingle(
+  $prefix: null,
+  $pseudo: null,
+  $class: null,
+  $selector: null,
+  $modifier: null,
+  $property: null,
+  $value: null
+  ) {
+  #{$prefix}#{$class}#{$id}#{$selector}#{$modifier}#{$pseudo} {
+    #{$property}: #{$value}
+  }
+}
+
+@mixin setRuleDouble(
+  $prefix: null,
+  $pseudo: null,
+  $class: null,
+  $selector: null,
+  $modifier: null,
+  $property1: null,
+  $property2: null,
+  $value: null
+  ) {
+  #{$prefix}#{$class}#{$id}#{$selector}#{$modifier}#{$pseudo} {
+    #{$property1}: #{$value};
+    #{$property2}: #{$value}
+  }
+}
+
+@mixin setRuleQuad(
+  $prefix: null,
+  $pseudo: null,
+  $class: null,
+  $selector: null,
+  $modifier: null,
+  $property1: null,
+  $property2: null,
+  $property3: null,
+  $property4: null,
+  $value: null
+  ) {
+  #{$prefix}#{$class}#{$id}#{$selector}#{$modifier}#{$pseudo} {
+    #{$property1}: #{$value};
+    #{$property2}: #{$value};
+    #{$property3}: #{$value};
+    #{$property4}: #{$value}
+  }
+}
+
+@mixin textColor(
+  $prefix: null,
+  $pseudo: null,
+  $class: null,
+  $color: null,
+  $shade: null,
+  $hex: null
+  ) {
+  #{$prefix}#{$class}#{$id}text-#{$color}-#{$shade}#{$pseudo} {
+    color: #{$hex}#{$override}
+  }
+}
+
+@mixin backgroundColor(
+  $prefix: null,
+  $pseudo: null,
+  $class: null,
+  $color: null,
+  $shade: null,
+  $hex: null
+  ) {
+  #{$prefix}#{$class}#{$id}bg-#{$color}-#{$shade}#{$pseudo} {
+    background-color: #{$hex}#{$override}
+  }
+}
+
+@mixin borderColor(
+  $prefix: null,
+  $pseudo: null,
+  $class: null,
+  $color: null,
+  $shade: null,
+  $hex: null
+  ) {
+  #{$prefix}#{$class}#{$id}border-#{$color}-#{$shade}#{$pseudo} {
+    border-color: #{$hex}#{$override}
+  }
+}
+
+@mixin shadowColor(
+  $prefix: null,
+  $pseudo: null,
+  $class: null,
+  $color: null,
+  $shade: null,
+  $hex: null,
+  $radius: null
+  ) {
+  @each $size, $radius in $shadow-color {
+    #{$prefix}#{$class}#{$id}shadow-#{$size}-#{$color}-#{$shade}#{$pseudo} {
+      box-shadow: 0 0 #{$radius} #{$hex}#{$override}
+     }
+   }
+}
+
+@mixin placeholderColor(
+  $prefix: null,
+  $pseudo: null,
+  $class: null,
+  $color: null,
+  $shade: null,
+  $hex: null
+  ) {
+  #{$prefix}#{$class}#{$id}placeholder-#{$color}-#{$shade}:-ms-input-placeholder#{$pseudo} {
+    color: #{$hex}#{$override}
+  }
+  #{$prefix}#{$class}#{$id}placeholder-#{$color}-#{$shade}::-ms-input-placeholder#{$pseudo} {
+    color: #{$hex}#{$override}
+  }
+  #{$prefix}#{$class}#{$id}placeholder-#{$color}-#{$shade}::placeholder#{$pseudo} {
+    color: #{$hex}#{$override}
+  }
+}

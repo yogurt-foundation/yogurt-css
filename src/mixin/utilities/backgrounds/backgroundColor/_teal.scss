@@ -3,10 +3,20 @@
  * @module: backgroundColor/_teal.scss
  */
 
-@mixin backgroundColorTeal($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $teal {
-    @include backgroundColor
-      ($prefix, $pseudo, $class, teal, $mode, $hex, $radius)
+@mixin backgroundColorTeal(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $teal {
+    @include backgroundColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "teal",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

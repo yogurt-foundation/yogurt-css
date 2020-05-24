@@ -3,12 +3,20 @@
  * @module: _alignItems.scss
  */
 
-@mixin alignItems($prefix, $pseudo, $class) {
+@mixin alignItems(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $align-items {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "items-", $modifier,
-      "align-items", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "items-",
+      $modifier: $modifier,
+      $property: "align-items",
+      $value: $value#{$override}
     )
   }
 }

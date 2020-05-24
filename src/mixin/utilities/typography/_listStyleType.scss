@@ -3,12 +3,20 @@
  * @module: _listStyleType.scss
  */
 
-@mixin listStyleType($prefix, $pseudo, $class) {
+@mixin listStyleType(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $list-style-type {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "list-", $modifier,
-      "list-style-type", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "list-",
+      $modifier: $modifier,
+      $property: "list-style-type",
+      $value: $value#{$override}
     )
   }
 }

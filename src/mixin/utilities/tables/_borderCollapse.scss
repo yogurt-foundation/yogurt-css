@@ -3,12 +3,20 @@
  * @module: _borderCollapse.scss
  */
 
-@mixin borderCollapse($prefix, $pseudo, $class) {
+@mixin borderCollapse(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $border-collapse {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "border-", $modifier,
-      "border-#{$value}", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "border-",
+      $modifier: $modifier,
+      $property: "border-#{$value}",
+      $value: $value#{$override}
     )
   }
 }

@@ -3,10 +3,20 @@
  * @module: backgroundColor/_charcoal.scss
  */
 
-@mixin backgroundColorCharcoal($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $charcoal {
-    @include backgroundColor
-      ($prefix, $pseudo, $class, charcoal, $mode, $hex, $radius)
+@mixin backgroundColorCharcoal(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $charcoal {
+    @include backgroundColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "charcoal",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

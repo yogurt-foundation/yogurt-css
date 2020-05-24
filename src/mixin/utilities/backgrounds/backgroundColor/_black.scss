@@ -3,10 +3,20 @@
  * @module: backgroundColor/_black.scss
  */
 
-@mixin backgroundColorBlack($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $black {
-    @include backgroundColor
-      ($prefix, $pseudo, $class, black, $mode, $hex, $radius)
+@mixin backgroundColorBlack(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $black {
+    @include backgroundColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "black",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

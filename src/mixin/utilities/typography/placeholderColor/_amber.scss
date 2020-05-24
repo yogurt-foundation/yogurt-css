@@ -3,9 +3,19 @@
  * @module: placeholderColor/_amber.scss
  */
 
-@mixin placeholderColorAmber($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $amber {
-    @include placeholderColor
-      ($prefix, $pseudo, $class, amber, $mode, $hex, $radius)
+@mixin placeholderColorAmber(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $amber {
+    @include placeholderColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "amber",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }

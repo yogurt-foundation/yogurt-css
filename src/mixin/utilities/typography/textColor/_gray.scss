@@ -3,10 +3,20 @@
  * @module: textColor/_gray.scss
  */
 
-@mixin textColorGray($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $gray {
-    @include textColor
-      ($prefix, $pseudo, $class, gray, $mode, $hex, $radius)
+@mixin textColorGray(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $gray {
+    @include textColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "gray",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

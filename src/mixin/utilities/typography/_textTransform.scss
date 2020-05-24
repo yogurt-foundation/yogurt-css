@@ -3,7 +3,11 @@
  * @module: _textTransform.scss
  */
 
-@mixin textTransform($prefix, $pseudo, $class) {
+@mixin textTransform(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   #{$prefix}#{$class}#{$id}uppercase#{$pseudo} {
     text-transform: uppercase#{$override}
   }

@@ -3,12 +3,20 @@
  * @module: _textAlign.scss
  */
 
-@mixin textAlign($prefix, $pseudo, $class) {
+@mixin textAlign(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $text-align {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "text-", $modifier,
-      "text-align", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "text-",
+      $modifier: $modifier,
+      $property: "text-align",
+      $value: $value#{$override}
     )
   }
 }

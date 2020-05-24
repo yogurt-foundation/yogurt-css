@@ -3,16 +3,26 @@
  * @module: _flexShrink.scss
  */
 
-@mixin flexShrink($prefix, $pseudo, $class) {
+@mixin flexShrink(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @include setRuleSingle(
-    $prefix, "", $class,
-    "flex-shrink", "",
-    "flex-shrink", "1#{$override}"
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "flex-shrink",
+    $property: "flex-shrink",
+    $value: "1#{$override}"
   )
   @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "flex-shrink-0", "",
-    "flex-shrink", "0#{$override}"
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "flex-shrink-0",
+    $property: "flex-shrink",
+    $value: "0#{$override}"
   )
 }
 

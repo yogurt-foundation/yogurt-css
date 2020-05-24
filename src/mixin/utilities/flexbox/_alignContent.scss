@@ -3,12 +3,20 @@
  * @module: _alignContent.scss
  */
 
-@mixin alignContent($prefix, $pseudo, $class) {
+@mixin alignContent(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $align-content {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "content-", $modifier,
-      "align-content", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "content-",
+      $modifier: $modifier,
+      $property: "align-content",
+      $value: $value#{$override}
     )
   }
 }

@@ -3,10 +3,20 @@
  * @module: textColor/_nero.scss
  */
 
-@mixin textColorNero($prefix, $pseudo, $class){
-  @each $mode, $hex, $radius in $nero {
-    @include textColor
-      ($prefix, $pseudo, $class, nero, $mode, $hex, $radius)
+@mixin textColorNero(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ){
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $nero {
+    @include textColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "nero",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

@@ -3,12 +3,19 @@
  * @module: _opacity.scss
  */
 
-@mixin opacity($prefix, $pseudo, $class) {
+@mixin opacity(
+  $prefix: null,
+  $pseudo: null,
+  $class: null) {
   @each $modifier, $value in $opacity {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "opacity-", $modifier,
-      "opacity", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "opacity-",
+      $modifier: $modifier,
+      $property: "opacity",
+      $value: $value#{$override}
     )
   }
 }

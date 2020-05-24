@@ -3,10 +3,20 @@
  * @module: backgroundColor/_khaki.scss
  */
 
-@mixin backgroundColorKhaki($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $khaki {
-    @include backgroundColor
-      ($prefix, $pseudo, $class, khaki, $mode, $hex, $radius)
+@mixin backgroundColorKhaki(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $khaki {
+    @include backgroundColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "khaki",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

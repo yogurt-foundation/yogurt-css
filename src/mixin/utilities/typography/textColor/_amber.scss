@@ -3,10 +3,20 @@
  * @module: textColor/_amber.scss
  */
 
-@mixin textColorAmber($prefix, $pseudo, $class){
-  @each $mode, $hex, $radius in $amber {
-    @include textColor
-      ($prefix, $pseudo, $class, amber, $mode, $hex, $radius)
+@mixin textColorAmber(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ){
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $amber {
+    @include textColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "amber",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

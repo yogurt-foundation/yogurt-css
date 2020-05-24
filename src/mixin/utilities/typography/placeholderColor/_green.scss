@@ -3,10 +3,20 @@
  * @module: placeholderColor/_green.scss
  */
 
-@mixin placeholderColorGreen($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $green {
-    @include placeholderColor
-      ($prefix, $pseudo, $class, green, $mode, $hex, $radius)
+@mixin placeholderColorGreen(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $green {
+    @include placeholderColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "green",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

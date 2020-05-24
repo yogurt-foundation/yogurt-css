@@ -3,9 +3,19 @@
  * @module: placeholderColor/_nero.scss
  */
 
-@mixin placeholderColorNero($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $nero {
-    @include placeholderColor
-      ($prefix, $pseudo, $class, nero, $mode, $hex, $radius)
+@mixin placeholderColorNero(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $nero {
+    @include placeholderColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "nero",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }

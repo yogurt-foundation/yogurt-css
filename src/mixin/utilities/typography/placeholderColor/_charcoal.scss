@@ -3,10 +3,20 @@
  * @module: placeholderColor/_charcoal.scss
  */
 
-@mixin placeholderColorCharcoal($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $charcoal {
-    @include placeholderColor
-      ($prefix, $pseudo, $class, charcoal, $mode, $hex, $radius)
+@mixin placeholderColorCharcoal(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $charcoal {
+    @include placeholderColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "charcoal",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

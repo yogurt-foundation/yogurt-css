@@ -3,9 +3,19 @@
  * @module: placeholderColor/_black.scss
  */
 
-@mixin placeholderColorBlack($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $black {
-    @include placeholderColor
-      ($prefix, $pseudo, $class, black, $mode, $hex, $radius)
+@mixin placeholderColorBlack(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $black {
+    @include placeholderColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "black",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }

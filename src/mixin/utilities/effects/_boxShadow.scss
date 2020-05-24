@@ -3,18 +3,28 @@
  * @module: _boxShadow.scss
  */
 
-@mixin boxShadow($prefix, $pseudo, $class) {
+@mixin boxShadow(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "shadow", "",
-    "box-shadow", "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)#{$override}"
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "shadow",
+    $property: "box-shadow",
+    $value: "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)#{$override}"
   )
-
   @each $modifier, $value in $box-shadow {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "shadow-", $modifier,
-      "box-shadow", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "shadow-",
+      $modifier: $modifier,
+      $property: "box-shadow",
+      $value: $value#{$override}
     )
   }
 }

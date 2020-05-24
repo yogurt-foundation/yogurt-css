@@ -3,12 +3,20 @@
  * @module: _mixBlend.scss
  */
 
-@mixin mixBlend($prefix, $pseudo, $class) {
+@mixin mixBlend(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $effect-blend {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "blend-", $modifier,
-      "mix-blend-mode", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "blend-",
+      $modifier: $modifier,
+      $property: "mix-blend-mode",
+      $value: $value#{$override}
     )
   }
 }

@@ -3,12 +3,19 @@
  * @module: _display.scss
  */
 
-@mixin display($prefix, $pseudo, $class) {
+@mixin display(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $display {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "", $modifier,
-      "display", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $modifier: $modifier,
+      $property: "display",
+      $value: $value#{$override}
     )
   }
 }

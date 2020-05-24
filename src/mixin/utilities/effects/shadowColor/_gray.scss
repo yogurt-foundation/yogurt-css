@@ -3,10 +3,21 @@
  * @module: shadowColor/_gray.scss
  */
 
-@mixin shadowColorGray($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $gray {
-    @include shadowColor
-      ($prefix, $pseudo, $class, gray, $mode, $hex, $radius)
+@mixin shadowColorGray(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $gray {
+    @include shadowColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "gray",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier,
+      $radius: $radius-modifier
+    )
   }
 }
 

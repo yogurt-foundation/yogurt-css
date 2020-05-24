@@ -3,12 +3,20 @@
  * @module: _verticalAlign.scss
  */
 
-@mixin verticalAlign($prefix, $pseudo, $class) {
+@mixin verticalAlign(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $vertical-align {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "align-", $modifier,
-      "vertical-align", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "align-",
+      $modifier: $modifier,
+      $property: "vertical-align",
+      $value: $value#{$override}
     )
   }
 }

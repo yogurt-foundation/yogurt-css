@@ -3,12 +3,20 @@
  * @module: _maxHeight.scss
  */
 
-@mixin maxHeight($prefix, $pseudo, $class) {
+@mixin maxHeight(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $max-height {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "max-h-", $modifier,
-      "max-height", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "max-h-",
+      $modifier: $modifier,
+      $property: "max-height",
+      $value: $value#{$override}
     )
   }
 }

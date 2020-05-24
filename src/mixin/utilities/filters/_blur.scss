@@ -3,12 +3,20 @@
  * @module: _blur.scss
  */
 
-@mixin filterBlur($prefix, $pseudo, $class) {
+@mixin filterBlur(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $filter-blur {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "blur-", $modifier,
-      "filter", "blur(#{$value})#{$override}"
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "blur-",
+      $modifier: $modifier,
+      $property: "filter",
+      $value: "blur(#{$value})#{$override}"
     )
   }
 }

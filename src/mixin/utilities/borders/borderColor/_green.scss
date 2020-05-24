@@ -3,10 +3,20 @@
  * @module: borderColor/_green.scss
  */
 
-@mixin borderColorGreen($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $green {
-    @include borderColor
-      ($prefix, $pseudo, $class, green, $mode, $hex, $radius)
+@mixin borderColorGreen(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier in $green {
+    @include borderColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "green",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

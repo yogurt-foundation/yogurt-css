@@ -3,12 +3,20 @@
  * @module: _objectPosition.scss
  */
 
-@mixin objectPosition($prefix, $pseudo, $class) {
+@mixin objectPosition(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $object-position {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "object-", $modifier,
-      "object-position", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "object-",
+      $modifier: $modifier,
+      $property: "object-position",
+      $value: $value#{$override}
     )
   }
 }

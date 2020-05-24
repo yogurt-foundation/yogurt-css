@@ -3,10 +3,20 @@
  * @module: placeholderColor/_purple.scss
  */
 
-@mixin placeholderColorPurple($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $purple {
-    @include placeholderColor
-      ($prefix, $pseudo, $class, purple, $mode, $hex, $radius)
+@mixin placeholderColorPurple(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $purple {
+    @include placeholderColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "purple",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

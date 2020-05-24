@@ -3,10 +3,21 @@
  * @module: shadowColor/_amber.scss
  */
 
-@mixin shadowColorAmber($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $amber {
-    @include shadowColor
-      ($prefix, $pseudo, $class, amber, $mode, $hex, $radius)
+@mixin shadowColorAmber(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $amber {
+    @include shadowColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "amber",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier,
+      $radius: $radius-modifier
+    )
   }
 }
 

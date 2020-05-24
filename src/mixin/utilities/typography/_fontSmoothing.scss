@@ -3,7 +3,11 @@
  * @module: _fontSmoothing.scss
  */
 
-@mixin fontSmoothing($prefix, $class) {
+@mixin fontSmoothing(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   #{$prefix}#{$class}#{$id}antialiased {
     -webkit-font-smoothing: antialiased#{$override};
     -moz-osx-font-smoothing: grayscale#{$override}

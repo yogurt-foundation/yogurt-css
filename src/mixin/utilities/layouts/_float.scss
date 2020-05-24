@@ -3,18 +3,25 @@
  * @module: _float.scss
  */
 
-@mixin float($prefix, $pseudo, $class) {
+@mixin float(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   #{$prefix}#{$class}#{$id}clearfix:after {
     content: ""#{$override};
     display: table#{$override};
     clear: both#{$override}
   }
-
   @each $modifier, $value in $float {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "float-", $modifier,
-      "float", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "float-",
+      $modifier: $modifier,
+      $property: "float",
+      $value: $value#{$override}
     )
   }
 }

@@ -3,37 +3,65 @@
  * @module: _overflow.scss
  */
 
-@mixin overflow($prefix, $pseudo, $class) {
+@mixin overflow(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $overflow {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "overflow-", $modifier,
-      "overflow", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "overflow-",
+      $modifier: $modifier,
+      $property: "overflow",
+      $value: $value#{$override}
     )
   }
 }
 
-@mixin overflow-xy($prefix, $pseudo, $class) {
+@mixin overflow-xy(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $overflow-xy {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "overflow-x-", $modifier,
-      "overflow-x", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "overflow-x-",
+      $modifier: $modifier,
+      $property: "overflow-x",
+      $value: $value#{$override}
     )
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "overflow-y-", $modifier,
-      "overflow-y", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "overflow-y-",
+      $modifier: $modifier,
+      $property: "overflow-y",
+      $value: $value#{$override}
     )
   }
 }
 
-@mixin overflow-scrolling($prefix, $pseudo, $class) {
+@mixin overflow-scrolling(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $overflow-scrolling {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "scrolling-", $modifier,
-      "-webkit-overflow-scrolling", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "scrolling-",
+      $modifier: $modifier,
+      $property: "-webkit-overflow-scrolling",
+      $value: $value#{$override}
     )
   }
 }

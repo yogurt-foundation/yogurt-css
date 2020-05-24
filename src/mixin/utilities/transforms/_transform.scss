@@ -3,8 +3,11 @@
  * @module: _transform.scss
  */
 
-@mixin transform($prefix, $pseudo, $class) {
-
+@mixin transform(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   #{$prefix}#{$class}#{$id}transform#{$pseudo} {
     --transform-translate-x: 0;
     --transform-translate-y: 0;
@@ -15,10 +18,8 @@
     --transform-scale-y: 1;
     transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y))
   }
-
   #{$prefix}#{$class}#{$id}transform-none#{$pseudo} {
     transform: none
   }
-
 }
 

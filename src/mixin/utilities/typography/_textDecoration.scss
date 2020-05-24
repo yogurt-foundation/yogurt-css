@@ -3,7 +3,11 @@
  * @module: _textDecoration.scss
  */
 
-@mixin textDecoration($prefix, $pseudo, $class) {
+@mixin textDecoration(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   #{$prefix}#{$class}#{$id}underline#{$pseudo} {
     text-decoration: underline#{$override}
   }

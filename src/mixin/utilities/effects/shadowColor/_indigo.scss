@@ -3,9 +3,20 @@
  * @module: shadowColor/_indigo.scss
  */
 
-@mixin shadowColorIndigo($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $indigo {
-    @include shadowColor
-      ($prefix, $pseudo, $class, indigo, $mode, $hex, $radius)
+@mixin shadowColorIndigo(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $indigo {
+    @include shadowColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "indigo",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier,
+      $radius: $radius-modifier
+    )
   }
 }

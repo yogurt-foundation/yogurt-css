@@ -3,10 +3,20 @@
  * @module: textColor/_pink.scss
  */
 
-@mixin textColorPink($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $pink {
-    @include textColor
-      ($prefix, $pseudo, $class, pink, $mode, $hex, $radius)
+@mixin textColorPink(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $pink {
+    @include textColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "pink",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

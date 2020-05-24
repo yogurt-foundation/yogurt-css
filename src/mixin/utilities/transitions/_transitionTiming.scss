@@ -3,12 +3,20 @@
  * @module: _transitionTiming.scss
  */
 
-@mixin transitionTiming($prefix, $pseudo, $class) {
+@mixin transitionTiming(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $transition-timing {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "ease-", $modifier,
-      "transition-timing-function", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "ease-",
+      $modifier: $modifier,
+      $property: "transition-timing-function",
+      $value: $value#{$override}
     )
   }
 }

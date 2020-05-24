@@ -3,12 +3,20 @@
  * @module: _alignSelf.scss
  */
 
-@mixin alignSelf($prefix, $pseudo, $class) {
+@mixin alignSelf(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $align-self {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "self-", $modifier,
-      "align-self", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "self-",
+      $modifier: $modifier,
+      $property: "align-self",
+      $value: $value#{$override}
     )
   }
 }

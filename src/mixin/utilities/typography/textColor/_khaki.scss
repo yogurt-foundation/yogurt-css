@@ -3,10 +3,20 @@
  * @module: textColor/_khaki.scss
  */
 
-@mixin textColorKhaki($prefix, $pseudo, $class){
-  @each $mode, $hex, $radius in $khaki {
-    @include textColor
-      ($prefix, $pseudo, $class, khaki, $mode, $hex, $radius)
+@mixin textColorKhaki(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ){
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $khaki {
+    @include textColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "khaki",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

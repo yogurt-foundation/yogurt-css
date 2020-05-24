@@ -3,7 +3,11 @@
  * @module: _wordBreak.scss
  */
 
-@mixin wordBreak($prefix, $pseudo, $class) {
+@mixin wordBreak(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   #{$prefix}#{$class}#{$id}break-normal#{$pseudo} {
     overflow-wrap: normal#{$override};
     word-break: normal#{$override}

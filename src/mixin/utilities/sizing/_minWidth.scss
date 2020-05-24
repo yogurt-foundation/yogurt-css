@@ -3,12 +3,20 @@
  * @module: _minWidth.scss
  */
 
-@mixin minWidth($prefix, $pseudo, $class) {
+@mixin minWidth(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $min-width {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "min-w-", $modifier,
-      "min-width", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "min-w-",
+      $modifier: $modifier,
+      $property: "min-width",
+      $value: $value#{$override}
     )
   }
 }

@@ -3,12 +3,20 @@
  * @module: _backgroundPosition.scss
  */
 
-@mixin backgroundPosition($prefix, $pseudo, $class) {
+@mixin backgroundPosition(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $background-position {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "bg-", $modifier,
-      "background-position", $value#{$override}
+      $prefix,
+      $pseudo,
+      $class,
+      "bg-",
+      $modifier,
+      "background-position",
+      $value#{$override}
     )
   }
 }

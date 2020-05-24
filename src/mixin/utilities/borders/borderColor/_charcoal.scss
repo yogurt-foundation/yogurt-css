@@ -3,10 +3,20 @@
  * @module: borderColor/_charcoal.scss
  */
 
-@mixin borderColorCharcoal($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $charcoal {
-    @include borderColor
-      ($prefix, $pseudo, $class, charcoal, $mode, $hex, $radius)
+@mixin borderColorCharcoal(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier in $charcoal {
+    @include borderColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "charcoal",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

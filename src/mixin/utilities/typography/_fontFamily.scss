@@ -3,12 +3,20 @@
  * @module: _fontFamily.scss
  */
 
-@mixin fontFamily($prefix, $pseudo, $class) {
+@mixin fontFamily(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $font-family {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "font-", $modifier,
-      "font-family", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "font-",
+      $modifier: $modifier,
+      $property: "font-family",
+      $value: $value#{$override}
     )
   }
 }

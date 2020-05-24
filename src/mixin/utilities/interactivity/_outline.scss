@@ -3,11 +3,18 @@
  * @module: _outline.scss
  */
 
-@mixin outline($prefix, $pseudo, $class) {
+@mixin outline(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "outline-none", "",
-    "outline", "0#{$override}"
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "outline-none",
+    $property: "outline",
+    $value: "0#{$override}"
   )
 }
 

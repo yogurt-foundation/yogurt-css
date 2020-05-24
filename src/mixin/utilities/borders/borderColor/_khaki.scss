@@ -3,10 +3,20 @@
  * @module: borderColor/_khaki.scss
  */
 
-@mixin borderColorKhaki($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $khaki {
-    @include borderColor
-      ($prefix, $pseudo, $class, khaki, $mode, $hex, $radius)
+@mixin borderColorKhaki(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier in $khaki {
+    @include borderColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "khaki",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

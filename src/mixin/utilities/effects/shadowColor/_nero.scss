@@ -3,10 +3,21 @@
  * @module: shadowColor/_nero.scss
  */
 
-@mixin shadowColorNero($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $nero {
-    @include shadowColor
-      ($prefix, $pseudo, $class, nero, $mode, $hex, $radius)
+@mixin shadowColorNero(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $nero {
+    @include shadowColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "nero",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier,
+      $radius: $radius-modifier
+    )
   }
 }
 

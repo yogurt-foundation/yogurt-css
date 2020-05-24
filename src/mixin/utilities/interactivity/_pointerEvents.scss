@@ -3,12 +3,20 @@
  * @module: _pointerEvents.scss
  */
 
-@mixin pointerEvents($prefix, $pseudo, $class) {
+@mixin pointerEvents(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $pointer-events {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "pointer-events-", $modifier,
-      "pointer-events", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "pointer-events-",
+      $modifier: $modifier,
+      $property: "pointer-events",
+      $value: $value#{$override}
     )
   }
 }

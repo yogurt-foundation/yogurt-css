@@ -3,12 +3,19 @@
  * @module: _transitionProperty.scss
  */
 
-@mixin transitionProperty($prefix, $pseudo, $class) {
+@mixin transitionProperty(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $transition-property {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "", $modifier,
-      "transition-property", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $modifier: $modifier,
+      $property: "transition-property",
+      $value: $value#{$override}
     )
   }
 }

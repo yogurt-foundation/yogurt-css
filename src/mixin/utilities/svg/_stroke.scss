@@ -3,11 +3,18 @@
  * @module: _stroke.scss
  */
 
-@mixin stroke($prefix, $pseudo, $class) {
+@mixin stroke(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "stroke-current", "",
-    "stroke", "currentColor#{$override}"
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "stroke-current",
+    $property: "stroke",
+    $value: "currentColor#{$override}"
   )
 }
 

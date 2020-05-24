@@ -3,12 +3,21 @@
  * @module: _rotate.scss
  */
 
-@mixin rotate($prefix, $pseudo, $class, $negative) {
+@mixin rotate(
+  $prefix: null,
+  $pseudo: null,
+  $class: null,
+  $negative: null
+  ) {
   @each $modifier, $value in $rotate {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "#{$negative}rotate-", $modifier,
-      "--transform-rotate", #{$negative}$value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "#{$negative}rotate-",
+      $modifier: $modifier,
+      $property: "--transform-rotate",
+      $value: #{$negative}$value#{$override}
     )
   }
 }

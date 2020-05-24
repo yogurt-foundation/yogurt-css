@@ -3,10 +3,20 @@
  * @module: textColor/_purple.scss
  */
 
-@mixin textColorPurple($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $purple {
-    @include textColor
-      ($prefix, $pseudo, $class, purple, $mode, $hex, $radius)
+@mixin textColorPurple(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $purple {
+    @include textColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "purple",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

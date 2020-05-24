@@ -3,10 +3,20 @@
  * @module: textColor/_black.scss
  */
 
-@mixin textColorBlack($prefix, $pseudo, $class){
-  @each $mode, $hex, $radius in $black {
-    @include textColor
-      ($prefix, $pseudo, $class, black, $mode, $hex, $radius)
+@mixin textColorBlack(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ){
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $black {
+    @include textColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "black",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

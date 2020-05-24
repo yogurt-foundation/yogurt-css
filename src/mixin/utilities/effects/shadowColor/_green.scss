@@ -3,10 +3,21 @@
  * @module: shadowColor/_green.scss
  */
 
-@mixin shadowColorGreen($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $green {
-    @include shadowColor
-      ($prefix, $pseudo, $class, green, $mode, $hex, $radius)
+@mixin shadowColorGreen(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $green {
+    @include shadowColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "green",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier,
+      $radius: $radius-modifier
+    )
   }
 }
 

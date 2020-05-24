@@ -3,15 +3,21 @@
  * @module: _borderStyle.scss
  */
 
-@mixin borderStyle($prefix, $pseudo, $class) {
+@mixin borderStyle(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $border-style {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "border-", $modifier,
-      "border-style", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "border-",
+      $modifier: $modifier,
+      $property: "border-style",
+      $value: $value#{$override}
     )
   }
 }
-
-
 

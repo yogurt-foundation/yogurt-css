@@ -3,12 +3,20 @@
  * @module: _order.scss
  */
 
-@mixin order($prefix, $pseudo, $class) {
+@mixin order(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $order {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "order-", $modifier,
-      "order", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "order-",
+      $modifier: $modifier,
+      $property:"order",
+      $value: $value#{$override}
     )
   }
 }

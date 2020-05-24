@@ -3,7 +3,11 @@
  * @module: _listStylePostion.scss
  */
 
-@mixin listStylePosition($prefix, $class) {
+@mixin listStylePosition(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   #{$prefix}#{$class}#{$id}list-inside {
     list-style-position: inside#{$override};
   }

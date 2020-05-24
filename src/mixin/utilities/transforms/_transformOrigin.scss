@@ -3,12 +3,20 @@
  * @module: _transformOrigin.scss
  */
 
-@mixin transformOrigin($prefix, $pseudo, $class) {
+@mixin transformOrigin(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $transform-origin {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "origin-", $modifier,
-      "transform-origin", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "origin-",
+      $modifier: $modifier,
+      $property: "transform-origin",
+      $value: $value#{$override}
     )
   }
 }

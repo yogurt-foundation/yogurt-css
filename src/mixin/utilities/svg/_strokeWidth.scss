@@ -3,12 +3,20 @@
  * @module: _strokeWidth.scss
  */
 
-@mixin strokeWidth($prefix, $pseudo, $class) {
+@mixin strokeWidth(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $stroke-width {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "stroke-", $modifier,
-      "stroke-width", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "stroke-",
+      $modifier: $modifier,
+      $property: "stroke-width",
+      $value: $value#{$override}
     )
   }
 }

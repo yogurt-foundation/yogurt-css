@@ -3,12 +3,20 @@
  * @module: _backgroundAttachment.scss
  */
 
-@mixin backgroundAttachment($prefix, $pseudo, $class) {
+@mixin backgroundAttachment(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $background-attachment {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "bg-", $modifier,
-      "background-attachment", $value#{$override}
+      $prefix,
+      $pseudo,
+      $class,
+      "bg-",
+      $modifier,
+      "background-attachment",
+      $value#{$override}
     )
   }
 }

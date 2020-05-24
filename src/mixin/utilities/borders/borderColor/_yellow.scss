@@ -3,10 +3,20 @@
  * @module: borderColor/_yellow.scss
  */
 
-@mixin borderColorYellow($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $yellow {
-    @include borderColor
-      ($prefix, $pseudo, $class, yellow, $mode, $hex, $radius)
+@mixin borderColorYellow(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier in $yellow {
+    @include borderColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "yellow",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

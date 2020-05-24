@@ -3,10 +3,20 @@
  * @module: backgroundColor/_pink.scss
  */
 
-@mixin backgroundColorPink($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $pink {
-    @include backgroundColor
-      ($prefix, $pseudo, $class, pink, $mode, $hex, $radius)
+@mixin backgroundColorPink(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $pink {
+    @include backgroundColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "pink",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

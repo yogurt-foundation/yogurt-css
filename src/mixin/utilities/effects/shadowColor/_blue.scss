@@ -3,10 +3,21 @@
  * @module: shadowColor/_blue.scss
  */
 
-@mixin shadowColorBlue($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $blue {
-    @include shadowColor
-      ($prefix, $pseudo, $class, blue, $mode, $hex, $radius)
+@mixin shadowColorBlue(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $blue {
+    @include shadowColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "blue",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier,
+      $radius: $radius-modifier
+    )
   }
 }
 

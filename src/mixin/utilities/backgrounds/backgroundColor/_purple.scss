@@ -3,10 +3,20 @@
  * @module: backgroundColor/_purple.scss
  */
 
-@mixin backgroundColorPurple($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $purple {
-    @include backgroundColor
-      ($prefix, $pseudo, $class, purple, $mode, $hex, $radius)
+@mixin backgroundColorPurple(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $purple {
+    @include backgroundColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "purple",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

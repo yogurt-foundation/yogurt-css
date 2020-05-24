@@ -3,7 +3,11 @@
  * @module: _filterCompose.scss
  */
 
-@mixin filterCompose($prefix, $pseudo, $class) {
+@mixin filterCompose(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier1, $value1 in $filter-brightness {
     @each $modifier2, $value2 in $filter-contrast {
       @each $modifier3, $value3 in $filter-saturate {

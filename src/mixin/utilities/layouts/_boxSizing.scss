@@ -3,12 +3,20 @@
  * @module: _boxSizing.scss
  */
 
-@mixin boxSizing($prefix, $pseudo, $class) {
+@mixin boxSizing(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $box-sizing {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "box-", $modifier,
-      "box-sizing", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "box-",
+      $modifier: $modifier,
+      $property: "box-sizing",
+      $value: $value#{$override}
     )
   }
 }

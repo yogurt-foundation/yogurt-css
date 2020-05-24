@@ -3,12 +3,20 @@
  * @module: _transitionDuration.scss
  */
 
-@mixin transitionDuration($prefix, $pseudo, $class) {
+@mixin transitionDuration(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $transition-duration {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "duration-", $modifier,
-      "transition-duration", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "duration-",
+      $modifier: $modifier,
+      $property: "transition-duration",
+      $value: $value#{$override}
     )
   }
 }

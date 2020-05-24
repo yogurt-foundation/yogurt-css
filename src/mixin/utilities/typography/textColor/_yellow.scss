@@ -3,10 +3,20 @@
  * @module: textColor/_yellow.scss
  */
 
-@mixin textColorYellow($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $yellow {
-    @include textColor
-      ($prefix, $pseudo, $class, yellow, $mode, $hex, $radius)
+@mixin textColorYellow(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $yellow {
+    @include textColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "yellow",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

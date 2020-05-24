@@ -3,12 +3,20 @@
  * @module: _userSelect.scss
  */
 
-@mixin userSelect($prefix, $pseudo, $class) {
+@mixin userSelect(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $user-select {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "select-", $modifier,
-      "user-select", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "select-",
+      $modifier: $modifier,
+      $property: "user-select",
+      $value: $value#{$override}
     )
   }
 }

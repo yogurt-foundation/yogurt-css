@@ -3,12 +3,19 @@
  * @module: _position.scss
  */
 
-@mixin position($prefix, $pseudo, $class) {
+@mixin position(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $position {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "", $modifier,
-      "position", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $modifier: $modifier,
+      $property: "position",
+      $value: $value#{$override}
     )
   }
 }

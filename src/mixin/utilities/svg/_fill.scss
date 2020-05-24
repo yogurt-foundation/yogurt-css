@@ -3,10 +3,17 @@
  * @module: _fill.scss
  */
 
-@mixin fill($prefix, $pseudo, $class) {
+@mixin fill(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "fill-current", "",
-    "fill", "currentColor#{$override}"
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "fill-current",
+    $property: "fill",
+    $value: "currentColor#{$override}"
   )
 }

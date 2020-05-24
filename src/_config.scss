@@ -81,8 +81,8 @@ $clear:
 
 /* color */
 
-// light/darkness, colorcode(hex)
-// 100,200,300,400 = lightness
+// shade, color(hex)
+// 100, 200, 300, 400 = lightness
 // 500, 600, 700, 800, 900 = darkness
 
 $special-colors:
@@ -260,8 +260,8 @@ $nero:
 $shadow-color:
   (md, 6px),
   (lg, 15px),
-  (xl, 25px), // (new)
-  (\32xl, 50px); // (new)
+  (xl, 25px),
+  (\32xl, 50px);
 
 /* alignContent */
 

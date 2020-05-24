@@ -3,7 +3,11 @@
  * @module: _fontStyle.scss
  */
 
-@mixin fontStyle($prefix, $class) {
+@mixin fontStyle(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   #{$prefix}#{$class}#{$id}italic {
     font-style: italic#{$override};
   }

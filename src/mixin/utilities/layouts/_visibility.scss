@@ -3,16 +3,26 @@
  * @module: _visibility.scss
  */
 
-@mixin visibility($prefix, $pseudo, $class) {
+@mixin visibility(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "visible", "",
-    "visibility", "visible#{$override}"
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "visible",
+    $property: "visibility",
+    $value: "visible#{$override}"
   )
   @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "invisible", "",
-    "visibility", "hidden#{$override}"
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "invisible",
+    $property: "visibility",
+    $value: "hidden#{$override}"
   )
 }
 

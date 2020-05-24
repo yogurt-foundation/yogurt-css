@@ -3,12 +3,20 @@
  * @module: _height.scss
  */
 
-@mixin height($prefix, $pseudo, $class) {
+@mixin height(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $height {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "h-", $modifier,
-      "height", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "h-",
+      $modifier: $modifier,
+      $property: "height",
+      $value: $value#{$override}
     )
   }
 }

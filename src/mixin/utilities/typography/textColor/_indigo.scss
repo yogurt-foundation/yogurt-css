@@ -3,10 +3,20 @@
  * @module: textColor/_indigo.scss
  */
 
-@mixin textColorIndigo($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $indigo {
-    @include textColor
-      ($prefix, $pseudo, $class, indigo, $mode, $hex, $radius)
+@mixin textColorIndigo(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $indigo {
+    @include textColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "indigo",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

@@ -3,17 +3,30 @@
  * @module: _skew.scss
  */
 
-@mixin skew($prefix, $pseudo, $class, $negative) {
+@mixin skew(
+  $prefix: null,
+  $pseudo: null,
+  $class: null,
+  $negative: null
+  ) {
   @each $modifier, $value in $skew {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "#{$negative}skew-x-", $modifier,
-      "--transform-skew-x", "#{$negative}#{$value}#{$override}"
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "#{$negative}skew-x-",
+      $modifier: $modifier,
+      $property: "--transform-skew-x",
+      $value: "#{$negative}#{$value}#{$override}"
     )
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "#{$negative}skew-y-", $modifier,
-      "--transform-skew-y", "#{$negative}#{$value}#{$override}"
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "#{$negative}skew-y-",
+      $modifier: $modifier,
+      $property: "--transform-skew-y",
+      $value: "#{$negative}#{$value}#{$override}"
     )
   }
 }

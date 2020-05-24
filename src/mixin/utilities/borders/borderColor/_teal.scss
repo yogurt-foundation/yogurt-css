@@ -3,9 +3,19 @@
  * @module: borderColor/_teal.scss
  */
 
-@mixin borderColorTeal($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $teal {
-    @include borderColor
-      ($prefix, $pseudo, $class, teal, $mode, $hex, $radius)
+@mixin borderColorTeal(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier in $teal {
+    @include borderColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "teal",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }

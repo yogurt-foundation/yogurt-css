@@ -5,27 +5,27 @@
 
 /* backgrounds */
 
-@include backgroundColorAmber($prefix-focus, $pseudo-focus, $class-false)
-@include backgroundColorBlack($prefix-focus, $pseudo-focus, $class-false)
-@include backgroundColorBlue($prefix-focus, $pseudo-focus, $class-false)
-@include backgroundColorCharcoal($prefix-focus, $pseudo-focus, $class-false)
-@include backgroundColorGray($prefix-focus, $pseudo-focus, $class-false)
-@include backgroundColorGreen($prefix-focus, $pseudo-focus, $class-false)
-@include backgroundColorIndigo($prefix-focus, $pseudo-focus, $class-false)
-@include backgroundColorKhaki($prefix-focus, $pseudo-focus, $class-false)
-@include backgroundColorNero($prefix-focus, $pseudo-focus, $class-false)
-@include backgroundColorOrange($prefix-focus, $pseudo-focus, $class-false)
-@include backgroundColorPink($prefix-focus, $pseudo-focus, $class-false)
-@include backgroundColorPurple($prefix-focus, $pseudo-focus, $class-false)
-@include backgroundColorRed($prefix-focus, $pseudo-focus, $class-false)
-@include backgroundColorTeal($prefix-focus, $pseudo-focus, $class-false)
-@include backgroundColorYellow($prefix-focus, $pseudo-focus, $class-false)
+@include backgroundColorAmber($prefix: $variant-focus, $pseudo: $focus)
+@include backgroundColorBlack($prefix: $variant-focus, $pseudo: $focus)
+@include backgroundColorBlue($prefix: $variant-focus, $pseudo: $focus)
+@include backgroundColorCharcoal($prefix: $variant-focus, $pseudo: $focus)
+@include backgroundColorGray($prefix: $variant-focus, $pseudo: $focus)
+@include backgroundColorGreen($prefix: $variant-focus, $pseudo: $focus)
+@include backgroundColorIndigo($prefix: $variant-focus, $pseudo: $focus)
+@include backgroundColorKhaki($prefix: $variant-focus, $pseudo: $focus)
+@include backgroundColorNero($prefix: $variant-focus, $pseudo: $focus)
+@include backgroundColorOrange($prefix: $variant-focus, $pseudo: $focus)
+@include backgroundColorPink($prefix: $variant-focus, $pseudo: $focus)
+@include backgroundColorPurple($prefix: $variant-focus, $pseudo: $focus)
+@include backgroundColorRed($prefix: $variant-focus, $pseudo: $focus)
+@include backgroundColorTeal($prefix: $variant-focus, $pseudo: $focus)
+@include backgroundColorYellow($prefix: $variant-focus, $pseudo: $focus)
 
 /* borders */
 
 /* effects */
 
-@include boxShadow($prefix-focus, $pseudo-focus, $class-false)
+@include boxShadow($prefix: $variant-focus, $pseudo: $focus)
 
 /* filters */
 
@@ -33,7 +33,7 @@
 
 /* interactivity */
 
-@include outline($prefix-focus, $pseudo-focus, $class-false)
+@include outline($prefix: $variant-focus, $pseudo: $focus)
 
 /* layouts */
 
@@ -52,21 +52,21 @@
 /* typography */
 
 // (optional)
-// @include placeholderColorAmber($prefix-focus, $pseudo-focus, $class-false)
-// @include placeholderColorBlack($prefix-focus, $pseudo-focus, $class-false)
-// @include placeholderColorBlue($prefix-focus, $pseudo-focus, $class-false)
-// @include placeholderColorCharcoal($prefix-focus, $pseudo-focus, $class-false)
-// @include placeholderColorGray($prefix-focus, $pseudo-focus, $class-false)
-// @include placeholderColorGreen($prefix-focus, $pseudo-focus, $class-false)
-// @include placeholderColorIndigo($prefix-focus, $pseudo-focus, $class-false)
-// @include placeholderColorKhaki($prefix-focus, $pseudo-focus, $class-false)
-// @include placeholderColorNero($prefix-focus, $pseudo-focus, $class-false)
-// @include placeholderColorOrange($prefix-focus, $pseudo-focus, $class-false)
-// @include placeholderColorPink($prefix-focus, $pseudo-focus, $class-false)
-// @include placeholderColorPurple($prefix-focus, $pseudo-focus, $class-false)
-// @include placeholderColorRed($prefix-focus, $pseudo-focus, $class-false)
-// @include placeholderColorTeal($prefix-focus, $pseudo-focus, $class-false)
-// @include placeholderColorYellow($prefix-focus, $pseudo-focus, $class-false)
+// @include placeholderColorAmber($prefix: $variant-focus, $pseudo: $focus)
+// @include placeholderColorBlack($prefix: $variant-focus, $pseudo: $focus)
+// @include placeholderColorBlue($prefix: $variant-focus, $pseudo: $focus)
+// @include placeholderColorCharcoal($prefix: $variant-focus, $pseudo: $focus)
+// @include placeholderColorGray($prefix: $variant-focus, $pseudo: $focus)
+// @include placeholderColorGreen($prefix: $variant-focus, $pseudo: $focus)
+// @include placeholderColorIndigo($prefix: $variant-focus, $pseudo: $focus)
+// @include placeholderColorKhaki($prefix: $variant-focus, $pseudo: $focus)
+// @include placeholderColorNero($prefix: $variant-focus, $pseudo: $focus)
+// @include placeholderColorOrange($prefix: $variant-focus, $pseudo: $focus)
+// @include placeholderColorPink($prefix: $variant-focus, $pseudo: $focus)
+// @include placeholderColorPurple($prefix: $variant-focus, $pseudo: $focus)
+// @include placeholderColorRed($prefix: $variant-focus, $pseudo: $focus)
+// @include placeholderColorTeal($prefix: $variant-focus, $pseudo: $focus)
+// @include placeholderColorYellow($prefix: $variant-focus, $pseudo: $focus)
 
-@include fontWeight($prefix-focus, $pseudo-focus, $class-false)
-@include textDecoration($prefix-focus, $pseudo-focus, $class-false)
+@include fontWeight($prefix: $variant-focus, $pseudo: $focus)
+@include textDecoration($prefix: $variant-focus, $pseudo: $focus)

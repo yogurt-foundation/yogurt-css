@@ -3,12 +3,20 @@
  * @module: _fontWeight.scss
  */
 
-@mixin fontWeight($prefix, $pseudo, $class) {
+@mixin fontWeight(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $font-weight {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "font-", $modifier,
-      "font-weight", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "font-",
+      $modifier: $modifier,
+      $property: "font-weight",
+      $value: $value#{$override}
     )
   }
 }

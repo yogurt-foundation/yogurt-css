@@ -3,42 +3,76 @@
  * @module: _padding.scss
  */
 
-@mixin padding($prefix, $pseudo, $class) {
+@mixin padding(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $spacing {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "p-", $modifier,
-      "padding", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "p-",
+      $modifier: $modifier,
+      $property: "padding",
+      $value: $value#{$override}
     )
     @include setRuleDouble(
-      $prefix, $pseudo, $class,
-      "px-", $modifier,
-      "padding-left", "padding-right", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "px-",
+      $modifier: $modifier,
+      $property1: "padding-left",
+      $property2: "padding-right",
+      $value: $value#{$override}
     )
     @include setRuleDouble(
-      $prefix, $pseudo, $class,
-      "py-", $modifier,
-      "padding-top", "padding-bottom", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "py-",
+      $modifier: $modifier,
+      $property1: "padding-top",
+      $property2: "padding-bottom",
+      $value: $value#{$override}
     )
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "pt-", $modifier,
-      "padding-top", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "pt-",
+      $modifier: $modifier,
+      $property: "padding-top",
+      $value: $value#{$override}
     )
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "pb-", $modifier,
-      "padding-bottom", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "pb-",
+      $modifier: $modifier,
+      $property: "padding-bottom",
+      $value: $value#{$override}
     )
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "pl-", $modifier,
-      "padding-left", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "pl-",
+      $modifier: $modifier,
+      $property: "padding-left",
+      $value: $value#{$override}
     )
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "pr-", $modifier,
-      "padding-right", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "pr-",
+      $modifier: $modifier,
+      $property: "padding-right",
+      $value: $value#{$override}
     )
   }
 }

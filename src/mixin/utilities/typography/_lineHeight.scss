@@ -3,12 +3,20 @@
  * @module: _lineHeight.scss
  */
 
-@mixin lineHeight($prefix, $pseudo, $class) {
+@mixin lineHeight(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $line-height {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "depth-", $modifier,
-      "line-height", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "depth-",
+      $modifier: $modifier,
+      $property: "line-height",
+      $value: $value#{$override}
     )
   }
 }

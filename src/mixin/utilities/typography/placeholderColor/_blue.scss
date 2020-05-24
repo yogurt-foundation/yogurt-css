@@ -3,10 +3,20 @@
  * @module: placeholderColor/_blue.scss
  */
 
-@mixin placeholderColorBlue($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $blue {
-    @include placeholderColor
-      ($prefix, $pseudo, $class, blue, $mode, $hex, $radius)
+@mixin placeholderColorBlue(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $blue {
+    @include placeholderColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "blue",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

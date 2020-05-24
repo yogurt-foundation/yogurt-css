@@ -3,10 +3,21 @@
  * @module: shadowColor/_black.scss
  */
 
-@mixin shadowColorBlack($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $black {
-    @include shadowColor
-      ($prefix, $pseudo, $class, black, $mode, $hex, $radius)
+@mixin shadowColorBlack(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $black {
+    @include shadowColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "black",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier,
+      $radius: $radius-modifier
+    )
   }
 }
 

@@ -3,10 +3,19 @@
  * @module: placeholderColor/_orange.scss
  */
 
-@mixin placeholderColorOrange($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $orange {
-    @include placeholderColor
-      ($prefix, $pseudo, $class, orange, $mode, $hex, $radius)
+@mixin placeholderColorOrange(
+  $prefix: null,
+  $pseudo: null,
+  $class: null) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $orange {
+    @include placeholderColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "orange",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

@@ -3,12 +3,20 @@
  * @module: _whitespace.scss
  */
 
-@mixin whitespace($prefix, $pseudo, $class) {
+@mixin whitespace(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $whitespace {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "whitespace-", $modifier,
-      "white-space", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "whitespace-",
+      $modifier: $modifier,
+      $property: "white-space",
+      $value: $value#{$override}
     )
   }
 }

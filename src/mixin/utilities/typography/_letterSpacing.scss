@@ -3,12 +3,20 @@
  * @module: _letterSpacing.scss
  */
 
-@mixin letterSpacing($prefix, $pseudo, $class) {
+@mixin letterSpacing(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $letter-spacing {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "gap-", $modifier,
-      "letter-spacing", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "gap-",
+      $modifier: $modifier,
+      $property: "letter-spacing",
+      $value: $value#{$override}
     )
   }
 }

@@ -3,17 +3,30 @@
  * @module: _translate.scss
  */
 
-@mixin translate($prefix, $pseudo, $class, $negative) {
+@mixin translate(
+  $prefix: null,
+  $pseudo: null,
+  $class: null,
+  $negative: null
+  ) {
   @each $modifier, $value in $translate {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "#{$negative}translate-x-", $modifier,
-      "--transform-translate-x", #{$negative}#{$value}#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "#{$negative}translate-x-",
+      $modifier: $modifier,
+      $property: "--transform-translate-x",
+      $value: #{$negative}#{$value}#{$override}
     )
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "#{$negative}translate-y-", $modifier,
-      "--transform-translate-y", #{$negative}#{$value}#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "#{$negative}translate-y-",
+      $modifier: $modifier,
+      $property: "--transform-translate-y",
+      $value: #{$negative}#{$value}#{$override}
     )
   }
 }

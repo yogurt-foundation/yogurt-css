@@ -3,9 +3,20 @@
  * @module: shadowColor/_orange.scss
  */
 
-@mixin shadowColorOrange($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $orange {
-    @include shadowColor
-      ($prefix, $pseudo, $class, orange, $mode, $hex, $radius)
+@mixin shadowColorOrange(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $orange {
+    @include shadowColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "orange",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier,
+      $radius: $radius-modifier
+    )
   }
 }

@@ -3,38 +3,64 @@
  * @module: _borderWidth.scss
  */
 
-@mixin borderWidth($prefix, $pseudo, $class) {
+@mixin borderWidth(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "border", "",
-    "border-width", "0.0625em#{$override}"
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "border",
+    $property: "border-width",
+    $value: "0.0625em#{$override}"
   )
-
   @each $modifier, $value in $border-width {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "border-", $modifier,
-      "border-width", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "border-",
+      $modifier: $modifier,
+      $property: "border-width",
+      $value: $value#{$override}
     )
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "border-t-", $modifier,
-      "border-top-width", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "border-t-",
+      $modifier: $modifier,
+      $property: "border-top-width",
+      $value: $value#{$override}
     )
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "border-b-", $modifier,
-      "border-bottom-width", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "border-b-",
+      $modifier: $modifier,
+      $property: "border-bottom-width",
+      $value: $value#{$override}
     )
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "border-l-", $modifier,
-      "border-left-width", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "border-l-",
+      $modifier: $modifier,
+      $property: "border-left-width",
+      $value: $value#{$override}
     )
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "border-r-", $modifier,
-      "border-right-width", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "border-r-",
+      $modifier: $modifier,
+      $property: "border-right-width",
+      $value: $value#{$override}
     )
   }
 }

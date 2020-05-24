@@ -3,12 +3,20 @@
  * @module: _backgroundSize.scss
  */
 
-@mixin backgroundSize($prefix, $pseudo, $class) {
+@mixin backgroundSize(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $background-size {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "bg-", $modifier,
-      "background-size", $value#{$override}
+      $prefix,
+      $pseudo,
+      $class,
+      "bg-",
+      $modifier,
+      "background-size",
+      $value#{$override}
     )
   }
 }

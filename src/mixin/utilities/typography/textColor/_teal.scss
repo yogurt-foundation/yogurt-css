@@ -3,10 +3,20 @@
  * @module: textColor/_teal.scss
  */
 
-@mixin textColorTeal($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $teal {
-    @include textColor
-      ($prefix, $pseudo, $class, teal, $mode, $hex, $radius)
+@mixin textColorTeal(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $teal {
+    @include textColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "teal",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

@@ -3,10 +3,20 @@
  * @module: textColor/_orange.scss
  */
 
-@mixin textColorOrange($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $orange {
-    @include textColor
-      ($prefix, $pseudo, $class, orange, $mode, $hex, $radius)
+@mixin textColorOrange(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $orange {
+    @include textColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "orange",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

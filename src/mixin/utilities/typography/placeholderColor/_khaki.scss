@@ -3,9 +3,19 @@
  * @module: placeholderColor/_khaki.scss
  */
 
-@mixin placeholderColorKhaki($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $khaki {
-    @include placeholderColor
-      ($prefix, $pseudo, $class, khaki, $mode, $hex, $radius)
+@mixin placeholderColorKhaki(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $khaki {
+    @include placeholderColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "khaki",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }

@@ -3,10 +3,20 @@
  * @module: borderColor/_pink.scss
  */
 
-@mixin borderColorPink($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $pink {
-    @include borderColor
-      ($prefix, $pseudo, $class, pink, $mode, $hex, $radius)
+@mixin borderColorPink(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier in $pink {
+    @include borderColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "pink",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

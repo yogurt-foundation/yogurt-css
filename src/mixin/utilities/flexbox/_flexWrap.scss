@@ -3,12 +3,20 @@
  * @module: _flexWrap.scss
  */
 
-@mixin flexWrap($prefix, $pseudo, $class) {
+@mixin flexWrap(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $flex-wrap {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "flex-", $modifier,
-      "flex-wrap", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "flex-",
+      $modifier: $modifier,
+      $property: "flex-wrap",
+      $value: $value#{$override}
     )
   }
 }

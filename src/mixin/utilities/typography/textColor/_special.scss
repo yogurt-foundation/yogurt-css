@@ -3,7 +3,11 @@
  * @module: textColor/_special.scss
  */
 
-@mixin textColorSpecial($prefix, $pseudo, $class) {
+@mixin textColorSpecial(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $special-colors {
     #{$prefix}#{$class}text-#{$modifier}#{$pseudo} {
       color: #{$value}#{$override}

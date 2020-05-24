@@ -3,10 +3,20 @@
  * @module: placeholderColor/_indigo.scss
  */
 
-@mixin placeholderColorIndigo($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $indigo {
-    @include placeholderColor
-      ($prefix, $pseudo, $class, indigo, $mode, $hex, $radius)
+@mixin placeholderColorIndigo(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $indigo {
+    @include placeholderColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "indigo",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

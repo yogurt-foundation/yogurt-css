@@ -3,12 +3,20 @@
  * @module: _width.scss
  */
 
-@mixin width($prefix, $pseudo, $class) {
+@mixin width(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $width {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "w-", $modifier,
-      "width", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "w-",
+      $modifier: $modifier,
+      $property: "width",
+      $value: $value#{$override}
     )
   }
 }

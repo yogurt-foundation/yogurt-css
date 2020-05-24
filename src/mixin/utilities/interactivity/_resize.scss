@@ -3,18 +3,28 @@
  * @module: _resize.scss
  */
 
-@mixin resize($prefix, $pseudo, $class) {
+@mixin resize(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @include setRuleSingle(
-    $prefix, $pseudo, $class,
-    "resize", "",
-    "resize", "both#{$override}"
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "resize",
+    $property: "resize",
+    $value: "both#{$override}"
   )
-
   @each $modifier, $value in $resize {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "resize-", $modifier,
-      "resize", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "resize-",
+      $modifier: $modifier,
+      $property: "resize",
+      $value: $value#{$override}
     )
   }
 }

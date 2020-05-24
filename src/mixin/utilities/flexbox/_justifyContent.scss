@@ -3,12 +3,20 @@
  * @module: _justifyContent.scss
  */
 
-@mixin justifyContent($prefix, $pseudo, $class) {
+@mixin justifyContent(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $justify-content {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "justify-", $modifier,
-      "justify-content", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "justify-",
+      $modifier: $modifier,
+      $property: "justify-content",
+      $value: $value#{$override}
     )
   }
 }

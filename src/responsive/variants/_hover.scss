@@ -5,32 +5,32 @@
 
 /* backgrounds */
 
-@include backgroundAttachment($prefix-responsive-hover, $pseudo-hover, $class-false)
+@include backgroundAttachment($prefix: $responsive-hover, $pseudo: $hover)
 
 /* borders */
 
 /* effects */
 
-@include opacity($prefix-responsive-hover, $pseudo-hover, $class-false)
+@include opacity($prefix: $responsive-hover, $pseudo: $hover)
 
 /* filters */
 
 /* flexbox */
 
-@include flexDirection($prefix-responsive-hover, $pseudo-hover, $class-false)
+@include flexDirection($prefix: $responsive-hover, $pseudo: $hover)
 
 /* interactivity */
 
 /* layouts */
 
-@include display($prefix-responsive-hover, $pseudo-hover, $class-false)
-@include position($prefix-responsive-hover, $pseudo-hover, $class-false)
-@include visibility($prefix-responsive-hover, $pseudo-hover, $class-false)
+@include display($prefix: $responsive-hover, $pseudo: $hover)
+@include position($prefix: $responsive-hover, $pseudo: $hover)
+@include visibility($prefix: $responsive-hover, $pseudo: $hover)
 
 /* sizing */
 
-@include height($prefix-responsive-hover, $pseudo-hover, $class-false)
-@include width($prefix-responsive-hover, $pseudo-hover, $class-false)
+@include height($prefix: $responsive-hover, $pseudo: $hover)
+@include width($prefix: $responsive-hover, $pseudo: $hover)
 
 /* spacing */
 
@@ -40,19 +40,19 @@
 
 /* transforms */
 
-@include rotate($prefix-responsive-hover, $pseudo-hover, $class-false, $negative-false)
-@include rotate($prefix-responsive-hover, $pseudo-hover, $class-false, $negative-true) // negative
-@include scale($prefix-responsive-hover, $pseudo-hover, $class-false)
-@include skew($prefix-responsive-hover, $pseudo-hover, $class-false, $negative-false)
-@include skew($prefix-responsive-hover, $pseudo-hover, $class-false, $negative-true) // negative
-@include transformOrigin($prefix-responsive-hover, $pseudo-hover, $class-false)
-@include translate($prefix-responsive-hover, $pseudo-hover, $class-false, $negative-false)
-@include translate($prefix-responsive-hover, $pseudo-hover, $class-false, $negative-true) // negative
+@include rotate($prefix: $responsive-hover, $pseudo: $hover)
+@include rotate($prefix: $responsive-hover, $pseudo: $hover, $negative: $true) // negative
+@include scale($prefix: $responsive-hover, $pseudo: $hover)
+@include skew($prefix: $responsive-hover, $pseudo: $hover)
+@include skew($prefix: $responsive-hover, $pseudo: $hover, $negative: $true) // negative
+@include transformOrigin($prefix: $responsive-hover, $pseudo: $hover)
+@include translate($prefix: $responsive-hover, $pseudo: $hover)
+@include translate($prefix: $responsive-hover, $pseudo: $hover, $negative: $true) // negative
 
 /* transitions */
 
 /* typography */
 
-@include fontSize($prefix-responsive-hover, $pseudo-hover, $class-false)
-@include fontWeight($prefix-responsive-hover, $pseudo-hover, $class-false)
-@include textDecoration($prefix-responsive-hover, $pseudo-hover, $class-false)
+@include fontSize($prefix: $responsive-hover, $pseudo: $hover)
+@include fontWeight($prefix: $responsive-hover, $pseudo: $hover)
+@include textDecoration($prefix: $responsive-hover, $pseudo: $hover)

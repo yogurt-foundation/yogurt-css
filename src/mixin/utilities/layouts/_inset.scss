@@ -3,47 +3,92 @@
  * @module: _inset.scss
  */
 
-@mixin inset($prefix, $pseudo, $class) {
+@mixin inset(
+
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+
+  ) {
   @each $modifier, $value in $inset {
     @include setRuleQuad(
-      $prefix, $pseudo, $class,
-      "inset-", $modifier,
-      "top", "bottom", "left", "right", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "inset-",
+      $modifier: $modifier,
+      $property1: "top",
+      $property2: "bottom",
+      $property3: "left",
+      $property4: "right",
+      $value: $value#{$override}
     )
     @include setRuleDouble(
-      $prefix, $pseudo, $class,
-      "inset-x-", $modifier,
-      "left", "right", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "inset-x-",
+      $modifier: $modifier,
+      $property1: "left",
+      $property2: "right",
+      $value: $value#{$override}
     )
     @include setRuleDouble(
-      $prefix, $pseudo, $class,
-      "inset-y-", $modifier,
-      "top", "bottom", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "inset-y-",
+      $modifier: $modifier,
+      $property1: "top",
+      $property2: "bottom",
+      $value: $value#{$override}
     )
   }
 }
 
-@mixin insetTBLR($prefix, $pseudo, $class) {
+@mixin insetTBLR(
+
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+
+  ) {
   @each $modifier, $value in $spacing {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "top-", $modifier,
-      "top", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "top-",
+      $modifier: $modifier,
+      $property: "top",
+      $value: $value#{$override}
     )
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "bottom-", $modifier,
-      "bottom", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "bottom-",
+      $modifier: $modifier,
+      $property: "bottom",
+      $value: $value#{$override}
     )
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "left-", $modifier,
-      "left", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "left-",
+      $modifier: $modifier,
+      $property: "left",
+      $value: $value#{$override}
     )
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "right-", $modifier,
-      "right", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "right-",
+      $modifier: $modifier,
+      $property: "right",
+      $value: $value#{$override}
     )
   }
 }

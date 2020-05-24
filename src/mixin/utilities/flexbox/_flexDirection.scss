@@ -3,12 +3,20 @@
  * @module: _flexDirection.scss
  */
 
-@mixin flexDirection($prefix, $pseudo, $class) {
+@mixin flexDirection(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
   @each $modifier, $value in $flex-direction {
     @include setRuleSingle(
-      $prefix, $pseudo, $class,
-      "flex-", $modifier,
-      "flex-direction", $value#{$override}
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "flex-",
+      $modifier: $modifier,
+      $property: "flex-direction",
+      $value: $value#{$override}
     )
   }
 }

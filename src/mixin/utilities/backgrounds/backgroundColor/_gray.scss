@@ -3,10 +3,20 @@
  * @module: backgroundColor/_gray.scss
  */
 
-@mixin backgroundColorGray($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $gray {
-    @include backgroundColor
-      ($prefix, $pseudo, $class, gray, $mode, $hex, $radius)
+@mixin backgroundColorGray(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $gray {
+    @include backgroundColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "gray",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 

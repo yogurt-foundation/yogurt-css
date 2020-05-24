@@ -3,10 +3,19 @@
  * @module: backgroundColor/_yellow.scss
  */
 
-@mixin backgroundColorYellow($prefix, $pseudo, $class) {
-  @each $mode, $hex, $radius in $yellow {
-    @include backgroundColor
-      ($prefix, $pseudo, $class, yellow, $mode, $hex, $radius)
+@mixin backgroundColorYellow(
+  $prefix: null,
+  $pseudo: null,
+  $class: null) {
+  @each $shade-modifier, $hex-modifier, $radius-modifier in $yellow {
+    @include backgroundColor(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $color: "yellow",
+      $shade: $shade-modifier,
+      $hex: $hex-modifier
+    )
   }
 }
 
