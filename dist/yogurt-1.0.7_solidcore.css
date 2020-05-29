@@ -1503,39 +1503,39 @@ y {
 }
 
 .bg-indigo-100 {
-  background-color: 100;
+  background-color: #ebf4ff;
 }
 
 .bg-indigo-200 {
-  background-color: 200;
+  background-color: #c3dafe;
 }
 
 .bg-indigo-300 {
-  background-color: 300;
+  background-color: #a3bffa;
 }
 
 .bg-indigo-400 {
-  background-color: 400;
+  background-color: #7f9cf5;
 }
 
 .bg-indigo-500 {
-  background-color: 500;
+  background-color: #667eea;
 }
 
 .bg-indigo-600 {
-  background-color: 600;
+  background-color: #5a67d8;
 }
 
 .bg-indigo-700 {
-  background-color: 700;
+  background-color: #4c51bf;
 }
 
 .bg-indigo-800 {
-  background-color: 800;
+  background-color: #434190;
 }
 
 .bg-indigo-900 {
-  background-color: 900;
+  background-color: #3c366b;
 }
 
 .bg-khaki-100 {
@@ -7891,39 +7891,39 @@ y {
 }
 
 .focus\:bg-indigo-100:focus {
-  background-color: 100;
+  background-color: #ebf4ff;
 }
 
 .focus\:bg-indigo-200:focus {
-  background-color: 200;
+  background-color: #c3dafe;
 }
 
 .focus\:bg-indigo-300:focus {
-  background-color: 300;
+  background-color: #a3bffa;
 }
 
 .focus\:bg-indigo-400:focus {
-  background-color: 400;
+  background-color: #7f9cf5;
 }
 
 .focus\:bg-indigo-500:focus {
-  background-color: 500;
+  background-color: #667eea;
 }
 
 .focus\:bg-indigo-600:focus {
-  background-color: 600;
+  background-color: #5a67d8;
 }
 
 .focus\:bg-indigo-700:focus {
-  background-color: 700;
+  background-color: #4c51bf;
 }
 
 .focus\:bg-indigo-800:focus {
-  background-color: 800;
+  background-color: #434190;
 }
 
 .focus\:bg-indigo-900:focus {
-  background-color: 900;
+  background-color: #3c366b;
 }
 
 .focus\:bg-khaki-100:focus {
@@ -8761,75 +8761,75 @@ y {
 }
 
 .hover\:bg-indigo-100:hover {
-  background-color: 100;
+  background-color: #ebf4ff;
 }
 
 .hover\:bg-indigo-200:hover {
-  background-color: 200;
+  background-color: #c3dafe;
 }
 
 .hover\:bg-indigo-300:hover {
-  background-color: 300;
+  background-color: #a3bffa;
 }
 
 .hover\:bg-indigo-400:hover {
-  background-color: 400;
+  background-color: #7f9cf5;
 }
 
 .hover\:bg-indigo-500:hover {
-  background-color: 500;
+  background-color: #667eea;
 }
 
 .hover\:bg-indigo-600:hover {
-  background-color: 600;
+  background-color: #5a67d8;
 }
 
 .hover\:bg-indigo-700:hover {
-  background-color: 700;
+  background-color: #4c51bf;
 }
 
 .hover\:bg-indigo-800:hover {
-  background-color: 800;
+  background-color: #434190;
 }
 
 .hover\:bg-indigo-900:hover {
-  background-color: 900;
+  background-color: #3c366b;
 }
 
 .group:hover .group-hover\:bg-indigo-100:hover {
-  background-color: 100;
+  background-color: #ebf4ff;
 }
 
 .group:hover .group-hover\:bg-indigo-200:hover {
-  background-color: 200;
+  background-color: #c3dafe;
 }
 
 .group:hover .group-hover\:bg-indigo-300:hover {
-  background-color: 300;
+  background-color: #a3bffa;
 }
 
 .group:hover .group-hover\:bg-indigo-400:hover {
-  background-color: 400;
+  background-color: #7f9cf5;
 }
 
 .group:hover .group-hover\:bg-indigo-500:hover {
-  background-color: 500;
+  background-color: #667eea;
 }
 
 .group:hover .group-hover\:bg-indigo-600:hover {
-  background-color: 600;
+  background-color: #5a67d8;
 }
 
 .group:hover .group-hover\:bg-indigo-700:hover {
-  background-color: 700;
+  background-color: #4c51bf;
 }
 
 .group:hover .group-hover\:bg-indigo-800:hover {
-  background-color: 800;
+  background-color: #434190;
 }
 
 .group:hover .group-hover\:bg-indigo-900:hover {
-  background-color: 900;
+  background-color: #3c366b;
 }
 
 .hover\:bg-khaki-100:hover {
@@ -11787,31 +11787,31 @@ y {
     background-color: #22543d;
   }
   .xs\:bg-indigo-100 {
-    background-color: 100;
+    background-color: #ebf4ff;
   }
   .xs\:bg-indigo-200 {
-    background-color: 200;
+    background-color: #c3dafe;
   }
   .xs\:bg-indigo-300 {
-    background-color: 300;
+    background-color: #a3bffa;
   }
   .xs\:bg-indigo-400 {
-    background-color: 400;
+    background-color: #7f9cf5;
   }
   .xs\:bg-indigo-500 {
-    background-color: 500;
+    background-color: #667eea;
   }
   .xs\:bg-indigo-600 {
-    background-color: 600;
+    background-color: #5a67d8;
   }
   .xs\:bg-indigo-700 {
-    background-color: 700;
+    background-color: #4c51bf;
   }
   .xs\:bg-indigo-800 {
-    background-color: 800;
+    background-color: #434190;
   }
   .xs\:bg-indigo-900 {
-    background-color: 900;
+    background-color: #3c366b;
   }
   .xs\:bg-khaki-100 {
     background-color: #F9F7F4;
@@ -16809,31 +16809,31 @@ y {
     background-color: #22543d;
   }
   .sm\:bg-indigo-100 {
-    background-color: 100;
+    background-color: #ebf4ff;
   }
   .sm\:bg-indigo-200 {
-    background-color: 200;
+    background-color: #c3dafe;
   }
   .sm\:bg-indigo-300 {
-    background-color: 300;
+    background-color: #a3bffa;
   }
   .sm\:bg-indigo-400 {
-    background-color: 400;
+    background-color: #7f9cf5;
   }
   .sm\:bg-indigo-500 {
-    background-color: 500;
+    background-color: #667eea;
   }
   .sm\:bg-indigo-600 {
-    background-color: 600;
+    background-color: #5a67d8;
   }
   .sm\:bg-indigo-700 {
-    background-color: 700;
+    background-color: #4c51bf;
   }
   .sm\:bg-indigo-800 {
-    background-color: 800;
+    background-color: #434190;
   }
   .sm\:bg-indigo-900 {
-    background-color: 900;
+    background-color: #3c366b;
   }
   .sm\:bg-khaki-100 {
     background-color: #F9F7F4;
@@ -21831,31 +21831,31 @@ y {
     background-color: #22543d;
   }
   .md\:bg-indigo-100 {
-    background-color: 100;
+    background-color: #ebf4ff;
   }
   .md\:bg-indigo-200 {
-    background-color: 200;
+    background-color: #c3dafe;
   }
   .md\:bg-indigo-300 {
-    background-color: 300;
+    background-color: #a3bffa;
   }
   .md\:bg-indigo-400 {
-    background-color: 400;
+    background-color: #7f9cf5;
   }
   .md\:bg-indigo-500 {
-    background-color: 500;
+    background-color: #667eea;
   }
   .md\:bg-indigo-600 {
-    background-color: 600;
+    background-color: #5a67d8;
   }
   .md\:bg-indigo-700 {
-    background-color: 700;
+    background-color: #4c51bf;
   }
   .md\:bg-indigo-800 {
-    background-color: 800;
+    background-color: #434190;
   }
   .md\:bg-indigo-900 {
-    background-color: 900;
+    background-color: #3c366b;
   }
   .md\:bg-khaki-100 {
     background-color: #F9F7F4;
@@ -26853,31 +26853,31 @@ y {
     background-color: #22543d;
   }
   .lg\:bg-indigo-100 {
-    background-color: 100;
+    background-color: #ebf4ff;
   }
   .lg\:bg-indigo-200 {
-    background-color: 200;
+    background-color: #c3dafe;
   }
   .lg\:bg-indigo-300 {
-    background-color: 300;
+    background-color: #a3bffa;
   }
   .lg\:bg-indigo-400 {
-    background-color: 400;
+    background-color: #7f9cf5;
   }
   .lg\:bg-indigo-500 {
-    background-color: 500;
+    background-color: #667eea;
   }
   .lg\:bg-indigo-600 {
-    background-color: 600;
+    background-color: #5a67d8;
   }
   .lg\:bg-indigo-700 {
-    background-color: 700;
+    background-color: #4c51bf;
   }
   .lg\:bg-indigo-800 {
-    background-color: 800;
+    background-color: #434190;
   }
   .lg\:bg-indigo-900 {
-    background-color: 900;
+    background-color: #3c366b;
   }
   .lg\:bg-khaki-100 {
     background-color: #F9F7F4;
@@ -31875,31 +31875,31 @@ y {
     background-color: #22543d;
   }
   .xl\:bg-indigo-100 {
-    background-color: 100;
+    background-color: #ebf4ff;
   }
   .xl\:bg-indigo-200 {
-    background-color: 200;
+    background-color: #c3dafe;
   }
   .xl\:bg-indigo-300 {
-    background-color: 300;
+    background-color: #a3bffa;
   }
   .xl\:bg-indigo-400 {
-    background-color: 400;
+    background-color: #7f9cf5;
   }
   .xl\:bg-indigo-500 {
-    background-color: 500;
+    background-color: #667eea;
   }
   .xl\:bg-indigo-600 {
-    background-color: 600;
+    background-color: #5a67d8;
   }
   .xl\:bg-indigo-700 {
-    background-color: 700;
+    background-color: #4c51bf;
   }
   .xl\:bg-indigo-800 {
-    background-color: 800;
+    background-color: #434190;
   }
   .xl\:bg-indigo-900 {
-    background-color: 900;
+    background-color: #3c366b;
   }
   .xl\:bg-khaki-100 {
     background-color: #F9F7F4;
@@ -36897,31 +36897,31 @@ y {
     background-color: #22543d;
   }
   .\32k\:bg-indigo-100 {
-    background-color: 100;
+    background-color: #ebf4ff;
   }
   .\32k\:bg-indigo-200 {
-    background-color: 200;
+    background-color: #c3dafe;
   }
   .\32k\:bg-indigo-300 {
-    background-color: 300;
+    background-color: #a3bffa;
   }
   .\32k\:bg-indigo-400 {
-    background-color: 400;
+    background-color: #7f9cf5;
   }
   .\32k\:bg-indigo-500 {
-    background-color: 500;
+    background-color: #667eea;
   }
   .\32k\:bg-indigo-600 {
-    background-color: 600;
+    background-color: #5a67d8;
   }
   .\32k\:bg-indigo-700 {
-    background-color: 700;
+    background-color: #4c51bf;
   }
   .\32k\:bg-indigo-800 {
-    background-color: 800;
+    background-color: #434190;
   }
   .\32k\:bg-indigo-900 {
-    background-color: 900;
+    background-color: #3c366b;
   }
   .\32k\:bg-khaki-100 {
     background-color: #F9F7F4;
@@ -41919,31 +41919,31 @@ y {
     background-color: #22543d;
   }
   .\34k\:bg-indigo-100 {
-    background-color: 100;
+    background-color: #ebf4ff;
   }
   .\34k\:bg-indigo-200 {
-    background-color: 200;
+    background-color: #c3dafe;
   }
   .\34k\:bg-indigo-300 {
-    background-color: 300;
+    background-color: #a3bffa;
   }
   .\34k\:bg-indigo-400 {
-    background-color: 400;
+    background-color: #7f9cf5;
   }
   .\34k\:bg-indigo-500 {
-    background-color: 500;
+    background-color: #667eea;
   }
   .\34k\:bg-indigo-600 {
-    background-color: 600;
+    background-color: #5a67d8;
   }
   .\34k\:bg-indigo-700 {
-    background-color: 700;
+    background-color: #4c51bf;
   }
   .\34k\:bg-indigo-800 {
-    background-color: 800;
+    background-color: #434190;
   }
   .\34k\:bg-indigo-900 {
-    background-color: 900;
+    background-color: #3c366b;
   }
   .\34k\:bg-khaki-100 {
     background-color: #F9F7F4;
