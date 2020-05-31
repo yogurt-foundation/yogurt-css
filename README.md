@@ -4,8 +4,7 @@
 </p>
 
 <p align="left">
-  <a href="https://discord.gg/A62YjNR"
-     target="_blank">
+  <a href="https://discord.gg/A62YjNR" target="_blank">
     <img title="Join the chat at https://discord.gg/A62YjNR"
          src="https://img.shields.io/badge/DISCORD-JOIN_CHANNEL_%E2%86%92-7289da.svg?style=flat">
   </a>
@@ -44,11 +43,11 @@ Yogurt does not include any kind of component classes, unlike many other CSS fra
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/07b893f5-2d17-413d-a3b6-e657ef9dbef3/deploy-status)](https://app.netlify.com/sites/yogurt-css-documentation/deploys)
 
-Join our community channel.
+Join our community channel at [Discord](https://discord.gg/A62YjNR).
 
 <p align="left">
   <a href="https://discord.gg/A62YjNR" target="_blank" title="Join the Discord channel https://discord.gg/A62YjNR">
-     <img src="assets/discord.png" width="60" height="60">
+     <img src="https://github.com/yogurt-foundation/yogurt-css/blob/master/assets/discord.png?raw=true" width="64" height="64">
   </a>
 </p>
 
