@@ -34,11 +34,11 @@
 @import 'mixin/utilities/typography/**/**/*';
 
 // non-responsive `default` and `variant` utilities
-@import 'utilities/default/*';
-@import 'utilities/variants/*';
+@import 'utilities/normal/default/*';
+@import 'utilities/normal/variants/*';
 
 // responsive `default` and `variant` utilities
-@import 'responsive/minWidth';
-// @import 'responsive/maxWidth'; // optional (v1.0.3)
+@import 'utilities/responsive/minWidth';
+// @import 'utilities/responsive/maxWidth'; // optional (v1.0.3)
 
 /*! yogurt.css v1.0.7-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
