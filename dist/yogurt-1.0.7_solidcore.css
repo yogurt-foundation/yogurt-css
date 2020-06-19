@@ -1282,9 +1282,37 @@ y {
  * @module: textColor/_yellow.scss
  */
 /**
+ * @utility: accessibility
+ * @module: _screenReader.scss
+ */
+/**
  * @module: utilities/default/
  * @file: _default.scss
  */
+/* accessibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  whiteSpace: nowrap;
+  borderWidth: 0;
+}
+
+.not-sr-only {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  whiteSpace: normal;
+}
+
 /* backgrounds */
 .bg-amber-100 {
   background-color: #FFF9E6;
@@ -11623,6 +11651,7 @@ y {
  * @module: responsive/default/
  * @file: _default.scss
  */
+  /* accessibility */
   /* backgrounds */
   .xs\:bg-amber-100 {
     background-color: #FFF9E6;
@@ -16645,6 +16674,7 @@ y {
  * @module: responsive/default/
  * @file: _default.scss
  */
+  /* accessibility */
   /* backgrounds */
   .sm\:bg-amber-100 {
     background-color: #FFF9E6;
@@ -21667,6 +21697,7 @@ y {
  * @module: responsive/default/
  * @file: _default.scss
  */
+  /* accessibility */
   /* backgrounds */
   .md\:bg-amber-100 {
     background-color: #FFF9E6;
@@ -26689,6 +26720,7 @@ y {
  * @module: responsive/default/
  * @file: _default.scss
  */
+  /* accessibility */
   /* backgrounds */
   .lg\:bg-amber-100 {
     background-color: #FFF9E6;
@@ -31711,6 +31743,7 @@ y {
  * @module: responsive/default/
  * @file: _default.scss
  */
+  /* accessibility */
   /* backgrounds */
   .xl\:bg-amber-100 {
     background-color: #FFF9E6;
@@ -36733,6 +36766,7 @@ y {
  * @module: responsive/default/
  * @file: _default.scss
  */
+  /* accessibility */
   /* backgrounds */
   .\32k\:bg-amber-100 {
     background-color: #FFF9E6;
@@ -41755,6 +41789,7 @@ y {
  * @module: responsive/default/
  * @file: _default.scss
  */
+  /* accessibility */
   /* backgrounds */
   .\34k\:bg-amber-100 {
     background-color: #FFF9E6;

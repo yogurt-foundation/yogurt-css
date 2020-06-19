@@ -3,6 +3,11 @@
  * @file: _default.scss
  */
 
+/* accessibility */
+
+// (optional)
+// @include screenReader($class: $default)
+
 /* backgrounds */
 
 @include backgroundColorAmber($prefix: $responsive-default)

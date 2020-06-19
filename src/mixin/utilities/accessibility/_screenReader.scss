@@ -1,0 +1,32 @@
+/**
+ * @utility: accessibility
+ * @module: _screenReader.scss
+ */
+
+@mixin screenReader(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  #{$prefix}#{$class}#{$id}sr-only#{$pseudo} {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    whiteSpace: nowrap;
+    borderWidth: 0;
+  }
+  #{$prefix}#{$class}#{$id}not-sr-only#{$pseudo} {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    whiteSpace: normal;
+  }
+}
