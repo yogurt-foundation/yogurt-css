@@ -27,7 +27,7 @@
 
 A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level without writing a single line of CSS.
 
-> Version 1.0.7-solidcore, 24 June 2020
+> Version 1.0.7-solidcore, 20 June 2020
 
 > The `SOLID CORE` means the next major Yogurt CSS update is depending on any major release of the CSS version. It also means you will less frequently updating the framework for your frontend development. Which makes this utility framework a futureproof.
 
@@ -41,19 +41,11 @@ Yogurt does not include any kind of component classes, unlike many other CSS fra
 
 [Read the documentation](https://yogurt-css-documentation.netlify.com).
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/07b893f5-2d17-413d-a3b6-e657ef9dbef3/deploy-status)](https://app.netlify.com/sites/yogurt-css-documentation/deploys)
-
 Join our community channel at [Discord](https://discord.gg/A62YjNR).
-
-<p align="left">
-  <a href="https://discord.gg/A62YjNR" target="_blank" title="Join the Discord channel https://discord.gg/A62YjNR">
-     <img src="https://github.com/yogurt-foundation/yogurt-css/blob/master/assets/discord.png?raw=true" width="64" height="64">
-  </a>
-</p>
 
 ### _prototype
 
-New working or broken prototypes are located in our new [laboratory](https://github.com/yogurt-foundation/laboratory) facility.
+Our prototypes are located in the new [laboratory](https://github.com/yogurt-foundation/laboratory) facility page.
 
 ### _other tools
 
