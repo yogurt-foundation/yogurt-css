@@ -664,282 +664,352 @@ y {
 /**
  * @utility: backgrounds
  * @module: _backgroundAttachment.scss
+ * @desc: sets behaviour of backgorund images when scrolling
  */
 /**
  * @utility: backgrounds
  * @module: _backgroundPosition.scss
+ * @desc: sets position of a background image
  */
 /**
  * @utility: backgrounds
  * @module: _backgroundRepeat.scss
+ * @desc: sets repetition of a background image
  */
 /**
  * @utility: backgrounds
  * @module: _backgroundSize.scss
+ * @desc: sets background size of a background image
  */
 /**
  * @utility: backgrounds
  * @module: backgroundColor/_amber.scss
+ * @desc: sets background color
  */
 /**
  * @utility: backgrounds
  * @module: backgroundColor/_black.scss
+ * @desc: sets background color
  */
 /**
  * @utility: backgrounds
  * @module: backgroundColor/_blue.scss
+ * @desc: sets background color
  */
 /**
  * @utility: backgrounds
  * @module: backgroundColor/_charcoal.scss
+ * @desc: sets background color
  */
 /**
  * @utility: backgrounds
  * @module: backgroundColor/_gray.scss
+ * @desc: sets background color
  */
 /**
  * @utility: backgrounds
  * @module: backgroundColor/_green.scss
+ * @desc: sets background color
  */
 /**
  * @utility: backgrounds
  * @module: backgroundColor/_indigo.scss
+ * @desc: sets background color
  */
 /**
  * @utility: backgrounds
  * @module: backgroundColor/_khaki.scss
+ * @desc: sets background color
  */
 /**
  * @utility: backgrounds
  * @module: backgroundColor/_nero.scss
+ * @desc: sets background color
  */
 /**
  * @utility: backgrounds
  * @module: backgroundColor/_orange.scss
+ * @desc: sets background color
  */
 /**
  * @utility: backgrounds
  * @module: backgroundColor/_pink.scss
+ * @desc: sets background color
  */
 /**
  * @utility: backgrounds
  * @module: backgroundColor/_purple.scss
+ * @desc: sets background color
  */
 /**
  * @utility: backgrounds
  * @module: backgroundColor/_red.scss
+ * @desc: sets background color
  */
 /**
  * @utility: backgrounds
  * @module: backgroundColor/_special.scss
+ * @desc: sets background color
  */
 /**
  * @utility: backgrounds
  * @module: backgroundColor/_teal.scss
+ * @desc: sets background color
  */
 /**
  * @utility: backgrounds
  * @module: backgroundColor/_yellow.scss
+ * @desc: sets background color
  */
 /**
  * @utility: borders
  * @module: _borderRadius.scss
+ * @desc: sets border radius
  */
 /**
  * @utility: borders
  * @module: _borderStyle.scss
+ * @desc: sets border style
  */
 /**
  * @utility: borders
  * @module: _borderWidth.scss
+ * @desc: sets border width in increments of 1px
  */
 /**
  * @utility: borders
  * @module: borderColor/_amber.scss
+ * @desc: sets border color
  */
 /**
  * @utility: borders
  * @module: borderColor/_black.scss
+ * @desc: sets border color
  */
 /**
  * @utility: borders
  * @module: borderColor/_blue.scss
+ * @desc: sets border color
  */
 /**
  * @utility: borders
  * @module: borderColor/_charcoal.scss
+ * @desc: sets border color
  */
 /**
  * @utility: borders
  * @module: borderColor/_gray.scss
+ * @desc: sets border color
  */
 /**
  * @utility: borders
  * @module: borderColor/_green.scss
+ * @desc: sets border color
  */
 /**
  * @utility: borders
  * @module: borderColor/_indigo.scss
+ * @desc: sets border color
  */
 /**
  * @utility: borders
  * @module: borderColor/_khaki.scss
+ * @desc: sets border color
  */
 /**
  * @utility: borders
  * @module: borderColor/_nero.scss
+ * @desc: sets border color
  */
 /**
  * @utility: borders
  * @module: borderColor/_orange.scss
+ * @desc: sets border color
  */
 /**
  * @utility: borders
  * @module: borderColor/_pink.scss
+ * @desc: sets border color
  */
 /**
  * @utility: borders
  * @module: borderColor/_purple.scss
+ * @desc: sets border color
  */
 /**
  * @utility: borders
  * @module: borderColor/_red.scss
+ * @desc: sets border color
  */
 /**
  * @utility: borders
  * @module: borderColor/_special.scss
+ * @desc: sets border color
  */
 /**
  * @utility: borders
  * @module: borderColor/_teal.scss
+ * @desc: sets border color
  */
 /**
  * @utility: borders
  * @module: borderColor/_yellow.scss
+ * @desc: sets border color
  */
 /**
  * @utility: effects
  * @module: _backgroundBlend.scss
+ * @desc: sets the blending mode of each background layer (color or image)
  */
 /**
  * @utility: effects
  * @module: _boxShadow.scss
+ * @desc: sets the box-shadow property attaches one or more shadows to an elment
  */
 /**
  * @utility: effects
  * @module: _mixBlend.scss
+ * @desc: sets how an element's content should blend with its direct parent background
  */
 /**
  * @utility: effects
  * @module: _opacity.scss
+ * @desc: sets the transparency of an element
  */
 /**
  * @utility: effects
  * @module: shadowColor/_amber.scss
+ * @desc: sets the shadow color
  */
 /**
  * @utility: effects
  * @module: shadowColor/_black.scss
+ * @desc: sets the shadow color
  */
 /**
  * @utility: effects
  * @module: shadowColor/_blue.scss
+ * @desc: sets the shadow color
  */
 /**
  * @utility: effects
  * @module: shadowColor/_charcoal.scss
+ * @desc: sets the shadow color
  */
 /**
  * @utility: effects
  * @module: shadowColor/_gray.scss
+ * @desc: sets the shadow color
  */
 /**
  * @utility: effects
  * @module: shadowColor/_green.scss
+ * @desc: sets the shadow color
  */
 /**
  * @utility: effects
  * @module: shadowColor/_indigo.scss
+ * @desc: sets the shadow color
  */
 /**
  * @utility: effects
  * @module: shadowColor/_khaki.scss
+ * @desc: sets the shadow color
  */
 /**
  * @utility: effects
  * @module: shadowColor/_nero.scss
+ * @desc: sets the shadow color
  */
 /**
  * @utility: effects
  * @module: shadowColor/_orange.scss
+ * @desc: sets the shadow color
  */
 /**
  * @utility: effects
  * @module: shadowColor/_pink.scss
+ * @desc: sets the shadow color
  */
 /**
  * @utility: effects
  * @module: shadowColor/_purple.scss
+ * @desc: sets the shadow color
  */
 /**
  * @utility: effects
  * @module: shadowColor/_red.scss
+ * @desc: sets the shadow color
  */
 /**
  * @utility: effects
  * @module: shadowColor/_teal.scss
+ * @desc: sets the shadow color
  */
 /**
  * @utility: effects
  * @module: shadowColor/_yellow.scss
+ * @desc: sets the shadow color
  */
 /**
  * @utility: flexbox
  * @module: _alignContent.scss
+ * @desc: controls how lines are positioned in multi-line flex containers
  */
 /**
  * @utility: flexbox
  * @module: _alignItems.scss
+ * @desc: sets flex items position along a container's cross axis
  */
 /**
  * @utility: flexbox
  * @module: _alignSelf.scss
+ * @desc: controls how an individual flex item is positioned along container's cross axis
  */
 /**
  * @utility: flexbox
  * @module: _flex.scss
+ * @desc: controls how flex items grow and shrink
  */
 /**
  * @utility: flexbox
  * @module: _flexDirection.scss
+ * @desc: sets direction of flex items
  */
 /**
  * @utility: flexbox
- * @module: _flexgrow.scss
+ * @module: _flexGrow.scss
+ * @desc: controls how flex items grow
  */
 /**
  * @utility: flexbox
  * @module: _flexShrink.scss
+ * @desc: controls how flex items shrink
  */
 /**
  * @utility: flexbox
  * @module: _flexWrap.scss
+ * @desc: creates how flex items wrap
  */
 /**
  * @utility: flexbox
  * @module: _justifyContent.scss
+ * @desc:: controls how flex items are positioned along container's main axis
  */
 /**
  * @utility: flexbox
  * @module: _order.scss
+ * @desc: controls how flex items are ordered
  */
 /**
  * @utility: interactivity
  * @module: _appearance.scss
+ * @desc: disables native styling based on the native browser theme
  */
 /**
  * @utility: interactivity
  * @module: _cursor.scss
+ * @desc: changes the cursor when hovering over an element
  */
 /**
  * @utility: interactivity
@@ -948,342 +1018,427 @@ y {
 /**
  * @utility: interactivity
  * @module: _pointerEvents.scss
+ * @desc: specifies whether an element is the target of mouse events
  */
 /**
  * @utility: interactivity
  * @module: _resize.scss
+ * @desc: sets whether an element is resizable, along with direction
  */
 /**
  * @utility: interactivity
  * @module: _userSelect.scss
+ * @desc: controls whether the user can select text
  */
 /**
  * @utility: layouts
  * @module: _boxSizing.scss
+ * @desc: sets how the total width and height of an element is calculated
  */
 /**
  * @utility: layouts
  * @module: _clear.scss
+ * @desc: set whether an element is moved below preceding floated elements
  */
 /**
  * @utility: layouts
  * @module: _container.scss
+ * @desc: set max-width to match min-width of the current breakpoint
  */
 /**
  * @utility: layouts
  * @module: _display.scss
+ * @desc: sets the display box type of an element
  */
 /**
  * @utility: layouts
  * @module: _float.scss
+ * @desc: sets an element's placement to a side of its container and allows content to wrap around it
  */
 /**
  * @utility: layouts
  * @module: _inset.scss
+ * @desc: sets the placement of a positioned element
  */
 /**
  * @utility: layouts
  * @module: _objectFit.scss
+ * @desc: sets how the content of a replaced element (img or video tag) should be resized
  */
 /**
  * @utility: layouts
  * @module: _objectPosition.scss
+ * @desc: sets the alignment of the selected replaced element
  */
 /**
  * @utility: layouts
  * @module: _overflow.scss
+ * @desc: sets how to handle content that's too big for it's container
  */
 /**
  * @utility: layouts
  * @module: _position.scss
+ * @desc: sets an element's position
  */
 /**
  * @utility: layouts
  * @module: _visibility.scss
+ * @desc: show or hide without affecting the layout of the document
  */
 /**
  * @utility: layouts
  * @module: _zIndex.scss
+ * @desc: sets the z order (stack order) of a positioned element
  */
 /**
  * @utility: sizing
  * @module: _height.scss
+ * @desc: sets the height of an element
  */
 /**
  * @utility: sizing
  * @module: _maxHeight.scss
+ * @desc: sets the maximum height of an element
  */
 /**
  * @utility: sizing
  * @module: _maxWidth.scss
+ * @desc: sets the maiximum width of an element
  */
 /**
  * @utility: sizing
  * @module: _minHeight.scss
+ * @desc: sets the miminum height of an element
  */
 /**
  * @utility: sizing
  * @module: _minWidth.scss
+ * @desc: sets the minimum width of an element
  */
 /**
  * @utility: sizing
  * @module: _width.scss
+ * @desc: sets the width of an element
  */
 /**
  * @utility: spacing
  * @module: _margin.scss
+ * @desc: controls margin (and negative margin) in 0.25rem increments
  */
 /**
  * @utility: spacing
  * @module: _padding.scss
+ * @desc: controls padding in 0.25rem increments
  */
 /**
  * @utility: svg
  * @module: _fill.scss
+ * @desc: sets the color to paint an SVG
  */
 /**
  * @utility: svg
  * @module: _stroke.scss
+ * @desc: sets the outline color of an SVG
  */
 /**
  * @utility: svg
  * @module: _strokeWidth.scss
+ * @desc: sets the outline width of an SVG
  */
 /**
  * @utility: tables
  * @module: _borderCollapse.scss
+ * @desc: collapse or separate table borders
  */
 /**
  * @utility: tables
  * @module: _tableLayout.scss
+ * @desc: defines the algorithm used to layout table cells, rows and columns
  */
 /**
  * @utility: transforms
  * @module: _rotate.scss
+ * @desc: rotates an element that has transform applied
  */
 /**
  * @utility: transforms
  * @module: _scale.scss
+ * @desc: scales an element that has transform applied
  */
 /**
  * @utility: transforms
  * @module: _skew.scss
+ * @desc: skews an element that has transform applied
  */
 /**
  * @utility: transforms
  * @module: _transform.scss
+ * @desc: sets the transform of an element
  */
 /**
  * @utility: transforms
  * @module: _transformOrigin.scss
+ * @desc: sets the origin of an element's transforms
  */
 /**
  * @utility: transforms
  * @module: _translate.scss
+ * @desc: translate an element that has transform applied
  */
 /**
  * @utility: transitions
  * @module: _transitionDuration.scss
+ * @desc: sets the length of time for a transition animations to complete
  */
 /**
  * @utility: transitions
  * @module: _transitionProperty.scss
+ * @desc: sets the css properties affected by transition animations
  */
 /**
  * @utility: transitions
  * @module: _transitionTiming.scss
+ * @desc: sets the easing function of transition animations
  */
 /**
  * @utility: typography
  * @module: _fontFamily.scss
+ * @desc: sets the font family
  */
 /**
  * @utility: typography
  * @module: _fontSize.scss
+ * @desc: sets the font size
  */
 /**
  * @utility: typography
  * @module: _fontSmoothing.scss
+ * @desc: sets the antialiasing of the font
  */
 /**
  * @utility: typography
  * @module: _fontStyle.scss
+ * @desc: sets the style of the font
  */
 /**
  * @utility: typography
  * @module: _fontWeight.scss
+ * @desc: sets the font weight
  */
 /**
  * @utility: typography
  * @module: _letterSpacing.scss
+ * @desc: sets the spacing between letters
  */
 /**
  * @utility: typography
  * @module: _lineHeight.scss
+ * @desc: sets the line height
  */
 /**
  * @utility: typography
  * @module: _listStylePostion.scss
+ * @desc: sets the position of a list's bullets
  */
 /**
  * @utility: typography
  * @module: _listStyleType.scss
+ * @desc: sets the bullet style of a list
  */
 /**
  * @utility: typography
  * @module: _placeholder.scss
+ * @desc: sets the placeholder color transparent to overwrite native browser color
  */
 /**
  * @utility: typography
  * @module: _textAlign.scss
+ * @desc: sets the alignment of text
  */
 /**
  * @utility: typography
  * @module: _textDecoration.scss
+ * @desc: sets the text-decoration of an element
  */
 /**
  * @utility: typography
  * @module: _textTransform.scss
+ * @desc: sets the capitalization of text
  */
 /**
  * @utility: typography
  * @module: _verticalAlign.scss
+ * @desc: sets the vertical alignment of an inline or table-cell box
  */
 /**
  * @utility: typography
  * @module: _whitespace.scss
+ * @desc: sets the whitespace of an element
  */
 /**
  * @utility: typography
  * @module: _wordBreak.scss
+ * @desc: sets the word breaks of an element
  */
 /**
  * @utility: typography
  * @module: placeholderColor/_amber.scss
+ * @desc: sets the placeholder color using the ::placeholder pseudo element
  */
 /**
  * @utility: typography
  * @module: placeholderColor/_black.scss
+ * @desc: sets the placeholder color using the ::placeholder pseudo element
  */
 /**
  * @utility: typography
  * @module: placeholderColor/_blue.scss
+ * @desc: sets the placeholder color using the ::placeholder pseudo element
  */
 /**
  * @utility: typography
  * @module: placeholderColor/_charcoal.scss
+ * @desc: sets the placeholder color using the ::placeholder pseudo element
  */
 /**
  * @utility: typography
  * @module: placeholderColor/_gray.scss
+ * @desc: sets the placeholder color using the ::placeholder pseudo element
  */
 /**
  * @utility: typography
  * @module: placeholderColor/_green.scss
+ * @desc: sets the placeholder color using the ::placeholder pseudo element
  */
 /**
  * @utility: typography
  * @module: placeholderColor/_indigo.scss
+ * @desc: sets the placeholder color using the ::placeholder pseudo element
  */
 /**
  * @utility: typography
  * @module: placeholderColor/_khaki.scss
+ * @desc: sets the placeholder color using the ::placeholder pseudo element
  */
 /**
  * @utility: typography
  * @module: placeholderColor/_nero.scss
+ * @desc: sets the placeholder color using the ::placeholder pseudo element
  */
 /**
  * @utility: typography
  * @module: placeholderColor/_orange.scss
+ * @desc: sets the placeholder color using the ::placeholder pseudo element
  */
 /**
  * @utility: typography
  * @module: placeholderColor/_pink.scss
+ * @desc: sets the placeholder color using the ::placeholder pseudo element
  */
 /**
  * @utility: typography
  * @module: placeholderColor/_purple.scss
+ * @desc: sets the placeholder color using the ::placeholder pseudo element
  */
 /**
  * @utility: typography
  * @module: placeholderColor/_red.scss
+ * @desc: sets the placeholder color using the ::placeholder pseudo element
  */
 /**
  * @utility: typography
  * @module: placeholderColor/_teal.scss
+ * @desc: sets the placeholder color using the ::placeholder pseudo element
  */
 /**
  * @utility: typography
  * @module: placeholderColor/_yellow.scss
+ * @desc: sets the placeholder color using the ::placeholder pseudo element
  */
 /**
  * @utility: typography
  * @module: textColor/_amber.scss
+ * @desc: sets the text color
  */
 /**
  * @utility: typography
  * @module: textColor/_black.scss
+ * @desc: sets the text color
  */
 /**
  * @utility: typography
  * @module: textColor/_blue.scss
+ * @desc: sets the text color
  */
 /**
  * @utility: typography
  * @module: textColor/_charcoal.scss
+ * @desc: sets the text color
  */
 /**
  * @utility: typography
  * @module: textColor/_gray.scss
+ * @desc: sets the text color
  */
 /**
  * @utility: typography
  * @module: textColor/_green.scss
+ * @desc: sets the text color
  */
 /**
  * @utility: typography
  * @module: textColor/_indigo.scss
+ * @desc: sets the text color
  */
 /**
  * @utility: typography
  * @module: textColor/_khaki.scss
+ * @desc: sets the text color
  */
 /**
  * @utility: typography
  * @module: textColor/_nero.scss
+ * @desc: sets the text color
  */
 /**
  * @utility: typography
  * @module: textColor/_orange.scss
+ * @desc: sets the text color
  */
 /**
  * @utility: typography
  * @module: textColor/_pink.scss
+ * @desc: sets the text color
  */
 /**
  * @utility: typography
  * @module: textColor/_purple.scss
+ * @desc: sets the text color
  */
 /**
  * @utility: typography
  * @module: textColor/_red.scss
+ * @desc: sets the text color
  */
 /**
  * @utility: typography
  * @module: textColor/_special.scss
+ * @desc: sets the text color
  */
 /**
  * @utility: typography
  * @module: textColor/_teal.scss
+ * @desc: sets the text color
  */
 /**
  * @utility: typography
  * @module: textColor/_yellow.scss
+ * @desc: sets the text color
  */
 /**
  * @utility: accessibility
  * @module: _screenReader.scss
+ * @desc: controls whether an element is visually hidden but still accessible to screen readers
  */
 /**
  * @module: utilities/default/
@@ -1298,8 +1453,8 @@ y {
   margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  whiteSpace: nowrap;
-  borderWidth: 0;
+  white-space: nowrap;
+  border-width: 0;
 }
 
 .not-sr-only {
@@ -1310,7 +1465,7 @@ y {
   margin: 0;
   overflow: visible;
   clip: auto;
-  whiteSpace: normal;
+  white-space: normal;
 }
 
 /* backgrounds */
@@ -7665,6 +7820,7 @@ y {
  * @module: default/variants/
  * @file: _active.scss
  */
+/* accessibility */
 /* backgrounds */
 /* borders */
 /* effects */
@@ -7683,6 +7839,7 @@ y {
  * @module: default/variants/
  * @file: _disabled.scss
  */
+/* accessibility */
 /* backgrounds */
 /* borders */
 /* effects */
@@ -7701,6 +7858,7 @@ y {
  * @module: default/variants/
  * @file: _focus.scss
  */
+/* accessibility */
 /* backgrounds */
 .focus\:bg-amber-100:focus {
   background-color: #FFF9E6;
@@ -8355,6 +8513,7 @@ y {
  * @module: utilities/variants/
  * @file: _hover.scss
  */
+/* accessibility */
 /* backgrounds */
 .hover\:bg-amber-100:hover {
   background-color: #FFF9E6;
@@ -11623,6 +11782,7 @@ y {
  * @module: default/variants/
  * @file: _visited.scss
  */
+/* accessibility */
 /* backgrounds */
 /* borders */
 /* effects */
@@ -15720,6 +15880,7 @@ y {
  * @module: responsive/variants/
  * @file: _hover.scss
  */
+  /* accessibility */
   /* backgrounds */
   .xs\:hover\:bg-fixed:hover {
     background-attachment: fixed;
@@ -16555,6 +16716,7 @@ y {
  * @module: responsive/variants/
  * @file: _focus.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -16612,6 +16774,7 @@ y {
  * @module: responsive/variants/
  * @file: _active.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -16630,6 +16793,7 @@ y {
  * @module: responsive/variants/
  * @file: _visited.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -16648,6 +16812,7 @@ y {
  * @module: responsive/variants/
  * @file: _disabled.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -20743,6 +20908,7 @@ y {
  * @module: responsive/variants/
  * @file: _hover.scss
  */
+  /* accessibility */
   /* backgrounds */
   .sm\:hover\:bg-fixed:hover {
     background-attachment: fixed;
@@ -21578,6 +21744,7 @@ y {
  * @module: responsive/variants/
  * @file: _focus.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -21635,6 +21802,7 @@ y {
  * @module: responsive/variants/
  * @file: _active.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -21653,6 +21821,7 @@ y {
  * @module: responsive/variants/
  * @file: _visited.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -21671,6 +21840,7 @@ y {
  * @module: responsive/variants/
  * @file: _disabled.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -25766,6 +25936,7 @@ y {
  * @module: responsive/variants/
  * @file: _hover.scss
  */
+  /* accessibility */
   /* backgrounds */
   .md\:hover\:bg-fixed:hover {
     background-attachment: fixed;
@@ -26601,6 +26772,7 @@ y {
  * @module: responsive/variants/
  * @file: _focus.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -26658,6 +26830,7 @@ y {
  * @module: responsive/variants/
  * @file: _active.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -26676,6 +26849,7 @@ y {
  * @module: responsive/variants/
  * @file: _visited.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -26694,6 +26868,7 @@ y {
  * @module: responsive/variants/
  * @file: _disabled.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -30789,6 +30964,7 @@ y {
  * @module: responsive/variants/
  * @file: _hover.scss
  */
+  /* accessibility */
   /* backgrounds */
   .lg\:hover\:bg-fixed:hover {
     background-attachment: fixed;
@@ -31624,6 +31800,7 @@ y {
  * @module: responsive/variants/
  * @file: _focus.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -31681,6 +31858,7 @@ y {
  * @module: responsive/variants/
  * @file: _active.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -31699,6 +31877,7 @@ y {
  * @module: responsive/variants/
  * @file: _visited.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -31717,6 +31896,7 @@ y {
  * @module: responsive/variants/
  * @file: _disabled.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -35812,6 +35992,7 @@ y {
  * @module: responsive/variants/
  * @file: _hover.scss
  */
+  /* accessibility */
   /* backgrounds */
   .xl\:hover\:bg-fixed:hover {
     background-attachment: fixed;
@@ -36647,6 +36828,7 @@ y {
  * @module: responsive/variants/
  * @file: _focus.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -36704,6 +36886,7 @@ y {
  * @module: responsive/variants/
  * @file: _active.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -36722,6 +36905,7 @@ y {
  * @module: responsive/variants/
  * @file: _visited.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -36740,6 +36924,7 @@ y {
  * @module: responsive/variants/
  * @file: _disabled.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -40835,6 +41020,7 @@ y {
  * @module: responsive/variants/
  * @file: _hover.scss
  */
+  /* accessibility */
   /* backgrounds */
   .\32k\:hover\:bg-fixed:hover {
     background-attachment: fixed;
@@ -41670,6 +41856,7 @@ y {
  * @module: responsive/variants/
  * @file: _focus.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -41727,6 +41914,7 @@ y {
  * @module: responsive/variants/
  * @file: _active.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -41745,6 +41933,7 @@ y {
  * @module: responsive/variants/
  * @file: _visited.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -41763,6 +41952,7 @@ y {
  * @module: responsive/variants/
  * @file: _disabled.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -45858,6 +46048,7 @@ y {
  * @module: responsive/variants/
  * @file: _hover.scss
  */
+  /* accessibility */
   /* backgrounds */
   .\34k\:hover\:bg-fixed:hover {
     background-attachment: fixed;
@@ -46693,6 +46884,7 @@ y {
  * @module: responsive/variants/
  * @file: _focus.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -46750,6 +46942,7 @@ y {
  * @module: responsive/variants/
  * @file: _active.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -46768,6 +46961,7 @@ y {
  * @module: responsive/variants/
  * @file: _visited.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */
@@ -46786,6 +46980,7 @@ y {
  * @module: responsive/variants/
  * @file: _disabled.scss
  */
+  /* accessibility */
   /* backgrounds */
   /* borders */
   /* effects */

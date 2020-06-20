@@ -17,8 +17,8 @@
     margin: -1px;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
-    whiteSpace: nowrap;
-    borderWidth: 0;
+    white-space: nowrap;
+    border-width: 0;
   }
   #{$prefix}#{$class}#{$id}not-sr-only#{$pseudo} {
     position: static;
@@ -28,6 +28,6 @@
     margin: 0;
     overflow: visible;
     clip: auto;
-    whiteSpace: normal;
+    white-space: normal;
   }
 }
