@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="https://github.com/yogurt-foundation/yogurt-css/blob/master/assets/promo.jpg?raw=true" height="auto" width="auto">
 </p>
@@ -42,6 +41,8 @@ Yogurt does not include any kind of component classes, unlike many other CSS fra
 
 Join our community channel at [Discord](https://discord.gg/A62YjNR).
 
+By us a cup of coffee <span id="paypal-button-container"></span>.
+
 ### _prototype
 
 Our prototypes are located in the new [laboratory](https://github.com/yogurt-foundation/laboratory) facility page.
@@ -56,3 +57,5 @@ Our prototypes are located in the new [laboratory](https://github.com/yogurt-fou
 
 [MIT](https://github.com/yogurt-foundation/yogurt-css/blob/master/LICENSE)
 
+
+<script src="https://www.paypal.com/sdk/js?client-id=Ac6rExCOu7XPV0cDXGu1RScGyayFoaZaKSUZwyfnqV2ZoPqSHr6r67yH9CnM&currency=USD" data-sdk-integration-source="button-factory"></script>
