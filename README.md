@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="promo.jpg" height="auto" width="auto">
+  <img src="assets/promo.jpg" height="auto" width="auto">
 </p>
 
 <p align="left">
