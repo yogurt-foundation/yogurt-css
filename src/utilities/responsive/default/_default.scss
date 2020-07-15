@@ -5,7 +5,7 @@
 
 /* accessibility */
 
-@include screenReader($prefix: $responsive-default)
+// @include screenReader($prefix: $responsive-default)
 
 /* backgrounds */
 
@@ -33,22 +33,23 @@
 
 /* borders */
 
-@include borderColorAmber($prefix: $responsive-default)
-@include borderColorBlack($prefix: $responsive-default)
-@include borderColorBlue($prefix: $responsive-default)
-@include borderColorCharcoal($prefix: $responsive-default)
-@include borderColorGray($prefix: $responsive-default)
-@include borderColorGreen($prefix: $responsive-default)
-@include borderColorIndigo($prefix: $responsive-default)
-@include borderColorKhaki($prefix: $responsive-default)
-@include borderColorNero($prefix: $responsive-default)
-@include borderColorOrange($prefix: $responsive-default)
-@include borderColorPink($prefix: $responsive-default)
-@include borderColorPurple($prefix: $responsive-default)
-@include borderColorRed($prefix: $responsive-default)
-@include borderColorSpecial($prefix: $responsive-default)
-@include borderColorTeal($prefix: $responsive-default)
-@include borderColorYellow($prefix: $responsive-default)
+// (optional)
+// @include borderColorAmber($prefix: $responsive-default)
+// @include borderColorBlack($prefix: $responsive-default)
+// @include borderColorBlue($prefix: $responsive-default)
+// @include borderColorCharcoal($prefix: $responsive-default)
+// @include borderColorGray($prefix: $responsive-default)
+// @include borderColorGreen($prefix: $responsive-default)
+// @include borderColorIndigo($prefix: $responsive-default)
+// @include borderColorKhaki($prefix: $responsive-default)
+// @include borderColorNero($prefix: $responsive-default)
+// @include borderColorOrange($prefix: $responsive-default)
+// @include borderColorPink($prefix: $responsive-default)
+// @include borderColorPurple($prefix: $responsive-default)
+// @include borderColorRed($prefix: $responsive-default)
+// @include borderColorSpecial($prefix: $responsive-default)
+// @include borderColorTeal($prefix: $responsive-default)
+// @include borderColorYellow($prefix: $responsive-default)
 
 @include borderRadius($prefix: $responsive-default)
 @include borderStyle($prefix: $responsive-default)
@@ -100,8 +101,8 @@
 
 /* interactivity */
 
-@include appearance($prefix: $responsive-default)
-@include cursor($prefix: $responsive-default)
+// @include appearance($prefix: $responsive-default)
+// @include cursor($prefix: $responsive-default)
 @include outline($prefix: $responsive-default)
 @include pointerEvents($prefix: $responsive-default)
 @include resize($prefix: $responsive-default)
@@ -143,36 +144,36 @@
 
 /* svg */
 
-@include fill($prefix: $responsive-default)
-@include stroke($prefix: $responsive-default)
-@include strokeWidth($prefix: $responsive-default)
+// @include fill($prefix: $responsive-default)
+// @include stroke($prefix: $responsive-default)
+// @include strokeWidth($prefix: $responsive-default)
 
 /* tables */
 
-@include borderCollapse($prefix: $responsive-default)
-@include tableLayout($prefix: $responsive-default)
+// @include borderCollapse($prefix: $responsive-default)
+// @include tableLayout($prefix: $responsive-default)
 
 /* transforms */
 
-@include transform($prefix: $responsive-default)
-@include transformOrigin($prefix: $responsive-default)
+// @include transform($prefix: $responsive-default)
+// @include transformOrigin($prefix: $responsive-default)
 
-@include rotate($prefix: $responsive-default)
-@include rotate($prefix: $responsive-default, $negative: $true) // negative
+// @include rotate($prefix: $responsive-default)
+// @include rotate($prefix: $responsive-default, $negative: $true) // negative
 
-@include scale($prefix: $responsive-default)
+// @include scale($prefix: $responsive-default)
 
-@include skew($prefix: $responsive-default)
-@include skew($prefix: $responsive-default, $negative: $true) // negative
+// @include skew($prefix: $responsive-default)
+// @include skew($prefix: $responsive-default, $negative: $true) // negative
 
-@include translate($prefix: $responsive-default)
-@include translate($prefix: $responsive-default, $negative: $true) // negative
+// @include translate($prefix: $responsive-default)
+// @include translate($prefix: $responsive-default, $negative: $true) // negative
 
 /* transitions */
 
-@include transitionDuration($prefix: $responsive-default)
-@include transitionProperty($prefix: $responsive-default)
-@include transitionTiming($prefix: $responsive-default)
+// @include transitionDuration($prefix: $responsive-default)
+// @include transitionProperty($prefix: $responsive-default)
+// @include transitionTiming($prefix: $responsive-default)
 
 /* typography */
 
