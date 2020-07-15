@@ -135,13 +135,13 @@ $disabled: ":disabled";
   $shade: null,
   $hex: null
   ) {
-  #{$prefix}#{$class}#{$id}placeholder-#{$color}-#{$shade}:-ms-input-placeholder#{$pseudo} {
+  #{$prefix}#{$class}#{$id}placeholder-#{$color}-#{$shade}:#{$pseudo}:-ms-input-placeholder {
     color: #{$hex}#{$override}
   }
-  #{$prefix}#{$class}#{$id}placeholder-#{$color}-#{$shade}::-ms-input-placeholder#{$pseudo} {
+  #{$prefix}#{$class}#{$id}placeholder-#{$color}-#{$shade}:#{$pseudo}:-ms-input-placeholder {
     color: #{$hex}#{$override}
   }
-  #{$prefix}#{$class}#{$id}placeholder-#{$color}-#{$shade}::placeholder#{$pseudo} {
+  #{$prefix}#{$class}#{$id}placeholder-#{$color}-#{$shade}:#{$pseudo}:placeholder {
     color: #{$hex}#{$override}
   }
 }
