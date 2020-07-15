@@ -5,30 +5,222 @@
 
 /* accessibility */
 
+// @include screenReader($prefix: $variant-active, $pseudo: $active)
+
 /* backgrounds */
+
+@include backgroundColorAmber($prefix: $variant-active, $pseudo: $active)
+@include backgroundColorBlack($prefix: $variant-active, $pseudo: $active)
+@include backgroundColorBlue($prefix: $variant-active, $pseudo: $active)
+@include backgroundColorCharcoal($prefix: $variant-active, $pseudo: $active)
+@include backgroundColorGray($prefix: $variant-active, $pseudo: $active)
+@include backgroundColorGreen($prefix: $variant-active, $pseudo: $active)
+@include backgroundColorIndigo($prefix: $variant-active, $pseudo: $active)
+@include backgroundColorKhaki($prefix: $variant-active, $pseudo: $active)
+@include backgroundColorNero($prefix: $variant-active, $pseudo: $active)
+@include backgroundColorOrange($prefix: $variant-active, $pseudo: $active)
+@include backgroundColorPink($prefix: $variant-active, $pseudo: $active)
+@include backgroundColorPurple($prefix: $variant-active, $pseudo: $active)
+@include backgroundColorRed($prefix: $variant-active, $pseudo: $active)
+@include backgroundColorSpecial($prefix: $variant-active, $pseudo: $active)
+@include backgroundColorTeal($prefix: $variant-active, $pseudo: $active)
+@include backgroundColorYellow($prefix: $variant-active, $pseudo: $active)
+
+// @include backgroundAttachment($prefix: $variant-active, $pseudo: $active)
+// @include backgroundPosition($prefix: $variant-active, $pseudo: $active)
+// @include backgroundRepeat($prefix: $variant-active, $pseudo: $active)
+// @include backgroundSize($prefix: $variant-active, $pseudo: $active)
 
 /* borders */
 
+// @include borderColorAmber($prefix: $variant-active, $pseudo: $active)
+// @include borderColorBlack($prefix: $variant-active, $pseudo: $active)
+// @include borderColorBlue($prefix: $variant-active, $pseudo: $active)
+// @include borderColorCharcoal($prefix: $variant-active, $pseudo: $active)
+// @include borderColorGray($prefix: $variant-active, $pseudo: $active)
+// @include borderColorGreen($prefix: $variant-active, $pseudo: $active)
+// @include borderColorIndigo($prefix: $variant-active, $pseudo: $active)
+// @include borderColorKhaki($prefix: $variant-active, $pseudo: $active)
+// @include borderColorNero($prefix: $variant-active, $pseudo: $active)
+// @include borderColorOrange($prefix: $variant-active, $pseudo: $active)
+// @include borderColorPink($prefix: $variant-active, $pseudo: $active)
+// @include borderColorPurple($prefix: $variant-active, $pseudo: $active)
+// @include borderColorRed($prefix: $variant-active, $pseudo: $active)
+// @include borderColorSpecial($prefix: $variant-active, $pseudo: $active)
+// @include borderColorTeal($prefix: $variant-active, $pseudo: $active)
+// @include borderColorYellow($prefix: $variant-active, $pseudo: $active)
+
+// @include borderRadius($prefix: $variant-active, $pseudo: $active)
+// @include borderStyle($prefix: $variant-active, $pseudo: $active)
+// @include borderWidth($prefix: $variant-active, $pseudo: $active)
+
 /* effects */
+
+// (optional)
+// @include shadowColorAmber($prefix: $variant-active, $pseudo: $active)
+// @include shadowColorBlack($prefix: $variant-active, $pseudo: $active)
+// @include shadowColorBlue($prefix: $variant-active, $pseudo: $active)
+// @include shadowColorCharcoal($prefix: $variant-active, $pseudo: $active)
+// @include shadowColorGray($prefix: $variant-active, $pseudo: $active)
+// @include shadowColorGreen($prefix: $variant-active, $pseudo: $active)
+// @include shadowColorIndigo($prefix: $variant-active, $pseudo: $active)
+// @include shadowColorKhaki($prefix: $variant-active, $pseudo: $active)
+// @include shadowColorNero($prefix: $variant-active, $pseudo: $active)
+// @include shadowColorOrange($prefix: $variant-active, $pseudo: $active)
+// @include shadowColorPink($prefix: $variant-active, $pseudo: $active)
+// @include shadowColorPurple($prefix: $variant-active, $pseudo: $active)
+// @include shadowColorRed($prefix: $variant-active, $pseudo: $active)
+// @include shadowColorTeal($prefix: $variant-active, $pseudo: $active)
+// @include shadowColorYellow($prefix: $variant-active, $pseudo: $active)
+
+// @include boxShadow($prefix: $variant-active, $pseudo: $active)
+// @include opacity($prefix: $variant-active, $pseudo: $active)
+// @include mixBlend($prefix: $variant-active, $pseudo: $active) // (v1.0.4)
+// @include backgroundBlend($prefix: $variant-active, $pseudo: $active) // (v1.0.4)
 
 /* filters */
 
+// (optional)
+// @include filterBlur($prefix: $variant-active, $pseudo: $active) // (v1.0.3)
+// @include filterCompose($prefix: $variant-active, $pseudo: $active) // (v1.0.2)
+// @include filterInvert($prefix: $variant-active, $pseudo: $active) // (v1.0.3)
+
 /* flexbox */
+
+// @include alignContent($prefix: $variant-active, $pseudo: $active)
+// @include alignItems($prefix: $variant-active, $pseudo: $active)
+// @include alignSelf($prefix: $variant-active, $pseudo: $active)
+// @include flex($prefix: $variant-active, $pseudo: $active)
+// @include flexDirection($prefix: $variant-active, $pseudo: $active)
+// @include flexGrow($prefix: $variant-active, $pseudo: $active)
+// @include flexShrink($prefix: $variant-active, $pseudo: $active)
+// @include flexWrap($prefix: $variant-active, $pseudo: $active)
+// @include justifyContent($prefix: $variant-active, $pseudo: $active)
+// @include order($prefix: $variant-active, $pseudo: $active)
 
 /* interactivity */
 
+// @include appearance($prefix: $variant-active, $pseudo: $active)
+// @include cursor($prefix: $variant-active, $pseudo: $active)
+// @include outline($prefix: $variant-active, $pseudo: $active)
+// @include pointerEvents($prefix: $variant-active, $pseudo: $active)
+// @include resize($prefix: $variant-active, $pseudo: $active)
+// @include userSelect($prefix: $variant-active, $pseudo: $active)
+
 /* layouts */
+
+// @include boxSizing($prefix: $variant-active, $pseudo: $active)
+// @include clear($prefix: $variant-active, $pseudo: $active)
+// @include containerDefault($prefix: $variant-active, $pseudo: $active)
+// @include display($prefix: $variant-active, $pseudo: $active)
+// @include float($prefix: $variant-active, $pseudo: $active)
+// @include inset($prefix: $variant-active, $pseudo: $active)
+// @include insetTBLR($prefix: $variant-active, $pseudo: $active)
+// @include objectFit($prefix: $variant-active, $pseudo: $active)
+// @include objectPosition($prefix: $variant-active, $pseudo: $active)
+// @include overflow($prefix: $variant-active, $pseudo: $active)
+// @include overflow-xy($prefix: $variant-active, $pseudo: $active)
+// @include overflow-scrolling($prefix: $variant-active, $pseudo: $active)
+// @include position($prefix: $variant-active, $pseudo: $active)
+// @include visibility($prefix: $variant-active, $pseudo: $active)
+// @include zIndex($prefix: $variant-active, $pseudo: $active)
 
 /* sizing */
 
+// @include height($prefix: $variant-active, $pseudo: $active)
+// @include maxHeight($prefix: $variant-active, $pseudo: $active)
+// @include maxWidth($prefix: $variant-active, $pseudo: $active)
+// @include minHeight($prefix: $variant-active, $pseudo: $active)
+// @include minWidth($prefix: $variant-active, $pseudo: $active)
+// @include width($prefix: $variant-active, $pseudo: $active)
+
 /* spacing */
+
+// @include margin($prefix: $variant-active, $pseudo: $active)
+// @include margin($negative: $true, $prefix: $variant-active, $pseudo: $active) // negative
+
+// @include padding($prefix: $variant-active, $pseudo: $active)
 
 /* svg */
 
+// @include fill($prefix: $variant-active, $pseudo: $active)
+// @include stroke($prefix: $variant-active, $pseudo: $active)
+// @include strokeWidth($prefix: $variant-active, $pseudo: $active)
+
 /* tables */
+
+// @include borderCollapse($prefix: $variant-active, $pseudo: $active)
+// @include tableLayout($prefix: $variant-active, $pseudo: $active)
 
 /* transforms */
 
+// @include transform($prefix: $variant-active, $pseudo: $active)
+// @include transformOrigin($prefix: $variant-active, $pseudo: $active)
+
+// @include rotate($prefix: $variant-active, $pseudo: $active)
+// @include rotate($prefix: $variant-active, $pseudo: $active, $negative: $true) // negative
+
+// @include scale($prefix: $variant-active, $pseudo: $active)
+
+// @include skew($prefix: $variant-active, $pseudo: $active)
+// @include skew($prefix: $variant-active, $pseudo: $active, $negative: $true) // negative
+
+// @include translate($prefix: $variant-active, $pseudo: $active)
+// @include translate($prefix: $variant-active, $pseudo: $active, $negative: $true) // negative
+
 /* transitions */
 
+// @include transitionDuration($prefix: $variant-active, $pseudo: $active)
+// @include transitionProperty($prefix: $variant-active, $pseudo: $active)
+// @include transitionTiming($prefix: $variant-active, $pseudo: $active)
+
 /* typography */
+
+// @include placeholderColorAmber($prefix: $variant-active, $pseudo: $active)
+// @include placeholderColorBlack($prefix: $variant-active, $pseudo: $active)
+// @include placeholderColorBlue($prefix: $variant-active, $pseudo: $active)
+// @include placeholderColorCharcoal($prefix: $variant-active, $pseudo: $active)
+// @include placeholderColorGray($prefix: $variant-active, $pseudo: $active)
+// @include placeholderColorGreen($prefix: $variant-active, $pseudo: $active)
+// @include placeholderColorIndigo($prefix: $variant-active, $pseudo: $active)
+// @include placeholderColorKhaki($prefix: $variant-active, $pseudo: $active)
+// @include placeholderColorNero($prefix: $variant-active, $pseudo: $active)
+// @include placeholderColorOrange($prefix: $variant-active, $pseudo: $active)
+// @include placeholderColorPink($prefix: $variant-active, $pseudo: $active)
+// @include placeholderColorPurple($prefix: $variant-active, $pseudo: $active)
+// @include placeholderColorRed($prefix: $variant-active, $pseudo: $active)
+// @include placeholderColorTeal($prefix: $variant-active, $pseudo: $active)
+// @include placeholderColorYellow($prefix: $variant-active, $pseudo: $active)
+
+// @include textColorAmber($prefix: $variant-active, $pseudo: $active)
+// @include textColorBlack($prefix: $variant-active, $pseudo: $active)
+// @include textColorBlue($prefix: $variant-active, $pseudo: $active)
+// @include textColorCharcoal($prefix: $variant-active, $pseudo: $active)
+// @include textColorGray($prefix: $variant-active, $pseudo: $active)
+// @include textColorGreen($prefix: $variant-active, $pseudo: $active)
+// @include textColorIndigo($prefix: $variant-active, $pseudo: $active)
+// @include textColorKhaki($prefix: $variant-active, $pseudo: $active)
+// @include textColorNero($prefix: $variant-active, $pseudo: $active)
+// @include textColorOrange($prefix: $variant-active, $pseudo: $active)
+// @include textColorPink($prefix: $variant-active, $pseudo: $active)
+// @include textColorPurple($prefix: $variant-active, $pseudo: $active)
+// @include textColorRed($prefix: $variant-active, $pseudo: $active)
+// @include textColorSpecial($prefix: $variant-active, $pseudo: $active)
+// @include textColorTeal($prefix: $variant-active, $pseudo: $active)
+// @include textColorYellow($prefix: $variant-active, $pseudo: $active)
+
+// @include fontFamily($prefix: $variant-active, $pseudo: $active)
+// @include fontSize($prefix: $variant-active, $pseudo: $active)
+// @include fontSmoothing($prefix: $variant-active, $pseudo: $active)
+// @include fontStyle($prefix: $variant-active, $pseudo: $active)
+// @include fontWeight($prefix: $variant-active, $pseudo: $active)
+// @include letterSpacing($prefix: $variant-active, $pseudo: $active)
+// @include lineHeight($prefix: $variant-active, $pseudo: $active)
+// @include listStylePosition($prefix: $variant-active, $pseudo: $active)
+// @include listStyleType($prefix: $variant-active, $pseudo: $active)
+// @include textAlign($prefix: $variant-active, $pseudo: $active)
+// @include textDecoration($prefix: $variant-active, $pseudo: $active)
+// @include textTransform($prefix: $variant-active, $pseudo: $active)
+// @include verticalAlign($prefix: $variant-active, $pseudo: $active)
+// @include whitespace($prefix: $variant-active, $pseudo: $active)
+// @include wordBreak($prefix: $variant-active, $pseudo: $active)

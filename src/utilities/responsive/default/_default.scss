@@ -5,8 +5,7 @@
 
 /* accessibility */
 
-// (optional)
-// @include screenReader($class: $default)
+@include screenReader($prefix: $responsive-default)
 
 /* backgrounds */
 
@@ -34,26 +33,26 @@
 
 /* borders */
 
-// (optional)
-// @include borderColorAmber($prefix: $responsive-default)
-// @include borderColorBlack($prefix: $responsive-default)
-// @include borderColorBlue($prefix: $responsive-default)
-// @include borderColorCharcoal($prefix: $responsive-default)
-// @include borderColorGray($prefix: $responsive-default)
-// @include borderColorGreen($prefix: $responsive-default)
-// @include borderColorIndigo($prefix: $responsive-default)
-// @include borderColorKhaki($prefix: $responsive-default)
-// @include borderColorNero($prefix: $responsive-default)
-// @include borderColorOrange($prefix: $responsive-default)
-// @include borderColorPink($prefix: $responsive-default)
-// @include borderColorPurple($prefix: $responsive-default)
-// @include borderColorRed($prefix: $responsive-default)
-// @include borderColorSpecial($prefix: $responsive-default)
-// @include borderColorTeal($prefix: $responsive-default)
-// @include borderColorYellow($prefix: $responsive-default)
+@include borderColorAmber($prefix: $responsive-default)
+@include borderColorBlack($prefix: $responsive-default)
+@include borderColorBlue($prefix: $responsive-default)
+@include borderColorCharcoal($prefix: $responsive-default)
+@include borderColorGray($prefix: $responsive-default)
+@include borderColorGreen($prefix: $responsive-default)
+@include borderColorIndigo($prefix: $responsive-default)
+@include borderColorKhaki($prefix: $responsive-default)
+@include borderColorNero($prefix: $responsive-default)
+@include borderColorOrange($prefix: $responsive-default)
+@include borderColorPink($prefix: $responsive-default)
+@include borderColorPurple($prefix: $responsive-default)
+@include borderColorRed($prefix: $responsive-default)
+@include borderColorSpecial($prefix: $responsive-default)
+@include borderColorTeal($prefix: $responsive-default)
+@include borderColorYellow($prefix: $responsive-default)
 
 @include borderRadius($prefix: $responsive-default)
 @include borderStyle($prefix: $responsive-default)
+@include borderWidth($prefix: $responsive-default)
 
 /* effects */
 
@@ -74,9 +73,17 @@
 // @include shadowColorTeal($prefix: $responsive-default)
 // @include shadowColorYellow($prefix: $responsive-default)
 
+@include boxShadow($prefix: $responsive-default)
 @include opacity($prefix: $responsive-default)
+@include mixBlend($prefix: $responsive-default) // (v1.0.4)
+@include backgroundBlend($prefix: $responsive-default) // (v1.0.4)
 
 /* filters */
+
+// (optional)
+// @include filterBlur($prefix: $responsive-default) // (v1.0.3)
+// @include filterCompose($prefix: $responsive-default) // (v1.0.2)
+// @include filterInvert($prefix: $responsive-default) // (v1.0.3)
 
 /* flexbox */
 
@@ -93,6 +100,8 @@
 
 /* interactivity */
 
+@include appearance($prefix: $responsive-default)
+@include cursor($prefix: $responsive-default)
 @include outline($prefix: $responsive-default)
 @include pointerEvents($prefix: $responsive-default)
 @include resize($prefix: $responsive-default)
@@ -102,7 +111,7 @@
 
 @include boxSizing($prefix: $responsive-default)
 @include clear($prefix: $responsive-default)
-@include container($size)
+@include containerDefault($prefix: $responsive-default)
 @include display($prefix: $responsive-default)
 @include float($prefix: $responsive-default)
 @include inset($prefix: $responsive-default)
@@ -128,16 +137,24 @@
 /* spacing */
 
 @include margin($prefix: $responsive-default)
-@include margin($prefix: $responsive-default, $negative: $true) // negative
+@include margin($negative: $true, $prefix: $responsive-default) // negative
 
 @include padding($prefix: $responsive-default)
 
 /* svg */
 
+@include fill($prefix: $responsive-default)
+@include stroke($prefix: $responsive-default)
+@include strokeWidth($prefix: $responsive-default)
+
 /* tables */
+
+@include borderCollapse($prefix: $responsive-default)
+@include tableLayout($prefix: $responsive-default)
 
 /* transforms */
 
+@include transform($prefix: $responsive-default)
 @include transformOrigin($prefix: $responsive-default)
 
 @include rotate($prefix: $responsive-default)
@@ -153,7 +170,27 @@
 
 /* transitions */
 
+@include transitionDuration($prefix: $responsive-default)
+@include transitionProperty($prefix: $responsive-default)
+@include transitionTiming($prefix: $responsive-default)
+
 /* typography */
+
+@include placeholderColorAmber($prefix: $responsive-default)
+@include placeholderColorBlack($prefix: $responsive-default)
+@include placeholderColorBlue($prefix: $responsive-default)
+@include placeholderColorCharcoal($prefix: $responsive-default)
+@include placeholderColorGray($prefix: $responsive-default)
+@include placeholderColorGreen($prefix: $responsive-default)
+@include placeholderColorIndigo($prefix: $responsive-default)
+@include placeholderColorKhaki($prefix: $responsive-default)
+@include placeholderColorNero($prefix: $responsive-default)
+@include placeholderColorOrange($prefix: $responsive-default)
+@include placeholderColorPink($prefix: $responsive-default)
+@include placeholderColorPurple($prefix: $responsive-default)
+@include placeholderColorRed($prefix: $responsive-default)
+@include placeholderColorTeal($prefix: $responsive-default)
+@include placeholderColorYellow($prefix: $responsive-default)
 
 @include textColorAmber($prefix: $responsive-default)
 @include textColorBlack($prefix: $responsive-default)
@@ -174,12 +211,14 @@
 
 @include fontFamily($prefix: $responsive-default)
 @include fontSize($prefix: $responsive-default)
+@include fontSmoothing($prefix: $responsive-default)
 @include fontStyle($prefix: $responsive-default)
 @include fontWeight($prefix: $responsive-default)
 @include letterSpacing($prefix: $responsive-default)
 @include lineHeight($prefix: $responsive-default)
 @include listStylePosition($prefix: $responsive-default)
 @include listStyleType($prefix: $responsive-default)
+@include placeholder() // static
 @include textAlign($prefix: $responsive-default)
 @include textDecoration($prefix: $responsive-default)
 @include textTransform($prefix: $responsive-default)

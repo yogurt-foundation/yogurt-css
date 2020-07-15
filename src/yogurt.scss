@@ -21,7 +21,7 @@
 @import 'mixin/utilities/backgrounds/**/**/*';
 @import 'mixin/utilities/borders/**/**/*';
 @import 'mixin/utilities/effects/**/**/*';
-// @import 'mixin/utilities/filters/**/**/*'; // optional (v1.0.2)
+@import 'mixin/utilities/filters/**/**/*';
 @import 'mixin/utilities/flexbox/**/**/*';
 @import 'mixin/utilities/interactivity/**/**/*';
 @import 'mixin/utilities/layouts/**/**/*';
@@ -40,6 +40,6 @@
 
 // responsive `default` and `variant` utilities
 @import 'utilities/responsive/minWidth';
-// @import 'utilities/responsive/maxWidth'; // optional (v1.0.3)
+// @import 'utilities/responsive/maxWidth'; // optional
 
 /*! yogurt.css v1.0.8-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */

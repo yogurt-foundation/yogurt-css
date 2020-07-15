@@ -5,56 +5,222 @@
 
 /* accessibility */
 
+// @include screenReader($prefix: $responsive-hover, $pseudo: $hover)
+
 /* backgrounds */
 
+// @include backgroundColorAmber($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundColorBlack($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundColorBlue($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundColorCharcoal($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundColorGray($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundColorGreen($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundColorIndigo($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundColorKhaki($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundColorNero($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundColorOrange($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundColorPink($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundColorPurple($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundColorRed($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundColorSpecial($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundColorTeal($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundColorYellow($prefix: $responsive-hover, $pseudo: $hover)
+
 @include backgroundAttachment($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundPosition($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundRepeat($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundSize($prefix: $responsive-hover, $pseudo: $hover)
 
 /* borders */
 
+// @include borderColorAmber($prefix: $responsive-hover, $pseudo: $hover)
+// @include borderColorBlack($prefix: $responsive-hover, $pseudo: $hover)
+// @include borderColorBlue($prefix: $responsive-hover, $pseudo: $hover)
+// @include borderColorCharcoal($prefix: $responsive-hover, $pseudo: $hover)
+// @include borderColorGray($prefix: $responsive-hover, $pseudo: $hover)
+// @include borderColorGreen($prefix: $responsive-hover, $pseudo: $hover)
+// @include borderColorIndigo($prefix: $responsive-hover, $pseudo: $hover)
+// @include borderColorKhaki($prefix: $responsive-hover, $pseudo: $hover)
+// @include borderColorNero($prefix: $responsive-hover, $pseudo: $hover)
+// @include borderColorOrange($prefix: $responsive-hover, $pseudo: $hover)
+// @include borderColorPink($prefix: $responsive-hover, $pseudo: $hover)
+// @include borderColorPurple($prefix: $responsive-hover, $pseudo: $hover)
+// @include borderColorRed($prefix: $responsive-hover, $pseudo: $hover)
+// @include borderColorSpecial($prefix: $responsive-hover, $pseudo: $hover)
+// @include borderColorTeal($prefix: $responsive-hover, $pseudo: $hover)
+// @include borderColorYellow($prefix: $responsive-hover, $pseudo: $hover)
+
+// @include borderRadius($prefix: $responsive-hover, $pseudo: $hover)
+// @include borderStyle($prefix: $responsive-hover, $pseudo: $hover)
+// @include borderWidth($prefix: $responsive-hover, $pseudo: $hover)
+
 /* effects */
 
+// (optional)
+// @include shadowColorAmber($prefix: $responsive-hover, $pseudo: $hover)
+// @include shadowColorBlack($prefix: $responsive-hover, $pseudo: $hover)
+// @include shadowColorBlue($prefix: $responsive-hover, $pseudo: $hover)
+// @include shadowColorCharcoal($prefix: $responsive-hover, $pseudo: $hover)
+// @include shadowColorGray($prefix: $responsive-hover, $pseudo: $hover)
+// @include shadowColorGreen($prefix: $responsive-hover, $pseudo: $hover)
+// @include shadowColorIndigo($prefix: $responsive-hover, $pseudo: $hover)
+// @include shadowColorKhaki($prefix: $responsive-hover, $pseudo: $hover)
+// @include shadowColorNero($prefix: $responsive-hover, $pseudo: $hover)
+// @include shadowColorOrange($prefix: $responsive-hover, $pseudo: $hover)
+// @include shadowColorPink($prefix: $responsive-hover, $pseudo: $hover)
+// @include shadowColorPurple($prefix: $responsive-hover, $pseudo: $hover)
+// @include shadowColorRed($prefix: $responsive-hover, $pseudo: $hover)
+// @include shadowColorTeal($prefix: $responsive-hover, $pseudo: $hover)
+// @include shadowColorYellow($prefix: $responsive-hover, $pseudo: $hover)
+
+// @include boxShadow($prefix: $responsive-hover, $pseudo: $hover)
 @include opacity($prefix: $responsive-hover, $pseudo: $hover)
+// @include mixBlend($prefix: $responsive-hover, $pseudo: $hover) // (v1.0.4)
+// @include backgroundBlend($prefix: $responsive-hover, $pseudo: $hover) // (v1.0.4)
 
 /* filters */
 
+// (optional)
+// @include filterBlur($prefix: $responsive-hover, $pseudo: $hover) // (v1.0.3)
+// @include filterCompose($prefix: $responsive-hover, $pseudo: $hover) // (v1.0.2)
+// @include filterInvert($prefix: $responsive-hover, $pseudo: $hover) // (v1.0.3)
+
 /* flexbox */
 
+// @include alignContent($prefix: $responsive-hover, $pseudo: $hover)
+// @include alignItems($prefix: $responsive-hover, $pseudo: $hover)
+// @include alignSelf($prefix: $responsive-hover, $pseudo: $hover)
+// @include flex($prefix: $responsive-hover, $pseudo: $hover)
 @include flexDirection($prefix: $responsive-hover, $pseudo: $hover)
+// @include flexGrow($prefix: $responsive-hover, $pseudo: $hover)
+// @include flexShrink($prefix: $responsive-hover, $pseudo: $hover)
+// @include flexWrap($prefix: $responsive-hover, $pseudo: $hover)
+// @include justifyContent($prefix: $responsive-hover, $pseudo: $hover)
+// @include order($prefix: $responsive-hover, $pseudo: $hover)
 
 /* interactivity */
 
+// @include appearance($prefix: $responsive-hover, $pseudo: $hover)
+// @include cursor($prefix: $responsive-hover, $pseudo: $hover)
+// @include outline($prefix: $responsive-hover, $pseudo: $hover)
+// @include pointerEvents($prefix: $responsive-hover, $pseudo: $hover)
+// @include resize($prefix: $responsive-hover, $pseudo: $hover)
+// @include userSelect($prefix: $responsive-hover, $pseudo: $hover)
+
 /* layouts */
 
+// @include boxSizing($prefix: $responsive-hover, $pseudo: $hover)
+// @include clear($prefix: $responsive-hover, $pseudo: $hover)
+// @include containerDefault($prefix: $responsive-hover, $pseudo: $hover)
 @include display($prefix: $responsive-hover, $pseudo: $hover)
+// @include float($prefix: $responsive-hover, $pseudo: $hover)
+// @include inset($prefix: $responsive-hover, $pseudo: $hover)
+// @include insetTBLR($prefix: $responsive-hover, $pseudo: $hover)
+// @include objectFit($prefix: $responsive-hover, $pseudo: $hover)
+// @include objectPosition($prefix: $responsive-hover, $pseudo: $hover)
+// @include overflow($prefix: $responsive-hover, $pseudo: $hover)
+// @include overflow-xy($prefix: $responsive-hover, $pseudo: $hover)
+// @include overflow-scrolling($prefix: $responsive-hover, $pseudo: $hover)
 @include position($prefix: $responsive-hover, $pseudo: $hover)
 @include visibility($prefix: $responsive-hover, $pseudo: $hover)
+// @include zIndex($prefix: $responsive-hover, $pseudo: $hover)
 
 /* sizing */
 
 @include height($prefix: $responsive-hover, $pseudo: $hover)
+// @include maxHeight($prefix: $responsive-hover, $pseudo: $hover)
+// @include maxWidth($prefix: $responsive-hover, $pseudo: $hover)
+// @include minHeight($prefix: $responsive-hover, $pseudo: $hover)
+// @include minWidth($prefix: $responsive-hover, $pseudo: $hover)
 @include width($prefix: $responsive-hover, $pseudo: $hover)
 
 /* spacing */
 
+// @include margin($prefix: $responsive-hover, $pseudo: $hover)
+// @include margin($negative: $true, $prefix: $responsive-hover, $pseudo: $hover) // negative
+
+// @include padding($prefix: $responsive-hover, $pseudo: $hover)
+
 /* svg */
+
+// @include fill($prefix: $responsive-hover, $pseudo: $hover)
+// @include stroke($prefix: $responsive-hover, $pseudo: $hover)
+// @include strokeWidth($prefix: $responsive-hover, $pseudo: $hover)
 
 /* tables */
 
+// @include borderCollapse($prefix: $responsive-hover, $pseudo: $hover)
+// @include tableLayout($prefix: $responsive-hover, $pseudo: $hover)
+
 /* transforms */
+
+@include transform($prefix: $responsive-hover, $pseudo: $hover)
+@include transformOrigin($prefix: $responsive-hover, $pseudo: $hover)
 
 @include rotate($prefix: $responsive-hover, $pseudo: $hover)
 @include rotate($prefix: $responsive-hover, $pseudo: $hover, $negative: $true) // negative
+
 @include scale($prefix: $responsive-hover, $pseudo: $hover)
+
 @include skew($prefix: $responsive-hover, $pseudo: $hover)
 @include skew($prefix: $responsive-hover, $pseudo: $hover, $negative: $true) // negative
-@include transformOrigin($prefix: $responsive-hover, $pseudo: $hover)
+
 @include translate($prefix: $responsive-hover, $pseudo: $hover)
 @include translate($prefix: $responsive-hover, $pseudo: $hover, $negative: $true) // negative
 
 /* transitions */
 
+// @include transitionDuration($prefix: $responsive-hover, $pseudo: $hover)
+// @include transitionProperty($prefix: $responsive-hover, $pseudo: $hover)
+// @include transitionTiming($prefix: $responsive-hover, $pseudo: $hover)
+
 /* typography */
 
+// @include placeholderColorAmber($prefix: $responsive-hover, $pseudo: $hover)
+// @include placeholderColorBlack($prefix: $responsive-hover, $pseudo: $hover)
+// @include placeholderColorBlue($prefix: $responsive-hover, $pseudo: $hover)
+// @include placeholderColorCharcoal($prefix: $responsive-hover, $pseudo: $hover)
+// @include placeholderColorGray($prefix: $responsive-hover, $pseudo: $hover)
+// @include placeholderColorGreen($prefix: $responsive-hover, $pseudo: $hover)
+// @include placeholderColorIndigo($prefix: $responsive-hover, $pseudo: $hover)
+// @include placeholderColorKhaki($prefix: $responsive-hover, $pseudo: $hover)
+// @include placeholderColorNero($prefix: $responsive-hover, $pseudo: $hover)
+// @include placeholderColorOrange($prefix: $responsive-hover, $pseudo: $hover)
+// @include placeholderColorPink($prefix: $responsive-hover, $pseudo: $hover)
+// @include placeholderColorPurple($prefix: $responsive-hover, $pseudo: $hover)
+// @include placeholderColorRed($prefix: $responsive-hover, $pseudo: $hover)
+// @include placeholderColorTeal($prefix: $responsive-hover, $pseudo: $hover)
+// @include placeholderColorYellow($prefix: $responsive-hover, $pseudo: $hover)
+
+// @include textColorAmber($prefix: $responsive-hover, $pseudo: $hover)
+// @include textColorBlack($prefix: $responsive-hover, $pseudo: $hover)
+// @include textColorBlue($prefix: $responsive-hover, $pseudo: $hover)
+// @include textColorCharcoal($prefix: $responsive-hover, $pseudo: $hover)
+// @include textColorGray($prefix: $responsive-hover, $pseudo: $hover)
+// @include textColorGreen($prefix: $responsive-hover, $pseudo: $hover)
+// @include textColorIndigo($prefix: $responsive-hover, $pseudo: $hover)
+// @include textColorKhaki($prefix: $responsive-hover, $pseudo: $hover)
+// @include textColorNero($prefix: $responsive-hover, $pseudo: $hover)
+// @include textColorOrange($prefix: $responsive-hover, $pseudo: $hover)
+// @include textColorPink($prefix: $responsive-hover, $pseudo: $hover)
+// @include textColorPurple($prefix: $responsive-hover, $pseudo: $hover)
+// @include textColorRed($prefix: $responsive-hover, $pseudo: $hover)
+// @include textColorSpecial($prefix: $responsive-hover, $pseudo: $hover)
+// @include textColorTeal($prefix: $responsive-hover, $pseudo: $hover)
+// @include textColorYellow($prefix: $responsive-hover, $pseudo: $hover)
+
+// @include fontFamily($prefix: $responsive-hover, $pseudo: $hover)
 @include fontSize($prefix: $responsive-hover, $pseudo: $hover)
+// @include fontSmoothing($prefix: $responsive-hover, $pseudo: $hover)
+// @include fontStyle($prefix: $responsive-hover, $pseudo: $hover)
 @include fontWeight($prefix: $responsive-hover, $pseudo: $hover)
+// @include letterSpacing($prefix: $responsive-hover, $pseudo: $hover)
+// @include lineHeight($prefix: $responsive-hover, $pseudo: $hover)
+// @include listStylePosition($prefix: $responsive-hover, $pseudo: $hover)
+// @include listStyleType($prefix: $responsive-hover, $pseudo: $hover)
+// @include textAlign($prefix: $responsive-hover, $pseudo: $hover)
 @include textDecoration($prefix: $responsive-hover, $pseudo: $hover)
+// @include textTransform($prefix: $responsive-hover, $pseudo: $hover)
+// @include verticalAlign($prefix: $responsive-hover, $pseudo: $hover)
+// @include whitespace($prefix: $responsive-hover, $pseudo: $hover)
+// @include wordBreak($prefix: $responsive-hover, $pseudo: $hover)
