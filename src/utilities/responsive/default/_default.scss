@@ -74,10 +74,10 @@
 // @include shadowColorTeal($prefix: $responsive-default)
 // @include shadowColorYellow($prefix: $responsive-default)
 
-@include boxShadow($prefix: $responsive-default)
+// @include boxShadow($prefix: $responsive-default)
 @include opacity($prefix: $responsive-default)
-@include mixBlend($prefix: $responsive-default) // (v1.0.4)
-@include backgroundBlend($prefix: $responsive-default) // (v1.0.4)
+// @include mixBlend($prefix: $responsive-default) // (v1.0.4)
+// @include backgroundBlend($prefix: $responsive-default) // (v1.0.4)
 
 /* filters */
 
@@ -104,7 +104,7 @@
 // @include appearance($prefix: $responsive-default)
 // @include cursor($prefix: $responsive-default)
 @include outline($prefix: $responsive-default)
-@include pointerEvents($prefix: $responsive-default)
+// @include pointerEvents($prefix: $responsive-default)
 @include resize($prefix: $responsive-default)
 @include userSelect($prefix: $responsive-default)
 
