@@ -76,6 +76,7 @@
 @include opacity($class: $default)
 @include mixBlend($class: $default) // (v1.0.4)
 @include backgroundBlend($class: $default) // (v1.0.4)
+@include gradient($class: $default) // (1.0.8)
 
 /* filters */
 

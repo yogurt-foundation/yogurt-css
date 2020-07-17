@@ -76,6 +76,7 @@
 @include opacity($prefix: $variant-focus, $pseudo: $focus)
 // @include mixBlend($prefix: $variant-focus, $pseudo: $focus) // (v1.0.4)
 // @include backgroundBlend($prefix: $variant-focus, $pseudo: $focus) // (v1.0.4)
+// @include gradient($prefix: $variant-focus, $pseudo: $focus) // (1.0.8)
 
 /* filters */
 

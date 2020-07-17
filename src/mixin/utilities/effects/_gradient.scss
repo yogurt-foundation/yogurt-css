@@ -1,0 +1,23 @@
+/**
+ * @utility: effects
+ * @module: _gradient.scss
+ * @desc: sets the preset gradient diagonally to an element
+ */
+
+@mixin gradient(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier, $value in $effect-gradient {
+    @include setRuleSingle(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "gradient-",
+      $modifier: $modifier,
+      $property: "background-image",
+      $value: linear-gradient(#{$value})#{$override}
+    )
+  }
+}

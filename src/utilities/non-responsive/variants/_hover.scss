@@ -93,6 +93,7 @@
 @include opacity($prefix: $variant-hover, $pseudo: $hover)
 // @include mixBlend($prefix: $variant-hover, $pseudo: $hover) // (v1.0.4)
 // @include backgroundBlend($prefix: $variant-hover, $pseudo: $hover) // (v1.0.4)
+// @include gradient($prefix: $variant-hover, $pseudo: $hover) // (1.0.8)
 
 /* filters */
 
