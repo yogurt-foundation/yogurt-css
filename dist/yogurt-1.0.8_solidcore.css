@@ -662,6 +662,11 @@ y {
  * @file: _atrules.scss
  */
 /**
+ * @utility: accessibility
+ * @module: _screenReader.scss
+ * @desc: controls whether an element is visually hidden but still accessible to screen readers
+ */
+/**
  * @utility: backgrounds
  * @module: _backgroundAttachment.scss
  * @desc: sets behaviour of backgorund images when scrolling
@@ -1450,11 +1455,6 @@ y {
  * @utility: typography
  * @module: textColor/_yellow.scss
  * @desc: sets the text color
- */
-/**
- * @utility: accessibility
- * @module: _screenReader.scss
- * @desc: controls whether an element is visually hidden but still accessible to screen readers
  */
 /**
  * @module: utilities/default/

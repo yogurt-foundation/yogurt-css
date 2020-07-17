@@ -18,6 +18,7 @@
 
 @import 'mixin/atRules';
 
+@import 'mixin/utilities/accessibility/**/**/*';
 @import 'mixin/utilities/backgrounds/**/**/*';
 @import 'mixin/utilities/borders/**/**/*';
 @import 'mixin/utilities/effects/**/**/*';
@@ -32,7 +33,6 @@
 @import 'mixin/utilities/transforms/**/**/*';
 @import 'mixin/utilities/transitions/**/**/*';
 @import 'mixin/utilities/typography/**/**/*';
-@import 'mixin/utilities/accessibility/**/**/*';
 
 // non-responsive `default` and `variant` utilities
 @import 'utilities/non-responsive/default/*';
