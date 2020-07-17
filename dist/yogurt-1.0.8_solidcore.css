@@ -5937,7 +5937,7 @@ y {
   background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%) ;
 }
 
-.gradient-angle-care {
+.gradient-angel-care {
   background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%) ;
 }
 
@@ -5993,8 +5993,8 @@ y {
   background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%) ;
 }
 
-.gradient-lily {
-  background-image: linear-gradient(meadow) ;
+.gradient-lily-meadow {
+  background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%) ;
 }
 
 .gradient-sugar-lollipop {
@@ -25244,7 +25244,7 @@ y {
   background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%) ;
 }
 
-.hover\:gradient-angle-care:hover {
+.hover\:gradient-angel-care:hover {
   background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%) ;
 }
 
@@ -25300,8 +25300,8 @@ y {
   background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%) ;
 }
 
-.hover\:gradient-lily:hover {
-  background-image: linear-gradient(meadow) ;
+.hover\:gradient-lily-meadow:hover {
+  background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%) ;
 }
 
 .hover\:gradient-sugar-lollipop:hover {
