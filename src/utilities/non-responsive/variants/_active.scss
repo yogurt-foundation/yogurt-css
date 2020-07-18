@@ -142,6 +142,9 @@
 
 // @include padding($prefix: $variant-active, $pseudo: $active)
 
+// @include equal($prefix: $variant-active, $pseudo: $active)
+// @include equal($negative: $true, $prefix: $variant-active, $pseudo: $active) // negative
+
 /* svg */
 
 // @include fill($prefix: $variant-active, $pseudo: $active)

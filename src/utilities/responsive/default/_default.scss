@@ -143,6 +143,9 @@
 
 @include padding($prefix: $responsive-default)
 
+// @include equal($prefix: $responsive-default)
+// @include equal($negative: $true, $prefix: $responsive-default) // negative
+
 /* svg */
 
 // @include fill($prefix: $responsive-default)

@@ -162,6 +162,9 @@
 
 // @include padding($prefix: $variant-hover, $pseudo: $hover)
 
+// @include equal($prefix: $variant-hover, $pseudo: $hover)
+// @include equal($negative: $true, $prefix: $variant-hover, $pseudo: $hover) // negative
+
 /* svg */
 
 // @include fill($prefix: $variant-hover, $pseudo: $hover)
