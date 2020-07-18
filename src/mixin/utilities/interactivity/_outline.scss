@@ -9,13 +9,13 @@
   $pseudo: null,
   $class: null
   ) {
-  @include setRuleSingle(
+  @include setRule(
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
     $selector: "outline-none",
-    $property: "outline",
-    $value: "0#{$override}"
+    $property1: "outline",
+    $value1: "0#{$override}"
   )
 }
 

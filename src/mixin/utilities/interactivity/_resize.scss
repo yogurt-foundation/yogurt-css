@@ -9,23 +9,23 @@
   $pseudo: null,
   $class: null
   ) {
-  @include setRuleSingle(
+  @include setRule(
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
     $selector: "resize",
-    $property: "resize",
-    $value: "both#{$override}"
+    $property1: "resize",
+    $value1: "both#{$override}"
   )
   @each $modifier, $value in $resize {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "resize-",
       $modifier: $modifier,
-      $property: "resize",
-      $value: $value#{$override}
+      $property1: "resize",
+      $value1: $value#{$override}
     )
   }
 }

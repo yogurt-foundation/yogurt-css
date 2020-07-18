@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $max-height {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "max-h-",
       $modifier: $modifier,
-      $property: "max-height",
-      $value: $value#{$override}
+      $property1: "max-height",
+      $value1: $value#{$override}
     )
   }
 }

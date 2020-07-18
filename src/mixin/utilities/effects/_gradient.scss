@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $effect-gradient {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "gradient-",
       $modifier: $modifier,
-      $property: "background-image",
-      $value: linear-gradient(#{$value})#{$override}
+      $property1: "background-image",
+      $value1: linear-gradient(#{$value})#{$override}
     )
   }
 }

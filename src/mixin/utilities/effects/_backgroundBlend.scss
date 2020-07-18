@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $effect-blend {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "bg-blend-",
       $modifier: $modifier,
-      $property: "background-blend-mode",
-      $value: $value#{$override}
+      $property1: "background-blend-mode",
+      $value1: $value#{$override}
     )
   }
 }

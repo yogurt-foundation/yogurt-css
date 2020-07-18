@@ -10,33 +10,34 @@
   $class: null
   ) {
   @each $modifier, $value in $scale {
-    @include setRuleDouble(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "scale-",
       $modifier: $modifier,
       $property1: "--transform-scale-x",
+      $value1: $value#{$override},
       $property2: "--transform-scale-y",
-      $value: $value#{$override}
+      $value2: $value#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "scale-x-",
       $modifier: $modifier,
-      $property: "--transform-scale-x",
-      $value: $value#{$override}
+      $property1: "--transform-scale-x",
+      $value1: $value#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "scale-y-",
       $modifier: $modifier,
-      $property: "--transform-scale-y",
-      $value: $value#{$override}
+      $property1: "--transform-scale-y",
+      $value1: $value#{$override}
     )
   }
 }

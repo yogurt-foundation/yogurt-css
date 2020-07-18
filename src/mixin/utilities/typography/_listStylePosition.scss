@@ -9,6 +9,7 @@
   $pseudo: null,
   $class: null
   ) {
+  // (static)
   #{$prefix}#{$class}#{$id}list-inside {
     list-style-position: inside#{$override};
   }

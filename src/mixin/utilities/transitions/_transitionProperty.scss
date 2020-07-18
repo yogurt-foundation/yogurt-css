@@ -10,13 +10,13 @@
   $class: null
   ) {
   @each $modifier, $value in $transition-property {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $modifier: $modifier,
-      $property: "transition-property",
-      $value: $value#{$override}
+      $property1: "transition-property",
+      $value1: $value#{$override}
     )
   }
 }

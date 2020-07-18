@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $width {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "w-",
       $modifier: $modifier,
-      $property: "width",
-      $value: $value#{$override}
+      $property1: "width",
+      $value1: $value#{$override}
     )
   }
 }

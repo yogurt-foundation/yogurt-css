@@ -9,6 +9,7 @@
   $pseudo: null,
   $class: null
   ) {
+  // (static)
   #{$prefix}#{$class}#{$id}sr-only#{$pseudo} {
     position: absolute;
     width: 1px;
@@ -18,7 +19,7 @@
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
-    border-width: 0;
+    border-width: 0
   }
   #{$prefix}#{$class}#{$id}not-sr-only#{$pseudo} {
     position: static;
@@ -28,6 +29,6 @@
     margin: 0;
     overflow: visible;
     clip: auto;
-    white-space: normal;
+    white-space: normal
   }
 }

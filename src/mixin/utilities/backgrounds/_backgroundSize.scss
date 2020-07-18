@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $background-size {
-    @include setRuleSingle(
-      $prefix,
-      $pseudo,
-      $class,
-      "bg-",
-      $modifier,
-      "background-size",
-      $value#{$override}
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "bg-",
+      $modifier: $modifier,
+      $property1: "background-size",
+      $value1: $value#{$override}
     )
   }
 }

@@ -1,7 +1,7 @@
 /**
  * @utility: backgrounds
  * @module: _backgroundAttachment.scss
- * @desc: sets behaviour of backgorund images when scrolling
+ * @desc: sets behaviour of background images when scrolling
  */
 
 @mixin backgroundAttachment(
@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $background-attachment {
-    @include setRuleSingle(
-      $prefix,
-      $pseudo,
-      $class,
-      "bg-",
-      $modifier,
-      "background-attachment",
-      $value#{$override}
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "bg-",
+      $modifier: $modifier,
+      $property1: "background-attachment",
+      $value1: $value#{$override}
     )
   }
 }

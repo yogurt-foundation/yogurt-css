@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $flex-direction {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "flex-",
       $modifier: $modifier,
-      $property: "flex-direction",
-      $value: $value#{$override}
+      $property1: "flex-direction",
+      $value1: $value#{$override}
     )
   }
 }

@@ -11,14 +11,14 @@
   $negative: null
   ) {
   @each $modifier, $value in $rotate {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "#{$negative}rotate-",
       $modifier: $modifier,
-      $property: "--transform-rotate",
-      $value: #{$negative}$value#{$override}
+      $property1: "--transform-rotate",
+      $value1: #{$negative}$value#{$override}
     )
   }
 }

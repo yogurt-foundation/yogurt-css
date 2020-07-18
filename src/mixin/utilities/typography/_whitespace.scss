@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $whitespace {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "whitespace-",
       $modifier: $modifier,
-      $property: "white-space",
-      $value: $value#{$override}
+      $property1: "white-space",
+      $value1: $value#{$override}
     )
   }
 }

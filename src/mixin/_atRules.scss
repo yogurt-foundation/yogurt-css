@@ -25,53 +25,28 @@ $visited: ":visited";
 $disabled: ":disabled";
 
 
-@mixin setRuleSingle(
+// (!!)
+@mixin setRule(
   $prefix: null,
   $pseudo: null,
   $class: null,
   $selector: null,
   $modifier: null,
-  $property: null,
-  $value: null
-  ) {
-  #{$prefix}#{$class}#{$id}#{$selector}#{$modifier}#{$pseudo} {
-    #{$property}: #{$value}
-  }
-}
-
-@mixin setRuleDouble(
-  $prefix: null,
-  $pseudo: null,
-  $class: null,
-  $selector: null,
-  $modifier: null,
+  $option: null,
   $property1: null,
+  $value1: null,
   $property2: null,
-  $value: null
-  ) {
-  #{$prefix}#{$class}#{$id}#{$selector}#{$modifier}#{$pseudo} {
-    #{$property1}: #{$value};
-    #{$property2}: #{$value}
-  }
-}
-
-@mixin setRuleQuad(
-  $prefix: null,
-  $pseudo: null,
-  $class: null,
-  $selector: null,
-  $modifier: null,
-  $property1: null,
-  $property2: null,
+  $value2: null,
   $property3: null,
+  $value3: null,
   $property4: null,
-  $value: null
+  $value4: null,
   ) {
-  #{$prefix}#{$class}#{$id}#{$selector}#{$modifier}#{$pseudo} {
-    #{$property1}: #{$value};
-    #{$property2}: #{$value};
-    #{$property3}: #{$value};
-    #{$property4}: #{$value}
+  #{$prefix}#{$class}#{$id}#{$selector}#{$modifier}#{$option}#{$pseudo} {
+    #{$property1}: #{$value1};
+    #{$property2}: #{$value2};
+    #{$property3}: #{$value3};
+    #{$property4}: #{$value4}
   }
 }
 

@@ -11,23 +11,23 @@
   $negative: null
   ) {
   @each $modifier, $value in $skew {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "#{$negative}skew-x-",
       $modifier: $modifier,
-      $property: "--transform-skew-x",
-      $value: "#{$negative}#{$value}#{$override}"
+      $property1: "--transform-skew-x",
+      $value1: "#{$negative}#{$value}#{$override}"
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "#{$negative}skew-y-",
       $modifier: $modifier,
-      $property: "--transform-skew-y",
-      $value: "#{$negative}#{$value}#{$override}"
+      $property1: "--transform-skew-y",
+      $value1: "#{$negative}#{$value}#{$override}"
     )
   }
 }

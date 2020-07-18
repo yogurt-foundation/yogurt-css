@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $justify-content {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "justify-",
       $modifier: $modifier,
-      $property: "justify-content",
-      $value: $value#{$override}
+      $property1: "justify-content",
+      $value1: $value#{$override}
     )
   }
 }

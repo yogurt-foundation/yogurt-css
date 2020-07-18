@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $line-height {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "depth-",
       $modifier: $modifier,
-      $property: "line-height",
-      $value: $value#{$override}
+      $property1: "line-height",
+      $value1: $value#{$override}
     )
   }
 }

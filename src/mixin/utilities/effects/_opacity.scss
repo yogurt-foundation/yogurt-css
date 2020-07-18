@@ -7,16 +7,17 @@
 @mixin opacity(
   $prefix: null,
   $pseudo: null,
-  $class: null) {
+  $class: null
+  ) {
   @each $modifier, $value in $opacity {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "opacity-",
       $modifier: $modifier,
-      $property: "opacity",
-      $value: $value#{$override}
+      $property1: "opacity",
+      $value1: $value#{$override}
     )
   }
 }

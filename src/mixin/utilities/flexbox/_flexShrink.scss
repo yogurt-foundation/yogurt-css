@@ -9,21 +9,21 @@
   $pseudo: null,
   $class: null
   ) {
-  @include setRuleSingle(
+  @include setRule(
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
     $selector: "flex-shrink",
-    $property: "flex-shrink",
-    $value: "1#{$override}"
+    $property1: "flex-shrink",
+    $value1: "1#{$override}"
   )
-  @include setRuleSingle(
+  @include setRule(
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
     $selector: "flex-shrink-0",
-    $property: "flex-shrink",
-    $value: "0#{$override}"
+    $property1: "flex-shrink",
+    $value1: "0#{$override}"
   )
 }
 

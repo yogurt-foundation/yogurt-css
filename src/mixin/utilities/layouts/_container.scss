@@ -9,24 +9,24 @@
   $pseudo: null,
   $class: null
   ) {
-  @include setRuleSingle(
+  @include setRule(
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
     $selector: "container",
-    $property: "width",
-    $value: "100%#{$override}"
+    $property1: "width",
+    $value1: "100%#{$override}"
   )
 }
 
 /// (!) fixed only for responsive,
 /// can't change anything for now.
 @mixin container($value) {
-  @include setRuleSingle(
+  @include setRule(
     $class: $default,
     $selector: "container",
-    $property: "max-width",
-    $value: $value#{$override}
+    $property1: "max-width",
+    $value1: $value#{$override}
   )
 }
 

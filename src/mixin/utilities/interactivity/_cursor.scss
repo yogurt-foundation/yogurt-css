@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $cursor {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "cursor-",
       $modifier: $modifier,
-      $property: "cursor",
-      $value: $value#{$override}
+      $property1: "cursor",
+      $value1: $value#{$override}
     )
   }
 }

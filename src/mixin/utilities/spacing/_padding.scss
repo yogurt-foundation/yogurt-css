@@ -10,70 +10,72 @@
   $class: null
   ) {
   @each $modifier, $value in $spacing {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "p-",
       $modifier: $modifier,
-      $property: "padding",
-      $value: $value#{$override}
+      $property1: "padding",
+      $value1: $value#{$override}
     )
-    @include setRuleDouble(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "px-",
       $modifier: $modifier,
       $property1: "padding-left",
+      $value1: $value#{$override},
       $property2: "padding-right",
-      $value: $value#{$override}
+      $value2: $value#{$override}
     )
-    @include setRuleDouble(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "py-",
       $modifier: $modifier,
       $property1: "padding-top",
+      $value1: $value#{$override},
       $property2: "padding-bottom",
-      $value: $value#{$override}
+      $value2: $value#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "pt-",
       $modifier: $modifier,
-      $property: "padding-top",
-      $value: $value#{$override}
+      $property1: "padding-top",
+      $value1: $value#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "pb-",
       $modifier: $modifier,
-      $property: "padding-bottom",
-      $value: $value#{$override}
+      $property1: "padding-bottom",
+      $value1: $value#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "pl-",
       $modifier: $modifier,
-      $property: "padding-left",
-      $value: $value#{$override}
+      $property1: "padding-left",
+      $value1: $value#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "pr-",
       $modifier: $modifier,
-      $property: "padding-right",
-      $value: $value#{$override}
+      $property1: "padding-right",
+      $value1: $value#{$override}
     )
   }
 }

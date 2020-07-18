@@ -10,132 +10,136 @@
   $class: null
   ) {
 
-  @include setRuleSingle(
+  @include setRule(
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
     $selector: "rounded",
-    $property: "border-radius",
-    $value: "0.25rem#{$override}"
+    $property1: "border-radius",
+    $value1: "0.25rem#{$override}"
   )
-  @include setRuleSingle(
+  @include setRule(
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
     $selector: "rounded-tl",
-    $property: "border-top-left-radius",
-    $value: "0.25rem#{$override}"
+    $property1: "border-top-left-radius",
+    $value1: "0.25rem#{$override}"
   )
-  @include setRuleSingle(
+  @include setRule(
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
     $selector: "rounded-tr",
-    $property: "border-top-right-radius",
-    $value: "0.25rem#{$override}"
+    $property1: "border-top-right-radius",
+    $value1: "0.25rem#{$override}"
   )
-  @include setRuleSingle(
+  @include setRule(
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
     $selector: "rounded-bl",
-    $property: "border-bottom-left-radius",
-    $value: "0.25rem#{$override}"
+    $property1: "border-bottom-left-radius",
+    $value1: "0.25rem#{$override}"
   )
-  @include setRuleSingle(
+  @include setRule(
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
     $selector: "rounded-br",
-    $property: "border-bottom-right-radius",
-    $value: "0.25rem#{$override}"
+    $property1: "border-bottom-right-radius",
+    $value1: "0.25rem#{$override}"
   )
 
   @each $modifier, $value in $border-radius {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "rounded-",
       $modifier: $modifier,
-      $property: "border-radius",
-      $value: $value#{$override}
+      $property1: "border-radius",
+      $value1: $value#{$override}
     )
-    @include setRuleDouble(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "rounded-t-",
       $modifier: $modifier,
       $property1: "border-top-left-radius",
+      $value1: $value#{$override},
       $property2: "border-top-right-radius",
-      $value: $value#{$override}
+      $value2: $value#{$override}
     )
-    @include setRuleDouble(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "rounded-b-",
       $modifier: $modifier,
       $property1: "border-bottom-right-radius",
+      $value1: $value#{$override},
       $property2: "border-bottom-left-radius",
-      $value: $value#{$override}
+      $value2: $value#{$override}
     )
-    @include setRuleDouble(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "rounded-l-",
       $modifier: $modifier,
       $property1: "border-top-left-radius",
+      $value1: $value#{$override},
       $property2: "border-bottom-left-radius",
-      $value: $value#{$override}
+      $value2: $value#{$override}
     )
-    @include setRuleDouble(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "rounded-r-",
       $modifier: $modifier,
       $property1: "border-top-right-radius",
+      $value1: $value#{$override},
       $property2: "border-bottom-right-radius",
-      $value: $value#{$override}
+      $value2: $value#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "rounded-tl-",
       $modifier: $modifier,
-      $property: "border-top-left-radius",
-      $value: $value#{$override}
+      $property1: "border-top-left-radius",
+      $value1: $value#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "rounded-tr-",
       $modifier: $modifier,
-      $property: "border-top-right-radius",
-      $value: $value#{$override}
+      $property1: "border-top-right-radius",
+      $value1: $value#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "rounded-bl-",
       $modifier: $modifier,
-      $property: "border-bottom-left-radius",
-      $value: $value#{$override}
+      $property1: "border-bottom-left-radius",
+      $value1: $value#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "rounded-br-",
       $modifier: $modifier,
-      $property: "border-bottom-right-radius",
-      $value: $value#{$override}
+      $property1: "border-bottom-right-radius",
+      $value1: $value#{$override}
     )
   }
 }

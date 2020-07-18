@@ -9,6 +9,7 @@
   $pseudo: null,
   $class: null
   ) {
+  // (static)
   #{$prefix}#{$class}#{$id}antialiased {
     -webkit-font-smoothing: antialiased#{$override};
     -moz-osx-font-smoothing: grayscale#{$override}

@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $transform-origin {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "origin-",
       $modifier: $modifier,
-      $property: "transform-origin",
-      $value: $value#{$override}
+      $property1: "transform-origin",
+      $value1: $value#{$override}
     )
   }
 }

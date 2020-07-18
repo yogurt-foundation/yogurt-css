@@ -9,12 +9,12 @@
   $pseudo: null,
   $class: null
   ) {
-  @include setRuleSingle(
+  @include setRule(
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
     $selector: "fill-current",
-    $property: "fill",
-    $value: "currentColor#{$override}"
+    $property1: "fill",
+    $value1: "currentColor#{$override}"
   )
 }

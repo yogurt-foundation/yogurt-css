@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $flex-wrap {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "flex-",
       $modifier: $modifier,
-      $property: "flex-wrap",
-      $value: $value#{$override}
+      $property1: "flex-wrap",
+      $value1: $value#{$override}
     )
   }
 }

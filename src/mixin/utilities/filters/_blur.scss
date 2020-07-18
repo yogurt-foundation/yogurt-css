@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $filter-blur {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "blur-",
       $modifier: $modifier,
-      $property: "filter",
-      $value: "blur(#{$value})#{$override}"
+      $property1: "filter",
+      $value1: "blur(#{$value})#{$override}"
     )
   }
 }

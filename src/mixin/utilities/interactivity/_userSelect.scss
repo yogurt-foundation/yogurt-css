@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $user-select {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "select-",
       $modifier: $modifier,
-      $property: "user-select",
-      $value: $value#{$override}
+      $property1: "user-select",
+      $value1: $value#{$override}
     )
   }
 }
