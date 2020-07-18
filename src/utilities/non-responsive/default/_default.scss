@@ -140,6 +140,9 @@
 
 @include padding($class: $default)
 
+@include equal($class: $default)
+@include equal($negative: $true, $class: $default) // negative
+
 /* svg */
 
 @include fill($class: $default)
