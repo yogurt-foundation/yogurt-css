@@ -387,14 +387,20 @@ $cursor:
 
 $display:
   (block, block),
-  (inline-block, inline-block),
+  (hidden, none),
   (inline, inline),
+  (inline-block, inline-block),
   (flex, flex),
   (inline-flex, inline-flex),
   (table, table),
-  (table-row, table-row),
+  (table-caption, table-caption), // (v1.0.8)
   (table-cell, table-cell),
-  (hidden, none);
+  (table-row, table-row),
+  (table-row-group, table-row-group), // (v1.0.8)
+  (table-column, table-column), // (v1.0.8)
+  (table-column-group, table-column-group), // (1.0.8)
+  (table-header-group, table-header-group), // (1.0.8)
+  (table-footer-group, table-footer-group); // (1.0.8)
 
 /* flex */
 
