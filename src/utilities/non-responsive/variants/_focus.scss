@@ -141,8 +141,8 @@
 
 // @include padding($prefix: $variant-focus, $pseudo: $focus)
 
-// @include equal($prefix: $variant-focus, $pseudo: $focus)
-// @include equal($negative: $true, $prefix: $variant-focus, $pseudo: $focus) // negative
+// @include equal($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
+// @include equal($negative: $true, $prefix: $variant-focus, $pseudo: $focus) // negative, (v1.0.8)
 
 /* svg */
 

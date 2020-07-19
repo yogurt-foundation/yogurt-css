@@ -10,7 +10,7 @@
   $class: null,
   $negative: null
   ) {
-  @each $modifier, $value in $spacing {
+  @each $modifier, $value in $spacing-equal {
     @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
@@ -26,7 +26,7 @@
       $value3: "calc(#{$negative}#{$value} * calc(1 - var(--equal-x-reverse)))#{$override}"
     )
   }
-  @each $modifier, $value in $spacing {
+  @each $modifier, $value in $spacing-equal {
     @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,

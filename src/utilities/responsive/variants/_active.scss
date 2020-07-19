@@ -142,8 +142,8 @@
 
 // @include padding($prefix: $responsive-active, $pseudo: $active)
 
-// @include equal($prefix: $responsive-active, $pseudo: $active)
-// @include equal($negative: $true, $prefix: $responsive-active, $pseudo: $active) // negative
+// @include equal($prefix: $responsive-active, $pseudo: $active) // (v1.0.8)
+// @include equal($negative: $true, $prefix: $responsive-active, $pseudo: $active) // negative, (v1.0.8)
 
 /* svg */
 

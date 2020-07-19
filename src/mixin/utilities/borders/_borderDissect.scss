@@ -1,0 +1,78 @@
+/**
+ * @utility: borderDissect
+ * @module: _borderDissect.scss
+ * @desc: divide each child elements with the bottom border
+ */
+
+@mixin borderDissect(
+  $prefix: null,
+  $pseudo: null,
+  $class: null,
+  $negative: null
+  ) {
+  @each $modifier, $value in $border-dissect {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "dissect-x-",
+      $modifier: $modifier,
+      $option: "> :not(template) ~ :not(template)",
+      $property1: "--dissect-x-reverse",
+      $value1: "0",
+      $property2: "border-right-width",
+      $value2: "calc(#{$value} * var(--dissect-x-reverse))#{$override}",
+      $property3: "border-left-width",
+      $value3: "calc(#{$value} * calc(1 - var(--dissect-x-reverse)))#{$override}"
+    )
+  }
+  @each $modifier, $value in $border-dissect {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "dissect-y-",
+      $modifier: $modifier,
+      $option: "> :not(template) ~ :not(template)",
+      $property1: "--dissect-y-reverse",
+      $value1: "0",
+      $property2: "border-top-width",
+      $value2: "calc(#{$value} * calc(1 - var(--dissect-y-reverse)))#{$override}",
+      $property3: "border-bottom-width",
+      $value3: "calc(#{$value} * var(--dissect-y-reverse))#{$override}"
+    )
+  }
+  // (static)
+  @include setRule(
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "dissect-x-reverse > :not(template) ~ :not(template)",
+    $property1: "--dissect-x-reverse",
+    $value1: "1#{$override}"
+  )
+  @include setRule(
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "dissect-y-reverse > :not(template) ~ :not(template)",
+    $property1: "--dissect-y-reverse",
+    $value1: "1#{$override}"
+  )
+  @include setRule(
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "dissect-transparent > :not(template) ~ :not(template)",
+    $property1: "border-color",
+    $value1: "transparent#{$override}"
+  )
+  @include setRule(
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "dissect-current > :not(template) ~ :not(template)",
+    $property1: "border-color",
+    $value1: "currentColor#{$override}"
+  )
+}

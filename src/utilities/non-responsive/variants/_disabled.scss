@@ -142,8 +142,8 @@
 
 // @include padding($prefix: $variant-disabled, $pseudo: $disabled)
 
-// @include equal($prefix: $variant-disabled, $pseudo: $disabled)
-// @include equal($negative: $true, $prefix: $variant-disabled, $pseudo: $disabled) // negative
+// @include equal($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.8)
+// @include equal($negative: $true, $prefix: $variant-disabled, $pseudo: $disabled) // negative, (v1.0.8)
 
 /* svg */
 

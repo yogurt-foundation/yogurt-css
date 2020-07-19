@@ -659,6 +659,8 @@ y {
 /* filter (invert) */
 /* effect (blend) */
 /* effect (gradient) */
+/* spacing equal */
+/* border dissect */
 /**
  * @file: _atrules.scss
  */
@@ -766,6 +768,11 @@ y {
  * @utility: backgrounds
  * @module: backgroundColor/_yellow.scss
  * @desc: sets background color
+ */
+/**
+ * @utility: borderDissect
+ * @module: _borderDissect.scss
+ * @desc: divide each child elements with the bottom border
  */
 /**
  * @utility: borders
@@ -3003,6 +3010,70 @@ y {
 
 .border-r-8 {
   border-right-width: 0.5em;
+}
+
+.dissect-x-0 > :not(template) ~ :not(template) {
+  --dissect-x-reverse: 0;
+  border-right-width: calc(0 * var(--dissect-x-reverse));
+  border-left-width: calc(0 * calc(1 - var(--dissect-x-reverse)));
+}
+
+.dissect-x-2 > :not(template) ~ :not(template) {
+  --dissect-x-reverse: 0;
+  border-right-width: calc(2px * var(--dissect-x-reverse));
+  border-left-width: calc(2px * calc(1 - var(--dissect-x-reverse)));
+}
+
+.dissect-x-4 > :not(template) ~ :not(template) {
+  --dissect-x-reverse: 0;
+  border-right-width: calc(4px * var(--dissect-x-reverse));
+  border-left-width: calc(4px * calc(1 - var(--dissect-x-reverse)));
+}
+
+.dissect-x-8 > :not(template) ~ :not(template) {
+  --dissect-x-reverse: 0;
+  border-right-width: calc(8px * var(--dissect-x-reverse));
+  border-left-width: calc(8px * calc(1 - var(--dissect-x-reverse)));
+}
+
+.dissect-y-0 > :not(template) ~ :not(template) {
+  --dissect-y-reverse: 0;
+  border-top-width: calc(0 * calc(1 - var(--dissect-y-reverse)));
+  border-bottom-width: calc(0 * var(--dissect-y-reverse));
+}
+
+.dissect-y-2 > :not(template) ~ :not(template) {
+  --dissect-y-reverse: 0;
+  border-top-width: calc(2px * calc(1 - var(--dissect-y-reverse)));
+  border-bottom-width: calc(2px * var(--dissect-y-reverse));
+}
+
+.dissect-y-4 > :not(template) ~ :not(template) {
+  --dissect-y-reverse: 0;
+  border-top-width: calc(4px * calc(1 - var(--dissect-y-reverse)));
+  border-bottom-width: calc(4px * var(--dissect-y-reverse));
+}
+
+.dissect-y-8 > :not(template) ~ :not(template) {
+  --dissect-y-reverse: 0;
+  border-top-width: calc(8px * calc(1 - var(--dissect-y-reverse)));
+  border-bottom-width: calc(8px * var(--dissect-y-reverse));
+}
+
+.dissect-x-reverse > :not(template) ~ :not(template) {
+  --dissect-x-reverse: 1;
+}
+
+.dissect-y-reverse > :not(template) ~ :not(template) {
+  --dissect-y-reverse: 1;
+}
+
+.dissect-transparent > :not(template) ~ :not(template) {
+  border-color: transparent;
+}
+
+.dissect-current > :not(template) ~ :not(template) {
+  border-color: currentColor;
 }
 
 /* effects */
@@ -14456,12 +14527,6 @@ y {
   padding-right: 16rem;
 }
 
-.equal-x-auto > :not(template) ~ :not(template) {
-  --equal-x-reverse: 0;
-  margin-right: calc(auto * var(--equal-x-reverse));
-  margin-left: calc(auto * calc(1 - var(--equal-x-reverse)));
-}
-
 .equal-x-px > :not(template) ~ :not(template) {
   --equal-x-reverse: 0;
   margin-right: calc(1px * var(--equal-x-reverse));
@@ -14574,12 +14639,6 @@ y {
   --equal-x-reverse: 0;
   margin-right: calc(16rem * var(--equal-x-reverse));
   margin-left: calc(16rem * calc(1 - var(--equal-x-reverse)));
-}
-
-.equal-y-auto > :not(template) ~ :not(template) {
-  --equal-y-reverse: 0;
-  margin-top: calc(auto * calc(1 - var(--equal-y-reverse)));
-  margin-bottom: calc(auto * var(--equal-y-reverse));
 }
 
 .equal-y-px > :not(template) ~ :not(template) {
@@ -14704,12 +14763,6 @@ y {
   --equal-y-reverse: 1;
 }
 
-.-equal-x-auto > :not(template) ~ :not(template) {
-  --equal-x-reverse: 0;
-  margin-right: calc(-auto * var(--equal-x-reverse));
-  margin-left: calc(-auto * calc(1 - var(--equal-x-reverse)));
-}
-
 .-equal-x-px > :not(template) ~ :not(template) {
   --equal-x-reverse: 0;
   margin-right: calc(-1px * var(--equal-x-reverse));
@@ -14822,12 +14875,6 @@ y {
   --equal-x-reverse: 0;
   margin-right: calc(-16rem * var(--equal-x-reverse));
   margin-left: calc(-16rem * calc(1 - var(--equal-x-reverse)));
-}
-
-.-equal-y-auto > :not(template) ~ :not(template) {
-  --equal-y-reverse: 0;
-  margin-top: calc(-auto * calc(1 - var(--equal-y-reverse)));
-  margin-bottom: calc(-auto * var(--equal-y-reverse));
 }
 
 .-equal-y-px > :not(template) ~ :not(template) {

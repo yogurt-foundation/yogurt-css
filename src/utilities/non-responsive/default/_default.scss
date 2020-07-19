@@ -53,6 +53,7 @@
 @include borderRadius($class: $default)
 @include borderStyle($class: $default)
 @include borderWidth($class: $default)
+@include borderDissect($class: $default) // (v1.0.8)
 
 /* effects */
 
@@ -140,8 +141,8 @@
 
 @include padding($class: $default)
 
-@include equal($class: $default)
-@include equal($negative: $true, $class: $default) // negative
+@include equal($class: $default) // (v1.0.8)
+@include equal($negative: $true, $class: $default) // negative, (v1.0.8)
 
 /* svg */
 

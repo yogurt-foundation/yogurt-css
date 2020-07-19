@@ -142,8 +142,8 @@
 
 // @include padding($prefix: $responsive-focus, $pseudo: $focus)
 
-// @include equal($prefix: $responsive-focus, $pseudo: $focus)
-// @include equal($negative: $true, $prefix: $responsive-focus, $pseudo: $focus) // negative
+// @include equal($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.8)
+// @include equal($negative: $true, $prefix: $responsive-focus, $pseudo: $focus) // negative, (v1.0.8)
 
 /* svg */
 
