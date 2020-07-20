@@ -47,9 +47,33 @@
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
+    $selector: "dissect-x > :not(template) ~ :not(template)",
+    $property1: "--dissect-x-reverse",
+    $value1: "0",
+    $property2: "border-right-width",
+    $value2: "calc(1px * var(--divide-x-reverse))#{$override}",
+    $property3: "border-left-width",
+    $value3: "calc(1px * calc(1 - var(--divide-x-reverse)))#{$override}"
+  )
+  @include setRule(
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "dissect-y > :not(template) ~ :not(template)",
+    $property1: "--dissect-y-reverse",
+    $value1: "0",
+    $property2: "border-top-width",
+    $value2: "calc(1px * calc(1 - var(--divide-y-reverse)))#{$override}",
+    $property3: "border-bottom-width",
+    $value3: "calc(1px * var(--divide-y-reverse))#{$override}"
+  )
+  @include setRule(
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
     $selector: "dissect-x-reverse > :not(template) ~ :not(template)",
     $property1: "--dissect-x-reverse",
-    $value1: "1#{$override}"
+    $value1: "1"
   )
   @include setRule(
     $prefix: $prefix,
@@ -57,7 +81,7 @@
     $class: $class,
     $selector: "dissect-y-reverse > :not(template) ~ :not(template)",
     $property1: "--dissect-y-reverse",
-    $value1: "1#{$override}"
+    $value1: "1"
   )
   @include setRule(
     $prefix: $prefix,

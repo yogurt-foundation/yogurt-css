@@ -3060,6 +3060,18 @@ y {
   border-bottom-width: calc(8px * var(--dissect-y-reverse));
 }
 
+.dissect-x > :not(template) ~ :not(template) {
+  --dissect-x-reverse: 0;
+  border-right-width: calc(1px * var(--divide-x-reverse));
+  border-left-width: calc(1px * calc(1 - var(--divide-x-reverse)));
+}
+
+.dissect-y > :not(template) ~ :not(template) {
+  --dissect-y-reverse: 0;
+  border-top-width: calc(1px * calc(1 - var(--divide-y-reverse)));
+  border-bottom-width: calc(1px * var(--divide-y-reverse));
+}
+
 .dissect-x-reverse > :not(template) ~ :not(template) {
   --dissect-x-reverse: 1;
 }
@@ -11793,12 +11805,16 @@ y {
   display: block;
 }
 
-.inline-block {
-  display: inline-block;
+.hidden {
+  display: none;
 }
 
 .inline {
   display: inline;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
@@ -11813,16 +11829,36 @@ y {
   display: table;
 }
 
-.table-row {
-  display: table-row;
+.table-caption {
+  display: table-caption;
 }
 
 .table-cell {
   display: table-cell;
 }
 
-.hidden {
-  display: none;
+.table-row {
+  display: table-row;
+}
+
+.table-row-group {
+  display: table-row-group;
+}
+
+.table-column {
+  display: table-column;
+}
+
+.table-column-group {
+  display: table-column-group;
+}
+
+.table-header-group {
+  display: table-header-group;
+}
+
+.table-footer-group {
+  display: table-footer-group;
 }
 
 .clearfix:after {
@@ -25892,12 +25928,16 @@ y {
   display: block;
 }
 
-.hover\:inline-block:hover {
-  display: inline-block;
+.hover\:hidden:hover {
+  display: none;
 }
 
 .hover\:inline:hover {
   display: inline;
+}
+
+.hover\:inline-block:hover {
+  display: inline-block;
 }
 
 .hover\:flex:hover {
@@ -25912,16 +25952,36 @@ y {
   display: table;
 }
 
-.hover\:table-row:hover {
-  display: table-row;
+.hover\:table-caption:hover {
+  display: table-caption;
 }
 
 .hover\:table-cell:hover {
   display: table-cell;
 }
 
-.hover\:hidden:hover {
-  display: none;
+.hover\:table-row:hover {
+  display: table-row;
+}
+
+.hover\:table-row-group:hover {
+  display: table-row-group;
+}
+
+.hover\:table-column:hover {
+  display: table-column;
+}
+
+.hover\:table-column-group:hover {
+  display: table-column-group;
+}
+
+.hover\:table-header-group:hover {
+  display: table-header-group;
+}
+
+.hover\:table-footer-group:hover {
+  display: table-footer-group;
 }
 
 .hover\:static:hover {
@@ -25956,12 +26016,16 @@ y {
   display: block;
 }
 
-.group:hover .group-hover\:inline-block {
-  display: inline-block;
+.group:hover .group-hover\:hidden {
+  display: none;
 }
 
 .group:hover .group-hover\:inline {
   display: inline;
+}
+
+.group:hover .group-hover\:inline-block {
+  display: inline-block;
 }
 
 .group:hover .group-hover\:flex {
@@ -25976,16 +26040,36 @@ y {
   display: table;
 }
 
-.group:hover .group-hover\:table-row {
-  display: table-row;
+.group:hover .group-hover\:table-caption {
+  display: table-caption;
 }
 
 .group:hover .group-hover\:table-cell {
   display: table-cell;
 }
 
-.group:hover .group-hover\:hidden {
-  display: none;
+.group:hover .group-hover\:table-row {
+  display: table-row;
+}
+
+.group:hover .group-hover\:table-row-group {
+  display: table-row-group;
+}
+
+.group:hover .group-hover\:table-column {
+  display: table-column;
+}
+
+.group:hover .group-hover\:table-column-group {
+  display: table-column-group;
+}
+
+.group:hover .group-hover\:table-header-group {
+  display: table-header-group;
+}
+
+.group:hover .group-hover\:table-footer-group {
+  display: table-footer-group;
 }
 
 .group:hover .group-hover\:visible {
@@ -30140,11 +30224,14 @@ y {
   .xs\:block {
     display: block;
   }
-  .xs\:inline-block {
-    display: inline-block;
+  .xs\:hidden {
+    display: none;
   }
   .xs\:inline {
     display: inline;
+  }
+  .xs\:inline-block {
+    display: inline-block;
   }
   .xs\:flex {
     display: flex;
@@ -30155,14 +30242,29 @@ y {
   .xs\:table {
     display: table;
   }
-  .xs\:table-row {
-    display: table-row;
+  .xs\:table-caption {
+    display: table-caption;
   }
   .xs\:table-cell {
     display: table-cell;
   }
-  .xs\:hidden {
-    display: none;
+  .xs\:table-row {
+    display: table-row;
+  }
+  .xs\:table-row-group {
+    display: table-row-group;
+  }
+  .xs\:table-column {
+    display: table-column;
+  }
+  .xs\:table-column-group {
+    display: table-column-group;
+  }
+  .xs\:table-header-group {
+    display: table-header-group;
+  }
+  .xs\:table-footer-group {
+    display: table-footer-group;
   }
   .xs\:clearfix:after {
     content: "";
@@ -34179,11 +34281,14 @@ y {
   .xs\:hover\:block:hover {
     display: block;
   }
-  .xs\:hover\:inline-block:hover {
-    display: inline-block;
+  .xs\:hover\:hidden:hover {
+    display: none;
   }
   .xs\:hover\:inline:hover {
     display: inline;
+  }
+  .xs\:hover\:inline-block:hover {
+    display: inline-block;
   }
   .xs\:hover\:flex:hover {
     display: flex;
@@ -34194,14 +34299,29 @@ y {
   .xs\:hover\:table:hover {
     display: table;
   }
-  .xs\:hover\:table-row:hover {
-    display: table-row;
+  .xs\:hover\:table-caption:hover {
+    display: table-caption;
   }
   .xs\:hover\:table-cell:hover {
     display: table-cell;
   }
-  .xs\:hover\:hidden:hover {
-    display: none;
+  .xs\:hover\:table-row:hover {
+    display: table-row;
+  }
+  .xs\:hover\:table-row-group:hover {
+    display: table-row-group;
+  }
+  .xs\:hover\:table-column:hover {
+    display: table-column;
+  }
+  .xs\:hover\:table-column-group:hover {
+    display: table-column-group;
+  }
+  .xs\:hover\:table-header-group:hover {
+    display: table-header-group;
+  }
+  .xs\:hover\:table-footer-group:hover {
+    display: table-footer-group;
   }
   .xs\:hover\:static:hover {
     position: static;
@@ -38216,11 +38336,14 @@ y {
   .sm\:block {
     display: block;
   }
-  .sm\:inline-block {
-    display: inline-block;
+  .sm\:hidden {
+    display: none;
   }
   .sm\:inline {
     display: inline;
+  }
+  .sm\:inline-block {
+    display: inline-block;
   }
   .sm\:flex {
     display: flex;
@@ -38231,14 +38354,29 @@ y {
   .sm\:table {
     display: table;
   }
-  .sm\:table-row {
-    display: table-row;
+  .sm\:table-caption {
+    display: table-caption;
   }
   .sm\:table-cell {
     display: table-cell;
   }
-  .sm\:hidden {
-    display: none;
+  .sm\:table-row {
+    display: table-row;
+  }
+  .sm\:table-row-group {
+    display: table-row-group;
+  }
+  .sm\:table-column {
+    display: table-column;
+  }
+  .sm\:table-column-group {
+    display: table-column-group;
+  }
+  .sm\:table-header-group {
+    display: table-header-group;
+  }
+  .sm\:table-footer-group {
+    display: table-footer-group;
   }
   .sm\:clearfix:after {
     content: "";
@@ -42255,11 +42393,14 @@ y {
   .sm\:hover\:block:hover {
     display: block;
   }
-  .sm\:hover\:inline-block:hover {
-    display: inline-block;
+  .sm\:hover\:hidden:hover {
+    display: none;
   }
   .sm\:hover\:inline:hover {
     display: inline;
+  }
+  .sm\:hover\:inline-block:hover {
+    display: inline-block;
   }
   .sm\:hover\:flex:hover {
     display: flex;
@@ -42270,14 +42411,29 @@ y {
   .sm\:hover\:table:hover {
     display: table;
   }
-  .sm\:hover\:table-row:hover {
-    display: table-row;
+  .sm\:hover\:table-caption:hover {
+    display: table-caption;
   }
   .sm\:hover\:table-cell:hover {
     display: table-cell;
   }
-  .sm\:hover\:hidden:hover {
-    display: none;
+  .sm\:hover\:table-row:hover {
+    display: table-row;
+  }
+  .sm\:hover\:table-row-group:hover {
+    display: table-row-group;
+  }
+  .sm\:hover\:table-column:hover {
+    display: table-column;
+  }
+  .sm\:hover\:table-column-group:hover {
+    display: table-column-group;
+  }
+  .sm\:hover\:table-header-group:hover {
+    display: table-header-group;
+  }
+  .sm\:hover\:table-footer-group:hover {
+    display: table-footer-group;
   }
   .sm\:hover\:static:hover {
     position: static;
@@ -46292,11 +46448,14 @@ y {
   .md\:block {
     display: block;
   }
-  .md\:inline-block {
-    display: inline-block;
+  .md\:hidden {
+    display: none;
   }
   .md\:inline {
     display: inline;
+  }
+  .md\:inline-block {
+    display: inline-block;
   }
   .md\:flex {
     display: flex;
@@ -46307,14 +46466,29 @@ y {
   .md\:table {
     display: table;
   }
-  .md\:table-row {
-    display: table-row;
+  .md\:table-caption {
+    display: table-caption;
   }
   .md\:table-cell {
     display: table-cell;
   }
-  .md\:hidden {
-    display: none;
+  .md\:table-row {
+    display: table-row;
+  }
+  .md\:table-row-group {
+    display: table-row-group;
+  }
+  .md\:table-column {
+    display: table-column;
+  }
+  .md\:table-column-group {
+    display: table-column-group;
+  }
+  .md\:table-header-group {
+    display: table-header-group;
+  }
+  .md\:table-footer-group {
+    display: table-footer-group;
   }
   .md\:clearfix:after {
     content: "";
@@ -50331,11 +50505,14 @@ y {
   .md\:hover\:block:hover {
     display: block;
   }
-  .md\:hover\:inline-block:hover {
-    display: inline-block;
+  .md\:hover\:hidden:hover {
+    display: none;
   }
   .md\:hover\:inline:hover {
     display: inline;
+  }
+  .md\:hover\:inline-block:hover {
+    display: inline-block;
   }
   .md\:hover\:flex:hover {
     display: flex;
@@ -50346,14 +50523,29 @@ y {
   .md\:hover\:table:hover {
     display: table;
   }
-  .md\:hover\:table-row:hover {
-    display: table-row;
+  .md\:hover\:table-caption:hover {
+    display: table-caption;
   }
   .md\:hover\:table-cell:hover {
     display: table-cell;
   }
-  .md\:hover\:hidden:hover {
-    display: none;
+  .md\:hover\:table-row:hover {
+    display: table-row;
+  }
+  .md\:hover\:table-row-group:hover {
+    display: table-row-group;
+  }
+  .md\:hover\:table-column:hover {
+    display: table-column;
+  }
+  .md\:hover\:table-column-group:hover {
+    display: table-column-group;
+  }
+  .md\:hover\:table-header-group:hover {
+    display: table-header-group;
+  }
+  .md\:hover\:table-footer-group:hover {
+    display: table-footer-group;
   }
   .md\:hover\:static:hover {
     position: static;
@@ -54368,11 +54560,14 @@ y {
   .lg\:block {
     display: block;
   }
-  .lg\:inline-block {
-    display: inline-block;
+  .lg\:hidden {
+    display: none;
   }
   .lg\:inline {
     display: inline;
+  }
+  .lg\:inline-block {
+    display: inline-block;
   }
   .lg\:flex {
     display: flex;
@@ -54383,14 +54578,29 @@ y {
   .lg\:table {
     display: table;
   }
-  .lg\:table-row {
-    display: table-row;
+  .lg\:table-caption {
+    display: table-caption;
   }
   .lg\:table-cell {
     display: table-cell;
   }
-  .lg\:hidden {
-    display: none;
+  .lg\:table-row {
+    display: table-row;
+  }
+  .lg\:table-row-group {
+    display: table-row-group;
+  }
+  .lg\:table-column {
+    display: table-column;
+  }
+  .lg\:table-column-group {
+    display: table-column-group;
+  }
+  .lg\:table-header-group {
+    display: table-header-group;
+  }
+  .lg\:table-footer-group {
+    display: table-footer-group;
   }
   .lg\:clearfix:after {
     content: "";
@@ -58407,11 +58617,14 @@ y {
   .lg\:hover\:block:hover {
     display: block;
   }
-  .lg\:hover\:inline-block:hover {
-    display: inline-block;
+  .lg\:hover\:hidden:hover {
+    display: none;
   }
   .lg\:hover\:inline:hover {
     display: inline;
+  }
+  .lg\:hover\:inline-block:hover {
+    display: inline-block;
   }
   .lg\:hover\:flex:hover {
     display: flex;
@@ -58422,14 +58635,29 @@ y {
   .lg\:hover\:table:hover {
     display: table;
   }
-  .lg\:hover\:table-row:hover {
-    display: table-row;
+  .lg\:hover\:table-caption:hover {
+    display: table-caption;
   }
   .lg\:hover\:table-cell:hover {
     display: table-cell;
   }
-  .lg\:hover\:hidden:hover {
-    display: none;
+  .lg\:hover\:table-row:hover {
+    display: table-row;
+  }
+  .lg\:hover\:table-row-group:hover {
+    display: table-row-group;
+  }
+  .lg\:hover\:table-column:hover {
+    display: table-column;
+  }
+  .lg\:hover\:table-column-group:hover {
+    display: table-column-group;
+  }
+  .lg\:hover\:table-header-group:hover {
+    display: table-header-group;
+  }
+  .lg\:hover\:table-footer-group:hover {
+    display: table-footer-group;
   }
   .lg\:hover\:static:hover {
     position: static;
@@ -62444,11 +62672,14 @@ y {
   .xl\:block {
     display: block;
   }
-  .xl\:inline-block {
-    display: inline-block;
+  .xl\:hidden {
+    display: none;
   }
   .xl\:inline {
     display: inline;
+  }
+  .xl\:inline-block {
+    display: inline-block;
   }
   .xl\:flex {
     display: flex;
@@ -62459,14 +62690,29 @@ y {
   .xl\:table {
     display: table;
   }
-  .xl\:table-row {
-    display: table-row;
+  .xl\:table-caption {
+    display: table-caption;
   }
   .xl\:table-cell {
     display: table-cell;
   }
-  .xl\:hidden {
-    display: none;
+  .xl\:table-row {
+    display: table-row;
+  }
+  .xl\:table-row-group {
+    display: table-row-group;
+  }
+  .xl\:table-column {
+    display: table-column;
+  }
+  .xl\:table-column-group {
+    display: table-column-group;
+  }
+  .xl\:table-header-group {
+    display: table-header-group;
+  }
+  .xl\:table-footer-group {
+    display: table-footer-group;
   }
   .xl\:clearfix:after {
     content: "";
@@ -66483,11 +66729,14 @@ y {
   .xl\:hover\:block:hover {
     display: block;
   }
-  .xl\:hover\:inline-block:hover {
-    display: inline-block;
+  .xl\:hover\:hidden:hover {
+    display: none;
   }
   .xl\:hover\:inline:hover {
     display: inline;
+  }
+  .xl\:hover\:inline-block:hover {
+    display: inline-block;
   }
   .xl\:hover\:flex:hover {
     display: flex;
@@ -66498,14 +66747,29 @@ y {
   .xl\:hover\:table:hover {
     display: table;
   }
-  .xl\:hover\:table-row:hover {
-    display: table-row;
+  .xl\:hover\:table-caption:hover {
+    display: table-caption;
   }
   .xl\:hover\:table-cell:hover {
     display: table-cell;
   }
-  .xl\:hover\:hidden:hover {
-    display: none;
+  .xl\:hover\:table-row:hover {
+    display: table-row;
+  }
+  .xl\:hover\:table-row-group:hover {
+    display: table-row-group;
+  }
+  .xl\:hover\:table-column:hover {
+    display: table-column;
+  }
+  .xl\:hover\:table-column-group:hover {
+    display: table-column-group;
+  }
+  .xl\:hover\:table-header-group:hover {
+    display: table-header-group;
+  }
+  .xl\:hover\:table-footer-group:hover {
+    display: table-footer-group;
   }
   .xl\:hover\:static:hover {
     position: static;
@@ -70520,11 +70784,14 @@ y {
   .\32k\:block {
     display: block;
   }
-  .\32k\:inline-block {
-    display: inline-block;
+  .\32k\:hidden {
+    display: none;
   }
   .\32k\:inline {
     display: inline;
+  }
+  .\32k\:inline-block {
+    display: inline-block;
   }
   .\32k\:flex {
     display: flex;
@@ -70535,14 +70802,29 @@ y {
   .\32k\:table {
     display: table;
   }
-  .\32k\:table-row {
-    display: table-row;
+  .\32k\:table-caption {
+    display: table-caption;
   }
   .\32k\:table-cell {
     display: table-cell;
   }
-  .\32k\:hidden {
-    display: none;
+  .\32k\:table-row {
+    display: table-row;
+  }
+  .\32k\:table-row-group {
+    display: table-row-group;
+  }
+  .\32k\:table-column {
+    display: table-column;
+  }
+  .\32k\:table-column-group {
+    display: table-column-group;
+  }
+  .\32k\:table-header-group {
+    display: table-header-group;
+  }
+  .\32k\:table-footer-group {
+    display: table-footer-group;
   }
   .\32k\:clearfix:after {
     content: "";
@@ -74559,11 +74841,14 @@ y {
   .\32k\:hover\:block:hover {
     display: block;
   }
-  .\32k\:hover\:inline-block:hover {
-    display: inline-block;
+  .\32k\:hover\:hidden:hover {
+    display: none;
   }
   .\32k\:hover\:inline:hover {
     display: inline;
+  }
+  .\32k\:hover\:inline-block:hover {
+    display: inline-block;
   }
   .\32k\:hover\:flex:hover {
     display: flex;
@@ -74574,14 +74859,29 @@ y {
   .\32k\:hover\:table:hover {
     display: table;
   }
-  .\32k\:hover\:table-row:hover {
-    display: table-row;
+  .\32k\:hover\:table-caption:hover {
+    display: table-caption;
   }
   .\32k\:hover\:table-cell:hover {
     display: table-cell;
   }
-  .\32k\:hover\:hidden:hover {
-    display: none;
+  .\32k\:hover\:table-row:hover {
+    display: table-row;
+  }
+  .\32k\:hover\:table-row-group:hover {
+    display: table-row-group;
+  }
+  .\32k\:hover\:table-column:hover {
+    display: table-column;
+  }
+  .\32k\:hover\:table-column-group:hover {
+    display: table-column-group;
+  }
+  .\32k\:hover\:table-header-group:hover {
+    display: table-header-group;
+  }
+  .\32k\:hover\:table-footer-group:hover {
+    display: table-footer-group;
   }
   .\32k\:hover\:static:hover {
     position: static;
@@ -78596,11 +78896,14 @@ y {
   .\34k\:block {
     display: block;
   }
-  .\34k\:inline-block {
-    display: inline-block;
+  .\34k\:hidden {
+    display: none;
   }
   .\34k\:inline {
     display: inline;
+  }
+  .\34k\:inline-block {
+    display: inline-block;
   }
   .\34k\:flex {
     display: flex;
@@ -78611,14 +78914,29 @@ y {
   .\34k\:table {
     display: table;
   }
-  .\34k\:table-row {
-    display: table-row;
+  .\34k\:table-caption {
+    display: table-caption;
   }
   .\34k\:table-cell {
     display: table-cell;
   }
-  .\34k\:hidden {
-    display: none;
+  .\34k\:table-row {
+    display: table-row;
+  }
+  .\34k\:table-row-group {
+    display: table-row-group;
+  }
+  .\34k\:table-column {
+    display: table-column;
+  }
+  .\34k\:table-column-group {
+    display: table-column-group;
+  }
+  .\34k\:table-header-group {
+    display: table-header-group;
+  }
+  .\34k\:table-footer-group {
+    display: table-footer-group;
   }
   .\34k\:clearfix:after {
     content: "";
@@ -82635,11 +82953,14 @@ y {
   .\34k\:hover\:block:hover {
     display: block;
   }
-  .\34k\:hover\:inline-block:hover {
-    display: inline-block;
+  .\34k\:hover\:hidden:hover {
+    display: none;
   }
   .\34k\:hover\:inline:hover {
     display: inline;
+  }
+  .\34k\:hover\:inline-block:hover {
+    display: inline-block;
   }
   .\34k\:hover\:flex:hover {
     display: flex;
@@ -82650,14 +82971,29 @@ y {
   .\34k\:hover\:table:hover {
     display: table;
   }
-  .\34k\:hover\:table-row:hover {
-    display: table-row;
+  .\34k\:hover\:table-caption:hover {
+    display: table-caption;
   }
   .\34k\:hover\:table-cell:hover {
     display: table-cell;
   }
-  .\34k\:hover\:hidden:hover {
-    display: none;
+  .\34k\:hover\:table-row:hover {
+    display: table-row;
+  }
+  .\34k\:hover\:table-row-group:hover {
+    display: table-row-group;
+  }
+  .\34k\:hover\:table-column:hover {
+    display: table-column;
+  }
+  .\34k\:hover\:table-column-group:hover {
+    display: table-column-group;
+  }
+  .\34k\:hover\:table-header-group:hover {
+    display: table-header-group;
+  }
+  .\34k\:hover\:table-footer-group:hover {
+    display: table-footer-group;
   }
   .\34k\:hover\:static:hover {
     position: static;
