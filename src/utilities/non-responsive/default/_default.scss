@@ -55,6 +55,23 @@
 @include borderWidth($class: $default)
 @include borderDissect($class: $default) // (v1.0.8)
 
+// (v1.0.8)
+@include dissectColorAmber($class: $default)
+@include dissectColorBlack($class: $default)
+@include dissectColorBlue($class: $default)
+@include dissectColorCharcoal($class: $default)
+@include dissectColorGray($class: $default)
+@include dissectColorGreen($class: $default)
+@include dissectColorIndigo($class: $default)
+@include dissectColorKhaki($class: $default)
+@include dissectColorNero($class: $default)
+@include dissectColorOrange($class: $default)
+@include dissectColorPink($class: $default)
+@include dissectColorPurple($class: $default)
+@include dissectColorRed($class: $default)
+@include dissectColorTeal($class: $default)
+@include dissectColorYellow($class: $default)
+
 /* effects */
 
 @include shadowColorAmber($class: $default)
