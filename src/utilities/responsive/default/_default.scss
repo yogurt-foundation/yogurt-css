@@ -54,6 +54,24 @@
 @include borderRadius($prefix: $responsive-default)
 @include borderStyle($prefix: $responsive-default)
 @include borderWidth($prefix: $responsive-default)
+// @include borderDissect($prefix: $responsive-default) // (v1.0.8)
+
+// (v1.0.8)
+// @include dissectColorAmber($prefix: $responsive-default)
+// @include dissectColorBlack($prefix: $responsive-default)
+// @include dissectColorBlue($prefix: $responsive-default)
+// @include dissectColorCharcoal($prefix: $responsive-default)
+// @include dissectColorGray($prefix: $responsive-default)
+// @include dissectColorGreen($prefix: $responsive-default)
+// @include dissectColorIndigo($prefix: $responsive-default)
+// @include dissectColorKhaki($prefix: $responsive-default)
+// @include dissectColorNero($prefix: $responsive-default)
+// @include dissectColorOrange($prefix: $responsive-default)
+// @include dissectColorPink($prefix: $responsive-default)
+// @include dissectColorPurple($prefix: $responsive-default)
+// @include dissectColorRed($prefix: $responsive-default)
+// @include dissectColorTeal($prefix: $responsive-default)
+// @include dissectColorYellow($prefix: $responsive-default)
 
 /* effects */
 

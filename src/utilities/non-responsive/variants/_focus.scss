@@ -52,6 +52,24 @@
 // @include borderRadius($prefix: $variant-focus, $pseudo: $focus)
 @include borderStyle($prefix: $variant-focus, $pseudo: $focus)
 @include borderWidth($prefix: $variant-focus, $pseudo: $focus)
+// @include borderDissect($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
+
+// (v1.0.8)
+// @include dissectColorAmber($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorBlack($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorBlue($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorCharcoal($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorGray($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorGreen($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorIndigo($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorKhaki($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorNero($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorOrange($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorPink($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorPurple($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorRed($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorTeal($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorYellow($prefix: $variant-focus, $pseudo: $focus)
 
 /* effects */
 
