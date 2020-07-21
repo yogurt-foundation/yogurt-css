@@ -7,8 +7,7 @@
 @mixin borderDissect(
   $prefix: null,
   $pseudo: null,
-  $class: null,
-  $negative: null
+  $class: null
   ) {
   @each $modifier, $value in $border-dissect {
     @include setRule(

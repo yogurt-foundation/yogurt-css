@@ -790,6 +790,11 @@ y {
  * @desc: sets border width in increments of 1px
  */
 /**
+ * @utility: borderDissectOpacity
+ * @module: _borderDissectOpacity.scss
+ * @desc: divide each child elements with the bottom border
+ */
+/**
  * @utility: borders
  * @module: borderColor/_amber.scss
  * @desc: sets border color
@@ -3971,6 +3976,26 @@ y {
   --dissect-opacity: 1;
   border-color: #744210;
   border-color: rgba(116, 66, 16, var(--dissect-opacity)) ;
+}
+
+.dissect-opacity-0 > :not(template) ~ :not(template) {
+  --dissect-opacity: 0;
+}
+
+.dissect-opacity-25 > :not(template) ~ :not(template) {
+  --dissect-opacity: 0.25;
+}
+
+.dissect-opacity-50 > :not(template) ~ :not(template) {
+  --dissect-opacity: 0.5;
+}
+
+.dissect-opacity-75 > :not(template) ~ :not(template) {
+  --dissect-opacity: 0.75;
+}
+
+.dissect-opacity-100 > :not(template) ~ :not(template) {
+  --dissect-opacity: 1;
 }
 
 /* effects */
@@ -26062,6 +26087,26 @@ y {
 
 .hover\:border-yellow-900:hover {
   border-color: #744210;
+}
+
+.hover\:dissect-opacity-0 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 0;
+}
+
+.hover\:dissect-opacity-25 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 0.25;
+}
+
+.hover\:dissect-opacity-50 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 0.5;
+}
+
+.hover\:dissect-opacity-75 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 0.75;
+}
+
+.hover\:dissect-opacity-100 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
 }
 
 /* effects */

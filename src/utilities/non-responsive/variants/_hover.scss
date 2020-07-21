@@ -88,6 +88,8 @@
 // @include dissectColorTeal($prefix: $variant-hover, $pseudo: $hover)
 // @include dissectColorYellow($prefix: $variant-hover, $pseudo: $hover)
 
+@include borderDissectOpacity($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
+
 /* effects */
 
 // (optional)

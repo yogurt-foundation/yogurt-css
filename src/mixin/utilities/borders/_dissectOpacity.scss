@@ -1,0 +1,24 @@
+/**
+ * @utility: borderDissectOpacity
+ * @module: _borderDissectOpacity.scss
+ * @desc: divide each child elements with the bottom border
+ */
+
+@mixin borderDissectOpacity(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier, $value in $opacity {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "dissect-opacity-",
+      $modifier: $modifier,
+      $option: "> :not(template) ~ :not(template)",
+      $property1: "--dissect-opacity",
+      $value1: $value
+    )
+  }
+}

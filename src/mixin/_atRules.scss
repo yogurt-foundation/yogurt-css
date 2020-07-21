@@ -40,12 +40,18 @@ $disabled: ":disabled";
   $value3: null,
   $property4: null,
   $value4: null,
+  $property5: null,
+  $value5: null,
+  $property6: null,
+  $value6: null,
   ) {
   #{$prefix}#{$class}#{$id}#{$selector}#{$modifier}#{$option}#{$pseudo} {
     #{$property1}: #{$value1};
     #{$property2}: #{$value2};
     #{$property3}: #{$value3};
-    #{$property4}: #{$value4}
+    #{$property4}: #{$value4};
+    #{$property5}: #{$value5};
+    #{$property6}: #{$value6}
   }
 }
 

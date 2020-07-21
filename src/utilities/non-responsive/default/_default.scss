@@ -72,6 +72,8 @@
 @include dissectColorTeal($class: $default)
 @include dissectColorYellow($class: $default)
 
+@include borderDissectOpacity($class: $default) // (v1.0.8)
+
 /* effects */
 
 @include shadowColorAmber($class: $default)
