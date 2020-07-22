@@ -11,23 +11,23 @@
   $negative: null
   ) {
   @each $modifier, $value in $translate {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "#{$negative}translate-x-",
       $modifier: $modifier,
-      $property: "--transform-translate-x",
-      $value: #{$negative}#{$value}#{$override}
+      $property1: "--transform-translate-x",
+      $value1: #{$negative}#{$value}#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "#{$negative}translate-y-",
       $modifier: $modifier,
-      $property: "--transform-translate-y",
-      $value: #{$negative}#{$value}#{$override}
+      $property1: "--transform-translate-y",
+      $value1: #{$negative}#{$value}#{$override}
     )
   }
 }

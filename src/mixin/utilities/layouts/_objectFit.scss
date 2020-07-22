@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $object-fit {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "object-",
       $modifier: $modifier,
-      $property: "object-fit",
-      $value: $value#{$override}
+      $property1: "object-fit",
+      $value1: $value#{$override}
     )
   }
 }

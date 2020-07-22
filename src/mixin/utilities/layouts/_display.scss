@@ -10,13 +10,13 @@
   $class: null
   ) {
   @each $modifier, $value in $display {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $modifier: $modifier,
-      $property: "display",
-      $value: $value#{$override}
+      $property1: "display",
+      $value1: $value#{$override}
     )
   }
 }

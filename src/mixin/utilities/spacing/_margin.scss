@@ -11,70 +11,72 @@
   $negative: null
   ) {
   @each $modifier, $value in $spacing {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "#{$negative}m-",
       $modifier: $modifier,
-      $property: "margin",
-      $value: #{$negative}$value#{$override}
+      $property1: "margin",
+      $value1: #{$negative}$value#{$override}
     )
-    @include setRuleDouble(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "#{$negative}mx-",
       $modifier: $modifier,
       $property1: "margin-left",
+      $value1: #{$negative}$value#{$override},
       $property2: "margin-right",
-      $value: #{$negative}$value#{$override}
+      $value2: #{$negative}$value#{$override}
     )
-    @include setRuleDouble(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "#{$negative}my-",
       $modifier: $modifier,
       $property1: "margin-top",
+      $value1: #{$negative}$value#{$override},
       $property2: "margin-bottom",
-      $value: #{$negative}$value#{$override}
+      $value2: #{$negative}$value#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "#{$negative}mt-",
       $modifier: $modifier,
-      $property: "margin-top",
-      $value: #{$negative}$value#{$override}
+      $property1: "margin-top",
+      $value1: #{$negative}$value#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "#{$negative}mb-",
       $modifier: $modifier,
-      $property: "margin-bottom",
-      $value: #{$negative}$value#{$override}
+      $property1: "margin-bottom",
+      $value1: #{$negative}$value#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "#{$negative}ml-",
       $modifier: $modifier,
-      $property: "margin-left",
-      $value: #{$negative}$value#{$override}
+      $property1: "margin-left",
+      $value1: #{$negative}$value#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "#{$negative}mr-",
       $modifier: $modifier,
-      $property: "margin-right",
-      $value: #{$negative}$value#{$override}
+      $property1: "margin-right",
+      $value1: #{$negative}$value#{$override}
     )
   }
 }

@@ -1,0 +1,24 @@
+/**
+ * @utility: backgrounds
+ * @module: _backgroundOpacity.scss
+ * @desc: sets opacity of background images
+ */
+
+@mixin backgroundOpacity(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier, $value in $opacity {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "bg-opacity-",
+      $modifier: $modifier,
+      $property1: "--bg-opacity",
+      $value1: $value
+    )
+  }
+}
+

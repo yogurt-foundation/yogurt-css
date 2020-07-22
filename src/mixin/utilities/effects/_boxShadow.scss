@@ -9,23 +9,23 @@
   $pseudo: null,
   $class: null
   ) {
-  @include setRuleSingle(
+  @include setRule(
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
     $selector: "shadow",
-    $property: "box-shadow",
-    $value: "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)#{$override}"
+    $property1: "box-shadow",
+    $value1: "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)#{$override}"
   )
   @each $modifier, $value in $box-shadow {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "shadow-",
       $modifier: $modifier,
-      $property: "box-shadow",
-      $value: $value#{$override}
+      $property1: "box-shadow",
+      $value1: $value#{$override}
     )
   }
 }

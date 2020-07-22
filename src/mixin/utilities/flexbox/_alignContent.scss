@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $align-content {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "content-",
       $modifier: $modifier,
-      $property: "align-content",
-      $value: $value#{$override}
+      $property1: "align-content",
+      $value1: $value#{$override}
     )
   }
 }

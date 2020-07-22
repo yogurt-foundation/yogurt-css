@@ -30,6 +30,7 @@
 @include backgroundPosition($class: $default)
 @include backgroundRepeat($class: $default)
 @include backgroundSize($class: $default)
+@include backgroundOpacity($class: $default)
 
 /* borders */
 
@@ -53,10 +54,29 @@
 @include borderRadius($class: $default)
 @include borderStyle($class: $default)
 @include borderWidth($class: $default)
+@include borderDissect($class: $default) // (v1.0.8)
+
+// (v1.0.8)
+@include dissectColorAmber($class: $default)
+@include dissectColorBlack($class: $default)
+@include dissectColorBlue($class: $default)
+@include dissectColorCharcoal($class: $default)
+@include dissectColorGray($class: $default)
+@include dissectColorGreen($class: $default)
+@include dissectColorIndigo($class: $default)
+@include dissectColorKhaki($class: $default)
+@include dissectColorNero($class: $default)
+@include dissectColorOrange($class: $default)
+@include dissectColorPink($class: $default)
+@include dissectColorPurple($class: $default)
+@include dissectColorRed($class: $default)
+@include dissectColorTeal($class: $default)
+@include dissectColorYellow($class: $default)
+
+@include borderDissectOpacity($class: $default) // (v1.0.8)
 
 /* effects */
 
-// (optional)
 @include shadowColorAmber($class: $default)
 @include shadowColorBlack($class: $default)
 @include shadowColorBlue($class: $default)
@@ -77,13 +97,13 @@
 @include opacity($class: $default)
 @include mixBlend($class: $default) // (v1.0.4)
 @include backgroundBlend($class: $default) // (v1.0.4)
+@include gradient($class: $default) // (1.0.8)
 
 /* filters */
 
-// (optional)
-// @include filterBlur($class: $default) // (v1.0.3)
-// @include filterCompose($class: $default) // (v1.0.2)
-// @include filterInvert($class: $default) // (v1.0.3)
+@include filterBlur($class: $default) // (v1.0.3)
+@include filterCompose($class: $default) // (v1.0.2)
+@include filterInvert($class: $default) // (v1.0.3)
 
 /* flexbox */
 
@@ -141,6 +161,9 @@
 
 @include padding($class: $default)
 
+@include equal($class: $default) // (v1.0.8)
+@include equal($negative: $true, $class: $default) // negative, (v1.0.8)
+
 /* svg */
 
 @include fill($class: $default)
@@ -176,22 +199,21 @@
 
 /* typography */
 
-// (optional)
-// @include placeholderColorAmber($class: $default)
-// @include placeholderColorBlack($class: $default)
-// @include placeholderColorBlue($class: $default)
-// @include placeholderColorCharcoal($class: $default)
-// @include placeholderColorGray($class: $default)
-// @include placeholderColorGreen($class: $default)
-// @include placeholderColorIndigo($class: $default)
-// @include placeholderColorKhaki($class: $default)
-// @include placeholderColorNero($class: $default)
-// @include placeholderColorOrange($class: $default)
-// @include placeholderColorPink($class: $default)
-// @include placeholderColorPurple($class: $default)
-// @include placeholderColorRed($class: $default)
-// @include placeholderColorTeal($class: $default)
-// @include placeholderColorYellow($class: $default)
+@include placeholderColorAmber($class: $default)
+@include placeholderColorBlack($class: $default)
+@include placeholderColorBlue($class: $default)
+@include placeholderColorCharcoal($class: $default)
+@include placeholderColorGray($class: $default)
+@include placeholderColorGreen($class: $default)
+@include placeholderColorIndigo($class: $default)
+@include placeholderColorKhaki($class: $default)
+@include placeholderColorNero($class: $default)
+@include placeholderColorOrange($class: $default)
+@include placeholderColorPink($class: $default)
+@include placeholderColorPurple($class: $default)
+@include placeholderColorRed($class: $default)
+@include placeholderColorTeal($class: $default)
+@include placeholderColorYellow($class: $default)
 
 @include textColorAmber($class: $default)
 @include textColorBlack($class: $default)

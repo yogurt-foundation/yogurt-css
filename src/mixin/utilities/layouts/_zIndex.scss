@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $z-index {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "z-",
       $modifier: $modifier,
-      $property: "z-index",
-      $value: $value#{$override}
+      $property1: "z-index",
+      $value1: $value#{$override}
     )
   }
 }

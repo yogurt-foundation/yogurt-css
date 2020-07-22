@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $text-align {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "text-",
       $modifier: $modifier,
-      $property: "text-align",
-      $value: $value#{$override}
+      $property1: "text-align",
+      $value1: $value#{$override}
     )
   }
 }

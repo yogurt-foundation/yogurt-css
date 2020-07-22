@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $transition-duration {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "duration-",
       $modifier: $modifier,
-      $property: "transition-duration",
-      $value: $value#{$override}
+      $property1: "transition-duration",
+      $value1: $value#{$override}
     )
   }
 }

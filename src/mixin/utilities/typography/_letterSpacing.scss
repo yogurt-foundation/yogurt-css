@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $letter-spacing {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "gap-",
       $modifier: $modifier,
-      $property: "letter-spacing",
-      $value: $value#{$override}
+      $property1: "letter-spacing",
+      $value1: $value#{$override}
     )
   }
 }

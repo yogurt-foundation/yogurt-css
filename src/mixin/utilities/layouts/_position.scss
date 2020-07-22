@@ -10,13 +10,13 @@
   $class: null
   ) {
   @each $modifier, $value in $position {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $modifier: $modifier,
-      $property: "position",
-      $value: $value#{$override}
+      $property1: "position",
+      $value1: $value#{$override}
     )
   }
 }

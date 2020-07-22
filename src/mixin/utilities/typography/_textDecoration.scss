@@ -9,6 +9,7 @@
   $pseudo: null,
   $class: null
   ) {
+  // (static)
   #{$prefix}#{$class}#{$id}underline#{$pseudo} {
     text-decoration: underline#{$override}
   }

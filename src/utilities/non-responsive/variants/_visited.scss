@@ -5,30 +5,247 @@
 
 /* accessibility */
 
+// @include screenReader($prefix: $variant-visited, $pseudo: $visited)
+
 /* backgrounds */
+
+@include backgroundColorAmber($prefix: $variant-visited, $pseudo: $visited)
+@include backgroundColorBlack($prefix: $variant-visited, $pseudo: $visited)
+@include backgroundColorBlue($prefix: $variant-visited, $pseudo: $visited)
+@include backgroundColorCharcoal($prefix: $variant-visited, $pseudo: $visited)
+@include backgroundColorGray($prefix: $variant-visited, $pseudo: $visited)
+@include backgroundColorGreen($prefix: $variant-visited, $pseudo: $visited)
+@include backgroundColorIndigo($prefix: $variant-visited, $pseudo: $visited)
+@include backgroundColorKhaki($prefix: $variant-visited, $pseudo: $visited)
+@include backgroundColorNero($prefix: $variant-visited, $pseudo: $visited)
+@include backgroundColorOrange($prefix: $variant-visited, $pseudo: $visited)
+@include backgroundColorPink($prefix: $variant-visited, $pseudo: $visited)
+@include backgroundColorPurple($prefix: $variant-visited, $pseudo: $visited)
+@include backgroundColorRed($prefix: $variant-visited, $pseudo: $visited)
+@include backgroundColorSpecial($prefix: $variant-visited, $pseudo: $visited)
+@include backgroundColorTeal($prefix: $variant-visited, $pseudo: $visited)
+@include backgroundColorYellow($prefix: $variant-visited, $pseudo: $visited)
+
+// @include backgroundAttachment($prefix: $variant-visited, $pseudo: $visited)
+// @include backgroundPosition($prefix: $variant-visited, $pseudo: $visited)
+// @include backgroundRepeat($prefix: $variant-visited, $pseudo: $visited)
+// @include backgroundSize($prefix: $variant-visited, $pseudo: $visited)
+// @include backgroundOpacity($prefix: $variant-visited, $pseudo: $visited)
 
 /* borders */
 
+// @include borderColorAmber($prefix: $variant-visited, $pseudo: $visited)
+// @include borderColorBlack($prefix: $variant-visited, $pseudo: $visited)
+// @include borderColorBlue($prefix: $variant-visited, $pseudo: $visited)
+// @include borderColorCharcoal($prefix: $variant-visited, $pseudo: $visited)
+// @include borderColorGray($prefix: $variant-visited, $pseudo: $visited)
+// @include borderColorGreen($prefix: $variant-visited, $pseudo: $visited)
+// @include borderColorIndigo($prefix: $variant-visited, $pseudo: $visited)
+// @include borderColorKhaki($prefix: $variant-visited, $pseudo: $visited)
+// @include borderColorNero($prefix: $variant-visited, $pseudo: $visited)
+// @include borderColorOrange($prefix: $variant-visited, $pseudo: $visited)
+// @include borderColorPink($prefix: $variant-visited, $pseudo: $visited)
+// @include borderColorPurple($prefix: $variant-visited, $pseudo: $visited)
+// @include borderColorRed($prefix: $variant-visited, $pseudo: $visited)
+// @include borderColorSpecial($prefix: $variant-visited, $pseudo: $visited)
+// @include borderColorTeal($prefix: $variant-visited, $pseudo: $visited)
+// @include borderColorYellow($prefix: $variant-visited, $pseudo: $visited)
+
+// @include borderRadius($prefix: $variant-visited, $pseudo: $visited)
+// @include borderStyle($prefix: $variant-visited, $pseudo: $visited)
+// @include borderWidth($prefix: $variant-visited, $pseudo: $visited)
+// @include borderDissect($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
+
+// (v1.0.8)
+// @include dissectColorAmber($prefix: $variant-visited, $pseudo: $visited)
+// @include dissectColorBlack($prefix: $variant-visited, $pseudo: $visited)
+// @include dissectColorBlue($prefix: $variant-visited, $pseudo: $visited)
+// @include dissectColorCharcoal($prefix: $variant-visited, $pseudo: $visited)
+// @include dissectColorGray($prefix: $variant-visited, $pseudo: $visited)
+// @include dissectColorGreen($prefix: $variant-visited, $pseudo: $visited)
+// @include dissectColorIndigo($prefix: $variant-visited, $pseudo: $visited)
+// @include dissectColorKhaki($prefix: $variant-visited, $pseudo: $visited)
+// @include dissectColorNero($prefix: $variant-visited, $pseudo: $visited)
+// @include dissectColorOrange($prefix: $variant-visited, $pseudo: $visited)
+// @include dissectColorPink($prefix: $variant-visited, $pseudo: $visited)
+// @include dissectColorPurple($prefix: $variant-visited, $pseudo: $visited)
+// @include dissectColorRed($prefix: $variant-visited, $pseudo: $visited)
+// @include dissectColorTeal($prefix: $variant-visited, $pseudo: $visited)
+// @include dissectColorYellow($prefix: $variant-visited, $pseudo: $visited)
+
+// @include borderDissectOpacity($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
+
 /* effects */
+
+// (optional)
+// @include shadowColorAmber($prefix: $variant-visited, $pseudo: $visited)
+// @include shadowColorBlack($prefix: $variant-visited, $pseudo: $visited)
+// @include shadowColorBlue($prefix: $variant-visited, $pseudo: $visited)
+// @include shadowColorCharcoal($prefix: $variant-visited, $pseudo: $visited)
+// @include shadowColorGray($prefix: $variant-visited, $pseudo: $visited)
+// @include shadowColorGreen($prefix: $variant-visited, $pseudo: $visited)
+// @include shadowColorIndigo($prefix: $variant-visited, $pseudo: $visited)
+// @include shadowColorKhaki($prefix: $variant-visited, $pseudo: $visited)
+// @include shadowColorNero($prefix: $variant-visited, $pseudo: $visited)
+// @include shadowColorOrange($prefix: $variant-visited, $pseudo: $visited)
+// @include shadowColorPink($prefix: $variant-visited, $pseudo: $visited)
+// @include shadowColorPurple($prefix: $variant-visited, $pseudo: $visited)
+// @include shadowColorRed($prefix: $variant-visited, $pseudo: $visited)
+// @include shadowColorTeal($prefix: $variant-visited, $pseudo: $visited)
+// @include shadowColorYellow($prefix: $variant-visited, $pseudo: $visited)
+
+// @include boxShadow($prefix: $variant-visited, $pseudo: $visited)
+// @include opacity($prefix: $variant-visited, $pseudo: $visited)
+// @include mixBlend($prefix: $variant-visited, $pseudo: $visited) // (v1.0.4)
+// @include backgroundBlend($prefix: $variant-visited, $pseudo: $visited) // (v1.0.4)
+// @include gradient($prefix: $variant-visited, $pseudo: $visited) // (1.0.8)
 
 /* filters */
 
+// (optional)
+// @include filterBlur($prefix: $variant-visited, $pseudo: $visited) // (v1.0.3)
+// @include filterCompose($prefix: $variant-visited, $pseudo: $visited) // (v1.0.2)
+// @include filterInvert($prefix: $variant-visited, $pseudo: $visited) // (v1.0.3)
+
 /* flexbox */
+
+// @include alignContent($prefix: $variant-visited, $pseudo: $visited)
+// @include alignItems($prefix: $variant-visited, $pseudo: $visited)
+// @include alignSelf($prefix: $variant-visited, $pseudo: $visited)
+// @include flex($prefix: $variant-visited, $pseudo: $visited)
+// @include flexDirection($prefix: $variant-visited, $pseudo: $visited)
+// @include flexGrow($prefix: $variant-visited, $pseudo: $visited)
+// @include flexShrink($prefix: $variant-visited, $pseudo: $visited)
+// @include flexWrap($prefix: $variant-visited, $pseudo: $visited)
+// @include justifyContent($prefix: $variant-visited, $pseudo: $visited)
+// @include order($prefix: $variant-visited, $pseudo: $visited)
 
 /* interactivity */
 
+// @include appearance($prefix: $variant-visited, $pseudo: $visited)
+// @include cursor($prefix: $variant-visited, $pseudo: $visited)
+// @include outline($prefix: $variant-visited, $pseudo: $visited)
+// @include pointerEvents($prefix: $variant-visited, $pseudo: $visited)
+// @include resize($prefix: $variant-visited, $pseudo: $visited)
+// @include userSelect($prefix: $variant-visited, $pseudo: $visited)
+
 /* layouts */
+
+// @include boxSizing($prefix: $variant-visited, $pseudo: $visited)
+// @include clear($prefix: $variant-visited, $pseudo: $visited)
+// @include containerDefault($prefix: $variant-visited, $pseudo: $visited)
+// @include display($prefix: $variant-visited, $pseudo: $visited)
+// @include float($prefix: $variant-visited, $pseudo: $visited)
+// @include inset($prefix: $variant-visited, $pseudo: $visited)
+// @include insetTBLR($prefix: $variant-visited, $pseudo: $visited)
+// @include objectFit($prefix: $variant-visited, $pseudo: $visited)
+// @include objectPosition($prefix: $variant-visited, $pseudo: $visited)
+// @include overflow($prefix: $variant-visited, $pseudo: $visited)
+// @include overflow-xy($prefix: $variant-visited, $pseudo: $visited)
+// @include overflow-scrolling($prefix: $variant-visited, $pseudo: $visited)
+// @include position($prefix: $variant-visited, $pseudo: $visited)
+// @include visibility($prefix: $variant-visited, $pseudo: $visited)
+// @include zIndex($prefix: $variant-visited, $pseudo: $visited)
 
 /* sizing */
 
+// @include height($prefix: $variant-visited, $pseudo: $visited)
+// @include maxHeight($prefix: $variant-visited, $pseudo: $visited)
+// @include maxWidth($prefix: $variant-visited, $pseudo: $visited)
+// @include minHeight($prefix: $variant-visited, $pseudo: $visited)
+// @include minWidth($prefix: $variant-visited, $pseudo: $visited)
+// @include width($prefix: $variant-visited, $pseudo: $visited)
+
 /* spacing */
+
+// @include margin($prefix: $variant-visited, $pseudo: $visited)
+// @include margin($negative: $true, $prefix: $variant-visited, $pseudo: $visited) // negative
+
+// @include padding($prefix: $variant-visited, $pseudo: $visited)
+
+// @include equal($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
+// @include equal($negative: $true, $prefix: $variant-visited, $pseudo: $visited) // negative, (v1.0.8)
 
 /* svg */
 
+// @include fill($prefix: $variant-visited, $pseudo: $visited)
+// @include stroke($prefix: $variant-visited, $pseudo: $visited)
+// @include strokeWidth($prefix: $variant-visited, $pseudo: $visited)
+
 /* tables */
+
+// @include borderCollapse($prefix: $variant-visited, $pseudo: $visited)
+// @include tableLayout($prefix: $variant-visited, $pseudo: $visited)
 
 /* transforms */
 
+// @include transform($prefix: $variant-visited, $pseudo: $visited)
+// @include transformOrigin($prefix: $variant-visited, $pseudo: $visited)
+
+// @include rotate($prefix: $variant-visited, $pseudo: $visited)
+// @include rotate($prefix: $variant-visited, $pseudo: $visited, $negative: $true) // negative
+
+// @include scale($prefix: $variant-visited, $pseudo: $visited)
+
+// @include skew($prefix: $variant-visited, $pseudo: $visited)
+// @include skew($prefix: $variant-visited, $pseudo: $visited, $negative: $true) // negative
+
+// @include translate($prefix: $variant-visited, $pseudo: $visited)
+// @include translate($prefix: $variant-visited, $pseudo: $visited, $negative: $true) // negative
+
 /* transitions */
 
+// @include transitionDuration($prefix: $variant-visited, $pseudo: $visited)
+// @include transitionProperty($prefix: $variant-visited, $pseudo: $visited)
+// @include transitionTiming($prefix: $variant-visited, $pseudo: $visited)
+
 /* typography */
+
+// @include placeholderColorAmber($prefix: $variant-visited, $pseudo: $visited)
+// @include placeholderColorBlack($prefix: $variant-visited, $pseudo: $visited)
+// @include placeholderColorBlue($prefix: $variant-visited, $pseudo: $visited)
+// @include placeholderColorCharcoal($prefix: $variant-visited, $pseudo: $visited)
+// @include placeholderColorGray($prefix: $variant-visited, $pseudo: $visited)
+// @include placeholderColorGreen($prefix: $variant-visited, $pseudo: $visited)
+// @include placeholderColorIndigo($prefix: $variant-visited, $pseudo: $visited)
+// @include placeholderColorKhaki($prefix: $variant-visited, $pseudo: $visited)
+// @include placeholderColorNero($prefix: $variant-visited, $pseudo: $visited)
+// @include placeholderColorOrange($prefix: $variant-visited, $pseudo: $visited)
+// @include placeholderColorPink($prefix: $variant-visited, $pseudo: $visited)
+// @include placeholderColorPurple($prefix: $variant-visited, $pseudo: $visited)
+// @include placeholderColorRed($prefix: $variant-visited, $pseudo: $visited)
+// @include placeholderColorTeal($prefix: $variant-visited, $pseudo: $visited)
+// @include placeholderColorYellow($prefix: $variant-visited, $pseudo: $visited)
+
+@include textColorAmber($prefix: $variant-visited, $pseudo: $visited)
+@include textColorBlack($prefix: $variant-visited, $pseudo: $visited)
+@include textColorBlue($prefix: $variant-visited, $pseudo: $visited)
+@include textColorCharcoal($prefix: $variant-visited, $pseudo: $visited)
+@include textColorGray($prefix: $variant-visited, $pseudo: $visited)
+@include textColorGreen($prefix: $variant-visited, $pseudo: $visited)
+@include textColorIndigo($prefix: $variant-visited, $pseudo: $visited)
+@include textColorKhaki($prefix: $variant-visited, $pseudo: $visited)
+@include textColorNero($prefix: $variant-visited, $pseudo: $visited)
+@include textColorOrange($prefix: $variant-visited, $pseudo: $visited)
+@include textColorPink($prefix: $variant-visited, $pseudo: $visited)
+@include textColorPurple($prefix: $variant-visited, $pseudo: $visited)
+@include textColorRed($prefix: $variant-visited, $pseudo: $visited)
+@include textColorSpecial($prefix: $variant-visited, $pseudo: $visited)
+@include textColorTeal($prefix: $variant-visited, $pseudo: $visited)
+@include textColorYellow($prefix: $variant-visited, $pseudo: $visited)
+
+// @include fontFamily($prefix: $variant-visited, $pseudo: $visited)
+// @include fontSize($prefix: $variant-visited, $pseudo: $visited)
+// @include fontSmoothing($prefix: $variant-visited, $pseudo: $visited)
+// @include fontStyle($prefix: $variant-visited, $pseudo: $visited)
+// @include fontWeight($prefix: $variant-visited, $pseudo: $visited)
+// @include letterSpacing($prefix: $variant-visited, $pseudo: $visited)
+// @include lineHeight($prefix: $variant-visited, $pseudo: $visited)
+// @include listStylePosition($prefix: $variant-visited, $pseudo: $visited)
+// @include listStyleType($prefix: $variant-visited, $pseudo: $visited)
+// @include textAlign($prefix: $variant-visited, $pseudo: $visited)
+// @include textDecoration($prefix: $variant-visited, $pseudo: $visited)
+// @include textTransform($prefix: $variant-visited, $pseudo: $visited)
+// @include verticalAlign($prefix: $variant-visited, $pseudo: $visited)
+// @include whitespace($prefix: $variant-visited, $pseudo: $visited)
+// @include wordBreak($prefix: $variant-visited, $pseudo: $visited)

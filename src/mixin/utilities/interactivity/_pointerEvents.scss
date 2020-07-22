@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $pointer-events {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "pointer-events-",
       $modifier: $modifier,
-      $property: "pointer-events",
-      $value: $value#{$override}
+      $property1: "pointer-events",
+      $value1: $value#{$override}
     )
   }
 }

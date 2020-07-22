@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $stroke-width {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "stroke-",
       $modifier: $modifier,
-      $property: "stroke-width",
-      $value: $value#{$override}
+      $property1: "stroke-width",
+      $value1: $value#{$override}
     )
   }
 }

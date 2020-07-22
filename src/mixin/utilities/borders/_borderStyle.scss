@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $border-style {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "border-",
       $modifier: $modifier,
-      $property: "border-style",
-      $value: $value#{$override}
+      $property1: "border-style",
+      $value1: $value#{$override}
     )
   }
 }

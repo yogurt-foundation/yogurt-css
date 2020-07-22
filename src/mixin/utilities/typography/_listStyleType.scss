@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $list-style-type {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "list-",
       $modifier: $modifier,
-      $property: "list-style-type",
-      $value: $value#{$override}
+      $property1: "list-style-type",
+      $value1: $value#{$override}
     )
   }
 }

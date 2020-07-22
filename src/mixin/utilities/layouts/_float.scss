@@ -9,20 +9,21 @@
   $pseudo: null,
   $class: null
   ) {
+  // (static)
   #{$prefix}#{$class}#{$id}clearfix:after {
     content: ""#{$override};
     display: table#{$override};
     clear: both#{$override}
   }
   @each $modifier, $value in $float {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "float-",
       $modifier: $modifier,
-      $property: "float",
-      $value: $value#{$override}
+      $property1: "float",
+      $value1: $value#{$override}
     )
   }
 }

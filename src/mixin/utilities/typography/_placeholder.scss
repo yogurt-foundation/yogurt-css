@@ -5,6 +5,7 @@
  */
 
 @mixin placeholder() {
+  // (static)
   .#{$id}placeholder-transparent:-ms-input-placeholder {
     color: transparent
   }

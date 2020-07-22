@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $font-family {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "font-",
       $modifier: $modifier,
-      $property: "font-family",
-      $value: $value#{$override}
+      $property1: "font-family",
+      $value1: $value#{$override}
     )
   }
 }

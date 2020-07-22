@@ -9,13 +9,13 @@
   $pseudo: null,
   $class: null
   ) {
-  @include setRuleSingle(
+  @include setRule(
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
     $selector: "appearance-none",
-    $property: "appearance",
-    $value: "none#{$override}"
+    $property1: "appearance",
+    $value1: "none#{$override}"
   )
 }
 

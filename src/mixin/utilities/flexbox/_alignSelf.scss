@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $align-self {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "self-",
       $modifier: $modifier,
-      $property: "align-self",
-      $value: $value#{$override}
+      $property1: "align-self",
+      $value1: $value#{$override}
     )
   }
 }

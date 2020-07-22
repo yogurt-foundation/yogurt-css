@@ -1,0 +1,28 @@
+/**
+ * @utility: borders
+ * @module: dissectColor/_green.scss
+ * @desc: set color for bottom border for each child elements
+ */
+
+@mixin dissectColorGreen(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $shade-modifier, $hex-modifier in $green {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "dissect-green-",
+      $modifier: $shade-modifier,
+      $option: "> :not(template) ~ :not(template)",
+      $property1: "--dissect-opacity",
+      $value1: "1",
+      $property2: "border-color",
+      $value2: "#{$hex-modifier}#{$override}",
+      $property3: "border-color",
+      $value3: rgba($hex-modifier, var(--dissect-opacity))#{$override}
+    )
+  }
+}

@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $filter-invert {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "invert-",
       $modifier: $modifier,
-      $property: "filter",
-      $value: "invert(#{$value})#{$override}"
+      $property1: "filter",
+      $value1: "invert(#{$value})#{$override}"
     )
   }
 }

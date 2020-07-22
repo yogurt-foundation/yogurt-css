@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $max-width {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "max-w-",
       $modifier: $modifier,
-      $property: "max-width",
-      $value: $value#{$override}
+      $property1: "max-width",
+      $value1: $value#{$override}
     )
   }
 }

@@ -9,59 +9,59 @@
   $pseudo: null,
   $class: null
   ) {
-  @include setRuleSingle(
+  @include setRule(
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
     $selector: "border",
-    $property: "border-width",
-    $value: "0.0625em#{$override}"
+    $property1: "border-width",
+    $value1: "0.0625em#{$override}"
   )
   @each $modifier, $value in $border-width {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "border-",
       $modifier: $modifier,
-      $property: "border-width",
-      $value: $value#{$override}
+      $property1: "border-width",
+      $value1: $value#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "border-t-",
       $modifier: $modifier,
-      $property: "border-top-width",
-      $value: $value#{$override}
+      $property1: "border-top-width",
+      $value1: $value#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "border-b-",
       $modifier: $modifier,
-      $property: "border-bottom-width",
-      $value: $value#{$override}
+      $property1: "border-bottom-width",
+      $value1: $value#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "border-l-",
       $modifier: $modifier,
-      $property: "border-left-width",
-      $value: $value#{$override}
+      $property1: "border-left-width",
+      $value1: $value#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "border-r-",
       $modifier: $modifier,
-      $property: "border-right-width",
-      $value: $value#{$override}
+      $property1: "border-right-width",
+      $value1: $value#{$override}
     )
   }
 }

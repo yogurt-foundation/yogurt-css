@@ -9,13 +9,13 @@
   $pseudo: null,
   $class: null
   ) {
-  @include setRuleSingle(
+  @include setRule(
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
     $selector: "stroke-current",
-    $property: "stroke",
-    $value: "currentColor#{$override}"
+    $property1: "stroke",
+    $value1: "currentColor#{$override}"
   )
 }
 

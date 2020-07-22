@@ -9,6 +9,7 @@
   $pseudo: null,
   $class: null
   ) {
+  // (static)
   #{$prefix}#{$class}#{$id}transform#{$pseudo} {
     --transform-translate-x: 0;
     --transform-translate-y: 0;

@@ -90,6 +90,17 @@ $special-colors:
   (transparent, transparent),
   (current, currentColor);
 
+$amber:
+  (100, #fff9e6),
+  (200, #fff0bf),
+  (300, #ffe799),
+  (400, #ffd54d),
+  (500, #ffc300),
+  (600, #e6b000),
+  (700, #997500),
+  (800, #735800),
+  (900, #4d3b00);
+
 $black:
   (100, #b9b9b9),
   (200, #a2a2a2),
@@ -100,6 +111,17 @@ $black:
   (700, #2e2e2e),
   (800, #171717),
   (900, #000000);
+
+$blue:
+  (100, #ebf8ff),
+  (200, #bee3f8),
+  (300, #90cdf4),
+  (400, #63b3ed),
+  (500, #4299e1),
+  (600, #3182ce),
+  (700, #2b6cb0),
+  (800, #2c5282),
+  (900, #2a4365);
 
 $charcoal:
   (100, #222c35),
@@ -123,39 +145,6 @@ $gray:
   (800, #2d3748),
   (900, #1a202c);
 
-$red:
-  (100, #fff5f5),
-  (200, #fed7d7),
-  (300, #feb2b2),
-  (400, #fc8181),
-  (500, #f56565),
-  (600, #e53e3e),
-  (700, #c53030),
-  (800, #9b2c2c),
-  (900, #742a2a);
-
-$orange:
-  (100, #fffaf0),
-  (200, #feebc8),
-  (300, #fbd38d),
-  (400, #f6ad55),
-  (500, #ed8936),
-  (600, #dd6b20),
-  (700, #c05621),
-  (800, #9c4221),
-  (900, #7b341e);
-
-$yellow:
-  (100, #fffff0),
-  (200, #fefcbf),
-  (300, #faf089),
-  (400, #f6e05e),
-  (500, #ecc94b),
-  (600, #d69e2e),
-  (700, #b7791f),
-  (800, #975a16),
-  (900, #744210);
-
 $green:
   (100, #f0fff4),
   (200, #c6f6d5),
@@ -166,28 +155,6 @@ $green:
   (700, #2f855a),
   (800, #276749),
   (900, #22543d);
-
-$teal:
-  (100, #e6fffa),
-  (200, #b2f5ea),
-  (300, #81e6d9),
-  (400, #4fd1c5),
-  (500, #38b2ac),
-  (600, #319795),
-  (700, #2c7a7b),
-  (800, #285e61),
-  (900, #234e52);
-
-$blue:
-  (100, #ebf8ff),
-  (200, #bee3f8),
-  (300, #90cdf4),
-  (400, #63b3ed),
-  (500, #4299e1),
-  (600, #3182ce),
-  (700, #2b6cb0),
-  (800, #2c5282),
-  (900, #2a4365);
 
 $indigo:
   (100, #ebf4ff),
@@ -200,16 +167,38 @@ $indigo:
   (800, #434190),
   (900, #3c366b);
 
-$purple:
-  (100, #faf5ff),
-  (200, #e9d8fd),
-  (300, #d6bcfa),
-  (400, #b794f4),
-  (500, #9f7aea),
-  (600, #805ad5),
-  (700, #6b46c1),
-  (800, #553c9a),
-  (900, #44337a);
+$khaki:
+  (100, #f9f7f4),
+  (200, #f0ebe4),
+  (300, #e7dfd3),
+  (400, #d5c8b2),
+  (500, #c3b091),
+  (600, #b09e83),
+  (700, #756a57),
+  (800, #584f41),
+  (900, #3b352c);
+
+$nero:
+  (100, #e9e9e9),
+  (200, #c7c8c9),
+  (300, #a6a7a8),
+  (400, #636466),
+  (500, #202225),
+  (600, #1d1f21),
+  (700, #131416),
+  (800, #0e0f11),
+  (900, #0a0a0b);
+
+$orange:
+  (100, #fffaf0),
+  (200, #feebc8),
+  (300, #fbd38d),
+  (400, #f6ad55),
+  (500, #ed8936),
+  (600, #dd6b20),
+  (700, #c05621),
+  (800, #9c4221),
+  (900, #7b341e);
 
 $pink:
   (100, #fff5f7),
@@ -222,38 +211,49 @@ $pink:
   (800, #97266d),
   (900, #702459);
 
-$khaki:
-  (100, #F9F7F4),
-  (200, #F0EBE4),
-  (300, #E7DFD3),
-  (400, #D5C8B2),
-  (500, #C3B091),
-  (600, #B09E83),
-  (700, #756A57),
-  (800, #584F41),
-  (900, #3B352C);
+$purple:
+  (100, #faf5ff),
+  (200, #e9d8fd),
+  (300, #d6bcfa),
+  (400, #b794f4),
+  (500, #9f7aea),
+  (600, #805ad5),
+  (700, #6b46c1),
+  (800, #553c9a),
+  (900, #44337a);
 
-$amber:
-  (100, #FFF9E6),
-  (200, #FFF0BF),
-  (300, #FFE799),
-  (400, #FFD54D),
-  (500, #FFC300),
-  (600, #E6B000),
-  (700, #997500),
-  (800, #735800),
-  (900, #4D3B00);
+$red:
+  (100, #fff5f5),
+  (200, #fed7d7),
+  (300, #feb2b2),
+  (400, #fc8181),
+  (500, #f56565),
+  (600, #e53e3e),
+  (700, #c53030),
+  (800, #9b2c2c),
+  (900, #742a2a);
 
-$nero:
-  (100, #E9E9E9),
-  (200, #C7C8C9),
-  (300, #A6A7A8),
-  (400, #636466),
-  (500, #202225),
-  (600, #1D1F21),
-  (700, #131416),
-  (800, #0E0F11),
-  (900, #0A0A0B);
+$teal:
+  (100, #e6fffa),
+  (200, #b2f5ea),
+  (300, #81e6d9),
+  (400, #4fd1c5),
+  (500, #38b2ac),
+  (600, #319795),
+  (700, #2c7a7b),
+  (800, #285e61),
+  (900, #234e52);
+
+$yellow:
+  (100, #fffff0),
+  (200, #fefcbf),
+  (300, #faf089),
+  (400, #f6e05e),
+  (500, #ecc94b),
+  (600, #d69e2e),
+  (700, #b7791f),
+  (800, #975a16),
+  (900, #744210);
 
 /* shadowColor */
 
@@ -338,6 +338,7 @@ $border-collapse:
 $border-radius:
   (none, 0),
   (sm, 0.125rem),
+  (md, 0.375rem),
   (lg, 0.5rem),
   (full, 9999px);
 
@@ -386,14 +387,20 @@ $cursor:
 
 $display:
   (block, block),
-  (inline-block, inline-block),
+  (hidden, none),
   (inline, inline),
+  (inline-block, inline-block),
   (flex, flex),
   (inline-flex, inline-flex),
   (table, table),
-  (table-row, table-row),
+  (table-caption, table-caption), // (v1.0.8)
   (table-cell, table-cell),
-  (hidden, none);
+  (table-row, table-row),
+  (table-row-group, table-row-group), // (v1.0.8)
+  (table-column, table-column), // (v1.0.8)
+  (table-column-group, table-column-group), // (1.0.8)
+  (table-header-group, table-header-group), // (1.0.8)
+  (table-footer-group, table-footer-group); // (1.0.8)
 
 /* flex */
 
@@ -962,3 +969,207 @@ $effect-blend:
   (hue, hue),
   (saturation, saturation),
   (luminosity, luminosity);
+
+/* effect (gradient) */
+
+$effect-gradient:
+  (warm-flame, (45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%)),
+  (night-fade, (to top, #a18cd1 0%, #fbc2eb 100%)),
+  (spring-warmth, (to top, #fad0c4 0%, #fad0c4 1%, #ffd1ff 100%)),
+  (juicy-pearch, (to right, #ffecd2 0%, #fcb69f 100%)),
+  (young-passion, (to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%)),
+  (lady-lips, (to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%)),
+  (sunny-morning, (120deg, #f6d365 0%, #fda085 100%)),
+  (rainy-ashville, (to top, #fbc2eb 0%, #a6c1ee 100%)),
+  (frozen-dreams, (to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%)),
+  (winter-neva, (120deg, #a1c4fd 0%, #c2e9fb 100%)),
+  (dusty-grass, (120deg, #d4fc79 0%, #96e6a1 100%)),
+  (tempting-azure, (120deg, #84fab0 0%, #8fd3f4 100%)),
+  (heavy-rain, (to top, #cfd9df 0%, #e2ebf0 100%)),
+  (amy-crisp, (120deg, #a6c0fe 0%, #f68084 100%)),
+  (mean-fruit, (120deg, #fccb90 0%, #d57eeb 100%)),
+  (deep-blue, (120deg, #e0c3fc 0%, #8ec5fc 100%)),
+  (ripe-malinka, (120deg, #f093fb 0%, #f5576c 100%)),
+  (cloudy-knoxville, (120deg, #fdfbfb 0%, #ebedee 100%)),
+  (malibu-beach, (to right, #4facfe 0%, #00f2fe 100%)),
+  (new-life, (to right, #43e97b 0%, #38f9d7 100%)),
+  (true-sunset, (to right, #fa709a 0%, #fee140 100%)),
+  (morpheus-den, (to top, #30cfd0 0%, #330867 100%)),
+  (rare-wind, (to top, #a8edea 0%, #fed6e3 100%)),
+  (near-moon, (to top, #5ee7df 0%, #b490ca 100%)),
+  (wild-apple, (to top, #d299c2 0%, #fef9d7 100%)),
+  (saint-petersburg, (135deg, #f5f7fa 0%, #c3cfe2 100%)),
+  (plum-plate, (135deg, #667eea 0%, #764ba2 100%)),
+  (everlasting-sky, (135deg, #fdfcfb 0%, #e2d1c3 100%)),
+  (happy-fisher, (120deg, #89f7fe 0%, #66a6ff 100%)),
+  (blessing, (to top, #fddb92 0%, #d1fdff 100%)),
+  (sharpeye-eagle, (to top, #9890e3 0%, #b1f4cf 100%)),
+  (ladoga-bottom, (to top, #ebc0fd 0%, #d9ded8 100%)),
+  (lemon-gate, (to top, #96fbc4 0%, #f9f586 100%)),
+  (hydrogen-ion, (180deg, #2af598 0%, #009efd 100%)),
+  (zeus-miracle, (to top, #cd9cf2 0%, #f6f3ff 100%)),
+  (old-hat, (to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%)),
+  (star-wine, (to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%)),
+  (deep-blue, (to right, #6a11cb 0%, #2575fc 100%)),
+  (happy-acid, (to top, #37ecba 0%, #72afd3 100%)),
+  (awesome-pine, (to top, #ebbba7 0%, #cfc7f8 100%)),
+  (new-york, (to top, #fff1eb 0%, #ace0f9 100%)),
+  (shy-rainbow, (to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%)),
+  (mixed-hopes, (to top, #c471f5 0%, #fa71cd 100%)),
+  (fly-high, (to top, #48c6ef 0%, #6f86d6 100%)),
+  (strong-bliss, (to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%)),
+  (fresh-milk, (to top, #feada6 0%, #f5efef 100%)),
+  (snow-again, (to top, #e6e9f0 0%, #eef1f5 100%)),
+  (february-ink, (to top, #accbee 0%, #e7f0fd 100%)),
+  (kind-steel, (-20deg, #e9defa 0%, #fbfcdb 100%)),
+  (soft-grass, (to top, #c1dfc4 0%, #deecdd 100%)),
+  (grown-early, (to top, #0ba360 0%, #3cba92 100%)),
+  (sharp-blues, (to top, #00c6fb 0%, #005bea 100%)),
+  (shady-water, (to right, #74ebd5 0%, #9face6 100%)),
+  (dirty-beauty, (to top, #6a85b6 0%, #bac8e0 100%)),
+  (great-whale, (to top, #a3bded 0%, #6991c7 100%)),
+  (teen-notebook, (to top, #9795f0 0%, #fbc8d4 100%)),
+  (polite-rumors, (to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%)),
+  (sweet-period, (to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%)),
+  (wide-matrix, (to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%)),
+  (soft-cherish, (to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%)),
+  (red-salvation, (to top, #f43b47 0%, #453a94 100%)),
+  (burning-spring, (to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%)),
+  (night-party, (to top, #0250c5 0%, #d43f8d 100%)),
+  (sky-glider, (to top, #88d3ce 0%, #6e45e2 100%)),
+  (heaven-peach, (to top, #d9afd9 0%, #97d9e1 100%)),
+  (purple-division, (to top, #7028e4 0%, #e5b2ca 100%)),
+  (aqua-splash, (15deg, #13547a 0%, #80d0c7 100%)),
+  (spiky-naga, (to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%)),
+  (love-kiss, (to top, #ff0844 0%, #ffb199 100%)),
+  (clean-mirror, (45deg, #93a5cf 0%, #e4efe9 100%)),
+  (premium-dark, (to right, #434343 0%, black 100%)),
+  (cold-evening, (to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%)),
+  (cochiti-lake, (45deg, #93a5cf 0%, #e4efe9 100%)),
+  (summer-games, (to right, #92fe9d 0%, #00c9ff 100%)),
+  (passionate-bed, (to right, #ff758c 0%, #ff7eb3 100%)),
+  (mountain-rock, (to right, #868f96 0%, #596164 100%)),
+  (desert-hump, (to top, #c79081 0%, #dfa579 100%)),
+  (jungle-day, (45deg, #8baaaa 0%, #ae8b9c 100%)),
+  (phoenix-start, (to right, #f83600 0%, #f9d423 100%)),
+  (october-silence, (-20deg, #b721ff 0%, #21d4fd 100%)),
+  (faraway-river, (-20deg, #6e45e2 0%, #88d3ce 100%)),
+  (alchemist-lab, (-20deg, #d558c8 0%, #24d292 100%)),
+  (over-sun, (60deg, #abecd6 0%, #fbed96 100%)),
+  (premium-white, (to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%)),
+  (mars-party, (to top, #5f72bd 0%, #9b23ea 100%)),
+  (eternal-constance, (to top, #09203f 0%, #537895 100%)),
+  (japan-blush, (-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%)),
+  (smiling-rain, (-20deg, #dcb0ed 0%, #99c99c 100%)),
+  (cloudy-apple, (to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%)),
+  (big-mango, (to top, #c71d6f 0%, #d09693 100%)),
+  (healthy-water, (60deg, #96deda 0%, #50c9c3 100%)),
+  (amour-amour, (to top, #f77062 0%, #fe5196 100%)),
+  (risky-concrete, (to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%)),
+  (strong-stick, (to right, #a8caba 0%, #5d4157 100%)),
+  (vicious-stance, (60deg, #29323c 0%, #485563 100%)),
+  (palo-alto, (-60deg, #16a085 0%, #f4d03f 100%)),
+  (happy-memories, (-60deg, #ff5858 0%, #f09819 100%)),
+  (midnight-bloom, (-20deg, #2b5876 0%, #4e4376 100%)),
+  (crystalline, (-20deg, #00cdac 0%, #8ddad5 100%)),
+  (party-bliss, (to top, #4481eb 0%, #04befe 100%)),
+  (confident-cloud, (to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%)),
+  (le-cocktail, (45deg, #874da2 0%, #c43a30 100%)),
+  (river-city, (to top, #4481eb 0%, #04befe 100%)),
+  (frozen-berry, (to top, #e8198b 0%, #c7eafd 100%)),
+  (child-care, (-20deg, #f794a4 0%, #fdd6bd 100%)),
+  (flying-lemon, (60deg, #64b3f4 0%, #c2e59c 100%)),
+  (new-retrowave, (to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%)),
+  (hidden-jaguar, (to top, #0fd850 0%, #f9f047 100%)),
+  (above-the-sky, (to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%)),
+  (nega, (45deg, #ee9ca7 0%, #ffdde1 100%)),
+  (dense-water, (to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%)),
+  (seashore, (to top, #209cff 0%, #68e0cf 100%)),
+  (marble-wall, (to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%)),
+  (cheerful-caramel, (to top, #e6b980 0%, #eacda3 100%)),
+  (night-sky, (to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%)),
+  (magic-lake, (to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%)),
+  (young-grass, (to top, #9be15d 0%, #00e3ae 100%)),
+  (colorful-peach, (to right, #ed6ea0 0%, #ec8c69 100%)),
+  (gentle-care, (to right, #ffc3a0 0%, #ffafbd 100%)),
+  (plum-bath, (to top, #cc208e 0%, #6713d2 100%)),
+  (happy-unicorn, (to top, #b3ffab 0%, #12fff7 100%)),
+  (african-field, (to top, #65bd60 0%, #5ac1a8 25%, #3ec6ed 50%, #b7ddb7 75%, #fef381 100%)),
+  (solid-stone, (to right, #243949 0%, #517fa4 100%)),
+  (orange-juice, (-20deg, #fc6076 0%, #ff9a44 100%)),
+  (glass-water, (to top, #dfe9f3 0%, white 100%)),
+  (north-miracle, (to right, #00dbde 0%, #fc00ff 100%)),
+  (fruit-blend, (to right, #f9d423 0%, #ff4e50 100%)),
+  (millennium-pine, (to top, #50cc7f 0%, #f5d100 100%)),
+  (high-flight, (to right, #0acffe 0%, #495aff 100%)),
+  (mole-hall, (-20deg, #616161 0%, #9bc5c3 100%)),
+  (space-shift, (60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)),
+  (forest-inei, (to top, #df89b5 0%, #bfd9fe 100%)),
+  (royal-garden, (to right, #ed6ea0 0%, #ec8c69 100%)),
+  (rich-metal, (to right, #d7d2cc 0%, #304352 100%)),
+  (juicy-cake, (to top, #e14fad 0%, #f9d423 100%)),
+  (smart-indigo, (to top, #b224ef 0%, #7579ff 100%)),
+  (sand-strike, (to right, #c1c161 0%, #c1c161 0%, #d4d4b1 100%)),
+  (norse-beauty, (to right, #ec77ab 0%, #7873f5 100%)),
+  (aqua-guidance, (to top, #007adf 0%, #00ecbc 100%)),
+  (sun-veggie, (-225deg, #20E2D7 0%, #F9FEA5 100%)),
+  (sea-lord, (-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%)),
+  (black-sea, (-225deg, #2CD8D5 0%, #6B8DD6 48%, #8E37D7 100%)),
+  (grass-shampoo, (-225deg, #DFFFCD 0%, #90F9C4 48%, #39F3BB 100%)),
+  (landing-aircraft, (-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%)),
+  (witch-dance, (-225deg, #A8BFFF 0%, #884D80 100%)),
+  (sleepless-night, (-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%)),
+  (angel-care, (-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%)),
+  (crystal-river, (-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%)),
+  (soft-lipstick, (-225deg, #B6CEE8 0%, #F578DC 100%)),
+  (salt-mountain, (-225deg, #FFFEFF 0%, #D7FFFE 100%)),
+  (perfect-white, (-225deg, #E3FDF5 0%, #FFE6FA 100%)),
+  (fresh-oasis, (-225deg, #7DE2FC 0%, #B9B6E5 100%)),
+  (strict-november, (-225deg, #CBBACC 0%, #2580B3 100%)),
+  (morning-salad, (-225deg, #B7F8DB 0%, #50A7C2 100%)),
+  (deep-relief, (-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%)),
+  (sea-strike, (-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%)),
+  (night-call, (-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%)),
+  (supreme-sky, (-225deg, #D4FFEC 0%, #57F2CC 48%, #4596FB 100%)),
+  (light-blue, (-225deg, #9EFBD3 0%, #57E9F2 48%, #45D4FB 100%)),
+  (mind-crawl, (-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%)),
+  (lily-meadow, (-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%)),
+  (sugar-lollipop, (-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%)),
+  (sweet-dessert, (-225deg, #7742B2 0%, #F180FF 52%, #FD8BD9 100%)),
+  (magic-ray, (-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%)),
+  (teen-party, (-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%)),
+  (frozen-heat, (-225deg, #FF057C 0%, #7C64D5 48%, #4CC3FF 100%)),
+  (gagarin-view, (-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%)),
+  (fabled-sunset, (-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%)),
+  (perfect-blue, (-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%));
+
+/* spacing equal */
+
+$spacing-equal:
+  (px, 1px),
+  (0, 0),
+  (1, 0.25rem),
+  (2, 0.5rem),
+  (3, 0.75rem),
+  (4, 1rem),
+  (5, 1.25rem),
+  (6, 1.5rem),
+  (8, 2rem),
+  (10, 2.5rem),
+  (12, 3rem),
+  (16, 4rem),
+  (20, 5rem),
+  (24, 6rem),
+  (32, 8rem),
+  (40, 10rem),
+  (48, 12rem),
+  (56, 14rem),
+  (64, 16rem);
+
+/* border dissect */
+
+$border-dissect:
+  (0, 0),
+  (2, 2px),
+  (4, 4px),
+  (8, 8px);

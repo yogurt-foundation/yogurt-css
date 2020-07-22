@@ -1,0 +1,62 @@
+/**
+ * @utility: equal
+ * @module: _equal.scss
+ * @desc: balancing the space in between the child elements
+ */
+
+@mixin equal(
+  $prefix: null,
+  $pseudo: null,
+  $class: null,
+  $negative: null
+  ) {
+  @each $modifier, $value in $spacing-equal {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "#{$negative}equal-x-",
+      $modifier: $modifier,
+      $option: "> :not(template) ~ :not(template)",
+      $property1: "--equal-x-reverse",
+      $value1: "0",
+      $property2: "margin-right",
+      $value2: "calc(#{$negative}#{$value} * var(--equal-x-reverse))#{$override}",
+      $property3: "margin-left",
+      $value3: "calc(#{$negative}#{$value} * calc(1 - var(--equal-x-reverse)))#{$override}"
+    )
+  }
+  @each $modifier, $value in $spacing-equal {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "#{$negative}equal-y-",
+      $modifier: $modifier,
+      $option: "> :not(template) ~ :not(template)",
+      $property1: "--equal-y-reverse",
+      $value1: "0",
+      $property2: "margin-top",
+      $value2: "calc(#{$negative}#{$value} * calc(1 - var(--equal-y-reverse)))#{$override}",
+      $property3: "margin-bottom",
+      $value3: "calc(#{$negative}#{$value} * var(--equal-y-reverse))#{$override}"
+    )
+  }
+  // (static)
+  @include setRule(
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "equal-x-reverse > :not(template) ~ :not(template)",
+    $property1: "--equal-x-reverse",
+    $value1: "1#{$override}"
+  )
+  @include setRule(
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "equal-y-reverse > :not(template) ~ :not(template)",
+    $property1: "--equal-y-reverse",
+    $value1: "1#{$override}"
+  )
+}

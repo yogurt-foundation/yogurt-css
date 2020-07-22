@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $table-layout {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "table-",
       $modifier: $modifier,
-      $property: "table-layout",
-      $value: $value#{$override}
+      $property1: "table-layout",
+      $value1: $value#{$override}
     )
   }
 }

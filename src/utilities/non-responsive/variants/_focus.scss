@@ -5,6 +5,8 @@
 
 /* accessibility */
 
+@include screenReader($prefix: $variant-focus, $pseudo: $focus)
+
 /* backgrounds */
 
 @include backgroundColorAmber($prefix: $variant-focus, $pseudo: $focus)
@@ -23,52 +25,244 @@
 @include backgroundColorTeal($prefix: $variant-focus, $pseudo: $focus)
 @include backgroundColorYellow($prefix: $variant-focus, $pseudo: $focus)
 
+// @include backgroundAttachment($prefix: $variant-focus, $pseudo: $focus)
+// @include backgroundPosition($prefix: $variant-focus, $pseudo: $focus)
+// @include backgroundRepeat($prefix: $variant-focus, $pseudo: $focus)
+// @include backgroundSize($prefix: $variant-focus, $pseudo: $focus)
+// @include backgroundOpacity($prefix: $variant-focus, $pseudo: $focus)
+
 /* borders */
+
+@include borderColorAmber($prefix: $variant-focus, $pseudo: $focus)
+@include borderColorBlack($prefix: $variant-focus, $pseudo: $focus)
+@include borderColorBlue($prefix: $variant-focus, $pseudo: $focus)
+@include borderColorCharcoal($prefix: $variant-focus, $pseudo: $focus)
+@include borderColorGray($prefix: $variant-focus, $pseudo: $focus)
+@include borderColorGreen($prefix: $variant-focus, $pseudo: $focus)
+@include borderColorIndigo($prefix: $variant-focus, $pseudo: $focus)
+@include borderColorKhaki($prefix: $variant-focus, $pseudo: $focus)
+@include borderColorNero($prefix: $variant-focus, $pseudo: $focus)
+@include borderColorOrange($prefix: $variant-focus, $pseudo: $focus)
+@include borderColorPink($prefix: $variant-focus, $pseudo: $focus)
+@include borderColorPurple($prefix: $variant-focus, $pseudo: $focus)
+@include borderColorRed($prefix: $variant-focus, $pseudo: $focus)
+@include borderColorSpecial($prefix: $variant-focus, $pseudo: $focus)
+@include borderColorTeal($prefix: $variant-focus, $pseudo: $focus)
+@include borderColorYellow($prefix: $variant-focus, $pseudo: $focus)
+
+// @include borderRadius($prefix: $variant-focus, $pseudo: $focus)
+@include borderStyle($prefix: $variant-focus, $pseudo: $focus)
+@include borderWidth($prefix: $variant-focus, $pseudo: $focus)
+// @include borderDissect($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
+
+// (v1.0.8)
+// @include dissectColorAmber($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorBlack($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorBlue($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorCharcoal($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorGray($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorGreen($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorIndigo($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorKhaki($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorNero($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorOrange($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorPink($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorPurple($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorRed($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorTeal($prefix: $variant-focus, $pseudo: $focus)
+// @include dissectColorYellow($prefix: $variant-focus, $pseudo: $focus)
+
+// @include borderDissectOpacity($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
 
 /* effects */
 
+// (optional)
+// @include shadowColorAmber($prefix: $variant-focus, $pseudo: $focus)
+// @include shadowColorBlack($prefix: $variant-focus, $pseudo: $focus)
+// @include shadowColorBlue($prefix: $variant-focus, $pseudo: $focus)
+// @include shadowColorCharcoal($prefix: $variant-focus, $pseudo: $focus)
+// @include shadowColorGray($prefix: $variant-focus, $pseudo: $focus)
+// @include shadowColorGreen($prefix: $variant-focus, $pseudo: $focus)
+// @include shadowColorIndigo($prefix: $variant-focus, $pseudo: $focus)
+// @include shadowColorKhaki($prefix: $variant-focus, $pseudo: $focus)
+// @include shadowColorNero($prefix: $variant-focus, $pseudo: $focus)
+// @include shadowColorOrange($prefix: $variant-focus, $pseudo: $focus)
+// @include shadowColorPink($prefix: $variant-focus, $pseudo: $focus)
+// @include shadowColorPurple($prefix: $variant-focus, $pseudo: $focus)
+// @include shadowColorRed($prefix: $variant-focus, $pseudo: $focus)
+// @include shadowColorTeal($prefix: $variant-focus, $pseudo: $focus)
+// @include shadowColorYellow($prefix: $variant-focus, $pseudo: $focus)
+
 @include boxShadow($prefix: $variant-focus, $pseudo: $focus)
+@include opacity($prefix: $variant-focus, $pseudo: $focus)
+// @include mixBlend($prefix: $variant-focus, $pseudo: $focus) // (v1.0.4)
+// @include backgroundBlend($prefix: $variant-focus, $pseudo: $focus) // (v1.0.4)
+// @include gradient($prefix: $variant-focus, $pseudo: $focus) // (1.0.8)
 
 /* filters */
 
+// (optional)
+// @include filterBlur($prefix: $variant-focus, $pseudo: $focus) // (v1.0.3)
+// @include filterCompose($prefix: $variant-focus, $pseudo: $focus) // (v1.0.2)
+// @include filterInvert($prefix: $variant-focus, $pseudo: $focus) // (v1.0.3)
+
 /* flexbox */
+
+// @include alignContent($prefix: $variant-focus, $pseudo: $focus)
+// @include alignItems($prefix: $variant-focus, $pseudo: $focus)
+// @include alignSelf($prefix: $variant-focus, $pseudo: $focus)
+// @include flex($prefix: $variant-focus, $pseudo: $focus)
+// @include flexDirection($prefix: $variant-focus, $pseudo: $focus)
+// @include flexGrow($prefix: $variant-focus, $pseudo: $focus)
+// @include flexShrink($prefix: $variant-focus, $pseudo: $focus)
+// @include flexWrap($prefix: $variant-focus, $pseudo: $focus)
+// @include justifyContent($prefix: $variant-focus, $pseudo: $focus)
+// @include order($prefix: $variant-focus, $pseudo: $focus)
 
 /* interactivity */
 
+// @include appearance($prefix: $variant-focus, $pseudo: $focus)
+// @include cursor($prefix: $variant-focus, $pseudo: $focus)
 @include outline($prefix: $variant-focus, $pseudo: $focus)
+// @include pointerEvents($prefix: $variant-focus, $pseudo: $focus)
+// @include resize($prefix: $variant-focus, $pseudo: $focus)
+// @include userSelect($prefix: $variant-focus, $pseudo: $focus)
 
 /* layouts */
 
+// @include boxSizing($prefix: $variant-focus, $pseudo: $focus)
+// @include clear($prefix: $variant-focus, $pseudo: $focus)
+// @include containerDefault($prefix: $variant-focus, $pseudo: $focus)
+// @include display($prefix: $variant-focus, $pseudo: $focus)
+// @include float($prefix: $variant-focus, $pseudo: $focus)
+// @include inset($prefix: $variant-focus, $pseudo: $focus)
+// @include insetTBLR($prefix: $variant-focus, $pseudo: $focus)
+// @include objectFit($prefix: $variant-focus, $pseudo: $focus)
+// @include objectPosition($prefix: $variant-focus, $pseudo: $focus)
+// @include overflow($prefix: $variant-focus, $pseudo: $focus)
+// @include overflow-xy($prefix: $variant-focus, $pseudo: $focus)
+// @include overflow-scrolling($prefix: $variant-focus, $pseudo: $focus)
+// @include position($prefix: $variant-focus, $pseudo: $focus)
+// @include visibility($prefix: $variant-focus, $pseudo: $focus)
+// @include zIndex($prefix: $variant-focus, $pseudo: $focus)
+
 /* sizing */
+
+// @include height($prefix: $variant-focus, $pseudo: $focus)
+// @include maxHeight($prefix: $variant-focus, $pseudo: $focus)
+// @include maxWidth($prefix: $variant-focus, $pseudo: $focus)
+// @include minHeight($prefix: $variant-focus, $pseudo: $focus)
+// @include minWidth($prefix: $variant-focus, $pseudo: $focus)
+// @include width($prefix: $variant-focus, $pseudo: $focus)
 
 /* spacing */
 
+// @include margin($prefix: $variant-focus, $pseudo: $focus)
+// @include margin($negative: $true, $prefix: $variant-focus, $pseudo: $focus) // negative
+
+// @include padding($prefix: $variant-focus, $pseudo: $focus)
+
+// @include equal($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
+// @include equal($negative: $true, $prefix: $variant-focus, $pseudo: $focus) // negative, (v1.0.8)
+
 /* svg */
+
+// @include fill($prefix: $variant-focus, $pseudo: $focus)
+// @include stroke($prefix: $variant-focus, $pseudo: $focus)
+// @include strokeWidth($prefix: $variant-focus, $pseudo: $focus)
 
 /* tables */
 
+// @include borderCollapse($prefix: $variant-focus, $pseudo: $focus)
+// @include tableLayout($prefix: $variant-focus, $pseudo: $focus)
+
 /* transforms */
+
+// @include transform($prefix: $variant-focus, $pseudo: $focus)
+// @include transformOrigin($prefix: $variant-focus, $pseudo: $focus)
+
+@include rotate($prefix: $variant-focus, $pseudo: $focus)
+@include rotate($prefix: $variant-focus, $pseudo: $focus, $negative: $true) // negative
+
+@include scale($prefix: $variant-focus, $pseudo: $focus)
+
+@include skew($prefix: $variant-focus, $pseudo: $focus)
+@include skew($prefix: $variant-focus, $pseudo: $focus, $negative: $true) // negative
+
+@include translate($prefix: $variant-focus, $pseudo: $focus)
+@include translate($prefix: $variant-focus, $pseudo: $focus, $negative: $true) // negative
 
 /* transitions */
 
+// @include transitionDuration($prefix: $variant-focus, $pseudo: $focus)
+// @include transitionProperty($prefix: $variant-focus, $pseudo: $focus)
+// @include transitionTiming($prefix: $variant-focus, $pseudo: $focus)
+
 /* typography */
 
-// (optional)
-// @include placeholderColorAmber($prefix: $variant-focus, $pseudo: $focus)
-// @include placeholderColorBlack($prefix: $variant-focus, $pseudo: $focus)
-// @include placeholderColorBlue($prefix: $variant-focus, $pseudo: $focus)
-// @include placeholderColorCharcoal($prefix: $variant-focus, $pseudo: $focus)
-// @include placeholderColorGray($prefix: $variant-focus, $pseudo: $focus)
-// @include placeholderColorGreen($prefix: $variant-focus, $pseudo: $focus)
-// @include placeholderColorIndigo($prefix: $variant-focus, $pseudo: $focus)
-// @include placeholderColorKhaki($prefix: $variant-focus, $pseudo: $focus)
-// @include placeholderColorNero($prefix: $variant-focus, $pseudo: $focus)
-// @include placeholderColorOrange($prefix: $variant-focus, $pseudo: $focus)
-// @include placeholderColorPink($prefix: $variant-focus, $pseudo: $focus)
-// @include placeholderColorPurple($prefix: $variant-focus, $pseudo: $focus)
-// @include placeholderColorRed($prefix: $variant-focus, $pseudo: $focus)
-// @include placeholderColorTeal($prefix: $variant-focus, $pseudo: $focus)
-// @include placeholderColorYellow($prefix: $variant-focus, $pseudo: $focus)
+@include placeholderColorAmber($prefix: $variant-focus, $pseudo: $focus)
+@include placeholderColorBlack($prefix: $variant-focus, $pseudo: $focus)
+@include placeholderColorBlue($prefix: $variant-focus, $pseudo: $focus)
+@include placeholderColorCharcoal($prefix: $variant-focus, $pseudo: $focus)
+@include placeholderColorGray($prefix: $variant-focus, $pseudo: $focus)
+@include placeholderColorGreen($prefix: $variant-focus, $pseudo: $focus)
+@include placeholderColorIndigo($prefix: $variant-focus, $pseudo: $focus)
+@include placeholderColorKhaki($prefix: $variant-focus, $pseudo: $focus)
+@include placeholderColorNero($prefix: $variant-focus, $pseudo: $focus)
+@include placeholderColorOrange($prefix: $variant-focus, $pseudo: $focus)
+@include placeholderColorPink($prefix: $variant-focus, $pseudo: $focus)
+@include placeholderColorPurple($prefix: $variant-focus, $pseudo: $focus)
+@include placeholderColorRed($prefix: $variant-focus, $pseudo: $focus)
+@include placeholderColorTeal($prefix: $variant-focus, $pseudo: $focus)
+@include placeholderColorYellow($prefix: $variant-focus, $pseudo: $focus)
 
+@include textColorAmber($prefix: $variant-focus, $pseudo: $focus)
+@include textColorBlack($prefix: $variant-focus, $pseudo: $focus)
+@include textColorBlue($prefix: $variant-focus, $pseudo: $focus)
+@include textColorCharcoal($prefix: $variant-focus, $pseudo: $focus)
+@include textColorGray($prefix: $variant-focus, $pseudo: $focus)
+@include textColorGreen($prefix: $variant-focus, $pseudo: $focus)
+@include textColorIndigo($prefix: $variant-focus, $pseudo: $focus)
+@include textColorKhaki($prefix: $variant-focus, $pseudo: $focus)
+@include textColorNero($prefix: $variant-focus, $pseudo: $focus)
+@include textColorOrange($prefix: $variant-focus, $pseudo: $focus)
+@include textColorPink($prefix: $variant-focus, $pseudo: $focus)
+@include textColorPurple($prefix: $variant-focus, $pseudo: $focus)
+@include textColorRed($prefix: $variant-focus, $pseudo: $focus)
+@include textColorSpecial($prefix: $variant-focus, $pseudo: $focus)
+@include textColorTeal($prefix: $variant-focus, $pseudo: $focus)
+@include textColorYellow($prefix: $variant-focus, $pseudo: $focus)
+
+// GROUP
+@include textColorAmber($prefix: $variant-group-focus)
+@include textColorBlack($prefix: $variant-group-focus)
+@include textColorBlue($prefix: $variant-group-focus)
+@include textColorCharcoal($prefix: $variant-group-focus)
+@include textColorGray($prefix: $variant-group-focus)
+@include textColorGreen($prefix: $variant-group-focus)
+@include textColorIndigo($prefix: $variant-group-focus)
+@include textColorKhaki($prefix: $variant-group-focus)
+@include textColorNero($prefix: $variant-group-focus)
+@include textColorOrange($prefix: $variant-group-focus)
+@include textColorPink($prefix: $variant-group-focus)
+@include textColorPurple($prefix: $variant-group-focus)
+@include textColorRed($prefix: $variant-group-focus)
+@include textColorSpecial($prefix: $variant-group-focus)
+@include textColorTeal($prefix: $variant-group-focus)
+@include textColorYellow($prefix: $variant-group-focus)
+
+// @include fontFamily($prefix: $variant-focus, $pseudo: $focus)
+// @include fontSize($prefix: $variant-focus, $pseudo: $focus)
+// @include fontSmoothing($prefix: $variant-focus, $pseudo: $focus)
+// @include fontStyle($prefix: $variant-focus, $pseudo: $focus)
 @include fontWeight($prefix: $variant-focus, $pseudo: $focus)
+// @include letterSpacing($prefix: $variant-focus, $pseudo: $focus)
+// @include lineHeight($prefix: $variant-focus, $pseudo: $focus)
+// @include listStylePosition($prefix: $variant-focus, $pseudo: $focus)
+// @include listStyleType($prefix: $variant-focus, $pseudo: $focus)
+// @include textAlign($prefix: $variant-focus, $pseudo: $focus)
 @include textDecoration($prefix: $variant-focus, $pseudo: $focus)
+// @include textTransform($prefix: $variant-focus, $pseudo: $focus)
+// @include verticalAlign($prefix: $variant-focus, $pseudo: $focus)
+// @include whitespace($prefix: $variant-focus, $pseudo: $focus)
+// @include wordBreak($prefix: $variant-focus, $pseudo: $focus)

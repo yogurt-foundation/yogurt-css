@@ -9,21 +9,21 @@
   $pseudo: null,
   $class: null
   ) {
-  @include setRuleSingle(
+  @include setRule(
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
     $selector: "visible",
-    $property: "visibility",
-    $value: "visible#{$override}"
+    $property1: "visibility",
+    $value1: "visible#{$override}"
   )
-  @include setRuleSingle(
+  @include setRule(
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
     $selector: "invisible",
-    $property: "visibility",
-    $value: "hidden#{$override}"
+    $property1: "visibility",
+    $value1: "hidden#{$override}"
   )
 }
 

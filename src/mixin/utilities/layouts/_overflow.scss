@@ -10,14 +10,14 @@
   $class: null
   ) {
   @each $modifier, $value in $overflow {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "overflow-",
       $modifier: $modifier,
-      $property: "overflow",
-      $value: $value#{$override}
+      $property1: "overflow",
+      $value1: $value#{$override}
     )
   }
 }
@@ -28,23 +28,23 @@
   $class: null
   ) {
   @each $modifier, $value in $overflow-xy {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "overflow-x-",
       $modifier: $modifier,
-      $property: "overflow-x",
-      $value: $value#{$override}
+      $property1: "overflow-x",
+      $value1: $value#{$override}
     )
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "overflow-y-",
       $modifier: $modifier,
-      $property: "overflow-y",
-      $value: $value#{$override}
+      $property1: "overflow-y",
+      $value1: $value#{$override}
     )
   }
 }
@@ -55,14 +55,14 @@
   $class: null
   ) {
   @each $modifier, $value in $overflow-scrolling {
-    @include setRuleSingle(
+    @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
       $selector: "scrolling-",
       $modifier: $modifier,
-      $property: "-webkit-overflow-scrolling",
-      $value: $value#{$override}
+      $property1: "-webkit-overflow-scrolling",
+      $value1: $value#{$override}
     )
   }
 }
