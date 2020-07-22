@@ -77,7 +77,9 @@ $disabled: ":disabled";
   $hex: null
   ) {
   #{$prefix}#{$class}#{$id}bg-#{$color}-#{$shade}#{$pseudo} {
-    background-color: #{$hex}#{$override}
+    --bg-opacity: 1;
+    background-color: #{$hex}#{$override};
+    background-color: rgba($hex, var(--bg-opacity))#{$override}
   }
 }
 

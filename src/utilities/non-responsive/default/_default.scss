@@ -30,6 +30,7 @@
 @include backgroundPosition($class: $default)
 @include backgroundRepeat($class: $default)
 @include backgroundSize($class: $default)
+@include backgroundOpacity($class: $default)
 
 /* borders */
 
