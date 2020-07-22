@@ -30,6 +30,7 @@
 @include backgroundPosition($prefix: $responsive-default)
 @include backgroundRepeat($prefix: $responsive-default)
 @include backgroundSize($prefix: $responsive-default)
+// @include backgroundOpacity($prefix: $responsive-default)
 
 /* borders */
 
