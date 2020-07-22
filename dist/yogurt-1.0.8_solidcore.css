@@ -770,11 +770,6 @@ y {
  * @desc: sets background color
  */
 /**
- * @utility: borderDissect
- * @module: _borderDissect.scss
- * @desc: divide each child elements with the bottom border
- */
-/**
  * @utility: borders
  * @module: _borderRadius.scss
  * @desc: sets border radius
@@ -788,6 +783,11 @@ y {
  * @utility: borders
  * @module: _borderWidth.scss
  * @desc: sets border width in increments of 1px
+ */
+/**
+ * @utility: borderDissect
+ * @module: _borderDissect.scss
+ * @desc: divide each child elements with the bottom border
  */
 /**
  * @utility: borderDissectOpacity
