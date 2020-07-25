@@ -1,0 +1,19 @@
+/**
+ * @utility: spacing
+ * @module: _fluidMargin.scss
+ * @desc: sets min and max margins for screen sizes.
+ */
+
+@mixin fluidMargin(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier1, $value1 in $fluid-spacing {
+    @each $modifier2, $value2 in $fluid-spacing {
+      .fluid.m-min-#{$modifier1}.m-max-#{$modifier2} {
+        @include fluid(margin, $minScreen, $maxScreen, $value1, $value2)
+      }
+    }
+  }
+}

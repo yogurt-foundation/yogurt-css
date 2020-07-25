@@ -130,3 +130,33 @@ $disabled: ":disabled";
     color: #{$hex}#{$override}
   }
 }
+
+/*
+  fluid
+  @param {$properties} css properties
+  @param {$min-vw} min viewport width
+  @param {$max-vw} max viewport width
+  @param {$min-value} min threshold value
+  @param {$max-value} max threshold value
+*/
+@mixin fluid($properties, $min-vw, $max-vw, $min-value, $max-value) {
+  & {
+    @each $property in $properties {
+      #{$property}: $min-value
+    }
+    @media screen and (min-width: $min-vw) {
+      @each $property in $properties {
+        #{$property}: calc(#{$min-value} + #{strip-unit($max-value - $min-value)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}))
+      }
+    }
+    @media screen and (min-width: $max-vw) {
+      @each $property in $properties {
+        #{$property}: $max-value
+      }
+    }
+  }
+}
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1)
+}
