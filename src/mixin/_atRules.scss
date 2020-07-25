@@ -139,7 +139,13 @@ $disabled: ":disabled";
   @param {$min-value} min threshold value
   @param {$max-value} max threshold value
 */
-@mixin fluid($properties, $min-vw, $max-vw, $min-value, $max-value) {
+@mixin fluid(
+  $properties, 
+  $min-vw, 
+  $max-vw, 
+  $min-value, 
+  $max-value
+  ) {
   & {
     @each $property in $properties {
       #{$property}: $min-value
