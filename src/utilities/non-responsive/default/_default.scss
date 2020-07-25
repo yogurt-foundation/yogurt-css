@@ -165,6 +165,7 @@
 @include equal($negative: $true, $class: $default) // negative, (v1.0.8)
 
 @include fluidMargin($class: $default) // (1.0.8)
+@include fluidPadding($class: $default) // (1.0.8)
 
 /* svg */
 

@@ -1,0 +1,19 @@
+/**
+ * @utility: spacing
+ * @module: _fluidPadding.scss
+ * @desc: sets min and max paddings for screen sizes.
+ */
+
+@mixin fluidPadding(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier1, $value1 in $fluid-spacing {
+    @each $modifier2, $value2 in $fluid-spacing {
+      .fluid.p-min-#{$modifier1}.p-max-#{$modifier2} {
+        @include fluid(padding, $minScreen, $maxScreen, $value1, $value2)
+      }
+    }
+  }
+}

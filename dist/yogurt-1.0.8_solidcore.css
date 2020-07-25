@@ -1260,6 +1260,11 @@ y {
  */
 /**
  * @utility: spacing
+ * @module: _fluidPadding.scss
+ * @desc: sets min and max paddings for screen sizes.
+ */
+/**
+ * @utility: spacing
  * @module: _margin.scss
  * @desc: controls margin (and negative margin) in 0.25rem increments
  */
@@ -21440,6 +21445,5190 @@ y {
 @media screen and (min-width: 50rem) {
   .fluid.m-min-64.m-max-64 {
     margin: 16rem;
+  }
+}
+
+.fluid.p-min-0.p-max-0 {
+  padding: 0;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-0.p-max-0 {
+    padding: calc(0 + 0 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-0.p-max-0 {
+    padding: 0;
+  }
+}
+
+.fluid.p-min-0.p-max-1 {
+  padding: 0;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-0.p-max-1 {
+    padding: calc(0 + 0.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-0.p-max-1 {
+    padding: 0.25rem;
+  }
+}
+
+.fluid.p-min-0.p-max-2 {
+  padding: 0;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-0.p-max-2 {
+    padding: calc(0 + 0.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-0.p-max-2 {
+    padding: 0.5rem;
+  }
+}
+
+.fluid.p-min-0.p-max-3 {
+  padding: 0;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-0.p-max-3 {
+    padding: calc(0 + 0.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-0.p-max-3 {
+    padding: 0.75rem;
+  }
+}
+
+.fluid.p-min-0.p-max-4 {
+  padding: 0;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-0.p-max-4 {
+    padding: calc(0 + 1 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-0.p-max-4 {
+    padding: 1rem;
+  }
+}
+
+.fluid.p-min-0.p-max-5 {
+  padding: 0;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-0.p-max-5 {
+    padding: calc(0 + 1.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-0.p-max-5 {
+    padding: 1.25rem;
+  }
+}
+
+.fluid.p-min-0.p-max-6 {
+  padding: 0;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-0.p-max-6 {
+    padding: calc(0 + 1.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-0.p-max-6 {
+    padding: 1.5rem;
+  }
+}
+
+.fluid.p-min-0.p-max-8 {
+  padding: 0;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-0.p-max-8 {
+    padding: calc(0 + 2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-0.p-max-8 {
+    padding: 2rem;
+  }
+}
+
+.fluid.p-min-0.p-max-10 {
+  padding: 0;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-0.p-max-10 {
+    padding: calc(0 + 2.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-0.p-max-10 {
+    padding: 2.5rem;
+  }
+}
+
+.fluid.p-min-0.p-max-12 {
+  padding: 0;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-0.p-max-12 {
+    padding: calc(0 + 3 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-0.p-max-12 {
+    padding: 3rem;
+  }
+}
+
+.fluid.p-min-0.p-max-16 {
+  padding: 0;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-0.p-max-16 {
+    padding: calc(0 + 4 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-0.p-max-16 {
+    padding: 4rem;
+  }
+}
+
+.fluid.p-min-0.p-max-20 {
+  padding: 0;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-0.p-max-20 {
+    padding: calc(0 + 5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-0.p-max-20 {
+    padding: 5rem;
+  }
+}
+
+.fluid.p-min-0.p-max-24 {
+  padding: 0;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-0.p-max-24 {
+    padding: calc(0 + 6 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-0.p-max-24 {
+    padding: 6rem;
+  }
+}
+
+.fluid.p-min-0.p-max-32 {
+  padding: 0;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-0.p-max-32 {
+    padding: calc(0 + 8 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-0.p-max-32 {
+    padding: 8rem;
+  }
+}
+
+.fluid.p-min-0.p-max-40 {
+  padding: 0;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-0.p-max-40 {
+    padding: calc(0 + 10 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-0.p-max-40 {
+    padding: 10rem;
+  }
+}
+
+.fluid.p-min-0.p-max-48 {
+  padding: 0;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-0.p-max-48 {
+    padding: calc(0 + 12 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-0.p-max-48 {
+    padding: 12rem;
+  }
+}
+
+.fluid.p-min-0.p-max-56 {
+  padding: 0;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-0.p-max-56 {
+    padding: calc(0 + 14 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-0.p-max-56 {
+    padding: 14rem;
+  }
+}
+
+.fluid.p-min-0.p-max-64 {
+  padding: 0;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-0.p-max-64 {
+    padding: calc(0 + 16 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-0.p-max-64 {
+    padding: 16rem;
+  }
+}
+
+.fluid.p-min-1.p-max-0 {
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-1.p-max-0 {
+    padding: calc(0.25rem + -0.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-1.p-max-0 {
+    padding: 0;
+  }
+}
+
+.fluid.p-min-1.p-max-1 {
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-1.p-max-1 {
+    padding: calc(0.25rem + 0 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-1.p-max-1 {
+    padding: 0.25rem;
+  }
+}
+
+.fluid.p-min-1.p-max-2 {
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-1.p-max-2 {
+    padding: calc(0.25rem + 0.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-1.p-max-2 {
+    padding: 0.5rem;
+  }
+}
+
+.fluid.p-min-1.p-max-3 {
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-1.p-max-3 {
+    padding: calc(0.25rem + 0.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-1.p-max-3 {
+    padding: 0.75rem;
+  }
+}
+
+.fluid.p-min-1.p-max-4 {
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-1.p-max-4 {
+    padding: calc(0.25rem + 0.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-1.p-max-4 {
+    padding: 1rem;
+  }
+}
+
+.fluid.p-min-1.p-max-5 {
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-1.p-max-5 {
+    padding: calc(0.25rem + 1 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-1.p-max-5 {
+    padding: 1.25rem;
+  }
+}
+
+.fluid.p-min-1.p-max-6 {
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-1.p-max-6 {
+    padding: calc(0.25rem + 1.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-1.p-max-6 {
+    padding: 1.5rem;
+  }
+}
+
+.fluid.p-min-1.p-max-8 {
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-1.p-max-8 {
+    padding: calc(0.25rem + 1.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-1.p-max-8 {
+    padding: 2rem;
+  }
+}
+
+.fluid.p-min-1.p-max-10 {
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-1.p-max-10 {
+    padding: calc(0.25rem + 2.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-1.p-max-10 {
+    padding: 2.5rem;
+  }
+}
+
+.fluid.p-min-1.p-max-12 {
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-1.p-max-12 {
+    padding: calc(0.25rem + 2.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-1.p-max-12 {
+    padding: 3rem;
+  }
+}
+
+.fluid.p-min-1.p-max-16 {
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-1.p-max-16 {
+    padding: calc(0.25rem + 3.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-1.p-max-16 {
+    padding: 4rem;
+  }
+}
+
+.fluid.p-min-1.p-max-20 {
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-1.p-max-20 {
+    padding: calc(0.25rem + 4.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-1.p-max-20 {
+    padding: 5rem;
+  }
+}
+
+.fluid.p-min-1.p-max-24 {
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-1.p-max-24 {
+    padding: calc(0.25rem + 5.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-1.p-max-24 {
+    padding: 6rem;
+  }
+}
+
+.fluid.p-min-1.p-max-32 {
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-1.p-max-32 {
+    padding: calc(0.25rem + 7.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-1.p-max-32 {
+    padding: 8rem;
+  }
+}
+
+.fluid.p-min-1.p-max-40 {
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-1.p-max-40 {
+    padding: calc(0.25rem + 9.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-1.p-max-40 {
+    padding: 10rem;
+  }
+}
+
+.fluid.p-min-1.p-max-48 {
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-1.p-max-48 {
+    padding: calc(0.25rem + 11.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-1.p-max-48 {
+    padding: 12rem;
+  }
+}
+
+.fluid.p-min-1.p-max-56 {
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-1.p-max-56 {
+    padding: calc(0.25rem + 13.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-1.p-max-56 {
+    padding: 14rem;
+  }
+}
+
+.fluid.p-min-1.p-max-64 {
+  padding: 0.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-1.p-max-64 {
+    padding: calc(0.25rem + 15.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-1.p-max-64 {
+    padding: 16rem;
+  }
+}
+
+.fluid.p-min-2.p-max-0 {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-2.p-max-0 {
+    padding: calc(0.5rem + -0.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-2.p-max-0 {
+    padding: 0;
+  }
+}
+
+.fluid.p-min-2.p-max-1 {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-2.p-max-1 {
+    padding: calc(0.5rem + -0.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-2.p-max-1 {
+    padding: 0.25rem;
+  }
+}
+
+.fluid.p-min-2.p-max-2 {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-2.p-max-2 {
+    padding: calc(0.5rem + 0 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-2.p-max-2 {
+    padding: 0.5rem;
+  }
+}
+
+.fluid.p-min-2.p-max-3 {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-2.p-max-3 {
+    padding: calc(0.5rem + 0.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-2.p-max-3 {
+    padding: 0.75rem;
+  }
+}
+
+.fluid.p-min-2.p-max-4 {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-2.p-max-4 {
+    padding: calc(0.5rem + 0.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-2.p-max-4 {
+    padding: 1rem;
+  }
+}
+
+.fluid.p-min-2.p-max-5 {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-2.p-max-5 {
+    padding: calc(0.5rem + 0.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-2.p-max-5 {
+    padding: 1.25rem;
+  }
+}
+
+.fluid.p-min-2.p-max-6 {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-2.p-max-6 {
+    padding: calc(0.5rem + 1 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-2.p-max-6 {
+    padding: 1.5rem;
+  }
+}
+
+.fluid.p-min-2.p-max-8 {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-2.p-max-8 {
+    padding: calc(0.5rem + 1.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-2.p-max-8 {
+    padding: 2rem;
+  }
+}
+
+.fluid.p-min-2.p-max-10 {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-2.p-max-10 {
+    padding: calc(0.5rem + 2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-2.p-max-10 {
+    padding: 2.5rem;
+  }
+}
+
+.fluid.p-min-2.p-max-12 {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-2.p-max-12 {
+    padding: calc(0.5rem + 2.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-2.p-max-12 {
+    padding: 3rem;
+  }
+}
+
+.fluid.p-min-2.p-max-16 {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-2.p-max-16 {
+    padding: calc(0.5rem + 3.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-2.p-max-16 {
+    padding: 4rem;
+  }
+}
+
+.fluid.p-min-2.p-max-20 {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-2.p-max-20 {
+    padding: calc(0.5rem + 4.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-2.p-max-20 {
+    padding: 5rem;
+  }
+}
+
+.fluid.p-min-2.p-max-24 {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-2.p-max-24 {
+    padding: calc(0.5rem + 5.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-2.p-max-24 {
+    padding: 6rem;
+  }
+}
+
+.fluid.p-min-2.p-max-32 {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-2.p-max-32 {
+    padding: calc(0.5rem + 7.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-2.p-max-32 {
+    padding: 8rem;
+  }
+}
+
+.fluid.p-min-2.p-max-40 {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-2.p-max-40 {
+    padding: calc(0.5rem + 9.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-2.p-max-40 {
+    padding: 10rem;
+  }
+}
+
+.fluid.p-min-2.p-max-48 {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-2.p-max-48 {
+    padding: calc(0.5rem + 11.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-2.p-max-48 {
+    padding: 12rem;
+  }
+}
+
+.fluid.p-min-2.p-max-56 {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-2.p-max-56 {
+    padding: calc(0.5rem + 13.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-2.p-max-56 {
+    padding: 14rem;
+  }
+}
+
+.fluid.p-min-2.p-max-64 {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-2.p-max-64 {
+    padding: calc(0.5rem + 15.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-2.p-max-64 {
+    padding: 16rem;
+  }
+}
+
+.fluid.p-min-3.p-max-0 {
+  padding: 0.75rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-3.p-max-0 {
+    padding: calc(0.75rem + -0.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-3.p-max-0 {
+    padding: 0;
+  }
+}
+
+.fluid.p-min-3.p-max-1 {
+  padding: 0.75rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-3.p-max-1 {
+    padding: calc(0.75rem + -0.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-3.p-max-1 {
+    padding: 0.25rem;
+  }
+}
+
+.fluid.p-min-3.p-max-2 {
+  padding: 0.75rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-3.p-max-2 {
+    padding: calc(0.75rem + -0.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-3.p-max-2 {
+    padding: 0.5rem;
+  }
+}
+
+.fluid.p-min-3.p-max-3 {
+  padding: 0.75rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-3.p-max-3 {
+    padding: calc(0.75rem + 0 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-3.p-max-3 {
+    padding: 0.75rem;
+  }
+}
+
+.fluid.p-min-3.p-max-4 {
+  padding: 0.75rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-3.p-max-4 {
+    padding: calc(0.75rem + 0.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-3.p-max-4 {
+    padding: 1rem;
+  }
+}
+
+.fluid.p-min-3.p-max-5 {
+  padding: 0.75rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-3.p-max-5 {
+    padding: calc(0.75rem + 0.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-3.p-max-5 {
+    padding: 1.25rem;
+  }
+}
+
+.fluid.p-min-3.p-max-6 {
+  padding: 0.75rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-3.p-max-6 {
+    padding: calc(0.75rem + 0.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-3.p-max-6 {
+    padding: 1.5rem;
+  }
+}
+
+.fluid.p-min-3.p-max-8 {
+  padding: 0.75rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-3.p-max-8 {
+    padding: calc(0.75rem + 1.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-3.p-max-8 {
+    padding: 2rem;
+  }
+}
+
+.fluid.p-min-3.p-max-10 {
+  padding: 0.75rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-3.p-max-10 {
+    padding: calc(0.75rem + 1.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-3.p-max-10 {
+    padding: 2.5rem;
+  }
+}
+
+.fluid.p-min-3.p-max-12 {
+  padding: 0.75rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-3.p-max-12 {
+    padding: calc(0.75rem + 2.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-3.p-max-12 {
+    padding: 3rem;
+  }
+}
+
+.fluid.p-min-3.p-max-16 {
+  padding: 0.75rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-3.p-max-16 {
+    padding: calc(0.75rem + 3.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-3.p-max-16 {
+    padding: 4rem;
+  }
+}
+
+.fluid.p-min-3.p-max-20 {
+  padding: 0.75rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-3.p-max-20 {
+    padding: calc(0.75rem + 4.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-3.p-max-20 {
+    padding: 5rem;
+  }
+}
+
+.fluid.p-min-3.p-max-24 {
+  padding: 0.75rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-3.p-max-24 {
+    padding: calc(0.75rem + 5.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-3.p-max-24 {
+    padding: 6rem;
+  }
+}
+
+.fluid.p-min-3.p-max-32 {
+  padding: 0.75rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-3.p-max-32 {
+    padding: calc(0.75rem + 7.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-3.p-max-32 {
+    padding: 8rem;
+  }
+}
+
+.fluid.p-min-3.p-max-40 {
+  padding: 0.75rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-3.p-max-40 {
+    padding: calc(0.75rem + 9.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-3.p-max-40 {
+    padding: 10rem;
+  }
+}
+
+.fluid.p-min-3.p-max-48 {
+  padding: 0.75rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-3.p-max-48 {
+    padding: calc(0.75rem + 11.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-3.p-max-48 {
+    padding: 12rem;
+  }
+}
+
+.fluid.p-min-3.p-max-56 {
+  padding: 0.75rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-3.p-max-56 {
+    padding: calc(0.75rem + 13.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-3.p-max-56 {
+    padding: 14rem;
+  }
+}
+
+.fluid.p-min-3.p-max-64 {
+  padding: 0.75rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-3.p-max-64 {
+    padding: calc(0.75rem + 15.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-3.p-max-64 {
+    padding: 16rem;
+  }
+}
+
+.fluid.p-min-4.p-max-0 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-4.p-max-0 {
+    padding: calc(1rem + -1 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-4.p-max-0 {
+    padding: 0;
+  }
+}
+
+.fluid.p-min-4.p-max-1 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-4.p-max-1 {
+    padding: calc(1rem + -0.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-4.p-max-1 {
+    padding: 0.25rem;
+  }
+}
+
+.fluid.p-min-4.p-max-2 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-4.p-max-2 {
+    padding: calc(1rem + -0.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-4.p-max-2 {
+    padding: 0.5rem;
+  }
+}
+
+.fluid.p-min-4.p-max-3 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-4.p-max-3 {
+    padding: calc(1rem + -0.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-4.p-max-3 {
+    padding: 0.75rem;
+  }
+}
+
+.fluid.p-min-4.p-max-4 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-4.p-max-4 {
+    padding: calc(1rem + 0 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-4.p-max-4 {
+    padding: 1rem;
+  }
+}
+
+.fluid.p-min-4.p-max-5 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-4.p-max-5 {
+    padding: calc(1rem + 0.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-4.p-max-5 {
+    padding: 1.25rem;
+  }
+}
+
+.fluid.p-min-4.p-max-6 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-4.p-max-6 {
+    padding: calc(1rem + 0.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-4.p-max-6 {
+    padding: 1.5rem;
+  }
+}
+
+.fluid.p-min-4.p-max-8 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-4.p-max-8 {
+    padding: calc(1rem + 1 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-4.p-max-8 {
+    padding: 2rem;
+  }
+}
+
+.fluid.p-min-4.p-max-10 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-4.p-max-10 {
+    padding: calc(1rem + 1.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-4.p-max-10 {
+    padding: 2.5rem;
+  }
+}
+
+.fluid.p-min-4.p-max-12 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-4.p-max-12 {
+    padding: calc(1rem + 2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-4.p-max-12 {
+    padding: 3rem;
+  }
+}
+
+.fluid.p-min-4.p-max-16 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-4.p-max-16 {
+    padding: calc(1rem + 3 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-4.p-max-16 {
+    padding: 4rem;
+  }
+}
+
+.fluid.p-min-4.p-max-20 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-4.p-max-20 {
+    padding: calc(1rem + 4 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-4.p-max-20 {
+    padding: 5rem;
+  }
+}
+
+.fluid.p-min-4.p-max-24 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-4.p-max-24 {
+    padding: calc(1rem + 5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-4.p-max-24 {
+    padding: 6rem;
+  }
+}
+
+.fluid.p-min-4.p-max-32 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-4.p-max-32 {
+    padding: calc(1rem + 7 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-4.p-max-32 {
+    padding: 8rem;
+  }
+}
+
+.fluid.p-min-4.p-max-40 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-4.p-max-40 {
+    padding: calc(1rem + 9 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-4.p-max-40 {
+    padding: 10rem;
+  }
+}
+
+.fluid.p-min-4.p-max-48 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-4.p-max-48 {
+    padding: calc(1rem + 11 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-4.p-max-48 {
+    padding: 12rem;
+  }
+}
+
+.fluid.p-min-4.p-max-56 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-4.p-max-56 {
+    padding: calc(1rem + 13 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-4.p-max-56 {
+    padding: 14rem;
+  }
+}
+
+.fluid.p-min-4.p-max-64 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-4.p-max-64 {
+    padding: calc(1rem + 15 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-4.p-max-64 {
+    padding: 16rem;
+  }
+}
+
+.fluid.p-min-5.p-max-0 {
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-5.p-max-0 {
+    padding: calc(1.25rem + -1.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-5.p-max-0 {
+    padding: 0;
+  }
+}
+
+.fluid.p-min-5.p-max-1 {
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-5.p-max-1 {
+    padding: calc(1.25rem + -1 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-5.p-max-1 {
+    padding: 0.25rem;
+  }
+}
+
+.fluid.p-min-5.p-max-2 {
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-5.p-max-2 {
+    padding: calc(1.25rem + -0.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-5.p-max-2 {
+    padding: 0.5rem;
+  }
+}
+
+.fluid.p-min-5.p-max-3 {
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-5.p-max-3 {
+    padding: calc(1.25rem + -0.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-5.p-max-3 {
+    padding: 0.75rem;
+  }
+}
+
+.fluid.p-min-5.p-max-4 {
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-5.p-max-4 {
+    padding: calc(1.25rem + -0.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-5.p-max-4 {
+    padding: 1rem;
+  }
+}
+
+.fluid.p-min-5.p-max-5 {
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-5.p-max-5 {
+    padding: calc(1.25rem + 0 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-5.p-max-5 {
+    padding: 1.25rem;
+  }
+}
+
+.fluid.p-min-5.p-max-6 {
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-5.p-max-6 {
+    padding: calc(1.25rem + 0.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-5.p-max-6 {
+    padding: 1.5rem;
+  }
+}
+
+.fluid.p-min-5.p-max-8 {
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-5.p-max-8 {
+    padding: calc(1.25rem + 0.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-5.p-max-8 {
+    padding: 2rem;
+  }
+}
+
+.fluid.p-min-5.p-max-10 {
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-5.p-max-10 {
+    padding: calc(1.25rem + 1.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-5.p-max-10 {
+    padding: 2.5rem;
+  }
+}
+
+.fluid.p-min-5.p-max-12 {
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-5.p-max-12 {
+    padding: calc(1.25rem + 1.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-5.p-max-12 {
+    padding: 3rem;
+  }
+}
+
+.fluid.p-min-5.p-max-16 {
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-5.p-max-16 {
+    padding: calc(1.25rem + 2.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-5.p-max-16 {
+    padding: 4rem;
+  }
+}
+
+.fluid.p-min-5.p-max-20 {
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-5.p-max-20 {
+    padding: calc(1.25rem + 3.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-5.p-max-20 {
+    padding: 5rem;
+  }
+}
+
+.fluid.p-min-5.p-max-24 {
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-5.p-max-24 {
+    padding: calc(1.25rem + 4.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-5.p-max-24 {
+    padding: 6rem;
+  }
+}
+
+.fluid.p-min-5.p-max-32 {
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-5.p-max-32 {
+    padding: calc(1.25rem + 6.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-5.p-max-32 {
+    padding: 8rem;
+  }
+}
+
+.fluid.p-min-5.p-max-40 {
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-5.p-max-40 {
+    padding: calc(1.25rem + 8.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-5.p-max-40 {
+    padding: 10rem;
+  }
+}
+
+.fluid.p-min-5.p-max-48 {
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-5.p-max-48 {
+    padding: calc(1.25rem + 10.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-5.p-max-48 {
+    padding: 12rem;
+  }
+}
+
+.fluid.p-min-5.p-max-56 {
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-5.p-max-56 {
+    padding: calc(1.25rem + 12.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-5.p-max-56 {
+    padding: 14rem;
+  }
+}
+
+.fluid.p-min-5.p-max-64 {
+  padding: 1.25rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-5.p-max-64 {
+    padding: calc(1.25rem + 14.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-5.p-max-64 {
+    padding: 16rem;
+  }
+}
+
+.fluid.p-min-6.p-max-0 {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-6.p-max-0 {
+    padding: calc(1.5rem + -1.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-6.p-max-0 {
+    padding: 0;
+  }
+}
+
+.fluid.p-min-6.p-max-1 {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-6.p-max-1 {
+    padding: calc(1.5rem + -1.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-6.p-max-1 {
+    padding: 0.25rem;
+  }
+}
+
+.fluid.p-min-6.p-max-2 {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-6.p-max-2 {
+    padding: calc(1.5rem + -1 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-6.p-max-2 {
+    padding: 0.5rem;
+  }
+}
+
+.fluid.p-min-6.p-max-3 {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-6.p-max-3 {
+    padding: calc(1.5rem + -0.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-6.p-max-3 {
+    padding: 0.75rem;
+  }
+}
+
+.fluid.p-min-6.p-max-4 {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-6.p-max-4 {
+    padding: calc(1.5rem + -0.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-6.p-max-4 {
+    padding: 1rem;
+  }
+}
+
+.fluid.p-min-6.p-max-5 {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-6.p-max-5 {
+    padding: calc(1.5rem + -0.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-6.p-max-5 {
+    padding: 1.25rem;
+  }
+}
+
+.fluid.p-min-6.p-max-6 {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-6.p-max-6 {
+    padding: calc(1.5rem + 0 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-6.p-max-6 {
+    padding: 1.5rem;
+  }
+}
+
+.fluid.p-min-6.p-max-8 {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-6.p-max-8 {
+    padding: calc(1.5rem + 0.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-6.p-max-8 {
+    padding: 2rem;
+  }
+}
+
+.fluid.p-min-6.p-max-10 {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-6.p-max-10 {
+    padding: calc(1.5rem + 1 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-6.p-max-10 {
+    padding: 2.5rem;
+  }
+}
+
+.fluid.p-min-6.p-max-12 {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-6.p-max-12 {
+    padding: calc(1.5rem + 1.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-6.p-max-12 {
+    padding: 3rem;
+  }
+}
+
+.fluid.p-min-6.p-max-16 {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-6.p-max-16 {
+    padding: calc(1.5rem + 2.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-6.p-max-16 {
+    padding: 4rem;
+  }
+}
+
+.fluid.p-min-6.p-max-20 {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-6.p-max-20 {
+    padding: calc(1.5rem + 3.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-6.p-max-20 {
+    padding: 5rem;
+  }
+}
+
+.fluid.p-min-6.p-max-24 {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-6.p-max-24 {
+    padding: calc(1.5rem + 4.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-6.p-max-24 {
+    padding: 6rem;
+  }
+}
+
+.fluid.p-min-6.p-max-32 {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-6.p-max-32 {
+    padding: calc(1.5rem + 6.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-6.p-max-32 {
+    padding: 8rem;
+  }
+}
+
+.fluid.p-min-6.p-max-40 {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-6.p-max-40 {
+    padding: calc(1.5rem + 8.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-6.p-max-40 {
+    padding: 10rem;
+  }
+}
+
+.fluid.p-min-6.p-max-48 {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-6.p-max-48 {
+    padding: calc(1.5rem + 10.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-6.p-max-48 {
+    padding: 12rem;
+  }
+}
+
+.fluid.p-min-6.p-max-56 {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-6.p-max-56 {
+    padding: calc(1.5rem + 12.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-6.p-max-56 {
+    padding: 14rem;
+  }
+}
+
+.fluid.p-min-6.p-max-64 {
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-6.p-max-64 {
+    padding: calc(1.5rem + 14.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-6.p-max-64 {
+    padding: 16rem;
+  }
+}
+
+.fluid.p-min-8.p-max-0 {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-8.p-max-0 {
+    padding: calc(2rem + -2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-8.p-max-0 {
+    padding: 0;
+  }
+}
+
+.fluid.p-min-8.p-max-1 {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-8.p-max-1 {
+    padding: calc(2rem + -1.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-8.p-max-1 {
+    padding: 0.25rem;
+  }
+}
+
+.fluid.p-min-8.p-max-2 {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-8.p-max-2 {
+    padding: calc(2rem + -1.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-8.p-max-2 {
+    padding: 0.5rem;
+  }
+}
+
+.fluid.p-min-8.p-max-3 {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-8.p-max-3 {
+    padding: calc(2rem + -1.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-8.p-max-3 {
+    padding: 0.75rem;
+  }
+}
+
+.fluid.p-min-8.p-max-4 {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-8.p-max-4 {
+    padding: calc(2rem + -1 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-8.p-max-4 {
+    padding: 1rem;
+  }
+}
+
+.fluid.p-min-8.p-max-5 {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-8.p-max-5 {
+    padding: calc(2rem + -0.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-8.p-max-5 {
+    padding: 1.25rem;
+  }
+}
+
+.fluid.p-min-8.p-max-6 {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-8.p-max-6 {
+    padding: calc(2rem + -0.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-8.p-max-6 {
+    padding: 1.5rem;
+  }
+}
+
+.fluid.p-min-8.p-max-8 {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-8.p-max-8 {
+    padding: calc(2rem + 0 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-8.p-max-8 {
+    padding: 2rem;
+  }
+}
+
+.fluid.p-min-8.p-max-10 {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-8.p-max-10 {
+    padding: calc(2rem + 0.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-8.p-max-10 {
+    padding: 2.5rem;
+  }
+}
+
+.fluid.p-min-8.p-max-12 {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-8.p-max-12 {
+    padding: calc(2rem + 1 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-8.p-max-12 {
+    padding: 3rem;
+  }
+}
+
+.fluid.p-min-8.p-max-16 {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-8.p-max-16 {
+    padding: calc(2rem + 2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-8.p-max-16 {
+    padding: 4rem;
+  }
+}
+
+.fluid.p-min-8.p-max-20 {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-8.p-max-20 {
+    padding: calc(2rem + 3 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-8.p-max-20 {
+    padding: 5rem;
+  }
+}
+
+.fluid.p-min-8.p-max-24 {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-8.p-max-24 {
+    padding: calc(2rem + 4 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-8.p-max-24 {
+    padding: 6rem;
+  }
+}
+
+.fluid.p-min-8.p-max-32 {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-8.p-max-32 {
+    padding: calc(2rem + 6 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-8.p-max-32 {
+    padding: 8rem;
+  }
+}
+
+.fluid.p-min-8.p-max-40 {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-8.p-max-40 {
+    padding: calc(2rem + 8 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-8.p-max-40 {
+    padding: 10rem;
+  }
+}
+
+.fluid.p-min-8.p-max-48 {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-8.p-max-48 {
+    padding: calc(2rem + 10 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-8.p-max-48 {
+    padding: 12rem;
+  }
+}
+
+.fluid.p-min-8.p-max-56 {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-8.p-max-56 {
+    padding: calc(2rem + 12 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-8.p-max-56 {
+    padding: 14rem;
+  }
+}
+
+.fluid.p-min-8.p-max-64 {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-8.p-max-64 {
+    padding: calc(2rem + 14 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-8.p-max-64 {
+    padding: 16rem;
+  }
+}
+
+.fluid.p-min-10.p-max-0 {
+  padding: 2.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-10.p-max-0 {
+    padding: calc(2.5rem + -2.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-10.p-max-0 {
+    padding: 0;
+  }
+}
+
+.fluid.p-min-10.p-max-1 {
+  padding: 2.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-10.p-max-1 {
+    padding: calc(2.5rem + -2.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-10.p-max-1 {
+    padding: 0.25rem;
+  }
+}
+
+.fluid.p-min-10.p-max-2 {
+  padding: 2.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-10.p-max-2 {
+    padding: calc(2.5rem + -2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-10.p-max-2 {
+    padding: 0.5rem;
+  }
+}
+
+.fluid.p-min-10.p-max-3 {
+  padding: 2.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-10.p-max-3 {
+    padding: calc(2.5rem + -1.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-10.p-max-3 {
+    padding: 0.75rem;
+  }
+}
+
+.fluid.p-min-10.p-max-4 {
+  padding: 2.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-10.p-max-4 {
+    padding: calc(2.5rem + -1.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-10.p-max-4 {
+    padding: 1rem;
+  }
+}
+
+.fluid.p-min-10.p-max-5 {
+  padding: 2.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-10.p-max-5 {
+    padding: calc(2.5rem + -1.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-10.p-max-5 {
+    padding: 1.25rem;
+  }
+}
+
+.fluid.p-min-10.p-max-6 {
+  padding: 2.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-10.p-max-6 {
+    padding: calc(2.5rem + -1 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-10.p-max-6 {
+    padding: 1.5rem;
+  }
+}
+
+.fluid.p-min-10.p-max-8 {
+  padding: 2.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-10.p-max-8 {
+    padding: calc(2.5rem + -0.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-10.p-max-8 {
+    padding: 2rem;
+  }
+}
+
+.fluid.p-min-10.p-max-10 {
+  padding: 2.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-10.p-max-10 {
+    padding: calc(2.5rem + 0 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-10.p-max-10 {
+    padding: 2.5rem;
+  }
+}
+
+.fluid.p-min-10.p-max-12 {
+  padding: 2.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-10.p-max-12 {
+    padding: calc(2.5rem + 0.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-10.p-max-12 {
+    padding: 3rem;
+  }
+}
+
+.fluid.p-min-10.p-max-16 {
+  padding: 2.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-10.p-max-16 {
+    padding: calc(2.5rem + 1.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-10.p-max-16 {
+    padding: 4rem;
+  }
+}
+
+.fluid.p-min-10.p-max-20 {
+  padding: 2.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-10.p-max-20 {
+    padding: calc(2.5rem + 2.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-10.p-max-20 {
+    padding: 5rem;
+  }
+}
+
+.fluid.p-min-10.p-max-24 {
+  padding: 2.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-10.p-max-24 {
+    padding: calc(2.5rem + 3.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-10.p-max-24 {
+    padding: 6rem;
+  }
+}
+
+.fluid.p-min-10.p-max-32 {
+  padding: 2.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-10.p-max-32 {
+    padding: calc(2.5rem + 5.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-10.p-max-32 {
+    padding: 8rem;
+  }
+}
+
+.fluid.p-min-10.p-max-40 {
+  padding: 2.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-10.p-max-40 {
+    padding: calc(2.5rem + 7.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-10.p-max-40 {
+    padding: 10rem;
+  }
+}
+
+.fluid.p-min-10.p-max-48 {
+  padding: 2.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-10.p-max-48 {
+    padding: calc(2.5rem + 9.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-10.p-max-48 {
+    padding: 12rem;
+  }
+}
+
+.fluid.p-min-10.p-max-56 {
+  padding: 2.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-10.p-max-56 {
+    padding: calc(2.5rem + 11.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-10.p-max-56 {
+    padding: 14rem;
+  }
+}
+
+.fluid.p-min-10.p-max-64 {
+  padding: 2.5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-10.p-max-64 {
+    padding: calc(2.5rem + 13.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-10.p-max-64 {
+    padding: 16rem;
+  }
+}
+
+.fluid.p-min-12.p-max-0 {
+  padding: 3rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-12.p-max-0 {
+    padding: calc(3rem + -3 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-12.p-max-0 {
+    padding: 0;
+  }
+}
+
+.fluid.p-min-12.p-max-1 {
+  padding: 3rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-12.p-max-1 {
+    padding: calc(3rem + -2.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-12.p-max-1 {
+    padding: 0.25rem;
+  }
+}
+
+.fluid.p-min-12.p-max-2 {
+  padding: 3rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-12.p-max-2 {
+    padding: calc(3rem + -2.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-12.p-max-2 {
+    padding: 0.5rem;
+  }
+}
+
+.fluid.p-min-12.p-max-3 {
+  padding: 3rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-12.p-max-3 {
+    padding: calc(3rem + -2.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-12.p-max-3 {
+    padding: 0.75rem;
+  }
+}
+
+.fluid.p-min-12.p-max-4 {
+  padding: 3rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-12.p-max-4 {
+    padding: calc(3rem + -2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-12.p-max-4 {
+    padding: 1rem;
+  }
+}
+
+.fluid.p-min-12.p-max-5 {
+  padding: 3rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-12.p-max-5 {
+    padding: calc(3rem + -1.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-12.p-max-5 {
+    padding: 1.25rem;
+  }
+}
+
+.fluid.p-min-12.p-max-6 {
+  padding: 3rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-12.p-max-6 {
+    padding: calc(3rem + -1.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-12.p-max-6 {
+    padding: 1.5rem;
+  }
+}
+
+.fluid.p-min-12.p-max-8 {
+  padding: 3rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-12.p-max-8 {
+    padding: calc(3rem + -1 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-12.p-max-8 {
+    padding: 2rem;
+  }
+}
+
+.fluid.p-min-12.p-max-10 {
+  padding: 3rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-12.p-max-10 {
+    padding: calc(3rem + -0.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-12.p-max-10 {
+    padding: 2.5rem;
+  }
+}
+
+.fluid.p-min-12.p-max-12 {
+  padding: 3rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-12.p-max-12 {
+    padding: calc(3rem + 0 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-12.p-max-12 {
+    padding: 3rem;
+  }
+}
+
+.fluid.p-min-12.p-max-16 {
+  padding: 3rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-12.p-max-16 {
+    padding: calc(3rem + 1 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-12.p-max-16 {
+    padding: 4rem;
+  }
+}
+
+.fluid.p-min-12.p-max-20 {
+  padding: 3rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-12.p-max-20 {
+    padding: calc(3rem + 2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-12.p-max-20 {
+    padding: 5rem;
+  }
+}
+
+.fluid.p-min-12.p-max-24 {
+  padding: 3rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-12.p-max-24 {
+    padding: calc(3rem + 3 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-12.p-max-24 {
+    padding: 6rem;
+  }
+}
+
+.fluid.p-min-12.p-max-32 {
+  padding: 3rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-12.p-max-32 {
+    padding: calc(3rem + 5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-12.p-max-32 {
+    padding: 8rem;
+  }
+}
+
+.fluid.p-min-12.p-max-40 {
+  padding: 3rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-12.p-max-40 {
+    padding: calc(3rem + 7 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-12.p-max-40 {
+    padding: 10rem;
+  }
+}
+
+.fluid.p-min-12.p-max-48 {
+  padding: 3rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-12.p-max-48 {
+    padding: calc(3rem + 9 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-12.p-max-48 {
+    padding: 12rem;
+  }
+}
+
+.fluid.p-min-12.p-max-56 {
+  padding: 3rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-12.p-max-56 {
+    padding: calc(3rem + 11 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-12.p-max-56 {
+    padding: 14rem;
+  }
+}
+
+.fluid.p-min-12.p-max-64 {
+  padding: 3rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-12.p-max-64 {
+    padding: calc(3rem + 13 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-12.p-max-64 {
+    padding: 16rem;
+  }
+}
+
+.fluid.p-min-16.p-max-0 {
+  padding: 4rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-16.p-max-0 {
+    padding: calc(4rem + -4 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-16.p-max-0 {
+    padding: 0;
+  }
+}
+
+.fluid.p-min-16.p-max-1 {
+  padding: 4rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-16.p-max-1 {
+    padding: calc(4rem + -3.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-16.p-max-1 {
+    padding: 0.25rem;
+  }
+}
+
+.fluid.p-min-16.p-max-2 {
+  padding: 4rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-16.p-max-2 {
+    padding: calc(4rem + -3.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-16.p-max-2 {
+    padding: 0.5rem;
+  }
+}
+
+.fluid.p-min-16.p-max-3 {
+  padding: 4rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-16.p-max-3 {
+    padding: calc(4rem + -3.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-16.p-max-3 {
+    padding: 0.75rem;
+  }
+}
+
+.fluid.p-min-16.p-max-4 {
+  padding: 4rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-16.p-max-4 {
+    padding: calc(4rem + -3 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-16.p-max-4 {
+    padding: 1rem;
+  }
+}
+
+.fluid.p-min-16.p-max-5 {
+  padding: 4rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-16.p-max-5 {
+    padding: calc(4rem + -2.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-16.p-max-5 {
+    padding: 1.25rem;
+  }
+}
+
+.fluid.p-min-16.p-max-6 {
+  padding: 4rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-16.p-max-6 {
+    padding: calc(4rem + -2.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-16.p-max-6 {
+    padding: 1.5rem;
+  }
+}
+
+.fluid.p-min-16.p-max-8 {
+  padding: 4rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-16.p-max-8 {
+    padding: calc(4rem + -2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-16.p-max-8 {
+    padding: 2rem;
+  }
+}
+
+.fluid.p-min-16.p-max-10 {
+  padding: 4rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-16.p-max-10 {
+    padding: calc(4rem + -1.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-16.p-max-10 {
+    padding: 2.5rem;
+  }
+}
+
+.fluid.p-min-16.p-max-12 {
+  padding: 4rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-16.p-max-12 {
+    padding: calc(4rem + -1 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-16.p-max-12 {
+    padding: 3rem;
+  }
+}
+
+.fluid.p-min-16.p-max-16 {
+  padding: 4rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-16.p-max-16 {
+    padding: calc(4rem + 0 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-16.p-max-16 {
+    padding: 4rem;
+  }
+}
+
+.fluid.p-min-16.p-max-20 {
+  padding: 4rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-16.p-max-20 {
+    padding: calc(4rem + 1 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-16.p-max-20 {
+    padding: 5rem;
+  }
+}
+
+.fluid.p-min-16.p-max-24 {
+  padding: 4rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-16.p-max-24 {
+    padding: calc(4rem + 2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-16.p-max-24 {
+    padding: 6rem;
+  }
+}
+
+.fluid.p-min-16.p-max-32 {
+  padding: 4rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-16.p-max-32 {
+    padding: calc(4rem + 4 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-16.p-max-32 {
+    padding: 8rem;
+  }
+}
+
+.fluid.p-min-16.p-max-40 {
+  padding: 4rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-16.p-max-40 {
+    padding: calc(4rem + 6 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-16.p-max-40 {
+    padding: 10rem;
+  }
+}
+
+.fluid.p-min-16.p-max-48 {
+  padding: 4rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-16.p-max-48 {
+    padding: calc(4rem + 8 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-16.p-max-48 {
+    padding: 12rem;
+  }
+}
+
+.fluid.p-min-16.p-max-56 {
+  padding: 4rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-16.p-max-56 {
+    padding: calc(4rem + 10 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-16.p-max-56 {
+    padding: 14rem;
+  }
+}
+
+.fluid.p-min-16.p-max-64 {
+  padding: 4rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-16.p-max-64 {
+    padding: calc(4rem + 12 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-16.p-max-64 {
+    padding: 16rem;
+  }
+}
+
+.fluid.p-min-20.p-max-0 {
+  padding: 5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-20.p-max-0 {
+    padding: calc(5rem + -5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-20.p-max-0 {
+    padding: 0;
+  }
+}
+
+.fluid.p-min-20.p-max-1 {
+  padding: 5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-20.p-max-1 {
+    padding: calc(5rem + -4.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-20.p-max-1 {
+    padding: 0.25rem;
+  }
+}
+
+.fluid.p-min-20.p-max-2 {
+  padding: 5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-20.p-max-2 {
+    padding: calc(5rem + -4.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-20.p-max-2 {
+    padding: 0.5rem;
+  }
+}
+
+.fluid.p-min-20.p-max-3 {
+  padding: 5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-20.p-max-3 {
+    padding: calc(5rem + -4.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-20.p-max-3 {
+    padding: 0.75rem;
+  }
+}
+
+.fluid.p-min-20.p-max-4 {
+  padding: 5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-20.p-max-4 {
+    padding: calc(5rem + -4 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-20.p-max-4 {
+    padding: 1rem;
+  }
+}
+
+.fluid.p-min-20.p-max-5 {
+  padding: 5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-20.p-max-5 {
+    padding: calc(5rem + -3.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-20.p-max-5 {
+    padding: 1.25rem;
+  }
+}
+
+.fluid.p-min-20.p-max-6 {
+  padding: 5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-20.p-max-6 {
+    padding: calc(5rem + -3.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-20.p-max-6 {
+    padding: 1.5rem;
+  }
+}
+
+.fluid.p-min-20.p-max-8 {
+  padding: 5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-20.p-max-8 {
+    padding: calc(5rem + -3 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-20.p-max-8 {
+    padding: 2rem;
+  }
+}
+
+.fluid.p-min-20.p-max-10 {
+  padding: 5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-20.p-max-10 {
+    padding: calc(5rem + -2.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-20.p-max-10 {
+    padding: 2.5rem;
+  }
+}
+
+.fluid.p-min-20.p-max-12 {
+  padding: 5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-20.p-max-12 {
+    padding: calc(5rem + -2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-20.p-max-12 {
+    padding: 3rem;
+  }
+}
+
+.fluid.p-min-20.p-max-16 {
+  padding: 5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-20.p-max-16 {
+    padding: calc(5rem + -1 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-20.p-max-16 {
+    padding: 4rem;
+  }
+}
+
+.fluid.p-min-20.p-max-20 {
+  padding: 5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-20.p-max-20 {
+    padding: calc(5rem + 0 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-20.p-max-20 {
+    padding: 5rem;
+  }
+}
+
+.fluid.p-min-20.p-max-24 {
+  padding: 5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-20.p-max-24 {
+    padding: calc(5rem + 1 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-20.p-max-24 {
+    padding: 6rem;
+  }
+}
+
+.fluid.p-min-20.p-max-32 {
+  padding: 5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-20.p-max-32 {
+    padding: calc(5rem + 3 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-20.p-max-32 {
+    padding: 8rem;
+  }
+}
+
+.fluid.p-min-20.p-max-40 {
+  padding: 5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-20.p-max-40 {
+    padding: calc(5rem + 5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-20.p-max-40 {
+    padding: 10rem;
+  }
+}
+
+.fluid.p-min-20.p-max-48 {
+  padding: 5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-20.p-max-48 {
+    padding: calc(5rem + 7 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-20.p-max-48 {
+    padding: 12rem;
+  }
+}
+
+.fluid.p-min-20.p-max-56 {
+  padding: 5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-20.p-max-56 {
+    padding: calc(5rem + 9 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-20.p-max-56 {
+    padding: 14rem;
+  }
+}
+
+.fluid.p-min-20.p-max-64 {
+  padding: 5rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-20.p-max-64 {
+    padding: calc(5rem + 11 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-20.p-max-64 {
+    padding: 16rem;
+  }
+}
+
+.fluid.p-min-24.p-max-0 {
+  padding: 6rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-24.p-max-0 {
+    padding: calc(6rem + -6 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-24.p-max-0 {
+    padding: 0;
+  }
+}
+
+.fluid.p-min-24.p-max-1 {
+  padding: 6rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-24.p-max-1 {
+    padding: calc(6rem + -5.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-24.p-max-1 {
+    padding: 0.25rem;
+  }
+}
+
+.fluid.p-min-24.p-max-2 {
+  padding: 6rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-24.p-max-2 {
+    padding: calc(6rem + -5.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-24.p-max-2 {
+    padding: 0.5rem;
+  }
+}
+
+.fluid.p-min-24.p-max-3 {
+  padding: 6rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-24.p-max-3 {
+    padding: calc(6rem + -5.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-24.p-max-3 {
+    padding: 0.75rem;
+  }
+}
+
+.fluid.p-min-24.p-max-4 {
+  padding: 6rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-24.p-max-4 {
+    padding: calc(6rem + -5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-24.p-max-4 {
+    padding: 1rem;
+  }
+}
+
+.fluid.p-min-24.p-max-5 {
+  padding: 6rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-24.p-max-5 {
+    padding: calc(6rem + -4.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-24.p-max-5 {
+    padding: 1.25rem;
+  }
+}
+
+.fluid.p-min-24.p-max-6 {
+  padding: 6rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-24.p-max-6 {
+    padding: calc(6rem + -4.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-24.p-max-6 {
+    padding: 1.5rem;
+  }
+}
+
+.fluid.p-min-24.p-max-8 {
+  padding: 6rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-24.p-max-8 {
+    padding: calc(6rem + -4 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-24.p-max-8 {
+    padding: 2rem;
+  }
+}
+
+.fluid.p-min-24.p-max-10 {
+  padding: 6rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-24.p-max-10 {
+    padding: calc(6rem + -3.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-24.p-max-10 {
+    padding: 2.5rem;
+  }
+}
+
+.fluid.p-min-24.p-max-12 {
+  padding: 6rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-24.p-max-12 {
+    padding: calc(6rem + -3 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-24.p-max-12 {
+    padding: 3rem;
+  }
+}
+
+.fluid.p-min-24.p-max-16 {
+  padding: 6rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-24.p-max-16 {
+    padding: calc(6rem + -2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-24.p-max-16 {
+    padding: 4rem;
+  }
+}
+
+.fluid.p-min-24.p-max-20 {
+  padding: 6rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-24.p-max-20 {
+    padding: calc(6rem + -1 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-24.p-max-20 {
+    padding: 5rem;
+  }
+}
+
+.fluid.p-min-24.p-max-24 {
+  padding: 6rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-24.p-max-24 {
+    padding: calc(6rem + 0 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-24.p-max-24 {
+    padding: 6rem;
+  }
+}
+
+.fluid.p-min-24.p-max-32 {
+  padding: 6rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-24.p-max-32 {
+    padding: calc(6rem + 2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-24.p-max-32 {
+    padding: 8rem;
+  }
+}
+
+.fluid.p-min-24.p-max-40 {
+  padding: 6rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-24.p-max-40 {
+    padding: calc(6rem + 4 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-24.p-max-40 {
+    padding: 10rem;
+  }
+}
+
+.fluid.p-min-24.p-max-48 {
+  padding: 6rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-24.p-max-48 {
+    padding: calc(6rem + 6 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-24.p-max-48 {
+    padding: 12rem;
+  }
+}
+
+.fluid.p-min-24.p-max-56 {
+  padding: 6rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-24.p-max-56 {
+    padding: calc(6rem + 8 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-24.p-max-56 {
+    padding: 14rem;
+  }
+}
+
+.fluid.p-min-24.p-max-64 {
+  padding: 6rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-24.p-max-64 {
+    padding: calc(6rem + 10 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-24.p-max-64 {
+    padding: 16rem;
+  }
+}
+
+.fluid.p-min-32.p-max-0 {
+  padding: 8rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-32.p-max-0 {
+    padding: calc(8rem + -8 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-32.p-max-0 {
+    padding: 0;
+  }
+}
+
+.fluid.p-min-32.p-max-1 {
+  padding: 8rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-32.p-max-1 {
+    padding: calc(8rem + -7.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-32.p-max-1 {
+    padding: 0.25rem;
+  }
+}
+
+.fluid.p-min-32.p-max-2 {
+  padding: 8rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-32.p-max-2 {
+    padding: calc(8rem + -7.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-32.p-max-2 {
+    padding: 0.5rem;
+  }
+}
+
+.fluid.p-min-32.p-max-3 {
+  padding: 8rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-32.p-max-3 {
+    padding: calc(8rem + -7.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-32.p-max-3 {
+    padding: 0.75rem;
+  }
+}
+
+.fluid.p-min-32.p-max-4 {
+  padding: 8rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-32.p-max-4 {
+    padding: calc(8rem + -7 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-32.p-max-4 {
+    padding: 1rem;
+  }
+}
+
+.fluid.p-min-32.p-max-5 {
+  padding: 8rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-32.p-max-5 {
+    padding: calc(8rem + -6.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-32.p-max-5 {
+    padding: 1.25rem;
+  }
+}
+
+.fluid.p-min-32.p-max-6 {
+  padding: 8rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-32.p-max-6 {
+    padding: calc(8rem + -6.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-32.p-max-6 {
+    padding: 1.5rem;
+  }
+}
+
+.fluid.p-min-32.p-max-8 {
+  padding: 8rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-32.p-max-8 {
+    padding: calc(8rem + -6 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-32.p-max-8 {
+    padding: 2rem;
+  }
+}
+
+.fluid.p-min-32.p-max-10 {
+  padding: 8rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-32.p-max-10 {
+    padding: calc(8rem + -5.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-32.p-max-10 {
+    padding: 2.5rem;
+  }
+}
+
+.fluid.p-min-32.p-max-12 {
+  padding: 8rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-32.p-max-12 {
+    padding: calc(8rem + -5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-32.p-max-12 {
+    padding: 3rem;
+  }
+}
+
+.fluid.p-min-32.p-max-16 {
+  padding: 8rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-32.p-max-16 {
+    padding: calc(8rem + -4 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-32.p-max-16 {
+    padding: 4rem;
+  }
+}
+
+.fluid.p-min-32.p-max-20 {
+  padding: 8rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-32.p-max-20 {
+    padding: calc(8rem + -3 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-32.p-max-20 {
+    padding: 5rem;
+  }
+}
+
+.fluid.p-min-32.p-max-24 {
+  padding: 8rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-32.p-max-24 {
+    padding: calc(8rem + -2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-32.p-max-24 {
+    padding: 6rem;
+  }
+}
+
+.fluid.p-min-32.p-max-32 {
+  padding: 8rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-32.p-max-32 {
+    padding: calc(8rem + 0 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-32.p-max-32 {
+    padding: 8rem;
+  }
+}
+
+.fluid.p-min-32.p-max-40 {
+  padding: 8rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-32.p-max-40 {
+    padding: calc(8rem + 2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-32.p-max-40 {
+    padding: 10rem;
+  }
+}
+
+.fluid.p-min-32.p-max-48 {
+  padding: 8rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-32.p-max-48 {
+    padding: calc(8rem + 4 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-32.p-max-48 {
+    padding: 12rem;
+  }
+}
+
+.fluid.p-min-32.p-max-56 {
+  padding: 8rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-32.p-max-56 {
+    padding: calc(8rem + 6 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-32.p-max-56 {
+    padding: 14rem;
+  }
+}
+
+.fluid.p-min-32.p-max-64 {
+  padding: 8rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-32.p-max-64 {
+    padding: calc(8rem + 8 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-32.p-max-64 {
+    padding: 16rem;
+  }
+}
+
+.fluid.p-min-40.p-max-0 {
+  padding: 10rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-40.p-max-0 {
+    padding: calc(10rem + -10 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-40.p-max-0 {
+    padding: 0;
+  }
+}
+
+.fluid.p-min-40.p-max-1 {
+  padding: 10rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-40.p-max-1 {
+    padding: calc(10rem + -9.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-40.p-max-1 {
+    padding: 0.25rem;
+  }
+}
+
+.fluid.p-min-40.p-max-2 {
+  padding: 10rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-40.p-max-2 {
+    padding: calc(10rem + -9.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-40.p-max-2 {
+    padding: 0.5rem;
+  }
+}
+
+.fluid.p-min-40.p-max-3 {
+  padding: 10rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-40.p-max-3 {
+    padding: calc(10rem + -9.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-40.p-max-3 {
+    padding: 0.75rem;
+  }
+}
+
+.fluid.p-min-40.p-max-4 {
+  padding: 10rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-40.p-max-4 {
+    padding: calc(10rem + -9 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-40.p-max-4 {
+    padding: 1rem;
+  }
+}
+
+.fluid.p-min-40.p-max-5 {
+  padding: 10rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-40.p-max-5 {
+    padding: calc(10rem + -8.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-40.p-max-5 {
+    padding: 1.25rem;
+  }
+}
+
+.fluid.p-min-40.p-max-6 {
+  padding: 10rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-40.p-max-6 {
+    padding: calc(10rem + -8.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-40.p-max-6 {
+    padding: 1.5rem;
+  }
+}
+
+.fluid.p-min-40.p-max-8 {
+  padding: 10rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-40.p-max-8 {
+    padding: calc(10rem + -8 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-40.p-max-8 {
+    padding: 2rem;
+  }
+}
+
+.fluid.p-min-40.p-max-10 {
+  padding: 10rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-40.p-max-10 {
+    padding: calc(10rem + -7.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-40.p-max-10 {
+    padding: 2.5rem;
+  }
+}
+
+.fluid.p-min-40.p-max-12 {
+  padding: 10rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-40.p-max-12 {
+    padding: calc(10rem + -7 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-40.p-max-12 {
+    padding: 3rem;
+  }
+}
+
+.fluid.p-min-40.p-max-16 {
+  padding: 10rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-40.p-max-16 {
+    padding: calc(10rem + -6 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-40.p-max-16 {
+    padding: 4rem;
+  }
+}
+
+.fluid.p-min-40.p-max-20 {
+  padding: 10rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-40.p-max-20 {
+    padding: calc(10rem + -5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-40.p-max-20 {
+    padding: 5rem;
+  }
+}
+
+.fluid.p-min-40.p-max-24 {
+  padding: 10rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-40.p-max-24 {
+    padding: calc(10rem + -4 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-40.p-max-24 {
+    padding: 6rem;
+  }
+}
+
+.fluid.p-min-40.p-max-32 {
+  padding: 10rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-40.p-max-32 {
+    padding: calc(10rem + -2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-40.p-max-32 {
+    padding: 8rem;
+  }
+}
+
+.fluid.p-min-40.p-max-40 {
+  padding: 10rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-40.p-max-40 {
+    padding: calc(10rem + 0 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-40.p-max-40 {
+    padding: 10rem;
+  }
+}
+
+.fluid.p-min-40.p-max-48 {
+  padding: 10rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-40.p-max-48 {
+    padding: calc(10rem + 2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-40.p-max-48 {
+    padding: 12rem;
+  }
+}
+
+.fluid.p-min-40.p-max-56 {
+  padding: 10rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-40.p-max-56 {
+    padding: calc(10rem + 4 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-40.p-max-56 {
+    padding: 14rem;
+  }
+}
+
+.fluid.p-min-40.p-max-64 {
+  padding: 10rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-40.p-max-64 {
+    padding: calc(10rem + 6 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-40.p-max-64 {
+    padding: 16rem;
+  }
+}
+
+.fluid.p-min-48.p-max-0 {
+  padding: 12rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-48.p-max-0 {
+    padding: calc(12rem + -12 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-48.p-max-0 {
+    padding: 0;
+  }
+}
+
+.fluid.p-min-48.p-max-1 {
+  padding: 12rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-48.p-max-1 {
+    padding: calc(12rem + -11.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-48.p-max-1 {
+    padding: 0.25rem;
+  }
+}
+
+.fluid.p-min-48.p-max-2 {
+  padding: 12rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-48.p-max-2 {
+    padding: calc(12rem + -11.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-48.p-max-2 {
+    padding: 0.5rem;
+  }
+}
+
+.fluid.p-min-48.p-max-3 {
+  padding: 12rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-48.p-max-3 {
+    padding: calc(12rem + -11.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-48.p-max-3 {
+    padding: 0.75rem;
+  }
+}
+
+.fluid.p-min-48.p-max-4 {
+  padding: 12rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-48.p-max-4 {
+    padding: calc(12rem + -11 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-48.p-max-4 {
+    padding: 1rem;
+  }
+}
+
+.fluid.p-min-48.p-max-5 {
+  padding: 12rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-48.p-max-5 {
+    padding: calc(12rem + -10.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-48.p-max-5 {
+    padding: 1.25rem;
+  }
+}
+
+.fluid.p-min-48.p-max-6 {
+  padding: 12rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-48.p-max-6 {
+    padding: calc(12rem + -10.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-48.p-max-6 {
+    padding: 1.5rem;
+  }
+}
+
+.fluid.p-min-48.p-max-8 {
+  padding: 12rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-48.p-max-8 {
+    padding: calc(12rem + -10 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-48.p-max-8 {
+    padding: 2rem;
+  }
+}
+
+.fluid.p-min-48.p-max-10 {
+  padding: 12rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-48.p-max-10 {
+    padding: calc(12rem + -9.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-48.p-max-10 {
+    padding: 2.5rem;
+  }
+}
+
+.fluid.p-min-48.p-max-12 {
+  padding: 12rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-48.p-max-12 {
+    padding: calc(12rem + -9 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-48.p-max-12 {
+    padding: 3rem;
+  }
+}
+
+.fluid.p-min-48.p-max-16 {
+  padding: 12rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-48.p-max-16 {
+    padding: calc(12rem + -8 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-48.p-max-16 {
+    padding: 4rem;
+  }
+}
+
+.fluid.p-min-48.p-max-20 {
+  padding: 12rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-48.p-max-20 {
+    padding: calc(12rem + -7 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-48.p-max-20 {
+    padding: 5rem;
+  }
+}
+
+.fluid.p-min-48.p-max-24 {
+  padding: 12rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-48.p-max-24 {
+    padding: calc(12rem + -6 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-48.p-max-24 {
+    padding: 6rem;
+  }
+}
+
+.fluid.p-min-48.p-max-32 {
+  padding: 12rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-48.p-max-32 {
+    padding: calc(12rem + -4 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-48.p-max-32 {
+    padding: 8rem;
+  }
+}
+
+.fluid.p-min-48.p-max-40 {
+  padding: 12rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-48.p-max-40 {
+    padding: calc(12rem + -2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-48.p-max-40 {
+    padding: 10rem;
+  }
+}
+
+.fluid.p-min-48.p-max-48 {
+  padding: 12rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-48.p-max-48 {
+    padding: calc(12rem + 0 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-48.p-max-48 {
+    padding: 12rem;
+  }
+}
+
+.fluid.p-min-48.p-max-56 {
+  padding: 12rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-48.p-max-56 {
+    padding: calc(12rem + 2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-48.p-max-56 {
+    padding: 14rem;
+  }
+}
+
+.fluid.p-min-48.p-max-64 {
+  padding: 12rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-48.p-max-64 {
+    padding: calc(12rem + 4 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-48.p-max-64 {
+    padding: 16rem;
+  }
+}
+
+.fluid.p-min-56.p-max-0 {
+  padding: 14rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-56.p-max-0 {
+    padding: calc(14rem + -14 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-56.p-max-0 {
+    padding: 0;
+  }
+}
+
+.fluid.p-min-56.p-max-1 {
+  padding: 14rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-56.p-max-1 {
+    padding: calc(14rem + -13.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-56.p-max-1 {
+    padding: 0.25rem;
+  }
+}
+
+.fluid.p-min-56.p-max-2 {
+  padding: 14rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-56.p-max-2 {
+    padding: calc(14rem + -13.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-56.p-max-2 {
+    padding: 0.5rem;
+  }
+}
+
+.fluid.p-min-56.p-max-3 {
+  padding: 14rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-56.p-max-3 {
+    padding: calc(14rem + -13.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-56.p-max-3 {
+    padding: 0.75rem;
+  }
+}
+
+.fluid.p-min-56.p-max-4 {
+  padding: 14rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-56.p-max-4 {
+    padding: calc(14rem + -13 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-56.p-max-4 {
+    padding: 1rem;
+  }
+}
+
+.fluid.p-min-56.p-max-5 {
+  padding: 14rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-56.p-max-5 {
+    padding: calc(14rem + -12.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-56.p-max-5 {
+    padding: 1.25rem;
+  }
+}
+
+.fluid.p-min-56.p-max-6 {
+  padding: 14rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-56.p-max-6 {
+    padding: calc(14rem + -12.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-56.p-max-6 {
+    padding: 1.5rem;
+  }
+}
+
+.fluid.p-min-56.p-max-8 {
+  padding: 14rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-56.p-max-8 {
+    padding: calc(14rem + -12 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-56.p-max-8 {
+    padding: 2rem;
+  }
+}
+
+.fluid.p-min-56.p-max-10 {
+  padding: 14rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-56.p-max-10 {
+    padding: calc(14rem + -11.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-56.p-max-10 {
+    padding: 2.5rem;
+  }
+}
+
+.fluid.p-min-56.p-max-12 {
+  padding: 14rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-56.p-max-12 {
+    padding: calc(14rem + -11 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-56.p-max-12 {
+    padding: 3rem;
+  }
+}
+
+.fluid.p-min-56.p-max-16 {
+  padding: 14rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-56.p-max-16 {
+    padding: calc(14rem + -10 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-56.p-max-16 {
+    padding: 4rem;
+  }
+}
+
+.fluid.p-min-56.p-max-20 {
+  padding: 14rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-56.p-max-20 {
+    padding: calc(14rem + -9 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-56.p-max-20 {
+    padding: 5rem;
+  }
+}
+
+.fluid.p-min-56.p-max-24 {
+  padding: 14rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-56.p-max-24 {
+    padding: calc(14rem + -8 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-56.p-max-24 {
+    padding: 6rem;
+  }
+}
+
+.fluid.p-min-56.p-max-32 {
+  padding: 14rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-56.p-max-32 {
+    padding: calc(14rem + -6 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-56.p-max-32 {
+    padding: 8rem;
+  }
+}
+
+.fluid.p-min-56.p-max-40 {
+  padding: 14rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-56.p-max-40 {
+    padding: calc(14rem + -4 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-56.p-max-40 {
+    padding: 10rem;
+  }
+}
+
+.fluid.p-min-56.p-max-48 {
+  padding: 14rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-56.p-max-48 {
+    padding: calc(14rem + -2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-56.p-max-48 {
+    padding: 12rem;
+  }
+}
+
+.fluid.p-min-56.p-max-56 {
+  padding: 14rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-56.p-max-56 {
+    padding: calc(14rem + 0 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-56.p-max-56 {
+    padding: 14rem;
+  }
+}
+
+.fluid.p-min-56.p-max-64 {
+  padding: 14rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-56.p-max-64 {
+    padding: calc(14rem + 2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-56.p-max-64 {
+    padding: 16rem;
+  }
+}
+
+.fluid.p-min-64.p-max-0 {
+  padding: 16rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-64.p-max-0 {
+    padding: calc(16rem + -16 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-64.p-max-0 {
+    padding: 0;
+  }
+}
+
+.fluid.p-min-64.p-max-1 {
+  padding: 16rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-64.p-max-1 {
+    padding: calc(16rem + -15.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-64.p-max-1 {
+    padding: 0.25rem;
+  }
+}
+
+.fluid.p-min-64.p-max-2 {
+  padding: 16rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-64.p-max-2 {
+    padding: calc(16rem + -15.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-64.p-max-2 {
+    padding: 0.5rem;
+  }
+}
+
+.fluid.p-min-64.p-max-3 {
+  padding: 16rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-64.p-max-3 {
+    padding: calc(16rem + -15.25 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-64.p-max-3 {
+    padding: 0.75rem;
+  }
+}
+
+.fluid.p-min-64.p-max-4 {
+  padding: 16rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-64.p-max-4 {
+    padding: calc(16rem + -15 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-64.p-max-4 {
+    padding: 1rem;
+  }
+}
+
+.fluid.p-min-64.p-max-5 {
+  padding: 16rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-64.p-max-5 {
+    padding: calc(16rem + -14.75 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-64.p-max-5 {
+    padding: 1.25rem;
+  }
+}
+
+.fluid.p-min-64.p-max-6 {
+  padding: 16rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-64.p-max-6 {
+    padding: calc(16rem + -14.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-64.p-max-6 {
+    padding: 1.5rem;
+  }
+}
+
+.fluid.p-min-64.p-max-8 {
+  padding: 16rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-64.p-max-8 {
+    padding: calc(16rem + -14 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-64.p-max-8 {
+    padding: 2rem;
+  }
+}
+
+.fluid.p-min-64.p-max-10 {
+  padding: 16rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-64.p-max-10 {
+    padding: calc(16rem + -13.5 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-64.p-max-10 {
+    padding: 2.5rem;
+  }
+}
+
+.fluid.p-min-64.p-max-12 {
+  padding: 16rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-64.p-max-12 {
+    padding: calc(16rem + -13 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-64.p-max-12 {
+    padding: 3rem;
+  }
+}
+
+.fluid.p-min-64.p-max-16 {
+  padding: 16rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-64.p-max-16 {
+    padding: calc(16rem + -12 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-64.p-max-16 {
+    padding: 4rem;
+  }
+}
+
+.fluid.p-min-64.p-max-20 {
+  padding: 16rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-64.p-max-20 {
+    padding: calc(16rem + -11 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-64.p-max-20 {
+    padding: 5rem;
+  }
+}
+
+.fluid.p-min-64.p-max-24 {
+  padding: 16rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-64.p-max-24 {
+    padding: calc(16rem + -10 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-64.p-max-24 {
+    padding: 6rem;
+  }
+}
+
+.fluid.p-min-64.p-max-32 {
+  padding: 16rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-64.p-max-32 {
+    padding: calc(16rem + -8 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-64.p-max-32 {
+    padding: 8rem;
+  }
+}
+
+.fluid.p-min-64.p-max-40 {
+  padding: 16rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-64.p-max-40 {
+    padding: calc(16rem + -6 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-64.p-max-40 {
+    padding: 10rem;
+  }
+}
+
+.fluid.p-min-64.p-max-48 {
+  padding: 16rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-64.p-max-48 {
+    padding: calc(16rem + -4 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-64.p-max-48 {
+    padding: 12rem;
+  }
+}
+
+.fluid.p-min-64.p-max-56 {
+  padding: 16rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-64.p-max-56 {
+    padding: calc(16rem + -2 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-64.p-max-56 {
+    padding: 14rem;
+  }
+}
+
+.fluid.p-min-64.p-max-64 {
+  padding: 16rem;
+}
+
+@media screen and (min-width: 20rem) {
+  .fluid.p-min-64.p-max-64 {
+    padding: calc(16rem + 0 * ((100vw - 20rem) / 30));
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .fluid.p-min-64.p-max-64 {
+    padding: 16rem;
   }
 }
 
