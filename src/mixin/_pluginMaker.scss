@@ -1,0 +1,28 @@
+/**
+ * @file: _plugin.scss
+ */
+
+$none: ('.': '');
+
+$hover: ('.hover\\:': ':hover');
+$focus: ('.focus\\:': ':focus');
+$active: ('.active\\:': ':active');
+$visited: ('.visited\\:': ':visited');
+$disabled: ('.disabled\\:': ':disabled');
+
+@mixin plugin(
+  $prefix: null,
+  $pseudo: null,
+  $utility: null,
+  $variant: null,
+  $property: null,
+  $modifier: null
+  ) {
+  @each $prefix, $pseudo in $variant {
+    @each $modifier, $value in $modifier {
+      #{$prefix}#{$utility}-#{$modifier}#{$pseudo} {
+        #{$property}: #{$value}
+      }
+    }
+  }
+}
