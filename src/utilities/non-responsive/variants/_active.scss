@@ -166,6 +166,8 @@
 // @include equal($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $variant-active, $pseudo: $active) // negative, (v1.0.8)
 
+// @include fluidMargin($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
+
 /* svg */
 
 // @include fill($prefix: $variant-active, $pseudo: $active)
@@ -236,7 +238,9 @@
 
 // @include fontFamily($prefix: $variant-active, $pseudo: $active)
 // @include fontSize($prefix: $variant-active, $pseudo: $active)
-// @include fluidFontSize($prefix: $variant-active, $pseudo: $active) // (1.0.8)
+
+// @include fluidFontSize($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
+
 // @include fontSmoothing($prefix: $variant-active, $pseudo: $active)
 // @include fontStyle($prefix: $variant-active, $pseudo: $active)
 // @include fontWeight($prefix: $variant-active, $pseudo: $active)

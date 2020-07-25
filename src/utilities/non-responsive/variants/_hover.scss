@@ -186,6 +186,8 @@
 // @include equal($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $variant-hover, $pseudo: $hover) // negative, (v1.0.8)
 
+// @include fluidMargin($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
+
 /* svg */
 
 // @include fill($prefix: $variant-hover, $pseudo: $hover)
@@ -274,7 +276,9 @@
 
 // @include fontFamily($prefix: $variant-hover, $pseudo: $hover)
 // @include fontSize($prefix: $variant-hover, $pseudo: $hover)
-// @include fluidFontSize($prefix: $variant-hover, $pseudo: $hover) // (1.0.8)
+
+// @include fluidFontSize($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
+
 // @include fontSmoothing($prefix: $variant-hover, $pseudo: $hover)
 // @include fontStyle($prefix: $variant-hover, $pseudo: $hover)
 @include fontWeight($prefix: $variant-hover, $pseudo: $hover)

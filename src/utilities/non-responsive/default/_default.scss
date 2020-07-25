@@ -164,6 +164,8 @@
 @include equal($class: $default) // (v1.0.8)
 @include equal($negative: $true, $class: $default) // negative, (v1.0.8)
 
+@include fluidMargin($class: $default) // (1.0.8)
+
 /* svg */
 
 @include fill($class: $default)
@@ -234,7 +236,9 @@
 
 @include fontFamily($class: $default)
 @include fontSize($class: $default)
-@include fluidFontSize($class: $default) // (1.0.8)
+
+@include fluidFontSize($class: $default) // (v1.0.8)
+
 @include fontSmoothing($class: $default)
 @include fontStyle($class: $default)
 @include fontWeight($class: $default)

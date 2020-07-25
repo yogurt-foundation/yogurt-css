@@ -165,6 +165,8 @@
 // @include equal($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $variant-focus, $pseudo: $focus) // negative, (v1.0.8)
 
+// @include fluidMargin($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
+
 /* svg */
 
 // @include fill($prefix: $variant-focus, $pseudo: $focus)
@@ -253,7 +255,9 @@
 
 // @include fontFamily($prefix: $variant-focus, $pseudo: $focus)
 // @include fontSize($prefix: $variant-focus, $pseudo: $focus)
-// @include fluidFontSize($prefix: $variant-focus, $pseudo: $focus) // (1.0.8)
+
+// @include fluidFontSize($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
+
 // @include fontSmoothing($prefix: $variant-focus, $pseudo: $focus)
 // @include fontStyle($prefix: $variant-focus, $pseudo: $focus)
 @include fontWeight($prefix: $variant-focus, $pseudo: $focus)
