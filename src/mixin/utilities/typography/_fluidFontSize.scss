@@ -1,0 +1,20 @@
+/**
+ * @utility: typography
+ * @module: _fluidFontSize.scss
+ * @desc: sets min and max font sizes for screen sizes.
+ */
+
+@mixin fluidFontSize(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier1, $value1 in $font-size {
+    @each $modifier2, $value2 in $font-size {
+      .fluid.text-min-#{$modifier1}.text-max-#{$modifier2} {
+        @include fluid(font-size, $minScreen, $maxScreen, $value1, $value2)
+      }
+    }
+  }
+}
+

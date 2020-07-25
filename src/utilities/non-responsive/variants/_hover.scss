@@ -274,6 +274,7 @@
 
 // @include fontFamily($prefix: $variant-hover, $pseudo: $hover)
 // @include fontSize($prefix: $variant-hover, $pseudo: $hover)
+// @include fluidFontSize($prefix: $variant-hover, $pseudo: $hover) // (1.0.8)
 // @include fontSmoothing($prefix: $variant-hover, $pseudo: $hover)
 // @include fontStyle($prefix: $variant-hover, $pseudo: $hover)
 @include fontWeight($prefix: $variant-hover, $pseudo: $hover)

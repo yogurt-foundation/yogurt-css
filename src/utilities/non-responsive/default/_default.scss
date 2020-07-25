@@ -234,6 +234,7 @@
 
 @include fontFamily($class: $default)
 @include fontSize($class: $default)
+@include fluidFontSize($class: $default) // (1.0.8)
 @include fontSmoothing($class: $default)
 @include fontStyle($class: $default)
 @include fontWeight($class: $default)
@@ -248,3 +249,4 @@
 @include verticalAlign($class: $default)
 @include whitespace($class: $default)
 @include wordBreak($class: $default)
+

@@ -41,6 +41,11 @@ $screens:
   // (\37k, 7000px), // 7k
   // (\38k, 7680px); // 8k
 
+// adjust the sentivity of thresholds for
+// screen size use in `fluid` utility modules.
+$minScreen: 20rem; // default: 20rem;
+$maxScreen: 50rem; // default: 50rem;
+
 /* spacing */
 
 $spacing: // for margin, padding
