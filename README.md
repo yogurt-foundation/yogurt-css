@@ -9,9 +9,9 @@
   <img src="https://badgen.net/github/release/yogurt-foundation/yogurt-css">
   <img src="https://badgen.net/github/releases/yogurt-foundation/yogurt-css">
   <img src="https://badgen.net/github/assets-dl/yogurt-foundation/yogurt-css">
-  <img src="https://badgen.net/npm/dw/yogurt-css">
-  <img src="https://badgen.net/npm/dm/yogurt-css">
-  <img src="https://badgen.net/npm/dy/yogurt-css">
+  <img src="https://badgen.net/npm/dw/create-yogurt-css">
+  <img src="https://badgen.net/npm/dm/create-yogurt-css">
+  <img src="https://badgen.net/npm/dy/create-yogurt-css">
   <img src="https://badgen.net/github/branches/yogurt-foundation/yogurt-css">
   <img src="https://badgen.net/github/forks/yogurt-foundation/yogurt-css">
   <img src="https://badgen.net/github/stars/yogurt-foundation/yogurt-css">
