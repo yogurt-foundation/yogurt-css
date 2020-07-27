@@ -3,12 +3,20 @@
  * @description: write your plugins here.
  */
 
+/*! plugins */
+
 // @include plugin(
-//   $utility: ('text'),
-//   $variant: $none,
-//   $property: ('font-size'),
-//   $modifier: (
-//     'xs': '0.75.rem',
+//   $utility: ('text'), // Utility Name
+//   /* variant options:
+//       hover, focus, active, visited, disabled,
+//       responsive, responsive-hover, responsive-focus,
+//       responsive-active, responsive-visited,
+//       responsive-disabled
+//   */
+//   $variant: '',
+//   $property: ('font-size'), // CSS Property
+//   $modifier: ( // Utility Modifier Names, CSS Values
+//     'xs': '0.75rem',
 //     'sm': '0.875rem',
 //     'md': '1rem',
 //     'lg': '1.125rem',

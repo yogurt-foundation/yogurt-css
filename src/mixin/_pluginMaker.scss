@@ -11,17 +11,144 @@ $visited: ('.visited\\:': ':visited');
 $disabled: ('.disabled\\:': ':disabled');
 
 @mixin plugin(
-  $prefix: null,
-  $pseudo: null,
   $utility: null,
   $variant: null,
   $property: null,
   $modifier: null
   ) {
-  @each $prefix, $pseudo in $variant {
+  @if $variant == null {
     @each $modifier, $value in $modifier {
-      #{$prefix}#{$utility}-#{$modifier}#{$pseudo} {
+      .#{$utility}-#{$modifier} {
         #{$property}: #{$value}
+      }
+    }
+  }
+  @else if $variant == "hover" {
+    @each $prefix, $pseudo in $hover {
+      @each $modifier, $value in $modifier {
+        #{$prefix}#{$utility}-#{$modifier}#{$pseudo} {
+          #{$property}: #{$value}
+        }
+      }
+    }
+  }
+  @else if $variant == "focus" {
+    @each $prefix, $pseudo in $focus {
+      @each $modifier, $value in $modifier {
+        #{$prefix}#{$utility}-#{$modifier}#{$pseudo} {
+          #{$property}: #{$value}
+        }
+      }
+    }
+  }
+  @else if $variant == "active" {
+    @each $prefix, $pseudo in $active {
+      @each $modifier, $value in $modifier {
+        #{$prefix}#{$utility}-#{$modifier}#{$pseudo} {
+          #{$property}: #{$value}
+        }
+      }
+    }
+  }
+  @else if $variant == "visited" {
+    @each $prefix, $pseudo in $visited {
+      @each $modifier, $value in $modifier {
+        #{$prefix}#{$utility}-#{$modifier}#{$pseudo} {
+          #{$property}: #{$value}
+        }
+      }
+    }
+  }
+  @else if $variant == "disabled" {
+    @each $prefix, $pseudo in $disabled {
+      @each $modifier, $value in $modifier {
+        #{$prefix}#{$utility}-#{$modifier}#{$pseudo} {
+          #{$property}: #{$value}
+        }
+      }
+    }
+  }
+  @else if $variant == "responsive" {
+    @each $screen, $value in $screens {
+      $responsive: ".#{$screen}\\#{$separator}";
+      @media(min-width: #{$value}) {
+        @each $prefix, $pseudo in $responsive {
+          @each $key, $value in $modifier {
+            #{$prefix}#{$utility}-#{$key}#{$pseudo} {
+              #{$property}: #{$value}
+            }
+          }
+        }
+      }
+    }
+  }
+  @else if $variant == "responsive-hover" {
+    @each $screen, $value in $screens {
+      $responsive-hover: ('.#{$screen}\\:hover\\#{$separator}': ':hover');
+      @media(min-width: #{$value}) {
+        @each $prefix, $pseudo in $responsive-hover {
+          @each $key, $value in $modifier {
+            #{$prefix}#{$utility}-#{$key}#{$pseudo} {
+              #{$property}: #{$value}
+            }
+          }
+        }
+      }
+    }
+  }
+  @else if $variant == "responsive-focus" {
+    @each $screen, $value in $screens {
+      $responsive-focus: ('.#{$screen}\\:focus\\#{$separator}': ':focus');
+      @media(min-width: #{$value}) {
+        @each $prefix, $pseudo in $responsive-focus {
+          @each $key, $value in $modifier {
+            #{$prefix}#{$utility}-#{$key}#{$pseudo} {
+              #{$property}: #{$value}
+            }
+          }
+        }
+      }
+    }
+  }
+  @else if $variant == "responsive-active" {
+    @each $screen, $value in $screens {
+      $responsive-active: ('.#{$screen}\\:active\\#{$separator}': ':active');
+      @media(min-width: #{$value}) {
+        @each $prefix, $pseudo in $responsive-active {
+          @each $key, $value in $modifier {
+            #{$prefix}#{$utility}-#{$key}#{$pseudo} {
+              #{$property}: #{$value}
+            }
+          }
+        }
+      }
+    }
+  }
+  @else if $variant == "responsive-visited" {
+    @each $screen, $value in $screens {
+      $responsive-visited: ('.#{$screen}\\:visited\\#{$separator}': ':visited');
+      @media(min-width: #{$value}) {
+        @each $prefix, $pseudo in $responsive-visited {
+          @each $key, $value in $modifier {
+            #{$prefix}#{$utility}-#{$key}#{$pseudo} {
+              #{$property}: #{$value}
+            }
+          }
+        }
+      }
+    }
+  }
+  @else if $variant == "responsive-disabled" {
+    @each $screen, $value in $screens {
+      $responsive-disabled: ('.#{$screen}\\:disabled\\#{$separator}': ':disabled');
+      @media(min-width: #{$value}) {
+        @each $prefix, $pseudo in $responsive-disabled {
+          @each $key, $value in $modifier {
+            #{$prefix}#{$utility}-#{$key}#{$pseudo} {
+              #{$property}: #{$value}
+            }
+          }
+        }
       }
     }
   }
