@@ -61,19 +61,14 @@ gulp.task('sass-raw', () => {
 // ...watch
 const watchSrcScssPath = 'src/**/**/**/**/*.scss'
 gulp.task('watch', gulp.series([
-
-    'sass-raw',
-    'sass-min',
-
+  'sass-raw',
+  'sass-min',
   ], () => {
-
     gulp.watch(watchSrcScssPath,
-
       gulp.series([
         'sass-raw',
         'sass-min'
       ])
     )
-
   })
 )
