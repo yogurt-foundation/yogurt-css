@@ -5,6 +5,8 @@ const postCss = require('gulp-postcss')
 const rename = require('gulp-rename')
 const sass = require('gulp-sass')
 const sassGlob = require('gulp-sass-glob')
+const sourcemaps = require('gulp-sourcemaps')
+const sizereport = require('gulp-sizereport')
 
 const { version } = require('./package.json')
 
@@ -21,22 +23,38 @@ const srcScssPath = 'src/yogurt.scss'
 const distCssPath = 'dist'
 gulp.task('sass-min', () => {
   return gulp.src(srcScssPath)
+    .pipe(sourcemaps.init())
     .pipe(sassGlob())
     .pipe(sass({ outputStyle: 'compressed' })
       .on('error', sass.logError))
     .pipe(postCss([autoPrefixer()]))
     .pipe(rename(minifiedOuput))
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(distCssPath))
+    .pipe(
+      sizereport({
+        gzip: true,
+        total: false
+      })
+    )
 })
 
 
 gulp.task('sass-raw', () => {
   return gulp.src(srcScssPath)
+    .pipe(sourcemaps.init())
     .pipe(sassGlob())
     .pipe(sass({ outputStyle: 'expanded' })
       .on('error', sass.logError))
     .pipe(rename(regularOutput))
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(distCssPath))
+    .pipe(
+      sizereport({
+        gzip: true,
+        total: false
+      })
+    )
 })
 
 
