@@ -2,13 +2,21 @@
  * @file: _pluginMaker.scss
  */
 
-$none: ('.': '');
+/*
+ * Example API,
+ *
+ *  @include plugin(
+ *    $utility: '',
+ *    $variant: '',
+ *    $property: '',
+ *    $modifier: ('': '')
+ *  )
+ *
+ * Use keyword for `$variant` to apply pseudo class variants, such as:
+ * hover, focus, active, visited, disabled, responsive, responsive-hover,
+ * responsive-focus, responsive-active, responsive-visited, responsive-disabled.
+ */
 
-$hover: ('.hover\\:': ':hover');
-$focus: ('.focus\\:': ':focus');
-$active: ('.active\\:': ':active');
-$visited: ('.visited\\:': ':visited');
-$disabled: ('.disabled\\:': ':disabled');
 
 @mixin plugin(
   $utility: null,

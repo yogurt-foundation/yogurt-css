@@ -103216,6 +103216,20 @@ y {
 /**
  * @file: _pluginMaker.scss
  */
+/*
+ * Example API,
+ *
+ *  @include plugin(
+ *    $utility: '',
+ *    $variant: '',
+ *    $property: '',
+ *    $modifier: ('': '')
+ *  )
+ *
+ * Use keyword for `$variant` to apply pseudo class variants, such as:
+ * hover, focus, active, visited, disabled, responsive, responsive-hover,
+ * responsive-focus, responsive-active, responsive-visited, responsive-disabled.
+ */
 /**
  * @file: _plugins.scss
  * @description: write your plugins here.
