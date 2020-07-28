@@ -6,15 +6,15 @@
 /*! plugins */
 
 // @include plugin(
-//   $utility: ('text'), // Utility Name
+//   $utility: 'text', // Utility Name
 //   /* variant options:
 //       hover, focus, active, visited, disabled,
 //       responsive, responsive-hover, responsive-focus,
 //       responsive-active, responsive-visited,
 //       responsive-disabled
 //   */
-//   $variant: '',
-//   $property: ('font-size'), // CSS Property
+//   $variant: 'responsive-hover',
+//   $property: 'font-size', // CSS Property
 //   $modifier: ( // Utility Modifier Names, CSS Values
 //     'xs': '0.75rem',
 //     'sm': '0.875rem',
