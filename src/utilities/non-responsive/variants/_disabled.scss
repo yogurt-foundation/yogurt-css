@@ -25,7 +25,7 @@
 // @include backgroundColorSpecial($prefix: $variant-disabled, $pseudo: $disabled)
 // @include backgroundColorTeal($prefix: $variant-disabled, $pseudo: $disabled)
 // @include backgroundColorYellow($prefix: $variant-disabled, $pseudo: $disabled)
-
+// -----
 // @include backgroundAttachment($prefix: $variant-disabled, $pseudo: $disabled)
 // @include backgroundPosition($prefix: $variant-disabled, $pseudo: $disabled)
 // @include backgroundRepeat($prefix: $variant-disabled, $pseudo: $disabled)
@@ -50,13 +50,12 @@
 // @include borderColorSpecial($prefix: $variant-disabled, $pseudo: $disabled)
 // @include borderColorTeal($prefix: $variant-disabled, $pseudo: $disabled)
 // @include borderColorYellow($prefix: $variant-disabled, $pseudo: $disabled)
-
+// -----
 // @include borderRadius($prefix: $variant-disabled, $pseudo: $disabled)
 // @include borderStyle($prefix: $variant-disabled, $pseudo: $disabled)
 // @include borderWidth($prefix: $variant-disabled, $pseudo: $disabled)
 // @include borderDissect($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.8)
-
-// (v1.0.8)
+// ----- (v1.0.8)
 // @include dissectColorAmber($prefix: $variant-disabled, $pseudo: $disabled)
 // @include dissectColorBlack($prefix: $variant-disabled, $pseudo: $disabled)
 // @include dissectColorBlue($prefix: $variant-disabled, $pseudo: $disabled)
@@ -72,7 +71,7 @@
 // @include dissectColorRed($prefix: $variant-disabled, $pseudo: $disabled)
 // @include dissectColorTeal($prefix: $variant-disabled, $pseudo: $disabled)
 // @include dissectColorYellow($prefix: $variant-disabled, $pseudo: $disabled)
-
+// -----
 // @include borderDissectOpacity($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.8)
 
 /* effects */
@@ -93,7 +92,7 @@
 // @include shadowColorRed($prefix: $variant-disabled, $pseudo: $disabled)
 // @include shadowColorTeal($prefix: $variant-disabled, $pseudo: $disabled)
 // @include shadowColorYellow($prefix: $variant-disabled, $pseudo: $disabled)
-
+// -----
 // @include boxShadow($prefix: $variant-disabled, $pseudo: $disabled)
 @include opacity($prefix: $variant-disabled, $pseudo: $disabled)
 // @include mixBlend($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.4)
@@ -160,12 +159,12 @@
 
 // @include margin($prefix: $variant-disabled, $pseudo: $disabled)
 // @include margin($negative: $true, $prefix: $variant-disabled, $pseudo: $disabled) // negative
-
+// -----
 // @include padding($prefix: $variant-disabled, $pseudo: $disabled)
-
+// -----
 // @include equal($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $variant-disabled, $pseudo: $disabled) // negative, (v1.0.8)
-
+// -----
 // @include fluidMargin($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.8)
 // @include fluidPadding($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.8)
 
@@ -184,15 +183,15 @@
 
 // @include transform($prefix: $variant-disabled, $pseudo: $disabled)
 // @include transformOrigin($prefix: $variant-disabled, $pseudo: $disabled)
-
+// -----
 // @include rotate($prefix: $variant-disabled, $pseudo: $disabled)
 // @include rotate($prefix: $variant-disabled, $pseudo: $disabled, $negative: $true) // negative
-
+// -----
 // @include scale($prefix: $variant-disabled, $pseudo: $disabled)
-
+// -----
 // @include skew($prefix: $variant-disabled, $pseudo: $disabled)
 // @include skew($prefix: $variant-disabled, $pseudo: $disabled, $negative: $true) // negative
-
+// -----
 // @include translate($prefix: $variant-disabled, $pseudo: $disabled)
 // @include translate($prefix: $variant-disabled, $pseudo: $disabled, $negative: $true) // negative
 
@@ -219,7 +218,7 @@
 // @include placeholderColorRed($prefix: $variant-disabled, $pseudo: $disabled)
 // @include placeholderColorTeal($prefix: $variant-disabled, $pseudo: $disabled)
 // @include placeholderColorYellow($prefix: $variant-disabled, $pseudo: $disabled)
-
+// -----
 // @include textColorAmber($prefix: $variant-disabled, $pseudo: $disabled)
 // @include textColorBlack($prefix: $variant-disabled, $pseudo: $disabled)
 // @include textColorBlue($prefix: $variant-disabled, $pseudo: $disabled)
@@ -236,12 +235,12 @@
 // @include textColorSpecial($prefix: $variant-disabled, $pseudo: $disabled)
 // @include textColorTeal($prefix: $variant-disabled, $pseudo: $disabled)
 // @include textColorYellow($prefix: $variant-disabled, $pseudo: $disabled)
-
+// -----
 // @include fontFamily($prefix: $variant-disabled, $pseudo: $disabled)
 // @include fontSize($prefix: $variant-disabled, $pseudo: $disabled)
-
+// -----
 // @include fluidFontSize($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.8)
-
+// -----
 // @include fontSmoothing($prefix: $variant-disabled, $pseudo: $disabled)
 // @include fontStyle($prefix: $variant-disabled, $pseudo: $disabled)
 // @include fontWeight($prefix: $variant-disabled, $pseudo: $disabled)
@@ -255,3 +254,4 @@
 // @include verticalAlign($prefix: $variant-disabled, $pseudo: $disabled)
 // @include whitespace($prefix: $variant-disabled, $pseudo: $disabled)
 // @include wordBreak($prefix: $variant-disabled, $pseudo: $disabled)
+

@@ -25,7 +25,7 @@
 @include backgroundColorSpecial($prefix: $variant-visited, $pseudo: $visited)
 @include backgroundColorTeal($prefix: $variant-visited, $pseudo: $visited)
 @include backgroundColorYellow($prefix: $variant-visited, $pseudo: $visited)
-
+// -----
 // @include backgroundAttachment($prefix: $variant-visited, $pseudo: $visited)
 // @include backgroundPosition($prefix: $variant-visited, $pseudo: $visited)
 // @include backgroundRepeat($prefix: $variant-visited, $pseudo: $visited)
@@ -50,13 +50,12 @@
 // @include borderColorSpecial($prefix: $variant-visited, $pseudo: $visited)
 // @include borderColorTeal($prefix: $variant-visited, $pseudo: $visited)
 // @include borderColorYellow($prefix: $variant-visited, $pseudo: $visited)
-
+// -----
 // @include borderRadius($prefix: $variant-visited, $pseudo: $visited)
 // @include borderStyle($prefix: $variant-visited, $pseudo: $visited)
 // @include borderWidth($prefix: $variant-visited, $pseudo: $visited)
 // @include borderDissect($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
-
-// (v1.0.8)
+// ----- (v1.0.8)
 // @include dissectColorAmber($prefix: $variant-visited, $pseudo: $visited)
 // @include dissectColorBlack($prefix: $variant-visited, $pseudo: $visited)
 // @include dissectColorBlue($prefix: $variant-visited, $pseudo: $visited)
@@ -72,12 +71,11 @@
 // @include dissectColorRed($prefix: $variant-visited, $pseudo: $visited)
 // @include dissectColorTeal($prefix: $variant-visited, $pseudo: $visited)
 // @include dissectColorYellow($prefix: $variant-visited, $pseudo: $visited)
-
+// -----
 // @include borderDissectOpacity($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
 
 /* effects */
 
-// (optional)
 // @include shadowColorAmber($prefix: $variant-visited, $pseudo: $visited)
 // @include shadowColorBlack($prefix: $variant-visited, $pseudo: $visited)
 // @include shadowColorBlue($prefix: $variant-visited, $pseudo: $visited)
@@ -93,7 +91,7 @@
 // @include shadowColorRed($prefix: $variant-visited, $pseudo: $visited)
 // @include shadowColorTeal($prefix: $variant-visited, $pseudo: $visited)
 // @include shadowColorYellow($prefix: $variant-visited, $pseudo: $visited)
-
+// -----
 // @include boxShadow($prefix: $variant-visited, $pseudo: $visited)
 // @include opacity($prefix: $variant-visited, $pseudo: $visited)
 // @include mixBlend($prefix: $variant-visited, $pseudo: $visited) // (v1.0.4)
@@ -102,7 +100,6 @@
 
 /* filters */
 
-// (optional)
 // @include filterBlur($prefix: $variant-visited, $pseudo: $visited) // (v1.0.3)
 // @include filterCompose($prefix: $variant-visited, $pseudo: $visited) // (v1.0.2)
 // @include filterInvert($prefix: $variant-visited, $pseudo: $visited) // (v1.0.3)
@@ -160,12 +157,12 @@
 
 // @include margin($prefix: $variant-visited, $pseudo: $visited)
 // @include margin($negative: $true, $prefix: $variant-visited, $pseudo: $visited) // negative
-
+// -----
 // @include padding($prefix: $variant-visited, $pseudo: $visited)
-
+// -----
 // @include equal($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $variant-visited, $pseudo: $visited) // negative, (v1.0.8)
-
+// -----
 // @include fluidMargin($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
 // @include fluidPadding($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
 
@@ -184,15 +181,15 @@
 
 // @include transform($prefix: $variant-visited, $pseudo: $visited)
 // @include transformOrigin($prefix: $variant-visited, $pseudo: $visited)
-
+// -----
 // @include rotate($prefix: $variant-visited, $pseudo: $visited)
 // @include rotate($prefix: $variant-visited, $pseudo: $visited, $negative: $true) // negative
-
+// -----
 // @include scale($prefix: $variant-visited, $pseudo: $visited)
-
+// -----
 // @include skew($prefix: $variant-visited, $pseudo: $visited)
 // @include skew($prefix: $variant-visited, $pseudo: $visited, $negative: $true) // negative
-
+// -----
 // @include translate($prefix: $variant-visited, $pseudo: $visited)
 // @include translate($prefix: $variant-visited, $pseudo: $visited, $negative: $true) // negative
 
@@ -219,7 +216,7 @@
 // @include placeholderColorRed($prefix: $variant-visited, $pseudo: $visited)
 // @include placeholderColorTeal($prefix: $variant-visited, $pseudo: $visited)
 // @include placeholderColorYellow($prefix: $variant-visited, $pseudo: $visited)
-
+// -----
 @include textColorAmber($prefix: $variant-visited, $pseudo: $visited)
 @include textColorBlack($prefix: $variant-visited, $pseudo: $visited)
 @include textColorBlue($prefix: $variant-visited, $pseudo: $visited)
@@ -236,12 +233,12 @@
 @include textColorSpecial($prefix: $variant-visited, $pseudo: $visited)
 @include textColorTeal($prefix: $variant-visited, $pseudo: $visited)
 @include textColorYellow($prefix: $variant-visited, $pseudo: $visited)
-
+// -----
 // @include fontFamily($prefix: $variant-visited, $pseudo: $visited)
 // @include fontSize($prefix: $variant-visited, $pseudo: $visited)
-
+// -----
 // @include fluidFontSize($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
-
+// -----
 // @include fontSmoothing($prefix: $variant-visited, $pseudo: $visited)
 // @include fontStyle($prefix: $variant-visited, $pseudo: $visited)
 // @include fontWeight($prefix: $variant-visited, $pseudo: $visited)
@@ -255,3 +252,4 @@
 // @include verticalAlign($prefix: $variant-visited, $pseudo: $visited)
 // @include whitespace($prefix: $variant-visited, $pseudo: $visited)
 // @include wordBreak($prefix: $variant-visited, $pseudo: $visited)
+

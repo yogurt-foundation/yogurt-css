@@ -24,8 +24,7 @@
 @include backgroundColorRed($prefix: $variant-hover, $pseudo: $hover)
 @include backgroundColorTeal($prefix: $variant-hover, $pseudo: $hover)
 @include backgroundColorYellow($prefix: $variant-hover, $pseudo: $hover)
-
-// GROUP
+// ----- GROUP
 @include backgroundColorAmber($prefix: $variant-group-hover)
 @include backgroundColorBlack($prefix: $variant-group-hover)
 @include backgroundColorBlue($prefix: $variant-group-hover)
@@ -41,7 +40,7 @@
 @include backgroundColorRed($prefix: $variant-group-hover)
 @include backgroundColorTeal($prefix: $variant-group-hover)
 @include backgroundColorYellow($prefix: $variant-group-hover)
-
+// -----
 // @include backgroundAttachment($prefix: $variant-hover, $pseudo: $hover)
 // @include backgroundPosition($prefix: $variant-hover, $pseudo: $hover)
 // @include backgroundRepeat($prefix: $variant-hover, $pseudo: $hover)
@@ -66,13 +65,12 @@
 @include borderColorSpecial($prefix: $variant-hover, $pseudo: $hover)
 @include borderColorTeal($prefix: $variant-hover, $pseudo: $hover)
 @include borderColorYellow($prefix: $variant-hover, $pseudo: $hover)
-
+// -----
 // @include borderRadius($prefix: $variant-hover, $pseudo: $hover)
 // @include borderStyle($prefix: $variant-hover, $pseudo: $hover)
 // @include borderWidth($prefix: $variant-hover, $pseudo: $hover)
 // @include borderDissect($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
-
-// (v1.0.8)
+// ----- (v1.0.8)
 // @include dissectColorAmber($prefix: $variant-hover, $pseudo: $hover)
 // @include dissectColorBlack($prefix: $variant-hover, $pseudo: $hover)
 // @include dissectColorBlue($prefix: $variant-hover, $pseudo: $hover)
@@ -88,12 +86,11 @@
 // @include dissectColorRed($prefix: $variant-hover, $pseudo: $hover)
 // @include dissectColorTeal($prefix: $variant-hover, $pseudo: $hover)
 // @include dissectColorYellow($prefix: $variant-hover, $pseudo: $hover)
-
+// -----
 @include borderDissectOpacity($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
 
 /* effects */
 
-// (optional)
 // @include shadowColorAmber($prefix: $variant-hover, $pseudo: $hover)
 // @include shadowColorBlack($prefix: $variant-hover, $pseudo: $hover)
 // @include shadowColorBlue($prefix: $variant-hover, $pseudo: $hover)
@@ -109,7 +106,7 @@
 // @include shadowColorRed($prefix: $variant-hover, $pseudo: $hover)
 // @include shadowColorTeal($prefix: $variant-hover, $pseudo: $hover)
 // @include shadowColorYellow($prefix: $variant-hover, $pseudo: $hover)
-
+// -----
 @include boxShadow($prefix: $variant-hover, $pseudo: $hover)
 @include opacity($prefix: $variant-hover, $pseudo: $hover)
 // @include mixBlend($prefix: $variant-hover, $pseudo: $hover) // (v1.0.4)
@@ -118,7 +115,6 @@
 
 /* filters */
 
-// (optional)
 // @include filterBlur($prefix: $variant-hover, $pseudo: $hover) // (v1.0.3)
 // @include filterCompose($prefix: $variant-hover, $pseudo: $hover) // (v1.0.2)
 // @include filterInvert($prefix: $variant-hover, $pseudo: $hover) // (v1.0.3)
@@ -162,8 +158,7 @@
 @include position($prefix: $variant-hover, $pseudo: $hover)
 @include visibility($prefix: $variant-hover, $pseudo: $hover)
 // @include zIndex($prefix: $variant-hover, $pseudo: $hover)
-
-// GROUP
+// ----- GROUP
 @include display($prefix: $variant-group-hover)
 @include visibility($prefix: $variant-group-hover)
 
@@ -180,12 +175,12 @@
 
 // @include margin($prefix: $variant-hover, $pseudo: $hover)
 // @include margin($negative: $true, $prefix: $variant-hover, $pseudo: $hover) // negative
-
+// -----
 // @include padding($prefix: $variant-hover, $pseudo: $hover)
-
+// -----
 // @include equal($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $variant-hover, $pseudo: $hover) // negative, (v1.0.8)
-
+// -----
 // @include fluidMargin($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
 // @include fluidPadding($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
 
@@ -204,15 +199,15 @@
 
 // @include transform($prefix: $variant-hover, $pseudo: $hover)
 @include transformOrigin($prefix: $variant-hover, $pseudo: $hover)
-
+// -----
 @include rotate($prefix: $variant-hover, $pseudo: $hover)
 @include rotate($prefix: $variant-hover, $pseudo: $hover, $negative: $true) // negative
-
+// -----
 @include scale($prefix: $variant-hover, $pseudo: $hover)
-
+// -----
 @include skew($prefix: $variant-hover, $pseudo: $hover)
 @include skew($prefix: $variant-hover, $pseudo: $hover, $negative: $true) // negative
-
+// -----
 @include translate($prefix: $variant-hover, $pseudo: $hover)
 @include translate($prefix: $variant-hover, $pseudo: $hover, $negative: $true) // negative
 
@@ -239,7 +234,7 @@
 // @include placeholderColorRed($prefix: $variant-hover, $pseudo: $hover)
 // @include placeholderColorTeal($prefix: $variant-hover, $pseudo: $hover)
 // @include placeholderColorYellow($prefix: $variant-hover, $pseudo: $hover)
-
+// -----
 @include textColorAmber($prefix: $variant-hover, $pseudo: $hover)
 @include textColorBlack($prefix: $variant-hover, $pseudo: $hover)
 @include textColorBlue($prefix: $variant-hover, $pseudo: $hover)
@@ -256,8 +251,7 @@
 @include textColorSpecial($prefix: $variant-hover, $pseudo: $hover)
 @include textColorTeal($prefix: $variant-hover, $pseudo: $hover)
 @include textColorYellow($prefix: $variant-hover, $pseudo: $hover)
-
-// GROUP
+// ----- GROUP
 @include textColorAmber($prefix: $variant-group-hover)
 @include textColorBlack($prefix: $variant-group-hover)
 @include textColorBlue($prefix: $variant-group-hover)
@@ -274,12 +268,12 @@
 @include textColorSpecial($prefix: $variant-group-hover)
 @include textColorTeal($prefix: $variant-group-hover)
 @include textColorYellow($prefix: $variant-group-hover)
-
+// -----
 // @include fontFamily($prefix: $variant-hover, $pseudo: $hover)
 // @include fontSize($prefix: $variant-hover, $pseudo: $hover)
-
+// -----
 // @include fluidFontSize($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
-
+// -----
 // @include fontSmoothing($prefix: $variant-hover, $pseudo: $hover)
 // @include fontStyle($prefix: $variant-hover, $pseudo: $hover)
 @include fontWeight($prefix: $variant-hover, $pseudo: $hover)
@@ -294,6 +288,6 @@
 // @include verticalAlign($prefix: $variant-hover, $pseudo: $hover)
 // @include whitespace($prefix: $variant-hover, $pseudo: $hover)
 // @include wordBreak($prefix: $variant-hover, $pseudo: $hover)
-
-// GROUP
+// ----- GROUP
 @include textDecoration($prefix: $variant-group-hover)
+

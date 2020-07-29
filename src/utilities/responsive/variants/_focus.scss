@@ -25,7 +25,7 @@
 // @include backgroundColorSpecial($prefix: $responsive-focus, $pseudo: $focus)
 // @include backgroundColorTeal($prefix: $responsive-focus, $pseudo: $focus)
 // @include backgroundColorYellow($prefix: $responsive-focus, $pseudo: $focus)
-
+// -----
 // @include backgroundAttachment($prefix: $responsive-focus, $pseudo: $focus)
 // @include backgroundPosition($prefix: $responsive-focus, $pseudo: $focus)
 // @include backgroundRepeat($prefix: $responsive-focus, $pseudo: $focus)
@@ -50,13 +50,12 @@
 // @include borderColorSpecial($prefix: $responsive-focus, $pseudo: $focus)
 // @include borderColorTeal($prefix: $responsive-focus, $pseudo: $focus)
 // @include borderColorYellow($prefix: $responsive-focus, $pseudo: $focus)
-
+// -----
 // @include borderRadius($prefix: $responsive-focus, $pseudo: $focus)
 // @include borderStyle($prefix: $responsive-focus, $pseudo: $focus)
 // @include borderWidth($prefix: $responsive-focus, $pseudo: $focus)
 // @include borderDissect($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.8)
-
-// (v1.0.8)
+// ----- (v1.0.8)
 // @include dissectColorAmber($prefix: $responsive-focus, $pseudo: $focus)
 // @include dissectColorBlack($prefix: $responsive-focus, $pseudo: $focus)
 // @include dissectColorBlue($prefix: $responsive-focus, $pseudo: $focus)
@@ -72,12 +71,11 @@
 // @include dissectColorRed($prefix: $responsive-focus, $pseudo: $focus)
 // @include dissectColorTeal($prefix: $responsive-focus, $pseudo: $focus)
 // @include dissectColorYellow($prefix: $responsive-focus, $pseudo: $focus)
-
+// -----
 // @include borderDissectOpacity($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.8)
 
 /* effects */
 
-// (optional)
 // @include shadowColorAmber($prefix: $responsive-focus, $pseudo: $focus)
 // @include shadowColorBlack($prefix: $responsive-focus, $pseudo: $focus)
 // @include shadowColorBlue($prefix: $responsive-focus, $pseudo: $focus)
@@ -93,7 +91,7 @@
 // @include shadowColorRed($prefix: $responsive-focus, $pseudo: $focus)
 // @include shadowColorTeal($prefix: $responsive-focus, $pseudo: $focus)
 // @include shadowColorYellow($prefix: $responsive-focus, $pseudo: $focus)
-
+// -----
 // @include boxShadow($prefix: $responsive-focus, $pseudo: $focus)
 // @include opacity($prefix: $responsive-focus, $pseudo: $focus)
 // @include mixBlend($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.4)
@@ -102,7 +100,6 @@
 
 /* filters */
 
-// (optional)
 // @include filterBlur($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.3)
 // @include filterCompose($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.2)
 // @include filterInvert($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.3)
@@ -160,9 +157,9 @@
 
 // @include margin($prefix: $responsive-focus, $pseudo: $focus)
 // @include margin($negative: $true, $prefix: $responsive-focus, $pseudo: $focus) // negative
-
+// -----
 // @include padding($prefix: $responsive-focus, $pseudo: $focus)
-
+// -----
 // @include equal($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $responsive-focus, $pseudo: $focus) // negative, (v1.0.8)
 
@@ -181,15 +178,15 @@
 
 // @include transform($prefix: $responsive-focus, $pseudo: $focus)
 // @include transformOrigin($prefix: $responsive-focus, $pseudo: $focus)
-
+// -----
 // @include rotate($prefix: $responsive-focus, $pseudo: $focus)
 // @include rotate($prefix: $responsive-focus, $pseudo: $focus, $negative: $true) // negative
-
+// -----
 // @include scale($prefix: $responsive-focus, $pseudo: $focus)
-
+// -----
 // @include skew($prefix: $responsive-focus, $pseudo: $focus)
 // @include skew($prefix: $responsive-focus, $pseudo: $focus, $negative: $true) // negative
-
+// -----
 // @include translate($prefix: $responsive-focus, $pseudo: $focus)
 // @include translate($prefix: $responsive-focus, $pseudo: $focus, $negative: $true) // negative
 
@@ -216,7 +213,7 @@
 // @include placeholderColorRed($prefix: $responsive-focus, $pseudo: $focus)
 // @include placeholderColorTeal($prefix: $responsive-focus, $pseudo: $focus)
 // @include placeholderColorYellow($prefix: $responsive-focus, $pseudo: $focus)
-
+// -----
 // @include textColorAmber($prefix: $responsive-focus, $pseudo: $focus)
 // @include textColorBlack($prefix: $responsive-focus, $pseudo: $focus)
 // @include textColorBlue($prefix: $responsive-focus, $pseudo: $focus)
@@ -233,7 +230,7 @@
 // @include textColorSpecial($prefix: $responsive-focus, $pseudo: $focus)
 // @include textColorTeal($prefix: $responsive-focus, $pseudo: $focus)
 // @include textColorYellow($prefix: $responsive-focus, $pseudo: $focus)
-
+// -----
 // @include fontFamily($prefix: $responsive-focus, $pseudo: $focus)
 // @include fontSize($prefix: $responsive-focus, $pseudo: $focus)
 // @include fontSmoothing($prefix: $responsive-focus, $pseudo: $focus)
@@ -249,3 +246,4 @@
 // @include verticalAlign($prefix: $responsive-focus, $pseudo: $focus)
 // @include whitespace($prefix: $responsive-focus, $pseudo: $focus)
 // @include wordBreak($prefix: $responsive-focus, $pseudo: $focus)
+

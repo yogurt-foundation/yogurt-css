@@ -25,7 +25,7 @@
 // @include backgroundColorSpecial($prefix: $responsive-visited, $pseudo: $visited)
 // @include backgroundColorTeal($prefix: $responsive-visited, $pseudo: $visited)
 // @include backgroundColorYellow($prefix: $responsive-visited, $pseudo: $visited)
-
+// -----
 // @include backgroundAttachment($prefix: $responsive-visited, $pseudo: $visited)
 // @include backgroundPosition($prefix: $responsive-visited, $pseudo: $visited)
 // @include backgroundRepeat($prefix: $responsive-visited, $pseudo: $visited)
@@ -50,13 +50,12 @@
 // @include borderColorSpecial($prefix: $responsive-visited, $pseudo: $visited)
 // @include borderColorTeal($prefix: $responsive-visited, $pseudo: $visited)
 // @include borderColorYellow($prefix: $responsive-visited, $pseudo: $visited)
-
+// -----
 // @include borderRadius($prefix: $responsive-visited, $pseudo: $visited)
 // @include borderStyle($prefix: $responsive-visited, $pseudo: $visited)
 // @include borderWidth($prefix: $responsive-visited, $pseudo: $visited)
 // @include borderDissect($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.8)
-
-// (v1.0.8)
+// ----- (v1.0.8)
 // @include dissectColorAmber($prefix: $responsive-visited, $pseudo: $visited)
 // @include dissectColorBlack($prefix: $responsive-visited, $pseudo: $visited)
 // @include dissectColorBlue($prefix: $responsive-visited, $pseudo: $visited)
@@ -72,12 +71,11 @@
 // @include dissectColorRed($prefix: $responsive-visited, $pseudo: $visited)
 // @include dissectColorTeal($prefix: $responsive-visited, $pseudo: $visited)
 // @include dissectColorYellow($prefix: $responsive-visited, $pseudo: $visited)
-
+// -----
 // @include borderDissectOpacity($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.8)
 
 /* effects */
 
-// (optional)
 // @include shadowColorAmber($prefix: $responsive-visited, $pseudo: $visited)
 // @include shadowColorBlack($prefix: $responsive-visited, $pseudo: $visited)
 // @include shadowColorBlue($prefix: $responsive-visited, $pseudo: $visited)
@@ -93,7 +91,7 @@
 // @include shadowColorRed($prefix: $responsive-visited, $pseudo: $visited)
 // @include shadowColorTeal($prefix: $responsive-visited, $pseudo: $visited)
 // @include shadowColorYellow($prefix: $responsive-visited, $pseudo: $visited)
-
+// -----
 // @include boxShadow($prefix: $responsive-visited, $pseudo: $visited)
 // @include opacity($prefix: $responsive-visited, $pseudo: $visited)
 // @include mixBlend($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.4)
@@ -102,7 +100,6 @@
 
 /* filters */
 
-// (optional)
 // @include filterBlur($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.3)
 // @include filterCompose($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.2)
 // @include filterInvert($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.3)
@@ -160,9 +157,9 @@
 
 // @include margin($prefix: $responsive-visited, $pseudo: $visited)
 // @include margin($negative: $true, $prefix: $responsive-visited, $pseudo: $visited) // negative
-
+// -----
 // @include padding($prefix: $responsive-visited, $pseudo: $visited)
-
+// -----
 // @include equal($prefix: $responsive-hover, $pseudo: $hover) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $responsive-hover, $pseudo: $hover) // negative, (v1.0.8)
 
@@ -181,15 +178,15 @@
 
 // @include transform($prefix: $responsive-visited, $pseudo: $visited)
 // @include transformOrigin($prefix: $responsive-visited, $pseudo: $visited)
-
+// -----
 // @include rotate($prefix: $responsive-visited, $pseudo: $visited)
 // @include rotate($prefix: $responsive-visited, $pseudo: $visited, $negative: $true) // negative
-
+// -----
 // @include scale($prefix: $responsive-visited, $pseudo: $visited)
-
+// -----
 // @include skew($prefix: $responsive-visited, $pseudo: $visited)
 // @include skew($prefix: $responsive-visited, $pseudo: $visited, $negative: $true) // negative
-
+// -----
 // @include translate($prefix: $responsive-visited, $pseudo: $visited)
 // @include translate($prefix: $responsive-visited, $pseudo: $visited, $negative: $true) // negative
 
@@ -216,7 +213,7 @@
 // @include placeholderColorRed($prefix: $responsive-visited, $pseudo: $visited)
 // @include placeholderColorTeal($prefix: $responsive-visited, $pseudo: $visited)
 // @include placeholderColorYellow($prefix: $responsive-visited, $pseudo: $visited)
-
+// -----
 // @include textColorAmber($prefix: $responsive-visited, $pseudo: $visited)
 // @include textColorBlack($prefix: $responsive-visited, $pseudo: $visited)
 // @include textColorBlue($prefix: $responsive-visited, $pseudo: $visited)
@@ -233,7 +230,7 @@
 // @include textColorSpecial($prefix: $responsive-visited, $pseudo: $visited)
 // @include textColorTeal($prefix: $responsive-visited, $pseudo: $visited)
 // @include textColorYellow($prefix: $responsive-visited, $pseudo: $visited)
-
+// -----
 // @include fontFamily($prefix: $responsive-visited, $pseudo: $visited)
 // @include fontSize($prefix: $responsive-visited, $pseudo: $visited)
 // @include fontSmoothing($prefix: $responsive-visited, $pseudo: $visited)
@@ -249,3 +246,4 @@
 // @include verticalAlign($prefix: $responsive-visited, $pseudo: $visited)
 // @include whitespace($prefix: $responsive-visited, $pseudo: $visited)
 // @include wordBreak($prefix: $responsive-visited, $pseudo: $visited)
+
