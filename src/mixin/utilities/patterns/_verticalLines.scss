@@ -1,0 +1,30 @@
+/**
+ * @utility: patterns
+ * @module: _verticalLines.scss
+ * @desc: sets the element background with vertical-lines patterns
+ */
+
+@mixin patternVerticalLines(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier, $value in $pattern-size {
+    @if index($patterns, 'vertical-lines') {
+      @include setRule(
+        $prefix: ".pattern",
+        $pseudo: $pseudo,
+        $class: $class,
+        $selector: "vertical-lines-",
+        $modifier: $modifier,
+        $property1: "background-image",
+        $value1: "repeating-linear-gradient(to right, currentColor, currentColor 1px, transparent 1px, transparent)",
+        $property2: "background-size",
+        $value2: "#{$value} #{$value}"
+      )
+    }
+  }
+}
+
+@include patternVerticalLines($class: $default)
+

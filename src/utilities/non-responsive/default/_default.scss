@@ -145,6 +145,10 @@
 @include visibility($class: $default)
 @include zIndex($class: $default)
 
+/* patterns */
+
+// (1.0.8)
+
 /* sizing */
 
 @include height($class: $default)

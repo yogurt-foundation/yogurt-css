@@ -1,0 +1,29 @@
+/**
+ * @utility: patterns
+ * @module: _zigzag.scss
+ * @desc: sets the element background with zigzag patterns
+ */
+
+@mixin patternZigzag(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @if index($patterns, 'zigzag') {
+    @each $modifier, $value in $pattern-size {
+      @include setRule(
+        $prefix: ".pattern",
+        $pseudo: $pseudo,
+        $class: $class,
+        $selector: "zigzag-",
+        $modifier: $modifier,
+        $property1: "background",
+        $value1: "linear-gradient(135deg, currentColor 25%, transparent 25%) -#{$value} 0, linear-gradient(225deg, currentColor 25%, transparent 25%) -#{$value} 0, linear-gradient(315deg, currentColor 25%, transparent 25%), linear-gradient(45deg, currentColor 25%, transparent 25%)",
+        $property2: "background-size",
+        $value2: calc(2 * #{$value}) calc(2 * #{$value})
+      )
+    }
+  }
+}
+
+@include patternZigzag($class: $default)

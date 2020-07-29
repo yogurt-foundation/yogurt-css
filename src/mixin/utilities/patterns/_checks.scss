@@ -1,0 +1,31 @@
+/**
+ * @utility: patterns
+ * @module: _checks.scss
+ * @desc: sets the element background with checks patterns
+ */
+
+@mixin patternChecks(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @if index($patterns, 'checks') {
+    @each $modifier, $value in $pattern-size {
+      @include setRule(
+        $prefix: ".pattern",
+        $pseudo: $pseudo,
+        $class: $class,
+        $selector: "checks-",
+        $modifier: $modifier,
+        $property1: "background-image",
+        $value1: "repeating-linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%, currentColor), repeating-linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%, currentColor)",
+        $property2: "background-position",
+        $value2: "0 0, #{$value} #{$value}",
+        $property3: "background-size",
+        $value3: calc(2 * #{$value}) calc(2 * #{$value})
+      )
+    }
+  }
+}
+
+@include patternChecks($class: $default)

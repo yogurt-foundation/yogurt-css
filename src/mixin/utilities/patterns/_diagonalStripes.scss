@@ -1,0 +1,27 @@
+/**
+ * @utility: patterns
+ * @module: _diagonalStripes.scss
+ * @desc: sets the element background with diagonal-stripes patterns
+ */
+
+@mixin patternDiagonalStripes(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier, $value in $pattern-size {
+    @if index($patterns, 'diagonal-stripes') {
+      @include setRule(
+        $prefix: ".pattern",
+        $pseudo: $pseudo,
+        $class: $class,
+        $selector: "diagonal-stripes-",
+        $modifier: $modifier,
+        $property1: "background",
+        $value1: "repeating-linear-gradient(45deg, transparent, transparent #{$value}, currentColor #{$value}, currentColor calc(2 * #{$value}))"
+      )
+    }
+  }
+}
+
+@include patternDiagonalStripes($class: $default)

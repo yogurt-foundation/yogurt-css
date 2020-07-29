@@ -1,0 +1,29 @@
+/**
+ * @utility: patterns
+ * @module: _dots.scss
+ * @desc: sets the element background with dots patterns
+ */
+
+@mixin patternDots(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @if index($patterns, 'dots') {
+    @each $modifier, $value in $pattern-dot-size {
+      @include setRule(
+        $prefix: ".pattern",
+        $pseudo: $pseudo,
+        $class: $class,
+        $selector: "dots-",
+        $modifier: $modifier,
+        $property1: "background-image",
+        $value1: "radial-gradient(currentColor #{$value}, transparent #{$value})",
+        $property2: "background-size",
+        $value2: calc(10 * #{$value}) calc(10 * #{$value})
+      )
+    }
+  }
+}
+
+@include patternDots($class: $default)

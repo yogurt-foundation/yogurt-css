@@ -1,0 +1,30 @@
+/**
+ * @utility: patterns
+ * @module: _horizontalLines.scss
+ * @desc: sets the element background with horizontal-lines patterns
+ */
+
+@mixin patternHorizontalLines(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier, $value in $pattern-size {
+    @if index($patterns, 'horizontal-lines') {
+      @include setRule(
+        $prefix: ".pattern",
+        $pseudo: $pseudo,
+        $class: $class,
+        $selector: "horizontal-lines-",
+        $modifier: $modifier,
+        $property1: "background-image",
+        $value1: "repeating-linear-gradient(0deg, currentColor, currentColor 1px, transparent 1px, transparent)",
+        $property2: "background-size",
+        $value2: "#{$value} #{$value}"
+      )
+    }
+  }
+}
+
+@include patternHorizontalLines($class: $default)
+

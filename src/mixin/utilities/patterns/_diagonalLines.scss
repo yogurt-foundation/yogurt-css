@@ -1,0 +1,29 @@
+/**
+ * @utility: patterns
+ * @module: _diagonalLines.scss
+ * @desc: sets the element background with diagonal-lines patterns
+ */
+
+@mixin patternDiagonalLines(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier, $value in $pattern-size {
+    @if index($patterns, 'diagonal-lines') {
+      @include setRule(
+        $prefix: ".pattern",
+        $pseudo: $pseudo,
+        $class: $class,
+        $selector: "diagonal-lines-",
+        $modifier: $modifier,
+        $property1: "background-image",
+        $value1: "repeating-linear-gradient(45deg, currentColor 0, currentColor 1px, transparent 0, transparent 50%)",
+        $property2: "background-size",
+        $value2: "#{$value} #{$value}"
+      )
+    }
+  }
+}
+
+@include patternDiagonalLines($class: $default)

@@ -1,0 +1,30 @@
+/**
+ * @utility: patterns
+ * @module: _verticalStripes.scss
+ * @desc: sets the element background with vertical-stripes patterns
+ */
+
+@mixin patternHorizontalStripes(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier, $value in $pattern-size {
+    @if index($patterns, 'horizontal-stripes') {
+      @include setRule(
+        $prefix: ".pattern",
+        $pseudo: $pseudo,
+        $class: $class,
+        $selector: "horizontal-stripes-",
+        $modifier: $modifier,
+        $property1: "background-image",
+        $value1: "linear-gradient(0deg, transparent 50%, currentColor 50%)",
+        $property2: "background-size",
+        $value2: "#{$value} #{$value}"
+      )
+    }
+  }
+}
+
+@include patternHorizontalStripes($class: $default)
+
