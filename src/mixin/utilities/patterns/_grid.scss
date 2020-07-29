@@ -1,0 +1,30 @@
+/**
+ * @utility: patterns
+ * @module: _grid.scss
+ * @desc: sets the element background with grid patterns
+ */
+
+@mixin patternGrid(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @if index($patterns, 'grid') {
+    @each $modifier, $value in $pattern-size {
+      @include setRule(
+        $prefix: ".pattern",
+        $pseudo: $pseudo,
+        $class: $class,
+        $selector: "grid-",
+        $modifier: $modifier,
+        $property1: "background-image",
+        $value1: "linear-gradient(currentColor 1px, transparent 1px), linear-gradient(to right, currentColor 1px, transparent 1px)",
+        $property2: "background-size",
+        $value2: "#{$value} #{$value}"
+      )
+    }
+  }
+}
+
+
+

@@ -1200,3 +1200,33 @@ $fluid-spacing:
   (48, 12rem),
   (56, 14rem),
   (64, 16rem);
+
+/* patterns */
+
+$patterns: (
+  'checks',
+  'cross-dots',
+  'diagonal-lines',
+  'diagonal-stripes',
+  'dots',
+  'grid',
+  'horizontal-lines',
+  'horizontal-stripes',
+  'triangles',
+  'vertical-lines',
+  'vertical-stripes',
+  'zigzag'
+);
+
+$pattern-size:
+  (sm, 10px),
+  (md, 25px),
+  (lg, 50px),
+  (xl, 100px);
+
+$pattern-dot-size:
+  (sm, 5px),
+  (md, 1px),
+  (lg, 1.5px),
+  (xl, 2px);
+

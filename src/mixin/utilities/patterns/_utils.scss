@@ -1,0 +1,10 @@
+/**
+ * @utility: patterns
+ * @module: _utils.scss
+ * @desc: helpers
+ */
+
+.pattern.clip-text {
+  background-clip: text;
+  -webkit-text-fill-color: transparent
+}

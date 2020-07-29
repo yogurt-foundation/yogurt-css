@@ -1,0 +1,29 @@
+/**
+ * @utility: patterns
+ * @module: _triangles.scss
+ * @desc: sets the element background with triangles patterns
+ */
+
+@mixin patternTriangles(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @if index($patterns, 'triangles') {
+    @each $modifier, $value in $pattern-size {
+      @include setRule(
+        $prefix: ".pattern",
+        $pseudo: $pseudo,
+        $class: $class,
+        $selector: "triangles-",
+        $modifier: $modifier,
+        $property1: "background-image",
+        $value1: "linear-gradient(45deg, currentColor 50%, transparent 50%)",
+        $property2: "background-size",
+        $value2: "#{$value} #{$value}"
+      )
+    }
+  }
+}
+
+

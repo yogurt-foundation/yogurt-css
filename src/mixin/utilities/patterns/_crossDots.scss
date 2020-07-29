@@ -1,0 +1,32 @@
+/**
+ * @utility: patterns
+ * @module: _crossDots.scss
+ * @desc: sets the element background with cross-dots patterns
+ */
+
+@mixin patternCrossDots(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @if index($patterns, 'cross-dots') {
+    @each $modifier, $value in $pattern-dot-size {
+      @include setRule(
+        $prefix: ".pattern",
+        $pseudo: $pseudo,
+        $class: $class,
+        $selector: "cross-dots-",
+        $modifier: $modifier,
+        $property1: "background-image",
+        $value1: "radial-gradient(currentColor #{$value}, transparent #{$value}), radial-gradient(currentColor #{$value}, transparent #{$value})",
+        $property2: "background-size",
+        $value2: calc(20 * #{$value}) calc(20 * #{$value}),
+        $property3: "background-position",
+        $value3: "0 0, calc(10 * #{$value}) calc(10 * #{$value})"
+      )
+    }
+  }
+}
+
+
+
