@@ -7,6 +7,7 @@ const sass = require('gulp-sass')
 const sassGlob = require('gulp-sass-glob')
 const sourcemaps = require('gulp-sourcemaps')
 const sizereport = require('gulp-sizereport')
+const gzip = require('gulp-gzip')
 
 const { version } = require('./package.json')
 
@@ -30,6 +31,7 @@ gulp.task('sass-min', () => {
     .pipe(postCss([autoPrefixer()]))
     .pipe(rename(minifiedOuput))
     .pipe(sourcemaps.write('.'))
+    .pipe(gzip())
     .pipe(gulp.dest(distCssPath))
     .pipe(
       sizereport({
@@ -48,6 +50,7 @@ gulp.task('sass-raw', () => {
       .on('error', sass.logError))
     .pipe(rename(regularOutput))
     .pipe(sourcemaps.write('.'))
+    .pipe(gzip())
     .pipe(gulp.dest(distCssPath))
     .pipe(
       sizereport({
