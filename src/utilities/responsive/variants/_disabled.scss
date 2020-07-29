@@ -25,7 +25,7 @@
 // @include backgroundColorSpecial($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include backgroundColorTeal($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include backgroundColorYellow($prefix: $responsive-disabled, $pseudo: $disabled)
-
+// -----
 // @include backgroundAttachment($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include backgroundPosition($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include backgroundRepeat($prefix: $responsive-disabled, $pseudo: $disabled)
@@ -50,13 +50,12 @@
 // @include borderColorSpecial($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include borderColorTeal($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include borderColorYellow($prefix: $responsive-disabled, $pseudo: $disabled)
-
+// -----
 // @include borderRadius($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include borderStyle($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include borderWidth($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include borderDissect($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.0.8)
-
-// (v1.0.8)
+// ----- (v1.0.8)
 // @include dissectColorAmber($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include dissectColorBlack($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include dissectColorBlue($prefix: $responsive-disabled, $pseudo: $disabled)
@@ -72,12 +71,11 @@
 // @include dissectColorRed($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include dissectColorTeal($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include dissectColorYellow($prefix: $responsive-disabled, $pseudo: $disabled)
-
+// -----
 // @include borderDissectOpacity($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.0.8)
 
 /* effects */
 
-// (optional)
 // @include shadowColorAmber($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include shadowColorBlack($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include shadowColorBlue($prefix: $responsive-disabled, $pseudo: $disabled)
@@ -93,7 +91,7 @@
 // @include shadowColorRed($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include shadowColorTeal($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include shadowColorYellow($prefix: $responsive-disabled, $pseudo: $disabled)
-
+// -----
 // @include boxShadow($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include opacity($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include mixBlend($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.0.4)
@@ -102,7 +100,6 @@
 
 /* filters */
 
-// (optional)
 // @include filterBlur($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.0.3)
 // @include filterCompose($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.0.2)
 // @include filterInvert($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.0.3)
@@ -160,9 +157,9 @@
 
 // @include margin($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include margin($negative: $true, $prefix: $responsive-disabled, $pseudo: $disabled) // negative
-
+// -----
 // @include padding($prefix: $responsive-disabled, $pseudo: $disabled)
-
+// -----
 // @include equal($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $responsive-disabled, $pseudo: $disabled) // negative, (v1.0.8)
 
@@ -181,15 +178,15 @@
 
 // @include transform($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include transformOrigin($prefix: $responsive-disabled, $pseudo: $disabled)
-
+// -----
 // @include rotate($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include rotate($prefix: $responsive-disabled, $pseudo: $disabled, $negative: $true) // negative
-
+// -----
 // @include scale($prefix: $responsive-disabled, $pseudo: $disabled)
-
+// -----
 // @include skew($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include skew($prefix: $responsive-disabled, $pseudo: $disabled, $negative: $true) // negative
-
+// -----
 // @include translate($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include translate($prefix: $responsive-disabled, $pseudo: $disabled, $negative: $true) // negative
 
@@ -216,7 +213,7 @@
 // @include placeholderColorRed($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include placeholderColorTeal($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include placeholderColorYellow($prefix: $responsive-disabled, $pseudo: $disabled)
-
+// -----
 // @include textColorAmber($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include textColorBlack($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include textColorBlue($prefix: $responsive-disabled, $pseudo: $disabled)
@@ -233,7 +230,7 @@
 // @include textColorSpecial($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include textColorTeal($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include textColorYellow($prefix: $responsive-disabled, $pseudo: $disabled)
-
+// -----
 // @include fontFamily($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include fontSize($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include fontSmoothing($prefix: $responsive-disabled, $pseudo: $disabled)
@@ -249,3 +246,4 @@
 // @include verticalAlign($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include whitespace($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include wordBreak($prefix: $responsive-disabled, $pseudo: $disabled)
+

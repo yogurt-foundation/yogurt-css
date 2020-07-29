@@ -25,7 +25,7 @@
 @include backgroundColorSpecial($prefix: $variant-active, $pseudo: $active)
 @include backgroundColorTeal($prefix: $variant-active, $pseudo: $active)
 @include backgroundColorYellow($prefix: $variant-active, $pseudo: $active)
-
+// -----
 // @include backgroundAttachment($prefix: $variant-active, $pseudo: $active)
 // @include backgroundPosition($prefix: $variant-active, $pseudo: $active)
 // @include backgroundRepeat($prefix: $variant-active, $pseudo: $active)
@@ -50,13 +50,12 @@
 // @include borderColorSpecial($prefix: $variant-active, $pseudo: $active)
 // @include borderColorTeal($prefix: $variant-active, $pseudo: $active)
 // @include borderColorYellow($prefix: $variant-active, $pseudo: $active)
-
+// -----
 // @include borderRadius($prefix: $variant-active, $pseudo: $active)
 // @include borderStyle($prefix: $variant-active, $pseudo: $active)
 // @include borderWidth($prefix: $variant-active, $pseudo: $active)
 // @include borderDissect($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
-
-// (v1.0.8)
+// ----- (v1.0.8)
 // @include dissectColorAmber($prefix: $variant-active, $pseudo: $active)
 // @include dissectColorBlack($prefix: $variant-active, $pseudo: $active)
 // @include dissectColorBlue($prefix: $variant-active, $pseudo: $active)
@@ -72,12 +71,11 @@
 // @include dissectColorRed($prefix: $variant-active, $pseudo: $active)
 // @include dissectColorTeal($prefix: $variant-active, $pseudo: $active)
 // @include dissectColorYellow($prefix: $variant-active, $pseudo: $active)
-
+// -----
 // @include borderDissectOpacity($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
 
 /* effects */
 
-// (optional)
 // @include shadowColorAmber($prefix: $variant-active, $pseudo: $active)
 // @include shadowColorBlack($prefix: $variant-active, $pseudo: $active)
 // @include shadowColorBlue($prefix: $variant-active, $pseudo: $active)
@@ -93,7 +91,7 @@
 // @include shadowColorRed($prefix: $variant-active, $pseudo: $active)
 // @include shadowColorTeal($prefix: $variant-active, $pseudo: $active)
 // @include shadowColorYellow($prefix: $variant-active, $pseudo: $active)
-
+// -----
 // @include boxShadow($prefix: $variant-active, $pseudo: $active)
 // @include opacity($prefix: $variant-active, $pseudo: $active)
 // @include mixBlend($prefix: $variant-active, $pseudo: $active) // (v1.0.4)
@@ -160,12 +158,12 @@
 
 // @include margin($prefix: $variant-active, $pseudo: $active)
 // @include margin($negative: $true, $prefix: $variant-active, $pseudo: $active) // negative
-
+// -----
 // @include padding($prefix: $variant-active, $pseudo: $active)
-
+// -----
 // @include equal($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $variant-active, $pseudo: $active) // negative, (v1.0.8)
-
+// -----
 // @include fluidMargin($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
 // @include fluidPadding($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
 
@@ -184,15 +182,15 @@
 
 // @include transform($prefix: $variant-active, $pseudo: $active)
 // @include transformOrigin($prefix: $variant-active, $pseudo: $active)
-
+// -----
 // @include rotate($prefix: $variant-active, $pseudo: $active)
 // @include rotate($prefix: $variant-active, $pseudo: $active, $negative: $true) // negative
-
+// -----
 // @include scale($prefix: $variant-active, $pseudo: $active)
-
+// -----
 // @include skew($prefix: $variant-active, $pseudo: $active)
 // @include skew($prefix: $variant-active, $pseudo: $active, $negative: $true) // negative
-
+// -----
 // @include translate($prefix: $variant-active, $pseudo: $active)
 // @include translate($prefix: $variant-active, $pseudo: $active, $negative: $true) // negative
 
@@ -219,7 +217,7 @@
 // @include placeholderColorRed($prefix: $variant-active, $pseudo: $active)
 // @include placeholderColorTeal($prefix: $variant-active, $pseudo: $active)
 // @include placeholderColorYellow($prefix: $variant-active, $pseudo: $active)
-
+// -----
 // @include textColorAmber($prefix: $variant-active, $pseudo: $active)
 // @include textColorBlack($prefix: $variant-active, $pseudo: $active)
 // @include textColorBlue($prefix: $variant-active, $pseudo: $active)
@@ -236,12 +234,12 @@
 // @include textColorSpecial($prefix: $variant-active, $pseudo: $active)
 // @include textColorTeal($prefix: $variant-active, $pseudo: $active)
 // @include textColorYellow($prefix: $variant-active, $pseudo: $active)
-
+// -----
 // @include fontFamily($prefix: $variant-active, $pseudo: $active)
 // @include fontSize($prefix: $variant-active, $pseudo: $active)
-
+// -----
 // @include fluidFontSize($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
-
+// -----
 // @include fontSmoothing($prefix: $variant-active, $pseudo: $active)
 // @include fontStyle($prefix: $variant-active, $pseudo: $active)
 // @include fontWeight($prefix: $variant-active, $pseudo: $active)
@@ -255,3 +253,4 @@
 // @include verticalAlign($prefix: $variant-active, $pseudo: $active)
 // @include whitespace($prefix: $variant-active, $pseudo: $active)
 // @include wordBreak($prefix: $variant-active, $pseudo: $active)
+

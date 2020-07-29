@@ -25,7 +25,7 @@
 @include backgroundColorSpecial($class: $default)
 @include backgroundColorTeal($class: $default)
 @include backgroundColorYellow($class: $default)
-
+// -----
 @include backgroundAttachment($class: $default)
 @include backgroundPosition($class: $default)
 @include backgroundRepeat($class: $default)
@@ -50,13 +50,12 @@
 @include borderColorSpecial($class: $default)
 @include borderColorTeal($class: $default)
 @include borderColorYellow($class: $default)
-
+// -----
 @include borderRadius($class: $default)
 @include borderStyle($class: $default)
 @include borderWidth($class: $default)
 @include borderDissect($class: $default) // (v1.0.8)
-
-// (v1.0.8)
+// ----- (v1.0.8)
 @include dissectColorAmber($class: $default)
 @include dissectColorBlack($class: $default)
 @include dissectColorBlue($class: $default)
@@ -72,7 +71,7 @@
 @include dissectColorRed($class: $default)
 @include dissectColorTeal($class: $default)
 @include dissectColorYellow($class: $default)
-
+// ----
 @include borderDissectOpacity($class: $default) // (v1.0.8)
 
 /* effects */
@@ -92,7 +91,7 @@
 @include shadowColorRed($class: $default)
 @include shadowColorTeal($class: $default)
 @include shadowColorYellow($class: $default)
-
+// -----
 @include boxShadow($class: $default)
 @include opacity($class: $default)
 @include mixBlend($class: $default) // (v1.0.4)
@@ -174,12 +173,12 @@
 
 @include margin($class: $default)
 @include margin($negative: $true, $class: $default) // negative
-
+// -----
 @include padding($class: $default)
-
+// -----
 @include equal($class: $default) // (v1.0.8)
 @include equal($negative: $true, $class: $default) // negative, (v1.0.8)
-
+// -----
 @include fluidMargin($class: $default) // (1.0.8)
 @include fluidPadding($class: $default) // (1.0.8)
 
@@ -198,15 +197,15 @@
 
 @include transform($class: $default)
 @include transformOrigin($class: $default)
-
+// -----
 @include rotate($class: $default)
 @include rotate($class: $default, $negative: $true) // negative
-
+// -----
 @include scale($class: $default)
-
+// -----
 @include skew($class: $default)
 @include skew($class: $default, $negative: $true) // negative
-
+// -----
 @include translate($class: $default)
 @include translate($class: $default, $negative: $true) // negative
 
@@ -233,7 +232,7 @@
 @include placeholderColorRed($class: $default)
 @include placeholderColorTeal($class: $default)
 @include placeholderColorYellow($class: $default)
-
+// -----
 @include textColorAmber($class: $default)
 @include textColorBlack($class: $default)
 @include textColorBlue($class: $default)
@@ -250,12 +249,12 @@
 @include textColorSpecial($class: $default)
 @include textColorTeal($class: $default)
 @include textColorYellow($class: $default)
-
+// -----
 @include fontFamily($class: $default)
 @include fontSize($class: $default)
-
+// -----
 @include fluidFontSize($class: $default) // (v1.0.8)
-
+// -----
 @include fontSmoothing($class: $default)
 @include fontStyle($class: $default)
 @include fontWeight($class: $default)

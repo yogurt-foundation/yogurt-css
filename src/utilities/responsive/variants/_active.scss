@@ -25,7 +25,7 @@
 // @include backgroundColorSpecial($prefix: $responsive-active, $pseudo: $active)
 // @include backgroundColorTeal($prefix: $responsive-active, $pseudo: $active)
 // @include backgroundColorYellow($prefix: $responsive-active, $pseudo: $active)
-
+// -----
 // @include backgroundAttachment($prefix: $responsive-active, $pseudo: $active)
 // @include backgroundPosition($prefix: $responsive-active, $pseudo: $active)
 // @include backgroundRepeat($prefix: $responsive-active, $pseudo: $active)
@@ -50,13 +50,12 @@
 // @include borderColorSpecial($prefix: $responsive-active, $pseudo: $active)
 // @include borderColorTeal($prefix: $responsive-active, $pseudo: $active)
 // @include borderColorYellow($prefix: $responsive-active, $pseudo: $active)
-
+// -----
 // @include borderRadius($prefix: $responsive-active, $pseudo: $active)
 // @include borderStyle($prefix: $responsive-active, $pseudo: $active)
 // @include borderWidth($prefix: $responsive-active, $pseudo: $active)
 // @include borderDissect($prefix: $responsive-active, $pseudo: $active) // (v1.0.8)
-
-// (v1.0.8)
+// ----- (v1.0.8)
 // @include dissectColorAmber($prefix: $responsive-active, $pseudo: $active)
 // @include dissectColorBlack($prefix: $responsive-active, $pseudo: $active)
 // @include dissectColorBlue($prefix: $responsive-active, $pseudo: $active)
@@ -72,12 +71,11 @@
 // @include dissectColorRed($prefix: $responsive-active, $pseudo: $active)
 // @include dissectColorTeal($prefix: $responsive-active, $pseudo: $active)
 // @include dissectColorYellow($prefix: $responsive-active, $pseudo: $active)
-
+// -----
 // @include borderDissectOpacity($prefix: $responsive-active, $pseudo: $active) // (v1.0.8)
 
 /* effects */
 
-// (optional)
 // @include shadowColorAmber($prefix: $responsive-active, $pseudo: $active)
 // @include shadowColorBlack($prefix: $responsive-active, $pseudo: $active)
 // @include shadowColorBlue($prefix: $responsive-active, $pseudo: $active)
@@ -93,7 +91,7 @@
 // @include shadowColorRed($prefix: $responsive-active, $pseudo: $active)
 // @include shadowColorTeal($prefix: $responsive-active, $pseudo: $active)
 // @include shadowColorYellow($prefix: $responsive-active, $pseudo: $active)
-
+// -----
 // @include boxShadow($prefix: $responsive-active, $pseudo: $active)
 // @include opacity($prefix: $responsive-active, $pseudo: $active)
 // @include mixBlend($prefix: $responsive-active, $pseudo: $active) // (v1.0.4)
@@ -102,7 +100,6 @@
 
 /* filters */
 
-// (optional)
 // @include filterBlur($prefix: $responsive-active, $pseudo: $active) // (v1.0.3)
 // @include filterCompose($prefix: $responsive-active, $pseudo: $active) // (v1.0.2)
 // @include filterInvert($prefix: $responsive-active, $pseudo: $active) // (v1.0.3)
@@ -160,9 +157,9 @@
 
 // @include margin($prefix: $responsive-active, $pseudo: $active)
 // @include margin($negative: $true, $prefix: $responsive-active, $pseudo: $active) // negative
-
+// -----
 // @include padding($prefix: $responsive-active, $pseudo: $active)
-
+// -----
 // @include equal($prefix: $responsive-active, $pseudo: $active) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $responsive-active, $pseudo: $active) // negative, (v1.0.8)
 
@@ -181,15 +178,15 @@
 
 // @include transform($prefix: $responsive-active, $pseudo: $active)
 // @include transformOrigin($prefix: $responsive-active, $pseudo: $active)
-
+// -----
 // @include rotate($prefix: $responsive-active, $pseudo: $active)
 // @include rotate($prefix: $responsive-active, $pseudo: $active, $negative: $true) // negative
-
+// -----
 // @include scale($prefix: $responsive-active, $pseudo: $active)
-
+// -----
 // @include skew($prefix: $responsive-active, $pseudo: $active)
 // @include skew($prefix: $responsive-active, $pseudo: $active, $negative: $true) // negative
-
+// -----
 // @include translate($prefix: $responsive-active, $pseudo: $active)
 // @include translate($prefix: $responsive-active, $pseudo: $active, $negative: $true) // negative
 
@@ -216,7 +213,7 @@
 // @include placeholderColorRed($prefix: $responsive-active, $pseudo: $active)
 // @include placeholderColorTeal($prefix: $responsive-active, $pseudo: $active)
 // @include placeholderColorYellow($prefix: $responsive-active, $pseudo: $active)
-
+// -----
 // @include textColorAmber($prefix: $responsive-active, $pseudo: $active)
 // @include textColorBlack($prefix: $responsive-active, $pseudo: $active)
 // @include textColorBlue($prefix: $responsive-active, $pseudo: $active)
@@ -233,7 +230,7 @@
 // @include textColorSpecial($prefix: $responsive-active, $pseudo: $active)
 // @include textColorTeal($prefix: $responsive-active, $pseudo: $active)
 // @include textColorYellow($prefix: $responsive-active, $pseudo: $active)
-
+// -----
 // @include fontFamily($prefix: $responsive-active, $pseudo: $active)
 // @include fontSize($prefix: $responsive-active, $pseudo: $active)
 // @include fontSmoothing($prefix: $responsive-active, $pseudo: $active)
@@ -249,3 +246,4 @@
 // @include verticalAlign($prefix: $responsive-active, $pseudo: $active)
 // @include whitespace($prefix: $responsive-active, $pseudo: $active)
 // @include wordBreak($prefix: $responsive-active, $pseudo: $active)
+

@@ -24,7 +24,7 @@
 @include backgroundColorRed($prefix: $variant-focus, $pseudo: $focus)
 @include backgroundColorTeal($prefix: $variant-focus, $pseudo: $focus)
 @include backgroundColorYellow($prefix: $variant-focus, $pseudo: $focus)
-
+// -----
 // @include backgroundAttachment($prefix: $variant-focus, $pseudo: $focus)
 // @include backgroundPosition($prefix: $variant-focus, $pseudo: $focus)
 // @include backgroundRepeat($prefix: $variant-focus, $pseudo: $focus)
@@ -49,13 +49,12 @@
 @include borderColorSpecial($prefix: $variant-focus, $pseudo: $focus)
 @include borderColorTeal($prefix: $variant-focus, $pseudo: $focus)
 @include borderColorYellow($prefix: $variant-focus, $pseudo: $focus)
-
+// -----
 // @include borderRadius($prefix: $variant-focus, $pseudo: $focus)
 @include borderStyle($prefix: $variant-focus, $pseudo: $focus)
 @include borderWidth($prefix: $variant-focus, $pseudo: $focus)
 // @include borderDissect($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
-
-// (v1.0.8)
+// ----- (v1.0.8)
 // @include dissectColorAmber($prefix: $variant-focus, $pseudo: $focus)
 // @include dissectColorBlack($prefix: $variant-focus, $pseudo: $focus)
 // @include dissectColorBlue($prefix: $variant-focus, $pseudo: $focus)
@@ -71,12 +70,11 @@
 // @include dissectColorRed($prefix: $variant-focus, $pseudo: $focus)
 // @include dissectColorTeal($prefix: $variant-focus, $pseudo: $focus)
 // @include dissectColorYellow($prefix: $variant-focus, $pseudo: $focus)
-
+// -----
 // @include borderDissectOpacity($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
 
 /* effects */
 
-// (optional)
 // @include shadowColorAmber($prefix: $variant-focus, $pseudo: $focus)
 // @include shadowColorBlack($prefix: $variant-focus, $pseudo: $focus)
 // @include shadowColorBlue($prefix: $variant-focus, $pseudo: $focus)
@@ -92,7 +90,7 @@
 // @include shadowColorRed($prefix: $variant-focus, $pseudo: $focus)
 // @include shadowColorTeal($prefix: $variant-focus, $pseudo: $focus)
 // @include shadowColorYellow($prefix: $variant-focus, $pseudo: $focus)
-
+// -----
 @include boxShadow($prefix: $variant-focus, $pseudo: $focus)
 @include opacity($prefix: $variant-focus, $pseudo: $focus)
 // @include mixBlend($prefix: $variant-focus, $pseudo: $focus) // (v1.0.4)
@@ -159,12 +157,12 @@
 
 // @include margin($prefix: $variant-focus, $pseudo: $focus)
 // @include margin($negative: $true, $prefix: $variant-focus, $pseudo: $focus) // negative
-
+// -----
 // @include padding($prefix: $variant-focus, $pseudo: $focus)
-
+// -----
 // @include equal($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $variant-focus, $pseudo: $focus) // negative, (v1.0.8)
-
+// -----
 // @include fluidMargin($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
 // @include fluidPadding($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
 
@@ -183,15 +181,15 @@
 
 // @include transform($prefix: $variant-focus, $pseudo: $focus)
 // @include transformOrigin($prefix: $variant-focus, $pseudo: $focus)
-
+// -----
 @include rotate($prefix: $variant-focus, $pseudo: $focus)
 @include rotate($prefix: $variant-focus, $pseudo: $focus, $negative: $true) // negative
-
+// -----
 @include scale($prefix: $variant-focus, $pseudo: $focus)
-
+// -----
 @include skew($prefix: $variant-focus, $pseudo: $focus)
 @include skew($prefix: $variant-focus, $pseudo: $focus, $negative: $true) // negative
-
+// -----
 @include translate($prefix: $variant-focus, $pseudo: $focus)
 @include translate($prefix: $variant-focus, $pseudo: $focus, $negative: $true) // negative
 
@@ -235,8 +233,7 @@
 @include textColorSpecial($prefix: $variant-focus, $pseudo: $focus)
 @include textColorTeal($prefix: $variant-focus, $pseudo: $focus)
 @include textColorYellow($prefix: $variant-focus, $pseudo: $focus)
-
-// GROUP
+// ----- GROUP
 @include textColorAmber($prefix: $variant-group-focus)
 @include textColorBlack($prefix: $variant-group-focus)
 @include textColorBlue($prefix: $variant-group-focus)
@@ -253,12 +250,12 @@
 @include textColorSpecial($prefix: $variant-group-focus)
 @include textColorTeal($prefix: $variant-group-focus)
 @include textColorYellow($prefix: $variant-group-focus)
-
+// -----
 // @include fontFamily($prefix: $variant-focus, $pseudo: $focus)
 // @include fontSize($prefix: $variant-focus, $pseudo: $focus)
-
+// -----
 // @include fluidFontSize($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
-
+// -----
 // @include fontSmoothing($prefix: $variant-focus, $pseudo: $focus)
 // @include fontStyle($prefix: $variant-focus, $pseudo: $focus)
 @include fontWeight($prefix: $variant-focus, $pseudo: $focus)
@@ -272,3 +269,4 @@
 // @include verticalAlign($prefix: $variant-focus, $pseudo: $focus)
 // @include whitespace($prefix: $variant-focus, $pseudo: $focus)
 // @include wordBreak($prefix: $variant-focus, $pseudo: $focus)
+
