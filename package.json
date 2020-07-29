@@ -22,14 +22,15 @@
   "devDependencies": {
     "autoprefixer": "^9.4.3",
     "gulp": "^4.0.0",
+    "gulp-bytediff": "^1.0.0",
+    "gulp-gzip": "^1.4.2",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sass-glob": "^1.1.0",
-    "gulp-util": "^3.0.8",
+    "gulp-sizereport": "^1.2.1",
     "gulp-sourcemaps": "^2.6.5",
-    "gulp-bytediff": "^1.0.0",
-    "gulp-sizereport": "^1.2.1"
+    "gulp-util": "^3.0.8"
   },
   "dependencies": {}
 }
