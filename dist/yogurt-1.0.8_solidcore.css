@@ -13723,27 +13723,27 @@ y {
 }
 
 .pattern.cross-dots-sm {
-  background-image: radial-gradient(currentColor 5px, transparent 5px), radial-gradient(currentColor 5px, transparent 5px);
-  background-size: calc(20 * 5px) calc(20 * 5px);
-  background-position: 0 0, calc(10 * 5px) calc(10 * 5px);
-}
-
-.pattern.cross-dots-md {
   background-image: radial-gradient(currentColor 1px, transparent 1px), radial-gradient(currentColor 1px, transparent 1px);
   background-size: calc(20 * 1px) calc(20 * 1px);
   background-position: 0 0, calc(10 * 1px) calc(10 * 1px);
 }
 
-.pattern.cross-dots-lg {
+.pattern.cross-dots-md {
   background-image: radial-gradient(currentColor 1.5px, transparent 1.5px), radial-gradient(currentColor 1.5px, transparent 1.5px);
   background-size: calc(20 * 1.5px) calc(20 * 1.5px);
   background-position: 0 0, calc(10 * 1.5px) calc(10 * 1.5px);
 }
 
-.pattern.cross-dots-xl {
+.pattern.cross-dots-lg {
   background-image: radial-gradient(currentColor 2px, transparent 2px), radial-gradient(currentColor 2px, transparent 2px);
   background-size: calc(20 * 2px) calc(20 * 2px);
   background-position: 0 0, calc(10 * 2px) calc(10 * 2px);
+}
+
+.pattern.cross-dots-xl {
+  background-image: radial-gradient(currentColor 5px, transparent 5px), radial-gradient(currentColor 5px, transparent 5px);
+  background-size: calc(20 * 5px) calc(20 * 5px);
+  background-position: 0 0, calc(10 * 5px) calc(10 * 5px);
 }
 
 .pattern.diagonal-lines-sm {
@@ -13783,23 +13783,23 @@ y {
 }
 
 .pattern.dots-sm {
-  background-image: radial-gradient(currentColor 5px, transparent 5px);
-  background-size: calc(10 * 5px) calc(10 * 5px);
-}
-
-.pattern.dots-md {
   background-image: radial-gradient(currentColor 1px, transparent 1px);
   background-size: calc(10 * 1px) calc(10 * 1px);
 }
 
-.pattern.dots-lg {
+.pattern.dots-md {
   background-image: radial-gradient(currentColor 1.5px, transparent 1.5px);
   background-size: calc(10 * 1.5px) calc(10 * 1.5px);
 }
 
-.pattern.dots-xl {
+.pattern.dots-lg {
   background-image: radial-gradient(currentColor 2px, transparent 2px);
   background-size: calc(10 * 2px) calc(10 * 2px);
+}
+
+.pattern.dots-xl {
+  background-image: radial-gradient(currentColor 5px, transparent 5px);
+  background-size: calc(10 * 5px) calc(10 * 5px);
 }
 
 .pattern.grid-sm {
