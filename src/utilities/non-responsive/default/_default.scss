@@ -148,6 +148,18 @@
 /* patterns */
 
 // (1.0.8)
+@include patternChecks($class: $default)
+@include patternCrossDots($class: $default)
+@include patternDiagonalLines($class: $default)
+@include patternDiagonalStripes($class: $default)
+@include patternDots($class: $default)
+@include patternGrid($class: $default)
+@include patternHorizontalLines($class: $default)
+@include patternHorizontalStripes($class: $default)
+@include patternTriangles($class: $default)
+@include patternVerticalLines($class: $default)
+@include patternVerticalStripes($class: $default)
+@include patternZigzag($class: $default)
 
 /* sizing */
 
