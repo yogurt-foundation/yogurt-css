@@ -31,14 +31,15 @@ gulp.task('sass-min', () => {
     .pipe(postCss([autoPrefixer()]))
     .pipe(rename(minifiedOuput))
     .pipe(sourcemaps.write('.'))
-    .pipe(gzip())
     .pipe(gulp.dest(distCssPath))
+    .pipe(gzip())
     .pipe(
       sizereport({
         gzip: true,
         total: false
       })
     )
+    .pipe(gulp.dest(distCssPath))
 })
 
 
@@ -50,14 +51,15 @@ gulp.task('sass-raw', () => {
       .on('error', sass.logError))
     .pipe(rename(regularOutput))
     .pipe(sourcemaps.write('.'))
-    .pipe(gzip())
     .pipe(gulp.dest(distCssPath))
+    .pipe(gzip())
     .pipe(
       sizereport({
         gzip: true,
         total: false
       })
     )
+    .pipe(gulp.dest(distCssPath))
 })
 
 
