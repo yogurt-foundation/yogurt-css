@@ -65974,10 +65974,17 @@ y {
  * Example API,
  *
  *  @include plugin(
- *    $utility: '',
- *    $variant: '',
- *    $property: '',
- *    $modifier: ('': '')
+ *    (
+ *      $utility: '',
+ *      $variant: '',
+ *      $property: '',
+ *      $modifier: (
+ *        '': '',
+ *        '': ''
+ *        // ...
+ *      )
+ *    ),
+ *    // ...
  *  )
  *
  * Use keyword for `$variant` to apply pseudo class variants, such as:
@@ -65989,6 +65996,12 @@ y {
  * @description: write your plugins here.
  */
 /*! plugins */
+/* variants:
+     hover, focus, active, visited, disabled,
+     responsive, responsive-hover, responsive-focus,
+     responsive-active, responsive-visited,
+     responsive-disabled
+*/
 /*! yogurt.css v1.0.8-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
 
 /*# sourceMappingURL=yogurt-1.0.8_solidcore.css.map */

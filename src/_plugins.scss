@@ -5,21 +5,51 @@
 
 /*! plugins */
 
+/* variants:
+     hover, focus, active, visited, disabled,
+     responsive, responsive-hover, responsive-focus,
+     responsive-active, responsive-visited,
+     responsive-disabled
+*/
+
 // @include plugin(
-//   $utility: 'text', // Utility Name
-//   /* variant options:
-//       hover, focus, active, visited, disabled,
-//       responsive, responsive-hover, responsive-focus,
-//       responsive-active, responsive-visited,
-//       responsive-disabled
-//   */
-//   $variant: 'responsive-hover',
-//   $property: 'font-size', // CSS Property
-//   $modifier: ( // Utility Modifier Names, CSS Values
-//     'xs': '0.75rem',
-//     'sm': '0.875rem',
-//     'md': '1rem',
-//     'lg': '1.125rem',
-//     'xl': '1.25rem'
-//   )
+
+//   (
+//     utility: 'text',
+//     property: 'font-size',
+//     modifier: (
+//       'xs': '0.75rem',
+//       'sm': '0.875rem'
+//     )
+//   ),
+//   (
+//     utility: 'text',
+//     property: 'font-size',
+//     variant: 'hover',
+//     modifier: (
+//       'xs': '0.75rem',
+//       'sm': '0.875rem'
+//     )
+//   ),
+//   (
+//     utility: 'text',
+//     property: 'font-size',
+//     variant: 'responsive',
+//     modifier: (
+//       'xs': '0.75rem',
+//       'sm': '0.875rem'
+//     )
+//   ),
+//   (
+//     utility: 'text',
+//     property: 'font-size',
+//     variant: 'responsive-hover',
+//     modifier: (
+//       'xs': '0.75rem',
+//       'sm': '0.875rem'
+//     )
+//   ),
+//   // ...
+
 // )
+
