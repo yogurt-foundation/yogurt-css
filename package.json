@@ -1,12 +1,12 @@
 {
   "name": "yogurt-css",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level",
   "main": "",
   "scripts": {
     "gulp": "gulp",
     "watch": "gulp watch",
-    "build": "npm run gulp sass-raw && npm run gulp sass-min"
+    "build": "npm run gulp sass-raw && npm run gulp sass-min && npm run gulp sass-scss"
   },
   "keywords": [
     "css-framework",
