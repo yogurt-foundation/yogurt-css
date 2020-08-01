@@ -182,16 +182,16 @@
 // @include transform($prefix: $variant-focus, $pseudo: $focus)
 // @include transformOrigin($prefix: $variant-focus, $pseudo: $focus)
 // -----
-@include rotate($prefix: $variant-focus, $pseudo: $focus)
-@include rotate($prefix: $variant-focus, $pseudo: $focus, $negative: $true) // negative
+// @include rotate($prefix: $variant-focus, $pseudo: $focus)
+// @include rotate($prefix: $variant-focus, $pseudo: $focus, $negative: $true) // negative
 // -----
-@include scale($prefix: $variant-focus, $pseudo: $focus)
+// @include scale($prefix: $variant-focus, $pseudo: $focus)
 // -----
-@include skew($prefix: $variant-focus, $pseudo: $focus)
-@include skew($prefix: $variant-focus, $pseudo: $focus, $negative: $true) // negative
+// @include skew($prefix: $variant-focus, $pseudo: $focus)
+// @include skew($prefix: $variant-focus, $pseudo: $focus, $negative: $true) // negative
 // -----
-@include translate($prefix: $variant-focus, $pseudo: $focus)
-@include translate($prefix: $variant-focus, $pseudo: $focus, $negative: $true) // negative
+// @include translate($prefix: $variant-focus, $pseudo: $focus)
+// @include translate($prefix: $variant-focus, $pseudo: $focus, $negative: $true) // negative
 
 /* transitions */
 

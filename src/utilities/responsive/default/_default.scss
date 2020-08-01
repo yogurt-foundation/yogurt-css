@@ -26,10 +26,10 @@
 // @include backgroundColorTeal($prefix: $responsive-default)
 // @include backgroundColorYellow($prefix: $responsive-default)
 // -----
-@include backgroundAttachment($prefix: $responsive-default)
-@include backgroundPosition($prefix: $responsive-default)
-@include backgroundRepeat($prefix: $responsive-default)
-@include backgroundSize($prefix: $responsive-default)
+// @include backgroundAttachment($prefix: $responsive-default)
+// @include backgroundPosition($prefix: $responsive-default)
+// @include backgroundRepeat($prefix: $responsive-default)
+// @include backgroundSize($prefix: $responsive-default)
 // @include backgroundOpacity($prefix: $responsive-default)
 
 /* borders */
@@ -51,9 +51,9 @@
 // @include borderColorTeal($prefix: $responsive-default)
 // @include borderColorYellow($prefix: $responsive-default)
 // -----
-@include borderRadius($prefix: $responsive-default)
-@include borderStyle($prefix: $responsive-default)
-@include borderWidth($prefix: $responsive-default)
+// @include borderRadius($prefix: $responsive-default)
+// @include borderStyle($prefix: $responsive-default)
+// @include borderWidth($prefix: $responsive-default)
 // @include borderDissect($prefix: $responsive-default) // (v1.0.8)
 // ----- (v1.0.8)
 // @include dissectColorAmber($prefix: $responsive-default)

@@ -94,7 +94,7 @@
 // @include shadowColorYellow($prefix: $variant-disabled, $pseudo: $disabled)
 // -----
 // @include boxShadow($prefix: $variant-disabled, $pseudo: $disabled)
-@include opacity($prefix: $variant-disabled, $pseudo: $disabled)
+// @include opacity($prefix: $variant-disabled, $pseudo: $disabled)
 // @include mixBlend($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.4)
 // @include backgroundBlend($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.4)
 // @include gradient($prefix: $variant-disabled, $pseudo: $disabled) // (1.0.8)
