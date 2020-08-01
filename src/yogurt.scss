@@ -10,9 +10,11 @@
  * @license: MIT
  */
 
+$version: "1.0.9";
+
 @import 'reset'; // normalize.css v8.0.1
 
-/*! yogurt.css v1.0.8-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
+/*! yogurt.css v#{$version}-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
 
 @import 'config';
 
@@ -47,4 +49,4 @@
 @import 'mixin/pluginMaker';
 @import 'plugins'
 
-/*! yogurt.css v1.0.8-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
+/*! yogurt.css #{$version}-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
