@@ -140,10 +140,10 @@ $disabled: ":disabled";
   @param {$max-value} max threshold value
 */
 @mixin fluid(
-  $properties, 
-  $min-vw, 
-  $max-vw, 
-  $min-value, 
+  $properties,
+  $min-vw,
+  $max-vw,
+  $min-value,
   $max-value
   ) {
   & {
@@ -165,4 +165,27 @@ $disabled: ":disabled";
 
 @function strip-unit($value) {
   @return $value / ($value * 0 + 1)
+}
+
+@mixin keyframes(
+  $prefix: null,
+  $pseudo: null,
+  $class: null,
+  $animation: null
+  ) {
+  @each $modifier, $from-prop1, $from-value1, $from-prop2, $from-value2, $to-prop1, $to-value1, $to-prop2, $to-value2 in $animation {
+    @keyframes #{$modifier} {
+      from {
+        #{$from-prop1}: #{$from-value1};
+        #{$from-prop2}: #{$from-value2}
+      }
+      to {
+        #{$to-prop1}: #{$to-value1};
+        #{$to-prop2}: #{$to-value2}
+      }
+    }
+    #{$prefix}#{$class}#{$modifier}#{$pseudo} {
+      animation-name: #{$modifier}
+    }
+  }
 }

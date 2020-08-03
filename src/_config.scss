@@ -1230,3 +1230,60 @@ $pattern-dot-size:
   (lg, 2px),
   (xl, 5px);
 
+/* animations */
+
+$animation-duration:
+  (800, 800ms),
+  (500, 500ms),
+  (300, 300ms),
+  (2000, 2s),
+  (3000, 3s),
+  (4000, 4s);
+
+$animation-delay:
+  (2, 2s),
+  (3, 3s),
+  (4, 4s),
+  (5, 5s);
+
+$animation-fade:
+ (fade-in, opacity, 0, null, null, opacity, 1, null, null),
+ (fade-in-bottom-left, opacity, 0, transform, translate3d(-100%,100%,0), opacity, 1, transform, translate3d(0, 0, 0)),
+ (fade-in-bottom-right, opacity, 0, transform, translate3d(100%,100%,0), opacity, 1, transform, translate3d(0, 0, 0)),
+ (fade-in-down, opacity, 0, transform, translate3d(0,-100%,0), opacity, 1, transform, translate3d(0,0,0)),
+ (fade-in-left, opacity, 0, transform, translate3d(-100%,0,0), opacity, 1, transform, translate3d(0,0,0)),
+ (fade-in-right, opacity, 0, transform, translate3d(100%,0,0), opacity, 1, transform, translate3d(0,0,0)),
+ (fade-in-top-left, opacity, 0, transform, translate3d(-100%,-100%,0), opacity, 1, transform, translate3d(0,0,0)),
+ (fade-in-top-right, opacity, 0, transform, translate3d(100%,-100%,0), opacity, 1, transform, translate3d(0,0,0)),
+ (fade-in-up, opacity, 0, transform, translate3d(0,100%,0), opacity, 1, transform, translate3d(0,0,0)),
+ (fade-out, opacity, 1, null, null, opacity, 0, null, null),
+ (fade-out-bottom-left, opacity, 1, transform, translate3d(0,0,0), opacity, 1, transform, translate3d(-100%,100%,0)),
+ (fade-out-bottom-right, opacity, 1, transform, translate3d(0,0,0), opacity, 1, transform, translate3d(100%,100%,0)),
+ (fade-out-down, opacity, 1, transform, translate3d(0,0,0), opacity, 1, transform, translate3d(0,100%,0)),
+ (fade-out-left, opacity, 1, transform, translate3d(0,0,0), opacity, 0, transform, translate3d(-100%,0,0)),
+ (fade-out-right, opacity, 1, transform, translate3d(0,0,0), opacity, 0, transform, translate3d(100%,0,0)),
+ (fade-out-top-left, opacity, 1, transform, translate3d(0,0,0), opacity, 0, transform, translate3d(-100%,-100%,0)),
+ (fade-out-top-right, opacity, 1, transform, translate3d(0,0,0), opacity, 0, transform, translate3d(100%,-100%,0)),
+ (fade-out-top-up, opacity, 1, transform, translate3d(0,0,0), opacity, 0, transform, translate3d(0,-100%,0));
+
+$animation-blur:
+ (blur-in, opacity, 0, filter, blur(4px), opacity, 1, filter, blur(0)),
+ (blur-out, opacity, 1, filter, blur(0), opacity, 1, filter, blur(4px));
+
+$animation-roll:
+  (roll-in-left, opacity, 0, transform, translate3d(-100%,0,0), opacity, 1, transform, translate3d(0,0,0)),
+  (roll-in-right, opacity, 0, transform, translate3d(100%, 0, 0) rotate3d(0,0,1,120deg), opacity, 1, transform, translate3d(0,0,0)),
+  (roll-out-left, opacity, 1, null, null, opacity, 0, transform, translate3d(-100%,0,0) rotate3d(0,0,1,-120deg)),
+  (roll-out-right, opacity, 1, null, null, opacity, 0, transform, translate3d(100%,0,0) rotate3d(0,0,1,120deg));
+
+$animation-slide:
+  (slide-in-down, transform, translate3d(0,-100%,0), visibility, visible, null, null, transform, translate3d(0,0,0)),
+  (slide-in-left, transform, translate3d(-100%,0,0), visibility, visible, null, null, transform, translate3d(0,0,0)),
+  (slide-in-right, transform, translate3d(100%,0,0), visibility, visible, null, null, transform, translate3d(0,0,0)),
+  (slide-in-up, transform, translate3d(0,100%,0), visibility, visible, null, null, transform, translate3d(0,0,0)),
+  (slide-out-down, transform, translate3d(0,0,0), null, null, visibility, hidden, transform, translate3d(0,100%,0)),
+  (slide-out-left, transform, translate3d(0,0,0), null, null, visibility, hidden, transform, translate3d(-100%,0,0)),
+  (slide-out-right, transform, translate3d(0,0,0), null, null, visibility, hidden, transform, translate3d(100%,0,0)),
+  (slide-out-up, transform, translate3d(0,0,0), null, null, visibility, hidden, transform, translate3d(0,-100%,0));
+
+

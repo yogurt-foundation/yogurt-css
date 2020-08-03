@@ -7,6 +7,14 @@
 
 @include screenReader($prefix: $variant-focus, $pseudo: $focus)
 
+/* animations */
+
+// (v1.0.9)
+// @include fxBlur($prefix: $variant-hover, $pseudo: $hover)
+// @include fxFade($prefix: $variant-hover, $pseudo: $hover)
+// @include fxRoll($prefix: $variant-hover, $pseudo: $hover)
+// @include fxSlide($prefix: $variant-hover, $pseudo: $hover)
+
 /* backgrounds */
 
 @include backgroundColorAmber($prefix: $variant-focus, $pseudo: $focus)

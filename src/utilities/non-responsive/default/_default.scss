@@ -7,6 +7,14 @@
 
 @include screenReader($class: $default)
 
+/* animations */
+
+// (v1.0.9)
+@include fxBlur($class: $default)
+@include fxFade($class: $default)
+@include fxRoll($class: $default)
+@include fxSlide($class: $default)
+
 /* backgrounds */
 
 @include backgroundColorAmber($class: $default)
@@ -192,6 +200,12 @@
 
 @include borderCollapse($class: $default)
 @include tableLayout($class: $default)
+
+/* theme */
+
+// (v1.0.9)
+@include themeAuto() // (static, no variants)
+@include themeInvert() // (static, no variants)
 
 /* transforms */
 

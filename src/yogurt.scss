@@ -21,6 +21,7 @@ $version: "1.0.9";
 @import 'mixin/atRules';
 
 @import 'mixin/utilities/accessibility/**/**/*';
+@import 'mixin/utilities/animations/**/**/*';
 @import 'mixin/utilities/backgrounds/**/**/*';
 @import 'mixin/utilities/borders/**/**/*';
 @import 'mixin/utilities/effects/**/**/*';
@@ -33,6 +34,7 @@ $version: "1.0.9";
 @import 'mixin/utilities/spacing/**/**/*';
 @import 'mixin/utilities/svg/**/**/*';
 @import 'mixin/utilities/tables/**/**/*';
+@import 'mixin/utilities/theme/**/**/*';
 @import 'mixin/utilities/transforms/**/**/*';
 @import 'mixin/utilities/transitions/**/**/*';
 @import 'mixin/utilities/typography/**/**/*';

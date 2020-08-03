@@ -1,0 +1,21 @@
+/**
+ * @utility: theme
+ * @module: _themeAuto.scss
+ * @desc: sets page theme (dark or light) based on app settings
+ */
+
+@mixin themeAuto() {
+  // (static)
+  @media(prefers-color-scheme: dark) {
+    html[theme="auto"] {
+      filter: invert(1) hue-rotate(180deg)
+    }
+    img[theme="auto"] {
+      filter: invert(1) hue-rotate(180deg)
+    }
+    [theme="auto"] {
+      filter: invert(1) hue-rotate(180deg)
+    }
+  }
+}
+

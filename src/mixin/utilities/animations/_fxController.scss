@@ -1,0 +1,53 @@
+/**
+ * @utility: animations
+ * @module: _fxController.scss
+ * @desc: sets animation to an element with duration and delay controllers
+ */
+
+@mixin fxController(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  // (static)
+  @include setRule(
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "animation",
+    $property1: "animation-duration",
+    $value1: "1s",
+    $property2: "animation-fill-mode",
+    $value2: "both"
+  )
+  @include setRule(
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "animation.infinite",
+    $property1: "animation-iteration-count",
+    $value1: "infinite"
+  )
+  @each $modifier, $value in $animation-delay {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "animation.delay",
+      $property1: "animation-delay",
+      $value1: "#{$value}"
+    )
+  }
+  @each $modifier, $value in $animation-duration {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "animation.duration",
+      $property1: "animation-duration",
+      $value1: "#{$value}"
+    )
+  }
+}
+
+@include fxController($class: $default)

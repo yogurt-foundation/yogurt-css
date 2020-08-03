@@ -663,6 +663,7 @@ y {
 /* border dissect */
 /* fluid spacing */
 /* patterns */
+/* animations */
 /**
  * @file: _atrules.scss
  */
@@ -678,6 +679,80 @@ y {
  * @utility: accessibility
  * @module: _screenReader.scss
  * @desc: controls whether an element is visually hidden but still accessible to screen readers
+ */
+/**
+ * @utility: animations
+ * @module: _blur.scss
+ * @desc: sets the blur variant of animation to an element
+ */
+/**
+ * @utility: animations
+ * @module: _fade.scss
+ * @desc: sets the fade variant of animation to an element
+ */
+/**
+ * @utility: animations
+ * @module: _fxController.scss
+ * @desc: sets animation to an element with duration and delay controllers
+ */
+.animation {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animation.infinite {
+  animation-iteration-count: infinite;
+}
+
+.animation.delay {
+  animation-delay: 2s;
+}
+
+.animation.delay {
+  animation-delay: 3s;
+}
+
+.animation.delay {
+  animation-delay: 4s;
+}
+
+.animation.delay {
+  animation-delay: 5s;
+}
+
+.animation.duration {
+  animation-duration: 800ms;
+}
+
+.animation.duration {
+  animation-duration: 500ms;
+}
+
+.animation.duration {
+  animation-duration: 300ms;
+}
+
+.animation.duration {
+  animation-duration: 2s;
+}
+
+.animation.duration {
+  animation-duration: 3s;
+}
+
+.animation.duration {
+  animation-duration: 4s;
+}
+
+/**
+ * @utility: animations
+ * @module: _roll.scss
+ * @desc: sets the roll variant of animation to an element
+ */
+/**
+ * @utility: animations
+ * @module: _slide.scss
+ * @desc: sets the slide variant of animation to an element
  */
 /**
  * @utility: backgrounds
@@ -1370,6 +1445,16 @@ y {
  * @desc: defines the algorithm used to layout table cells, rows and columns
  */
 /**
+ * @utility: theme
+ * @module: _themeAuto.scss
+ * @desc: sets page theme (dark or light) based on app settings
+ */
+/**
+ * @utility: theme
+ * @module: _themeInvert.scss
+ * @desc: sets page theme (dark or light) based on force
+ */
+/**
  * @utility: transforms
  * @module: _rotate.scss
  * @desc: rotates an element that has transform applied
@@ -1680,6 +1765,473 @@ y {
   overflow: visible;
   clip: auto;
   white-space: normal;
+}
+
+/* animations */
+@keyframes blur-in {
+  from {
+    opacity: 0;
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.blur-in {
+  animation-name: blur-in;
+}
+
+@keyframes blur-out {
+  from {
+    opacity: 1;
+    filter: blur(0);
+  }
+  to {
+    opacity: 1;
+    filter: blur(4px);
+  }
+}
+
+.blur-out {
+  animation-name: blur-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation-name: fade-in;
+}
+
+@keyframes fade-in-bottom-left {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fade-in-bottom-left {
+  animation-name: fade-in-bottom-left;
+}
+
+@keyframes fade-in-bottom-right {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fade-in-bottom-right {
+  animation-name: fade-in-bottom-right;
+}
+
+@keyframes fade-in-down {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fade-in-down {
+  animation-name: fade-in-down;
+}
+
+@keyframes fade-in-left {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fade-in-left {
+  animation-name: fade-in-left;
+}
+
+@keyframes fade-in-right {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fade-in-right {
+  animation-name: fade-in-right;
+}
+
+@keyframes fade-in-top-left {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fade-in-top-left {
+  animation-name: fade-in-top-left;
+}
+
+@keyframes fade-in-top-right {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fade-in-top-right {
+  animation-name: fade-in-top-right;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fade-in-up {
+  animation-name: fade-in-up;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-out {
+  animation-name: fade-out;
+}
+
+@keyframes fade-out-bottom-left {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(-100%, 100%, 0);
+  }
+}
+
+.fade-out-bottom-left {
+  animation-name: fade-out-bottom-left;
+}
+
+@keyframes fade-out-bottom-right {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(100%, 100%, 0);
+  }
+}
+
+.fade-out-bottom-right {
+  animation-name: fade-out-bottom-right;
+}
+
+@keyframes fade-out-down {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+.fade-out-down {
+  animation-name: fade-out-down;
+}
+
+@keyframes fade-out-left {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.fade-out-left {
+  animation-name: fade-out-left;
+}
+
+@keyframes fade-out-right {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+.fade-out-right {
+  animation-name: fade-out-right;
+}
+
+@keyframes fade-out-top-left {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(-100%, -100%, 0);
+  }
+}
+
+.fade-out-top-left {
+  animation-name: fade-out-top-left;
+}
+
+@keyframes fade-out-top-right {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(100%, -100%, 0);
+  }
+}
+
+.fade-out-top-right {
+  animation-name: fade-out-top-right;
+}
+
+@keyframes fade-out-top-up {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+.fade-out-top-up {
+  animation-name: fade-out-top-up;
+}
+
+@keyframes roll-in-left {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.roll-in-left {
+  animation-name: roll-in-left;
+}
+
+@keyframes roll-in-right {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.roll-in-right {
+  animation-name: roll-in-right;
+}
+
+@keyframes roll-out-left {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+}
+
+.roll-out-left {
+  animation-name: roll-out-left;
+}
+
+@keyframes roll-out-right {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+  }
+}
+
+.roll-out-right {
+  animation-name: roll-out-right;
+}
+
+@keyframes slide-in-down {
+  from {
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slide-in-down {
+  animation-name: slide-in-down;
+}
+
+@keyframes slide-in-left {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slide-in-left {
+  animation-name: slide-in-left;
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slide-in-right {
+  animation-name: slide-in-right;
+}
+
+@keyframes slide-in-up {
+  from {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slide-in-up {
+  animation-name: slide-in-up;
+}
+
+@keyframes slide-out-down {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    visibility: hidden;
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+.slide-out-down {
+  animation-name: slide-out-down;
+}
+
+@keyframes slide-out-left {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    visibility: hidden;
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.slide-out-left {
+  animation-name: slide-out-left;
+}
+
+@keyframes slide-out-right {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    visibility: hidden;
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+.slide-out-right {
+  animation-name: slide-out-right;
+}
+
+@keyframes slide-out-up {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    visibility: hidden;
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+.slide-out-up {
+  animation-name: slide-out-up;
 }
 
 /* backgrounds */
@@ -26986,6 +27538,31 @@ y {
   table-layout: fixed;
 }
 
+/* theme */
+@media (prefers-color-scheme: dark) {
+  html[theme="auto"] {
+    filter: invert(1) hue-rotate(180deg);
+  }
+  img[theme="auto"] {
+    filter: invert(1) hue-rotate(180deg);
+  }
+  [theme="auto"] {
+    filter: invert(1) hue-rotate(180deg);
+  }
+}
+
+html[theme="invert"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+img[theme="invert"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+[theme="invert"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
 /* transforms */
 .transform {
   --transform-translate-x: 0;
@@ -32516,6 +33093,7 @@ y {
  * @file: _active.scss
  */
 /* accessibility */
+/* animations */
 /* backgrounds */
 .active\:bg-amber-100:active {
   --bg-opacity: 1;
@@ -33951,6 +34529,7 @@ y {
   white-space: normal;
 }
 
+/* animations */
 /* backgrounds */
 .focus\:bg-amber-100:focus {
   --bg-opacity: 1;
@@ -38272,6 +38851,473 @@ y {
  * @file: _hover.scss
  */
 /* accessibility */
+/* animations */
+@keyframes blur-in {
+  from {
+    opacity: 0;
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.hover\:blur-in:hover {
+  animation-name: blur-in;
+}
+
+@keyframes blur-out {
+  from {
+    opacity: 1;
+    filter: blur(0);
+  }
+  to {
+    opacity: 1;
+    filter: blur(4px);
+  }
+}
+
+.hover\:blur-out:hover {
+  animation-name: blur-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hover\:fade-in:hover {
+  animation-name: fade-in;
+}
+
+@keyframes fade-in-bottom-left {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.hover\:fade-in-bottom-left:hover {
+  animation-name: fade-in-bottom-left;
+}
+
+@keyframes fade-in-bottom-right {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.hover\:fade-in-bottom-right:hover {
+  animation-name: fade-in-bottom-right;
+}
+
+@keyframes fade-in-down {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.hover\:fade-in-down:hover {
+  animation-name: fade-in-down;
+}
+
+@keyframes fade-in-left {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.hover\:fade-in-left:hover {
+  animation-name: fade-in-left;
+}
+
+@keyframes fade-in-right {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.hover\:fade-in-right:hover {
+  animation-name: fade-in-right;
+}
+
+@keyframes fade-in-top-left {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.hover\:fade-in-top-left:hover {
+  animation-name: fade-in-top-left;
+}
+
+@keyframes fade-in-top-right {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.hover\:fade-in-top-right:hover {
+  animation-name: fade-in-top-right;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.hover\:fade-in-up:hover {
+  animation-name: fade-in-up;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.hover\:fade-out:hover {
+  animation-name: fade-out;
+}
+
+@keyframes fade-out-bottom-left {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(-100%, 100%, 0);
+  }
+}
+
+.hover\:fade-out-bottom-left:hover {
+  animation-name: fade-out-bottom-left;
+}
+
+@keyframes fade-out-bottom-right {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(100%, 100%, 0);
+  }
+}
+
+.hover\:fade-out-bottom-right:hover {
+  animation-name: fade-out-bottom-right;
+}
+
+@keyframes fade-out-down {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+.hover\:fade-out-down:hover {
+  animation-name: fade-out-down;
+}
+
+@keyframes fade-out-left {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.hover\:fade-out-left:hover {
+  animation-name: fade-out-left;
+}
+
+@keyframes fade-out-right {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+.hover\:fade-out-right:hover {
+  animation-name: fade-out-right;
+}
+
+@keyframes fade-out-top-left {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(-100%, -100%, 0);
+  }
+}
+
+.hover\:fade-out-top-left:hover {
+  animation-name: fade-out-top-left;
+}
+
+@keyframes fade-out-top-right {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(100%, -100%, 0);
+  }
+}
+
+.hover\:fade-out-top-right:hover {
+  animation-name: fade-out-top-right;
+}
+
+@keyframes fade-out-top-up {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+.hover\:fade-out-top-up:hover {
+  animation-name: fade-out-top-up;
+}
+
+@keyframes roll-in-left {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.hover\:roll-in-left:hover {
+  animation-name: roll-in-left;
+}
+
+@keyframes roll-in-right {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.hover\:roll-in-right:hover {
+  animation-name: roll-in-right;
+}
+
+@keyframes roll-out-left {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+}
+
+.hover\:roll-out-left:hover {
+  animation-name: roll-out-left;
+}
+
+@keyframes roll-out-right {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+  }
+}
+
+.hover\:roll-out-right:hover {
+  animation-name: roll-out-right;
+}
+
+@keyframes slide-in-down {
+  from {
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.hover\:slide-in-down:hover {
+  animation-name: slide-in-down;
+}
+
+@keyframes slide-in-left {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.hover\:slide-in-left:hover {
+  animation-name: slide-in-left;
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.hover\:slide-in-right:hover {
+  animation-name: slide-in-right;
+}
+
+@keyframes slide-in-up {
+  from {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.hover\:slide-in-up:hover {
+  animation-name: slide-in-up;
+}
+
+@keyframes slide-out-down {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    visibility: hidden;
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+.hover\:slide-out-down:hover {
+  animation-name: slide-out-down;
+}
+
+@keyframes slide-out-left {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    visibility: hidden;
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.hover\:slide-out-left:hover {
+  animation-name: slide-out-left;
+}
+
+@keyframes slide-out-right {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    visibility: hidden;
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+.hover\:slide-out-right:hover {
+  animation-name: slide-out-right;
+}
+
+@keyframes slide-out-up {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    visibility: hidden;
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+.hover\:slide-out-up:hover {
+  animation-name: slide-out-up;
+}
+
 /* backgrounds */
 .hover\:bg-amber-100:hover {
   --bg-opacity: 1;

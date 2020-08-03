@@ -1,0 +1,10 @@
+/**
+ * @utility: animations
+ * @module: _blur.scss
+ * @desc: sets the blur variant of animation to an element
+ */
+
+@mixin fxBlur($prefix: null, $pseudo: null, $class: null) {
+  @include keyframes($prefix, $pseudo, $class, $animation-blur)
+}
+
