@@ -17,5 +17,16 @@
       filter: invert(1) hue-rotate(180deg)
     }
   }
+  @media(prefers-color-scheme: light) {
+    html[theme="auto"] {
+      filter: invert(0) hue-rotate(0deg)
+    }
+    img[theme="auto"] {
+      filter: invert(0) hue-rotate(0deg)
+    }
+    [theme="auto"] {
+      filter: invert(0) hue-rotate(0deg)
+    }
+  }
 }
 
