@@ -1286,4 +1286,15 @@ $animation-slide:
   (slide-out-right, transform, translate3d(0,0,0), null, null, visibility, hidden, transform, translate3d(100%,0,0)),
   (slide-out-up, transform, translate3d(0,0,0), null, null, visibility, hidden, transform, translate3d(0,-100%,0));
 
+$content-visibility:
+  (auto-widest, auto, 1000px),
+  (auto-wider, auto, 800px),
+  (auto-normal, auto, 600px),
+  (auto-tight, auto, 400px),
+  (auto-tighter, auto, 200px),
+  (hidden-widest, hidden, 1000px),
+  (hidden-wider, hidden, 800px),
+  (hidden-normal, hidden, 600px),
+  (hidden-tight, hidden, 400px),
+  (hidden-tighter, hidden, 200px);
 

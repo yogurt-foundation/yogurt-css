@@ -26,7 +26,7 @@ html {
 /* Sections
    ========================================================================== */
 /**
- * Remove the margin in all browsers.
+ * 1. Remove the margin in all browsers.
  */
 body {
   margin: 0;
@@ -580,8 +580,8 @@ video {
 }
 
 /**
-* yogurt default <y> tag.
-*/
+ * 1. yogurt default <y> tag.
+ */
 y {
   display: block;
 }
@@ -1248,6 +1248,11 @@ y {
  * @utility: layouts
  * @module: _container.scss
  * @desc: set max-width to match min-width of the current breakpoint
+ */
+/**
+ * @utility: layouts
+ * @module: _contentVisibility.scss
+ * @desc: set skip rendering if element is off-screen to improve rendering speed.
  */
 /**
  * @utility: layouts
@@ -14247,6 +14252,56 @@ y {
 
 .z-50 {
   z-index: 50;
+}
+
+.render-auto-widest {
+  content-visibility: auto;
+  contain-intrinsic-size: 1000px;
+}
+
+.render-auto-wider {
+  content-visibility: auto;
+  contain-intrinsic-size: 800px;
+}
+
+.render-auto-normal {
+  content-visibility: auto;
+  contain-intrinsic-size: 600px;
+}
+
+.render-auto-tight {
+  content-visibility: auto;
+  contain-intrinsic-size: 400px;
+}
+
+.render-auto-tighter {
+  content-visibility: auto;
+  contain-intrinsic-size: 200px;
+}
+
+.render-hidden-widest {
+  content-visibility: hidden;
+  contain-intrinsic-size: 1000px;
+}
+
+.render-hidden-wider {
+  content-visibility: hidden;
+  contain-intrinsic-size: 800px;
+}
+
+.render-hidden-normal {
+  content-visibility: hidden;
+  contain-intrinsic-size: 600px;
+}
+
+.render-hidden-tight {
+  content-visibility: hidden;
+  contain-intrinsic-size: 400px;
+}
+
+.render-hidden-tighter {
+  content-visibility: hidden;
+  contain-intrinsic-size: 200px;
 }
 
 /* patterns */

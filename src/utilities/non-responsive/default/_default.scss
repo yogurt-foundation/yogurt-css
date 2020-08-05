@@ -151,6 +151,8 @@
 @include position($class: $default)
 @include visibility($class: $default)
 @include zIndex($class: $default)
+// -----
+@include contentVisibility($class: $default) // (1.0.9)
 
 /* patterns */
 
