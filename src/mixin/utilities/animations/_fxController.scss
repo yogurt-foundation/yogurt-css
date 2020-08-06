@@ -33,7 +33,8 @@
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
-      $selector: "animation.delay",
+      $selector: "animation.delay-",
+      $modifier: $modifier,
       $property1: "animation-delay",
       $value1: "#{$value}"
     )
@@ -43,7 +44,8 @@
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
-      $selector: "animation.duration",
+      $selector: "animation.duration-",
+      $modifier: $modifier,
       $property1: "animation-duration",
       $value1: "#{$value}"
     )
