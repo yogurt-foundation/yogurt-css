@@ -3173,15 +3173,7 @@ y {
 }
 
 .bg-border {
-  --bg-border-color: #333333;
-  --bg-border-angle-left: 0deg;
-  --bg-border-angle-top: 90deg;
-  --bg-border-angle-right: 180deg;
-  --bg-border-angle-bottom: 270deg;
-  --bg-border-width: 3px;
-  --bg-border-length: 10px;
-  --bg-border-space: 20px;
-  background-image: repeating-linear-gradient(var(--bg-border-angle-left), var(--bg-border-color), var(--bg-border-color) var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), var(--bg-border-color) var(--bg-border-space)), repeating-linear-gradient(var(--bg-border-angle-top), var(--bg-border-color), var(--bg-border-color) var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), var(--bg-border-color) var(--bg-border-space)), repeating-linear-gradient(var(--bg-border-angle-right), var(--bg-border-color), var(--bg-border-color) var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), var(--bg-border-color) var(--bg-border-space)), repeating-linear-gradient(var(--bg-border-angle-bottom), var(--bg-border-color), var(--bg-border-color) var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), var(--bg-border-color) var(--bg-border-space));
+  background-image: repeating-linear-gradient(var(--bg-border-angle-left), currentColor, currentColor var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), currentColor var(--bg-border-space)), repeating-linear-gradient(var(--bg-border-angle-top), currentColor, currentColor var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), currentColor var(--bg-border-space)), repeating-linear-gradient(var(--bg-border-angle-right), currentColor, currentColor var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), currentColor var(--bg-border-space)), repeating-linear-gradient(var(--bg-border-angle-bottom), currentColor, currentColor var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), currentColor var(--bg-border-space));
   background-size: var(--bg-border-width) 100%, 100% var(--bg-border-width), var(--bg-border-width) 100%, 100% var(--bg-border-width);
   background-position: 0 0, 0 0, 100% 0, 0 100%;
   background-repeat: no-repeat;
