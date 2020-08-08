@@ -1298,3 +1298,37 @@ $content-visibility:
   (hidden-tight, hidden, 400px),
   (hidden-tighter, hidden, 200px);
 
+/* background border */
+
+$background-border-angle:
+  (45, 45deg),
+  (60, 60deg);
+
+$background-border-length:
+ (10, 10px),
+ (20, 20px),
+ (30, 30px),
+ (40, 40px),
+ (50, 50px),
+ (60, 60px),
+ (70, 70px),
+ (80, 80px);
+
+$background-border-space:
+ (10, 10px),
+ (20, 20px),
+ (30, 30px),
+ (40, 40px),
+ (50, 50px),
+ (60, 60px),
+ (70, 70px),
+ (80, 80px);
+
+$background-border-size:
+  (6, 6px),
+  (9, 9px),
+  (12, 12px),
+  (14, 14px),
+  (18, 18px),
+  (24, 24px),
+  (32, 32px);

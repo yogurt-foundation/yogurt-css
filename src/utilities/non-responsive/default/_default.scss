@@ -39,6 +39,7 @@
 @include backgroundRepeat($class: $default)
 @include backgroundSize($class: $default)
 @include backgroundOpacity($class: $default)
+@include backgroundBorder($class: $default) // (1.0.9)
 
 /* borders */
 

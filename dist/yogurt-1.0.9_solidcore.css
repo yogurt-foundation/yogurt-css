@@ -664,6 +664,7 @@ y {
 /* fluid spacing */
 /* patterns */
 /* animations */
+/* background border */
 /**
  * @file: _atrules.scss
  */
@@ -758,6 +759,11 @@ y {
  * @utility: backgrounds
  * @module: _backgroundAttachment.scss
  * @desc: sets behaviour of background images when scrolling
+ */
+/**
+ * @utility: backgrounds
+ * @module: _backgroundBorder.scss
+ * @desc: sets background border to an element with more flexible control over the border spacing, size, angle and length.
  */
 /**
  * @utility: backgrounds
@@ -3164,6 +3170,141 @@ y {
 
 .bg-opacity-100 {
   --bg-opacity: 1;
+}
+
+.bg-border {
+  --bg-border-color: #333333;
+  --bg-border-angle-left: 0deg;
+  --bg-border-angle-top: 90deg;
+  --bg-border-angle-right: 180deg;
+  --bg-border-angle-bottom: 270deg;
+  --bg-border-width: 3px;
+  --bg-border-length: 10px;
+  --bg-border-space: 20px;
+  background-image: repeating-linear-gradient(var(--bg-border-angle-left), var(--bg-border-color), var(--bg-border-color) var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), var(--bg-border-color) var(--bg-border-space)), repeating-linear-gradient(var(--bg-border-angle-top), var(--bg-border-color), var(--bg-border-color) var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), var(--bg-border-color) var(--bg-border-space)), repeating-linear-gradient(var(--bg-border-angle-right), var(--bg-border-color), var(--bg-border-color) var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), var(--bg-border-color) var(--bg-border-space)), repeating-linear-gradient(var(--bg-border-angle-bottom), var(--bg-border-color), var(--bg-border-color) var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), var(--bg-border-color) var(--bg-border-space));
+  background-size: var(--bg-border-width) 100%, 100% var(--bg-border-width), var(--bg-border-width) 100%, 100% var(--bg-border-width);
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  background-repeat: no-repeat;
+}
+
+.angle-45 {
+  --bg-border-angle-left: 45deg;
+  --bg-border-angle-top: 45deg;
+  --bg-border-angle-right: 45deg;
+  --bg-border-angle-bottom: 45deg;
+}
+
+.angle-60 {
+  --bg-border-angle-left: 60deg;
+  --bg-border-angle-top: 60deg;
+  --bg-border-angle-right: 60deg;
+  --bg-border-angle-bottom: 60deg;
+}
+
+.-angle-45 {
+  --bg-border-angle-left: -45deg;
+  --bg-border-angle-top: -45deg;
+  --bg-border-angle-right: 45deg;
+  --bg-border-angle-bottom: 45deg;
+}
+
+.-angle-60 {
+  --bg-border-angle-left: -60deg;
+  --bg-border-angle-top: -60deg;
+  --bg-border-angle-right: 60deg;
+  --bg-border-angle-bottom: 60deg;
+}
+
+.length-10 {
+  --bg-border-length: 10px;
+}
+
+.length-20 {
+  --bg-border-length: 20px;
+}
+
+.length-30 {
+  --bg-border-length: 30px;
+}
+
+.length-40 {
+  --bg-border-length: 40px;
+}
+
+.length-50 {
+  --bg-border-length: 50px;
+}
+
+.length-60 {
+  --bg-border-length: 60px;
+}
+
+.length-70 {
+  --bg-border-length: 70px;
+}
+
+.length-80 {
+  --bg-border-length: 80px;
+}
+
+.space-10 {
+  --bg-border-space: 10px;
+}
+
+.space-20 {
+  --bg-border-space: 20px;
+}
+
+.space-30 {
+  --bg-border-space: 30px;
+}
+
+.space-40 {
+  --bg-border-space: 40px;
+}
+
+.space-50 {
+  --bg-border-space: 50px;
+}
+
+.space-60 {
+  --bg-border-space: 60px;
+}
+
+.space-70 {
+  --bg-border-space: 70px;
+}
+
+.space-80 {
+  --bg-border-space: 80px;
+}
+
+.size-6 {
+  --bg-border-width: 6px;
+}
+
+.size-9 {
+  --bg-border-width: 9px;
+}
+
+.size-12 {
+  --bg-border-width: 12px;
+}
+
+.size-14 {
+  --bg-border-width: 14px;
+}
+
+.size-18 {
+  --bg-border-width: 18px;
+}
+
+.size-24 {
+  --bg-border-width: 24px;
+}
+
+.size-32 {
+  --bg-border-width: 32px;
 }
 
 /* borders */
