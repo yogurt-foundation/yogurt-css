@@ -38,6 +38,7 @@
 // @include backgroundPosition($prefix: $variant-active, $pseudo: $active)
 // @include backgroundRepeat($prefix: $variant-active, $pseudo: $active)
 // @include backgroundSize($prefix: $variant-active, $pseudo: $active)
+// @include backgroundBlend($prefix: $variant-active, $pseudo: $active) // (v1.0.4)
 // @include backgroundOpacity($prefix: $variant-active, $pseudo: $active)
 
 /* borders */
@@ -103,7 +104,6 @@
 // @include boxShadow($prefix: $variant-active, $pseudo: $active)
 // @include opacity($prefix: $variant-active, $pseudo: $active)
 // @include mixBlend($prefix: $variant-active, $pseudo: $active) // (v1.0.4)
-// @include backgroundBlend($prefix: $variant-active, $pseudo: $active) // (v1.0.4)
 // @include gradient($prefix: $variant-active, $pseudo: $active) // (1.0.8)
 
 /* filters */

@@ -30,6 +30,7 @@
 // @include backgroundPosition($prefix: $responsive-default)
 // @include backgroundRepeat($prefix: $responsive-default)
 // @include backgroundSize($prefix: $responsive-default)
+// @include backgroundBlend($prefix: $responsive-default) // (v1.0.4)
 // @include backgroundOpacity($prefix: $responsive-default)
 
 /* borders */
@@ -95,7 +96,6 @@
 // @include boxShadow($prefix: $responsive-default)
 @include opacity($prefix: $responsive-default)
 // @include mixBlend($prefix: $responsive-default) // (v1.0.4)
-// @include backgroundBlend($prefix: $responsive-default) // (v1.0.4)
 // @include gradient($prefix: $responsive-default) // (1.0.8)
 
 /* filters */

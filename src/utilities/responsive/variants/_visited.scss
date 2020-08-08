@@ -30,6 +30,7 @@
 // @include backgroundPosition($prefix: $responsive-visited, $pseudo: $visited)
 // @include backgroundRepeat($prefix: $responsive-visited, $pseudo: $visited)
 // @include backgroundSize($prefix: $responsive-visited, $pseudo: $visited)
+// @include backgroundBlend($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.4)
 // @include backgroundOpacity($prefix: $responsive-visited, $pseudo: $visited)
 
 /* borders */
@@ -95,7 +96,6 @@
 // @include boxShadow($prefix: $responsive-visited, $pseudo: $visited)
 // @include opacity($prefix: $responsive-visited, $pseudo: $visited)
 // @include mixBlend($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.4)
-// @include backgroundBlend($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.4)
 // @include gradient($prefix: $responsive-visited, $pseudo: $visited) // (1.0.8)
 
 /* filters */

@@ -30,6 +30,7 @@
 // @include backgroundPosition($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include backgroundRepeat($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include backgroundSize($prefix: $responsive-disabled, $pseudo: $disabled)
+// @include backgroundBlend($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.0.4)
 // @include backgroundOpacity($prefix: $responsive-disabled, $pseudo: $disabled)
 
 /* borders */
@@ -95,7 +96,6 @@
 // @include boxShadow($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include opacity($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include mixBlend($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.0.4)
-// @include backgroundBlend($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.0.4)
 // @include gradient($prefix: $responsive-disabled, $pseudo: $disabled) // (1.0.8)
 
 /* filters */

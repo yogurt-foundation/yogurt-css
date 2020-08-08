@@ -30,6 +30,7 @@
 // @include backgroundPosition($prefix: $responsive-hover, $pseudo: $hover)
 // @include backgroundRepeat($prefix: $responsive-hover, $pseudo: $hover)
 // @include backgroundSize($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundBlend($prefix: $responsive-hover, $pseudo: $hover) // (v1.0.4)
 // @include backgroundOpacity($prefix: $responsive-hover, $pseudo: $hover)
 
 /* borders */
@@ -95,7 +96,6 @@
 // @include boxShadow($prefix: $responsive-hover, $pseudo: $hover)
 // @include opacity($prefix: $responsive-hover, $pseudo: $hover)
 // @include mixBlend($prefix: $responsive-hover, $pseudo: $hover) // (v1.0.4)
-// @include backgroundBlend($prefix: $responsive-hover, $pseudo: $hover) // (v1.0.4)
 // @include gradient($prefix: $responsive-hover, $pseudo: $hover) // (1.0.8)
 
 /* filters */

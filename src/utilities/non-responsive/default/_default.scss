@@ -38,6 +38,7 @@
 @include backgroundPosition($class: $default)
 @include backgroundRepeat($class: $default)
 @include backgroundSize($class: $default)
+@include backgroundBlend($class: $default) // (v1.0.4)
 @include backgroundOpacity($class: $default)
 @include backgroundBorder($class: $default) // (1.0.9)
 
@@ -104,7 +105,6 @@
 @include boxShadow($class: $default)
 @include opacity($class: $default)
 @include mixBlend($class: $default) // (v1.0.4)
-@include backgroundBlend($class: $default) // (v1.0.4)
 @include gradient($class: $default) // (1.0.8)
 
 /* filters */

@@ -30,6 +30,7 @@
 // @include backgroundPosition($prefix: $responsive-focus, $pseudo: $focus)
 // @include backgroundRepeat($prefix: $responsive-focus, $pseudo: $focus)
 // @include backgroundSize($prefix: $responsive-focus, $pseudo: $focus)
+// @include backgroundBlend($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.4)
 // @include backgroundOpacity($prefix: $responsive-focus, $pseudo: $focus)
 
 /* borders */
@@ -95,7 +96,6 @@
 // @include boxShadow($prefix: $responsive-focus, $pseudo: $focus)
 // @include opacity($prefix: $responsive-focus, $pseudo: $focus)
 // @include mixBlend($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.4)
-// @include backgroundBlend($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.4)
 // @include gradient($prefix: $responsive-focus, $pseudo: $focus) // (1.0.8)
 
 /* filters */
