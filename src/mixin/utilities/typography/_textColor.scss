@@ -1,0 +1,35 @@
+/**
+ * @utility: typography
+ * @module: _textColor.scss
+ * @desc: sets the text color
+ */
+
+@mixin textColor(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $color, $modifier, $value in $colors {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "text-",
+      $modifier: "#{$color}-#{$modifier}",
+      $property1: "color",
+      $value1: #{$value}
+    )
+  }
+  @each $modifier, $value in $special-colors {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "text-",
+      $modifier: $modifier,
+      $property1: "color",
+      $value1: #{$value}
+    )
+  }
+}
+

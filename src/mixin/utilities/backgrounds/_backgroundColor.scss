@@ -1,0 +1,34 @@
+/**
+ * @utility: backgrounds
+ * @module: backgroundColor/_yellow.scss
+ * @desc: sets background color
+ */
+
+@mixin backgroundColor(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $color, $modifier, $value in $colors {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "bg-",
+      $modifier: "#{$color}-#{$modifier}",
+      $property1: "background-color",
+      $value1: #{$value}
+    )
+  }
+  @each $modifier, $value in $special-colors {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "bg-",
+      $modifier: $modifier,
+      $property1: "background-color",
+      $value1: #{$value}
+    )
+  }
+}

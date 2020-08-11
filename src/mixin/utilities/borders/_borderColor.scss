@@ -1,0 +1,34 @@
+/**
+ * @utility: borders
+ * @module: _borderColor.scss
+ * @desc: sets border color
+ */
+
+@mixin borderColor(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $color, $modifier, $value in $colors {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "border-",
+      $modifier: "#{$color}-#{$modifier}",
+      $property1: "border-color",
+      $value1: #{$value}
+    )
+  }
+  @each $modifier, $value in $special-colors {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "border-",
+      $modifier: $modifier,
+      $property1: "border-color",
+      $value1: #{$value}
+    )
+  }
+}
