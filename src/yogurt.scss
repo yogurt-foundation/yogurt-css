@@ -44,7 +44,7 @@ $version: "1.0.9";
 @import 'utilities/non-responsive/variants/*';
 
 // responsive `default` and `variant` utilities
-// @import 'utilities/responsive/minWidth';
+@import 'utilities/responsive/minWidth';
 // @import 'utilities/responsive/maxWidth'; // optional
 
 // plugin

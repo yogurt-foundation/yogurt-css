@@ -32,7 +32,7 @@
 @include borderStyle($prefix: $variant-focus, $pseudo: $focus)
 @include borderWidth($prefix: $variant-focus, $pseudo: $focus)
 // @include borderDissect($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
-// @include dissectColor($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
+// @include borderDissectColor($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
 // @include borderDissectOpacity($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
 
 /* effects */

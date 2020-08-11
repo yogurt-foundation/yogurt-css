@@ -35,7 +35,7 @@
 // @include borderStyle($prefix: $variant-hover, $pseudo: $hover)
 // @include borderWidth($prefix: $variant-hover, $pseudo: $hover)
 // @include borderDissect($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
-// @include dissectColor($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
+// @include borderDissectColor($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
 @include borderDissectOpacity($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
 
 /* effects */
