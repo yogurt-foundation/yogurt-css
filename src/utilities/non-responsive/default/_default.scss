@@ -24,7 +24,8 @@
 @include backgroundSize($class: $default)
 @include backgroundBlend($class: $default) // (v1.0.4)
 @include backgroundOpacity($class: $default)
-@include backgroundBorder($class: $default) // (1.0.9)
+@include backgroundBorder($class: $default) // (v1.0.9)
+@include backgroundGradient($class: $default) // (v1.0.9)
 
 /* borders */
 
@@ -90,7 +91,7 @@
 @include visibility($class: $default)
 @include zIndex($class: $default)
 // -----
-@include contentVisibility($class: $default) // (1.0.9)
+@include contentVisibility($class: $default) // (v1.0.9)
 
 /* patterns */
 
