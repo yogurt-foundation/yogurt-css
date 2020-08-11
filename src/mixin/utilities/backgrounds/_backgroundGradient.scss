@@ -4,10 +4,6 @@
  * @desc: sets the background gradient color to an element with flexible control over color, color space and angles
  */
 
-// @class: bg-gradient start-{color value} start-{size value} stop-{color value} stop-{size value} angle-{value}
-
-// (!!) angle-{value} has negative value
-
 @mixin backgroundGradient(
   $prefix: null,
   $pseudo: null,
