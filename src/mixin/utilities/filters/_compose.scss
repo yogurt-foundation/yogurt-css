@@ -13,7 +13,7 @@
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
-    $selector: "filter",
+    $selector: "compose",
     $property1: "--brightness",
     $value1: "1",
     $property2: "--contrast",
@@ -28,7 +28,7 @@
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
-      $selector: "filter.brightness-",
+      $selector: "compose.brightness-",
       $modifier: $modifier,
       $property1: "--brightness",
       $value1: "#{$value}"
@@ -39,7 +39,7 @@
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
-      $selector: "filter.contrast-",
+      $selector: "compose.contrast-",
       $modifier: $modifier,
       $property1: "--contrast",
       $value1: "#{$value}"
@@ -50,7 +50,7 @@
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
-      $selector: "filter.saturate-",
+      $selector: "compose.saturate-",
       $modifier: $modifier,
       $property1: "--saturate",
       $value1: "#{$value}"

@@ -8589,142 +8589,142 @@ y {
 }
 
 /* filters */
-.filter {
+.compose {
   --brightness: 1;
   --contrast: 1;
   --saturate: 1;
   filter: brightness(var(--brightness)) contrast(var(--contrast)) saturate(var(--saturate));
 }
 
-.filter.brightness-0 {
+.compose.brightness-0 {
   --brightness: 0;
 }
 
-.filter.brightness-1 {
+.compose.brightness-1 {
   --brightness: 1;
 }
 
-.filter.brightness-2 {
+.compose.brightness-2 {
   --brightness: 2;
 }
 
-.filter.brightness-3 {
+.compose.brightness-3 {
   --brightness: 3;
 }
 
-.filter.brightness-4 {
+.compose.brightness-4 {
   --brightness: 4;
 }
 
-.filter.brightness-5 {
+.compose.brightness-5 {
   --brightness: 1.24;
 }
 
-.filter.brightness-6 {
+.compose.brightness-6 {
   --brightness: 1.3;
 }
 
-.filter.brightness-7 {
+.compose.brightness-7 {
   --brightness: 1.36;
 }
 
-.filter.brightness-8 {
+.compose.brightness-8 {
   --brightness: 1.42;
 }
 
-.filter.brightness-9 {
+.compose.brightness-9 {
   --brightness: 1.48;
 }
 
-.filter.brightness-10 {
+.compose.brightness-10 {
   --brightness: 1.54;
 }
 
-.filter.contrast-0 {
+.compose.contrast-0 {
   --contrast: 0;
 }
 
-.filter.contrast-1 {
+.compose.contrast-1 {
   --contrast: 1;
 }
 
-.filter.contrast-2 {
+.compose.contrast-2 {
   --contrast: 2;
 }
 
-.filter.contrast-3 {
+.compose.contrast-3 {
   --contrast: 3;
 }
 
-.filter.contrast-4 {
+.compose.contrast-4 {
   --contrast: 4;
 }
 
-.filter.contrast-5 {
+.compose.contrast-5 {
   --contrast: 1.24;
 }
 
-.filter.contrast-6 {
+.compose.contrast-6 {
   --contrast: 1.3;
 }
 
-.filter.contrast-7 {
+.compose.contrast-7 {
   --contrast: 1.36;
 }
 
-.filter.contrast-8 {
+.compose.contrast-8 {
   --contrast: 1.42;
 }
 
-.filter.contrast-9 {
+.compose.contrast-9 {
   --contrast: 1.48;
 }
 
-.filter.contrast-10 {
+.compose.contrast-10 {
   --contrast: 1.54;
 }
 
-.filter.saturate-0 {
+.compose.saturate-0 {
   --saturate: 0;
 }
 
-.filter.saturate-1 {
+.compose.saturate-1 {
   --saturate: 1;
 }
 
-.filter.saturate-2 {
+.compose.saturate-2 {
   --saturate: 2;
 }
 
-.filter.saturate-3 {
+.compose.saturate-3 {
   --saturate: 3;
 }
 
-.filter.saturate-4 {
+.compose.saturate-4 {
   --saturate: 4;
 }
 
-.filter.saturate-5 {
+.compose.saturate-5 {
   --saturate: 1.24;
 }
 
-.filter.saturate-6 {
+.compose.saturate-6 {
   --saturate: 1.3;
 }
 
-.filter.saturate-7 {
+.compose.saturate-7 {
   --saturate: 1.36;
 }
 
-.filter.saturate-8 {
+.compose.saturate-8 {
   --saturate: 1.42;
 }
 
-.filter.saturate-9 {
+.compose.saturate-9 {
   --saturate: 1.48;
 }
 
-.filter.saturate-10 {
+.compose.saturate-10 {
   --saturate: 1.54;
 }
 
