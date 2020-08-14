@@ -13,22 +13,24 @@
     $prefix: $prefix,
     $pseudo: $pseudo,
     $class: $class,
-    $selector: "compose",
+    $selector: "filter",
     $property1: "--brightness",
     $value1: "1",
     $property2: "--contrast",
     $value2: "1",
     $property3: "--saturate",
     $value3: "1",
-    $property4: "filter",
-    $value4: brightness(var(--brightness)) contrast(var(--contrast)) saturate(var(--saturate))
+    $property4: "--blur",
+    $value4: "0px",
+    $property5: "filter",
+    $value5: brightness(var(--brightness)) contrast(var(--contrast)) saturate(var(--saturate)) blur(var(--blur))
   )
   @each $modifier, $value in $filter-compose {
     @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
-      $selector: "compose.brightness-",
+      $selector: "filter.brightness-",
       $modifier: $modifier,
       $property1: "--brightness",
       $value1: "#{$value}"
@@ -39,7 +41,7 @@
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
-      $selector: "compose.contrast-",
+      $selector: "filter.contrast-",
       $modifier: $modifier,
       $property1: "--contrast",
       $value1: "#{$value}"
@@ -50,9 +52,20 @@
       $prefix: $prefix,
       $pseudo: $pseudo,
       $class: $class,
-      $selector: "compose.saturate-",
+      $selector: "filter.saturate-",
       $modifier: $modifier,
       $property1: "--saturate",
+      $value1: "#{$value}"
+    )
+  }
+  @each $modifier, $value in $filter-blur {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "filter.blur-",
+      $modifier: $modifier,
+      $property1: "--blur",
       $value1: "#{$value}"
     )
   }

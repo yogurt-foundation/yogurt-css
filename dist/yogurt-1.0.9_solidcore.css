@@ -855,11 +855,6 @@ y {
  */
 /**
  * @utility: filters
- * @module: _blur.scss
- * @desc: sets filter blur effect to an element
- */
-/**
- * @utility: filters
  * @module: _filterCompose.scss
  * @desc: sets mixed filters (brightness, contrast, saturate) in order to an element
  */
@@ -8589,187 +8584,188 @@ y {
 }
 
 /* filters */
-.blur-0 {
-  filter: blur(0px);
-}
-
-.blur-1 {
-  filter: blur(2px);
-}
-
-.blur-2 {
-  filter: blur(4px);
-}
-
-.blur-3 {
-  filter: blur(6px);
-}
-
-.blur-4 {
-  filter: blur(8px);
-}
-
-.blur-5 {
-  filter: blur(10px);
-}
-
-.blur-6 {
-  filter: blur(12px);
-}
-
-.blur-7 {
-  filter: blur(14px);
-}
-
-.blur-8 {
-  filter: blur(16px);
-}
-
-.blur-9 {
-  filter: blur(18px);
-}
-
-.blur-10 {
-  filter: blur(20px);
-}
-
-.compose {
+.filter {
   --brightness: 1;
   --contrast: 1;
   --saturate: 1;
-  filter: brightness(var(--brightness)) contrast(var(--contrast)) saturate(var(--saturate));
+  --blur: 0px;
+  filter: brightness(var(--brightness)) contrast(var(--contrast)) saturate(var(--saturate)) blur(var(--blur));
 }
 
-.compose.brightness-0 {
+.filter.brightness-0 {
   --brightness: 0;
 }
 
-.compose.brightness-1 {
+.filter.brightness-1 {
   --brightness: 1;
 }
 
-.compose.brightness-2 {
+.filter.brightness-2 {
   --brightness: 2;
 }
 
-.compose.brightness-3 {
+.filter.brightness-3 {
   --brightness: 3;
 }
 
-.compose.brightness-4 {
+.filter.brightness-4 {
   --brightness: 4;
 }
 
-.compose.brightness-5 {
+.filter.brightness-5 {
   --brightness: 1.24;
 }
 
-.compose.brightness-6 {
+.filter.brightness-6 {
   --brightness: 1.3;
 }
 
-.compose.brightness-7 {
+.filter.brightness-7 {
   --brightness: 1.36;
 }
 
-.compose.brightness-8 {
+.filter.brightness-8 {
   --brightness: 1.42;
 }
 
-.compose.brightness-9 {
+.filter.brightness-9 {
   --brightness: 1.48;
 }
 
-.compose.brightness-10 {
+.filter.brightness-10 {
   --brightness: 1.54;
 }
 
-.compose.contrast-0 {
+.filter.contrast-0 {
   --contrast: 0;
 }
 
-.compose.contrast-1 {
+.filter.contrast-1 {
   --contrast: 1;
 }
 
-.compose.contrast-2 {
+.filter.contrast-2 {
   --contrast: 2;
 }
 
-.compose.contrast-3 {
+.filter.contrast-3 {
   --contrast: 3;
 }
 
-.compose.contrast-4 {
+.filter.contrast-4 {
   --contrast: 4;
 }
 
-.compose.contrast-5 {
+.filter.contrast-5 {
   --contrast: 1.24;
 }
 
-.compose.contrast-6 {
+.filter.contrast-6 {
   --contrast: 1.3;
 }
 
-.compose.contrast-7 {
+.filter.contrast-7 {
   --contrast: 1.36;
 }
 
-.compose.contrast-8 {
+.filter.contrast-8 {
   --contrast: 1.42;
 }
 
-.compose.contrast-9 {
+.filter.contrast-9 {
   --contrast: 1.48;
 }
 
-.compose.contrast-10 {
+.filter.contrast-10 {
   --contrast: 1.54;
 }
 
-.compose.saturate-0 {
+.filter.saturate-0 {
   --saturate: 0;
 }
 
-.compose.saturate-1 {
+.filter.saturate-1 {
   --saturate: 1;
 }
 
-.compose.saturate-2 {
+.filter.saturate-2 {
   --saturate: 2;
 }
 
-.compose.saturate-3 {
+.filter.saturate-3 {
   --saturate: 3;
 }
 
-.compose.saturate-4 {
+.filter.saturate-4 {
   --saturate: 4;
 }
 
-.compose.saturate-5 {
+.filter.saturate-5 {
   --saturate: 1.24;
 }
 
-.compose.saturate-6 {
+.filter.saturate-6 {
   --saturate: 1.3;
 }
 
-.compose.saturate-7 {
+.filter.saturate-7 {
   --saturate: 1.36;
 }
 
-.compose.saturate-8 {
+.filter.saturate-8 {
   --saturate: 1.42;
 }
 
-.compose.saturate-9 {
+.filter.saturate-9 {
   --saturate: 1.48;
 }
 
-.compose.saturate-10 {
+.filter.saturate-10 {
   --saturate: 1.54;
+}
+
+.filter.blur-0 {
+  --blur: 0px;
+}
+
+.filter.blur-1 {
+  --blur: 2px;
+}
+
+.filter.blur-2 {
+  --blur: 4px;
+}
+
+.filter.blur-3 {
+  --blur: 6px;
+}
+
+.filter.blur-4 {
+  --blur: 8px;
+}
+
+.filter.blur-5 {
+  --blur: 10px;
+}
+
+.filter.blur-6 {
+  --blur: 12px;
+}
+
+.filter.blur-7 {
+  --blur: 14px;
+}
+
+.filter.blur-8 {
+  --blur: 16px;
+}
+
+.filter.blur-9 {
+  --blur: 18px;
+}
+
+.filter.blur-10 {
+  --blur: 20px;
 }
 
 .invert-0 {
