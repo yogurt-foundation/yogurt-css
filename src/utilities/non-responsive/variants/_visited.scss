@@ -19,6 +19,7 @@
 // @include backgroundGradient($prefix: $variant-visited, $pseudo: $visited) // (v1.0.9)
 
 /* borders */
+
 // @include borderColor($prefix: $variant-visited, $pseudo: $visited)
 // @include borderRadius($prefix: $variant-visited, $pseudo: $visited)
 // @include borderStyle($prefix: $variant-visited, $pseudo: $visited)
@@ -53,6 +54,12 @@
 // @include flexWrap($prefix: $variant-visited, $pseudo: $visited)
 // @include justifyContent($prefix: $variant-visited, $pseudo: $visited)
 // @include order($prefix: $variant-visited, $pseudo: $visited)
+
+/* fluids */
+
+// @include fluidFontSize($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
+// @include fluidMargin($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
+// @include fluidPadding($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
 
 /* interactivity */
 
@@ -94,14 +101,9 @@
 
 // @include margin($prefix: $variant-visited, $pseudo: $visited)
 // @include margin($negative: $true, $prefix: $variant-visited, $pseudo: $visited) // negative
-// -----
 // @include padding($prefix: $variant-visited, $pseudo: $visited)
-// -----
 // @include equal($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $variant-visited, $pseudo: $visited) // negative, (v1.0.8)
-// -----
-// @include fluidMargin($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
-// @include fluidPadding($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
 
 /* svg */
 
@@ -118,15 +120,11 @@
 
 // @include transform($prefix: $variant-visited, $pseudo: $visited)
 // @include transformOrigin($prefix: $variant-visited, $pseudo: $visited)
-// -----
 // @include rotate($prefix: $variant-visited, $pseudo: $visited)
 // @include rotate($prefix: $variant-visited, $pseudo: $visited, $negative: $true) // negative
-// -----
 // @include scale($prefix: $variant-visited, $pseudo: $visited)
-// -----
 // @include skew($prefix: $variant-visited, $pseudo: $visited)
 // @include skew($prefix: $variant-visited, $pseudo: $visited, $negative: $true) // negative
-// -----
 // @include translate($prefix: $variant-visited, $pseudo: $visited)
 // @include translate($prefix: $variant-visited, $pseudo: $visited, $negative: $true) // negative
 
@@ -142,7 +140,6 @@
 @include textColor($prefix: $variant-visited, $pseudo: $visited)
 // @include fontFamily($prefix: $variant-visited, $pseudo: $visited)
 // @include fontSize($prefix: $variant-visited, $pseudo: $visited)
-// @include fluidFontSize($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
 // @include fontSmoothing($prefix: $variant-visited, $pseudo: $visited)
 // @include fontStyle($prefix: $variant-visited, $pseudo: $visited)
 // @include fontWeight($prefix: $variant-visited, $pseudo: $visited)

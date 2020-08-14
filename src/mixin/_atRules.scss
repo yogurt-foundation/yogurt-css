@@ -26,25 +26,16 @@ $disabled: ":disabled";
 
 
 @mixin setRule(
-  $prefix: null,
-  $pseudo: null,
-  $class: null,
-  $selector: null,
-  $modifier: null,
-  $option: null,
+  $prefix: null, $pseudo: null,  $class: null,
+  $selector: null, $modifier: null, $option: null,
   $variant: null,
-  $property1: null,
-  $value1: null,
-  $property2: null,
-  $value2: null,
-  $property3: null,
-  $value3: null,
-  $property4: null,
-  $value4: null,
-  $property5: null,
-  $value5: null,
-  $property6: null,
-  $value6: null,
+  // -----
+  $property1: null, $value1: null,
+  $property2: null, $value2: null,
+  $property3: null, $value3: null,
+  $property4: null, $value4: null,
+  $property5: null, $value5: null,
+  $property6: null, $value6: null
   ) {
   #{$prefix}#{$class}#{$id}#{$selector}#{$modifier}#{$option}#{$pseudo}#{$variant} {
     #{$property1}: #{$value1};

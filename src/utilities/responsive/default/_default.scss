@@ -55,6 +55,8 @@
 @include justifyContent($prefix: $responsive-default)
 @include order($prefix: $responsive-default)
 
+/* fluids */
+
 /* interactivity */
 
 // @include appearance($prefix: $responsive-default)
@@ -95,9 +97,7 @@
 
 @include margin($prefix: $responsive-default)
 @include margin($negative: $true, $prefix: $responsive-default) // negative
-// -----
 @include padding($prefix: $responsive-default)
-// -----
 // @include equal($prefix: $responsive-default) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $responsive-default) // negative, (v1.0.8)
 
@@ -116,15 +116,11 @@
 
 // @include transform($prefix: $responsive-default)
 // @include transformOrigin($prefix: $responsive-default)
-// -----
 // @include rotate($prefix: $responsive-default)
 // @include rotate($prefix: $responsive-default, $negative: $true) // negative
-// -----
 // @include scale($prefix: $responsive-default)
-// -----
 // @include skew($prefix: $responsive-default)
 // @include skew($prefix: $responsive-default, $negative: $true) // negative
-// -----
 // @include translate($prefix: $responsive-default)
 // @include translate($prefix: $responsive-default, $negative: $true) // negative
 

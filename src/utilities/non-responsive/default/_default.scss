@@ -64,6 +64,12 @@
 @include justifyContent($class: $default)
 @include order($class: $default)
 
+/* fluids */
+
+@include fluidFontSize($class: $default) // (v1.0.8)
+@include fluidMargin($class: $default) // (1.0.8)
+@include fluidPadding($class: $default) // (1.0.8)
+
 /* interactivity */
 
 @include appearance($class: $default)
@@ -90,7 +96,6 @@
 @include position($class: $default)
 @include visibility($class: $default)
 @include zIndex($class: $default)
-// -----
 @include contentVisibility($class: $default) // (v1.0.9)
 
 /* patterns */
@@ -122,14 +127,9 @@
 
 @include margin($class: $default)
 @include margin($negative: $true, $class: $default) // negative
-// -----
 @include padding($class: $default)
-// -----
 @include equal($class: $default) // (v1.0.8)
 @include equal($negative: $true, $class: $default) // negative, (v1.0.8)
-// -----
-@include fluidMargin($class: $default) // (1.0.8)
-@include fluidPadding($class: $default) // (1.0.8)
 
 /* svg */
 
@@ -152,15 +152,11 @@
 
 @include transform($class: $default)
 @include transformOrigin($class: $default)
-// -----
 @include rotate($class: $default)
 @include rotate($class: $default, $negative: $true) // negative
-// -----
 @include scale($class: $default)
-// -----
 @include skew($class: $default)
 @include skew($class: $default, $negative: $true) // negative
-// -----
 @include translate($class: $default)
 @include translate($class: $default, $negative: $true) // negative
 
@@ -175,7 +171,6 @@
 @include textColor ($class: $default)
 @include fontFamily($class: $default)
 @include fontSize($class: $default)
-@include fluidFontSize($class: $default) // (v1.0.8)
 @include fontSmoothing($class: $default)
 @include fontStyle($class: $default)
 @include fontWeight($class: $default)

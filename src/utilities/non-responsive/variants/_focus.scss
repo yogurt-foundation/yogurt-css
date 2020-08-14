@@ -63,6 +63,12 @@
 // @include justifyContent($prefix: $variant-focus, $pseudo: $focus)
 // @include order($prefix: $variant-focus, $pseudo: $focus)
 
+/* fluids */
+
+// @include fluidFontSize($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
+// @include fluidMargin($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
+// @include fluidPadding($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
+
 /* interactivity */
 
 // @include appearance($prefix: $variant-focus, $pseudo: $focus)
@@ -103,14 +109,9 @@
 
 // @include margin($prefix: $variant-focus, $pseudo: $focus)
 // @include margin($negative: $true, $prefix: $variant-focus, $pseudo: $focus) // negative
-// -----
 // @include padding($prefix: $variant-focus, $pseudo: $focus)
-// -----
 // @include equal($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $variant-focus, $pseudo: $focus) // negative, (v1.0.8)
-// -----
-// @include fluidMargin($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
-// @include fluidPadding($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
 
 /* svg */
 
@@ -127,15 +128,11 @@
 
 // @include transform($prefix: $variant-focus, $pseudo: $focus)
 // @include transformOrigin($prefix: $variant-focus, $pseudo: $focus)
-// -----
 // @include rotate($prefix: $variant-focus, $pseudo: $focus)
 // @include rotate($prefix: $variant-focus, $pseudo: $focus, $negative: $true) // negative
-// -----
 // @include scale($prefix: $variant-focus, $pseudo: $focus)
-// -----
 // @include skew($prefix: $variant-focus, $pseudo: $focus)
 // @include skew($prefix: $variant-focus, $pseudo: $focus, $negative: $true) // negative
-// -----
 // @include translate($prefix: $variant-focus, $pseudo: $focus)
 // @include translate($prefix: $variant-focus, $pseudo: $focus, $negative: $true) // negative
 
@@ -153,7 +150,6 @@
 @include textColor($prefix: $variant-group-focus)
 // @include fontFamily($prefix: $variant-focus, $pseudo: $focus)
 // @include fontSize($prefix: $variant-focus, $pseudo: $focus)
-// @include fluidFontSize($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
 // @include fontSmoothing($prefix: $variant-focus, $pseudo: $focus)
 // @include fontStyle($prefix: $variant-focus, $pseudo: $focus)
 @include fontWeight($prefix: $variant-focus, $pseudo: $focus)

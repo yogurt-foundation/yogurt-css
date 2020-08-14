@@ -55,6 +55,8 @@
 // @include justifyContent($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include order($prefix: $responsive-disabled, $pseudo: $disabled)
 
+/* fluids */
+
 /* interactivity */
 
 // @include appearance($prefix: $responsive-disabled, $pseudo: $disabled)
@@ -95,9 +97,7 @@
 
 // @include margin($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include margin($negative: $true, $prefix: $responsive-disabled, $pseudo: $disabled) // negative
-// -----
 // @include padding($prefix: $responsive-disabled, $pseudo: $disabled)
-// -----
 // @include equal($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $responsive-disabled, $pseudo: $disabled) // negative, (v1.0.8)
 
@@ -116,15 +116,11 @@
 
 // @include transform($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include transformOrigin($prefix: $responsive-disabled, $pseudo: $disabled)
-// -----
 // @include rotate($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include rotate($prefix: $responsive-disabled, $pseudo: $disabled, $negative: $true) // negative
-// -----
 // @include scale($prefix: $responsive-disabled, $pseudo: $disabled)
-// -----
 // @include skew($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include skew($prefix: $responsive-disabled, $pseudo: $disabled, $negative: $true) // negative
-// -----
 // @include translate($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include translate($prefix: $responsive-disabled, $pseudo: $disabled, $negative: $true) // negative
 

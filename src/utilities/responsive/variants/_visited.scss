@@ -54,6 +54,8 @@
 // @include justifyContent($prefix: $responsive-visited, $pseudo: $visited)
 // @include order($prefix: $responsive-visited, $pseudo: $visited)
 
+/* fluids */
+
 /* interactivity */
 
 // @include appearance($prefix: $responsive-visited, $pseudo: $visited)
@@ -94,9 +96,7 @@
 
 // @include margin($prefix: $responsive-visited, $pseudo: $visited)
 // @include margin($negative: $true, $prefix: $responsive-visited, $pseudo: $visited) // negative
-// -----
 // @include padding($prefix: $responsive-visited, $pseudo: $visited)
-// -----
 // @include equal($prefix: $responsive-hover, $pseudo: $hover) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $responsive-hover, $pseudo: $hover) // negative, (v1.0.8)
 
@@ -115,15 +115,11 @@
 
 // @include transform($prefix: $responsive-visited, $pseudo: $visited)
 // @include transformOrigin($prefix: $responsive-visited, $pseudo: $visited)
-// -----
 // @include rotate($prefix: $responsive-visited, $pseudo: $visited)
 // @include rotate($prefix: $responsive-visited, $pseudo: $visited, $negative: $true) // negative
-// -----
 // @include scale($prefix: $responsive-visited, $pseudo: $visited)
-// -----
 // @include skew($prefix: $responsive-visited, $pseudo: $visited)
 // @include skew($prefix: $responsive-visited, $pseudo: $visited, $negative: $true) // negative
-// -----
 // @include translate($prefix: $responsive-visited, $pseudo: $visited)
 // @include translate($prefix: $responsive-visited, $pseudo: $visited, $negative: $true) // negative
 

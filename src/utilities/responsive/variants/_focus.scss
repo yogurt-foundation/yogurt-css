@@ -55,6 +55,8 @@
 // @include justifyContent($prefix: $responsive-focus, $pseudo: $focus)
 // @include order($prefix: $responsive-focus, $pseudo: $focus)
 
+/* fluids */
+
 /* interactivity */
 
 // @include appearance($prefix: $responsive-focus, $pseudo: $focus)
@@ -95,9 +97,7 @@
 
 // @include margin($prefix: $responsive-focus, $pseudo: $focus)
 // @include margin($negative: $true, $prefix: $responsive-focus, $pseudo: $focus) // negative
-// -----
 // @include padding($prefix: $responsive-focus, $pseudo: $focus)
-// -----
 // @include equal($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $responsive-focus, $pseudo: $focus) // negative, (v1.0.8)
 
@@ -116,15 +116,11 @@
 
 // @include transform($prefix: $responsive-focus, $pseudo: $focus)
 // @include transformOrigin($prefix: $responsive-focus, $pseudo: $focus)
-// -----
 // @include rotate($prefix: $responsive-focus, $pseudo: $focus)
 // @include rotate($prefix: $responsive-focus, $pseudo: $focus, $negative: $true) // negative
-// -----
 // @include scale($prefix: $responsive-focus, $pseudo: $focus)
-// -----
 // @include skew($prefix: $responsive-focus, $pseudo: $focus)
 // @include skew($prefix: $responsive-focus, $pseudo: $focus, $negative: $true) // negative
-// -----
 // @include translate($prefix: $responsive-focus, $pseudo: $focus)
 // @include translate($prefix: $responsive-focus, $pseudo: $focus, $negative: $true) // negative
 

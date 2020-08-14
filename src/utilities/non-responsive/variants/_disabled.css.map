@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA;;;GAGG;AAEH,mBAAmB;AAInB,iBAAiB;AAUjB,aAAa;AAUb,aAAa;AAwBb,aAAa;AAOb,aAAa;AAab,mBAAmB;AASnB,aAAa;AAkBb,YAAY;AASZ,aAAa;AAab,SAAS;AAMT,YAAY;AAKZ,gBAAgB;AAgBhB,iBAAiB;AAMjB,gBAAgB",
-"sources": ["_disabled.scss"],
-"names": [],
-"file": "_disabled.css"
-}

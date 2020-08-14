@@ -63,6 +63,12 @@
 // @include justifyContent($prefix: $variant-active, $pseudo: $active)
 // @include order($prefix: $variant-active, $pseudo: $active)
 
+/* fluids */
+
+// @include fluidFontSize($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
+// @include fluidMargin($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
+// @include fluidPadding($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
+
 /* interactivity */
 
 // @include appearance($prefix: $variant-active, $pseudo: $active)
@@ -103,14 +109,9 @@
 
 // @include margin($prefix: $variant-active, $pseudo: $active)
 // @include margin($negative: $true, $prefix: $variant-active, $pseudo: $active) // negative
-// -----
 // @include padding($prefix: $variant-active, $pseudo: $active)
-// -----
 // @include equal($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $variant-active, $pseudo: $active) // negative, (v1.0.8)
-// -----
-// @include fluidMargin($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
-// @include fluidPadding($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
 
 /* svg */
 
@@ -151,7 +152,6 @@
 @include textColor($prefix: $variant-active, $pseudo: $active)
 // @include fontFamily($prefix: $variant-active, $pseudo: $active)
 // @include fontSize($prefix: $variant-active, $pseudo: $active)
-// @include fluidFontSize($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
 // @include fontSmoothing($prefix: $variant-active, $pseudo: $active)
 // @include fontStyle($prefix: $variant-active, $pseudo: $active)
 // @include fontWeight($prefix: $variant-active, $pseudo: $active)

@@ -20,7 +20,6 @@
 @include backgroundColor($prefix: $variant-hover, $pseudo: $hover)
 // ----- GROUP
 @include backgroundColor($prefix: $variant-group-hover)
-// -----
 // @include backgroundAttachment($prefix: $variant-hover, $pseudo: $hover)
 // @include backgroundPosition($prefix: $variant-hover, $pseudo: $hover)
 // @include backgroundRepeat($prefix: $variant-hover, $pseudo: $hover)
@@ -66,6 +65,12 @@
 // @include justifyContent($prefix: $variant-hover, $pseudo: $hover)
 // @include order($prefix: $variant-hover, $pseudo: $hover)
 
+/* fluids */
+
+// @include fluidFontSize($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
+// @include fluidMargin($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
+// @include fluidPadding($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
+
 /* interactivity */
 
 // @include appearance($prefix: $variant-hover, $pseudo: $hover)
@@ -109,14 +114,9 @@
 
 // @include margin($prefix: $variant-hover, $pseudo: $hover)
 // @include margin($negative: $true, $prefix: $variant-hover, $pseudo: $hover) // negative
-// -----
 // @include padding($prefix: $variant-hover, $pseudo: $hover)
-// -----
 // @include equal($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
 // @include equal($negative: $true, $prefix: $variant-hover, $pseudo: $hover) // negative, (v1.0.8)
-// -----
-// @include fluidMargin($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
-// @include fluidPadding($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
 
 /* svg */
 
@@ -133,15 +133,11 @@
 
 // @include transform($prefix: $variant-hover, $pseudo: $hover)
 @include transformOrigin($prefix: $variant-hover, $pseudo: $hover)
-// -----
 @include rotate($prefix: $variant-hover, $pseudo: $hover)
 @include rotate($prefix: $variant-hover, $pseudo: $hover, $negative: $true) // negative
-// -----
 @include scale($prefix: $variant-hover, $pseudo: $hover)
-// -----
 @include skew($prefix: $variant-hover, $pseudo: $hover)
 @include skew($prefix: $variant-hover, $pseudo: $hover, $negative: $true) // negative
-// -----
 @include translate($prefix: $variant-hover, $pseudo: $hover)
 @include translate($prefix: $variant-hover, $pseudo: $hover, $negative: $true) // negative
 
@@ -157,10 +153,8 @@
 @include textColor($prefix: $variant-hover, $pseudo: $hover)
 // ----- GROUP
 @include textColor($prefix: $variant-group-hover)
-// -----
 // @include fontFamily($prefix: $variant-hover, $pseudo: $hover)
 // @include fontSize($prefix: $variant-hover, $pseudo: $hover)
-// @include fluidFontSize($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
 // @include fontSmoothing($prefix: $variant-hover, $pseudo: $hover)
 // @include fontStyle($prefix: $variant-hover, $pseudo: $hover)
 @include fontWeight($prefix: $variant-hover, $pseudo: $hover)
