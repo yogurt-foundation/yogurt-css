@@ -49,10 +49,9 @@ $disabled: ":disabled";
 
 @mixin fluid(
   $properties,
-  $min-vw,
-  $max-vw,
-  $min-value,
-  $max-value
+  // -----
+  $min-vw, $max-vw,
+  $min-value, $max-value
   ) {
   & {
     @each $property in $properties {
@@ -76,10 +75,8 @@ $disabled: ":disabled";
 }
 
 @mixin keyframes(
-  $prefix: null,
-  $pseudo: null,
-  $class: null,
-  $animation: null
+  $prefix: null, $pseudo: null,
+  $class: null, $animation: null
   ) {
   @each $modifier, $from-prop1, $from-value1, $from-prop2, $from-value2, $to-prop1, $to-value1, $to-prop2, $to-value2 in $animation {
     @keyframes #{$modifier} {
@@ -97,3 +94,4 @@ $disabled: ":disabled";
     }
   }
 }
+
