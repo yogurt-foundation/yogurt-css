@@ -18,27 +18,27 @@ $version: "1.0.9";
 
 @import 'config';
 
-@import 'mixin/atRules';
+@import 'modules/atRules';
 
-@import 'mixin/utilities/accessibility/**/**/*';
-@import 'mixin/utilities/animations/**/**/*';
-@import 'mixin/utilities/backgrounds/**/**/*';
-@import 'mixin/utilities/borders/**/**/*';
-@import 'mixin/utilities/effects/**/**/*';
-@import 'mixin/utilities/filters/**/**/*';
-@import 'mixin/utilities/flexbox/**/**/*';
-@import 'mixin/utilities/fluids/**/**/*';
-@import 'mixin/utilities/interactivity/**/**/*';
-@import 'mixin/utilities/layouts/**/**/*';
-@import 'mixin/utilities/patterns/**/**/*';
-@import 'mixin/utilities/sizing/**/**/*';
-@import 'mixin/utilities/spacing/**/**/*';
-@import 'mixin/utilities/svg/**/**/*';
-@import 'mixin/utilities/tables/**/**/*';
-@import 'mixin/utilities/theme/**/**/*';
-@import 'mixin/utilities/transforms/**/**/*';
-@import 'mixin/utilities/transitions/**/**/*';
-@import 'mixin/utilities/typography/**/**/*';
+@import 'modules/utilities/accessibility/**/**/*';
+@import 'modules/utilities/animations/**/**/*';
+@import 'modules/utilities/backgrounds/**/**/*';
+@import 'modules/utilities/borders/**/**/*';
+@import 'modules/utilities/effects/**/**/*';
+@import 'modules/utilities/filters/**/**/*';
+@import 'modules/utilities/flexbox/**/**/*';
+@import 'modules/utilities/fluids/**/**/*';
+@import 'modules/utilities/interactivity/**/**/*';
+@import 'modules/utilities/layouts/**/**/*';
+@import 'modules/utilities/patterns/**/**/*';
+@import 'modules/utilities/sizing/**/**/*';
+@import 'modules/utilities/spacing/**/**/*';
+@import 'modules/utilities/svg/**/**/*';
+@import 'modules/utilities/tables/**/**/*';
+@import 'modules/utilities/theme/**/**/*';
+@import 'modules/utilities/transforms/**/**/*';
+@import 'modules/utilities/transitions/**/**/*';
+@import 'modules/utilities/typography/**/**/*';
 
 // non-responsive `default` and `variant` utilities
 @import 'utilities/non-responsive/default/*';
@@ -49,7 +49,7 @@ $version: "1.0.9";
 // @import 'utilities/responsive/maxWidth'; // optional
 
 // plugin
-@import 'mixin/pluginMaker';
+@import 'modules/pluginMaker';
 @import 'plugins'
 
 /*! yogurt.css #{$version}-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
