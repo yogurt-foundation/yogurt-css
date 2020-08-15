@@ -40,11 +40,11 @@ $version: "1.0.9";
 @import 'modules/utilities/transitions/**/**/*';
 @import 'modules/utilities/typography/**/**/*';
 
-// non-responsive `default` and `variant` utilities
+// non-responsive `default` and `pseudo` utilities
 @import 'variants/non-responsive/default/*';
-@import 'variants/non-responsive/variants/*';
+@import 'variants/non-responsive/pseudo/*';
 
-// responsive `default` and `variant` utilities
+// responsive `default` and `pseudo` utilities
 @import 'variants/responsive/minWidth';
 // @import 'variants/responsive/maxWidth'; // optional
 

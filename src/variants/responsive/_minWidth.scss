@@ -14,11 +14,11 @@
 
     /* Variants */
 
-    @import 'variants/responsive/variants/hover';
-    @import 'variants/responsive/variants/focus';
-    @import 'variants/responsive/variants/active';
-    @import 'variants/responsive/variants/visited';
-    @import 'variants/responsive/variants/disabled';
+    @import 'variants/responsive/pseudo/hover';
+    @import 'variants/responsive/pseudo/focus';
+    @import 'variants/responsive/pseudo/active';
+    @import 'variants/responsive/pseudo/visited';
+    @import 'variants/responsive/pseudo/disabled';
 
   }
 }
