@@ -41,12 +41,12 @@ $version: "1.0.9";
 @import 'modules/utilities/typography/**/**/*';
 
 // non-responsive `default` and `variant` utilities
-@import 'utilities/non-responsive/default/*';
-@import 'utilities/non-responsive/variants/*';
+@import 'variants/non-responsive/default/*';
+@import 'variants/non-responsive/variants/*';
 
 // responsive `default` and `variant` utilities
-@import 'utilities/responsive/minWidth';
-// @import 'utilities/responsive/maxWidth'; // optional
+@import 'variants/responsive/minWidth';
+// @import 'variants/responsive/maxWidth'; // optional
 
 // plugin
 @import 'modules/pluginMaker';
