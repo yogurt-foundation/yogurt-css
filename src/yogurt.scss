@@ -5,6 +5,7 @@
  * beautiful and elegant user interface at an atomic level.
  *
  * @repo: https://github.com/yogurt-foundation/yogurt-css
+ * @docs: https://github.com/yogurt-foundation/yogurt-css-documentation
  * @author: Loouis Low (loouis@gmail.com)
  * @copyright: Loouis Low (loouis@gmail.com)
  * @license: MIT
@@ -49,7 +50,7 @@ $version: "1.0.9";
 // @import 'variants/responsive/maxWidth'; // optional
 
 // plugin
-@import 'modules/pluginMaker';
+@import 'modules/pluginAPI';
 @import 'plugins'
 
 /*! yogurt.css #{$version}-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
