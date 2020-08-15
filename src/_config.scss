@@ -246,7 +246,7 @@ $colors:
   (yellow, 800, #975a16),
   (yellow, 900, #744210);
 
-/* shadowColor */
+/* shadow color */
 
 $shadow-color-size:
   (md, 6px),
@@ -254,7 +254,7 @@ $shadow-color-size:
   (xl, 25px),
   (\32xl, 50px);
 
-/* alignContent */
+/* align content */
 
 $align-content:
   (start, flex-start),
@@ -263,7 +263,7 @@ $align-content:
   (between, space-between),
   (around, space-around);
 
-/* alignItems */
+/* align items */
 
 $align-items:
   (start, flex-start),
@@ -272,7 +272,7 @@ $align-items:
   (baseline, baseline),
   (stretch, stretch);
 
-/* alignSelf */
+/* align self */
 
 $align-self:
   (auto, auto),
@@ -281,14 +281,14 @@ $align-self:
   (center, center),
   (stretch, stretch);
 
-/* backgroundAttachment */
+/* background attachment */
 
 $background-attachment:
   (fixed, fixed),
   (local, local),
   (scroll, scroll);
 
-/* backgroundPosition */
+/* background position */
 
 $background-position:
   (top, top),
@@ -301,7 +301,7 @@ $background-position:
   (right-bottom, right bottom),
   (right-top, right top);
 
-/* backgroundRepeat */
+/* background repeat */
 
 $background-repeat:
   (repeat, repeat),
@@ -311,20 +311,20 @@ $background-repeat:
   (repeat-round, round),
   (repeat-space, space);
 
-/* backgroundSize */
+/* background size */
 
 $background-size:
   (auto, auto),
   (cover, cover),
   (contain, contain);
 
-/* borderCollapse */
+/* border collapse */
 
 $border-collapse:
   (collapse, collapse),
   (separate, separate);
 
-/* borderRadius */
+/* border radius */
 
 $border-radius:
   (none, 0),
@@ -333,7 +333,7 @@ $border-radius:
   (lg, 0.5rem),
   (full, 9999px);
 
-/* borderStyle */
+/* border style */
 
 $border-style:
   (solid, solid),
@@ -341,7 +341,7 @@ $border-style:
   (dotted, dotted),
   (none, none);
 
-/* borderWidth */
+/* border width */
 
 $border-width:
   (0, 0),
@@ -349,7 +349,7 @@ $border-width:
   (4, 0.25em), // 4px
   (8, 0.5em); // 8px
 
-/* boxShadow */
+/* box shadow */
 
 $box-shadow:
   (xs, 0 0 0 1px rgba(0, 0, 0, 0.05)),
