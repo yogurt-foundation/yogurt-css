@@ -35,7 +35,9 @@ $disabled: ":disabled";
   $property3: null, $value3: null,
   $property4: null, $value4: null,
   $property5: null, $value5: null,
-  $property6: null, $value6: null
+  $property6: null, $value6: null,
+  $property7: null, $value7: null,
+  $property8: null, $value8: null
   ) {
   #{$prefix}#{$class}#{$id}#{$selector}#{$modifier}#{$option}#{$pseudo}#{$variant} {
     #{$property1}: #{$value1};
@@ -43,7 +45,9 @@ $disabled: ":disabled";
     #{$property3}: #{$value3};
     #{$property4}: #{$value4};
     #{$property5}: #{$value5};
-    #{$property6}: #{$value6}
+    #{$property6}: #{$value6};
+    #{$property7}: #{$value7};
+    #{$property8}: #{$value8}
   }
 }
 

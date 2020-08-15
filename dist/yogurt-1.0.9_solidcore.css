@@ -666,6 +666,7 @@ y {
 /* animations */
 /* background border */
 /* background gradient */
+/* text clamp */
 /**
  * @file: _atrules.scss
  */
@@ -1277,6 +1278,11 @@ y {
  * @utility: typography
  * @module: _textAlign.scss
  * @desc: sets the alignment of text
+ */
+/**
+ * @utility: typography
+ * @module: _textClamp.scss
+ * @desc: sets the total text line to display
  */
 /**
  * @utility: typography
@@ -28597,6 +28603,61 @@ img[theme="invert"] {
   white-space: nowrap;
 }
 
+.clamp-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  position: relative;
+  visibility: visible;
+}
+
+.clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  position: relative;
+  visibility: visible;
+}
+
+.clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  position: relative;
+  visibility: visible;
+}
+
+.clamp-4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  position: relative;
+  visibility: visible;
+}
+
+.clamp-5 {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  position: relative;
+  visibility: visible;
+}
+
 /**
  * @module: default/variants/
  * @file: _active.scss
@@ -42694,6 +42755,56 @@ img[theme="invert"] {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
+  .xs\:clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .xs\:clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .xs\:clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .xs\:clamp-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .xs\:clamp-5 {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
   /* Variants */
   /**
  * @module: responsive/variants/
@@ -45419,6 +45530,56 @@ img[theme="invert"] {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+  .sm\:clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .sm\:clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .sm\:clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .sm\:clamp-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .sm\:clamp-5 {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
   }
   /* Variants */
   /**
@@ -48146,6 +48307,56 @@ img[theme="invert"] {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
+  .md\:clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .md\:clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .md\:clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .md\:clamp-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .md\:clamp-5 {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
   /* Variants */
   /**
  * @module: responsive/variants/
@@ -50871,6 +51082,56 @@ img[theme="invert"] {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+  .lg\:clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .lg\:clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .lg\:clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .lg\:clamp-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .lg\:clamp-5 {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
   }
   /* Variants */
   /**
@@ -53598,6 +53859,56 @@ img[theme="invert"] {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
+  .xl\:clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .xl\:clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .xl\:clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .xl\:clamp-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .xl\:clamp-5 {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
   /* Variants */
   /**
  * @module: responsive/variants/
@@ -56324,6 +56635,56 @@ img[theme="invert"] {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
+  .\32k\:clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .\32k\:clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .\32k\:clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .\32k\:clamp-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .\32k\:clamp-5 {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
   /* Variants */
   /**
  * @module: responsive/variants/
@@ -59049,6 +59410,56 @@ img[theme="invert"] {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+  .\34k\:clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .\34k\:clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .\34k\:clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .\34k\:clamp-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
+  }
+  .\34k\:clamp-5 {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    position: relative;
+    visibility: visible;
   }
   /* Variants */
   /**

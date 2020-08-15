@@ -149,4 +149,5 @@
 @include verticalAlign($prefix: $responsive-default)
 @include whitespace($prefix: $responsive-default)
 @include wordBreak($prefix: $responsive-default)
+@include textClamp($prefix: $responsive-default)
 
