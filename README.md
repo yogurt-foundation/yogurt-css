@@ -43,7 +43,10 @@ Yogurt does not include any kind of component classes, unlike many other CSS fra
 
 [Read the Documentation](https://yogurt-css-documentation.netlify.app).
 
-Join our community channel at [Discord](https://discord.gg/A62YjNR), [Twitter](https://twitter.com/yogurtcss).
+Join our community channel at:
+
+- [Discord](https://discord.gg/A62YjNR)
+- [Twitter](https://twitter.com/yogurtcss).
 
 ### Prototype
 
