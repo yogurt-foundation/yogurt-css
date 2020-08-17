@@ -4,6 +4,10 @@
  * @desc: sets background color
  */
 
+@mixin backgroundRGBA($hexcolor, $opacity) {
+  background-color: rgba($hexcolor, $opacity) #{$override}
+}
+  
 @mixin backgroundColor(
   $prefix: null,
   $pseudo: null,
@@ -19,6 +23,11 @@
       $property1: "background-color",
       $value1: #{$value}
     )
+    // TODO: refactor with setRule
+    #{$prefix}#{$class}#{$id}bg-#{$color}-#{$modifier}#{$pseudo} {
+      --bg-opacity: 1;
+      @include backgroundRGBA($value, var(--bg-opacity))
+    }
   }
   @each $modifier, $value in $special-colors {
     @include setRule(
