@@ -63623,10 +63623,10 @@ img[theme="invert"] {
  *
  *  @include plugin(
  *    (
- *      $utility: '',
- *      $variant: '',
- *      $property: '',
- *      $modifier: (
+ *      utility: '',
+ *      variant: '',
+ *      property: '',
+ *      modifier: (
  *        '': '',
  *        '': ''
  *        // ...
@@ -63635,7 +63635,7 @@ img[theme="invert"] {
  *    // ...
  *  )
  *
- * Use keyword for `$variant` to apply pseudo class variants, such as:
+ * Use keyword for `variant` to apply pseudo class variants, such as:
  * hover, focus, active, visited, disabled, responsive, responsive-hover,
  * responsive-focus, responsive-active, responsive-visited, responsive-disabled.
  */
@@ -63644,12 +63644,30 @@ img[theme="invert"] {
  * @description: write your plugins here.
  */
 /*! plugins */
-/* variants:
-     hover, focus, active, visited, disabled,
-     responsive, responsive-hover, responsive-focus,
-     responsive-active, responsive-visited,
-     responsive-disabled
-*/
+/*
+ * Variants,
+ *
+ *   hover, focus, active, visited, disabled,
+ *   responsive, responsive-hover, responsive-focus,
+ *   responsive-active, responsive-visited,
+ *   responsive-disabled
+ *
+ * API,
+ *
+ *  @include plugin(
+ *    (
+ *      utility: '',
+ *      variant: '',
+ *      property: '',
+ *      modifier: (
+ *        '': '',
+ *        '': ''
+ *        // ...
+ *      )
+ *    ),
+ *    // ...
+ *  )
+ */
 /*! yogurt.css 1.0.9-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
 
 /*# sourceMappingURL=yogurt-1.0.9_solidcore.css.map */
