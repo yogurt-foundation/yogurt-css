@@ -29270,7 +29270,7 @@ img[theme="invert"] {
 }
 
 .break-all {
-  word-break: all;
+  word-break: break-all;
 }
 
 .truncate {
@@ -46799,7 +46799,7 @@ img[theme="invert"] {
     overflow-wrap: break-word;
   }
   .xs\:break-all {
-    word-break: all;
+    word-break: break-all;
   }
   .xs\:truncate {
     overflow: hidden;
@@ -49575,7 +49575,7 @@ img[theme="invert"] {
     overflow-wrap: break-word;
   }
   .sm\:break-all {
-    word-break: all;
+    word-break: break-all;
   }
   .sm\:truncate {
     overflow: hidden;
@@ -52351,7 +52351,7 @@ img[theme="invert"] {
     overflow-wrap: break-word;
   }
   .md\:break-all {
-    word-break: all;
+    word-break: break-all;
   }
   .md\:truncate {
     overflow: hidden;
@@ -55127,7 +55127,7 @@ img[theme="invert"] {
     overflow-wrap: break-word;
   }
   .lg\:break-all {
-    word-break: all;
+    word-break: break-all;
   }
   .lg\:truncate {
     overflow: hidden;
@@ -57903,7 +57903,7 @@ img[theme="invert"] {
     overflow-wrap: break-word;
   }
   .xl\:break-all {
-    word-break: all;
+    word-break: break-all;
   }
   .xl\:truncate {
     overflow: hidden;
@@ -60679,7 +60679,7 @@ img[theme="invert"] {
     overflow-wrap: break-word;
   }
   .\32k\:break-all {
-    word-break: all;
+    word-break: break-all;
   }
   .\32k\:truncate {
     overflow: hidden;
@@ -63455,7 +63455,7 @@ img[theme="invert"] {
     overflow-wrap: break-word;
   }
   .\34k\:break-all {
-    word-break: all;
+    word-break: break-all;
   }
   .\34k\:truncate {
     overflow: hidden;

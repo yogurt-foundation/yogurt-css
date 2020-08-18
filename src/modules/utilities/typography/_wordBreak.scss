@@ -18,7 +18,7 @@
     overflow-wrap: break-word#{$override}
   }
   #{$prefix}#{$class}#{$id}break-all#{$pseudo} {
-    word-break: all#{$override}
+    word-break: break-all#{$override}
   }
   #{$prefix}#{$class}#{$id}truncate#{$pseudo} {
     overflow: hidden#{$override};
