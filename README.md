@@ -46,11 +46,11 @@ Yogurt does not include any kind of component classes, unlike many other CSS fra
 Join our community channel at:
 
 - [Discord](https://discord.gg/A62YjNR)
-- [Twitter](https://twitter.com/yogurtcss).
+- [Twitter](https://twitter.com/yogurtcss)
 
-### Prototype
+### Laboratory
 
-Unpulished prototypes are located in the [laboratory](https://github.com/yogurt-foundation/laboratory) page.
+- [Laboratory](https://github.com/yogurt-foundation/laboratory)
 
 ---
 

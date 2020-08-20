@@ -26714,7 +26714,7 @@ img[theme="invert"] {
 }
 
 .transition {
-  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-property: background-image, background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
 }
 
 .transition-colors {
