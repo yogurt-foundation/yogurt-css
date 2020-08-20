@@ -919,6 +919,15 @@ $filter-invert:
   (0, 0),
   (1, 1.0);
 
+/* filter (drop-shadow) */
+
+$filter-drop-shadow:
+  (xs, 0px 0px 1px rgba(0, 0, 0, 0.8)),
+  (sm, 0px 1px 3px rgba(0, 0, 0, 0.5)),
+  (md, 0px 4px 3px rgba(0, 0, 0, 0.5)),
+  (lg, 0px 4px 6px rgba(0, 0, 0, 0.5)),
+  (xl, 0px 4px 10px rgba(0, 0, 0, 0.5));
+
 /* effect (blend) */
 
 $effect-blend:

@@ -658,6 +658,7 @@ y {
 /* filters (brightness, contrast, saturate) */
 /* filter (blur) */
 /* filter (invert) */
+/* filter (drop-shadow) */
 /* effect (blend) */
 /* effect (gradient) */
 /* spacing equal */
@@ -9271,7 +9272,8 @@ y {
   --contrast: 1;
   --saturate: 1;
   --blur: 0px;
-  filter: brightness(var(--brightness)) contrast(var(--contrast)) saturate(var(--saturate)) blur(var(--blur));
+  --drop-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+  filter: brightness(var(--brightness)) contrast(var(--contrast)) saturate(var(--saturate)) blur(var(--blur)) drop-shadow(var(--drop-shadow));
 }
 
 .filter.brightness-0 {
@@ -9448,6 +9450,26 @@ y {
 
 .filter.blur-10 {
   --blur: 20px;
+}
+
+.filter.drop-shadow-xs {
+  --drop-shadow: 0px 0px 1px rgba(0, 0, 0, 0.8);
+}
+
+.filter.drop-shadow-sm {
+  --drop-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.filter.drop-shadow-md {
+  --drop-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
+}
+
+.filter.drop-shadow-lg {
+  --drop-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.filter.drop-shadow-xl {
+  --drop-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .invert-0 {
@@ -26714,7 +26736,7 @@ img[theme="invert"] {
 }
 
 .transition {
-  transition-property: background-image, background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
 }
 
 .transition-colors {

@@ -22,8 +22,10 @@
     $value3: "1",
     $property4: "--blur",
     $value4: "0px",
-    $property5: "filter",
-    $value5: brightness(var(--brightness)) contrast(var(--contrast)) saturate(var(--saturate)) blur(var(--blur))
+    $property5: "--drop-shadow",
+    $value5: "0px 0px 0px rgba(0, 0, 0, 0.0)",
+    $property6: "filter",
+    $value6: brightness(var(--brightness)) contrast(var(--contrast)) saturate(var(--saturate)) blur(var(--blur)) drop-shadow(var(--drop-shadow))
   )
   @each $modifier, $value in $filter-compose {
     @include setRule(
@@ -66,6 +68,17 @@
       $selector: "filter.blur-",
       $modifier: $modifier,
       $property1: "--blur",
+      $value1: "#{$value}"
+    )
+  }
+  @each $modifier, $value in $filter-drop-shadow {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "filter.drop-shadow-",
+      $modifier: $modifier,
+      $property1: "--drop-shadow",
       $value1: "#{$value}"
     )
   }
