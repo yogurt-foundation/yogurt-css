@@ -1,0 +1,10 @@
+/**
+ * @utility: animations
+ * @module: _fade.scss
+ * @desc: sets the fade variant of animation to an element
+ */
+
+@mixin fxFade($prefix: null, $pseudo: null, $class: null) {
+  @include keyframes($prefix, $pseudo, $class, $animation-fade)
+}
+

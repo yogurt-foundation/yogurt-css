@@ -12,7 +12,7 @@ const gzip = require('gulp-gzip')
 const { version } = require('./package.json')
 
 const regularOutput = 'yogurt-' + version + '_solidcore.css'
-const minifiedOuput = 'yogurt-' + version + '_solidcore.min.css'
+const minifiedOutput = 'yogurt-' + version + '_solidcore.min.css'
 
 
 // ...minify/preprocess scss
@@ -22,6 +22,7 @@ const minifiedOuput = 'yogurt-' + version + '_solidcore.min.css'
 
 const srcScssPath = 'src/yogurt.scss'
 const distCssPath = 'dist'
+
 gulp.task('sass-min', () => {
   return gulp.src(srcScssPath)
     .pipe(sourcemaps.init())
@@ -29,7 +30,7 @@ gulp.task('sass-min', () => {
     .pipe(sass({ outputStyle: 'compressed' })
       .on('error', sass.logError))
     .pipe(postCss([autoPrefixer()]))
-    .pipe(rename(minifiedOuput))
+    .pipe(rename(minifiedOutput))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(distCssPath))
     .pipe(gzip())
@@ -63,16 +64,32 @@ gulp.task('sass-raw', () => {
 })
 
 
+const SCSSOutput = './yogurt.scss'
+const distScssPath = './'
+
+gulp.task('sass-scss', () => {
+  return gulp.src(srcScssPath)
+    .pipe(sassGlob())
+    .pipe(sass({ outputStyle: 'compressed' })
+      .on('error', sass.logError))
+    .pipe(rename(SCSSOutput))
+    .pipe(gulp.dest(distScssPath))
+})
+
+
 // ...watch
 const watchSrcScssPath = 'src/**/**/**/**/*.scss'
+
 gulp.task('watch', gulp.series([
   'sass-raw',
   'sass-min',
+  'sass-scss'
   ], () => {
     gulp.watch(watchSrcScssPath,
       gulp.series([
         'sass-raw',
-        'sass-min'
+        'sass-min',
+        'sass-scss'
       ])
     )
   })

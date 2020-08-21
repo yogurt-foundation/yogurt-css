@@ -1,0 +1,153 @@
+/**
+ * @module: responsive/default/
+ * @file: _default.scss
+ */
+
+/* accessibility */
+
+// @include screenReader($prefix: $responsive-default)
+
+/* backgrounds */
+
+// @include backgroundColor($prefix: $responsive-default)
+// @include backgroundAttachment($prefix: $responsive-default)
+// @include backgroundPosition($prefix: $responsive-default)
+// @include backgroundRepeat($prefix: $responsive-default)
+// @include backgroundSize($prefix: $responsive-default)
+// @include backgroundBlend($prefix: $responsive-default) // (v1.0.4)
+// @include backgroundOpacity($prefix: $responsive-default)
+// @include backgroundGradient($prefix: $responsive-default) // (v1.0.9)
+
+/* borders */
+
+// @include borderColor($prefix: $responsive-default)
+// @include borderRadius($prefix: $responsive-default)
+// @include borderStyle($prefix: $responsive-default)
+// @include borderWidth($prefix: $responsive-default)
+// @include borderDissect($prefix: $responsive-default) // (v1.0.8)
+// @include borderDissectColor($prefix: $responsive-default) // (v1.0.8)
+// @include borderDissectOpacity($prefix: $responsive-default) // (v1.0.8)
+
+/* effects */
+
+// @include shadowColor($prefix: $responsive-default)
+// @include boxShadow($prefix: $responsive-default)
+@include opacity($prefix: $responsive-default)
+// @include mixBlend($prefix: $responsive-default) // (v1.0.4)
+// @include gradient($prefix: $responsive-default) // (1.0.8)
+
+/* filters */
+
+// @include filterCompose($prefix: $responsive-default) // (v1.0.9)
+// @include filterInvert($prefix: $responsive-default) // (v1.0.3)
+
+/* flexbox */
+
+@include alignContent($prefix: $responsive-default)
+@include alignItems($prefix: $responsive-default)
+@include alignSelf($prefix: $responsive-default)
+@include flex($prefix: $responsive-default)
+@include flexDirection($prefix: $responsive-default)
+@include flexGrow($prefix: $responsive-default)
+@include flexShrink($prefix: $responsive-default)
+@include flexWrap($prefix: $responsive-default)
+@include justifyContent($prefix: $responsive-default)
+@include order($prefix: $responsive-default)
+
+/* fluids */
+
+/* interactivity */
+
+// @include appearance($prefix: $responsive-default)
+// @include cursor($prefix: $responsive-default)
+@include outline($prefix: $responsive-default)
+// @include pointerEvents($prefix: $responsive-default)
+@include resize($prefix: $responsive-default)
+@include userSelect($prefix: $responsive-default)
+
+/* layouts */
+
+@include boxSizing($prefix: $responsive-default)
+@include clear($prefix: $responsive-default)
+@include containerDefault($prefix: $responsive-default)
+@include display($prefix: $responsive-default)
+@include float($prefix: $responsive-default)
+@include inset($prefix: $responsive-default)
+@include insetTBLR($prefix: $responsive-default)
+@include objectFit($prefix: $responsive-default)
+@include objectPosition($prefix: $responsive-default)
+@include overflow($prefix: $responsive-default)
+@include overflow-xy($prefix: $responsive-default)
+@include overflow-scrolling($prefix: $responsive-default)
+@include position($prefix: $responsive-default)
+@include visibility($prefix: $responsive-default)
+@include zIndex($prefix: $responsive-default)
+
+/* sizing */
+
+@include height($prefix: $responsive-default)
+@include maxHeight($prefix: $responsive-default)
+@include maxWidth($prefix: $responsive-default)
+@include minHeight($prefix: $responsive-default)
+@include minWidth($prefix: $responsive-default)
+@include width($prefix: $responsive-default)
+
+/* spacing */
+
+@include margin($prefix: $responsive-default)
+@include margin($negative: $true, $prefix: $responsive-default) // negative
+@include padding($prefix: $responsive-default)
+// @include equal($prefix: $responsive-default) // (v1.0.8)
+// @include equal($negative: $true, $prefix: $responsive-default) // negative, (v1.0.8)
+
+/* svg */
+
+// @include fill($prefix: $responsive-default)
+// @include stroke($prefix: $responsive-default)
+// @include strokeWidth($prefix: $responsive-default)
+
+/* tables */
+
+// @include borderCollapse($prefix: $responsive-default)
+// @include tableLayout($prefix: $responsive-default)
+
+/* transforms */
+
+// @include transform($prefix: $responsive-default)
+// @include transformOrigin($prefix: $responsive-default)
+// @include rotate($prefix: $responsive-default)
+// @include rotate($prefix: $responsive-default, $negative: $true) // negative
+// @include scale($prefix: $responsive-default)
+// @include skew($prefix: $responsive-default)
+// @include skew($prefix: $responsive-default, $negative: $true) // negative
+// @include translate($prefix: $responsive-default)
+// @include translate($prefix: $responsive-default, $negative: $true) // negative
+
+/* transitions */
+
+// @include transitionDuration($prefix: $responsive-default)
+// @include transitionProperty($prefix: $responsive-default)
+// @include transitionTiming($prefix: $responsive-default)
+
+/* typography */
+
+// @include placeholderColor($prefix: $responsive-default)
+// @include textColor($prefix: $responsive-default)
+@include fontFamily($prefix: $responsive-default)
+@include fontSize($prefix: $responsive-default)
+@include fontSmoothing($prefix: $responsive-default)
+@include fontStyle($prefix: $responsive-default)
+@include fontWeight($prefix: $responsive-default)
+@include letterSpacing($prefix: $responsive-default)
+@include lineHeight($prefix: $responsive-default)
+@include listStylePosition($prefix: $responsive-default)
+@include listStyleType($prefix: $responsive-default)
+@include placeholder() // static
+@include textAlign($prefix: $responsive-default)
+@include textDecoration($prefix: $responsive-default)
+@include textTransform($prefix: $responsive-default)
+@include verticalAlign($prefix: $responsive-default)
+@include whitespace($prefix: $responsive-default)
+@include wordBreak($prefix: $responsive-default)
+@include textClamp($prefix: $responsive-default)
+

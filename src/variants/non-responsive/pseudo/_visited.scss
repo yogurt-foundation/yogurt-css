@@ -1,0 +1,156 @@
+/**
+ * @module: default/variants/
+ * @file: _visited.scss
+ */
+
+/* accessibility */
+
+// @include screenReader($prefix: $variant-visited, $pseudo: $visited)
+
+/* backgrounds */
+
+@include backgroundColor($prefix: $variant-visited, $pseudo: $visited)
+// @include backgroundAttachment($prefix: $variant-visited, $pseudo: $visited)
+// @include backgroundPosition($prefix: $variant-visited, $pseudo: $visited)
+// @include backgroundRepeat($prefix: $variant-visited, $pseudo: $visited)
+// @include backgroundSize($prefix: $variant-visited, $pseudo: $visited)
+// @include backgroundBlend($prefix: $variant-visited, $pseudo: $visited) // (v1.0.4)
+// @include backgroundOpacity($prefix: $variant-visited, $pseudo: $visited)
+// @include backgroundGradient($prefix: $variant-visited, $pseudo: $visited) // (v1.0.9)
+
+/* borders */
+
+// @include borderColor($prefix: $variant-visited, $pseudo: $visited)
+// @include borderRadius($prefix: $variant-visited, $pseudo: $visited)
+// @include borderStyle($prefix: $variant-visited, $pseudo: $visited)
+// @include borderWidth($prefix: $variant-visited, $pseudo: $visited)
+// @include borderDissect($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
+// @include borderDissectColor($prefix: $variant-visited, $pseudo: $visited)
+// @include borderDissectOpacity($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
+
+/* effects */
+
+// @include shadowColor($prefix: $variant-visited, $pseudo: $visited)
+// @include boxShadow($prefix: $variant-visited, $pseudo: $visited)
+// @include opacity($prefix: $variant-visited, $pseudo: $visited)
+// @include mixBlend($prefix: $variant-visited, $pseudo: $visited) // (v1.0.4)
+// @include gradient($prefix: $variant-visited, $pseudo: $visited) // (1.0.8)
+
+/* filters */
+
+// @include filterCompose($prefix: $variant-visited, $pseudo: $visited) // (v1.0.9)
+// @include filterInvert($prefix: $variant-visited, $pseudo: $visited) // (v1.0.3)
+
+/* flexbox */
+
+// @include alignContent($prefix: $variant-visited, $pseudo: $visited)
+// @include alignItems($prefix: $variant-visited, $pseudo: $visited)
+// @include alignSelf($prefix: $variant-visited, $pseudo: $visited)
+// @include flex($prefix: $variant-visited, $pseudo: $visited)
+// @include flexDirection($prefix: $variant-visited, $pseudo: $visited)
+// @include flexGrow($prefix: $variant-visited, $pseudo: $visited)
+// @include flexShrink($prefix: $variant-visited, $pseudo: $visited)
+// @include flexWrap($prefix: $variant-visited, $pseudo: $visited)
+// @include justifyContent($prefix: $variant-visited, $pseudo: $visited)
+// @include order($prefix: $variant-visited, $pseudo: $visited)
+
+/* fluids */
+
+// @include fluidFontSize($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
+// @include fluidMargin($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
+// @include fluidPadding($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
+
+/* interactivity */
+
+// @include appearance($prefix: $variant-visited, $pseudo: $visited)
+// @include cursor($prefix: $variant-visited, $pseudo: $visited)
+// @include outline($prefix: $variant-visited, $pseudo: $visited)
+// @include pointerEvents($prefix: $variant-visited, $pseudo: $visited)
+// @include resize($prefix: $variant-visited, $pseudo: $visited)
+// @include userSelect($prefix: $variant-visited, $pseudo: $visited)
+
+/* layouts */
+
+// @include boxSizing($prefix: $variant-visited, $pseudo: $visited)
+// @include clear($prefix: $variant-visited, $pseudo: $visited)
+// @include containerDefault($prefix: $variant-visited, $pseudo: $visited)
+// @include display($prefix: $variant-visited, $pseudo: $visited)
+// @include float($prefix: $variant-visited, $pseudo: $visited)
+// @include inset($prefix: $variant-visited, $pseudo: $visited)
+// @include insetTBLR($prefix: $variant-visited, $pseudo: $visited)
+// @include objectFit($prefix: $variant-visited, $pseudo: $visited)
+// @include objectPosition($prefix: $variant-visited, $pseudo: $visited)
+// @include overflow($prefix: $variant-visited, $pseudo: $visited)
+// @include overflow-xy($prefix: $variant-visited, $pseudo: $visited)
+// @include overflow-scrolling($prefix: $variant-visited, $pseudo: $visited)
+// @include position($prefix: $variant-visited, $pseudo: $visited)
+// @include visibility($prefix: $variant-visited, $pseudo: $visited)
+// @include zIndex($prefix: $variant-visited, $pseudo: $visited)
+
+/* sizing */
+
+// @include height($prefix: $variant-visited, $pseudo: $visited)
+// @include maxHeight($prefix: $variant-visited, $pseudo: $visited)
+// @include maxWidth($prefix: $variant-visited, $pseudo: $visited)
+// @include minHeight($prefix: $variant-visited, $pseudo: $visited)
+// @include minWidth($prefix: $variant-visited, $pseudo: $visited)
+// @include width($prefix: $variant-visited, $pseudo: $visited)
+
+/* spacing */
+
+// @include margin($prefix: $variant-visited, $pseudo: $visited)
+// @include margin($negative: $true, $prefix: $variant-visited, $pseudo: $visited) // negative
+// @include padding($prefix: $variant-visited, $pseudo: $visited)
+// @include equal($prefix: $variant-visited, $pseudo: $visited) // (v1.0.8)
+// @include equal($negative: $true, $prefix: $variant-visited, $pseudo: $visited) // negative, (v1.0.8)
+
+/* svg */
+
+// @include fill($prefix: $variant-visited, $pseudo: $visited)
+// @include stroke($prefix: $variant-visited, $pseudo: $visited)
+// @include strokeWidth($prefix: $variant-visited, $pseudo: $visited)
+
+/* tables */
+
+// @include borderCollapse($prefix: $variant-visited, $pseudo: $visited)
+// @include tableLayout($prefix: $variant-visited, $pseudo: $visited)
+
+/* transforms */
+
+// @include transform($prefix: $variant-visited, $pseudo: $visited)
+// @include transformOrigin($prefix: $variant-visited, $pseudo: $visited)
+// @include rotate($prefix: $variant-visited, $pseudo: $visited)
+// @include rotate($prefix: $variant-visited, $pseudo: $visited, $negative: $true) // negative
+// @include scale($prefix: $variant-visited, $pseudo: $visited)
+// @include skew($prefix: $variant-visited, $pseudo: $visited)
+// @include skew($prefix: $variant-visited, $pseudo: $visited, $negative: $true) // negative
+// @include translate($prefix: $variant-visited, $pseudo: $visited)
+// @include translate($prefix: $variant-visited, $pseudo: $visited, $negative: $true) // negative
+
+/* transitions */
+
+// @include transitionDuration($prefix: $variant-visited, $pseudo: $visited)
+// @include transitionProperty($prefix: $variant-visited, $pseudo: $visited)
+// @include transitionTiming($prefix: $variant-visited, $pseudo: $visited)
+
+/* typography */
+
+// @include placeholderColor($prefix: $variant-visited, $pseudo: $visited)
+@include textColor($prefix: $variant-visited, $pseudo: $visited)
+// @include fontFamily($prefix: $variant-visited, $pseudo: $visited)
+// @include fontSize($prefix: $variant-visited, $pseudo: $visited)
+// @include fontSmoothing($prefix: $variant-visited, $pseudo: $visited)
+// @include fontStyle($prefix: $variant-visited, $pseudo: $visited)
+// @include fontWeight($prefix: $variant-visited, $pseudo: $visited)
+// @include letterSpacing($prefix: $variant-visited, $pseudo: $visited)
+// @include lineHeight($prefix: $variant-visited, $pseudo: $visited)
+// @include listStylePosition($prefix: $variant-visited, $pseudo: $visited)
+// @include listStyleType($prefix: $variant-visited, $pseudo: $visited)
+// @include textAlign($prefix: $variant-visited, $pseudo: $visited)
+// @include textDecoration($prefix: $variant-visited, $pseudo: $visited)
+// @include textTransform($prefix: $variant-visited, $pseudo: $visited)
+// @include verticalAlign($prefix: $variant-visited, $pseudo: $visited)
+// @include whitespace($prefix: $variant-visited, $pseudo: $visited)
+// @include wordBreak($prefix: $variant-visited, $pseudo: $visited)
+// @include textClamp($prefix: $variant-visited, $pseudo: $visited)
+

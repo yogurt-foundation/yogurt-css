@@ -1,0 +1,26 @@
+/**
+ * @utility: effects
+ * @module: _shadowColor.scss
+ * @desc: sets the shadow color
+ */
+
+@mixin shadowColor(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $size, $radius in $shadow-color-size {
+    @each $color, $modifier, $value in $colors {
+      @include setRule(
+        $prefix: $prefix,
+        $pseudo: $pseudo,
+        $class: $class,
+        $selector: "shadow-",
+        $modifier: "#{$size}-#{$color}-#{$modifier}",
+        $property1: "box-shadow",
+        $value1: "0 0 #{$radius} #{$value}"
+      )
+    }
+  }
+}
+

@@ -1,0 +1,164 @@
+/**
+ * @file: _pluginMaker.scss
+ */
+
+/*
+ * Example API,
+ *
+ *  @include plugin(
+ *    (
+ *      utility: '',
+ *      variant: '',
+ *      property: '',
+ *      modifier: (
+ *        '': '',
+ *        '': ''
+ *        // ...
+ *      )
+ *    ),
+ *    // ...
+ *  )
+ *
+ * Use keyword for `variant` to apply pseudo class variants, such as:
+ * hover, focus, active, visited, disabled, responsive, responsive-hover,
+ * responsive-focus, responsive-active, responsive-visited, responsive-disabled.
+ */
+
+@mixin plugin($maps...) {
+  @each $map in $maps {
+
+    $utility: map-get($map, "utility");
+    $variant: map-get($map, "variant");
+    $property: map-get($map, "property");
+
+    @if $variant == null {
+      @each $value, $key in map-get($map, "modifier") {
+        .#{$utility}-#{$value} {
+          #{$property}: #{$key}
+        }
+      }
+    }
+    @else if $variant == "hover" {
+      @each $value, $key in map-get($map, "modifier") {
+        .#{$variant}\:#{$utility}-#{$value}:#{$variant} {
+          #{$property}: #{$key}
+        }
+      }
+    }
+    @else if $variant == "focus" {
+      @each $value, $key in map-get($map, "modifier") {
+        .#{$variant}\:#{$utility}-#{$value}:#{$variant} {
+          #{$property}: #{$key}
+        }
+      }
+    }
+    @else if $variant == "active" {
+      @each $value, $key in map-get($map, "modifier") {
+        .#{$variant}\:#{$utility}-#{$value}:#{$variant} {
+          #{$property}: #{$key}
+        }
+      }
+    }
+    @else if $variant == "visited" {
+      @each $value, $key in map-get($map, "modifier") {
+        .#{$variant}\:#{$utility}-#{$value}:#{$variant} {
+          #{$property}: #{$key}
+        }
+      }
+    }
+    @else if $variant == "disabled" {
+      @each $value, $key in map-get($map, "modifier") {
+        .#{$variant}\:#{$utility}-#{$value}:#{$variant} {
+          #{$property}: #{$key}
+        }
+      }
+    }
+    @else if $variant == "responsive" {
+      @each $screen, $value in $screens {
+        $responsive: ".#{$screen}\\#{$separator}";
+        @media(min-width: #{$value}) {
+          @each $prefix, $pseudo in $responsive {
+            @each $value, $key in map-get($map, "modifier") {
+              #{$prefix}#{$utility}-#{$value}#{$pseudo} {
+                #{$property}: #{$key}
+              }
+            }
+          }
+        }
+      }
+    }
+    @else if $variant == "responsive-hover" {
+      @each $screen, $value in $screens {
+        $responsive-hover: ('.#{$screen}\\:hover\\#{$separator}': ':hover');
+        @media(min-width: #{$value}) {
+          @each $prefix, $pseudo in $responsive-hover {
+            @each $value, $key in map-get($map, "modifier") {
+              #{$prefix}#{$utility}-#{$value}#{$pseudo} {
+                #{$property}: #{$key}
+              }
+            }
+          }
+        }
+      }
+    }
+    @else if $variant == "responsive-focus" {
+      @each $screen, $value in $screens {
+        $responsive-focus: ('.#{$screen}\\:focus\\#{$separator}': ':focus');
+        @media(min-width: #{$value}) {
+          @each $prefix, $pseudo in $responsive-focus {
+            @each $value, $key in map-get($map, "modifier") {
+              #{$prefix}#{$utility}-#{$value}#{$pseudo} {
+                #{$property}: #{$key}
+              }
+            }
+          }
+        }
+      }
+    }
+    @else if $variant == "responsive-active" {
+      @each $screen, $value in $screens {
+        $responsive-active: ('.#{$screen}\\:active\\#{$separator}': ':active');
+        @media(min-width: #{$value}) {
+          @each $prefix, $pseudo in $responsive-active {
+            @each $value, $key in map-get($map, "modifier") {
+              #{$prefix}#{$utility}-#{$value}#{$pseudo} {
+                #{$property}: #{$key}
+              }
+            }
+          }
+        }
+      }
+    }
+    @else if $variant == "responsive-visited" {
+      @each $screen, $value in $screens {
+        $responsive-visited: ('.#{$screen}\\:visited\\#{$separator}': ':visited');
+        @media(min-width: #{$value}) {
+          @each $prefix, $pseudo in $responsive-visited {
+            @each $value, $key in map-get($map, "modifier") {
+              #{$prefix}#{$utility}-#{$value}#{$pseudo} {
+                #{$property}: #{$key}
+              }
+            }
+          }
+        }
+      }
+    }
+    @else if $variant == "responsive-disabled" {
+      @each $screen, $value in $screens {
+        $responsive-disabled: ('.#{$screen}\\:disabled\\#{$separator}': ':disabled');
+        @media(min-width: #{$value}) {
+          @each $prefix, $pseudo in $responsive-disabled {
+            @each $value, $key in map-get($map, "modifier") {
+              #{$prefix}#{$utility}-#{$value}#{$pseudo} {
+                #{$property}: #{$key}
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+

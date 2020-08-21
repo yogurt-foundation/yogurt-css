@@ -1,11 +1,10 @@
 <p align="center">
-  <img src="assets/promo.jpg" height="auto" width="auto">
+  <img src="https://raw.githubusercontent.com/yogurt-foundation/yogurt-css/1.0.9/assets/promo.jpg"
+       height="auto"
+       width="auto">
 </p>
 
 <p align="left">
-  <a href="https://discord.gg/A62YjNR" target="_blank">
-    <img title="Join the chat at https://discord.gg/A62YjNR" src="https://img.shields.io/badge/DISCORD-JOIN_CHANNEL_%E2%86%92-7289da.svg?style=flat">
-  </a>
   <img src="https://badgen.net/github/release/yogurt-foundation/yogurt-css">
   <img src="https://badgen.net/github/releases/yogurt-foundation/yogurt-css">
   <img src="https://badgen.net/github/assets-dl/yogurt-foundation/yogurt-css">
@@ -25,7 +24,7 @@
 
 A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level without writing a single line of CSS.
 
-> Version 1.0.8-solidcore
+> Version 1.0.9-solidcore
 
 > The `SOLID CORE` means the next major Yogurt CSS update is depending on any major release of the CSS version. It also means you will less frequently updating the framework for your frontend development. Which makes this utility framework a futureproof.
 
@@ -35,21 +34,24 @@ Yogurt is a CSS framework for crafting custom UI designs by using very smaller b
 
 Yogurt does not include any kind of component classes, unlike many other CSS frameworks. Yogurt using the humanized naming convention such as `font-size`, `padding`, `margin`, `line-height`, `color`, and so on, it's easy to reason about, easy to manipulate and more readable code. Yogurt also delivers a balance between consistency and flexibility design without overwriting existing stylesheets and unlike many CSS frameworks. Play well with your CSS, library, and frameworks. No side effects. Support up to 4k screen size enabled by default.
 
-### _support
+### Documentation
 
 [Read the Documentation](https://yogurt-css-documentation.netlify.app).
 
-Join our community channel at [Discord](https://discord.gg/A62YjNR), [Twitter](https://twitter.com/yogurtcss).
+### Community
 
-### _prototype
+- [Discord](https://discord.gg/A62YjNR)
+- [Twitter](https://twitter.com/yogurtcss)
 
-Unpulished prototypes are located in the [laboratory](https://github.com/yogurt-foundation/laboratory) page.
+### Laboratory
 
-### _other tools
+- [Laboratory](https://github.com/yogurt-foundation/laboratory)
 
-- [FX-Motion](https://github.com/yogurt-foundation/fx-motion), CSS animation library, total 187 effects.
-- [FX-Filter](https://github.com/yogurt-foundation/fx-filter), CSS filter library, total 26 effects [(previewer)](https://fx-filter-previewer.netlify.com/).
-- [FX-Gradient](https://github.com/yogurt-foundation/fx-gradient), CSS gradient library, total 169 effects [(previewer)](https://fx-gradient-previewer.netlify.com/).
+### Support
+
+- [Patreon](https://www.patreon.com/bePatron?u=5719325)
+- [Ko-Fi](https://ko-fi.com/S6S01OZEW)
+- [PayPal](https://paypal.me/loouisneedsbreakfast)
 
 ---
 

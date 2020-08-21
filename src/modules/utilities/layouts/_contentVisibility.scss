@@ -1,0 +1,26 @@
+/**
+ * @utility: layouts
+ * @module: _contentVisibility.scss
+ * @desc: set skip rendering if element is off-screen to improve rendering speed.
+ */
+
+@mixin contentVisibility(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier, $valueA, $valueB in $content-visibility {
+    @include setRule(
+       $prefix: $prefix,
+       $pseudo: $pseudo,
+       $class: $class,
+       $selector: "render-",
+       $modifier: $modifier,
+       $property1: "content-visibility",
+       $value1: "#{$valueA}",
+       $property2: "contain-intrinsic-size",
+       $value2: "#{$valueB}"
+     )
+  }
+}
+

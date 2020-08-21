@@ -1,0 +1,43 @@
+/**
+ * @utility: backgrounds
+ * @module: backgroundColor/_yellow.scss
+ * @desc: sets background color
+ */
+
+@mixin backgroundRGBA($hexcolor, $opacity) {
+  background-color: rgba($hexcolor, $opacity) #{$override}
+}
+  
+@mixin backgroundColor(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $color, $modifier, $value in $colors {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "bg-",
+      $modifier: "#{$color}-#{$modifier}",
+      $property1: "background-color",
+      $value1: #{$value}
+    )
+    // TODO: refactor with setRule
+    #{$prefix}#{$class}#{$id}bg-#{$color}-#{$modifier}#{$pseudo} {
+      --bg-opacity: 1;
+      @include backgroundRGBA($value, var(--bg-opacity))
+    }
+  }
+  @each $modifier, $value in $special-colors {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "bg-",
+      $modifier: $modifier,
+      $property1: "background-color",
+      $value1: #{$value}
+    )
+  }
+}

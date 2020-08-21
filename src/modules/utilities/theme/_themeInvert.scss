@@ -1,0 +1,19 @@
+/**
+ * @utility: theme
+ * @module: _themeInvert.scss
+ * @desc: sets page theme (dark or light) based on force
+ */
+
+@mixin themeInvert() {
+  // (static)
+  html[theme="invert"] {
+    filter: invert(1) hue-rotate(180deg)
+  }
+  img[theme="invert"] {
+    filter: invert(1) hue-rotate(180deg)
+  }
+  [theme="invert"] {
+    filter: invert(1) hue-rotate(180deg)
+  }
+}
+

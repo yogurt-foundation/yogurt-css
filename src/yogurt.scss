@@ -5,46 +5,52 @@
  * beautiful and elegant user interface at an atomic level.
  *
  * @repo: https://github.com/yogurt-foundation/yogurt-css
+ * @docs: https://github.com/yogurt-foundation/yogurt-css-documentation
  * @author: Loouis Low (loouis@gmail.com)
  * @copyright: Loouis Low (loouis@gmail.com)
  * @license: MIT
  */
 
+$version: "1.0.9";
+
 @import 'reset'; // normalize.css v8.0.1
 
-/*! yogurt.css v1.0.8-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
+/*! yogurt.css v#{$version}-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
 
 @import 'config';
 
-@import 'mixin/atRules';
+@import 'modules/atRules';
 
-@import 'mixin/utilities/accessibility/**/**/*';
-@import 'mixin/utilities/backgrounds/**/**/*';
-@import 'mixin/utilities/borders/**/**/*';
-@import 'mixin/utilities/effects/**/**/*';
-@import 'mixin/utilities/filters/**/**/*';
-@import 'mixin/utilities/flexbox/**/**/*';
-@import 'mixin/utilities/interactivity/**/**/*';
-@import 'mixin/utilities/layouts/**/**/*';
-@import 'mixin/utilities/patterns/**/**/*';
-@import 'mixin/utilities/sizing/**/**/*';
-@import 'mixin/utilities/spacing/**/**/*';
-@import 'mixin/utilities/svg/**/**/*';
-@import 'mixin/utilities/tables/**/**/*';
-@import 'mixin/utilities/transforms/**/**/*';
-@import 'mixin/utilities/transitions/**/**/*';
-@import 'mixin/utilities/typography/**/**/*';
+@import 'modules/utilities/accessibility/**/**/*';
+@import 'modules/utilities/animations/**/**/*';
+@import 'modules/utilities/backgrounds/**/**/*';
+@import 'modules/utilities/borders/**/**/*';
+@import 'modules/utilities/effects/**/**/*';
+@import 'modules/utilities/filters/**/**/*';
+@import 'modules/utilities/flexbox/**/**/*';
+@import 'modules/utilities/fluids/**/**/*';
+@import 'modules/utilities/interactivity/**/**/*';
+@import 'modules/utilities/layouts/**/**/*';
+@import 'modules/utilities/patterns/**/**/*';
+@import 'modules/utilities/sizing/**/**/*';
+@import 'modules/utilities/spacing/**/**/*';
+@import 'modules/utilities/svg/**/**/*';
+@import 'modules/utilities/tables/**/**/*';
+@import 'modules/utilities/theme/**/**/*';
+@import 'modules/utilities/transforms/**/**/*';
+@import 'modules/utilities/transitions/**/**/*';
+@import 'modules/utilities/typography/**/**/*';
 
-// non-responsive `default` and `variant` utilities
-@import 'utilities/non-responsive/default/*';
-@import 'utilities/non-responsive/variants/*';
+// non-responsive `default` and `pseudo` utilities
+@import 'variants/non-responsive/default/*';
+@import 'variants/non-responsive/pseudo/*';
 
-// responsive `default` and `variant` utilities
-@import 'utilities/responsive/minWidth';
-// @import 'utilities/responsive/maxWidth'; // optional
+// responsive `default` and `pseudo` utilities
+@import 'variants/responsive/minWidth';
+// @import 'variants/responsive/maxWidth'; // optional
 
 // plugin
-@import 'mixin/pluginMaker';
+@import 'modules/pluginAPI';
 @import 'plugins'
 
-/*! yogurt.css v1.0.8-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
+/*! yogurt.css #{$version}-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */

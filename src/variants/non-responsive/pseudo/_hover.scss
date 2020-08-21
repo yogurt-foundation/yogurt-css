@@ -1,0 +1,173 @@
+/**
+ * @module: utilities/variants/
+ * @file: _hover.scss
+ */
+
+/* accessibility */
+
+// @include screenReader($class: $default)
+
+/* animations */
+
+// (v1.0.9)
+@include fxBlur($prefix: $variant-hover, $pseudo: $hover)
+@include fxFade($prefix: $variant-hover, $pseudo: $hover)
+@include fxRoll($prefix: $variant-hover, $pseudo: $hover)
+@include fxSlide($prefix: $variant-hover, $pseudo: $hover)
+
+/* backgrounds */
+
+@include backgroundColor($prefix: $variant-hover, $pseudo: $hover)
+// ----- GROUP
+@include backgroundColor($prefix: $variant-group-hover)
+// @include backgroundAttachment($prefix: $variant-hover, $pseudo: $hover)
+// @include backgroundPosition($prefix: $variant-hover, $pseudo: $hover)
+// @include backgroundRepeat($prefix: $variant-hover, $pseudo: $hover)
+// @include backgroundSize($prefix: $variant-hover, $pseudo: $hover)
+// @include backgroundBlend($prefix: $variant-hover, $pseudo: $hover) // (v1.0.4)
+// @include backgroundOpacity($prefix: $variant-hover, $pseudo: $hover)
+// @include backgroundGradient($prefix: $variant-hover, $pseudo: $hover) // (v1.0.9)
+
+/* borders */
+
+@include borderColor($prefix: $variant-hover, $pseudo: $hover)
+// @include borderRadius($prefix: $variant-hover, $pseudo: $hover)
+// @include borderStyle($prefix: $variant-hover, $pseudo: $hover)
+// @include borderWidth($prefix: $variant-hover, $pseudo: $hover)
+// @include borderDissect($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
+// @include borderDissectColor($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
+@include borderDissectOpacity($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
+
+/* effects */
+
+// @include shadowColor($prefix: $variant-hover, $pseudo: $hover)
+@include boxShadow($prefix: $variant-hover, $pseudo: $hover)
+@include opacity($prefix: $variant-hover, $pseudo: $hover)
+// @include mixBlend($prefix: $variant-hover, $pseudo: $hover) // (v1.0.4)
+@include gradient($prefix: $variant-hover, $pseudo: $hover) // (1.0.8)
+
+/* filters */
+
+// @include filterCompose($prefix: $variant-hover, $pseudo: $hover) // (v1.0.9)
+// @include filterInvert($prefix: $variant-hover, $pseudo: $hover) // (v1.0.3)
+
+/* flexbox */
+
+// @include alignContent($prefix: $variant-hover, $pseudo: $hover)
+// @include alignItems($prefix: $variant-hover, $pseudo: $hover)
+// @include alignSelf($prefix: $variant-hover, $pseudo: $hover)
+// @include flex($prefix: $variant-hover, $pseudo: $hover)
+// @include flexDirection($prefix: $variant-hover, $pseudo: $hover)
+// @include flexGrow($prefix: $variant-hover, $pseudo: $hover)
+// @include flexShrink($prefix: $variant-hover, $pseudo: $hover)
+// @include flexWrap($prefix: $variant-hover, $pseudo: $hover)
+// @include justifyContent($prefix: $variant-hover, $pseudo: $hover)
+// @include order($prefix: $variant-hover, $pseudo: $hover)
+
+/* fluids */
+
+// @include fluidFontSize($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
+// @include fluidMargin($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
+// @include fluidPadding($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
+
+/* interactivity */
+
+// @include appearance($prefix: $variant-hover, $pseudo: $hover)
+// @include cursor($prefix: $variant-hover, $pseudo: $hover)
+// @include outline($prefix: $variant-hover, $pseudo: $hover)
+// @include pointerEvents($prefix: $variant-hover, $pseudo: $hover)
+// @include resize($prefix: $variant-hover, $pseudo: $hover)
+// @include userSelect($prefix: $variant-hover, $pseudo: $hover)
+
+/* layouts */
+
+// @include boxSizing($prefix: $variant-hover, $pseudo: $hover)
+// @include clear($prefix: $variant-hover, $pseudo: $hover)
+// @include containerDefault($prefix: $variant-hover, $pseudo: $hover)
+@include display($prefix: $variant-hover, $pseudo: $hover)
+// @include float($prefix: $variant-hover, $pseudo: $hover)
+// @include inset($prefix: $variant-hover, $pseudo: $hover)
+// @include insetTBLR($prefix: $variant-hover, $pseudo: $hover)
+// @include objectFit($prefix: $variant-hover, $pseudo: $hover)
+// @include objectPosition($prefix: $variant-hover, $pseudo: $hover)
+// @include overflow($prefix: $variant-hover, $pseudo: $hover)
+// @include overflow-xy($prefix: $variant-hover, $pseudo: $hover)
+// @include overflow-scrolling($prefix: $variant-hover, $pseudo: $hover)
+@include position($prefix: $variant-hover, $pseudo: $hover)
+@include visibility($prefix: $variant-hover, $pseudo: $hover)
+// @include zIndex($prefix: $variant-hover, $pseudo: $hover)
+// ----- GROUP
+@include display($prefix: $variant-group-hover)
+@include visibility($prefix: $variant-group-hover)
+
+/* sizing */
+
+@include height($prefix: $variant-hover, $pseudo: $hover)
+// @include maxHeight($prefix: $variant-hover, $pseudo: $hover)
+// @include maxWidth($prefix: $variant-hover, $pseudo: $hover)
+// @include minHeight($prefix: $variant-hover, $pseudo: $hover)
+// @include minWidth($prefix: $variant-hover, $pseudo: $hover)
+@include width($prefix: $variant-hover, $pseudo: $hover)
+
+/* spacing */
+
+// @include margin($prefix: $variant-hover, $pseudo: $hover)
+// @include margin($negative: $true, $prefix: $variant-hover, $pseudo: $hover) // negative
+// @include padding($prefix: $variant-hover, $pseudo: $hover)
+// @include equal($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
+// @include equal($negative: $true, $prefix: $variant-hover, $pseudo: $hover) // negative, (v1.0.8)
+
+/* svg */
+
+// @include fill($prefix: $variant-hover, $pseudo: $hover)
+// @include stroke($prefix: $variant-hover, $pseudo: $hover)
+// @include strokeWidth($prefix: $variant-hover, $pseudo: $hover)
+
+/* tables */
+
+// @include borderCollapse($prefix: $variant-hover, $pseudo: $hover)
+// @include tableLayout($prefix: $variant-hover, $pseudo: $hover)
+
+/* transforms */
+
+// @include transform($prefix: $variant-hover, $pseudo: $hover)
+@include transformOrigin($prefix: $variant-hover, $pseudo: $hover)
+@include rotate($prefix: $variant-hover, $pseudo: $hover)
+@include rotate($prefix: $variant-hover, $pseudo: $hover, $negative: $true) // negative
+@include scale($prefix: $variant-hover, $pseudo: $hover)
+@include skew($prefix: $variant-hover, $pseudo: $hover)
+@include skew($prefix: $variant-hover, $pseudo: $hover, $negative: $true) // negative
+@include translate($prefix: $variant-hover, $pseudo: $hover)
+@include translate($prefix: $variant-hover, $pseudo: $hover, $negative: $true) // negative
+
+/* transitions */
+
+// @include transitionDuration($prefix: $variant-hover, $pseudo: $hover)
+// @include transitionProperty($prefix: $variant-hover, $pseudo: $hover)
+// @include transitionTiming($prefix: $variant-hover, $pseudo: $hover)
+
+/* typography */
+
+// @include placeholderColor($prefix: $variant-hover, $pseudo: $hover)
+@include textColor($prefix: $variant-hover, $pseudo: $hover)
+// ----- GROUP
+@include textColor($prefix: $variant-group-hover)
+// @include fontFamily($prefix: $variant-hover, $pseudo: $hover)
+// @include fontSize($prefix: $variant-hover, $pseudo: $hover)
+// @include fontSmoothing($prefix: $variant-hover, $pseudo: $hover)
+// @include fontStyle($prefix: $variant-hover, $pseudo: $hover)
+@include fontWeight($prefix: $variant-hover, $pseudo: $hover)
+// @include letterSpacing($prefix: $variant-hover, $pseudo: $hover)
+// @include lineHeight($prefix: $variant-hover, $pseudo: $hover)
+// @include listStylePosition($prefix: $variant-hover, $pseudo: $hover)
+// @include listStyleType($prefix: $variant-hover, $pseudo: $hover)
+@include placeholder() // static
+// @include textAlign($prefix: $variant-hover, $pseudo: $hover)
+@include textDecoration($prefix: $variant-hover, $pseudo: $hover)
+// @include textTransform($prefix: $variant-hover, $pseudo: $hover)
+// @include verticalAlign($prefix: $variant-hover, $pseudo: $hover)
+// @include whitespace($prefix: $variant-hover, $pseudo: $hover)
+// @include wordBreak($prefix: $variant-hover, $pseudo: $hover)
+// ----- GROUP
+@include textDecoration($prefix: $variant-group-hover)
+// @include textClamp($prefix: $variant-hover, $pseudo: $hover)

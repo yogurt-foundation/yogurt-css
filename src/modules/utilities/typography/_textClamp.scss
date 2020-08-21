@@ -1,0 +1,37 @@
+/**
+ * @utility: typography
+ * @module: _textClamp.scss
+ * @desc: sets the total text line to display
+ */
+
+@mixin textClamp(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier, $value in $text-clamp {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "clamp-",
+      $modifier: $modifier,
+      $property1: "display",
+      $value1: "-webkit-box",
+      $property2: "-webkit-line-clamp",
+      $value2: "#{$value}",
+      $property3: "-webkit-box-orient",
+      $value3: "vertical",
+      $property4: "overflow",
+      $value4: "hidden",
+      $property5: "word-wrap",
+      $value5: "break-word",
+      $property6: "text-overflow",
+      $value6: "ellipsis",
+      $property7: "position",
+      $value7: "relative",
+      $property8: "visibility",
+      $value8: "visible"
+    )
+  }
+}

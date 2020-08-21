@@ -1,0 +1,166 @@
+/**
+ * @module: default/variants/
+ * @file: _focus.scss
+ */
+
+/* accessibility */
+
+@include screenReader($prefix: $variant-focus, $pseudo: $focus)
+
+/* animations */
+
+// (v1.0.9)
+// @include fxBlur($prefix: $variant-hover, $pseudo: $hover)
+// @include fxFade($prefix: $variant-hover, $pseudo: $hover)
+// @include fxRoll($prefix: $variant-hover, $pseudo: $hover)
+// @include fxSlide($prefix: $variant-hover, $pseudo: $hover)
+
+/* backgrounds */
+
+@include backgroundColor($prefix: $variant-focus, $pseudo: $focus)
+// @include backgroundAttachment($prefix: $variant-focus, $pseudo: $focus)
+// @include backgroundPosition($prefix: $variant-focus, $pseudo: $focus)
+// @include backgroundRepeat($prefix: $variant-focus, $pseudo: $focus)
+// @include backgroundSize($prefix: $variant-focus, $pseudo: $focus)
+// @include backgroundBlend($prefix: $variant-focus, $pseudo: $focus) // (v1.0.4)
+// @include backgroundOpacity($prefix: $variant-focus, $pseudo: $focus)
+// @include backgroundGradient($prefix: $variant-focus, $pseudo: $focus) // (v1.0.9)
+
+/* borders */
+
+@include borderColor($prefix: $variant-focus, $pseudo: $focus)
+// @include borderRadius($prefix: $variant-focus, $pseudo: $focus)
+@include borderStyle($prefix: $variant-focus, $pseudo: $focus)
+@include borderWidth($prefix: $variant-focus, $pseudo: $focus)
+// @include borderDissect($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
+// @include borderDissectColor($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
+// @include borderDissectOpacity($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
+
+/* effects */
+
+// @include shadowColor($prefix: $variant-focus, $pseudo: $focus)
+@include boxShadow($prefix: $variant-focus, $pseudo: $focus)
+@include opacity($prefix: $variant-focus, $pseudo: $focus)
+// @include mixBlend($prefix: $variant-focus, $pseudo: $focus) // (v1.0.4)
+// @include gradient($prefix: $variant-focus, $pseudo: $focus) // (1.0.8)
+
+/* filters */
+
+// @include filterCompose($prefix: $variant-focus, $pseudo: $focus) // (v1.0.9)
+// @include filterInvert($prefix: $variant-focus, $pseudo: $focus) // (v1.0.3)
+
+/* flexbox */
+
+// @include alignContent($prefix: $variant-focus, $pseudo: $focus)
+// @include alignItems($prefix: $variant-focus, $pseudo: $focus)
+// @include alignSelf($prefix: $variant-focus, $pseudo: $focus)
+// @include flex($prefix: $variant-focus, $pseudo: $focus)
+// @include flexDirection($prefix: $variant-focus, $pseudo: $focus)
+// @include flexGrow($prefix: $variant-focus, $pseudo: $focus)
+// @include flexShrink($prefix: $variant-focus, $pseudo: $focus)
+// @include flexWrap($prefix: $variant-focus, $pseudo: $focus)
+// @include justifyContent($prefix: $variant-focus, $pseudo: $focus)
+// @include order($prefix: $variant-focus, $pseudo: $focus)
+
+/* fluids */
+
+// @include fluidFontSize($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
+// @include fluidMargin($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
+// @include fluidPadding($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
+
+/* interactivity */
+
+// @include appearance($prefix: $variant-focus, $pseudo: $focus)
+// @include cursor($prefix: $variant-focus, $pseudo: $focus)
+@include outline($prefix: $variant-focus, $pseudo: $focus)
+// @include pointerEvents($prefix: $variant-focus, $pseudo: $focus)
+// @include resize($prefix: $variant-focus, $pseudo: $focus)
+// @include userSelect($prefix: $variant-focus, $pseudo: $focus)
+
+/* layouts */
+
+// @include boxSizing($prefix: $variant-focus, $pseudo: $focus)
+// @include clear($prefix: $variant-focus, $pseudo: $focus)
+// @include containerDefault($prefix: $variant-focus, $pseudo: $focus)
+// @include display($prefix: $variant-focus, $pseudo: $focus)
+// @include float($prefix: $variant-focus, $pseudo: $focus)
+// @include inset($prefix: $variant-focus, $pseudo: $focus)
+// @include insetTBLR($prefix: $variant-focus, $pseudo: $focus)
+// @include objectFit($prefix: $variant-focus, $pseudo: $focus)
+// @include objectPosition($prefix: $variant-focus, $pseudo: $focus)
+// @include overflow($prefix: $variant-focus, $pseudo: $focus)
+// @include overflow-xy($prefix: $variant-focus, $pseudo: $focus)
+// @include overflow-scrolling($prefix: $variant-focus, $pseudo: $focus)
+// @include position($prefix: $variant-focus, $pseudo: $focus)
+// @include visibility($prefix: $variant-focus, $pseudo: $focus)
+// @include zIndex($prefix: $variant-focus, $pseudo: $focus)
+
+/* sizing */
+
+// @include height($prefix: $variant-focus, $pseudo: $focus)
+// @include maxHeight($prefix: $variant-focus, $pseudo: $focus)
+// @include maxWidth($prefix: $variant-focus, $pseudo: $focus)
+// @include minHeight($prefix: $variant-focus, $pseudo: $focus)
+// @include minWidth($prefix: $variant-focus, $pseudo: $focus)
+// @include width($prefix: $variant-focus, $pseudo: $focus)
+
+/* spacing */
+
+// @include margin($prefix: $variant-focus, $pseudo: $focus)
+// @include margin($negative: $true, $prefix: $variant-focus, $pseudo: $focus) // negative
+// @include padding($prefix: $variant-focus, $pseudo: $focus)
+// @include equal($prefix: $variant-focus, $pseudo: $focus) // (v1.0.8)
+// @include equal($negative: $true, $prefix: $variant-focus, $pseudo: $focus) // negative, (v1.0.8)
+
+/* svg */
+
+// @include fill($prefix: $variant-focus, $pseudo: $focus)
+// @include stroke($prefix: $variant-focus, $pseudo: $focus)
+// @include strokeWidth($prefix: $variant-focus, $pseudo: $focus)
+
+/* tables */
+
+// @include borderCollapse($prefix: $variant-focus, $pseudo: $focus)
+// @include tableLayout($prefix: $variant-focus, $pseudo: $focus)
+
+/* transforms */
+
+// @include transform($prefix: $variant-focus, $pseudo: $focus)
+// @include transformOrigin($prefix: $variant-focus, $pseudo: $focus)
+// @include rotate($prefix: $variant-focus, $pseudo: $focus)
+// @include rotate($prefix: $variant-focus, $pseudo: $focus, $negative: $true) // negative
+// @include scale($prefix: $variant-focus, $pseudo: $focus)
+// @include skew($prefix: $variant-focus, $pseudo: $focus)
+// @include skew($prefix: $variant-focus, $pseudo: $focus, $negative: $true) // negative
+// @include translate($prefix: $variant-focus, $pseudo: $focus)
+// @include translate($prefix: $variant-focus, $pseudo: $focus, $negative: $true) // negative
+
+/* transitions */
+
+// @include transitionDuration($prefix: $variant-focus, $pseudo: $focus)
+// @include transitionProperty($prefix: $variant-focus, $pseudo: $focus)
+// @include transitionTiming($prefix: $variant-focus, $pseudo: $focus)
+
+/* typography */
+
+@include placeholderColor($prefix: $variant-focus, $pseudo: $focus)
+@include textColor($prefix: $variant-focus, $pseudo: $focus)
+// ----- GROUP
+@include textColor($prefix: $variant-group-focus)
+// @include fontFamily($prefix: $variant-focus, $pseudo: $focus)
+// @include fontSize($prefix: $variant-focus, $pseudo: $focus)
+// @include fontSmoothing($prefix: $variant-focus, $pseudo: $focus)
+// @include fontStyle($prefix: $variant-focus, $pseudo: $focus)
+@include fontWeight($prefix: $variant-focus, $pseudo: $focus)
+// @include letterSpacing($prefix: $variant-focus, $pseudo: $focus)
+// @include lineHeight($prefix: $variant-focus, $pseudo: $focus)
+// @include listStylePosition($prefix: $variant-focus, $pseudo: $focus)
+// @include listStyleType($prefix: $variant-focus, $pseudo: $focus)
+// @include textAlign($prefix: $variant-focus, $pseudo: $focus)
+@include textDecoration($prefix: $variant-focus, $pseudo: $focus)
+// @include textTransform($prefix: $variant-focus, $pseudo: $focus)
+// @include verticalAlign($prefix: $variant-focus, $pseudo: $focus)
+// @include whitespace($prefix: $variant-focus, $pseudo: $focus)
+// @include wordBreak($prefix: $variant-focus, $pseudo: $focus)
+// @include textClamp($prefix: $variant-focus, $pseudo: $focus)
+

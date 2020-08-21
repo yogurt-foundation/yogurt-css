@@ -95,180 +95,166 @@ $special-colors:
   (transparent, transparent),
   (current, currentColor);
 
-$amber:
-  (100, #fff9e6),
-  (200, #fff0bf),
-  (300, #ffe799),
-  (400, #ffd54d),
-  (500, #ffc300),
-  (600, #e6b000),
-  (700, #997500),
-  (800, #735800),
-  (900, #4d3b00);
+$colors:
+  (amber, 100, #fff9e6),
+  (amber, 200, #fff0bf),
+  (amber, 300, #ffe799),
+  (amber, 400, #ffd54d),
+  (amber, 500, #ffc300),
+  (amber, 600, #e6b000),
+  (amber, 700, #997500),
+  (amber, 800, #735800),
+  (amber, 900, #4d3b00),
 
-$black:
-  (100, #b9b9b9),
-  (200, #a2a2a2),
-  (300, #8b8b8b),
-  (400, #737373),
-  (500, #5c5c5c),
-  (600, #454545),
-  (700, #2e2e2e),
-  (800, #171717),
-  (900, #000000);
+  (black, 100, #b9b9b9),
+  (black, 200, #a2a2a2),
+  (black, 300, #8b8b8b),
+  (black, 400, #737373),
+  (black, 500, #5c5c5c),
+  (black, 600, #454545),
+  (black, 700, #2e2e2e),
+  (black, 800, #171717),
+  (black, 900, #000000),
 
-$blue:
-  (100, #ebf8ff),
-  (200, #bee3f8),
-  (300, #90cdf4),
-  (400, #63b3ed),
-  (500, #4299e1),
-  (600, #3182ce),
-  (700, #2b6cb0),
-  (800, #2c5282),
-  (900, #2a4365);
+  (blue, 100, #ebf8ff),
+  (blue, 200, #bee3f8),
+  (blue, 300, #90cdf4),
+  (blue, 400, #63b3ed),
+  (blue, 500, #4299e1),
+  (blue, 600, #3182ce),
+  (blue, 700, #2b6cb0),
+  (blue, 800, #2c5282),
+  (blue, 900, #2a4365),
 
-$charcoal:
-  (100, #222c35),
-  (200, #1f2831),
-  (300, #1c252c),
-  (400, #192127),
-  (500, #161d22),
-  (600, #13181d),
-  (700, #101419),
-  (800, #0d1014),
-  (900, #0a0c0f);
+  (charcoal, 100, #222c35),
+  (charcoal, 200, #1f2831),
+  (charcoal, 300, #1c252c),
+  (charcoal, 400, #192127),
+  (charcoal, 500, #161d22),
+  (charcoal, 600, #13181d),
+  (charcoal, 700, #101419),
+  (charcoal, 800, #0d1014),
+  (charcoal, 900, #0a0c0f),
 
-$gray:
-  (100, #f7fafc),
-  (200, #edf2f7),
-  (300, #e2e8f0),
-  (400, #cbd5e0),
-  (500, #a0aec0),
-  (600, #718096),
-  (700, #4a5568),
-  (800, #2d3748),
-  (900, #1a202c);
+  (gray, 100, #f7fafc),
+  (gray, 200, #edf2f7),
+  (gray, 300, #e2e8f0),
+  (gray, 400, #cbd5e0),
+  (gray, 500, #a0aec0),
+  (gray, 600, #718096),
+  (gray, 700, #4a5568),
+  (gray, 800, #2d3748),
+  (gray, 900, #1a202c),
 
-$green:
-  (100, #f0fff4),
-  (200, #c6f6d5),
-  (300, #9ae6b4),
-  (400, #68d391),
-  (500, #48bb78),
-  (600, #38a169),
-  (700, #2f855a),
-  (800, #276749),
-  (900, #22543d);
+  (green, 100, #f0fff4),
+  (green, 200, #c6f6d5),
+  (green, 300, #9ae6b4),
+  (green, 400, #68d391),
+  (green, 500, #48bb78),
+  (green, 600, #38a169),
+  (green, 700, #2f855a),
+  (green, 800, #276749),
+  (green, 900, #22543d),
 
-$indigo:
-  (100, #ebf4ff),
-  (200, #c3dafe),
-  (300, #a3bffa),
-  (400, #7f9cf5),
-  (500, #667eea),
-  (600, #5a67d8),
-  (700, #4c51bf),
-  (800, #434190),
-  (900, #3c366b);
+  (indigo, 100, #ebf4ff),
+  (indigo, 200, #c3dafe),
+  (indigo, 300, #a3bffa),
+  (indigo, 400, #7f9cf5),
+  (indigo, 500, #667eea),
+  (indigo, 600, #5a67d8),
+  (indigo, 700, #4c51bf),
+  (indigo, 800, #434190),
+  (indigo, 900, #3c366b),
 
-$khaki:
-  (100, #f9f7f4),
-  (200, #f0ebe4),
-  (300, #e7dfd3),
-  (400, #d5c8b2),
-  (500, #c3b091),
-  (600, #b09e83),
-  (700, #756a57),
-  (800, #584f41),
-  (900, #3b352c);
+  (khaki, 100, #f9f7f4),
+  (khaki, 200, #f0ebe4),
+  (khaki, 300, #e7dfd3),
+  (khaki, 400, #d5c8b2),
+  (khaki, 500, #c3b091),
+  (khaki, 600, #b09e83),
+  (khaki, 700, #756a57),
+  (khaki, 800, #584f41),
+  (khaki, 900, #3b352c),
 
-$nero:
-  (100, #e9e9e9),
-  (200, #c7c8c9),
-  (300, #a6a7a8),
-  (400, #636466),
-  (500, #202225),
-  (600, #1d1f21),
-  (700, #131416),
-  (800, #0e0f11),
-  (900, #0a0a0b);
+  (nero, 100, #e9e9e9),
+  (nero, 200, #c7c8c9),
+  (nero, 300, #a6a7a8),
+  (nero, 400, #636466),
+  (nero, 500, #202225),
+  (nero, 600, #1d1f21),
+  (nero, 700, #131416),
+  (nero, 800, #0e0f11),
+  (nero, 900, #0a0a0b),
 
-$orange:
-  (100, #fffaf0),
-  (200, #feebc8),
-  (300, #fbd38d),
-  (400, #f6ad55),
-  (500, #ed8936),
-  (600, #dd6b20),
-  (700, #c05621),
-  (800, #9c4221),
-  (900, #7b341e);
+  (orange, 100, #fffaf0),
+  (orange, 200, #feebc8),
+  (orange, 300, #fbd38d),
+  (orange, 400, #f6ad55),
+  (orange, 500, #ed8936),
+  (orange, 600, #dd6b20),
+  (orange, 700, #c05621),
+  (orange, 800, #9c4221),
+  (orange, 900, #7b341e),
 
-$pink:
-  (100, #fff5f7),
-  (200, #fed7e2),
-  (300, #fbb6ce),
-  (400, #f687b3),
-  (500, #ed64a6),
-  (600, #d53f8c),
-  (700, #b83280),
-  (800, #97266d),
-  (900, #702459);
+  (pink, 100, #fff5f7),
+  (pink, 200, #fed7e2),
+  (pink, 300, #fbb6ce),
+  (pink, 400, #f687b3),
+  (pink, 500, #ed64a6),
+  (pink, 600, #d53f8c),
+  (pink, 700, #b83280),
+  (pink, 800, #97266d),
+  (pink, 900, #702459),
 
-$purple:
-  (100, #faf5ff),
-  (200, #e9d8fd),
-  (300, #d6bcfa),
-  (400, #b794f4),
-  (500, #9f7aea),
-  (600, #805ad5),
-  (700, #6b46c1),
-  (800, #553c9a),
-  (900, #44337a);
+  (purple, 100, #faf5ff),
+  (purple, 200, #e9d8fd),
+  (purple, 300, #d6bcfa),
+  (purple, 400, #b794f4),
+  (purple, 500, #9f7aea),
+  (purple, 600, #805ad5),
+  (purple, 700, #6b46c1),
+  (purple, 800, #553c9a),
+  (purple, 900, #44337a),
 
-$red:
-  (100, #fff5f5),
-  (200, #fed7d7),
-  (300, #feb2b2),
-  (400, #fc8181),
-  (500, #f56565),
-  (600, #e53e3e),
-  (700, #c53030),
-  (800, #9b2c2c),
-  (900, #742a2a);
+  (red, 100, #fff5f5),
+  (red, 200, #fed7d7),
+  (red, 300, #feb2b2),
+  (red, 400, #fc8181),
+  (red, 500, #f56565),
+  (red, 600, #e53e3e),
+  (red, 700, #c53030),
+  (red, 800, #9b2c2c),
+  (red, 900, #742a2a),
 
-$teal:
-  (100, #e6fffa),
-  (200, #b2f5ea),
-  (300, #81e6d9),
-  (400, #4fd1c5),
-  (500, #38b2ac),
-  (600, #319795),
-  (700, #2c7a7b),
-  (800, #285e61),
-  (900, #234e52);
+  (teal, 100, #e6fffa),
+  (teal, 200, #b2f5ea),
+  (teal, 300, #81e6d9),
+  (teal, 400, #4fd1c5),
+  (teal, 500, #38b2ac),
+  (teal, 600, #319795),
+  (teal, 700, #2c7a7b),
+  (teal, 800, #285e61),
+  (teal, 900, #234e52),
 
-$yellow:
-  (100, #fffff0),
-  (200, #fefcbf),
-  (300, #faf089),
-  (400, #f6e05e),
-  (500, #ecc94b),
-  (600, #d69e2e),
-  (700, #b7791f),
-  (800, #975a16),
-  (900, #744210);
+  (yellow, 100, #fffff0),
+  (yellow, 200, #fefcbf),
+  (yellow, 300, #faf089),
+  (yellow, 400, #f6e05e),
+  (yellow, 500, #ecc94b),
+  (yellow, 600, #d69e2e),
+  (yellow, 700, #b7791f),
+  (yellow, 800, #975a16),
+  (yellow, 900, #744210);
 
-/* shadowColor */
+/* shadow color */
 
-$shadow-color:
+$shadow-color-size:
   (md, 6px),
   (lg, 15px),
   (xl, 25px),
   (\32xl, 50px);
 
-/* alignContent */
+/* align content */
 
 $align-content:
   (start, flex-start),
@@ -277,7 +263,7 @@ $align-content:
   (between, space-between),
   (around, space-around);
 
-/* alignItems */
+/* align items */
 
 $align-items:
   (start, flex-start),
@@ -286,7 +272,7 @@ $align-items:
   (baseline, baseline),
   (stretch, stretch);
 
-/* alignSelf */
+/* align self */
 
 $align-self:
   (auto, auto),
@@ -295,14 +281,14 @@ $align-self:
   (center, center),
   (stretch, stretch);
 
-/* backgroundAttachment */
+/* background attachment */
 
 $background-attachment:
   (fixed, fixed),
   (local, local),
   (scroll, scroll);
 
-/* backgroundPosition */
+/* background position */
 
 $background-position:
   (top, top),
@@ -315,7 +301,7 @@ $background-position:
   (right-bottom, right bottom),
   (right-top, right top);
 
-/* backgroundRepeat */
+/* background repeat */
 
 $background-repeat:
   (repeat, repeat),
@@ -325,20 +311,20 @@ $background-repeat:
   (repeat-round, round),
   (repeat-space, space);
 
-/* backgroundSize */
+/* background size */
 
 $background-size:
   (auto, auto),
   (cover, cover),
   (contain, contain);
 
-/* borderCollapse */
+/* border collapse */
 
 $border-collapse:
   (collapse, collapse),
   (separate, separate);
 
-/* borderRadius */
+/* border radius */
 
 $border-radius:
   (none, 0),
@@ -347,7 +333,7 @@ $border-radius:
   (lg, 0.5rem),
   (full, 9999px);
 
-/* borderStyle */
+/* border style */
 
 $border-style:
   (solid, solid),
@@ -355,7 +341,7 @@ $border-style:
   (dotted, dotted),
   (none, none);
 
-/* borderWidth */
+/* border width */
 
 $border-width:
   (0, 0),
@@ -363,7 +349,7 @@ $border-width:
   (4, 0.25em), // 4px
   (8, 0.5em); // 8px
 
-/* boxShadow */
+/* box shadow */
 
 $box-shadow:
   (xs, 0 0 0 1px rgba(0, 0, 0, 0.05)),
@@ -579,7 +565,11 @@ $max-width:
   (4xl, 56rem),
   (5xl, 64rem),
   (6xl, 72rem),
-  (full, 100%);
+  (full, 100%),
+  (screen-sm, 640px), // (v1.0.9)
+  (screen-md, 768px),
+  (screen-lg, 1024px),
+  (screen-xl, 1280px);
 
 /* min height */
 
@@ -895,44 +885,18 @@ $z-index:
 
 /* filters (brightness, contrast, saturate) */
 
-$filter-brightness:
+$filter-compose:
   (0, 0),
   (1, 1),
-  (2, 1.06),
-  (3, 1.12),
-  (4, 1.18),
+  (2, 2),
+  (3, 3),
+  (4, 4),
   (5, 1.24),
   (6, 1.30),
   (7, 1.36),
   (8, 1.42),
   (9, 1.48),
   (10, 1.54);
-
-$filter-contrast:
-  (0, 0),
-  (1, 1),
-  (2, 1.10),
-  (3, 1.20),
-  (4, 1.30),
-  (5, 1.40),
-  (6, 1.50),
-  (7, 1.60),
-  (8, 1.70),
-  (9, 1.80),
-  (10, 1.90);
-
-$filter-saturate:
-  (0, 0),
-  (1, 1),
-  (2, 1.10),
-  (3, 1.20),
-  (4, 1.30),
-  (5, 1.40),
-  (6, 1.50),
-  (7, 1.60),
-  (8, 1.70),
-  (9, 1.80),
-  (10, 1.90);
 
 /* filter (blur) */
 
@@ -954,6 +918,15 @@ $filter-blur:
 $filter-invert:
   (0, 0),
   (1, 1.0);
+
+/* filter (drop-shadow) */
+
+$filter-drop-shadow:
+  (xs, 0px 0px 1px rgba(0, 0, 0, 0.8)),
+  (sm, 0px 1px 3px rgba(0, 0, 0, 0.5)),
+  (md, 0px 4px 3px rgba(0, 0, 0, 0.5)),
+  (lg, 0px 4px 6px rgba(0, 0, 0, 0.5)),
+  (xl, 0px 4px 10px rgba(0, 0, 0, 0.5));
 
 /* effect (blend) */
 
@@ -1230,3 +1203,133 @@ $pattern-dot-size:
   (lg, 2px),
   (xl, 5px);
 
+/* animations */
+
+$animation-duration:
+  (300, 300ms),
+  (500, 500ms),
+  (800, 800ms),
+  (2000, 2s),
+  (3000, 3s),
+  (4000, 4s);
+
+$animation-delay:
+  (2, 2s),
+  (3, 3s),
+  (4, 4s),
+  (5, 5s);
+
+$animation-fade:
+ (fade-in, opacity, 0, null, null, opacity, 1, null, null),
+ (fade-in-bottom-left, opacity, 0, transform, translate3d(-100%,100%,0), opacity, 1, transform, translate3d(0, 0, 0)),
+ (fade-in-bottom-right, opacity, 0, transform, translate3d(100%,100%,0), opacity, 1, transform, translate3d(0, 0, 0)),
+ (fade-in-down, opacity, 0, transform, translate3d(0,-100%,0), opacity, 1, transform, translate3d(0,0,0)),
+ (fade-in-left, opacity, 0, transform, translate3d(-100%,0,0), opacity, 1, transform, translate3d(0,0,0)),
+ (fade-in-right, opacity, 0, transform, translate3d(100%,0,0), opacity, 1, transform, translate3d(0,0,0)),
+ (fade-in-top-left, opacity, 0, transform, translate3d(-100%,-100%,0), opacity, 1, transform, translate3d(0,0,0)),
+ (fade-in-top-right, opacity, 0, transform, translate3d(100%,-100%,0), opacity, 1, transform, translate3d(0,0,0)),
+ (fade-in-up, opacity, 0, transform, translate3d(0,100%,0), opacity, 1, transform, translate3d(0,0,0)),
+ (fade-out, opacity, 1, null, null, opacity, 0, null, null),
+ (fade-out-bottom-left, opacity, 1, transform, translate3d(0,0,0), opacity, 1, transform, translate3d(-100%,100%,0)),
+ (fade-out-bottom-right, opacity, 1, transform, translate3d(0,0,0), opacity, 1, transform, translate3d(100%,100%,0)),
+ (fade-out-down, opacity, 1, transform, translate3d(0,0,0), opacity, 1, transform, translate3d(0,100%,0)),
+ (fade-out-left, opacity, 1, transform, translate3d(0,0,0), opacity, 0, transform, translate3d(-100%,0,0)),
+ (fade-out-right, opacity, 1, transform, translate3d(0,0,0), opacity, 0, transform, translate3d(100%,0,0)),
+ (fade-out-top-left, opacity, 1, transform, translate3d(0,0,0), opacity, 0, transform, translate3d(-100%,-100%,0)),
+ (fade-out-top-right, opacity, 1, transform, translate3d(0,0,0), opacity, 0, transform, translate3d(100%,-100%,0)),
+ (fade-out-top-up, opacity, 1, transform, translate3d(0,0,0), opacity, 0, transform, translate3d(0,-100%,0));
+
+$animation-blur:
+ (blur-in, opacity, 0, filter, blur(4px), opacity, 1, filter, blur(0)),
+ (blur-out, opacity, 1, filter, blur(0), opacity, 1, filter, blur(4px));
+
+$animation-roll:
+  (roll-in-left, opacity, 0, transform, translate3d(-100%,0,0), opacity, 1, transform, translate3d(0,0,0)),
+  (roll-in-right, opacity, 0, transform, translate3d(100%, 0, 0) rotate3d(0,0,1,120deg), opacity, 1, transform, translate3d(0,0,0)),
+  (roll-out-left, opacity, 1, null, null, opacity, 0, transform, translate3d(-100%,0,0) rotate3d(0,0,1,-120deg)),
+  (roll-out-right, opacity, 1, null, null, opacity, 0, transform, translate3d(100%,0,0) rotate3d(0,0,1,120deg));
+
+$animation-slide:
+  (slide-in-down, transform, translate3d(0,-100%,0), visibility, visible, null, null, transform, translate3d(0,0,0)),
+  (slide-in-left, transform, translate3d(-100%,0,0), visibility, visible, null, null, transform, translate3d(0,0,0)),
+  (slide-in-right, transform, translate3d(100%,0,0), visibility, visible, null, null, transform, translate3d(0,0,0)),
+  (slide-in-up, transform, translate3d(0,100%,0), visibility, visible, null, null, transform, translate3d(0,0,0)),
+  (slide-out-down, transform, translate3d(0,0,0), null, null, visibility, hidden, transform, translate3d(0,100%,0)),
+  (slide-out-left, transform, translate3d(0,0,0), null, null, visibility, hidden, transform, translate3d(-100%,0,0)),
+  (slide-out-right, transform, translate3d(0,0,0), null, null, visibility, hidden, transform, translate3d(100%,0,0)),
+  (slide-out-up, transform, translate3d(0,0,0), null, null, visibility, hidden, transform, translate3d(0,-100%,0));
+
+$content-visibility:
+  (auto-widest, auto, 1000px),
+  (auto-wider, auto, 800px),
+  (auto-normal, auto, 600px),
+  (auto-tight, auto, 400px),
+  (auto-tighter, auto, 200px),
+  (hidden-widest, hidden, 1000px),
+  (hidden-wider, hidden, 800px),
+  (hidden-normal, hidden, 600px),
+  (hidden-tight, hidden, 400px),
+  (hidden-tighter, hidden, 200px);
+
+/* background border */
+
+$background-border-angle:
+  (45, 45deg),
+  (60, 60deg);
+
+$background-border-length:
+ (10, 10px),
+ (20, 20px),
+ (30, 30px),
+ (40, 40px),
+ (50, 50px),
+ (60, 60px),
+ (70, 70px),
+ (80, 80px);
+
+$background-border-space:
+ (10, 10px),
+ (20, 20px),
+ (30, 30px),
+ (40, 40px),
+ (50, 50px),
+ (60, 60px),
+ (70, 70px),
+ (80, 80px);
+
+$background-border-size:
+  (6, 6px),
+  (9, 9px),
+  (12, 12px),
+  (14, 14px),
+  (18, 18px),
+  (24, 24px),
+  (32, 32px);
+
+/* background gradient */
+
+$background-gradient-angle:
+  (0, 0deg),
+  (45, 45deg),
+  (90, 90deg),
+  (180, 180deg);
+
+$background-gradient-space:
+ (10, 10%),
+ (20, 20%),
+ (30, 30%),
+ (40, 40%),
+ (50, 50%),
+ (60, 60%),
+ (70, 70%),
+ (80, 80%),
+ (90, 90%);
+
+/* text clamp */
+
+$text-clamp:
+  (1, 1),
+  (2, 2),
+  (3, 3),
+  (4, 4),
+  (5, 5);

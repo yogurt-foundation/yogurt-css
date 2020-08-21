@@ -1,0 +1,10 @@
+/**
+ * @utility: animations
+ * @module: _roll.scss
+ * @desc: sets the roll variant of animation to an element
+ */
+
+@mixin fxRoll($prefix: null, $pseudo: null, $class: null) {
+  @include keyframes($prefix, $pseudo, $class, $animation-roll)
+}
+

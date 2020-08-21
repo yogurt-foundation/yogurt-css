@@ -1,0 +1,151 @@
+/**
+ * @module: responsive/variants/
+ * @file: _visited.scss
+ */
+
+/* accessibility */
+
+// @include screenReader($prefix: $responsive-visited, $pseudo: $visited)
+
+/* backgrounds */
+
+// @include backgroundColor($prefix: $responsive-visited, $pseudo: $visited)
+// @include backgroundAttachment($prefix: $responsive-visited, $pseudo: $visited)
+// @include backgroundPosition($prefix: $responsive-visited, $pseudo: $visited)
+// @include backgroundRepeat($prefix: $responsive-visited, $pseudo: $visited)
+// @include backgroundSize($prefix: $responsive-visited, $pseudo: $visited)
+// @include backgroundBlend($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.4)
+// @include backgroundGradient($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.9)
+
+/* borders */
+
+// @include borderColor($prefix: $responsive-visited, $pseudo: $visited)
+// @include borderRadius($prefix: $responsive-visited, $pseudo: $visited)
+// @include borderStyle($prefix: $responsive-visited, $pseudo: $visited)
+// @include borderWidth($prefix: $responsive-visited, $pseudo: $visited)
+// @include borderDissect($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.8)
+// @include borderDissectColorYellow($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.8)
+// @include borderDissectOpacity($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.8)
+
+/* effects */
+
+// @include shadowColor($prefix: $responsive-visited, $pseudo: $visited)
+// @include boxShadow($prefix: $responsive-visited, $pseudo: $visited)
+// @include opacity($prefix: $responsive-visited, $pseudo: $visited)
+// @include mixBlend($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.4)
+// @include gradient($prefix: $responsive-visited, $pseudo: $visited) // (1.0.8)
+
+/* filters */
+
+// @include filterCompose($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.9)
+// @include filterInvert($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.3)
+
+/* flexbox */
+
+// @include alignContent($prefix: $responsive-visited, $pseudo: $visited)
+// @include alignItems($prefix: $responsive-visited, $pseudo: $visited)
+// @include alignSelf($prefix: $responsive-visited, $pseudo: $visited)
+// @include flex($prefix: $responsive-visited, $pseudo: $visited)
+// @include flexDirection($prefix: $responsive-visited, $pseudo: $visited)
+// @include flexGrow($prefix: $responsive-visited, $pseudo: $visited)
+// @include flexShrink($prefix: $responsive-visited, $pseudo: $visited)
+// @include flexWrap($prefix: $responsive-visited, $pseudo: $visited)
+// @include justifyContent($prefix: $responsive-visited, $pseudo: $visited)
+// @include order($prefix: $responsive-visited, $pseudo: $visited)
+
+/* fluids */
+
+/* interactivity */
+
+// @include appearance($prefix: $responsive-visited, $pseudo: $visited)
+// @include cursor($prefix: $responsive-visited, $pseudo: $visited)
+// @include outline($prefix: $responsive-visited, $pseudo: $visited)
+// @include pointerEvents($prefix: $responsive-visited, $pseudo: $visited)
+// @include resize($prefix: $responsive-visited, $pseudo: $visited)
+// @include userSelect($prefix: $responsive-visited, $pseudo: $visited)
+
+/* layouts */
+
+// @include boxSizing($prefix: $responsive-visited, $pseudo: $visited)
+// @include clear($prefix: $responsive-visited, $pseudo: $visited)
+// @include containerDefault($prefix: $responsive-visited, $pseudo: $visited)
+// @include display($prefix: $responsive-visited, $pseudo: $visited)
+// @include float($prefix: $responsive-visited, $pseudo: $visited)
+// @include inset($prefix: $responsive-visited, $pseudo: $visited)
+// @include insetTBLR($prefix: $responsive-visited, $pseudo: $visited)
+// @include objectFit($prefix: $responsive-visited, $pseudo: $visited)
+// @include objectPosition($prefix: $responsive-visited, $pseudo: $visited)
+// @include overflow($prefix: $responsive-visited, $pseudo: $visited)
+// @include overflow-xy($prefix: $responsive-visited, $pseudo: $visited)
+// @include overflow-scrolling($prefix: $responsive-visited, $pseudo: $visited)
+// @include position($prefix: $responsive-visited, $pseudo: $visited)
+// @include visibility($prefix: $responsive-visited, $pseudo: $visited)
+// @include zIndex($prefix: $responsive-visited, $pseudo: $visited)
+
+/* sizing */
+
+// @include height($prefix: $responsive-visited, $pseudo: $visited)
+// @include maxHeight($prefix: $responsive-visited, $pseudo: $visited)
+// @include maxWidth($prefix: $responsive-visited, $pseudo: $visited)
+// @include minHeight($prefix: $responsive-visited, $pseudo: $visited)
+// @include minWidth($prefix: $responsive-visited, $pseudo: $visited)
+// @include width($prefix: $responsive-visited, $pseudo: $visited)
+
+/* spacing */
+
+// @include margin($prefix: $responsive-visited, $pseudo: $visited)
+// @include margin($negative: $true, $prefix: $responsive-visited, $pseudo: $visited) // negative
+// @include padding($prefix: $responsive-visited, $pseudo: $visited)
+// @include equal($prefix: $responsive-hover, $pseudo: $hover) // (v1.0.8)
+// @include equal($negative: $true, $prefix: $responsive-hover, $pseudo: $hover) // negative, (v1.0.8)
+
+/* svg */
+
+// @include fill($prefix: $responsive-visited, $pseudo: $visited)
+// @include stroke($prefix: $responsive-visited, $pseudo: $visited)
+// @include strokeWidth($prefix: $responsive-visited, $pseudo: $visited)
+
+/* tables */
+
+// @include borderCollapse($prefix: $responsive-visited, $pseudo: $visited)
+// @include tableLayout($prefix: $responsive-visited, $pseudo: $visited)
+
+/* transforms */
+
+// @include transform($prefix: $responsive-visited, $pseudo: $visited)
+// @include transformOrigin($prefix: $responsive-visited, $pseudo: $visited)
+// @include rotate($prefix: $responsive-visited, $pseudo: $visited)
+// @include rotate($prefix: $responsive-visited, $pseudo: $visited, $negative: $true) // negative
+// @include scale($prefix: $responsive-visited, $pseudo: $visited)
+// @include skew($prefix: $responsive-visited, $pseudo: $visited)
+// @include skew($prefix: $responsive-visited, $pseudo: $visited, $negative: $true) // negative
+// @include translate($prefix: $responsive-visited, $pseudo: $visited)
+// @include translate($prefix: $responsive-visited, $pseudo: $visited, $negative: $true) // negative
+
+/* transitions */
+
+// @include transitionDuration($prefix: $responsive-visited, $pseudo: $visited)
+// @include transitionProperty($prefix: $responsive-visited, $pseudo: $visited)
+// @include transitionTiming($prefix: $responsive-visited, $pseudo: $visited)
+
+/* typography */
+
+// @include placeholderColor($prefix: $responsive-visited, $pseudo: $visited)
+// @include textColor($prefix: $responsive-visited, $pseudo: $visited)
+// @include fontFamily($prefix: $responsive-visited, $pseudo: $visited)
+// @include fontSize($prefix: $responsive-visited, $pseudo: $visited)
+// @include fontSmoothing($prefix: $responsive-visited, $pseudo: $visited)
+// @include fontStyle($prefix: $responsive-visited, $pseudo: $visited)
+// @include fontWeight($prefix: $responsive-visited, $pseudo: $visited)
+// @include letterSpacing($prefix: $responsive-visited, $pseudo: $visited)
+// @include lineHeight($prefix: $responsive-visited, $pseudo: $visited)
+// @include listStylePosition($prefix: $responsive-visited, $pseudo: $visited)
+// @include listStyleType($prefix: $responsive-visited, $pseudo: $visited)
+// @include textAlign($prefix: $responsive-visited, $pseudo: $visited)
+// @include textDecoration($prefix: $responsive-visited, $pseudo: $visited)
+// @include textTransform($prefix: $responsive-visited, $pseudo: $visited)
+// @include verticalAlign($prefix: $responsive-visited, $pseudo: $visited)
+// @include whitespace($prefix: $responsive-visited, $pseudo: $visited)
+// @include wordBreak($prefix: $responsive-visited, $pseudo: $visited)
+// @include textClamp($prefix: $responsive-visited, $pseudo: $visited)
+

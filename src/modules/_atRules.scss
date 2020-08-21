@@ -1,0 +1,101 @@
+/**
+ * @file: _atrules.scss
+ */
+
+// class options
+$default: "."; // is class
+$true: "-"; // is negative
+
+// prefix options
+$variant-hover: ".hover\\#{$separator}";
+$variant-group-hover: ".group:hover .group-hover\\#{$separator}"; // (v1.0.8)
+
+$variant-focus: ".focus\\#{$separator}";
+$variant-group-focus: ".group:focus .group-focus\\#{$separator}"; // (v1.0.8)
+
+$variant-active: ".active\\#{$separator}";
+$variant-visited: ".visited\\#{$separator}";
+$variant-disabled: ".disabled\\#{$separator}";
+
+// pseudo options
+$hover: ":hover";
+$focus: ":focus";
+$active: ":active";
+$visited: ":visited";
+$disabled: ":disabled";
+
+
+@mixin setRule(
+  $prefix: null, $pseudo: null,  $class: null,
+  $selector: null, $modifier: null, $option: null,
+  $variant: null,
+  // -----
+  $property1: null, $value1: null,
+  $property2: null, $value2: null,
+  $property3: null, $value3: null,
+  $property4: null, $value4: null,
+  $property5: null, $value5: null,
+  $property6: null, $value6: null,
+  $property7: null, $value7: null,
+  $property8: null, $value8: null
+  ) {
+  #{$prefix}#{$class}#{$id}#{$selector}#{$modifier}#{$option}#{$pseudo}#{$variant} {
+    #{$property1}: #{$value1};
+    #{$property2}: #{$value2};
+    #{$property3}: #{$value3};
+    #{$property4}: #{$value4};
+    #{$property5}: #{$value5};
+    #{$property6}: #{$value6};
+    #{$property7}: #{$value7};
+    #{$property8}: #{$value8}
+  }
+}
+
+@mixin fluid(
+  $properties,
+  // -----
+  $min-vw, $max-vw,
+  $min-value, $max-value
+  ) {
+  & {
+    @each $property in $properties {
+      #{$property}: $min-value
+    }
+    @media screen and (min-width: $min-vw) {
+      @each $property in $properties {
+        #{$property}: calc(#{$min-value} + #{strip-unit($max-value - $min-value)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}))
+      }
+    }
+    @media screen and (min-width: $max-vw) {
+      @each $property in $properties {
+        #{$property}: $max-value
+      }
+    }
+  }
+}
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1)
+}
+
+@mixin keyframes(
+  $prefix: null, $pseudo: null,
+  $class: null, $animation: null
+  ) {
+  @each $modifier, $from-prop1, $from-value1, $from-prop2, $from-value2, $to-prop1, $to-value1, $to-prop2, $to-value2 in $animation {
+    @keyframes #{$modifier} {
+      from {
+        #{$from-prop1}: #{$from-value1};
+        #{$from-prop2}: #{$from-value2}
+      }
+      to {
+        #{$to-prop1}: #{$to-value1};
+        #{$to-prop2}: #{$to-value2}
+      }
+    }
+    #{$prefix}#{$class}#{$modifier}#{$pseudo} {
+      animation-name: #{$modifier}
+    }
+  }
+}
+

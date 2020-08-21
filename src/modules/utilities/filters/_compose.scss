@@ -1,0 +1,85 @@
+/**
+ * @utility: filters
+ * @module: _filterCompose.scss
+ * @desc: sets mixed filters (brightness, contrast, saturate) in order to an element
+ */
+
+@mixin filterCompose(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @include setRule(
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "filter",
+    $property1: "--brightness",
+    $value1: "1",
+    $property2: "--contrast",
+    $value2: "1",
+    $property3: "--saturate",
+    $value3: "1",
+    $property4: "--blur",
+    $value4: "0px",
+    $property5: "--drop-shadow",
+    $value5: "0px 0px 0px rgba(0, 0, 0, 0.0)",
+    $property6: "filter",
+    $value6: brightness(var(--brightness)) contrast(var(--contrast)) saturate(var(--saturate)) blur(var(--blur)) drop-shadow(var(--drop-shadow))
+  )
+  @each $modifier, $value in $filter-compose {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "filter.brightness-",
+      $modifier: $modifier,
+      $property1: "--brightness",
+      $value1: "#{$value}"
+    )
+  }
+  @each $modifier, $value in $filter-compose {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "filter.contrast-",
+      $modifier: $modifier,
+      $property1: "--contrast",
+      $value1: "#{$value}"
+    )
+  }
+  @each $modifier, $value in $filter-compose {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "filter.saturate-",
+      $modifier: $modifier,
+      $property1: "--saturate",
+      $value1: "#{$value}"
+    )
+  }
+  @each $modifier, $value in $filter-blur {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "filter.blur-",
+      $modifier: $modifier,
+      $property1: "--blur",
+      $value1: "#{$value}"
+    )
+  }
+  @each $modifier, $value in $filter-drop-shadow {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "filter.drop-shadow-",
+      $modifier: $modifier,
+      $property1: "--drop-shadow",
+      $value1: "#{$value}"
+    )
+  }
+}

@@ -1,0 +1,28 @@
+/**
+ * @utility: typography
+ * @module: _wordBreak.scss
+ * @desc: sets the word breaks of an element
+ */
+
+@mixin wordBreak(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  // (static)
+  #{$prefix}#{$class}#{$id}break-normal#{$pseudo} {
+    overflow-wrap: normal#{$override};
+    word-break: normal#{$override}
+  }
+  #{$prefix}#{$class}#{$id}break-words#{$pseudo} {
+    overflow-wrap: break-word#{$override}
+  }
+  #{$prefix}#{$class}#{$id}break-all#{$pseudo} {
+    word-break: break-all#{$override}
+  }
+  #{$prefix}#{$class}#{$id}truncate#{$pseudo} {
+    overflow: hidden#{$override};
+    text-overflow: ellipsis#{$override};
+    white-space: nowrap#{$override}
+  }
+}

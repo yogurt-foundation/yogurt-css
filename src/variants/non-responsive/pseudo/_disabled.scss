@@ -1,0 +1,156 @@
+/**
+ * @module: default/variants/
+ * @file: _disabled.scss
+ */
+
+/* accessibility */
+
+// @include screenReader($prefix: $variant-disabled, $pseudo: $disabled)
+
+/* backgrounds */
+
+// @include backgroundColor($prefix: $variant-disabled, $pseudo: $disabled)
+// @include backgroundAttachment($prefix: $variant-disabled, $pseudo: $disabled)
+// @include backgroundPosition($prefix: $variant-disabled, $pseudo: $disabled)
+// @include backgroundRepeat($prefix: $variant-disabled, $pseudo: $disabled)
+// @include backgroundSize($prefix: $variant-disabled, $pseudo: $disabled)
+// @include backgroundBlend($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.4)
+// @include backgroundOpacity($prefix: $variant-disabled, $pseudo: $disabled)
+// @include backgroundGradient($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.9)
+
+/* borders */
+
+// @include borderColor($prefix: $variant-disabled, $pseudo: $disabled)
+// @include borderRadius($prefix: $variant-disabled, $pseudo: $disabled)
+// @include borderStyle($prefix: $variant-disabled, $pseudo: $disabled)
+// @include borderWidth($prefix: $variant-disabled, $pseudo: $disabled)
+// @include borderDissect($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.8)
+// @include borderDissectColor($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.8)
+// @include borderDissectOpacity($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.8)
+
+/* effects */
+
+// @include shadowColor($prefix: $variant-disabled, $pseudo: $disabled)
+// @include boxShadow($prefix: $variant-disabled, $pseudo: $disabled)
+// @include opacity($prefix: $variant-disabled, $pseudo: $disabled)
+// @include mixBlend($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.4)
+// @include gradient($prefix: $variant-disabled, $pseudo: $disabled) // (1.0.8)
+
+/* filters */
+
+// @include filterCompose($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.9)
+// @include filterInvert($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.3)
+
+/* flexbox */
+
+// @include alignContent($prefix: $variant-disabled, $pseudo: $disabled)
+// @include alignItems($prefix: $variant-disabled, $pseudo: $disabled)
+// @include alignSelf($prefix: $variant-disabled, $pseudo: $disabled)
+// @include flex($prefix: $variant-disabled, $pseudo: $disabled)
+// @include flexDirection($prefix: $variant-disabled, $pseudo: $disabled)
+// @include flexGrow($prefix: $variant-disabled, $pseudo: $disabled)
+// @include flexShrink($prefix: $variant-disabled, $pseudo: $disabled)
+// @include flexWrap($prefix: $variant-disabled, $pseudo: $disabled)
+// @include justifyContent($prefix: $variant-disabled, $pseudo: $disabled)
+// @include order($prefix: $variant-disabled, $pseudo: $disabled)
+
+/* fluids */
+
+// @include fluidFontSize($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.8)
+// @include fluidMargin($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.8)
+// @include fluidPadding($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.8)
+
+/* interactivity */
+
+// @include appearance($prefix: $variant-disabled, $pseudo: $disabled)
+// @include cursor($prefix: $variant-disabled, $pseudo: $disabled)
+// @include outline($prefix: $variant-disabled, $pseudo: $disabled)
+// @include pointerEvents($prefix: $variant-disabled, $pseudo: $disabled)
+// @include resize($prefix: $variant-disabled, $pseudo: $disabled)
+// @include userSelect($prefix: $variant-disabled, $pseudo: $disabled)
+
+/* layouts */
+
+// @include boxSizing($prefix: $variant-disabled, $pseudo: $disabled)
+// @include clear($prefix: $variant-disabled, $pseudo: $disabled)
+// @include containerDefault($prefix: $variant-disabled, $pseudo: $disabled)
+// @include display($prefix: $variant-disabled, $pseudo: $disabled)
+// @include float($prefix: $variant-disabled, $pseudo: $disabled)
+// @include inset($prefix: $variant-disabled, $pseudo: $disabled)
+// @include insetTBLR($prefix: $variant-disabled, $pseudo: $disabled)
+// @include objectFit($prefix: $variant-disabled, $pseudo: $disabled)
+// @include objectPosition($prefix: $variant-disabled, $pseudo: $disabled)
+// @include overflow($prefix: $variant-disabled, $pseudo: $disabled)
+// @include overflow-xy($prefix: $variant-disabled, $pseudo: $disabled)
+// @include overflow-scrolling($prefix: $variant-disabled, $pseudo: $disabled)
+// @include position($prefix: $variant-disabled, $pseudo: $disabled)
+// @include visibility($prefix: $variant-disabled, $pseudo: $disabled)
+// @include zIndex($prefix: $variant-disabled, $pseudo: $disabled)
+
+/* sizing */
+
+// @include height($prefix: $variant-disabled, $pseudo: $disabled)
+// @include maxHeight($prefix: $variant-disabled, $pseudo: $disabled)
+// @include maxWidth($prefix: $variant-disabled, $pseudo: $disabled)
+// @include minHeight($prefix: $variant-disabled, $pseudo: $disabled)
+// @include minWidth($prefix: $variant-disabled, $pseudo: $disabled)
+// @include width($prefix: $variant-disabled, $pseudo: $disabled)
+
+/* spacing */
+
+// @include margin($prefix: $variant-disabled, $pseudo: $disabled)
+// @include margin($negative: $true, $prefix: $variant-disabled, $pseudo: $disabled) // negative
+// @include padding($prefix: $variant-disabled, $pseudo: $disabled)
+// @include equal($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.8)
+// @include equal($negative: $true, $prefix: $variant-disabled, $pseudo: $disabled) // negative, (v1.0.8)
+
+/* svg */
+
+// @include fill($prefix: $variant-disabled, $pseudo: $disabled)
+// @include stroke($prefix: $variant-disabled, $pseudo: $disabled)
+// @include strokeWidth($prefix: $variant-disabled, $pseudo: $disabled)
+
+/* tables */
+
+// @include borderCollapse($prefix: $variant-disabled, $pseudo: $disabled)
+// @include tableLayout($prefix: $variant-disabled, $pseudo: $disabled)
+
+/* transforms */
+
+// @include transform($prefix: $variant-disabled, $pseudo: $disabled)
+// @include transformOrigin($prefix: $variant-disabled, $pseudo: $disabled)
+// @include rotate($prefix: $variant-disabled, $pseudo: $disabled)
+// @include rotate($prefix: $variant-disabled, $pseudo: $disabled, $negative: $true) // negative
+// @include scale($prefix: $variant-disabled, $pseudo: $disabled)
+// @include skew($prefix: $variant-disabled, $pseudo: $disabled)
+// @include skew($prefix: $variant-disabled, $pseudo: $disabled, $negative: $true) // negative
+// @include translate($prefix: $variant-disabled, $pseudo: $disabled)
+// @include translate($prefix: $variant-disabled, $pseudo: $disabled, $negative: $true) // negative
+
+/* transitions */
+
+// @include transitionDuration($prefix: $variant-disabled, $pseudo: $disabled)
+// @include transitionProperty($prefix: $variant-disabled, $pseudo: $disabled)
+// @include transitionTiming($prefix: $variant-disabled, $pseudo: $disabled)
+
+/* typography */
+
+// @include placeholderColor($prefix: $variant-disabled, $pseudo: $disabled)
+// @include textColor($prefix: $variant-disabled, $pseudo: $disabled)
+// @include fontFamily($prefix: $variant-disabled, $pseudo: $disabled)
+// @include fontSize($prefix: $variant-disabled, $pseudo: $disabled)
+// @include fontSmoothing($prefix: $variant-disabled, $pseudo: $disabled)
+// @include fontStyle($prefix: $variant-disabled, $pseudo: $disabled)
+// @include fontWeight($prefix: $variant-disabled, $pseudo: $disabled)
+// @include letterSpacing($prefix: $variant-disabled, $pseudo: $disabled)
+// @include lineHeight($prefix: $variant-disabled, $pseudo: $disabled)
+// @include listStylePosition($prefix: $variant-disabled, $pseudo: $disabled)
+// @include listStyleType($prefix: $variant-disabled, $pseudo: $disabled)
+// @include textAlign($prefix: $variant-disabled, $pseudo: $disabled)
+// @include textDecoration($prefix: $variant-disabled, $pseudo: $disabled)
+// @include textTransform($prefix: $variant-disabled, $pseudo: $disabled)
+// @include verticalAlign($prefix: $variant-disabled, $pseudo: $disabled)
+// @include whitespace($prefix: $variant-disabled, $pseudo: $disabled)
+// @include wordBreak($prefix: $variant-disabled, $pseudo: $disabled)
+// @include textClamp($prefix: $variant-disabled, $pseudo: $disabled)
+

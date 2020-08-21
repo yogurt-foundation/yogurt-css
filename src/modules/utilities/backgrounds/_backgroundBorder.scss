@@ -1,0 +1,93 @@
+/**
+ * @utility: backgrounds
+ * @module: _backgroundBorder.scss
+ * @desc: sets background border to an element with more flexible control over the border spacing, size, angle and length.
+ */
+
+@mixin backgroundBorder(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @include setRule(
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "bg-border",
+    $property1: "background-image",
+    $value1: "repeating-linear-gradient(var(--bg-border-angle-left), currentColor, currentColor var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), currentColor var(--bg-border-space)), repeating-linear-gradient(var(--bg-border-angle-top), currentColor, currentColor var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), currentColor var(--bg-border-space)), repeating-linear-gradient(var(--bg-border-angle-right), currentColor, currentColor var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), currentColor var(--bg-border-space)), repeating-linear-gradient(var(--bg-border-angle-bottom), currentColor, currentColor var(--bg-border-length), transparent var(--bg-border-length), transparent var(--bg-border-space), currentColor var(--bg-border-space))",
+    $property2: "background-size",
+    $value2: "var(--bg-border-width) 100%, 100% var(--bg-border-width), var(--bg-border-width) 100%, 100% var(--bg-border-width)",
+    $property3: "background-position",
+    $value3: "0 0, 0 0, 100% 0, 0 100%",
+    $property4: "background-repeat",
+    $value4: "no-repeat"
+  )
+  @each $modifier, $value in $background-border-angle {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "bg-border.angle-",
+      $modifier: $modifier,
+      $property1: "--bg-border-angle-left",
+      $value1: #{$value},
+      $property2: "--bg-border-angle-top",
+      $value2: #{$value},
+      $property3: "--bg-border-angle-right",
+      $value3: #{$value},
+      $property4: "--bg-border-angle-bottom",
+      $value4: #{$value}
+    )
+  }
+  @each $modifier, $value in $background-border-angle {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "bg-border.-angle-",
+      $modifier: $modifier,
+      $property1: "--bg-border-angle-left",
+      $value1: "-#{$value}",
+      $property2: "--bg-border-angle-top",
+      $value2: "-#{$value}",
+      $property3: "--bg-border-angle-right",
+      $value3: #{$value},
+      $property4: "--bg-border-angle-bottom",
+      $value4: #{$value}
+    )
+  }
+  @each $modifier, $value in $background-border-length {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "bg-border.length-",
+      $modifier: $modifier,
+      $property1: "--bg-border-length",
+      $value1: #{$value}
+    )
+  }
+  @each $modifier, $value in $background-border-space {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "bg-border.space-",
+      $modifier: $modifier,
+      $property1: "--bg-border-space",
+      $value1: #{$value}
+    )
+  }
+  @each $modifier, $value in $background-border-size {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "bg-border.size-",
+      $modifier: $modifier,
+      $property1: "--bg-border-width",
+      $value1: #{$value}
+    )
+  }
+}

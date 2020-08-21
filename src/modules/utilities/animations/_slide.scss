@@ -1,0 +1,10 @@
+/**
+ * @utility: animations
+ * @module: _slide.scss
+ * @desc: sets the slide variant of animation to an element
+ */
+
+@mixin fxSlide($prefix: null, $pseudo: null, $class: null) {
+  @include keyframes($prefix, $pseudo, $class, $animation-slide)
+}
+

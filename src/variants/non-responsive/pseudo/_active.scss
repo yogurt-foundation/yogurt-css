@@ -1,0 +1,168 @@
+/**
+ * @module: default/variants/
+ * @file: _active.scss
+ */
+
+/* accessibility */
+
+// @include screenReader($prefix: $variant-active, $pseudo: $active)
+
+/* animations */
+
+// (v1.0.9)
+// @include fxBlur($prefix: $variant-hover, $pseudo: $hover)
+// @include fxFade($prefix: $variant-hover, $pseudo: $hover)
+// @include fxRoll($prefix: $variant-hover, $pseudo: $hover)
+// @include fxSlide($prefix: $variant-hover, $pseudo: $hover)
+
+/* backgrounds */
+
+@include backgroundColor($prefix: $variant-active, $pseudo: $active)
+// @include backgroundAttachment($prefix: $variant-active, $pseudo: $active)
+// @include backgroundPosition($prefix: $variant-active, $pseudo: $active)
+// @include backgroundRepeat($prefix: $variant-active, $pseudo: $active)
+// @include backgroundSize($prefix: $variant-active, $pseudo: $active)
+// @include backgroundBlend($prefix: $variant-active, $pseudo: $active) // (v1.0.4)
+// @include backgroundOpacity($prefix: $variant-active, $pseudo: $active)
+// @include backgroundGradient($prefix: $variant-active, $pseudo: $active) // (v1.0.9)
+
+/* borders */
+
+// @include borderColor($prefix: $variant-active, $pseudo: $active)
+// @include borderRadius($prefix: $variant-active, $pseudo: $active)
+// @include borderStyle($prefix: $variant-active, $pseudo: $active)
+// @include borderWidth($prefix: $variant-active, $pseudo: $active)
+// @include borderDissect($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
+// @include borderDissectColor($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
+// @include borderDissectOpacity($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
+
+/* effects */
+
+// @include shadowColor($prefix: $variant-active, $pseudo: $active)
+// @include boxShadow($prefix: $variant-active, $pseudo: $active)
+// @include opacity($prefix: $variant-active, $pseudo: $active)
+// @include mixBlend($prefix: $variant-active, $pseudo: $active) // (v1.0.4)
+// @include gradient($prefix: $variant-active, $pseudo: $active) // (1.0.8)
+
+/* filters */
+
+// @include filterCompose($prefix: $variant-active, $pseudo: $active) // (v1.0.9)
+// @include filterInvert($prefix: $variant-active, $pseudo: $active) // (v1.0.3)
+
+/* flexbox */
+
+// @include alignContent($prefix: $variant-active, $pseudo: $active)
+// @include alignItems($prefix: $variant-active, $pseudo: $active)
+// @include alignSelf($prefix: $variant-active, $pseudo: $active)
+// @include flex($prefix: $variant-active, $pseudo: $active)
+// @include flexDirection($prefix: $variant-active, $pseudo: $active)
+// @include flexGrow($prefix: $variant-active, $pseudo: $active)
+// @include flexShrink($prefix: $variant-active, $pseudo: $active)
+// @include flexWrap($prefix: $variant-active, $pseudo: $active)
+// @include justifyContent($prefix: $variant-active, $pseudo: $active)
+// @include order($prefix: $variant-active, $pseudo: $active)
+
+/* fluids */
+
+// @include fluidFontSize($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
+// @include fluidMargin($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
+// @include fluidPadding($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
+
+/* interactivity */
+
+// @include appearance($prefix: $variant-active, $pseudo: $active)
+// @include cursor($prefix: $variant-active, $pseudo: $active)
+// @include outline($prefix: $variant-active, $pseudo: $active)
+// @include pointerEvents($prefix: $variant-active, $pseudo: $active)
+// @include resize($prefix: $variant-active, $pseudo: $active)
+// @include userSelect($prefix: $variant-active, $pseudo: $active)
+
+/* layouts */
+
+// @include boxSizing($prefix: $variant-active, $pseudo: $active)
+// @include clear($prefix: $variant-active, $pseudo: $active)
+// @include containerDefault($prefix: $variant-active, $pseudo: $active)
+// @include display($prefix: $variant-active, $pseudo: $active)
+// @include float($prefix: $variant-active, $pseudo: $active)
+// @include inset($prefix: $variant-active, $pseudo: $active)
+// @include insetTBLR($prefix: $variant-active, $pseudo: $active)
+// @include objectFit($prefix: $variant-active, $pseudo: $active)
+// @include objectPosition($prefix: $variant-active, $pseudo: $active)
+// @include overflow($prefix: $variant-active, $pseudo: $active)
+// @include overflow-xy($prefix: $variant-active, $pseudo: $active)
+// @include overflow-scrolling($prefix: $variant-active, $pseudo: $active)
+// @include position($prefix: $variant-active, $pseudo: $active)
+// @include visibility($prefix: $variant-active, $pseudo: $active)
+// @include zIndex($prefix: $variant-active, $pseudo: $active)
+
+/* sizing */
+
+// @include height($prefix: $variant-active, $pseudo: $active)
+// @include maxHeight($prefix: $variant-active, $pseudo: $active)
+// @include maxWidth($prefix: $variant-active, $pseudo: $active)
+// @include minHeight($prefix: $variant-active, $pseudo: $active)
+// @include minWidth($prefix: $variant-active, $pseudo: $active)
+// @include width($prefix: $variant-active, $pseudo: $active)
+
+/* spacing */
+
+// @include margin($prefix: $variant-active, $pseudo: $active)
+// @include margin($negative: $true, $prefix: $variant-active, $pseudo: $active) // negative
+// @include padding($prefix: $variant-active, $pseudo: $active)
+// @include equal($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
+// @include equal($negative: $true, $prefix: $variant-active, $pseudo: $active) // negative, (v1.0.8)
+
+/* svg */
+
+// @include fill($prefix: $variant-active, $pseudo: $active)
+// @include stroke($prefix: $variant-active, $pseudo: $active)
+// @include strokeWidth($prefix: $variant-active, $pseudo: $active)
+
+/* tables */
+
+// @include borderCollapse($prefix: $variant-active, $pseudo: $active)
+// @include tableLayout($prefix: $variant-active, $pseudo: $active)
+
+/* transforms */
+
+// @include transform($prefix: $variant-active, $pseudo: $active)
+// @include transformOrigin($prefix: $variant-active, $pseudo: $active)
+// -----
+// @include rotate($prefix: $variant-active, $pseudo: $active)
+// @include rotate($prefix: $variant-active, $pseudo: $active, $negative: $true) // negative
+// -----
+// @include scale($prefix: $variant-active, $pseudo: $active)
+// -----
+// @include skew($prefix: $variant-active, $pseudo: $active)
+// @include skew($prefix: $variant-active, $pseudo: $active, $negative: $true) // negative
+// -----
+// @include translate($prefix: $variant-active, $pseudo: $active)
+// @include translate($prefix: $variant-active, $pseudo: $active, $negative: $true) // negative
+
+/* transitions */
+
+// @include transitionDuration($prefix: $variant-active, $pseudo: $active)
+// @include transitionProperty($prefix: $variant-active, $pseudo: $active)
+// @include transitionTiming($prefix: $variant-active, $pseudo: $active)
+
+/* typography */
+
+// @include placeholderColor($prefix: $variant-active, $pseudo: $active)
+@include textColor($prefix: $variant-active, $pseudo: $active)
+// @include fontFamily($prefix: $variant-active, $pseudo: $active)
+// @include fontSize($prefix: $variant-active, $pseudo: $active)
+// @include fontSmoothing($prefix: $variant-active, $pseudo: $active)
+// @include fontStyle($prefix: $variant-active, $pseudo: $active)
+// @include fontWeight($prefix: $variant-active, $pseudo: $active)
+// @include letterSpacing($prefix: $variant-active, $pseudo: $active)
+// @include lineHeight($prefix: $variant-active, $pseudo: $active)
+// @include listStylePosition($prefix: $variant-active, $pseudo: $active)
+// @include listStyleType($prefix: $variant-active, $pseudo: $active)
+// @include textAlign($prefix: $variant-active, $pseudo: $active)
+// @include textDecoration($prefix: $variant-active, $pseudo: $active)
+// @include textTransform($prefix: $variant-active, $pseudo: $active)
+// @include verticalAlign($prefix: $variant-active, $pseudo: $active)
+// @include whitespace($prefix: $variant-active, $pseudo: $active)
+// @include wordBreak($prefix: $variant-active, $pseudo: $active)
+// @include textClamp($prefix: $variant-active, $pseudo: $active)
+
