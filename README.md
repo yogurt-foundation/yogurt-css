@@ -5,11 +5,6 @@
 </p>
 
 <p align="left">
-  <a href="https://discord.gg/A62YjNR"
-     target="_blank">
-    <img title="Join the chat at https://discord.gg/A62YjNR"
-         src="https://img.shields.io/badge/DISCORD-JOIN_CHANNEL_%E2%86%92-7289da.svg?style=flat">
-  </a>
   <img src="https://badgen.net/github/release/yogurt-foundation/yogurt-css">
   <img src="https://badgen.net/github/releases/yogurt-foundation/yogurt-css">
   <img src="https://badgen.net/github/assets-dl/yogurt-foundation/yogurt-css">
@@ -39,11 +34,11 @@ Yogurt is a CSS framework for crafting custom UI designs by using very smaller b
 
 Yogurt does not include any kind of component classes, unlike many other CSS frameworks. Yogurt using the humanized naming convention such as `font-size`, `padding`, `margin`, `line-height`, `color`, and so on, it's easy to reason about, easy to manipulate and more readable code. Yogurt also delivers a balance between consistency and flexibility design without overwriting existing stylesheets and unlike many CSS frameworks. Play well with your CSS, library, and frameworks. No side effects. Support up to 4k screen size enabled by default.
 
-### Support
+### Documentation
 
 [Read the Documentation](https://yogurt-css-documentation.netlify.app).
 
-Join our community channel at:
+### Community
 
 - [Discord](https://discord.gg/A62YjNR)
 - [Twitter](https://twitter.com/yogurtcss)
@@ -51,6 +46,12 @@ Join our community channel at:
 ### Laboratory
 
 - [Laboratory](https://github.com/yogurt-foundation/laboratory)
+
+### Support
+
+- [Patreon](https://www.patreon.com/bePatron?u=5719325)
+- [Ko-Fi](https://ko-fi.com/S6S01OZEW)
+- [PayPal](https://paypal.me/loouisneedsbreakfast)
 
 ---
 
