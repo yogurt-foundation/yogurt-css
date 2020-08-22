@@ -37,6 +37,10 @@
 @include borderDissectColor($class: $default) // (1.0.8)
 @include borderDissectOpacity($class: $default) // (v1.0.8)
 
+/* debug */
+
+@include debugger() // (static) (v1.1.0)
+
 /* effects */
 
 @include shadowColor($class: $default)
