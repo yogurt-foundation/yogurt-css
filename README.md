@@ -24,7 +24,7 @@
 
 A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level without writing a single line of CSS.
 
-> Version 1.0.9-solidcore
+> Version 1.1.0-solidcore
 
 > The `SOLID CORE` means the next major Yogurt CSS update is depending on any major release of the CSS version. It also means you will less frequently updating the framework for your frontend development. Which makes this utility framework a futureproof.
 
