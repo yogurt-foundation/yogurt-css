@@ -1,7 +1,7 @@
 /**
  * @utility: debug
  * @module: _debugger.scss
- * @desc: inspect errors in spacing and overlapping elements
+ * @desc: inspecting errors in spacing and overlapping elements
  */
 
 @mixin debugger(
@@ -12,8 +12,12 @@
   @include setRule(
     $selector: '[debug="true"] *',
     $property1: "background",
-    $value1: "rgba(255, 0, 0, .1)",
+    $value1: "rgba(255, 0, 0, 0.1)",
     $property2: "box-shadow",
-    $value2: "0 0 0 1px red"
+    $value2: "0 0 0 1px red",
+    $property3: "outline",
+    $value3: "1px solid red"
   )
 }
+
+

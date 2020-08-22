@@ -834,7 +834,7 @@ y {
 /**
  * @utility: debug
  * @module: _debugger.scss
- * @desc: inspect errors in spacing and overlapping elements
+ * @desc: inspecting errors in spacing and overlapping elements
  */
 /**
  * @utility: effects
@@ -6308,8 +6308,9 @@ y {
 
 /* debug */
 [debug="true"] * {
-  background: rgba(255, 0, 0, .1);
+  background: rgba(255, 0, 0, 0.1);
   box-shadow: 0 0 0 1px red;
+  outline: 1px solid red;
 }
 
 /* effects */
