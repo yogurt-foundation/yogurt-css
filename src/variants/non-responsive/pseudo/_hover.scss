@@ -97,6 +97,7 @@
 @include position($prefix: $variant-hover, $pseudo: $hover)
 @include visibility($prefix: $variant-hover, $pseudo: $hover)
 // @include zIndex($prefix: $variant-hover, $pseudo: $hover)
+//@include scrollSnap($prefix: $variant-hover, $pseudo: $hover) // (v1.1.0)
 // ----- GROUP
 @include display($prefix: $variant-group-hover)
 @include visibility($prefix: $variant-group-hover)
