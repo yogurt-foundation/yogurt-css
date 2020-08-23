@@ -49,6 +49,7 @@
 @include flex($prefix: $responsive-default)
 @include flexDirection($prefix: $responsive-default)
 @include flexGrow($prefix: $responsive-default)
+@include flexGap($prefix: $responsive-default) // (v1.1.0)
 @include flexShrink($prefix: $responsive-default)
 @include flexWrap($prefix: $responsive-default)
 @include justifyContent($prefix: $responsive-default)
@@ -82,6 +83,7 @@
 @include position($prefix: $responsive-default)
 @include visibility($prefix: $responsive-default)
 @include zIndex($prefix: $responsive-default)
+@include scrollSnap($prefix: $responsive-default) // (v1.1.0)
 
 /* sizing */
 

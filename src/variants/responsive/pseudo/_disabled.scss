@@ -49,6 +49,7 @@
 // @include flex($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include flexDirection($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include flexGrow($prefix: $responsive-disabled, $pseudo: $disabled)
+// @include flexGap($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.1.0)
 // @include flexShrink($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include flexWrap($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include justifyContent($prefix: $responsive-disabled, $pseudo: $disabled)
@@ -82,6 +83,7 @@
 // @include position($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include visibility($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include zIndex($prefix: $responsive-disabled, $pseudo: $disabled)
+// @include scrollSnap($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.1.0)
 
 /* sizing */
 

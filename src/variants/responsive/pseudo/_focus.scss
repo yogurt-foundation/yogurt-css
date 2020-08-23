@@ -49,6 +49,7 @@
 // @include flex($prefix: $responsive-focus, $pseudo: $focus)
 // @include flexDirection($prefix: $responsive-focus, $pseudo: $focus)
 // @include flexGrow($prefix: $responsive-focus, $pseudo: $focus)
+// @include flexGap($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.0)
 // @include flexShrink($prefix: $responsive-focus, $pseudo: $focus)
 // @include flexWrap($prefix: $responsive-focus, $pseudo: $focus)
 // @include justifyContent($prefix: $responsive-focus, $pseudo: $focus)
@@ -82,6 +83,7 @@
 // @include position($prefix: $responsive-focus, $pseudo: $focus)
 // @include visibility($prefix: $responsive-focus, $pseudo: $focus)
 // @include zIndex($prefix: $responsive-focus, $pseudo: $focus)
+// @include scrollSnap($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.0)
 
 /* sizing */
 

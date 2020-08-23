@@ -1333,3 +1333,24 @@ $text-clamp:
   (3, 3),
   (4, 4),
   (5, 5);
+
+/* scroll snap */
+
+ $scroll-snap-type:
+   (x-mandatory, x mandatory),
+   (y-mandatory, y mandatory),
+   (x-proximity, x proximity),
+   (y-proximity, y proximity),
+   (block-mandatory, block mandatory),
+   (block-proximity, block proximity),
+   (inline-mandatory, inline mandatory),
+   (inline-proximity, inline proximity),
+   (both-mandatory, both mandatory),
+   (both-proximity, both proximity);
+
+$scroll-snap-align:
+  (none, none),
+  (start, start),
+  (center, center),
+  (end, end);
+

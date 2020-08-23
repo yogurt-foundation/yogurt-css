@@ -49,6 +49,7 @@
 // @include flex($prefix: $responsive-hover, $pseudo: $hover)
 // @include flexDirection($prefix: $responsive-hover, $pseudo: $hover)
 // @include flexGrow($prefix: $responsive-hover, $pseudo: $hover)
+// @include flexGap($prefix: $responsive-hover, $pseudo: $hover) // (v1.1.0)
 // @include flexShrink($prefix: $responsive-hover, $pseudo: $hover)
 // @include flexWrap($prefix: $responsive-hover, $pseudo: $hover)
 // @include justifyContent($prefix: $responsive-hover, $pseudo: $hover)
@@ -82,6 +83,7 @@
 // @include position($prefix: $responsive-hover, $pseudo: $hover)
 // @include visibility($prefix: $responsive-hover, $pseudo: $hover)
 // @include zIndex($prefix: $responsive-hover, $pseudo: $hover)
+// @include scrollSnap($prefix: $responsive-hover, $pseudo: $hover) // (v1.1.0)
 
 /* sizing */
 

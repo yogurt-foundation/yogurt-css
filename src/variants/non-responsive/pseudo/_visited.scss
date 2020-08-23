@@ -49,6 +49,7 @@
 // @include flex($prefix: $variant-visited, $pseudo: $visited)
 // @include flexDirection($prefix: $variant-visited, $pseudo: $visited)
 // @include flexGrow($prefix: $variant-visited, $pseudo: $visited)
+// @include flexGap($prefix: $variant-visited, $pseudo: $visited) // (v1.1.0)
 // @include flexShrink($prefix: $variant-visited, $pseudo: $visited)
 // @include flexWrap($prefix: $variant-visited, $pseudo: $visited)
 // @include justifyContent($prefix: $variant-visited, $pseudo: $visited)
@@ -86,6 +87,7 @@
 // @include position($prefix: $variant-visited, $pseudo: $visited)
 // @include visibility($prefix: $variant-visited, $pseudo: $visited)
 // @include zIndex($prefix: $variant-visited, $pseudo: $visited)
+// @include scrollSnap($prefix: $variant-visited, $pseudo: $visited) // (v1.1.0)
 
 /* sizing */
 

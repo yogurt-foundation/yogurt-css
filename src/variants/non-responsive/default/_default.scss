@@ -62,6 +62,7 @@
 @include flex($class: $default)
 @include flexDirection($class: $default)
 @include flexGrow($class: $default)
+@include flexGap($class: $default) // (v1.1.0)
 @include flexShrink($class: $default)
 @include flexWrap($class: $default)
 @include justifyContent($class: $default)
@@ -100,6 +101,7 @@
 @include visibility($class: $default)
 @include zIndex($class: $default)
 @include contentVisibility($class: $default) // (v1.0.9)
+@include scrollSnap($class: $default) // (v1.1.0)
 
 /* patterns */
 
