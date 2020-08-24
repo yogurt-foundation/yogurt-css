@@ -670,6 +670,7 @@ y {
 /* background gradient */
 /* text clamp */
 /* scroll snap */
+/* flex gap */
 /**
  * @file: _atrules.scss
  */
@@ -9602,15 +9603,6 @@ y {
 
 .flex-grow-0 {
   flex-grow: 0;
-}
-
-.flex-gap-auto {
-  margin: calc(-1 * auto) 0 0 calc(-1 * auto);
-  width: calc(100% + auto);
-}
-
-.flex-gap-auto > * {
-  margin: auto 0 0 auto;
 }
 
 .flex-gap-px {
@@ -44570,13 +44562,6 @@ img[theme="invert"] {
   .xs\:flex-grow-0 {
     flex-grow: 0;
   }
-  .xs\:flex-gap-auto {
-    margin: calc(-1 * auto) 0 0 calc(-1 * auto);
-    width: calc(100% + auto);
-  }
-  .xs\:flex-gap-auto > * {
-    margin: auto 0 0 auto;
-  }
   .xs\:flex-gap-px {
     margin: calc(-1 * 1px) 0 0 calc(-1 * 1px);
     width: calc(100% + 1px);
@@ -47527,13 +47512,6 @@ img[theme="invert"] {
   }
   .sm\:flex-grow-0 {
     flex-grow: 0;
-  }
-  .sm\:flex-gap-auto {
-    margin: calc(-1 * auto) 0 0 calc(-1 * auto);
-    width: calc(100% + auto);
-  }
-  .sm\:flex-gap-auto > * {
-    margin: auto 0 0 auto;
   }
   .sm\:flex-gap-px {
     margin: calc(-1 * 1px) 0 0 calc(-1 * 1px);
@@ -50486,13 +50464,6 @@ img[theme="invert"] {
   .md\:flex-grow-0 {
     flex-grow: 0;
   }
-  .md\:flex-gap-auto {
-    margin: calc(-1 * auto) 0 0 calc(-1 * auto);
-    width: calc(100% + auto);
-  }
-  .md\:flex-gap-auto > * {
-    margin: auto 0 0 auto;
-  }
   .md\:flex-gap-px {
     margin: calc(-1 * 1px) 0 0 calc(-1 * 1px);
     width: calc(100% + 1px);
@@ -53443,13 +53414,6 @@ img[theme="invert"] {
   }
   .lg\:flex-grow-0 {
     flex-grow: 0;
-  }
-  .lg\:flex-gap-auto {
-    margin: calc(-1 * auto) 0 0 calc(-1 * auto);
-    width: calc(100% + auto);
-  }
-  .lg\:flex-gap-auto > * {
-    margin: auto 0 0 auto;
   }
   .lg\:flex-gap-px {
     margin: calc(-1 * 1px) 0 0 calc(-1 * 1px);
@@ -56402,13 +56366,6 @@ img[theme="invert"] {
   .xl\:flex-grow-0 {
     flex-grow: 0;
   }
-  .xl\:flex-gap-auto {
-    margin: calc(-1 * auto) 0 0 calc(-1 * auto);
-    width: calc(100% + auto);
-  }
-  .xl\:flex-gap-auto > * {
-    margin: auto 0 0 auto;
-  }
   .xl\:flex-gap-px {
     margin: calc(-1 * 1px) 0 0 calc(-1 * 1px);
     width: calc(100% + 1px);
@@ -59360,13 +59317,6 @@ img[theme="invert"] {
   .\32k\:flex-grow-0 {
     flex-grow: 0;
   }
-  .\32k\:flex-gap-auto {
-    margin: calc(-1 * auto) 0 0 calc(-1 * auto);
-    width: calc(100% + auto);
-  }
-  .\32k\:flex-gap-auto > * {
-    margin: auto 0 0 auto;
-  }
   .\32k\:flex-gap-px {
     margin: calc(-1 * 1px) 0 0 calc(-1 * 1px);
     width: calc(100% + 1px);
@@ -62317,13 +62267,6 @@ img[theme="invert"] {
   }
   .\34k\:flex-grow-0 {
     flex-grow: 0;
-  }
-  .\34k\:flex-gap-auto {
-    margin: calc(-1 * auto) 0 0 calc(-1 * auto);
-    width: calc(100% + auto);
-  }
-  .\34k\:flex-gap-auto > * {
-    margin: auto 0 0 auto;
   }
   .\34k\:flex-gap-px {
     margin: calc(-1 * 1px) 0 0 calc(-1 * 1px);
