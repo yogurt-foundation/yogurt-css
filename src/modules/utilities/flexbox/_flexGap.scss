@@ -11,7 +11,7 @@
   $pseudo: null,
   $class: null
   ) {
-  @each $modifier, $value in $spacing {
+  @each $modifier, $value in $flex-gap {
     @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
