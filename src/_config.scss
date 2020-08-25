@@ -1377,3 +1377,19 @@ $flex-gap:
   (56, 14rem),
   (64, 16rem);
 
+/* overscroll */
+
+$overscroll:
+  (auto, auto),
+  (contain, contain),
+  (none, none);
+
+$overscroll-x:
+  (x-auto, auto),
+  (x-contain, contain),
+  (x-none, none);
+
+$overscroll-y:
+  (y-auto, auto),
+  (y-contain, contain),
+  (y-none, none);

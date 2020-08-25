@@ -1,0 +1,45 @@
+/**
+ * @utility: layouts
+ * @module: _overscroll.scss
+ * @desc: sets what a browser does when reaching the boundary of a scrolling area.
+ */
+
+@mixin overscroll(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier, $value in $overscroll {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "overscroll-",
+      $modifier: $modifier,
+      $property1: "overscroll-behaviour",
+      $value1: $value#{$override}
+    )
+  }
+  @each $modifier, $value in $overscroll-x {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "overscroll-",
+      $modifier: $modifier,
+      $property1: "overscroll-behaviour-x",
+      $value1: $value#{$override}
+    )
+  }
+  @each $modifier, $value in $overscroll-y {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "overscroll-",
+      $modifier: $modifier,
+      $property1: "overscroll-behaviour-y",
+      $value1: $value#{$override}
+    )
+  }
+}

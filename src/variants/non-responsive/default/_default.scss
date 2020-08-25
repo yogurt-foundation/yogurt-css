@@ -97,6 +97,7 @@
 @include overflow($class: $default)
 @include overflow-xy($class: $default)
 @include overflow-scrolling($class: $default)
+@include overscroll($class: $default) // (v1.1.0)
 @include position($class: $default)
 @include visibility($class: $default)
 @include zIndex($class: $default)

@@ -94,6 +94,7 @@
 // @include overflow($prefix: $variant-hover, $pseudo: $hover)
 // @include overflow-xy($prefix: $variant-hover, $pseudo: $hover)
 // @include overflow-scrolling($prefix: $variant-hover, $pseudo: $hover)
+// @include overscroll($prefix: $variant-hover, $pseudo: $hover) // (v1.1.0)
 @include position($prefix: $variant-hover, $pseudo: $hover)
 @include visibility($prefix: $variant-hover, $pseudo: $hover)
 // @include zIndex($prefix: $variant-hover, $pseudo: $hover)
