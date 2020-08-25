@@ -8542,6 +8542,34 @@ y {
   box-shadow: none;
 }
 
+.shadow-dreamy-xs {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(0, 0, 0, 0.03), 0 0 0 1px rgba(0, 0, 0, 0.02), 0 0 0 1px rgba(0, 0, 0, 0.01);
+}
+
+.shadow-dreamy-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 1px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 6px 0 rgba(0, 0, 0, 0.03), 0 1px 8px 0 rgba(0, 0, 0, 0.02);
+}
+
+.shadow-dreamy {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 6px 0 rgba(0, 0, 0, 0.05), 0 1px 9px 0 rgba(0, 0, 0, 0.04), 0 1px 12px 0 rgba(0, 0, 0, 0.03);
+}
+
+.shadow-dreamy-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 3px 7px -1px rgba(0, 0, 0, 0.05), 0 2px 8px -1px rgba(0, 0, 0, 0.04), 0 1px 9px -1px rgba(0, 0, 0, 0.03);
+}
+
+.shadow-dreamy-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 16px -3px rgba(0, 0, 0, 0.05), 0 3px 17px -3px rgba(0, 0, 0, 0.03), 0 1px 18px -3px rgba(0, 0, 0, 0.01);
+}
+
+.shadow-dreamy-xl {
+  box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 26px -3px rgba(0, 0, 0, 0.04), 0 3px 27px -3px rgba(0, 0, 0, 0.02), 0 1px 28px -3px rgba(0, 0, 0, 0.01);
+}
+
+.shadow-dreamy-2xl {
+  box-shadow: 0 10px 35px -3px rgba(0, 0, 0, 0.08), 0 4px 36px -3px rgba(0, 0, 0, 0.07), 0 3px 37px -3px rgba(0, 0, 0, 0.06), 0 1px 38px -3px rgba(0, 0, 0, 0.05);
+}
+
 .opacity-0 {
   opacity: 0;
 }
@@ -33598,6 +33626,34 @@ img[theme="invert"] {
   box-shadow: none;
 }
 
+.focus\:shadow-dreamy-xs:focus {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(0, 0, 0, 0.03), 0 0 0 1px rgba(0, 0, 0, 0.02), 0 0 0 1px rgba(0, 0, 0, 0.01);
+}
+
+.focus\:shadow-dreamy-sm:focus {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 1px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 6px 0 rgba(0, 0, 0, 0.03), 0 1px 8px 0 rgba(0, 0, 0, 0.02);
+}
+
+.focus\:shadow-dreamy:focus {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 6px 0 rgba(0, 0, 0, 0.05), 0 1px 9px 0 rgba(0, 0, 0, 0.04), 0 1px 12px 0 rgba(0, 0, 0, 0.03);
+}
+
+.focus\:shadow-dreamy-md:focus {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 3px 7px -1px rgba(0, 0, 0, 0.05), 0 2px 8px -1px rgba(0, 0, 0, 0.04), 0 1px 9px -1px rgba(0, 0, 0, 0.03);
+}
+
+.focus\:shadow-dreamy-lg:focus {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 16px -3px rgba(0, 0, 0, 0.05), 0 3px 17px -3px rgba(0, 0, 0, 0.03), 0 1px 18px -3px rgba(0, 0, 0, 0.01);
+}
+
+.focus\:shadow-dreamy-xl:focus {
+  box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 26px -3px rgba(0, 0, 0, 0.04), 0 3px 27px -3px rgba(0, 0, 0, 0.02), 0 1px 28px -3px rgba(0, 0, 0, 0.01);
+}
+
+.focus\:shadow-dreamy-2xl:focus {
+  box-shadow: 0 10px 35px -3px rgba(0, 0, 0, 0.08), 0 4px 36px -3px rgba(0, 0, 0, 0.07), 0 3px 37px -3px rgba(0, 0, 0, 0.06), 0 1px 38px -3px rgba(0, 0, 0, 0.05);
+}
+
 .focus\:opacity-0:focus {
   opacity: 0;
 }
@@ -39949,6 +40005,34 @@ img[theme="invert"] {
 
 .hover\:shadow-none:hover {
   box-shadow: none;
+}
+
+.hover\:shadow-dreamy-xs:hover {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(0, 0, 0, 0.03), 0 0 0 1px rgba(0, 0, 0, 0.02), 0 0 0 1px rgba(0, 0, 0, 0.01);
+}
+
+.hover\:shadow-dreamy-sm:hover {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 1px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 6px 0 rgba(0, 0, 0, 0.03), 0 1px 8px 0 rgba(0, 0, 0, 0.02);
+}
+
+.hover\:shadow-dreamy:hover {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 6px 0 rgba(0, 0, 0, 0.05), 0 1px 9px 0 rgba(0, 0, 0, 0.04), 0 1px 12px 0 rgba(0, 0, 0, 0.03);
+}
+
+.hover\:shadow-dreamy-md:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 3px 7px -1px rgba(0, 0, 0, 0.05), 0 2px 8px -1px rgba(0, 0, 0, 0.04), 0 1px 9px -1px rgba(0, 0, 0, 0.03);
+}
+
+.hover\:shadow-dreamy-lg:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 16px -3px rgba(0, 0, 0, 0.05), 0 3px 17px -3px rgba(0, 0, 0, 0.03), 0 1px 18px -3px rgba(0, 0, 0, 0.01);
+}
+
+.hover\:shadow-dreamy-xl:hover {
+  box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 26px -3px rgba(0, 0, 0, 0.04), 0 3px 27px -3px rgba(0, 0, 0, 0.02), 0 1px 28px -3px rgba(0, 0, 0, 0.01);
+}
+
+.hover\:shadow-dreamy-2xl:hover {
+  box-shadow: 0 10px 35px -3px rgba(0, 0, 0, 0.08), 0 4px 36px -3px rgba(0, 0, 0, 0.07), 0 3px 37px -3px rgba(0, 0, 0, 0.06), 0 1px 38px -3px rgba(0, 0, 0, 0.05);
 }
 
 .hover\:opacity-0:hover {
