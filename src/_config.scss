@@ -1393,3 +1393,19 @@ $overscroll-y:
   (y-auto, auto),
   (y-contain, contain),
   (y-none, none);
+
+/* line height trimm */
+
+$line-height-trim:
+  (xs, 0.75, 4.5),
+  (sm, 0.875, 5.5),
+  (md, 1, 5.5),
+  (lg, 1.125, 6.5),
+  (xl, 1.25, 7.5),
+  (2xl, 1.5, 8.5),
+  (3xl, 1.875, 10.5),
+  (4xl, 2.25, 12.5),
+  (5xl, 3, 17.5),
+  (6xl, 4, 24.5),
+  (7xl, 5, 29.5),
+  (8xl, 6, 35.5);

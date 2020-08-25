@@ -182,6 +182,7 @@
 @include fontWeight($class: $default)
 @include letterSpacing($class: $default)
 @include lineHeight($class: $default)
+@include lineHeightTrim($class: $default) // (v1.1.0)
 @include listStylePosition($class: $default)
 @include listStyleType($class: $default)
 @include placeholder() // static

@@ -1,0 +1,68 @@
+/**
+ * @utility: layouts
+ * @module: _lineHeightTrim.scss
+ * @desc: set an element to remove the extra spacing in every type makes style text predictable.
+ */
+
+$verticalTypeBase: 4;
+$baseFontSize: 16;
+
+@function typeOffset(
+  $lh,
+  $fontSize,
+  $descenderHeightScale
+  ) {
+    $lineHeightScale: $lh / $fontSize;
+    @return ($lineHeightScale - 1) / 2 + $descenderHeightScale;
+}
+
+@mixin trimmer(
+  $fontSizeModifier,
+  $rowSpanModifier,
+  $descenderHeightScale,
+  $capHeight
+  ) {
+  $fontSize: $fontSizeModifier * $baseFontSize;
+  $lineHeight: $rowSpanModifier * $verticalTypeBase;
+  $typeOffset: typeOffset($lineHeight, $fontSize, $descenderHeightScale);
+  $topSpace: $lineHeight - $capHeight * $fontSize;
+  $heightCorrection: 0;
+
+  @if $topSpace > $verticalTypeBase {
+    $heightCorrection: $topSpace - ($topSpace % $verticalTypeBase);
+  }
+
+  $preventCollapse: 1;
+
+  font-size: #{$fontSize}px;
+  line-height: #{$lineHeight}px;
+  transform: translateY(#{$typeOffset}em);
+  padding-top: #{$preventCollapse}px;
+  &::before {
+    content: "";
+    margin-top: #{-($heightCorrection + $preventCollapse)}px;
+    display: block;
+    height: 0
+  }
+}
+
+@mixin trim(
+  $fontSizeModifier,
+  $rowSpanModifier
+  ) {
+  $fontDescenderHeightScale: 0.11;
+  $fontCapHeight: 0.75;
+  @include trimmer($fontSizeModifier, $rowSpanModifier, $fontDescenderHeightScale, $fontCapHeight);
+}
+
+@mixin lineHeightTrim(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ){
+  @each $modifier, $typeSize, $value in $line-height-trim {
+    #{$prefix}#{$class}#{$id}depth-trim-#{$modifier}#{$pseudo} {
+      @include trim($typeSize, $value)
+    }
+  }
+}

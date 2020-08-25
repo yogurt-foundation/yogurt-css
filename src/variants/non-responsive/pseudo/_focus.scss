@@ -157,6 +157,7 @@
 @include fontWeight($prefix: $variant-focus, $pseudo: $focus)
 // @include letterSpacing($prefix: $variant-focus, $pseudo: $focus)
 // @include lineHeight($prefix: $variant-focus, $pseudo: $focus)
+// @include lineHeightTrim($prefix: $variant-focus, $pseudo: $focus) // (v1.1.0)
 // @include listStylePosition($prefix: $variant-focus, $pseudo: $focus)
 // @include listStyleType($prefix: $variant-focus, $pseudo: $focus)
 // @include textAlign($prefix: $variant-focus, $pseudo: $focus)

@@ -162,6 +162,7 @@
 @include fontWeight($prefix: $variant-hover, $pseudo: $hover)
 // @include letterSpacing($prefix: $variant-hover, $pseudo: $hover)
 // @include lineHeight($prefix: $variant-hover, $pseudo: $hover)
+// @include lineHeightTrim($prefix: $variant-hover, $pseudo: $hover) // (v1.1.0)
 // @include listStylePosition($prefix: $variant-hover, $pseudo: $hover)
 // @include listStyleType($prefix: $variant-hover, $pseudo: $hover)
 @include placeholder() // static
