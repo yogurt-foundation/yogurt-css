@@ -27870,7 +27870,8 @@ img[theme="invert"] {
 }
 
 .depth-trim-xs {
-  font-size: 12px;
+  /*font-size: 12px;*/
+  font-size: inherit;
   line-height: 18px;
   transform: translateY(0.36em);
   padding-top: 1px;
@@ -27884,7 +27885,8 @@ img[theme="invert"] {
 }
 
 .depth-trim-sm {
-  font-size: 14px;
+  /*font-size: 14px;*/
+  font-size: inherit;
   line-height: 22px;
   transform: translateY(0.39571em);
   padding-top: 1px;
@@ -27898,7 +27900,8 @@ img[theme="invert"] {
 }
 
 .depth-trim-md {
-  font-size: 16px;
+  /*font-size: 16px;*/
+  font-size: inherit;
   line-height: 22px;
   transform: translateY(0.2975em);
   padding-top: 1px;
@@ -27912,7 +27915,8 @@ img[theme="invert"] {
 }
 
 .depth-trim-lg {
-  font-size: 18px;
+  /*font-size: 18px;*/
+  font-size: inherit;
   line-height: 26px;
   transform: translateY(0.33222em);
   padding-top: 1px;
@@ -27926,7 +27930,8 @@ img[theme="invert"] {
 }
 
 .depth-trim-xl {
-  font-size: 20px;
+  /*font-size: 20px;*/
+  font-size: inherit;
   line-height: 30px;
   transform: translateY(0.36em);
   padding-top: 1px;
@@ -27940,7 +27945,8 @@ img[theme="invert"] {
 }
 
 .depth-trim-2xl {
-  font-size: 24px;
+  /*font-size: 24px;*/
+  font-size: inherit;
   line-height: 34px;
   transform: translateY(0.31833em);
   padding-top: 1px;
@@ -27954,7 +27960,8 @@ img[theme="invert"] {
 }
 
 .depth-trim-3xl {
-  font-size: 30px;
+  /*font-size: 30px;*/
+  font-size: inherit;
   line-height: 42px;
   transform: translateY(0.31em);
   padding-top: 1px;
@@ -27968,7 +27975,8 @@ img[theme="invert"] {
 }
 
 .depth-trim-4xl {
-  font-size: 36px;
+  /*font-size: 36px;*/
+  font-size: inherit;
   line-height: 50px;
   transform: translateY(0.30444em);
   padding-top: 1px;
@@ -27982,7 +27990,8 @@ img[theme="invert"] {
 }
 
 .depth-trim-5xl {
-  font-size: 48px;
+  /*font-size: 48px;*/
+  font-size: inherit;
   line-height: 70px;
   transform: translateY(0.33917em);
   padding-top: 1px;
@@ -27996,7 +28005,8 @@ img[theme="invert"] {
 }
 
 .depth-trim-6xl {
-  font-size: 64px;
+  /*font-size: 64px;*/
+  font-size: inherit;
   line-height: 98px;
   transform: translateY(0.37562em);
   padding-top: 1px;
@@ -28010,7 +28020,8 @@ img[theme="invert"] {
 }
 
 .depth-trim-7xl {
-  font-size: 80px;
+  /*font-size: 80px;*/
+  font-size: inherit;
   line-height: 118px;
   transform: translateY(0.3475em);
   padding-top: 1px;
@@ -28024,7 +28035,8 @@ img[theme="invert"] {
 }
 
 .depth-trim-8xl {
-  font-size: 96px;
+  /*font-size: 96px;*/
+  font-size: inherit;
   line-height: 142px;
   transform: translateY(0.34958em);
   padding-top: 1px;
@@ -47477,7 +47489,8 @@ img[theme="invert"] {
     line-height: 2.5rem;
   }
   .xs\:depth-trim-xs {
-    font-size: 12px;
+    /*font-size: 12px;*/
+    font-size: inherit;
     line-height: 18px;
     transform: translateY(0.36em);
     padding-top: 1px;
@@ -47489,7 +47502,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xs\:depth-trim-sm {
-    font-size: 14px;
+    /*font-size: 14px;*/
+    font-size: inherit;
     line-height: 22px;
     transform: translateY(0.39571em);
     padding-top: 1px;
@@ -47501,7 +47515,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xs\:depth-trim-md {
-    font-size: 16px;
+    /*font-size: 16px;*/
+    font-size: inherit;
     line-height: 22px;
     transform: translateY(0.2975em);
     padding-top: 1px;
@@ -47513,7 +47528,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xs\:depth-trim-lg {
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: inherit;
     line-height: 26px;
     transform: translateY(0.33222em);
     padding-top: 1px;
@@ -47525,7 +47541,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xs\:depth-trim-xl {
-    font-size: 20px;
+    /*font-size: 20px;*/
+    font-size: inherit;
     line-height: 30px;
     transform: translateY(0.36em);
     padding-top: 1px;
@@ -47537,7 +47554,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xs\:depth-trim-2xl {
-    font-size: 24px;
+    /*font-size: 24px;*/
+    font-size: inherit;
     line-height: 34px;
     transform: translateY(0.31833em);
     padding-top: 1px;
@@ -47549,7 +47567,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xs\:depth-trim-3xl {
-    font-size: 30px;
+    /*font-size: 30px;*/
+    font-size: inherit;
     line-height: 42px;
     transform: translateY(0.31em);
     padding-top: 1px;
@@ -47561,7 +47580,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xs\:depth-trim-4xl {
-    font-size: 36px;
+    /*font-size: 36px;*/
+    font-size: inherit;
     line-height: 50px;
     transform: translateY(0.30444em);
     padding-top: 1px;
@@ -47573,7 +47593,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xs\:depth-trim-5xl {
-    font-size: 48px;
+    /*font-size: 48px;*/
+    font-size: inherit;
     line-height: 70px;
     transform: translateY(0.33917em);
     padding-top: 1px;
@@ -47585,7 +47606,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xs\:depth-trim-6xl {
-    font-size: 64px;
+    /*font-size: 64px;*/
+    font-size: inherit;
     line-height: 98px;
     transform: translateY(0.37562em);
     padding-top: 1px;
@@ -47597,7 +47619,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xs\:depth-trim-7xl {
-    font-size: 80px;
+    /*font-size: 80px;*/
+    font-size: inherit;
     line-height: 118px;
     transform: translateY(0.3475em);
     padding-top: 1px;
@@ -47609,7 +47632,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xs\:depth-trim-8xl {
-    font-size: 96px;
+    /*font-size: 96px;*/
+    font-size: inherit;
     line-height: 142px;
     transform: translateY(0.34958em);
     padding-top: 1px;
@@ -50599,7 +50623,8 @@ img[theme="invert"] {
     line-height: 2.5rem;
   }
   .sm\:depth-trim-xs {
-    font-size: 12px;
+    /*font-size: 12px;*/
+    font-size: inherit;
     line-height: 18px;
     transform: translateY(0.36em);
     padding-top: 1px;
@@ -50611,7 +50636,8 @@ img[theme="invert"] {
     height: 0;
   }
   .sm\:depth-trim-sm {
-    font-size: 14px;
+    /*font-size: 14px;*/
+    font-size: inherit;
     line-height: 22px;
     transform: translateY(0.39571em);
     padding-top: 1px;
@@ -50623,7 +50649,8 @@ img[theme="invert"] {
     height: 0;
   }
   .sm\:depth-trim-md {
-    font-size: 16px;
+    /*font-size: 16px;*/
+    font-size: inherit;
     line-height: 22px;
     transform: translateY(0.2975em);
     padding-top: 1px;
@@ -50635,7 +50662,8 @@ img[theme="invert"] {
     height: 0;
   }
   .sm\:depth-trim-lg {
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: inherit;
     line-height: 26px;
     transform: translateY(0.33222em);
     padding-top: 1px;
@@ -50647,7 +50675,8 @@ img[theme="invert"] {
     height: 0;
   }
   .sm\:depth-trim-xl {
-    font-size: 20px;
+    /*font-size: 20px;*/
+    font-size: inherit;
     line-height: 30px;
     transform: translateY(0.36em);
     padding-top: 1px;
@@ -50659,7 +50688,8 @@ img[theme="invert"] {
     height: 0;
   }
   .sm\:depth-trim-2xl {
-    font-size: 24px;
+    /*font-size: 24px;*/
+    font-size: inherit;
     line-height: 34px;
     transform: translateY(0.31833em);
     padding-top: 1px;
@@ -50671,7 +50701,8 @@ img[theme="invert"] {
     height: 0;
   }
   .sm\:depth-trim-3xl {
-    font-size: 30px;
+    /*font-size: 30px;*/
+    font-size: inherit;
     line-height: 42px;
     transform: translateY(0.31em);
     padding-top: 1px;
@@ -50683,7 +50714,8 @@ img[theme="invert"] {
     height: 0;
   }
   .sm\:depth-trim-4xl {
-    font-size: 36px;
+    /*font-size: 36px;*/
+    font-size: inherit;
     line-height: 50px;
     transform: translateY(0.30444em);
     padding-top: 1px;
@@ -50695,7 +50727,8 @@ img[theme="invert"] {
     height: 0;
   }
   .sm\:depth-trim-5xl {
-    font-size: 48px;
+    /*font-size: 48px;*/
+    font-size: inherit;
     line-height: 70px;
     transform: translateY(0.33917em);
     padding-top: 1px;
@@ -50707,7 +50740,8 @@ img[theme="invert"] {
     height: 0;
   }
   .sm\:depth-trim-6xl {
-    font-size: 64px;
+    /*font-size: 64px;*/
+    font-size: inherit;
     line-height: 98px;
     transform: translateY(0.37562em);
     padding-top: 1px;
@@ -50719,7 +50753,8 @@ img[theme="invert"] {
     height: 0;
   }
   .sm\:depth-trim-7xl {
-    font-size: 80px;
+    /*font-size: 80px;*/
+    font-size: inherit;
     line-height: 118px;
     transform: translateY(0.3475em);
     padding-top: 1px;
@@ -50731,7 +50766,8 @@ img[theme="invert"] {
     height: 0;
   }
   .sm\:depth-trim-8xl {
-    font-size: 96px;
+    /*font-size: 96px;*/
+    font-size: inherit;
     line-height: 142px;
     transform: translateY(0.34958em);
     padding-top: 1px;
@@ -53721,7 +53757,8 @@ img[theme="invert"] {
     line-height: 2.5rem;
   }
   .md\:depth-trim-xs {
-    font-size: 12px;
+    /*font-size: 12px;*/
+    font-size: inherit;
     line-height: 18px;
     transform: translateY(0.36em);
     padding-top: 1px;
@@ -53733,7 +53770,8 @@ img[theme="invert"] {
     height: 0;
   }
   .md\:depth-trim-sm {
-    font-size: 14px;
+    /*font-size: 14px;*/
+    font-size: inherit;
     line-height: 22px;
     transform: translateY(0.39571em);
     padding-top: 1px;
@@ -53745,7 +53783,8 @@ img[theme="invert"] {
     height: 0;
   }
   .md\:depth-trim-md {
-    font-size: 16px;
+    /*font-size: 16px;*/
+    font-size: inherit;
     line-height: 22px;
     transform: translateY(0.2975em);
     padding-top: 1px;
@@ -53757,7 +53796,8 @@ img[theme="invert"] {
     height: 0;
   }
   .md\:depth-trim-lg {
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: inherit;
     line-height: 26px;
     transform: translateY(0.33222em);
     padding-top: 1px;
@@ -53769,7 +53809,8 @@ img[theme="invert"] {
     height: 0;
   }
   .md\:depth-trim-xl {
-    font-size: 20px;
+    /*font-size: 20px;*/
+    font-size: inherit;
     line-height: 30px;
     transform: translateY(0.36em);
     padding-top: 1px;
@@ -53781,7 +53822,8 @@ img[theme="invert"] {
     height: 0;
   }
   .md\:depth-trim-2xl {
-    font-size: 24px;
+    /*font-size: 24px;*/
+    font-size: inherit;
     line-height: 34px;
     transform: translateY(0.31833em);
     padding-top: 1px;
@@ -53793,7 +53835,8 @@ img[theme="invert"] {
     height: 0;
   }
   .md\:depth-trim-3xl {
-    font-size: 30px;
+    /*font-size: 30px;*/
+    font-size: inherit;
     line-height: 42px;
     transform: translateY(0.31em);
     padding-top: 1px;
@@ -53805,7 +53848,8 @@ img[theme="invert"] {
     height: 0;
   }
   .md\:depth-trim-4xl {
-    font-size: 36px;
+    /*font-size: 36px;*/
+    font-size: inherit;
     line-height: 50px;
     transform: translateY(0.30444em);
     padding-top: 1px;
@@ -53817,7 +53861,8 @@ img[theme="invert"] {
     height: 0;
   }
   .md\:depth-trim-5xl {
-    font-size: 48px;
+    /*font-size: 48px;*/
+    font-size: inherit;
     line-height: 70px;
     transform: translateY(0.33917em);
     padding-top: 1px;
@@ -53829,7 +53874,8 @@ img[theme="invert"] {
     height: 0;
   }
   .md\:depth-trim-6xl {
-    font-size: 64px;
+    /*font-size: 64px;*/
+    font-size: inherit;
     line-height: 98px;
     transform: translateY(0.37562em);
     padding-top: 1px;
@@ -53841,7 +53887,8 @@ img[theme="invert"] {
     height: 0;
   }
   .md\:depth-trim-7xl {
-    font-size: 80px;
+    /*font-size: 80px;*/
+    font-size: inherit;
     line-height: 118px;
     transform: translateY(0.3475em);
     padding-top: 1px;
@@ -53853,7 +53900,8 @@ img[theme="invert"] {
     height: 0;
   }
   .md\:depth-trim-8xl {
-    font-size: 96px;
+    /*font-size: 96px;*/
+    font-size: inherit;
     line-height: 142px;
     transform: translateY(0.34958em);
     padding-top: 1px;
@@ -56843,7 +56891,8 @@ img[theme="invert"] {
     line-height: 2.5rem;
   }
   .lg\:depth-trim-xs {
-    font-size: 12px;
+    /*font-size: 12px;*/
+    font-size: inherit;
     line-height: 18px;
     transform: translateY(0.36em);
     padding-top: 1px;
@@ -56855,7 +56904,8 @@ img[theme="invert"] {
     height: 0;
   }
   .lg\:depth-trim-sm {
-    font-size: 14px;
+    /*font-size: 14px;*/
+    font-size: inherit;
     line-height: 22px;
     transform: translateY(0.39571em);
     padding-top: 1px;
@@ -56867,7 +56917,8 @@ img[theme="invert"] {
     height: 0;
   }
   .lg\:depth-trim-md {
-    font-size: 16px;
+    /*font-size: 16px;*/
+    font-size: inherit;
     line-height: 22px;
     transform: translateY(0.2975em);
     padding-top: 1px;
@@ -56879,7 +56930,8 @@ img[theme="invert"] {
     height: 0;
   }
   .lg\:depth-trim-lg {
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: inherit;
     line-height: 26px;
     transform: translateY(0.33222em);
     padding-top: 1px;
@@ -56891,7 +56943,8 @@ img[theme="invert"] {
     height: 0;
   }
   .lg\:depth-trim-xl {
-    font-size: 20px;
+    /*font-size: 20px;*/
+    font-size: inherit;
     line-height: 30px;
     transform: translateY(0.36em);
     padding-top: 1px;
@@ -56903,7 +56956,8 @@ img[theme="invert"] {
     height: 0;
   }
   .lg\:depth-trim-2xl {
-    font-size: 24px;
+    /*font-size: 24px;*/
+    font-size: inherit;
     line-height: 34px;
     transform: translateY(0.31833em);
     padding-top: 1px;
@@ -56915,7 +56969,8 @@ img[theme="invert"] {
     height: 0;
   }
   .lg\:depth-trim-3xl {
-    font-size: 30px;
+    /*font-size: 30px;*/
+    font-size: inherit;
     line-height: 42px;
     transform: translateY(0.31em);
     padding-top: 1px;
@@ -56927,7 +56982,8 @@ img[theme="invert"] {
     height: 0;
   }
   .lg\:depth-trim-4xl {
-    font-size: 36px;
+    /*font-size: 36px;*/
+    font-size: inherit;
     line-height: 50px;
     transform: translateY(0.30444em);
     padding-top: 1px;
@@ -56939,7 +56995,8 @@ img[theme="invert"] {
     height: 0;
   }
   .lg\:depth-trim-5xl {
-    font-size: 48px;
+    /*font-size: 48px;*/
+    font-size: inherit;
     line-height: 70px;
     transform: translateY(0.33917em);
     padding-top: 1px;
@@ -56951,7 +57008,8 @@ img[theme="invert"] {
     height: 0;
   }
   .lg\:depth-trim-6xl {
-    font-size: 64px;
+    /*font-size: 64px;*/
+    font-size: inherit;
     line-height: 98px;
     transform: translateY(0.37562em);
     padding-top: 1px;
@@ -56963,7 +57021,8 @@ img[theme="invert"] {
     height: 0;
   }
   .lg\:depth-trim-7xl {
-    font-size: 80px;
+    /*font-size: 80px;*/
+    font-size: inherit;
     line-height: 118px;
     transform: translateY(0.3475em);
     padding-top: 1px;
@@ -56975,7 +57034,8 @@ img[theme="invert"] {
     height: 0;
   }
   .lg\:depth-trim-8xl {
-    font-size: 96px;
+    /*font-size: 96px;*/
+    font-size: inherit;
     line-height: 142px;
     transform: translateY(0.34958em);
     padding-top: 1px;
@@ -59965,7 +60025,8 @@ img[theme="invert"] {
     line-height: 2.5rem;
   }
   .xl\:depth-trim-xs {
-    font-size: 12px;
+    /*font-size: 12px;*/
+    font-size: inherit;
     line-height: 18px;
     transform: translateY(0.36em);
     padding-top: 1px;
@@ -59977,7 +60038,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xl\:depth-trim-sm {
-    font-size: 14px;
+    /*font-size: 14px;*/
+    font-size: inherit;
     line-height: 22px;
     transform: translateY(0.39571em);
     padding-top: 1px;
@@ -59989,7 +60051,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xl\:depth-trim-md {
-    font-size: 16px;
+    /*font-size: 16px;*/
+    font-size: inherit;
     line-height: 22px;
     transform: translateY(0.2975em);
     padding-top: 1px;
@@ -60001,7 +60064,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xl\:depth-trim-lg {
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: inherit;
     line-height: 26px;
     transform: translateY(0.33222em);
     padding-top: 1px;
@@ -60013,7 +60077,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xl\:depth-trim-xl {
-    font-size: 20px;
+    /*font-size: 20px;*/
+    font-size: inherit;
     line-height: 30px;
     transform: translateY(0.36em);
     padding-top: 1px;
@@ -60025,7 +60090,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xl\:depth-trim-2xl {
-    font-size: 24px;
+    /*font-size: 24px;*/
+    font-size: inherit;
     line-height: 34px;
     transform: translateY(0.31833em);
     padding-top: 1px;
@@ -60037,7 +60103,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xl\:depth-trim-3xl {
-    font-size: 30px;
+    /*font-size: 30px;*/
+    font-size: inherit;
     line-height: 42px;
     transform: translateY(0.31em);
     padding-top: 1px;
@@ -60049,7 +60116,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xl\:depth-trim-4xl {
-    font-size: 36px;
+    /*font-size: 36px;*/
+    font-size: inherit;
     line-height: 50px;
     transform: translateY(0.30444em);
     padding-top: 1px;
@@ -60061,7 +60129,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xl\:depth-trim-5xl {
-    font-size: 48px;
+    /*font-size: 48px;*/
+    font-size: inherit;
     line-height: 70px;
     transform: translateY(0.33917em);
     padding-top: 1px;
@@ -60073,7 +60142,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xl\:depth-trim-6xl {
-    font-size: 64px;
+    /*font-size: 64px;*/
+    font-size: inherit;
     line-height: 98px;
     transform: translateY(0.37562em);
     padding-top: 1px;
@@ -60085,7 +60155,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xl\:depth-trim-7xl {
-    font-size: 80px;
+    /*font-size: 80px;*/
+    font-size: inherit;
     line-height: 118px;
     transform: translateY(0.3475em);
     padding-top: 1px;
@@ -60097,7 +60168,8 @@ img[theme="invert"] {
     height: 0;
   }
   .xl\:depth-trim-8xl {
-    font-size: 96px;
+    /*font-size: 96px;*/
+    font-size: inherit;
     line-height: 142px;
     transform: translateY(0.34958em);
     padding-top: 1px;
@@ -63087,7 +63159,8 @@ img[theme="invert"] {
     line-height: 2.5rem;
   }
   .\32k\:depth-trim-xs {
-    font-size: 12px;
+    /*font-size: 12px;*/
+    font-size: inherit;
     line-height: 18px;
     transform: translateY(0.36em);
     padding-top: 1px;
@@ -63099,7 +63172,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\32k\:depth-trim-sm {
-    font-size: 14px;
+    /*font-size: 14px;*/
+    font-size: inherit;
     line-height: 22px;
     transform: translateY(0.39571em);
     padding-top: 1px;
@@ -63111,7 +63185,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\32k\:depth-trim-md {
-    font-size: 16px;
+    /*font-size: 16px;*/
+    font-size: inherit;
     line-height: 22px;
     transform: translateY(0.2975em);
     padding-top: 1px;
@@ -63123,7 +63198,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\32k\:depth-trim-lg {
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: inherit;
     line-height: 26px;
     transform: translateY(0.33222em);
     padding-top: 1px;
@@ -63135,7 +63211,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\32k\:depth-trim-xl {
-    font-size: 20px;
+    /*font-size: 20px;*/
+    font-size: inherit;
     line-height: 30px;
     transform: translateY(0.36em);
     padding-top: 1px;
@@ -63147,7 +63224,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\32k\:depth-trim-2xl {
-    font-size: 24px;
+    /*font-size: 24px;*/
+    font-size: inherit;
     line-height: 34px;
     transform: translateY(0.31833em);
     padding-top: 1px;
@@ -63159,7 +63237,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\32k\:depth-trim-3xl {
-    font-size: 30px;
+    /*font-size: 30px;*/
+    font-size: inherit;
     line-height: 42px;
     transform: translateY(0.31em);
     padding-top: 1px;
@@ -63171,7 +63250,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\32k\:depth-trim-4xl {
-    font-size: 36px;
+    /*font-size: 36px;*/
+    font-size: inherit;
     line-height: 50px;
     transform: translateY(0.30444em);
     padding-top: 1px;
@@ -63183,7 +63263,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\32k\:depth-trim-5xl {
-    font-size: 48px;
+    /*font-size: 48px;*/
+    font-size: inherit;
     line-height: 70px;
     transform: translateY(0.33917em);
     padding-top: 1px;
@@ -63195,7 +63276,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\32k\:depth-trim-6xl {
-    font-size: 64px;
+    /*font-size: 64px;*/
+    font-size: inherit;
     line-height: 98px;
     transform: translateY(0.37562em);
     padding-top: 1px;
@@ -63207,7 +63289,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\32k\:depth-trim-7xl {
-    font-size: 80px;
+    /*font-size: 80px;*/
+    font-size: inherit;
     line-height: 118px;
     transform: translateY(0.3475em);
     padding-top: 1px;
@@ -63219,7 +63302,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\32k\:depth-trim-8xl {
-    font-size: 96px;
+    /*font-size: 96px;*/
+    font-size: inherit;
     line-height: 142px;
     transform: translateY(0.34958em);
     padding-top: 1px;
@@ -66209,7 +66293,8 @@ img[theme="invert"] {
     line-height: 2.5rem;
   }
   .\34k\:depth-trim-xs {
-    font-size: 12px;
+    /*font-size: 12px;*/
+    font-size: inherit;
     line-height: 18px;
     transform: translateY(0.36em);
     padding-top: 1px;
@@ -66221,7 +66306,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\34k\:depth-trim-sm {
-    font-size: 14px;
+    /*font-size: 14px;*/
+    font-size: inherit;
     line-height: 22px;
     transform: translateY(0.39571em);
     padding-top: 1px;
@@ -66233,7 +66319,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\34k\:depth-trim-md {
-    font-size: 16px;
+    /*font-size: 16px;*/
+    font-size: inherit;
     line-height: 22px;
     transform: translateY(0.2975em);
     padding-top: 1px;
@@ -66245,7 +66332,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\34k\:depth-trim-lg {
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: inherit;
     line-height: 26px;
     transform: translateY(0.33222em);
     padding-top: 1px;
@@ -66257,7 +66345,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\34k\:depth-trim-xl {
-    font-size: 20px;
+    /*font-size: 20px;*/
+    font-size: inherit;
     line-height: 30px;
     transform: translateY(0.36em);
     padding-top: 1px;
@@ -66269,7 +66358,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\34k\:depth-trim-2xl {
-    font-size: 24px;
+    /*font-size: 24px;*/
+    font-size: inherit;
     line-height: 34px;
     transform: translateY(0.31833em);
     padding-top: 1px;
@@ -66281,7 +66371,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\34k\:depth-trim-3xl {
-    font-size: 30px;
+    /*font-size: 30px;*/
+    font-size: inherit;
     line-height: 42px;
     transform: translateY(0.31em);
     padding-top: 1px;
@@ -66293,7 +66384,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\34k\:depth-trim-4xl {
-    font-size: 36px;
+    /*font-size: 36px;*/
+    font-size: inherit;
     line-height: 50px;
     transform: translateY(0.30444em);
     padding-top: 1px;
@@ -66305,7 +66397,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\34k\:depth-trim-5xl {
-    font-size: 48px;
+    /*font-size: 48px;*/
+    font-size: inherit;
     line-height: 70px;
     transform: translateY(0.33917em);
     padding-top: 1px;
@@ -66317,7 +66410,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\34k\:depth-trim-6xl {
-    font-size: 64px;
+    /*font-size: 64px;*/
+    font-size: inherit;
     line-height: 98px;
     transform: translateY(0.37562em);
     padding-top: 1px;
@@ -66329,7 +66423,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\34k\:depth-trim-7xl {
-    font-size: 80px;
+    /*font-size: 80px;*/
+    font-size: inherit;
     line-height: 118px;
     transform: translateY(0.3475em);
     padding-top: 1px;
@@ -66341,7 +66436,8 @@ img[theme="invert"] {
     height: 0;
   }
   .\34k\:depth-trim-8xl {
-    font-size: 96px;
+    /*font-size: 96px;*/
+    font-size: inherit;
     line-height: 142px;
     transform: translateY(0.34958em);
     padding-top: 1px;
