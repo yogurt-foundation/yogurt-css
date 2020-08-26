@@ -16,7 +16,7 @@
       $class: $class,
       $selector: "overscroll-",
       $modifier: $modifier,
-      $property1: "overscroll-behaviour",
+      $property1: "overscroll-behavior",
       $value1: $value#{$override}
     )
   }
@@ -27,7 +27,7 @@
       $class: $class,
       $selector: "overscroll-",
       $modifier: $modifier,
-      $property1: "overscroll-behaviour-x",
+      $property1: "overscroll-behavior-x",
       $value1: $value#{$override}
     )
   }
@@ -38,7 +38,7 @@
       $class: $class,
       $selector: "overscroll-",
       $modifier: $modifier,
-      $property1: "overscroll-behaviour-y",
+      $property1: "overscroll-behavior-y",
       $value1: $value#{$override}
     )
   }
