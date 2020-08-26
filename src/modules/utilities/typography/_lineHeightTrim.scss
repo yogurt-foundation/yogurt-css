@@ -8,8 +8,8 @@ $verticalTypeBase: 4;
 $baseFontSize: 16;
 
 @function typeOffset(
-  $lh,
-  $fontSize,
+  $lh, 
+  $fontSize, 
   $descenderHeightScale
   ) {
     $lineHeightScale: $lh / $fontSize;
@@ -17,9 +17,9 @@ $baseFontSize: 16;
 }
 
 @mixin trimmer(
-  $fontSizeModifier,
-  $rowSpanModifier,
-  $descenderHeightScale,
+  $fontSizeModifier, 
+  $rowSpanModifier, 
+  $descenderHeightScale, 
   $capHeight
   ) {
   $fontSize: $fontSizeModifier * $baseFontSize;
@@ -27,14 +27,15 @@ $baseFontSize: 16;
   $typeOffset: typeOffset($lineHeight, $fontSize, $descenderHeightScale);
   $topSpace: $lineHeight - $capHeight * $fontSize;
   $heightCorrection: 0;
-
+  
   @if $topSpace > $verticalTypeBase {
     $heightCorrection: $topSpace - ($topSpace % $verticalTypeBase);
   }
-
+  
   $preventCollapse: 1;
-
-  font-size: #{$fontSize}px;
+  
+  /*font-size: #{$fontSize}px;*/
+  font-size: inherit;
   line-height: #{$lineHeight}px;
   transform: translateY(#{$typeOffset}em);
   padding-top: #{$preventCollapse}px;
@@ -47,7 +48,7 @@ $baseFontSize: 16;
 }
 
 @mixin trim(
-  $fontSizeModifier,
+  $fontSizeModifier, 
   $rowSpanModifier
   ) {
   $fontDescenderHeightScale: 0.11;
@@ -58,7 +59,7 @@ $baseFontSize: 16;
 @mixin lineHeightTrim(
   $prefix: null,
   $pseudo: null,
-  $class: null
+  $class: null 
   ){
   @each $modifier, $typeSize, $value in $line-height-trim {
     #{$prefix}#{$class}#{$id}depth-trim-#{$modifier}#{$pseudo} {
