@@ -23236,39 +23236,39 @@ y {
 }
 
 .overscroll-auto {
-  overscroll-behaviour: auto;
+  overscroll-behavior: auto;
 }
 
 .overscroll-contain {
-  overscroll-behaviour: contain;
+  overscroll-behavior: contain;
 }
 
 .overscroll-none {
-  overscroll-behaviour: none;
+  overscroll-behavior: none;
 }
 
 .overscroll-x-auto {
-  overscroll-behaviour-x: auto;
+  overscroll-behavior-x: auto;
 }
 
 .overscroll-x-contain {
-  overscroll-behaviour-x: contain;
+  overscroll-behavior-x: contain;
 }
 
 .overscroll-x-none {
-  overscroll-behaviour-x: none;
+  overscroll-behavior-x: none;
 }
 
 .overscroll-y-auto {
-  overscroll-behaviour-y: auto;
+  overscroll-behavior-y: auto;
 }
 
 .overscroll-y-contain {
-  overscroll-behaviour-y: contain;
+  overscroll-behavior-y: contain;
 }
 
 .overscroll-y-none {
-  overscroll-behaviour-y: none;
+  overscroll-behavior-y: none;
 }
 
 .static {
@@ -45530,31 +45530,31 @@ img[theme="invert"] {
     -webkit-overflow-scrolling: auto;
   }
   .xs\:overscroll-auto {
-    overscroll-behaviour: auto;
+    overscroll-behavior: auto;
   }
   .xs\:overscroll-contain {
-    overscroll-behaviour: contain;
+    overscroll-behavior: contain;
   }
   .xs\:overscroll-none {
-    overscroll-behaviour: none;
+    overscroll-behavior: none;
   }
   .xs\:overscroll-x-auto {
-    overscroll-behaviour-x: auto;
+    overscroll-behavior-x: auto;
   }
   .xs\:overscroll-x-contain {
-    overscroll-behaviour-x: contain;
+    overscroll-behavior-x: contain;
   }
   .xs\:overscroll-x-none {
-    overscroll-behaviour-x: none;
+    overscroll-behavior-x: none;
   }
   .xs\:overscroll-y-auto {
-    overscroll-behaviour-y: auto;
+    overscroll-behavior-y: auto;
   }
   .xs\:overscroll-y-contain {
-    overscroll-behaviour-y: contain;
+    overscroll-behavior-y: contain;
   }
   .xs\:overscroll-y-none {
-    overscroll-behaviour-y: none;
+    overscroll-behavior-y: none;
   }
   .xs\:static {
     position: static;
@@ -48652,31 +48652,31 @@ img[theme="invert"] {
     -webkit-overflow-scrolling: auto;
   }
   .sm\:overscroll-auto {
-    overscroll-behaviour: auto;
+    overscroll-behavior: auto;
   }
   .sm\:overscroll-contain {
-    overscroll-behaviour: contain;
+    overscroll-behavior: contain;
   }
   .sm\:overscroll-none {
-    overscroll-behaviour: none;
+    overscroll-behavior: none;
   }
   .sm\:overscroll-x-auto {
-    overscroll-behaviour-x: auto;
+    overscroll-behavior-x: auto;
   }
   .sm\:overscroll-x-contain {
-    overscroll-behaviour-x: contain;
+    overscroll-behavior-x: contain;
   }
   .sm\:overscroll-x-none {
-    overscroll-behaviour-x: none;
+    overscroll-behavior-x: none;
   }
   .sm\:overscroll-y-auto {
-    overscroll-behaviour-y: auto;
+    overscroll-behavior-y: auto;
   }
   .sm\:overscroll-y-contain {
-    overscroll-behaviour-y: contain;
+    overscroll-behavior-y: contain;
   }
   .sm\:overscroll-y-none {
-    overscroll-behaviour-y: none;
+    overscroll-behavior-y: none;
   }
   .sm\:static {
     position: static;
@@ -51774,31 +51774,31 @@ img[theme="invert"] {
     -webkit-overflow-scrolling: auto;
   }
   .md\:overscroll-auto {
-    overscroll-behaviour: auto;
+    overscroll-behavior: auto;
   }
   .md\:overscroll-contain {
-    overscroll-behaviour: contain;
+    overscroll-behavior: contain;
   }
   .md\:overscroll-none {
-    overscroll-behaviour: none;
+    overscroll-behavior: none;
   }
   .md\:overscroll-x-auto {
-    overscroll-behaviour-x: auto;
+    overscroll-behavior-x: auto;
   }
   .md\:overscroll-x-contain {
-    overscroll-behaviour-x: contain;
+    overscroll-behavior-x: contain;
   }
   .md\:overscroll-x-none {
-    overscroll-behaviour-x: none;
+    overscroll-behavior-x: none;
   }
   .md\:overscroll-y-auto {
-    overscroll-behaviour-y: auto;
+    overscroll-behavior-y: auto;
   }
   .md\:overscroll-y-contain {
-    overscroll-behaviour-y: contain;
+    overscroll-behavior-y: contain;
   }
   .md\:overscroll-y-none {
-    overscroll-behaviour-y: none;
+    overscroll-behavior-y: none;
   }
   .md\:static {
     position: static;
@@ -54896,31 +54896,31 @@ img[theme="invert"] {
     -webkit-overflow-scrolling: auto;
   }
   .lg\:overscroll-auto {
-    overscroll-behaviour: auto;
+    overscroll-behavior: auto;
   }
   .lg\:overscroll-contain {
-    overscroll-behaviour: contain;
+    overscroll-behavior: contain;
   }
   .lg\:overscroll-none {
-    overscroll-behaviour: none;
+    overscroll-behavior: none;
   }
   .lg\:overscroll-x-auto {
-    overscroll-behaviour-x: auto;
+    overscroll-behavior-x: auto;
   }
   .lg\:overscroll-x-contain {
-    overscroll-behaviour-x: contain;
+    overscroll-behavior-x: contain;
   }
   .lg\:overscroll-x-none {
-    overscroll-behaviour-x: none;
+    overscroll-behavior-x: none;
   }
   .lg\:overscroll-y-auto {
-    overscroll-behaviour-y: auto;
+    overscroll-behavior-y: auto;
   }
   .lg\:overscroll-y-contain {
-    overscroll-behaviour-y: contain;
+    overscroll-behavior-y: contain;
   }
   .lg\:overscroll-y-none {
-    overscroll-behaviour-y: none;
+    overscroll-behavior-y: none;
   }
   .lg\:static {
     position: static;
@@ -58018,31 +58018,31 @@ img[theme="invert"] {
     -webkit-overflow-scrolling: auto;
   }
   .xl\:overscroll-auto {
-    overscroll-behaviour: auto;
+    overscroll-behavior: auto;
   }
   .xl\:overscroll-contain {
-    overscroll-behaviour: contain;
+    overscroll-behavior: contain;
   }
   .xl\:overscroll-none {
-    overscroll-behaviour: none;
+    overscroll-behavior: none;
   }
   .xl\:overscroll-x-auto {
-    overscroll-behaviour-x: auto;
+    overscroll-behavior-x: auto;
   }
   .xl\:overscroll-x-contain {
-    overscroll-behaviour-x: contain;
+    overscroll-behavior-x: contain;
   }
   .xl\:overscroll-x-none {
-    overscroll-behaviour-x: none;
+    overscroll-behavior-x: none;
   }
   .xl\:overscroll-y-auto {
-    overscroll-behaviour-y: auto;
+    overscroll-behavior-y: auto;
   }
   .xl\:overscroll-y-contain {
-    overscroll-behaviour-y: contain;
+    overscroll-behavior-y: contain;
   }
   .xl\:overscroll-y-none {
-    overscroll-behaviour-y: none;
+    overscroll-behavior-y: none;
   }
   .xl\:static {
     position: static;
@@ -61140,31 +61140,31 @@ img[theme="invert"] {
     -webkit-overflow-scrolling: auto;
   }
   .\32k\:overscroll-auto {
-    overscroll-behaviour: auto;
+    overscroll-behavior: auto;
   }
   .\32k\:overscroll-contain {
-    overscroll-behaviour: contain;
+    overscroll-behavior: contain;
   }
   .\32k\:overscroll-none {
-    overscroll-behaviour: none;
+    overscroll-behavior: none;
   }
   .\32k\:overscroll-x-auto {
-    overscroll-behaviour-x: auto;
+    overscroll-behavior-x: auto;
   }
   .\32k\:overscroll-x-contain {
-    overscroll-behaviour-x: contain;
+    overscroll-behavior-x: contain;
   }
   .\32k\:overscroll-x-none {
-    overscroll-behaviour-x: none;
+    overscroll-behavior-x: none;
   }
   .\32k\:overscroll-y-auto {
-    overscroll-behaviour-y: auto;
+    overscroll-behavior-y: auto;
   }
   .\32k\:overscroll-y-contain {
-    overscroll-behaviour-y: contain;
+    overscroll-behavior-y: contain;
   }
   .\32k\:overscroll-y-none {
-    overscroll-behaviour-y: none;
+    overscroll-behavior-y: none;
   }
   .\32k\:static {
     position: static;
@@ -64262,31 +64262,31 @@ img[theme="invert"] {
     -webkit-overflow-scrolling: auto;
   }
   .\34k\:overscroll-auto {
-    overscroll-behaviour: auto;
+    overscroll-behavior: auto;
   }
   .\34k\:overscroll-contain {
-    overscroll-behaviour: contain;
+    overscroll-behavior: contain;
   }
   .\34k\:overscroll-none {
-    overscroll-behaviour: none;
+    overscroll-behavior: none;
   }
   .\34k\:overscroll-x-auto {
-    overscroll-behaviour-x: auto;
+    overscroll-behavior-x: auto;
   }
   .\34k\:overscroll-x-contain {
-    overscroll-behaviour-x: contain;
+    overscroll-behavior-x: contain;
   }
   .\34k\:overscroll-x-none {
-    overscroll-behaviour-x: none;
+    overscroll-behavior-x: none;
   }
   .\34k\:overscroll-y-auto {
-    overscroll-behaviour-y: auto;
+    overscroll-behavior-y: auto;
   }
   .\34k\:overscroll-y-contain {
-    overscroll-behaviour-y: contain;
+    overscroll-behavior-y: contain;
   }
   .\34k\:overscroll-y-none {
-    overscroll-behaviour-y: none;
+    overscroll-behavior-y: none;
   }
   .\34k\:static {
     position: static;
