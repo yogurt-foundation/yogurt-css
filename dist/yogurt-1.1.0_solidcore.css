@@ -837,7 +837,7 @@ y {
  */
 /**
  * @utility: debug
- * @module: _debugger.scss
+ * @module: _outline.scss
  * @desc: inspecting errors in spacing and overlapping elements
  */
 /**
@@ -6331,7 +6331,7 @@ y {
 }
 
 /* debug */
-[debug="true"] * {
+[debug="outline"] * {
   background: rgba(255, 0, 0, 0.1);
   box-shadow: 0 0 0 1px red;
   outline: 1px solid red;
