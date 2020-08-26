@@ -841,6 +841,11 @@ y {
  * @desc: inspecting errors in spacing and overlapping elements
  */
 /**
+ * @utility: debug
+ * @module: _screen.scss
+ * @desc: visualize responsive screen sizes
+ */
+/**
  * @utility: effects
  * @module: _boxShadow.scss
  * @desc: sets the box-shadow property attaches one or more shadows to an element
@@ -6335,6 +6340,104 @@ y {
   background: rgba(255, 0, 0, 0.1);
   box-shadow: 0 0 0 1px red;
   outline: 1px solid red;
+}
+
+@media (min-width: 320px) {
+  [debug="screen"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3px 8px;
+    color: white;
+    background-color: black;
+  }
+  [debug="screen"]::after {
+    content: "screen: xs";
+  }
+}
+
+@media (min-width: 640px) {
+  [debug="screen"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3px 8px;
+    color: white;
+    background-color: black;
+  }
+  [debug="screen"]::after {
+    content: "screen: sm";
+  }
+}
+
+@media (min-width: 768px) {
+  [debug="screen"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3px 8px;
+    color: white;
+    background-color: black;
+  }
+  [debug="screen"]::after {
+    content: "screen: md";
+  }
+}
+
+@media (min-width: 1024px) {
+  [debug="screen"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3px 8px;
+    color: white;
+    background-color: black;
+  }
+  [debug="screen"]::after {
+    content: "screen: lg";
+  }
+}
+
+@media (min-width: 1280px) {
+  [debug="screen"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3px 8px;
+    color: white;
+    background-color: black;
+  }
+  [debug="screen"]::after {
+    content: "screen: xl";
+  }
+}
+
+@media (min-width: 1920px) {
+  [debug="screen"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3px 8px;
+    color: white;
+    background-color: black;
+  }
+  [debug="screen"]::after {
+    content: "screen: \32k";
+  }
+}
+
+@media (min-width: 3840px) {
+  [debug="screen"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3px 8px;
+    color: white;
+    background-color: black;
+  }
+  [debug="screen"]::after {
+    content: "screen: \34k";
+  }
 }
 
 /* effects */
