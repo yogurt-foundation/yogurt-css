@@ -24,7 +24,9 @@
         $property5: "color",
         $value5: "white",
         $property6: "background-color",
-        $value6: "black"
+        $value6: "black",
+        $property7: "z-index",
+        $value7: "999999"
       )
       @include setRule(
         $selector: '[debug="screen"]::after',

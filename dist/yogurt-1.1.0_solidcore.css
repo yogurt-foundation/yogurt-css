@@ -6350,6 +6350,7 @@ y {
     padding: 3px 8px;
     color: white;
     background-color: black;
+    z-index: 999999;
   }
   [debug="screen"]::after {
     content: "screen: xs";
@@ -6364,6 +6365,7 @@ y {
     padding: 3px 8px;
     color: white;
     background-color: black;
+    z-index: 999999;
   }
   [debug="screen"]::after {
     content: "screen: sm";
@@ -6378,6 +6380,7 @@ y {
     padding: 3px 8px;
     color: white;
     background-color: black;
+    z-index: 999999;
   }
   [debug="screen"]::after {
     content: "screen: md";
@@ -6392,6 +6395,7 @@ y {
     padding: 3px 8px;
     color: white;
     background-color: black;
+    z-index: 999999;
   }
   [debug="screen"]::after {
     content: "screen: lg";
@@ -6406,6 +6410,7 @@ y {
     padding: 3px 8px;
     color: white;
     background-color: black;
+    z-index: 999999;
   }
   [debug="screen"]::after {
     content: "screen: xl";
@@ -6420,6 +6425,7 @@ y {
     padding: 3px 8px;
     color: white;
     background-color: black;
+    z-index: 999999;
   }
   [debug="screen"]::after {
     content: "screen: \32k";
@@ -6434,6 +6440,7 @@ y {
     padding: 3px 8px;
     color: white;
     background-color: black;
+    z-index: 999999;
   }
   [debug="screen"]::after {
     content: "screen: \34k";
