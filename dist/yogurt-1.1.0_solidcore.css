@@ -23437,6 +23437,10 @@ y {
   z-index: 50;
 }
 
+.render-auto {
+  content-visibility: auto;
+}
+
 .render-auto-widest {
   content-visibility: auto;
   contain-intrinsic-size: 1000px;
