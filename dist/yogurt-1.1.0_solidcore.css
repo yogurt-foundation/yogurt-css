@@ -895,8 +895,13 @@ y {
  */
 /**
  * @utility: filters
+ * @module: _filterBackdropCompose.scss
+ * @desc: sets mixed backdrop filters (brightness, contrast, saturate) to an element
+ */
+/**
+ * @utility: filters
  * @module: _filterCompose.scss
- * @desc: sets mixed filters (brightness, contrast, saturate) in order to an element
+ * @desc: sets mixed filters (brightness, contrast, saturate) to an element
  */
 /**
  * @utility: filters
