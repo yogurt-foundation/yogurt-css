@@ -50,6 +50,7 @@ gulp.task('sass-raw', () => {
     .pipe(sassGlob())
     .pipe(sass({ outputStyle: 'expanded' })
       .on('error', sass.logError))
+    .pipe(postCss([autoPrefixer()]))
     .pipe(rename(regularOutput))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(distCssPath))
