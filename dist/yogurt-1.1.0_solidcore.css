@@ -10161,6 +10161,191 @@ y {
   --drop-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
+.backdrop-filter {
+  --backdrop-brightness: 1;
+  --backdrop-contrast: 1;
+  --backdrop-saturate: 1;
+  --backdrop-blur: 0px;
+  -webkit-backdrop-filter: brightness(var(--backdrop-brightness)) contrast(var(--backdrop-contrast)) saturate(var(--backdrop-saturate)) blur(var(--backdrop-blur));
+          backdrop-filter: brightness(var(--backdrop-brightness)) contrast(var(--backdrop-contrast)) saturate(var(--backdrop-saturate)) blur(var(--backdrop-blur));
+}
+
+.backdrop-filter.brightness-0 {
+  --backdrop-brightness: 0;
+}
+
+.backdrop-filter.brightness-1 {
+  --backdrop-brightness: 1;
+}
+
+.backdrop-filter.brightness-2 {
+  --backdrop-brightness: 2;
+}
+
+.backdrop-filter.brightness-3 {
+  --backdrop-brightness: 3;
+}
+
+.backdrop-filter.brightness-4 {
+  --backdrop-brightness: 4;
+}
+
+.backdrop-filter.brightness-5 {
+  --backdrop-brightness: 1.24;
+}
+
+.backdrop-filter.brightness-6 {
+  --backdrop-brightness: 1.3;
+}
+
+.backdrop-filter.brightness-7 {
+  --backdrop-brightness: 1.36;
+}
+
+.backdrop-filter.brightness-8 {
+  --backdrop-brightness: 1.42;
+}
+
+.backdrop-filter.brightness-9 {
+  --backdrop-brightness: 1.48;
+}
+
+.backdrop-filter.brightness-10 {
+  --backdrop-brightness: 1.54;
+}
+
+.backdrop-filter.contrast-0 {
+  --backdrop-contrast: 0;
+}
+
+.backdrop-filter.contrast-1 {
+  --backdrop-contrast: 1;
+}
+
+.backdrop-filter.contrast-2 {
+  --backdrop-contrast: 2;
+}
+
+.backdrop-filter.contrast-3 {
+  --backdrop-contrast: 3;
+}
+
+.backdrop-filter.contrast-4 {
+  --backdrop-contrast: 4;
+}
+
+.backdrop-filter.contrast-5 {
+  --backdrop-contrast: 1.24;
+}
+
+.backdrop-filter.contrast-6 {
+  --backdrop-contrast: 1.3;
+}
+
+.backdrop-filter.contrast-7 {
+  --backdrop-contrast: 1.36;
+}
+
+.backdrop-filter.contrast-8 {
+  --backdrop-contrast: 1.42;
+}
+
+.backdrop-filter.contrast-9 {
+  --backdrop-contrast: 1.48;
+}
+
+.backdrop-filter.contrast-10 {
+  --backdrop-contrast: 1.54;
+}
+
+.backdrop-filter.saturate-0 {
+  --backdrop-saturate: 0;
+}
+
+.backdrop-filter.saturate-1 {
+  --backdrop-saturate: 1;
+}
+
+.backdrop-filter.saturate-2 {
+  --backdrop-saturate: 2;
+}
+
+.backdrop-filter.saturate-3 {
+  --backdrop-saturate: 3;
+}
+
+.backdrop-filter.saturate-4 {
+  --backdrop-saturate: 4;
+}
+
+.backdrop-filter.saturate-5 {
+  --backdrop-saturate: 1.24;
+}
+
+.backdrop-filter.saturate-6 {
+  --backdrop-saturate: 1.3;
+}
+
+.backdrop-filter.saturate-7 {
+  --backdrop-saturate: 1.36;
+}
+
+.backdrop-filter.saturate-8 {
+  --backdrop-saturate: 1.42;
+}
+
+.backdrop-filter.saturate-9 {
+  --backdrop-saturate: 1.48;
+}
+
+.backdrop-filter.saturate-10 {
+  --backdrop-saturate: 1.54;
+}
+
+.backdrop-filter.blur-0 {
+  --backdrop-blur: 0px;
+}
+
+.backdrop-filter.blur-1 {
+  --backdrop-blur: 2px;
+}
+
+.backdrop-filter.blur-2 {
+  --backdrop-blur: 4px;
+}
+
+.backdrop-filter.blur-3 {
+  --backdrop-blur: 6px;
+}
+
+.backdrop-filter.blur-4 {
+  --backdrop-blur: 8px;
+}
+
+.backdrop-filter.blur-5 {
+  --backdrop-blur: 10px;
+}
+
+.backdrop-filter.blur-6 {
+  --backdrop-blur: 12px;
+}
+
+.backdrop-filter.blur-7 {
+  --backdrop-blur: 14px;
+}
+
+.backdrop-filter.blur-8 {
+  --backdrop-blur: 16px;
+}
+
+.backdrop-filter.blur-9 {
+  --backdrop-blur: 18px;
+}
+
+.backdrop-filter.blur-10 {
+  --backdrop-blur: 20px;
+}
+
 .invert-0 {
   -webkit-filter: invert(0);
           filter: invert(0);

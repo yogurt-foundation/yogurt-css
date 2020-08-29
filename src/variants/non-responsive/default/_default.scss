@@ -53,6 +53,7 @@
 /* filters */
 
 @include filterCompose($class: $default) // (v1.0.9)
+@include filterBackdropCompose($class: $default) // (v1.1.0)
 @include filterInvert($class: $default) // (v1.0.3)
 
 /* flexbox */
