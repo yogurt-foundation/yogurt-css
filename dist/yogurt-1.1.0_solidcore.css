@@ -73059,7 +73059,7 @@ img[theme="invert"] {
 }
 
 /**
- * @file: _pluginMaker.scss
+ * @file: _pluginAPI.scss
  */
 /*
  * Example API,
@@ -73081,6 +73081,22 @@ img[theme="invert"] {
  * Use keyword for `variant` to apply pseudo class variants, such as:
  * hover, focus, active, visited, disabled, responsive, responsive-hover,
  * responsive-focus, responsive-active, responsive-visited, responsive-disabled.
+ */
+/**
+ * @file: _googleFontsAPI.scss
+ */
+/*
+ * Example API,
+ *
+ *  Use `;` in `weight:` object to add more font weights.
+ *
+ *  @include google-fonts(
+ *    (
+ *     font: 'Roboto',
+ *     weight: '100;200;300'
+ *    ),
+ *    // ...
+ *  )
  */
 /**
  * @file: _plugins.scss

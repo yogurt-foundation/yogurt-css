@@ -30,44 +30,60 @@
  *  )
  */
 
-// EXAMPLES
+
+// Example API for creating custom utility plugins.
 
 // @include plugin(
 //   (
-//      utility: 'text',
-//      property: 'font-size',
-//      modifier: (
+//     utility: 'text',
+//     property: 'font-size',
+//     modifier: (
 //       'xs': '0.75rem',
 //       'sm': '0.875rem'
-//      )
+//     )
 //   ),
 //   (
-//      utility: 'text',
-//      property: 'font-size',
-//      variant: 'hover',
-//      modifier: (
+//     utility: 'text',
+//     property: 'font-size',
+//     variant: 'hover',
+//     modifier: (
 //       'xs': '0.75rem',
 //       'sm': '0.875rem'
-//      )
+//     )
 //   ),
 //   (
-//      utility: 'text',
-//      property: 'font-size',
-//      variant: 'responsive',
-//      modifier: (
+//     utility: 'text',
+//     property: 'font-size',
+//     variant: 'responsive',
+//     modifier: (
 //       'xs': '0.75rem',
 //       'sm': '0.875rem'
-//      )
+//     )
 //   ),
 //   (
-//      utility: 'text',
-//      property: 'font-size',
-//      variant: 'responsive-hover',
-//      modifier: (
+//     utility: 'text',
+//     property: 'font-size',
+//     variant: 'responsive-hover',
+//     modifier: (
 //       'xs': '0.75rem',
 //       'sm': '0.875rem'
-//      )
+//     )
 //   ),
 //   // ...
 // )
 
+
+// Example API for embedding Google Fonts.
+// Use `;` in `weight:` object to add more font weights.
+
+// @include google-fonts(
+//   (
+//     font: 'Alata',
+//     weight: '100;200;300;400;500;600;700;800;900'
+//   ),
+//   (
+//     font: 'Lato',
+//     weight: '100;200;300;400;500;600;700;800;900'
+//   )
+//   // ...
+// )

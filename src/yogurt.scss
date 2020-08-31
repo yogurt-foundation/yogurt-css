@@ -50,8 +50,9 @@ $version: "1.1.0";
 @import 'variants/responsive/minWidth';
 // @import 'variants/responsive/maxWidth'; // optional
 
-// plugin
+// api
 @import 'modules/pluginAPI';
+@import 'modules/googleFontsAPI';
 @import 'plugins'
 
 /*! yogurt.css #{$version}-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
