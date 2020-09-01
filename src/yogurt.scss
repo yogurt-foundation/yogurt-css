@@ -50,6 +50,9 @@ $version: "1.1.0";
 @import 'variants/responsive/minWidth';
 // @import 'variants/responsive/maxWidth'; // optional
 
+// themed utilities
+@import 'variants/theme/dark';
+
 // api
 @import 'modules/pluginAPI';
 @import 'modules/googleFontsAPI';
