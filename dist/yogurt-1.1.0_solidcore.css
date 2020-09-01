@@ -1380,7 +1380,7 @@ y {
  * @desc: sets the word breaks of an element
  */
 /**
- * @module: utilities/default/
+ * @module: variants/non-responsive/default/
  * @file: _default.scss
  */
 /* accessibility */
@@ -33011,7 +33011,7 @@ img[theme="invert"] {
 }
 
 /**
- * @module: default/variants/
+ * @module: /
  * @file: _active.scss
  */
 /* accessibility */
@@ -34811,7 +34811,7 @@ img[theme="invert"] {
 }
 
 /**
- * @module: default/variants/
+ * @module: variants/non-responsive/pseudo/
  * @file: _disabled.scss
  */
 /* accessibility */
@@ -34831,7 +34831,7 @@ img[theme="invert"] {
 /* transitions */
 /* typography */
 /**
- * @module: default/variants/
+ * @module: variants/non-responsive/pseudo/
  * @file: _focus.scss
  */
 /* accessibility */
@@ -41782,7 +41782,7 @@ img[theme="invert"] {
 }
 
 /**
- * @module: utilities/variants/
+ * @module: variants/non-responsive/pseudo/
  * @file: _hover.scss
  */
 /* accessibility */
@@ -48394,7 +48394,7 @@ img[theme="invert"] {
 }
 
 /**
- * @module: default/variants/
+ * @module: variants/non-responsive/pseudo/
  * @file: _visited.scss
  */
 /* accessibility */
@@ -50203,7 +50203,7 @@ img[theme="invert"] {
  */
   /* Default */
   /**
- * @module: responsive/default/
+ * @module: variants/responsive/default
  * @file: _default.scss
  */
   /* accessibility */
@@ -53361,7 +53361,7 @@ img[theme="invert"] {
   }
   /* Variants */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _hover.scss
  */
   /* accessibility */
@@ -53381,7 +53381,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _focus.scss
  */
   /* accessibility */
@@ -53401,7 +53401,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _active.scss
  */
   /* accessibility */
@@ -53421,7 +53421,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _visited.scss
  */
   /* accessibility */
@@ -53441,7 +53441,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _disabled.scss
  */
   /* accessibility */
@@ -53469,7 +53469,7 @@ img[theme="invert"] {
  */
   /* Default */
   /**
- * @module: responsive/default/
+ * @module: variants/responsive/default
  * @file: _default.scss
  */
   /* accessibility */
@@ -56627,7 +56627,7 @@ img[theme="invert"] {
   }
   /* Variants */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _hover.scss
  */
   /* accessibility */
@@ -56647,7 +56647,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _focus.scss
  */
   /* accessibility */
@@ -56667,7 +56667,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _active.scss
  */
   /* accessibility */
@@ -56687,7 +56687,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _visited.scss
  */
   /* accessibility */
@@ -56707,7 +56707,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _disabled.scss
  */
   /* accessibility */
@@ -56735,7 +56735,7 @@ img[theme="invert"] {
  */
   /* Default */
   /**
- * @module: responsive/default/
+ * @module: variants/responsive/default
  * @file: _default.scss
  */
   /* accessibility */
@@ -59893,7 +59893,7 @@ img[theme="invert"] {
   }
   /* Variants */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _hover.scss
  */
   /* accessibility */
@@ -59913,7 +59913,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _focus.scss
  */
   /* accessibility */
@@ -59933,7 +59933,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _active.scss
  */
   /* accessibility */
@@ -59953,7 +59953,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _visited.scss
  */
   /* accessibility */
@@ -59973,7 +59973,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _disabled.scss
  */
   /* accessibility */
@@ -60001,7 +60001,7 @@ img[theme="invert"] {
  */
   /* Default */
   /**
- * @module: responsive/default/
+ * @module: variants/responsive/default
  * @file: _default.scss
  */
   /* accessibility */
@@ -63159,7 +63159,7 @@ img[theme="invert"] {
   }
   /* Variants */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _hover.scss
  */
   /* accessibility */
@@ -63179,7 +63179,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _focus.scss
  */
   /* accessibility */
@@ -63199,7 +63199,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _active.scss
  */
   /* accessibility */
@@ -63219,7 +63219,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _visited.scss
  */
   /* accessibility */
@@ -63239,7 +63239,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _disabled.scss
  */
   /* accessibility */
@@ -63267,7 +63267,7 @@ img[theme="invert"] {
  */
   /* Default */
   /**
- * @module: responsive/default/
+ * @module: variants/responsive/default
  * @file: _default.scss
  */
   /* accessibility */
@@ -66425,7 +66425,7 @@ img[theme="invert"] {
   }
   /* Variants */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _hover.scss
  */
   /* accessibility */
@@ -66445,7 +66445,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _focus.scss
  */
   /* accessibility */
@@ -66465,7 +66465,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _active.scss
  */
   /* accessibility */
@@ -66485,7 +66485,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _visited.scss
  */
   /* accessibility */
@@ -66505,7 +66505,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _disabled.scss
  */
   /* accessibility */
@@ -66533,7 +66533,7 @@ img[theme="invert"] {
  */
   /* Default */
   /**
- * @module: responsive/default/
+ * @module: variants/responsive/default
  * @file: _default.scss
  */
   /* accessibility */
@@ -69691,7 +69691,7 @@ img[theme="invert"] {
   }
   /* Variants */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _hover.scss
  */
   /* accessibility */
@@ -69711,7 +69711,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _focus.scss
  */
   /* accessibility */
@@ -69731,7 +69731,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _active.scss
  */
   /* accessibility */
@@ -69751,7 +69751,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _visited.scss
  */
   /* accessibility */
@@ -69771,7 +69771,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _disabled.scss
  */
   /* accessibility */
@@ -69799,7 +69799,7 @@ img[theme="invert"] {
  */
   /* Default */
   /**
- * @module: responsive/default/
+ * @module: variants/responsive/default
  * @file: _default.scss
  */
   /* accessibility */
@@ -72957,7 +72957,7 @@ img[theme="invert"] {
   }
   /* Variants */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _hover.scss
  */
   /* accessibility */
@@ -72977,7 +72977,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _focus.scss
  */
   /* accessibility */
@@ -72997,7 +72997,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _active.scss
  */
   /* accessibility */
@@ -73017,7 +73017,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _visited.scss
  */
   /* accessibility */
@@ -73037,7 +73037,7 @@ img[theme="invert"] {
   /* transitions */
   /* typography */
   /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _disabled.scss
  */
   /* accessibility */
