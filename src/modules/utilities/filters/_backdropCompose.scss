@@ -1,0 +1,73 @@
+/**
+ * @utility: filters
+ * @module: _filterBackdropCompose.scss
+ * @desc: sets mixed backdrop filters (brightness, contrast, saturate) to an element
+ */
+
+@mixin filterBackdropCompose(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @include setRule(
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "backdrop-filter",
+    $property1: "--backdrop-brightness",
+    $value1: "1",
+    $property2: "--backdrop-contrast",
+    $value2: "1",
+    $property3: "--backdrop-saturate",
+    $value3: "1",
+    $property4: "--backdrop-blur",
+    $value4: "0px",
+    $property5: "backdrop-filter",
+    $value5: brightness(var(--backdrop-brightness)) contrast(var(--backdrop-contrast)) saturate(var(--backdrop-saturate)) blur(var(--backdrop-blur))
+  )
+  @each $modifier, $value in $filter-compose {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "backdrop-filter.brightness-",
+      $modifier: $modifier,
+      $property1: "--backdrop-brightness",
+      $value1: "#{$value}"
+    )
+  }
+  @each $modifier, $value in $filter-compose {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "backdrop-filter.contrast-",
+      $modifier: $modifier,
+      $property1: "--backdrop-contrast",
+      $value1: "#{$value}"
+    )
+  }
+  @each $modifier, $value in $filter-compose {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "backdrop-filter.saturate-",
+      $modifier: $modifier,
+      $property1: "--backdrop-saturate",
+      $value1: "#{$value}"
+    )
+  }
+  @each $modifier, $value in $filter-blur {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "backdrop-filter.blur-",
+      $modifier: $modifier,
+      $property1: "--backdrop-blur",
+      $value1: "#{$value}"
+    )
+  }
+}
+

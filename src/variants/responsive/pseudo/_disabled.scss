@@ -1,5 +1,5 @@
 /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _disabled.scss
  */
 
@@ -39,6 +39,7 @@
 /* filters */
 
 // @include filterCompose($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.0.9)
+// @include filterBackdropCompose($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.1.0)
 // @include filterInvert($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.0.3)
 
 /* flexbox */
@@ -49,6 +50,7 @@
 // @include flex($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include flexDirection($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include flexGrow($prefix: $responsive-disabled, $pseudo: $disabled)
+// @include flexGap($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.1.0)
 // @include flexShrink($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include flexWrap($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include justifyContent($prefix: $responsive-disabled, $pseudo: $disabled)
@@ -79,9 +81,11 @@
 // @include overflow($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include overflow-xy($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include overflow-scrolling($prefix: $responsive-disabled, $pseudo: $disabled)
+// @include overscroll($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.1.0)
 // @include position($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include visibility($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include zIndex($prefix: $responsive-disabled, $pseudo: $disabled)
+// @include scrollSnap($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.1.0)
 
 /* sizing */
 
@@ -140,6 +144,7 @@
 // @include fontWeight($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include letterSpacing($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include lineHeight($prefix: $responsive-disabled, $pseudo: $disabled)
+// @include lineHeightTrim($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.1.0)
 // @include listStylePosition($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include listStyleType($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include textAlign($prefix: $responsive-disabled, $pseudo: $disabled)

@@ -1,5 +1,5 @@
 /**
- * @module: utilities/variants/
+ * @module: variants/non-responsive/pseudo/
  * @file: _hover.scss
  */
 
@@ -49,6 +49,7 @@
 /* filters */
 
 // @include filterCompose($prefix: $variant-hover, $pseudo: $hover) // (v1.0.9)
+// @include filterBackdropCompose($prefix: $variant-hover, $pseudo: $hover) // (v1.1.0)
 // @include filterInvert($prefix: $variant-hover, $pseudo: $hover) // (v1.0.3)
 
 /* flexbox */
@@ -59,6 +60,7 @@
 // @include flex($prefix: $variant-hover, $pseudo: $hover)
 // @include flexDirection($prefix: $variant-hover, $pseudo: $hover)
 // @include flexGrow($prefix: $variant-hover, $pseudo: $hover)
+// @include flexGap($prefix: $variant-hover, $pseudo: $hover) // (v1.1.0)
 // @include flexShrink($prefix: $variant-hover, $pseudo: $hover)
 // @include flexWrap($prefix: $variant-hover, $pseudo: $hover)
 // @include justifyContent($prefix: $variant-hover, $pseudo: $hover)
@@ -93,9 +95,11 @@
 // @include overflow($prefix: $variant-hover, $pseudo: $hover)
 // @include overflow-xy($prefix: $variant-hover, $pseudo: $hover)
 // @include overflow-scrolling($prefix: $variant-hover, $pseudo: $hover)
+// @include overscroll($prefix: $variant-hover, $pseudo: $hover) // (v1.1.0)
 @include position($prefix: $variant-hover, $pseudo: $hover)
 @include visibility($prefix: $variant-hover, $pseudo: $hover)
 // @include zIndex($prefix: $variant-hover, $pseudo: $hover)
+//@include scrollSnap($prefix: $variant-hover, $pseudo: $hover) // (v1.1.0)
 // ----- GROUP
 @include display($prefix: $variant-group-hover)
 @include visibility($prefix: $variant-group-hover)
@@ -159,6 +163,7 @@
 @include fontWeight($prefix: $variant-hover, $pseudo: $hover)
 // @include letterSpacing($prefix: $variant-hover, $pseudo: $hover)
 // @include lineHeight($prefix: $variant-hover, $pseudo: $hover)
+// @include lineHeightTrim($prefix: $variant-hover, $pseudo: $hover) // (v1.1.0)
 // @include listStylePosition($prefix: $variant-hover, $pseudo: $hover)
 // @include listStyleType($prefix: $variant-hover, $pseudo: $hover)
 @include placeholder() // static

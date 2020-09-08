@@ -1,5 +1,5 @@
 /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _hover.scss
  */
 
@@ -39,6 +39,7 @@
 /* filters */
 
 // @include filterCompose($prefix: $responsive-hover, $pseudo: $hover) // (v1.0.9)
+// @include filterBackdropCompose($prefix: $responsive-hover, $pseudo: $hover) // (v1.1.0)
 // @include filterInvert($prefix: $responsive-hover, $pseudo: $hover) // (v1.0.3)
 
 /* flexbox */
@@ -49,6 +50,7 @@
 // @include flex($prefix: $responsive-hover, $pseudo: $hover)
 // @include flexDirection($prefix: $responsive-hover, $pseudo: $hover)
 // @include flexGrow($prefix: $responsive-hover, $pseudo: $hover)
+// @include flexGap($prefix: $responsive-hover, $pseudo: $hover) // (v1.1.0)
 // @include flexShrink($prefix: $responsive-hover, $pseudo: $hover)
 // @include flexWrap($prefix: $responsive-hover, $pseudo: $hover)
 // @include justifyContent($prefix: $responsive-hover, $pseudo: $hover)
@@ -79,9 +81,11 @@
 // @include overflow($prefix: $responsive-hover, $pseudo: $hover)
 // @include overflow-xy($prefix: $responsive-hover, $pseudo: $hover)
 // @include overflow-scrolling($prefix: $responsive-hover, $pseudo: $hover)
+// @include overscroll($prefix: $responsive-hover, $pseudo: $hover) // (v1.1.0)
 // @include position($prefix: $responsive-hover, $pseudo: $hover)
 // @include visibility($prefix: $responsive-hover, $pseudo: $hover)
 // @include zIndex($prefix: $responsive-hover, $pseudo: $hover)
+// @include scrollSnap($prefix: $responsive-hover, $pseudo: $hover) // (v1.1.0)
 
 /* sizing */
 
@@ -140,6 +144,7 @@
 // @include fontWeight($prefix: $responsive-hover, $pseudo: $hover)
 // @include letterSpacing($prefix: $responsive-hover, $pseudo: $hover)
 // @include lineHeight($prefix: $responsive-hover, $pseudo: $hover)
+// @include lineHeightTrim($prefix: $responsive-hover, $pseudo: $hover) // (v1.1.0)
 // @include listStylePosition($prefix: $responsive-hover, $pseudo: $hover)
 // @include listStyleType($prefix: $responsive-hover, $pseudo: $hover)
 // @include textAlign($prefix: $responsive-hover, $pseudo: $hover)

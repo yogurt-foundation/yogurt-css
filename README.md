@@ -8,9 +8,9 @@
   <img src="https://badgen.net/github/release/yogurt-foundation/yogurt-css">
   <img src="https://badgen.net/github/releases/yogurt-foundation/yogurt-css">
   <img src="https://badgen.net/github/assets-dl/yogurt-foundation/yogurt-css">
-  <img src="https://badgen.net/npm/dw/create-yogurt-app">
-  <img src="https://badgen.net/npm/dm/create-yogurt-app">
-  <img src="https://badgen.net/npm/dy/create-yogurt-app">
+  <img src="https://badgen.net/npm/dw/yogurt-css">
+  <img src="https://badgen.net/npm/dm/yogurt-css">
+  <img src="https://badgen.net/npm/dy/yogurt-css">
   <img src="https://badgen.net/github/branches/yogurt-foundation/yogurt-css">
   <img src="https://badgen.net/github/forks/yogurt-foundation/yogurt-css">
   <img src="https://badgen.net/github/stars/yogurt-foundation/yogurt-css">
@@ -24,19 +24,11 @@
 
 A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level without writing a single line of CSS.
 
-> Version 1.0.9-solidcore
-
-> The `SOLID CORE` means the next major Yogurt CSS update is depending on any major release of the CSS version. It also means you will less frequently updating the framework for your frontend development. Which makes this utility framework a futureproof.
-
-### Introduction
-
-Yogurt is a CSS framework for crafting custom UI designs by using very smaller building block to build a component, even a basic component like a button can look entirely different from one to another in your material designs and having a complex template design that you'd end up needing to override the CSS will only make the creation process more frustrating.
-
-Yogurt does not include any kind of component classes, unlike many other CSS frameworks. Yogurt using the humanized naming convention such as `font-size`, `padding`, `margin`, `line-height`, `color`, and so on, it's easy to reason about, easy to manipulate and more readable code. Yogurt also delivers a balance between consistency and flexibility design without overwriting existing stylesheets and unlike many CSS frameworks. Play well with your CSS, library, and frameworks. No side effects. Support up to 4k screen size enabled by default.
+> Version 1.1.0-solidcore
 
 ### Documentation
 
-[Read the Documentation](https://yogurt-css-documentation.netlify.app).
+[Visit Full Documentation Website](https://yogurt-css-documentation.netlify.app).
 
 ### Community
 
@@ -45,7 +37,7 @@ Yogurt does not include any kind of component classes, unlike many other CSS fra
 
 ### Laboratory
 
-- [Laboratory](https://github.com/yogurt-foundation/laboratory)
+See what new in the development. All unpublished utilities are caged in the [Laboratory](https://github.com/yogurt-foundation/laboratory) page.
 
 ### Support
 

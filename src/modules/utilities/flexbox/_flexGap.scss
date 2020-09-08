@@ -1,0 +1,38 @@
+/**
+ * @utility: flexbox
+ * @module: _flexGap.scss
+ * @desc: sets spacing evenly to child elements
+ */
+
+// @class: inline-flex flex-wrap flex-gap-{value}
+
+@mixin flexGap(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier, $value in $flex-gap {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "flex-gap-",
+      $modifier: $modifier,
+      $property1: "margin",
+      $value1: calc(-1 * #{$value}) 0 0 calc(-1 * #{$value}),
+      $property2: "width",
+      $value2: calc(100% + #{$value})
+    )
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "flex-gap-",
+      $modifier: "#{$modifier} > *",
+      $property1: "margin",
+      $value1: #{$value} 0 0 #{$value}
+    )
+  }
+}
+
+

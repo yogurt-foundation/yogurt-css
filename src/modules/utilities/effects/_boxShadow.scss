@@ -28,6 +28,17 @@
       $value1: $value#{$override}
     )
   }
+  @each $modifier, $value in $box-shadow-dreamy {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "shadow-",
+      $modifier: $modifier,
+      $property1: "box-shadow",
+      $value1: $value#{$override}
+    )
+  }
 }
 
 

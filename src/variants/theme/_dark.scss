@@ -1,0 +1,16 @@
+/**
+ * @module: variants/theme/
+ * @file: _dark.scss
+ */
+
+
+@media (prefers-color-scheme: dark) {
+
+  @import 'variants/theme/constants';
+
+  /* Default */
+
+  @import 'variants/theme/default/default';
+
+}
+

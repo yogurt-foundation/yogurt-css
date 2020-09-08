@@ -1,5 +1,5 @@
 /**
- * @module: default/variants/
+ * @module: variants/non-responsive/pseudo/
  * @file: _disabled.scss
  */
 
@@ -39,6 +39,7 @@
 /* filters */
 
 // @include filterCompose($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.9)
+// @include filterBackdropCompose($prefix: $variant-disabled, $pseudo: $disabled) // (v1.1.0)
 // @include filterInvert($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.3)
 
 /* flexbox */
@@ -49,6 +50,7 @@
 // @include flex($prefix: $variant-disabled, $pseudo: $disabled)
 // @include flexDirection($prefix: $variant-disabled, $pseudo: $disabled)
 // @include flexGrow($prefix: $variant-disabled, $pseudo: $disabled)
+// @include flexGap($prefix: $variant-disabled, $pseudo: $disabled) // (v1.1.0)
 // @include flexShrink($prefix: $variant-disabled, $pseudo: $disabled)
 // @include flexWrap($prefix: $variant-disabled, $pseudo: $disabled)
 // @include justifyContent($prefix: $variant-disabled, $pseudo: $disabled)
@@ -83,9 +85,11 @@
 // @include overflow($prefix: $variant-disabled, $pseudo: $disabled)
 // @include overflow-xy($prefix: $variant-disabled, $pseudo: $disabled)
 // @include overflow-scrolling($prefix: $variant-disabled, $pseudo: $disabled)
+// @include overscroll($prefix: $variant-disabled, $pseudo: $disabled) // (v1.1.0)
 // @include position($prefix: $variant-disabled, $pseudo: $disabled)
 // @include visibility($prefix: $variant-disabled, $pseudo: $disabled)
 // @include zIndex($prefix: $variant-disabled, $pseudo: $disabled)
+// @include scrollSnap($prefix: $variant-disabled, $pseudo: $disabled) // (v1.1.0)
 
 /* sizing */
 
@@ -144,6 +148,7 @@
 // @include fontWeight($prefix: $variant-disabled, $pseudo: $disabled)
 // @include letterSpacing($prefix: $variant-disabled, $pseudo: $disabled)
 // @include lineHeight($prefix: $variant-disabled, $pseudo: $disabled)
+// @include lineHeightTrim($prefix: $variant-disabled, $pseudo: $disabled) // (v1.1.0)
 // @include listStylePosition($prefix: $variant-disabled, $pseudo: $disabled)
 // @include listStyleType($prefix: $variant-disabled, $pseudo: $disabled)
 // @include textAlign($prefix: $variant-disabled, $pseudo: $disabled)

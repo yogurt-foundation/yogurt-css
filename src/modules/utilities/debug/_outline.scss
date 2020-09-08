@@ -1,0 +1,23 @@
+/**
+ * @utility: debug
+ * @module: _outline.scss
+ * @desc: inspecting errors in spacing and overlapping elements
+ */
+
+@mixin debugOutline(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @include setRule(
+    $selector: '[debug="outline"] *',
+    $property1: "background",
+    $value1: "rgba(255, 0, 0, 0.1)",
+    $property2: "box-shadow",
+    $value2: "0 0 0 1px red",
+    $property3: "outline",
+    $value3: "1px solid red"
+  )
+}
+
+

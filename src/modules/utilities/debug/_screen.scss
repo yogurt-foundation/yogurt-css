@@ -1,0 +1,38 @@
+/**
+ * @utility: debug
+ * @module: _screen.scss
+ * @desc: visualize responsive screen sizes
+ */
+
+@mixin debugScreen(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $screenx, $size in $screens {
+    @media (min-width: #{$size}) {
+      @include setRule(
+        $selector: '[debug="screen"]',
+        $property1: "position",
+        $value1: "absolute",
+        $property2: "top",
+        $value2: "0",
+        $property3: "left",
+        $value3: "0",
+        $property4: "padding",
+        $value4: "3px 8px",
+        $property5: "color",
+        $value5: "white",
+        $property6: "background-color",
+        $value6: "black",
+        $property7: "z-index",
+        $value7: "999999"
+      )
+      @include setRule(
+        $selector: '[debug="screen"]::after',
+        $property1: "content",
+        $value1: '"screen: #{$screenx}"'
+      )
+    }
+  }
+}

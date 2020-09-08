@@ -1,5 +1,5 @@
 /**
- * @module: default/variants/
+ * @module: /
  * @file: _active.scss
  */
 
@@ -47,6 +47,7 @@
 /* filters */
 
 // @include filterCompose($prefix: $variant-active, $pseudo: $active) // (v1.0.9)
+// @include filterBackdropCompose($prefix: $variant-active, $pseudo: $active) // (v1.1.0)
 // @include filterInvert($prefix: $variant-active, $pseudo: $active) // (v1.0.3)
 
 /* flexbox */
@@ -57,6 +58,7 @@
 // @include flex($prefix: $variant-active, $pseudo: $active)
 // @include flexDirection($prefix: $variant-active, $pseudo: $active)
 // @include flexGrow($prefix: $variant-active, $pseudo: $active)
+// @include flexGap($prefix: $variant-active, $pseudo: $active) // (v1.1.0)
 // @include flexShrink($prefix: $variant-active, $pseudo: $active)
 // @include flexWrap($prefix: $variant-active, $pseudo: $active)
 // @include justifyContent($prefix: $variant-active, $pseudo: $active)
@@ -91,9 +93,11 @@
 // @include overflow($prefix: $variant-active, $pseudo: $active)
 // @include overflow-xy($prefix: $variant-active, $pseudo: $active)
 // @include overflow-scrolling($prefix: $variant-active, $pseudo: $active)
+// @include overscroll($prefix: $variant-active, $pseudo: $active) // (v1.1.0)
 // @include position($prefix: $variant-active, $pseudo: $active)
 // @include visibility($prefix: $variant-active, $pseudo: $active)
 // @include zIndex($prefix: $variant-active, $pseudo: $active)
+// @include scrollSnap($prefix: $variant-active, $pseudo: $active) // (v1.1.0)
 
 /* sizing */
 
@@ -156,6 +160,7 @@
 // @include fontWeight($prefix: $variant-active, $pseudo: $active)
 // @include letterSpacing($prefix: $variant-active, $pseudo: $active)
 // @include lineHeight($prefix: $variant-active, $pseudo: $active)
+// @include lineHeightTrim($prefix: $variant-active, $pseudo: $active) // (v1.1.0)
 // @include listStylePosition($prefix: $variant-active, $pseudo: $active)
 // @include listStyleType($prefix: $variant-active, $pseudo: $active)
 // @include textAlign($prefix: $variant-active, $pseudo: $active)

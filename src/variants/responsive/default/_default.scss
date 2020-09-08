@@ -1,5 +1,5 @@
 /**
- * @module: responsive/default/
+ * @module: variants/responsive/default
  * @file: _default.scss
  */
 
@@ -39,6 +39,7 @@
 /* filters */
 
 // @include filterCompose($prefix: $responsive-default) // (v1.0.9)
+// @include filterBackdropCompose($prefix: $responsive-default) // (v1.1.0)
 // @include filterInvert($prefix: $responsive-default) // (v1.0.3)
 
 /* flexbox */
@@ -49,6 +50,7 @@
 @include flex($prefix: $responsive-default)
 @include flexDirection($prefix: $responsive-default)
 @include flexGrow($prefix: $responsive-default)
+@include flexGap($prefix: $responsive-default) // (v1.1.0)
 @include flexShrink($prefix: $responsive-default)
 @include flexWrap($prefix: $responsive-default)
 @include justifyContent($prefix: $responsive-default)
@@ -79,9 +81,11 @@
 @include overflow($prefix: $responsive-default)
 @include overflow-xy($prefix: $responsive-default)
 @include overflow-scrolling($prefix: $responsive-default)
+@include overscroll($prefix: $responsive-default) // (v1.1.0)
 @include position($prefix: $responsive-default)
 @include visibility($prefix: $responsive-default)
 @include zIndex($prefix: $responsive-default)
+@include scrollSnap($prefix: $responsive-default) // (v1.1.0)
 
 /* sizing */
 
@@ -140,6 +144,7 @@
 @include fontWeight($prefix: $responsive-default)
 @include letterSpacing($prefix: $responsive-default)
 @include lineHeight($prefix: $responsive-default)
+@include lineHeightTrim($prefix: $responsive-default) // (v1.1.0)
 @include listStylePosition($prefix: $responsive-default)
 @include listStyleType($prefix: $responsive-default)
 @include placeholder() // static

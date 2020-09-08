@@ -1260,6 +1260,7 @@ $animation-slide:
   (slide-out-up, transform, translate3d(0,0,0), null, null, visibility, hidden, transform, translate3d(0,-100%,0));
 
 $content-visibility:
+  (auto, auto, null),
   (auto-widest, auto, 1000px),
   (auto-wider, auto, 800px),
   (auto-normal, auto, 600px),
@@ -1333,3 +1334,89 @@ $text-clamp:
   (3, 3),
   (4, 4),
   (5, 5);
+
+/* scroll snap */
+
+ $scroll-snap-type:
+  (x-mandatory, x mandatory),
+  (y-mandatory, y mandatory),
+  (x-proximity, x proximity),
+  (y-proximity, y proximity),
+  (block-mandatory, block mandatory),
+  (block-proximity, block proximity),
+  (inline-mandatory, inline mandatory),
+  (inline-proximity, inline proximity),
+  (both-mandatory, both mandatory),
+  (both-proximity, both proximity);
+
+$scroll-snap-align:
+  (none, none),
+  (start, start),
+  (center, center),
+  (end, end);
+
+/* flex gap */
+
+$flex-gap:
+  (px, 1px),
+  (0, 0),
+  (1, 0.25rem),
+  (2, 0.5rem),
+  (3, 0.75rem),
+  (4, 1rem),
+  (5, 1.25rem),
+  (6, 1.5rem),
+  (8, 2rem),
+  (10, 2.5rem),
+  (12, 3rem),
+  (16, 4rem),
+  (20, 5rem),
+  (24, 6rem),
+  (32, 8rem),
+  (40, 10rem),
+  (48, 12rem),
+  (56, 14rem),
+  (64, 16rem);
+
+/* overscroll */
+
+$overscroll:
+  (auto, auto),
+  (contain, contain),
+  (none, none);
+
+$overscroll-x:
+  (x-auto, auto),
+  (x-contain, contain),
+  (x-none, none);
+
+$overscroll-y:
+  (y-auto, auto),
+  (y-contain, contain),
+  (y-none, none);
+
+/* line height trimm */
+
+$line-height-trim:
+  (xs, 0.75, 4.5),
+  (sm, 0.875, 5.5),
+  (md, 1, 5.5),
+  (lg, 1.125, 6.5),
+  (xl, 1.25, 7.5),
+  (2xl, 1.5, 8.5),
+  (3xl, 1.875, 10.5),
+  (4xl, 2.25, 12.5),
+  (5xl, 3, 17.5),
+  (6xl, 4, 24.5),
+  (7xl, 5, 29.5),
+  (8xl, 6, 35.5);
+
+$box-shadow-dreamy:
+  (dreamy-xs, (0 0 0 1px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(0, 0, 0, 0.03), 0 0 0 1px rgba(0, 0, 0, 0.02), 0 0 0 1px rgba(0, 0, 0, 0.01))),
+  (dreamy-sm, (0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 1px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 6px 0 rgba(0, 0, 0, 0.03), 0 1px 8px 0 rgba(0, 0, 0, 0.02))),
+  (dreamy, (0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 6px 0 rgba(0, 0, 0, 0.05), 0 1px 9px 0 rgba(0, 0, 0, 0.04), 0 1px 12px 0 rgba(0, 0, 0, 0.03))),
+  (dreamy-md, (0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 3px 7px -1px rgba(0, 0, 0, 0.05), 0 2px 8px -1px rgba(0, 0, 0, 0.04), 0 1px 9px -1px rgba(0, 0, 0, 0.03))),
+  (dreamy-lg, (0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 16px -3px rgba(0, 0, 0, 0.05), 0 3px 17px -3px rgba(0, 0, 0, 0.03), 0 1px 18px -3px rgba(0, 0, 0, 0.01))),
+  (dreamy-xl, (0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 26px -3px rgba(0, 0, 0, 0.04), 0 3px 27px -3px rgba(0, 0, 0, 0.02), 0 1px 28px -3px rgba(0, 0, 0, 0.01))),
+  (dreamy-2xl, (0 10px 35px -3px rgba(0, 0, 0, 0.08), 0 4px 36px -3px rgba(0, 0, 0, 0.07), 0 3px 37px -3px rgba(0, 0, 0, 0.06), 0 1px 38px -3px rgba(0, 0, 0, 0.05)));
+

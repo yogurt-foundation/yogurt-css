@@ -1,0 +1,198 @@
+/**
+ * @module: variants/theme/
+ * @file: _default.scss
+ */
+
+/* accessibility */
+
+// @include screenReader($class: $theme-dark)
+
+/* animations */
+
+// (v1.0.9)
+// @include fxBlur($class: $theme-dark)
+// @include fxFade($class: $theme-dark)
+// @include fxRoll($class: $theme-dark)
+// @include fxSlide($class: $theme-dark)
+
+/* backgrounds */
+
+@include backgroundColor($class: $theme-dark)
+// @include backgroundAttachment($class: $theme-dark)
+// @include backgroundPosition($class: $theme-dark)
+// @include backgroundRepeat($class: $theme-dark)
+// @include backgroundSize($class: $theme-dark)
+// @include backgroundBlend($class: $theme-dark) // (v1.0.4)
+// @include backgroundOpacity($class: $theme-dark)
+// @include backgroundBorder($class: $theme-dark) // (v1.0.9)
+// @include backgroundGradient($class: $theme-dark) // (v1.0.9)
+
+/* borders */
+
+@include borderColor($class: $theme-dark)
+// @include borderRadius($class: $theme-dark)
+// @include borderStyle($class: $theme-dark)
+// @include borderWidth($class: $theme-dark)
+// @include borderDissect($class: $theme-dark) // (v1.0.8)
+// @include borderDissectColor($class: $theme-dark) // (1.0.8)
+// @include borderDissectOpacity($class: $theme-dark) // (v1.0.8)
+
+/* debug */
+
+// @include debugOutline() // (static) (v1.1.0)
+// @include debugScreen() // (v1.1.0)
+
+/* effects */
+
+@include shadowColor($class: $theme-dark)
+// @include boxShadow($class: $theme-dark)
+// @include opacity($class: $theme-dark)
+// @include mixBlend($class: $theme-dark) // (v1.0.4)
+@include gradient($class: $theme-dark) // (1.0.8)
+
+/* filters */
+
+// @include filterCompose($class: $theme-dark) // (v1.0.9)
+// @include filterBackdropCompose($class: $theme-dark) // (v1.1.0)
+// @include filterInvert($class: $theme-dark) // (v1.0.3)
+
+/* flexbox */
+
+// @include alignContent($class: $theme-dark)
+// @include alignItems($class: $theme-dark)
+// @include alignSelf($class: $theme-dark)
+// @include flex($class: $theme-dark)
+// @include flexDirection($class: $theme-dark)
+// @include flexGrow($class: $theme-dark)
+// @include flexGap($class: $theme-dark) // (v1.1.0)
+// @include flexShrink($class: $theme-dark)
+// @include flexWrap($class: $theme-dark)
+// @include justifyContent($class: $theme-dark)
+// @include order($class: $theme-dark)
+
+/* fluids */
+
+// @include fluidFontSize($class: $theme-dark) // (v1.0.8)
+// @include fluidMargin($class: $theme-dark) // (1.0.8)
+// @include fluidPadding($class: $theme-dark) // (1.0.8)
+
+/* interactivity */
+
+// @include appearance($class: $theme-dark)
+// @include cursor($class: $theme-dark)
+// @include outline($class: $theme-dark)
+// @include pointerEvents($class: $theme-dark)
+// @include resize($class: $theme-dark)
+// @include userSelect($class: $theme-dark)
+
+/* layouts */
+
+// @include boxSizing($class: $theme-dark)
+// @include clear($class: $theme-dark)
+// @include containerDefault($class: $theme-dark)
+// @include display($class: $theme-dark)
+// @include float($class: $theme-dark)
+// @include inset($class: $theme-dark)
+// @include insetTBLR($class: $theme-dark)
+// @include objectFit($class: $theme-dark)
+// @include objectPosition($class: $theme-dark)
+// @include overflow($class: $theme-dark)
+// @include overflow-xy($class: $theme-dark)
+// @include overflow-scrolling($class: $theme-dark)
+// @include overscroll($class: $theme-dark) // (v1.1.0)
+// @include position($class: $theme-dark)
+// @include visibility($class: $theme-dark)
+// @include zIndex($class: $theme-dark)
+// @include contentVisibility($class: $theme-dark) // (v1.0.9)
+// @include scrollSnap($class: $theme-dark) // (v1.1.0)
+
+/* patterns */
+
+// (1.0.8)
+// @include patternChecks($class: $theme-dark)
+// @include patternCrossDots($class: $theme-dark)
+// @include patternDiagonalLines($class: $theme-dark)
+// @include patternDiagonalStripes($class: $theme-dark)
+// @include patternDots($class: $theme-dark)
+// @include patternGrid($class: $theme-dark)
+// @include patternHorizontalLines($class: $theme-dark)
+// @include patternHorizontalStripes($class: $theme-dark)
+// @include patternTriangles($class: $theme-dark)
+// @include patternVerticalLines($class: $theme-dark)
+// @include patternVerticalStripes($class: $theme-dark)
+// @include patternZigzag($class: $theme-dark)
+
+/* sizing */
+
+// @include height($class: $theme-dark)
+// @include maxHeight($class: $theme-dark)
+// @include maxWidth($class: $theme-dark)
+// @include minHeight($class: $theme-dark)
+// @include minWidth($class: $theme-dark)
+// @include width($class: $theme-dark)
+
+/* spacing */
+
+// @include margin($class: $theme-dark)
+// @include margin($negative: $true, $class: $theme-dark) // negative
+// @include padding($class: $theme-dark)
+// @include equal($class: $theme-dark) // (v1.0.8)
+// @include equal($negative: $true, $class: $theme-dark) // negative, (v1.0.8)
+
+/* svg */
+
+// @include fill($class: $theme-dark)
+// @include stroke($class: $theme-dark)
+// @include strokeWidth($class: $theme-dark)
+
+/* tables */
+
+// @include borderCollapse($class: $theme-dark)
+// @include tableLayout($class: $theme-dark)
+
+/* theme */
+
+// (v1.0.9)
+// @include themeAuto() // (static, no variants)
+// @include themeInvert() // (static, no variants)
+
+/* transforms */
+
+// @include transform($class: $theme-dark)
+// @include transformOrigin($class: $theme-dark)
+// @include rotate($class: $theme-dark)
+// @include rotate($class: $theme-dark, $negative: $true) // negative
+// @include scale($class: $theme-dark)
+// @include skew($class: $theme-dark)
+// @include skew($class: $theme-dark, $negative: $true) // negative
+// @include translate($class: $theme-dark)
+// @include translate($class: $theme-dark, $negative: $true) // negative
+
+/* transitions */
+
+// @include transitionDuration($class: $theme-dark)
+// @include transitionProperty($class: $theme-dark)
+// @include transitionTiming($class: $theme-dark)
+
+/* typography */
+
+@include textColor ($class: $theme-dark)
+// @include fontFamily($class: $theme-dark)
+// @include fontSize($class: $theme-dark)
+// @include fontSmoothing($class: $theme-dark)
+// @include fontStyle($class: $theme-dark)
+// @include fontWeight($class: $theme-dark)
+// @include letterSpacing($class: $theme-dark)
+// @include lineHeight($class: $theme-dark)
+// @include lineHeightTrim($class: $theme-dark) // (v1.1.0)
+// @include listStylePosition($class: $theme-dark)
+// @include listStyleType($class: $theme-dark)
+// @include placeholder() // static
+@include placeholderColor($class: $theme-dark)
+// @include textAlign($class: $theme-dark)
+// @include textDecoration($class: $theme-dark)
+// @include textTransform($class: $theme-dark)
+// @include verticalAlign($class: $theme-dark)
+// @include whitespace($class: $theme-dark)
+// @include wordBreak($class: $theme-dark)
+// @include textClamp($class: $theme-dark)

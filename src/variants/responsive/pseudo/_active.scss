@@ -1,5 +1,5 @@
 /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _active.scss
  */
 
@@ -39,6 +39,7 @@
 /* filters */
 
 // @include filterCompose($prefix: $responsive-active, $pseudo: $active) // (v1.0.9)
+// @include filterBackdropCompose($prefix: $responsive-active, $pseudo: $active) // (v1.1.0)
 // @include filterInvert($prefix: $responsive-active, $pseudo: $active) // (v1.0.3)
 
 /* flexbox */
@@ -49,6 +50,7 @@
 // @include flex($prefix: $responsive-active, $pseudo: $active)
 // @include flexDirection($prefix: $responsive-active, $pseudo: $active)
 // @include flexGrow($prefix: $responsive-active, $pseudo: $active)
+// @include flexGap($prefix: $responsive-active, $pseudo: $active) // (v1.1.0)
 // @include flexShrink($prefix: $responsive-active, $pseudo: $active)
 // @include flexWrap($prefix: $responsive-active, $pseudo: $active)
 // @include justifyContent($prefix: $responsive-active, $pseudo: $active)
@@ -79,9 +81,11 @@
 // @include overflow($prefix: $responsive-active, $pseudo: $active)
 // @include overflow-xy($prefix: $responsive-active, $pseudo: $active)
 // @include overflow-scrolling($prefix: $responsive-active, $pseudo: $active)
+// @include overscroll($prefix: $responsive-active, $pseudo: $active) // (v1.1.0)
 // @include position($prefix: $responsive-active, $pseudo: $active)
 // @include visibility($prefix: $responsive-active, $pseudo: $active)
 // @include zIndex($prefix: $responsive-active, $pseudo: $active)
+// @include scrollSnap($prefix: $responsive-active, $pseudo: $active) // (v1.1.0)
 
 /* sizing */
 
@@ -140,6 +144,7 @@
 // @include fontWeight($prefix: $responsive-active, $pseudo: $active)
 // @include letterSpacing($prefix: $responsive-active, $pseudo: $active)
 // @include lineHeight($prefix: $responsive-active, $pseudo: $active)
+// @include lineHeightTrim($prefix: $responsive-active, $pseudo: $active) // (v1.1.0)
 // @include listStylePosition($prefix: $responsive-active, $pseudo: $active)
 // @include listStyleType($prefix: $responsive-active, $pseudo: $active)
 // @include textAlign($prefix: $responsive-active, $pseudo: $active)

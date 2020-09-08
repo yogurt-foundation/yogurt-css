@@ -1,5 +1,5 @@
 /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _focus.scss
  */
 
@@ -39,6 +39,7 @@
 /* filters */
 
 // @include filterCompose($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.9)
+// @include filterBackdropCompose($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.0)
 // @include filterInvert($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.3)
 
 /* flexbox */
@@ -49,6 +50,7 @@
 // @include flex($prefix: $responsive-focus, $pseudo: $focus)
 // @include flexDirection($prefix: $responsive-focus, $pseudo: $focus)
 // @include flexGrow($prefix: $responsive-focus, $pseudo: $focus)
+// @include flexGap($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.0)
 // @include flexShrink($prefix: $responsive-focus, $pseudo: $focus)
 // @include flexWrap($prefix: $responsive-focus, $pseudo: $focus)
 // @include justifyContent($prefix: $responsive-focus, $pseudo: $focus)
@@ -79,9 +81,11 @@
 // @include overflow($prefix: $responsive-focus, $pseudo: $focus)
 // @include overflow-xy($prefix: $responsive-focus, $pseudo: $focus)
 // @include overflow-scrolling($prefix: $responsive-focus, $pseudo: $focus)
+// @include overscroll($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.0)
 // @include position($prefix: $responsive-focus, $pseudo: $focus)
 // @include visibility($prefix: $responsive-focus, $pseudo: $focus)
 // @include zIndex($prefix: $responsive-focus, $pseudo: $focus)
+// @include scrollSnap($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.0)
 
 /* sizing */
 
@@ -140,6 +144,7 @@
 // @include fontWeight($prefix: $responsive-focus, $pseudo: $focus)
 // @include letterSpacing($prefix: $responsive-focus, $pseudo: $focus)
 // @include lineHeight($prefix: $responsive-focus, $pseudo: $focus)
+// @include lineHeightTrim($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.0)
 // @include listStylePosition($prefix: $responsive-focus, $pseudo: $focus)
 // @include listStyleType($prefix: $responsive-focus, $pseudo: $focus)
 // @include textAlign($prefix: $responsive-focus, $pseudo: $focus)

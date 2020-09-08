@@ -11,7 +11,7 @@
  * @license: MIT
  */
 
-$version: "1.0.9";
+$version: "1.1.0";
 
 @import 'reset'; // normalize.css v8.0.1
 
@@ -25,6 +25,7 @@ $version: "1.0.9";
 @import 'modules/utilities/animations/**/**/*';
 @import 'modules/utilities/backgrounds/**/**/*';
 @import 'modules/utilities/borders/**/**/*';
+@import 'modules/utilities/debug/**/**/*';
 @import 'modules/utilities/effects/**/**/*';
 @import 'modules/utilities/filters/**/**/*';
 @import 'modules/utilities/flexbox/**/**/*';
@@ -49,8 +50,12 @@ $version: "1.0.9";
 @import 'variants/responsive/minWidth';
 // @import 'variants/responsive/maxWidth'; // optional
 
-// plugin
+// themed utilities
+@import 'variants/theme/dark';
+
+// api
 @import 'modules/pluginAPI';
+@import 'modules/googleFontsAPI';
 @import 'plugins'
 
 /*! yogurt.css #{$version}-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */

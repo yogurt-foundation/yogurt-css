@@ -1,5 +1,5 @@
 /**
- * @module: default/variants/
+ * @module: variants/non-responsive/pseudo/
  * @file: _focus.scss
  */
 
@@ -47,6 +47,7 @@
 /* filters */
 
 // @include filterCompose($prefix: $variant-focus, $pseudo: $focus) // (v1.0.9)
+// @include filterBackdropCompose($prefix: $variant-focus, $pseudo: $focus) // (v1.1.0)
 // @include filterInvert($prefix: $variant-focus, $pseudo: $focus) // (v1.0.3)
 
 /* flexbox */
@@ -57,6 +58,7 @@
 // @include flex($prefix: $variant-focus, $pseudo: $focus)
 // @include flexDirection($prefix: $variant-focus, $pseudo: $focus)
 // @include flexGrow($prefix: $variant-focus, $pseudo: $focus)
+// @include flexGap($prefix: $variant-focus, $pseudo: $focus) // (v1.1.0)
 // @include flexShrink($prefix: $variant-focus, $pseudo: $focus)
 // @include flexWrap($prefix: $variant-focus, $pseudo: $focus)
 // @include justifyContent($prefix: $variant-focus, $pseudo: $focus)
@@ -91,9 +93,11 @@
 // @include overflow($prefix: $variant-focus, $pseudo: $focus)
 // @include overflow-xy($prefix: $variant-focus, $pseudo: $focus)
 // @include overflow-scrolling($prefix: $variant-focus, $pseudo: $focus)
+// @include overscroll($prefix: $variant-focus, $pseudo: $focus) // (v1.1.0)
 // @include position($prefix: $variant-focus, $pseudo: $focus)
 // @include visibility($prefix: $variant-focus, $pseudo: $focus)
 // @include zIndex($prefix: $variant-focus, $pseudo: $focus)
+// @include scrollSnap($prefix: $variant-focus, $pseudo: $focus) // (v1.1.0)
 
 /* sizing */
 
@@ -154,6 +158,7 @@
 @include fontWeight($prefix: $variant-focus, $pseudo: $focus)
 // @include letterSpacing($prefix: $variant-focus, $pseudo: $focus)
 // @include lineHeight($prefix: $variant-focus, $pseudo: $focus)
+// @include lineHeightTrim($prefix: $variant-focus, $pseudo: $focus) // (v1.1.0)
 // @include listStylePosition($prefix: $variant-focus, $pseudo: $focus)
 // @include listStyleType($prefix: $variant-focus, $pseudo: $focus)
 // @include textAlign($prefix: $variant-focus, $pseudo: $focus)

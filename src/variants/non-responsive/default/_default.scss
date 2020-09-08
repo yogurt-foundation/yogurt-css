@@ -1,5 +1,5 @@
 /**
- * @module: utilities/default/
+ * @module: variants/non-responsive/default/
  * @file: _default.scss
  */
 
@@ -37,6 +37,11 @@
 @include borderDissectColor($class: $default) // (1.0.8)
 @include borderDissectOpacity($class: $default) // (v1.0.8)
 
+/* debug */
+
+@include debugOutline() // (static) (v1.1.0)
+@include debugScreen() // (v1.1.0)
+
 /* effects */
 
 @include shadowColor($class: $default)
@@ -48,6 +53,7 @@
 /* filters */
 
 @include filterCompose($class: $default) // (v1.0.9)
+@include filterBackdropCompose($class: $default) // (v1.1.0)
 @include filterInvert($class: $default) // (v1.0.3)
 
 /* flexbox */
@@ -58,6 +64,7 @@
 @include flex($class: $default)
 @include flexDirection($class: $default)
 @include flexGrow($class: $default)
+@include flexGap($class: $default) // (v1.1.0)
 @include flexShrink($class: $default)
 @include flexWrap($class: $default)
 @include justifyContent($class: $default)
@@ -92,10 +99,12 @@
 @include overflow($class: $default)
 @include overflow-xy($class: $default)
 @include overflow-scrolling($class: $default)
+@include overscroll($class: $default) // (v1.1.0)
 @include position($class: $default)
 @include visibility($class: $default)
 @include zIndex($class: $default)
 @include contentVisibility($class: $default) // (v1.0.9)
+@include scrollSnap($class: $default) // (v1.1.0)
 
 /* patterns */
 
@@ -175,6 +184,7 @@
 @include fontWeight($class: $default)
 @include letterSpacing($class: $default)
 @include lineHeight($class: $default)
+@include lineHeightTrim($class: $default) // (v1.1.0)
 @include listStylePosition($class: $default)
 @include listStyleType($class: $default)
 @include placeholder() // static

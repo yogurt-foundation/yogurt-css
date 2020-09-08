@@ -1,5 +1,5 @@
 /**
- * @module: responsive/variants/
+ * @module: variants/responsive/pseudo
  * @file: _visited.scss
  */
 
@@ -38,6 +38,7 @@
 /* filters */
 
 // @include filterCompose($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.9)
+// @include filterBackdropCompose($prefix: $responsive-visited, $pseudo: $visited) // (v1.1.0)
 // @include filterInvert($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.3)
 
 /* flexbox */
@@ -48,6 +49,7 @@
 // @include flex($prefix: $responsive-visited, $pseudo: $visited)
 // @include flexDirection($prefix: $responsive-visited, $pseudo: $visited)
 // @include flexGrow($prefix: $responsive-visited, $pseudo: $visited)
+// @include flexGap($prefix: $responsive-visited, $pseudo: $visited) // (v1.1.0)
 // @include flexShrink($prefix: $responsive-visited, $pseudo: $visited)
 // @include flexWrap($prefix: $responsive-visited, $pseudo: $visited)
 // @include justifyContent($prefix: $responsive-visited, $pseudo: $visited)
@@ -78,9 +80,11 @@
 // @include overflow($prefix: $responsive-visited, $pseudo: $visited)
 // @include overflow-xy($prefix: $responsive-visited, $pseudo: $visited)
 // @include overflow-scrolling($prefix: $responsive-visited, $pseudo: $visited)
+// @include overscroll($prefix: $responsive-visited, $pseudo: $visited) // (v1.1.0)
 // @include position($prefix: $responsive-visited, $pseudo: $visited)
 // @include visibility($prefix: $responsive-visited, $pseudo: $visited)
 // @include zIndex($prefix: $responsive-visited, $pseudo: $visited)
+// @include scrollSnap($prefix: $responsive-visited, $pseudo: $visited) // (v1.1.0)
 
 /* sizing */
 
@@ -139,6 +143,7 @@
 // @include fontWeight($prefix: $responsive-visited, $pseudo: $visited)
 // @include letterSpacing($prefix: $responsive-visited, $pseudo: $visited)
 // @include lineHeight($prefix: $responsive-visited, $pseudo: $visited)
+// @include lineHeightTrim($prefix: $responsive-visited, $pseudo: $visited) // (v1.1.0)
 // @include listStylePosition($prefix: $responsive-visited, $pseudo: $visited)
 // @include listStyleType($prefix: $responsive-visited, $pseudo: $visited)
 // @include textAlign($prefix: $responsive-visited, $pseudo: $visited)
