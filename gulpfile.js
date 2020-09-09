@@ -73,6 +73,7 @@ gulp.task('sass-scss', () => {
     .pipe(sassGlob())
     .pipe(sass({ outputStyle: 'compressed' })
       .on('error', sass.logError))
+    .pipe(postCss([autoPrefixer()]))
     .pipe(rename(SCSSOutput))
     .pipe(gulp.dest(distScssPath))
 })
