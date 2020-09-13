@@ -144,6 +144,7 @@
 @include fill($class: $default)
 @include stroke($class: $default)
 @include strokeWidth($class: $default)
+@include strokeLineCap($class: $default) // (v1.1.1)
 
 /* tables */
 

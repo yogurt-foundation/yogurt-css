@@ -703,12 +703,19 @@ $skew:
   (6, 6deg),
   (12, 12deg);
 
-/* stroke width */
+/* svg stroke width */
 
 $stroke-width:
   (0,	0),
   (1,	1),
   (2,	2);
+
+/* svg stroke linecap */
+
+$stroke-linecap:
+  (butt, butt),
+  (round, round),
+  (square, square);
 
 /* table layout */
 
