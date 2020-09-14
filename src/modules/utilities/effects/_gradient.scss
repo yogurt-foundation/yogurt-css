@@ -20,4 +20,23 @@
       $value1: linear-gradient(#{$value})#{$override}
     )
   }
+  @each $modifier, $value in $effect-gradient {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "gradient-",
+      $modifier: "#{$modifier}.clip-text",
+      $property1: "background-clip",
+      $value1: "text",
+      $property2: "-webkit-background-clip",
+      $value2: "text",
+      $property3: "-webkit-text-fill-color",
+      $value3: "transparent",
+      $property4: "-moz-background-clip",
+      $value4: "text",
+      $property5: "-moz-text-fill-color",
+      $value5: "transparent"
+    )
+  }
 }

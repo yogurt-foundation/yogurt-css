@@ -5076,6 +5076,14 @@ y {
   --bg-gradient-stop-color: #744210;
 }
 
+.bg-gradient.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
 /* borders */
 .border-amber-100 {
   border-color: #fff9e6;
@@ -9958,6 +9966,1358 @@ y {
 
 .gradient-perfect-blue {
   background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%) ;
+}
+
+.gradient-warm-flame.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-night-fade.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-spring-warmth.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-juicy-pearch.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-young-passion.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-lady-lips.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-sunny-morning.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-rainy-ashville.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-frozen-dreams.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-winter-neva.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-dusty-grass.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-tempting-azure.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-heavy-rain.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-amy-crisp.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-mean-fruit.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-deep-blue.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-ripe-malinka.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-cloudy-knoxville.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-malibu-beach.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-new-life.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-true-sunset.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-morpheus-den.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-rare-wind.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-near-moon.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-wild-apple.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-saint-petersburg.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-plum-plate.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-everlasting-sky.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-happy-fisher.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-blessing.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-sharpeye-eagle.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-ladoga-bottom.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-lemon-gate.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-hydrogen-ion.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-zeus-miracle.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-old-hat.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-star-wine.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-deep-blue.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-happy-acid.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-awesome-pine.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-new-york.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-shy-rainbow.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-mixed-hopes.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-fly-high.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-strong-bliss.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-fresh-milk.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-snow-again.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-february-ink.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-kind-steel.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-soft-grass.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-grown-early.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-sharp-blues.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-shady-water.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-dirty-beauty.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-great-whale.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-teen-notebook.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-polite-rumors.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-sweet-period.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-wide-matrix.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-soft-cherish.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-red-salvation.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-burning-spring.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-night-party.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-sky-glider.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-heaven-peach.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-purple-division.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-aqua-splash.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-spiky-naga.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-love-kiss.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-clean-mirror.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-premium-dark.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-cold-evening.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-cochiti-lake.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-summer-games.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-passionate-bed.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-mountain-rock.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-desert-hump.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-jungle-day.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-phoenix-start.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-october-silence.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-faraway-river.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-alchemist-lab.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-over-sun.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-premium-white.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-mars-party.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-eternal-constance.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-japan-blush.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-smiling-rain.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-cloudy-apple.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-big-mango.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-healthy-water.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-amour-amour.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-risky-concrete.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-strong-stick.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-vicious-stance.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-palo-alto.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-happy-memories.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-midnight-bloom.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-crystalline.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-party-bliss.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-confident-cloud.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-le-cocktail.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-river-city.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-frozen-berry.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-child-care.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-flying-lemon.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-new-retrowave.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-hidden-jaguar.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-above-the-sky.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-nega.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-dense-water.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-seashore.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-marble-wall.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-cheerful-caramel.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-night-sky.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-magic-lake.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-young-grass.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-colorful-peach.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-gentle-care.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-plum-bath.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-happy-unicorn.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-african-field.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-solid-stone.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-orange-juice.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-glass-water.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-north-miracle.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-fruit-blend.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-millennium-pine.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-high-flight.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-mole-hall.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-space-shift.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-forest-inei.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-royal-garden.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-rich-metal.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-juicy-cake.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-smart-indigo.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-sand-strike.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-norse-beauty.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-aqua-guidance.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-sun-veggie.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-sea-lord.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-black-sea.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-grass-shampoo.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-landing-aircraft.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-witch-dance.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-sleepless-night.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-angel-care.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-crystal-river.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-soft-lipstick.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-salt-mountain.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-perfect-white.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-fresh-oasis.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-strict-november.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-morning-salad.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-deep-relief.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-sea-strike.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-night-call.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-supreme-sky.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-light-blue.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-mind-crawl.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-lily-meadow.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-sugar-lollipop.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-sweet-dessert.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-magic-ray.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-teen-party.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-frozen-heat.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-gagarin-view.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-fabled-sunset.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient-perfect-blue.clip-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
 /* filters */
@@ -44816,6 +46176,1202 @@ img[theme="invert"] {
   background-color: currentColor;
 }
 
+.hover\:bg-gradient:hover {
+  background: linear-gradient(var(--bg-gradient-angle), var(--bg-gradient-start-color) var(--bg-gradient-primary), var(--bg-gradient-stop-color) var(--bg-gradient-secondary));
+}
+
+.hover\:bg-gradient.angle-0:hover {
+  --bg-gradient-angle: 0deg;
+}
+
+.hover\:bg-gradient.angle-45:hover {
+  --bg-gradient-angle: 45deg;
+}
+
+.hover\:bg-gradient.angle-90:hover {
+  --bg-gradient-angle: 90deg;
+}
+
+.hover\:bg-gradient.angle-180:hover {
+  --bg-gradient-angle: 180deg;
+}
+
+.hover\:bg-gradient.-angle-0:hover {
+  --bg-gradient-angle: -0deg;
+}
+
+.hover\:bg-gradient.-angle-45:hover {
+  --bg-gradient-angle: -45deg;
+}
+
+.hover\:bg-gradient.-angle-90:hover {
+  --bg-gradient-angle: -90deg;
+}
+
+.hover\:bg-gradient.-angle-180:hover {
+  --bg-gradient-angle: -180deg;
+}
+
+.hover\:bg-gradient.start-10:hover {
+  --bg-gradient-primary: 10%;
+}
+
+.hover\:bg-gradient.start-20:hover {
+  --bg-gradient-primary: 20%;
+}
+
+.hover\:bg-gradient.start-30:hover {
+  --bg-gradient-primary: 30%;
+}
+
+.hover\:bg-gradient.start-40:hover {
+  --bg-gradient-primary: 40%;
+}
+
+.hover\:bg-gradient.start-50:hover {
+  --bg-gradient-primary: 50%;
+}
+
+.hover\:bg-gradient.start-60:hover {
+  --bg-gradient-primary: 60%;
+}
+
+.hover\:bg-gradient.start-70:hover {
+  --bg-gradient-primary: 70%;
+}
+
+.hover\:bg-gradient.start-80:hover {
+  --bg-gradient-primary: 80%;
+}
+
+.hover\:bg-gradient.start-90:hover {
+  --bg-gradient-primary: 90%;
+}
+
+.hover\:bg-gradient.stop-10:hover {
+  --bg-gradient-secondary: 10%;
+}
+
+.hover\:bg-gradient.stop-20:hover {
+  --bg-gradient-secondary: 20%;
+}
+
+.hover\:bg-gradient.stop-30:hover {
+  --bg-gradient-secondary: 30%;
+}
+
+.hover\:bg-gradient.stop-40:hover {
+  --bg-gradient-secondary: 40%;
+}
+
+.hover\:bg-gradient.stop-50:hover {
+  --bg-gradient-secondary: 50%;
+}
+
+.hover\:bg-gradient.stop-60:hover {
+  --bg-gradient-secondary: 60%;
+}
+
+.hover\:bg-gradient.stop-70:hover {
+  --bg-gradient-secondary: 70%;
+}
+
+.hover\:bg-gradient.stop-80:hover {
+  --bg-gradient-secondary: 80%;
+}
+
+.hover\:bg-gradient.stop-90:hover {
+  --bg-gradient-secondary: 90%;
+}
+
+.hover\:bg-gradient.start-amber-100:hover {
+  --bg-gradient-start-color: #fff9e6;
+}
+
+.hover\:bg-gradient.start-amber-200:hover {
+  --bg-gradient-start-color: #fff0bf;
+}
+
+.hover\:bg-gradient.start-amber-300:hover {
+  --bg-gradient-start-color: #ffe799;
+}
+
+.hover\:bg-gradient.start-amber-400:hover {
+  --bg-gradient-start-color: #ffd54d;
+}
+
+.hover\:bg-gradient.start-amber-500:hover {
+  --bg-gradient-start-color: #ffc300;
+}
+
+.hover\:bg-gradient.start-amber-600:hover {
+  --bg-gradient-start-color: #e6b000;
+}
+
+.hover\:bg-gradient.start-amber-700:hover {
+  --bg-gradient-start-color: #997500;
+}
+
+.hover\:bg-gradient.start-amber-800:hover {
+  --bg-gradient-start-color: #735800;
+}
+
+.hover\:bg-gradient.start-amber-900:hover {
+  --bg-gradient-start-color: #4d3b00;
+}
+
+.hover\:bg-gradient.start-black-100:hover {
+  --bg-gradient-start-color: #b9b9b9;
+}
+
+.hover\:bg-gradient.start-black-200:hover {
+  --bg-gradient-start-color: #a2a2a2;
+}
+
+.hover\:bg-gradient.start-black-300:hover {
+  --bg-gradient-start-color: #8b8b8b;
+}
+
+.hover\:bg-gradient.start-black-400:hover {
+  --bg-gradient-start-color: #737373;
+}
+
+.hover\:bg-gradient.start-black-500:hover {
+  --bg-gradient-start-color: #5c5c5c;
+}
+
+.hover\:bg-gradient.start-black-600:hover {
+  --bg-gradient-start-color: #454545;
+}
+
+.hover\:bg-gradient.start-black-700:hover {
+  --bg-gradient-start-color: #2e2e2e;
+}
+
+.hover\:bg-gradient.start-black-800:hover {
+  --bg-gradient-start-color: #171717;
+}
+
+.hover\:bg-gradient.start-black-900:hover {
+  --bg-gradient-start-color: #000000;
+}
+
+.hover\:bg-gradient.start-blue-100:hover {
+  --bg-gradient-start-color: #ebf8ff;
+}
+
+.hover\:bg-gradient.start-blue-200:hover {
+  --bg-gradient-start-color: #bee3f8;
+}
+
+.hover\:bg-gradient.start-blue-300:hover {
+  --bg-gradient-start-color: #90cdf4;
+}
+
+.hover\:bg-gradient.start-blue-400:hover {
+  --bg-gradient-start-color: #63b3ed;
+}
+
+.hover\:bg-gradient.start-blue-500:hover {
+  --bg-gradient-start-color: #4299e1;
+}
+
+.hover\:bg-gradient.start-blue-600:hover {
+  --bg-gradient-start-color: #3182ce;
+}
+
+.hover\:bg-gradient.start-blue-700:hover {
+  --bg-gradient-start-color: #2b6cb0;
+}
+
+.hover\:bg-gradient.start-blue-800:hover {
+  --bg-gradient-start-color: #2c5282;
+}
+
+.hover\:bg-gradient.start-blue-900:hover {
+  --bg-gradient-start-color: #2a4365;
+}
+
+.hover\:bg-gradient.start-charcoal-100:hover {
+  --bg-gradient-start-color: #222c35;
+}
+
+.hover\:bg-gradient.start-charcoal-200:hover {
+  --bg-gradient-start-color: #1f2831;
+}
+
+.hover\:bg-gradient.start-charcoal-300:hover {
+  --bg-gradient-start-color: #1c252c;
+}
+
+.hover\:bg-gradient.start-charcoal-400:hover {
+  --bg-gradient-start-color: #192127;
+}
+
+.hover\:bg-gradient.start-charcoal-500:hover {
+  --bg-gradient-start-color: #161d22;
+}
+
+.hover\:bg-gradient.start-charcoal-600:hover {
+  --bg-gradient-start-color: #13181d;
+}
+
+.hover\:bg-gradient.start-charcoal-700:hover {
+  --bg-gradient-start-color: #101419;
+}
+
+.hover\:bg-gradient.start-charcoal-800:hover {
+  --bg-gradient-start-color: #0d1014;
+}
+
+.hover\:bg-gradient.start-charcoal-900:hover {
+  --bg-gradient-start-color: #0a0c0f;
+}
+
+.hover\:bg-gradient.start-gray-100:hover {
+  --bg-gradient-start-color: #f7fafc;
+}
+
+.hover\:bg-gradient.start-gray-200:hover {
+  --bg-gradient-start-color: #edf2f7;
+}
+
+.hover\:bg-gradient.start-gray-300:hover {
+  --bg-gradient-start-color: #e2e8f0;
+}
+
+.hover\:bg-gradient.start-gray-400:hover {
+  --bg-gradient-start-color: #cbd5e0;
+}
+
+.hover\:bg-gradient.start-gray-500:hover {
+  --bg-gradient-start-color: #a0aec0;
+}
+
+.hover\:bg-gradient.start-gray-600:hover {
+  --bg-gradient-start-color: #718096;
+}
+
+.hover\:bg-gradient.start-gray-700:hover {
+  --bg-gradient-start-color: #4a5568;
+}
+
+.hover\:bg-gradient.start-gray-800:hover {
+  --bg-gradient-start-color: #2d3748;
+}
+
+.hover\:bg-gradient.start-gray-900:hover {
+  --bg-gradient-start-color: #1a202c;
+}
+
+.hover\:bg-gradient.start-green-100:hover {
+  --bg-gradient-start-color: #f0fff4;
+}
+
+.hover\:bg-gradient.start-green-200:hover {
+  --bg-gradient-start-color: #c6f6d5;
+}
+
+.hover\:bg-gradient.start-green-300:hover {
+  --bg-gradient-start-color: #9ae6b4;
+}
+
+.hover\:bg-gradient.start-green-400:hover {
+  --bg-gradient-start-color: #68d391;
+}
+
+.hover\:bg-gradient.start-green-500:hover {
+  --bg-gradient-start-color: #48bb78;
+}
+
+.hover\:bg-gradient.start-green-600:hover {
+  --bg-gradient-start-color: #38a169;
+}
+
+.hover\:bg-gradient.start-green-700:hover {
+  --bg-gradient-start-color: #2f855a;
+}
+
+.hover\:bg-gradient.start-green-800:hover {
+  --bg-gradient-start-color: #276749;
+}
+
+.hover\:bg-gradient.start-green-900:hover {
+  --bg-gradient-start-color: #22543d;
+}
+
+.hover\:bg-gradient.start-indigo-100:hover {
+  --bg-gradient-start-color: #ebf4ff;
+}
+
+.hover\:bg-gradient.start-indigo-200:hover {
+  --bg-gradient-start-color: #c3dafe;
+}
+
+.hover\:bg-gradient.start-indigo-300:hover {
+  --bg-gradient-start-color: #a3bffa;
+}
+
+.hover\:bg-gradient.start-indigo-400:hover {
+  --bg-gradient-start-color: #7f9cf5;
+}
+
+.hover\:bg-gradient.start-indigo-500:hover {
+  --bg-gradient-start-color: #667eea;
+}
+
+.hover\:bg-gradient.start-indigo-600:hover {
+  --bg-gradient-start-color: #5a67d8;
+}
+
+.hover\:bg-gradient.start-indigo-700:hover {
+  --bg-gradient-start-color: #4c51bf;
+}
+
+.hover\:bg-gradient.start-indigo-800:hover {
+  --bg-gradient-start-color: #434190;
+}
+
+.hover\:bg-gradient.start-indigo-900:hover {
+  --bg-gradient-start-color: #3c366b;
+}
+
+.hover\:bg-gradient.start-khaki-100:hover {
+  --bg-gradient-start-color: #f9f7f4;
+}
+
+.hover\:bg-gradient.start-khaki-200:hover {
+  --bg-gradient-start-color: #f0ebe4;
+}
+
+.hover\:bg-gradient.start-khaki-300:hover {
+  --bg-gradient-start-color: #e7dfd3;
+}
+
+.hover\:bg-gradient.start-khaki-400:hover {
+  --bg-gradient-start-color: #d5c8b2;
+}
+
+.hover\:bg-gradient.start-khaki-500:hover {
+  --bg-gradient-start-color: #c3b091;
+}
+
+.hover\:bg-gradient.start-khaki-600:hover {
+  --bg-gradient-start-color: #b09e83;
+}
+
+.hover\:bg-gradient.start-khaki-700:hover {
+  --bg-gradient-start-color: #756a57;
+}
+
+.hover\:bg-gradient.start-khaki-800:hover {
+  --bg-gradient-start-color: #584f41;
+}
+
+.hover\:bg-gradient.start-khaki-900:hover {
+  --bg-gradient-start-color: #3b352c;
+}
+
+.hover\:bg-gradient.start-nero-100:hover {
+  --bg-gradient-start-color: #e9e9e9;
+}
+
+.hover\:bg-gradient.start-nero-200:hover {
+  --bg-gradient-start-color: #c7c8c9;
+}
+
+.hover\:bg-gradient.start-nero-300:hover {
+  --bg-gradient-start-color: #a6a7a8;
+}
+
+.hover\:bg-gradient.start-nero-400:hover {
+  --bg-gradient-start-color: #636466;
+}
+
+.hover\:bg-gradient.start-nero-500:hover {
+  --bg-gradient-start-color: #202225;
+}
+
+.hover\:bg-gradient.start-nero-600:hover {
+  --bg-gradient-start-color: #1d1f21;
+}
+
+.hover\:bg-gradient.start-nero-700:hover {
+  --bg-gradient-start-color: #131416;
+}
+
+.hover\:bg-gradient.start-nero-800:hover {
+  --bg-gradient-start-color: #0e0f11;
+}
+
+.hover\:bg-gradient.start-nero-900:hover {
+  --bg-gradient-start-color: #0a0a0b;
+}
+
+.hover\:bg-gradient.start-orange-100:hover {
+  --bg-gradient-start-color: #fffaf0;
+}
+
+.hover\:bg-gradient.start-orange-200:hover {
+  --bg-gradient-start-color: #feebc8;
+}
+
+.hover\:bg-gradient.start-orange-300:hover {
+  --bg-gradient-start-color: #fbd38d;
+}
+
+.hover\:bg-gradient.start-orange-400:hover {
+  --bg-gradient-start-color: #f6ad55;
+}
+
+.hover\:bg-gradient.start-orange-500:hover {
+  --bg-gradient-start-color: #ed8936;
+}
+
+.hover\:bg-gradient.start-orange-600:hover {
+  --bg-gradient-start-color: #dd6b20;
+}
+
+.hover\:bg-gradient.start-orange-700:hover {
+  --bg-gradient-start-color: #c05621;
+}
+
+.hover\:bg-gradient.start-orange-800:hover {
+  --bg-gradient-start-color: #9c4221;
+}
+
+.hover\:bg-gradient.start-orange-900:hover {
+  --bg-gradient-start-color: #7b341e;
+}
+
+.hover\:bg-gradient.start-pink-100:hover {
+  --bg-gradient-start-color: #fff5f7;
+}
+
+.hover\:bg-gradient.start-pink-200:hover {
+  --bg-gradient-start-color: #fed7e2;
+}
+
+.hover\:bg-gradient.start-pink-300:hover {
+  --bg-gradient-start-color: #fbb6ce;
+}
+
+.hover\:bg-gradient.start-pink-400:hover {
+  --bg-gradient-start-color: #f687b3;
+}
+
+.hover\:bg-gradient.start-pink-500:hover {
+  --bg-gradient-start-color: #ed64a6;
+}
+
+.hover\:bg-gradient.start-pink-600:hover {
+  --bg-gradient-start-color: #d53f8c;
+}
+
+.hover\:bg-gradient.start-pink-700:hover {
+  --bg-gradient-start-color: #b83280;
+}
+
+.hover\:bg-gradient.start-pink-800:hover {
+  --bg-gradient-start-color: #97266d;
+}
+
+.hover\:bg-gradient.start-pink-900:hover {
+  --bg-gradient-start-color: #702459;
+}
+
+.hover\:bg-gradient.start-purple-100:hover {
+  --bg-gradient-start-color: #faf5ff;
+}
+
+.hover\:bg-gradient.start-purple-200:hover {
+  --bg-gradient-start-color: #e9d8fd;
+}
+
+.hover\:bg-gradient.start-purple-300:hover {
+  --bg-gradient-start-color: #d6bcfa;
+}
+
+.hover\:bg-gradient.start-purple-400:hover {
+  --bg-gradient-start-color: #b794f4;
+}
+
+.hover\:bg-gradient.start-purple-500:hover {
+  --bg-gradient-start-color: #9f7aea;
+}
+
+.hover\:bg-gradient.start-purple-600:hover {
+  --bg-gradient-start-color: #805ad5;
+}
+
+.hover\:bg-gradient.start-purple-700:hover {
+  --bg-gradient-start-color: #6b46c1;
+}
+
+.hover\:bg-gradient.start-purple-800:hover {
+  --bg-gradient-start-color: #553c9a;
+}
+
+.hover\:bg-gradient.start-purple-900:hover {
+  --bg-gradient-start-color: #44337a;
+}
+
+.hover\:bg-gradient.start-red-100:hover {
+  --bg-gradient-start-color: #fff5f5;
+}
+
+.hover\:bg-gradient.start-red-200:hover {
+  --bg-gradient-start-color: #fed7d7;
+}
+
+.hover\:bg-gradient.start-red-300:hover {
+  --bg-gradient-start-color: #feb2b2;
+}
+
+.hover\:bg-gradient.start-red-400:hover {
+  --bg-gradient-start-color: #fc8181;
+}
+
+.hover\:bg-gradient.start-red-500:hover {
+  --bg-gradient-start-color: #f56565;
+}
+
+.hover\:bg-gradient.start-red-600:hover {
+  --bg-gradient-start-color: #e53e3e;
+}
+
+.hover\:bg-gradient.start-red-700:hover {
+  --bg-gradient-start-color: #c53030;
+}
+
+.hover\:bg-gradient.start-red-800:hover {
+  --bg-gradient-start-color: #9b2c2c;
+}
+
+.hover\:bg-gradient.start-red-900:hover {
+  --bg-gradient-start-color: #742a2a;
+}
+
+.hover\:bg-gradient.start-teal-100:hover {
+  --bg-gradient-start-color: #e6fffa;
+}
+
+.hover\:bg-gradient.start-teal-200:hover {
+  --bg-gradient-start-color: #b2f5ea;
+}
+
+.hover\:bg-gradient.start-teal-300:hover {
+  --bg-gradient-start-color: #81e6d9;
+}
+
+.hover\:bg-gradient.start-teal-400:hover {
+  --bg-gradient-start-color: #4fd1c5;
+}
+
+.hover\:bg-gradient.start-teal-500:hover {
+  --bg-gradient-start-color: #38b2ac;
+}
+
+.hover\:bg-gradient.start-teal-600:hover {
+  --bg-gradient-start-color: #319795;
+}
+
+.hover\:bg-gradient.start-teal-700:hover {
+  --bg-gradient-start-color: #2c7a7b;
+}
+
+.hover\:bg-gradient.start-teal-800:hover {
+  --bg-gradient-start-color: #285e61;
+}
+
+.hover\:bg-gradient.start-teal-900:hover {
+  --bg-gradient-start-color: #234e52;
+}
+
+.hover\:bg-gradient.start-yellow-100:hover {
+  --bg-gradient-start-color: #fffff0;
+}
+
+.hover\:bg-gradient.start-yellow-200:hover {
+  --bg-gradient-start-color: #fefcbf;
+}
+
+.hover\:bg-gradient.start-yellow-300:hover {
+  --bg-gradient-start-color: #faf089;
+}
+
+.hover\:bg-gradient.start-yellow-400:hover {
+  --bg-gradient-start-color: #f6e05e;
+}
+
+.hover\:bg-gradient.start-yellow-500:hover {
+  --bg-gradient-start-color: #ecc94b;
+}
+
+.hover\:bg-gradient.start-yellow-600:hover {
+  --bg-gradient-start-color: #d69e2e;
+}
+
+.hover\:bg-gradient.start-yellow-700:hover {
+  --bg-gradient-start-color: #b7791f;
+}
+
+.hover\:bg-gradient.start-yellow-800:hover {
+  --bg-gradient-start-color: #975a16;
+}
+
+.hover\:bg-gradient.start-yellow-900:hover {
+  --bg-gradient-start-color: #744210;
+}
+
+.hover\:bg-gradient.stop-amber-100:hover {
+  --bg-gradient-stop-color: #fff9e6;
+}
+
+.hover\:bg-gradient.stop-amber-200:hover {
+  --bg-gradient-stop-color: #fff0bf;
+}
+
+.hover\:bg-gradient.stop-amber-300:hover {
+  --bg-gradient-stop-color: #ffe799;
+}
+
+.hover\:bg-gradient.stop-amber-400:hover {
+  --bg-gradient-stop-color: #ffd54d;
+}
+
+.hover\:bg-gradient.stop-amber-500:hover {
+  --bg-gradient-stop-color: #ffc300;
+}
+
+.hover\:bg-gradient.stop-amber-600:hover {
+  --bg-gradient-stop-color: #e6b000;
+}
+
+.hover\:bg-gradient.stop-amber-700:hover {
+  --bg-gradient-stop-color: #997500;
+}
+
+.hover\:bg-gradient.stop-amber-800:hover {
+  --bg-gradient-stop-color: #735800;
+}
+
+.hover\:bg-gradient.stop-amber-900:hover {
+  --bg-gradient-stop-color: #4d3b00;
+}
+
+.hover\:bg-gradient.stop-black-100:hover {
+  --bg-gradient-stop-color: #b9b9b9;
+}
+
+.hover\:bg-gradient.stop-black-200:hover {
+  --bg-gradient-stop-color: #a2a2a2;
+}
+
+.hover\:bg-gradient.stop-black-300:hover {
+  --bg-gradient-stop-color: #8b8b8b;
+}
+
+.hover\:bg-gradient.stop-black-400:hover {
+  --bg-gradient-stop-color: #737373;
+}
+
+.hover\:bg-gradient.stop-black-500:hover {
+  --bg-gradient-stop-color: #5c5c5c;
+}
+
+.hover\:bg-gradient.stop-black-600:hover {
+  --bg-gradient-stop-color: #454545;
+}
+
+.hover\:bg-gradient.stop-black-700:hover {
+  --bg-gradient-stop-color: #2e2e2e;
+}
+
+.hover\:bg-gradient.stop-black-800:hover {
+  --bg-gradient-stop-color: #171717;
+}
+
+.hover\:bg-gradient.stop-black-900:hover {
+  --bg-gradient-stop-color: #000000;
+}
+
+.hover\:bg-gradient.stop-blue-100:hover {
+  --bg-gradient-stop-color: #ebf8ff;
+}
+
+.hover\:bg-gradient.stop-blue-200:hover {
+  --bg-gradient-stop-color: #bee3f8;
+}
+
+.hover\:bg-gradient.stop-blue-300:hover {
+  --bg-gradient-stop-color: #90cdf4;
+}
+
+.hover\:bg-gradient.stop-blue-400:hover {
+  --bg-gradient-stop-color: #63b3ed;
+}
+
+.hover\:bg-gradient.stop-blue-500:hover {
+  --bg-gradient-stop-color: #4299e1;
+}
+
+.hover\:bg-gradient.stop-blue-600:hover {
+  --bg-gradient-stop-color: #3182ce;
+}
+
+.hover\:bg-gradient.stop-blue-700:hover {
+  --bg-gradient-stop-color: #2b6cb0;
+}
+
+.hover\:bg-gradient.stop-blue-800:hover {
+  --bg-gradient-stop-color: #2c5282;
+}
+
+.hover\:bg-gradient.stop-blue-900:hover {
+  --bg-gradient-stop-color: #2a4365;
+}
+
+.hover\:bg-gradient.stop-charcoal-100:hover {
+  --bg-gradient-stop-color: #222c35;
+}
+
+.hover\:bg-gradient.stop-charcoal-200:hover {
+  --bg-gradient-stop-color: #1f2831;
+}
+
+.hover\:bg-gradient.stop-charcoal-300:hover {
+  --bg-gradient-stop-color: #1c252c;
+}
+
+.hover\:bg-gradient.stop-charcoal-400:hover {
+  --bg-gradient-stop-color: #192127;
+}
+
+.hover\:bg-gradient.stop-charcoal-500:hover {
+  --bg-gradient-stop-color: #161d22;
+}
+
+.hover\:bg-gradient.stop-charcoal-600:hover {
+  --bg-gradient-stop-color: #13181d;
+}
+
+.hover\:bg-gradient.stop-charcoal-700:hover {
+  --bg-gradient-stop-color: #101419;
+}
+
+.hover\:bg-gradient.stop-charcoal-800:hover {
+  --bg-gradient-stop-color: #0d1014;
+}
+
+.hover\:bg-gradient.stop-charcoal-900:hover {
+  --bg-gradient-stop-color: #0a0c0f;
+}
+
+.hover\:bg-gradient.stop-gray-100:hover {
+  --bg-gradient-stop-color: #f7fafc;
+}
+
+.hover\:bg-gradient.stop-gray-200:hover {
+  --bg-gradient-stop-color: #edf2f7;
+}
+
+.hover\:bg-gradient.stop-gray-300:hover {
+  --bg-gradient-stop-color: #e2e8f0;
+}
+
+.hover\:bg-gradient.stop-gray-400:hover {
+  --bg-gradient-stop-color: #cbd5e0;
+}
+
+.hover\:bg-gradient.stop-gray-500:hover {
+  --bg-gradient-stop-color: #a0aec0;
+}
+
+.hover\:bg-gradient.stop-gray-600:hover {
+  --bg-gradient-stop-color: #718096;
+}
+
+.hover\:bg-gradient.stop-gray-700:hover {
+  --bg-gradient-stop-color: #4a5568;
+}
+
+.hover\:bg-gradient.stop-gray-800:hover {
+  --bg-gradient-stop-color: #2d3748;
+}
+
+.hover\:bg-gradient.stop-gray-900:hover {
+  --bg-gradient-stop-color: #1a202c;
+}
+
+.hover\:bg-gradient.stop-green-100:hover {
+  --bg-gradient-stop-color: #f0fff4;
+}
+
+.hover\:bg-gradient.stop-green-200:hover {
+  --bg-gradient-stop-color: #c6f6d5;
+}
+
+.hover\:bg-gradient.stop-green-300:hover {
+  --bg-gradient-stop-color: #9ae6b4;
+}
+
+.hover\:bg-gradient.stop-green-400:hover {
+  --bg-gradient-stop-color: #68d391;
+}
+
+.hover\:bg-gradient.stop-green-500:hover {
+  --bg-gradient-stop-color: #48bb78;
+}
+
+.hover\:bg-gradient.stop-green-600:hover {
+  --bg-gradient-stop-color: #38a169;
+}
+
+.hover\:bg-gradient.stop-green-700:hover {
+  --bg-gradient-stop-color: #2f855a;
+}
+
+.hover\:bg-gradient.stop-green-800:hover {
+  --bg-gradient-stop-color: #276749;
+}
+
+.hover\:bg-gradient.stop-green-900:hover {
+  --bg-gradient-stop-color: #22543d;
+}
+
+.hover\:bg-gradient.stop-indigo-100:hover {
+  --bg-gradient-stop-color: #ebf4ff;
+}
+
+.hover\:bg-gradient.stop-indigo-200:hover {
+  --bg-gradient-stop-color: #c3dafe;
+}
+
+.hover\:bg-gradient.stop-indigo-300:hover {
+  --bg-gradient-stop-color: #a3bffa;
+}
+
+.hover\:bg-gradient.stop-indigo-400:hover {
+  --bg-gradient-stop-color: #7f9cf5;
+}
+
+.hover\:bg-gradient.stop-indigo-500:hover {
+  --bg-gradient-stop-color: #667eea;
+}
+
+.hover\:bg-gradient.stop-indigo-600:hover {
+  --bg-gradient-stop-color: #5a67d8;
+}
+
+.hover\:bg-gradient.stop-indigo-700:hover {
+  --bg-gradient-stop-color: #4c51bf;
+}
+
+.hover\:bg-gradient.stop-indigo-800:hover {
+  --bg-gradient-stop-color: #434190;
+}
+
+.hover\:bg-gradient.stop-indigo-900:hover {
+  --bg-gradient-stop-color: #3c366b;
+}
+
+.hover\:bg-gradient.stop-khaki-100:hover {
+  --bg-gradient-stop-color: #f9f7f4;
+}
+
+.hover\:bg-gradient.stop-khaki-200:hover {
+  --bg-gradient-stop-color: #f0ebe4;
+}
+
+.hover\:bg-gradient.stop-khaki-300:hover {
+  --bg-gradient-stop-color: #e7dfd3;
+}
+
+.hover\:bg-gradient.stop-khaki-400:hover {
+  --bg-gradient-stop-color: #d5c8b2;
+}
+
+.hover\:bg-gradient.stop-khaki-500:hover {
+  --bg-gradient-stop-color: #c3b091;
+}
+
+.hover\:bg-gradient.stop-khaki-600:hover {
+  --bg-gradient-stop-color: #b09e83;
+}
+
+.hover\:bg-gradient.stop-khaki-700:hover {
+  --bg-gradient-stop-color: #756a57;
+}
+
+.hover\:bg-gradient.stop-khaki-800:hover {
+  --bg-gradient-stop-color: #584f41;
+}
+
+.hover\:bg-gradient.stop-khaki-900:hover {
+  --bg-gradient-stop-color: #3b352c;
+}
+
+.hover\:bg-gradient.stop-nero-100:hover {
+  --bg-gradient-stop-color: #e9e9e9;
+}
+
+.hover\:bg-gradient.stop-nero-200:hover {
+  --bg-gradient-stop-color: #c7c8c9;
+}
+
+.hover\:bg-gradient.stop-nero-300:hover {
+  --bg-gradient-stop-color: #a6a7a8;
+}
+
+.hover\:bg-gradient.stop-nero-400:hover {
+  --bg-gradient-stop-color: #636466;
+}
+
+.hover\:bg-gradient.stop-nero-500:hover {
+  --bg-gradient-stop-color: #202225;
+}
+
+.hover\:bg-gradient.stop-nero-600:hover {
+  --bg-gradient-stop-color: #1d1f21;
+}
+
+.hover\:bg-gradient.stop-nero-700:hover {
+  --bg-gradient-stop-color: #131416;
+}
+
+.hover\:bg-gradient.stop-nero-800:hover {
+  --bg-gradient-stop-color: #0e0f11;
+}
+
+.hover\:bg-gradient.stop-nero-900:hover {
+  --bg-gradient-stop-color: #0a0a0b;
+}
+
+.hover\:bg-gradient.stop-orange-100:hover {
+  --bg-gradient-stop-color: #fffaf0;
+}
+
+.hover\:bg-gradient.stop-orange-200:hover {
+  --bg-gradient-stop-color: #feebc8;
+}
+
+.hover\:bg-gradient.stop-orange-300:hover {
+  --bg-gradient-stop-color: #fbd38d;
+}
+
+.hover\:bg-gradient.stop-orange-400:hover {
+  --bg-gradient-stop-color: #f6ad55;
+}
+
+.hover\:bg-gradient.stop-orange-500:hover {
+  --bg-gradient-stop-color: #ed8936;
+}
+
+.hover\:bg-gradient.stop-orange-600:hover {
+  --bg-gradient-stop-color: #dd6b20;
+}
+
+.hover\:bg-gradient.stop-orange-700:hover {
+  --bg-gradient-stop-color: #c05621;
+}
+
+.hover\:bg-gradient.stop-orange-800:hover {
+  --bg-gradient-stop-color: #9c4221;
+}
+
+.hover\:bg-gradient.stop-orange-900:hover {
+  --bg-gradient-stop-color: #7b341e;
+}
+
+.hover\:bg-gradient.stop-pink-100:hover {
+  --bg-gradient-stop-color: #fff5f7;
+}
+
+.hover\:bg-gradient.stop-pink-200:hover {
+  --bg-gradient-stop-color: #fed7e2;
+}
+
+.hover\:bg-gradient.stop-pink-300:hover {
+  --bg-gradient-stop-color: #fbb6ce;
+}
+
+.hover\:bg-gradient.stop-pink-400:hover {
+  --bg-gradient-stop-color: #f687b3;
+}
+
+.hover\:bg-gradient.stop-pink-500:hover {
+  --bg-gradient-stop-color: #ed64a6;
+}
+
+.hover\:bg-gradient.stop-pink-600:hover {
+  --bg-gradient-stop-color: #d53f8c;
+}
+
+.hover\:bg-gradient.stop-pink-700:hover {
+  --bg-gradient-stop-color: #b83280;
+}
+
+.hover\:bg-gradient.stop-pink-800:hover {
+  --bg-gradient-stop-color: #97266d;
+}
+
+.hover\:bg-gradient.stop-pink-900:hover {
+  --bg-gradient-stop-color: #702459;
+}
+
+.hover\:bg-gradient.stop-purple-100:hover {
+  --bg-gradient-stop-color: #faf5ff;
+}
+
+.hover\:bg-gradient.stop-purple-200:hover {
+  --bg-gradient-stop-color: #e9d8fd;
+}
+
+.hover\:bg-gradient.stop-purple-300:hover {
+  --bg-gradient-stop-color: #d6bcfa;
+}
+
+.hover\:bg-gradient.stop-purple-400:hover {
+  --bg-gradient-stop-color: #b794f4;
+}
+
+.hover\:bg-gradient.stop-purple-500:hover {
+  --bg-gradient-stop-color: #9f7aea;
+}
+
+.hover\:bg-gradient.stop-purple-600:hover {
+  --bg-gradient-stop-color: #805ad5;
+}
+
+.hover\:bg-gradient.stop-purple-700:hover {
+  --bg-gradient-stop-color: #6b46c1;
+}
+
+.hover\:bg-gradient.stop-purple-800:hover {
+  --bg-gradient-stop-color: #553c9a;
+}
+
+.hover\:bg-gradient.stop-purple-900:hover {
+  --bg-gradient-stop-color: #44337a;
+}
+
+.hover\:bg-gradient.stop-red-100:hover {
+  --bg-gradient-stop-color: #fff5f5;
+}
+
+.hover\:bg-gradient.stop-red-200:hover {
+  --bg-gradient-stop-color: #fed7d7;
+}
+
+.hover\:bg-gradient.stop-red-300:hover {
+  --bg-gradient-stop-color: #feb2b2;
+}
+
+.hover\:bg-gradient.stop-red-400:hover {
+  --bg-gradient-stop-color: #fc8181;
+}
+
+.hover\:bg-gradient.stop-red-500:hover {
+  --bg-gradient-stop-color: #f56565;
+}
+
+.hover\:bg-gradient.stop-red-600:hover {
+  --bg-gradient-stop-color: #e53e3e;
+}
+
+.hover\:bg-gradient.stop-red-700:hover {
+  --bg-gradient-stop-color: #c53030;
+}
+
+.hover\:bg-gradient.stop-red-800:hover {
+  --bg-gradient-stop-color: #9b2c2c;
+}
+
+.hover\:bg-gradient.stop-red-900:hover {
+  --bg-gradient-stop-color: #742a2a;
+}
+
+.hover\:bg-gradient.stop-teal-100:hover {
+  --bg-gradient-stop-color: #e6fffa;
+}
+
+.hover\:bg-gradient.stop-teal-200:hover {
+  --bg-gradient-stop-color: #b2f5ea;
+}
+
+.hover\:bg-gradient.stop-teal-300:hover {
+  --bg-gradient-stop-color: #81e6d9;
+}
+
+.hover\:bg-gradient.stop-teal-400:hover {
+  --bg-gradient-stop-color: #4fd1c5;
+}
+
+.hover\:bg-gradient.stop-teal-500:hover {
+  --bg-gradient-stop-color: #38b2ac;
+}
+
+.hover\:bg-gradient.stop-teal-600:hover {
+  --bg-gradient-stop-color: #319795;
+}
+
+.hover\:bg-gradient.stop-teal-700:hover {
+  --bg-gradient-stop-color: #2c7a7b;
+}
+
+.hover\:bg-gradient.stop-teal-800:hover {
+  --bg-gradient-stop-color: #285e61;
+}
+
+.hover\:bg-gradient.stop-teal-900:hover {
+  --bg-gradient-stop-color: #234e52;
+}
+
+.hover\:bg-gradient.stop-yellow-100:hover {
+  --bg-gradient-stop-color: #fffff0;
+}
+
+.hover\:bg-gradient.stop-yellow-200:hover {
+  --bg-gradient-stop-color: #fefcbf;
+}
+
+.hover\:bg-gradient.stop-yellow-300:hover {
+  --bg-gradient-stop-color: #faf089;
+}
+
+.hover\:bg-gradient.stop-yellow-400:hover {
+  --bg-gradient-stop-color: #f6e05e;
+}
+
+.hover\:bg-gradient.stop-yellow-500:hover {
+  --bg-gradient-stop-color: #ecc94b;
+}
+
+.hover\:bg-gradient.stop-yellow-600:hover {
+  --bg-gradient-stop-color: #d69e2e;
+}
+
+.hover\:bg-gradient.stop-yellow-700:hover {
+  --bg-gradient-stop-color: #b7791f;
+}
+
+.hover\:bg-gradient.stop-yellow-800:hover {
+  --bg-gradient-stop-color: #975a16;
+}
+
+.hover\:bg-gradient.stop-yellow-900:hover {
+  --bg-gradient-stop-color: #744210;
+}
+
+.hover\:bg-gradient.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
 /* borders */
 .hover\:border-amber-100:hover {
   border-color: #fff9e6;
@@ -46156,6 +48712,1358 @@ img[theme="invert"] {
 
 .hover\:gradient-perfect-blue:hover {
   background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%) ;
+}
+
+.hover\:gradient-warm-flame.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-night-fade.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-spring-warmth.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-juicy-pearch.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-young-passion.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-lady-lips.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-sunny-morning.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-rainy-ashville.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-frozen-dreams.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-winter-neva.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-dusty-grass.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-tempting-azure.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-heavy-rain.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-amy-crisp.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-mean-fruit.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-deep-blue.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-ripe-malinka.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-cloudy-knoxville.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-malibu-beach.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-new-life.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-true-sunset.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-morpheus-den.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-rare-wind.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-near-moon.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-wild-apple.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-saint-petersburg.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-plum-plate.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-everlasting-sky.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-happy-fisher.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-blessing.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-sharpeye-eagle.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-ladoga-bottom.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-lemon-gate.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-hydrogen-ion.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-zeus-miracle.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-old-hat.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-star-wine.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-deep-blue.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-happy-acid.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-awesome-pine.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-new-york.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-shy-rainbow.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-mixed-hopes.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-fly-high.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-strong-bliss.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-fresh-milk.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-snow-again.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-february-ink.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-kind-steel.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-soft-grass.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-grown-early.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-sharp-blues.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-shady-water.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-dirty-beauty.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-great-whale.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-teen-notebook.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-polite-rumors.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-sweet-period.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-wide-matrix.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-soft-cherish.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-red-salvation.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-burning-spring.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-night-party.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-sky-glider.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-heaven-peach.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-purple-division.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-aqua-splash.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-spiky-naga.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-love-kiss.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-clean-mirror.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-premium-dark.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-cold-evening.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-cochiti-lake.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-summer-games.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-passionate-bed.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-mountain-rock.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-desert-hump.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-jungle-day.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-phoenix-start.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-october-silence.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-faraway-river.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-alchemist-lab.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-over-sun.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-premium-white.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-mars-party.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-eternal-constance.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-japan-blush.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-smiling-rain.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-cloudy-apple.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-big-mango.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-healthy-water.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-amour-amour.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-risky-concrete.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-strong-stick.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-vicious-stance.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-palo-alto.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-happy-memories.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-midnight-bloom.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-crystalline.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-party-bliss.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-confident-cloud.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-le-cocktail.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-river-city.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-frozen-berry.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-child-care.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-flying-lemon.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-new-retrowave.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-hidden-jaguar.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-above-the-sky.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-nega.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-dense-water.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-seashore.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-marble-wall.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-cheerful-caramel.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-night-sky.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-magic-lake.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-young-grass.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-colorful-peach.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-gentle-care.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-plum-bath.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-happy-unicorn.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-african-field.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-solid-stone.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-orange-juice.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-glass-water.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-north-miracle.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-fruit-blend.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-millennium-pine.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-high-flight.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-mole-hall.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-space-shift.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-forest-inei.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-royal-garden.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-rich-metal.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-juicy-cake.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-smart-indigo.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-sand-strike.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-norse-beauty.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-aqua-guidance.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-sun-veggie.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-sea-lord.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-black-sea.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-grass-shampoo.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-landing-aircraft.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-witch-dance.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-sleepless-night.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-angel-care.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-crystal-river.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-soft-lipstick.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-salt-mountain.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-perfect-white.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-fresh-oasis.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-strict-november.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-morning-salad.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-deep-relief.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-sea-strike.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-night-call.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-supreme-sky.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-light-blue.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-mind-crawl.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-lily-meadow.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-sugar-lollipop.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-sweet-dessert.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-magic-ray.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-teen-party.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-frozen-heat.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-gagarin-view.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-fabled-sunset.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.hover\:gradient-perfect-blue.clip-text:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
 /* filters */
@@ -76590,6 +80498,1189 @@ img[theme="invert"] {
   }
   .dark\:gradient-perfect-blue {
     background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%) ;
+  }
+  .dark\:gradient-warm-flame.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-night-fade.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-spring-warmth.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-juicy-pearch.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-young-passion.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-lady-lips.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-sunny-morning.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-rainy-ashville.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-frozen-dreams.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-winter-neva.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-dusty-grass.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-tempting-azure.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-heavy-rain.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-amy-crisp.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-mean-fruit.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-deep-blue.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-ripe-malinka.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-cloudy-knoxville.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-malibu-beach.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-new-life.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-true-sunset.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-morpheus-den.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-rare-wind.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-near-moon.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-wild-apple.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-saint-petersburg.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-plum-plate.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-everlasting-sky.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-happy-fisher.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-blessing.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-sharpeye-eagle.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-ladoga-bottom.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-lemon-gate.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-hydrogen-ion.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-zeus-miracle.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-old-hat.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-star-wine.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-deep-blue.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-happy-acid.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-awesome-pine.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-new-york.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-shy-rainbow.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-mixed-hopes.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-fly-high.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-strong-bliss.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-fresh-milk.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-snow-again.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-february-ink.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-kind-steel.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-soft-grass.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-grown-early.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-sharp-blues.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-shady-water.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-dirty-beauty.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-great-whale.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-teen-notebook.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-polite-rumors.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-sweet-period.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-wide-matrix.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-soft-cherish.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-red-salvation.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-burning-spring.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-night-party.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-sky-glider.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-heaven-peach.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-purple-division.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-aqua-splash.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-spiky-naga.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-love-kiss.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-clean-mirror.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-premium-dark.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-cold-evening.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-cochiti-lake.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-summer-games.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-passionate-bed.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-mountain-rock.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-desert-hump.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-jungle-day.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-phoenix-start.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-october-silence.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-faraway-river.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-alchemist-lab.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-over-sun.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-premium-white.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-mars-party.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-eternal-constance.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-japan-blush.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-smiling-rain.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-cloudy-apple.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-big-mango.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-healthy-water.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-amour-amour.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-risky-concrete.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-strong-stick.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-vicious-stance.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-palo-alto.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-happy-memories.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-midnight-bloom.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-crystalline.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-party-bliss.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-confident-cloud.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-le-cocktail.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-river-city.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-frozen-berry.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-child-care.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-flying-lemon.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-new-retrowave.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-hidden-jaguar.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-above-the-sky.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-nega.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-dense-water.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-seashore.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-marble-wall.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-cheerful-caramel.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-night-sky.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-magic-lake.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-young-grass.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-colorful-peach.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-gentle-care.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-plum-bath.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-happy-unicorn.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-african-field.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-solid-stone.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-orange-juice.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-glass-water.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-north-miracle.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-fruit-blend.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-millennium-pine.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-high-flight.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-mole-hall.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-space-shift.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-forest-inei.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-royal-garden.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-rich-metal.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-juicy-cake.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-smart-indigo.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-sand-strike.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-norse-beauty.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-aqua-guidance.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-sun-veggie.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-sea-lord.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-black-sea.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-grass-shampoo.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-landing-aircraft.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-witch-dance.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-sleepless-night.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-angel-care.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-crystal-river.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-soft-lipstick.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-salt-mountain.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-perfect-white.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-fresh-oasis.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-strict-november.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-morning-salad.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-deep-relief.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-sea-strike.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-night-call.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-supreme-sky.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-light-blue.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-mind-crawl.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-lily-meadow.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-sugar-lollipop.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-sweet-dessert.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-magic-ray.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-teen-party.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-frozen-heat.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-gagarin-view.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-fabled-sunset.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .dark\:gradient-perfect-blue.clip-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
   }
   /* filters */
   .dark\:invert-0 {
