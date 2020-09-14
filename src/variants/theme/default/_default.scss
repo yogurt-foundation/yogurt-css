@@ -54,7 +54,7 @@
 
 // @include filterCompose($class: $theme-dark) // (v1.0.9)
 // @include filterBackdropCompose($class: $theme-dark) // (v1.1.0)
-// @include filterInvert($class: $theme-dark) // (v1.0.3)
+@include filterInvert($class: $theme-dark) // (v1.0.3)
 
 /* flexbox */
 
@@ -141,7 +141,7 @@
 
 /* svg */
 
-// @include fill($class: $theme-dark)
+@include fill($class: $theme-dark)
 // @include stroke($class: $theme-dark)
 // @include strokeWidth($class: $theme-dark)
 

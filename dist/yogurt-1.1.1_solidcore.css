@@ -76592,6 +76592,14 @@ img[theme="invert"] {
     background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%) ;
   }
   /* filters */
+  .dark\:invert-0 {
+    -webkit-filter: invert(0);
+            filter: invert(0);
+  }
+  .dark\:invert-1 {
+    -webkit-filter: invert(1);
+            filter: invert(1);
+  }
   /* flexbox */
   /* fluids */
   /* interactivity */
@@ -76600,6 +76608,9 @@ img[theme="invert"] {
   /* sizing */
   /* spacing */
   /* svg */
+  .dark\:fill-current {
+    fill: currentColor;
+  }
   /* tables */
   /* theme */
   /* transforms */
