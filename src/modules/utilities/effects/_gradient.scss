@@ -19,8 +19,6 @@
       $property1: "background-image",
       $value1: linear-gradient(#{$value})#{$override}
     )
-  }
-  @each $modifier, $value in $effect-gradient {
     @include setRule(
       $prefix: $prefix,
       $pseudo: $pseudo,
