@@ -50077,6 +50077,16 @@ img[theme="invert"] {
           filter: invert(1);
 }
 
+.group:hover .group-hover\:invert-0 {
+  -webkit-filter: invert(0);
+          filter: invert(0);
+}
+
+.group:hover .group-hover\:invert-1 {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
 /* flexbox */
 /* fluids */
 /* interactivity */
