@@ -6,7 +6,7 @@
   "scripts": {
     "gulp": "gulp",
     "watch": "gulp watch",
-    "build": "npm run gulp sass-raw && npm run gulp sass-min && npm run gulp sass-scss"
+    "build": "gulp build"
   },
   "keywords": [
     "css-framework",
