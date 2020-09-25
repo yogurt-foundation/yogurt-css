@@ -65,6 +65,8 @@
 // @include outline($prefix: $responsive-hover, $pseudo: $hover)
 // @include pointerEvents($prefix: $responsive-hover, $pseudo: $hover)
 // @include resize($prefix: $responsive-hover, $pseudo: $hover)
+// @include scrollBehavior($prefix: $responsive-hover, $pseudo: $hover) // (v1.1.1)
+// @include scrollSnap($prefix: $responsive-hover, $pseudo: $hover) // (v1.1.0)
 // @include userSelect($prefix: $responsive-hover, $pseudo: $hover)
 
 /* layouts */
@@ -85,7 +87,6 @@
 // @include position($prefix: $responsive-hover, $pseudo: $hover)
 // @include visibility($prefix: $responsive-hover, $pseudo: $hover)
 // @include zIndex($prefix: $responsive-hover, $pseudo: $hover)
-// @include scrollSnap($prefix: $responsive-hover, $pseudo: $hover) // (v1.1.0)
 
 /* sizing */
 

@@ -77,6 +77,8 @@
 // @include outline($prefix: $variant-active, $pseudo: $active)
 // @include pointerEvents($prefix: $variant-active, $pseudo: $active)
 // @include resize($prefix: $variant-active, $pseudo: $active)
+// @include scrollBehavior($prefix: $variant-active, $pseudo: $active) // (v1.1.1)
+// @include scrollSnap($prefix: $variant-active, $pseudo: $active) // (v1.1.0)
 // @include userSelect($prefix: $variant-active, $pseudo: $active)
 
 /* layouts */
@@ -97,7 +99,6 @@
 // @include position($prefix: $variant-active, $pseudo: $active)
 // @include visibility($prefix: $variant-active, $pseudo: $active)
 // @include zIndex($prefix: $variant-active, $pseudo: $active)
-// @include scrollSnap($prefix: $variant-active, $pseudo: $active) // (v1.1.0)
 
 /* sizing */
 

@@ -65,6 +65,8 @@
 @include outline($prefix: $responsive-default)
 // @include pointerEvents($prefix: $responsive-default)
 @include resize($prefix: $responsive-default)
+@include scrollBehavior($prefix: $responsive-default) // (v1.1.1)
+@include scrollSnap($prefix: $responsive-default) // (v1.1.0)
 @include userSelect($prefix: $responsive-default)
 
 /* layouts */
@@ -85,7 +87,6 @@
 @include position($prefix: $responsive-default)
 @include visibility($prefix: $responsive-default)
 @include zIndex($prefix: $responsive-default)
-@include scrollSnap($prefix: $responsive-default) // (v1.1.0)
 
 /* sizing */
 

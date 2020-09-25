@@ -69,6 +69,8 @@
 // @include outline($prefix: $variant-disabled, $pseudo: $disabled)
 // @include pointerEvents($prefix: $variant-disabled, $pseudo: $disabled)
 // @include resize($prefix: $variant-disabled, $pseudo: $disabled)
+// @include scrollBehavior($prefix: $variant-disabled, $pseudo: $disabled) // (v1.1.1)
+// @include scrollSnap($prefix: $variant-disabled, $pseudo: $disabled) // (v1.1.0)
 // @include userSelect($prefix: $variant-disabled, $pseudo: $disabled)
 
 /* layouts */
@@ -89,7 +91,6 @@
 // @include position($prefix: $variant-disabled, $pseudo: $disabled)
 // @include visibility($prefix: $variant-disabled, $pseudo: $disabled)
 // @include zIndex($prefix: $variant-disabled, $pseudo: $disabled)
-// @include scrollSnap($prefix: $variant-disabled, $pseudo: $disabled) // (v1.1.0)
 
 /* sizing */
 

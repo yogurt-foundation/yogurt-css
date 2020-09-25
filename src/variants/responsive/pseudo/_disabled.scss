@@ -65,6 +65,8 @@
 // @include outline($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include pointerEvents($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include resize($prefix: $responsive-disabled, $pseudo: $disabled)
+// @include scrollBehavior($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.1.1)
+// @include scrollSnap($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.1.0)
 // @include userSelect($prefix: $responsive-disabled, $pseudo: $disabled)
 
 /* layouts */
@@ -85,7 +87,6 @@
 // @include position($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include visibility($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include zIndex($prefix: $responsive-disabled, $pseudo: $disabled)
-// @include scrollSnap($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.1.0)
 
 /* sizing */
 
@@ -121,7 +122,7 @@
 // @include transform($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include transformOrigin($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include rotate($prefix: $responsive-disabled, $pseudo: $disabled)
-// @include rotate($prefix: $responsive-disabled, $pseudo: $disabled, $negative: $true) // negative
+// @include rotate($prefix: $responsive-disabled, $pseudo: $disabled, $neg
 // @include scale($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include skew($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include skew($prefix: $responsive-disabled, $pseudo: $disabled, $negative: $true) // negative

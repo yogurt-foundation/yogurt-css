@@ -65,6 +65,8 @@
 // @include outline($prefix: $responsive-active, $pseudo: $active)
 // @include pointerEvents($prefix: $responsive-active, $pseudo: $active)
 // @include resize($prefix: $responsive-active, $pseudo: $active)
+// @include scrollBehavior($prefix: $responsive-active, $pseudo: $active) // (v1.1.1)
+// @include scrollSnap($prefix: $responsive-active, $pseudo: $active) // (v1.1.0)
 // @include userSelect($prefix: $responsive-active, $pseudo: $active)
 
 /* layouts */
@@ -85,7 +87,6 @@
 // @include position($prefix: $responsive-active, $pseudo: $active)
 // @include visibility($prefix: $responsive-active, $pseudo: $active)
 // @include zIndex($prefix: $responsive-active, $pseudo: $active)
-// @include scrollSnap($prefix: $responsive-active, $pseudo: $active) // (v1.1.0)
 
 /* sizing */
 

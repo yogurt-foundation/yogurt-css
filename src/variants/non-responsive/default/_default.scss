@@ -83,6 +83,8 @@
 @include outline($class: $default)
 @include pointerEvents($class: $default)
 @include resize($class: $default)
+@include scrollBehavior($class: $default) // (v1.1.1)
+@include scrollSnap($class: $default) // (v1.1.0)
 @include userSelect($class: $default)
 
 /* layouts */
@@ -104,7 +106,6 @@
 @include visibility($class: $default)
 @include zIndex($class: $default)
 @include contentVisibility($class: $default) // (v1.0.9)
-@include scrollSnap($class: $default) // (v1.1.0)
 
 /* patterns */
 

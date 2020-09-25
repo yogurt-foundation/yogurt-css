@@ -77,6 +77,8 @@
 @include outline($prefix: $variant-focus, $pseudo: $focus)
 // @include pointerEvents($prefix: $variant-focus, $pseudo: $focus)
 // @include resize($prefix: $variant-focus, $pseudo: $focus)
+// @include scrollBehavior($prefix: $variant-focus, $pseudo: $focus) // (v1.1.1)
+// @include scrollSnap($prefix: $variant-focus, $pseudo: $focus) // (v1.1.0)
 // @include userSelect($prefix: $variant-focus, $pseudo: $focus)
 
 /* layouts */
@@ -97,7 +99,6 @@
 // @include position($prefix: $variant-focus, $pseudo: $focus)
 // @include visibility($prefix: $variant-focus, $pseudo: $focus)
 // @include zIndex($prefix: $variant-focus, $pseudo: $focus)
-// @include scrollSnap($prefix: $variant-focus, $pseudo: $focus) // (v1.1.0)
 
 /* sizing */
 

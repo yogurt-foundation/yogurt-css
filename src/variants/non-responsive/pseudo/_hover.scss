@@ -81,6 +81,8 @@
 // @include outline($prefix: $variant-hover, $pseudo: $hover)
 // @include pointerEvents($prefix: $variant-hover, $pseudo: $hover)
 // @include resize($prefix: $variant-hover, $pseudo: $hover)
+// @include scrollBehavior($prefix: $variant-hover, $pseudo: $hover) // (v1.1.1)
+// @include scrollSnap($prefix: $variant-hover, $pseudo: $hover) // (v1.1.0)
 // @include userSelect($prefix: $variant-hover, $pseudo: $hover)
 
 /* layouts */
@@ -101,7 +103,6 @@
 @include position($prefix: $variant-hover, $pseudo: $hover)
 @include visibility($prefix: $variant-hover, $pseudo: $hover)
 // @include zIndex($prefix: $variant-hover, $pseudo: $hover)
-//@include scrollSnap($prefix: $variant-hover, $pseudo: $hover) // (v1.1.0)
 // ----- GROUP
 @include display($prefix: $variant-group-hover)
 @include visibility($prefix: $variant-group-hover)

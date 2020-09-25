@@ -65,6 +65,8 @@
 // @include outline($prefix: $responsive-focus, $pseudo: $focus)
 // @include pointerEvents($prefix: $responsive-focus, $pseudo: $focus)
 // @include resize($prefix: $responsive-focus, $pseudo: $focus)
+// @include scrollBehavior($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.1)
+// @include scrollSnap($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.0)
 // @include userSelect($prefix: $responsive-focus, $pseudo: $focus)
 
 /* layouts */
@@ -85,7 +87,6 @@
 // @include position($prefix: $responsive-focus, $pseudo: $focus)
 // @include visibility($prefix: $responsive-focus, $pseudo: $focus)
 // @include zIndex($prefix: $responsive-focus, $pseudo: $focus)
-// @include scrollSnap($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.0)
 
 /* sizing */
 

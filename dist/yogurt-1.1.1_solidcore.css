@@ -1006,6 +1006,11 @@ y {
  */
 /**
  * @utility: interactivity
+ * @module: _scrollBehavior.scss
+ * @desc: smooth animation of scroll anchored position within a scrolling box
+ */
+/**
+ * @utility: interactivity
  * @module: _userSelect.scss
  * @desc: controls whether the user can select text
  */
@@ -24880,6 +24885,110 @@ y {
   resize: vertical;
 }
 
+.scroll-smoothauto {
+  scroll-behavior: smooth;
+}
+
+.scroll-smoothdefault {
+  scroll-behavior: smooth;
+}
+
+.scroll-smoothpointer {
+  scroll-behavior: smooth;
+}
+
+.scroll-smoothwait {
+  scroll-behavior: smooth;
+}
+
+.scroll-smoothtext {
+  scroll-behavior: smooth;
+}
+
+.scroll-smoothmove {
+  scroll-behavior: smooth;
+}
+
+.scroll-smoothnot-allowed {
+  scroll-behavior: smooth;
+}
+
+.scroll-snap.x-mandatory {
+  -webkit-scroll-snap-type: x mandatory;
+      -ms-scroll-snap-type: x mandatory;
+          scroll-snap-type: x mandatory;
+}
+
+.scroll-snap.y-mandatory {
+  -webkit-scroll-snap-type: y mandatory;
+      -ms-scroll-snap-type: y mandatory;
+          scroll-snap-type: y mandatory;
+}
+
+.scroll-snap.x-proximity {
+  -webkit-scroll-snap-type: x proximity;
+      -ms-scroll-snap-type: x proximity;
+          scroll-snap-type: x proximity;
+}
+
+.scroll-snap.y-proximity {
+  -webkit-scroll-snap-type: y proximity;
+      -ms-scroll-snap-type: y proximity;
+          scroll-snap-type: y proximity;
+}
+
+.scroll-snap.block-mandatory {
+  -webkit-scroll-snap-type: block mandatory;
+      -ms-scroll-snap-type: block mandatory;
+          scroll-snap-type: block mandatory;
+}
+
+.scroll-snap.block-proximity {
+  -webkit-scroll-snap-type: block proximity;
+      -ms-scroll-snap-type: block proximity;
+          scroll-snap-type: block proximity;
+}
+
+.scroll-snap.inline-mandatory {
+  -webkit-scroll-snap-type: inline mandatory;
+      -ms-scroll-snap-type: inline mandatory;
+          scroll-snap-type: inline mandatory;
+}
+
+.scroll-snap.inline-proximity {
+  -webkit-scroll-snap-type: inline proximity;
+      -ms-scroll-snap-type: inline proximity;
+          scroll-snap-type: inline proximity;
+}
+
+.scroll-snap.both-mandatory {
+  -webkit-scroll-snap-type: both mandatory;
+      -ms-scroll-snap-type: both mandatory;
+          scroll-snap-type: both mandatory;
+}
+
+.scroll-snap.both-proximity {
+  -webkit-scroll-snap-type: both proximity;
+      -ms-scroll-snap-type: both proximity;
+          scroll-snap-type: both proximity;
+}
+
+.scroll-snap.align-none > * {
+  scroll-snap-align: none;
+}
+
+.scroll-snap.align-start > * {
+  scroll-snap-align: start;
+}
+
+.scroll-snap.align-center > * {
+  scroll-snap-align: center;
+}
+
+.scroll-snap.align-end > * {
+  scroll-snap-align: end;
+}
+
 .select-none {
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -25641,82 +25750,6 @@ y {
 .render-hidden-tighter {
   content-visibility: hidden;
   contain-intrinsic-size: 200px;
-}
-
-.scroll-snap.x-mandatory {
-  -webkit-scroll-snap-type: x mandatory;
-      -ms-scroll-snap-type: x mandatory;
-          scroll-snap-type: x mandatory;
-}
-
-.scroll-snap.y-mandatory {
-  -webkit-scroll-snap-type: y mandatory;
-      -ms-scroll-snap-type: y mandatory;
-          scroll-snap-type: y mandatory;
-}
-
-.scroll-snap.x-proximity {
-  -webkit-scroll-snap-type: x proximity;
-      -ms-scroll-snap-type: x proximity;
-          scroll-snap-type: x proximity;
-}
-
-.scroll-snap.y-proximity {
-  -webkit-scroll-snap-type: y proximity;
-      -ms-scroll-snap-type: y proximity;
-          scroll-snap-type: y proximity;
-}
-
-.scroll-snap.block-mandatory {
-  -webkit-scroll-snap-type: block mandatory;
-      -ms-scroll-snap-type: block mandatory;
-          scroll-snap-type: block mandatory;
-}
-
-.scroll-snap.block-proximity {
-  -webkit-scroll-snap-type: block proximity;
-      -ms-scroll-snap-type: block proximity;
-          scroll-snap-type: block proximity;
-}
-
-.scroll-snap.inline-mandatory {
-  -webkit-scroll-snap-type: inline mandatory;
-      -ms-scroll-snap-type: inline mandatory;
-          scroll-snap-type: inline mandatory;
-}
-
-.scroll-snap.inline-proximity {
-  -webkit-scroll-snap-type: inline proximity;
-      -ms-scroll-snap-type: inline proximity;
-          scroll-snap-type: inline proximity;
-}
-
-.scroll-snap.both-mandatory {
-  -webkit-scroll-snap-type: both mandatory;
-      -ms-scroll-snap-type: both mandatory;
-          scroll-snap-type: both mandatory;
-}
-
-.scroll-snap.both-proximity {
-  -webkit-scroll-snap-type: both proximity;
-      -ms-scroll-snap-type: both proximity;
-          scroll-snap-type: both proximity;
-}
-
-.scroll-snap.align-none > * {
-  scroll-snap-align: none;
-}
-
-.scroll-snap.align-start > * {
-  scroll-snap-align: start;
-}
-
-.scroll-snap.align-center > * {
-  scroll-snap-align: center;
-}
-
-.scroll-snap.align-end > * {
-  scroll-snap-align: end;
 }
 
 /* patterns */
@@ -54523,6 +54556,89 @@ img[theme="invert"] {
   .xs\:resize-y {
     resize: vertical;
   }
+  .xs\:scroll-smoothauto {
+    scroll-behavior: smooth;
+  }
+  .xs\:scroll-smoothdefault {
+    scroll-behavior: smooth;
+  }
+  .xs\:scroll-smoothpointer {
+    scroll-behavior: smooth;
+  }
+  .xs\:scroll-smoothwait {
+    scroll-behavior: smooth;
+  }
+  .xs\:scroll-smoothtext {
+    scroll-behavior: smooth;
+  }
+  .xs\:scroll-smoothmove {
+    scroll-behavior: smooth;
+  }
+  .xs\:scroll-smoothnot-allowed {
+    scroll-behavior: smooth;
+  }
+  .xs\:scroll-snap.x-mandatory {
+    -webkit-scroll-snap-type: x mandatory;
+        -ms-scroll-snap-type: x mandatory;
+            scroll-snap-type: x mandatory;
+  }
+  .xs\:scroll-snap.y-mandatory {
+    -webkit-scroll-snap-type: y mandatory;
+        -ms-scroll-snap-type: y mandatory;
+            scroll-snap-type: y mandatory;
+  }
+  .xs\:scroll-snap.x-proximity {
+    -webkit-scroll-snap-type: x proximity;
+        -ms-scroll-snap-type: x proximity;
+            scroll-snap-type: x proximity;
+  }
+  .xs\:scroll-snap.y-proximity {
+    -webkit-scroll-snap-type: y proximity;
+        -ms-scroll-snap-type: y proximity;
+            scroll-snap-type: y proximity;
+  }
+  .xs\:scroll-snap.block-mandatory {
+    -webkit-scroll-snap-type: block mandatory;
+        -ms-scroll-snap-type: block mandatory;
+            scroll-snap-type: block mandatory;
+  }
+  .xs\:scroll-snap.block-proximity {
+    -webkit-scroll-snap-type: block proximity;
+        -ms-scroll-snap-type: block proximity;
+            scroll-snap-type: block proximity;
+  }
+  .xs\:scroll-snap.inline-mandatory {
+    -webkit-scroll-snap-type: inline mandatory;
+        -ms-scroll-snap-type: inline mandatory;
+            scroll-snap-type: inline mandatory;
+  }
+  .xs\:scroll-snap.inline-proximity {
+    -webkit-scroll-snap-type: inline proximity;
+        -ms-scroll-snap-type: inline proximity;
+            scroll-snap-type: inline proximity;
+  }
+  .xs\:scroll-snap.both-mandatory {
+    -webkit-scroll-snap-type: both mandatory;
+        -ms-scroll-snap-type: both mandatory;
+            scroll-snap-type: both mandatory;
+  }
+  .xs\:scroll-snap.both-proximity {
+    -webkit-scroll-snap-type: both proximity;
+        -ms-scroll-snap-type: both proximity;
+            scroll-snap-type: both proximity;
+  }
+  .xs\:scroll-snap.align-none > * {
+    scroll-snap-align: none;
+  }
+  .xs\:scroll-snap.align-start > * {
+    scroll-snap-align: start;
+  }
+  .xs\:scroll-snap.align-center > * {
+    scroll-snap-align: center;
+  }
+  .xs\:scroll-snap.align-end > * {
+    scroll-snap-align: end;
+  }
   .xs\:select-none {
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -55065,68 +55181,6 @@ img[theme="invert"] {
   }
   .xs\:z-50 {
     z-index: 50;
-  }
-  .xs\:scroll-snap.x-mandatory {
-    -webkit-scroll-snap-type: x mandatory;
-        -ms-scroll-snap-type: x mandatory;
-            scroll-snap-type: x mandatory;
-  }
-  .xs\:scroll-snap.y-mandatory {
-    -webkit-scroll-snap-type: y mandatory;
-        -ms-scroll-snap-type: y mandatory;
-            scroll-snap-type: y mandatory;
-  }
-  .xs\:scroll-snap.x-proximity {
-    -webkit-scroll-snap-type: x proximity;
-        -ms-scroll-snap-type: x proximity;
-            scroll-snap-type: x proximity;
-  }
-  .xs\:scroll-snap.y-proximity {
-    -webkit-scroll-snap-type: y proximity;
-        -ms-scroll-snap-type: y proximity;
-            scroll-snap-type: y proximity;
-  }
-  .xs\:scroll-snap.block-mandatory {
-    -webkit-scroll-snap-type: block mandatory;
-        -ms-scroll-snap-type: block mandatory;
-            scroll-snap-type: block mandatory;
-  }
-  .xs\:scroll-snap.block-proximity {
-    -webkit-scroll-snap-type: block proximity;
-        -ms-scroll-snap-type: block proximity;
-            scroll-snap-type: block proximity;
-  }
-  .xs\:scroll-snap.inline-mandatory {
-    -webkit-scroll-snap-type: inline mandatory;
-        -ms-scroll-snap-type: inline mandatory;
-            scroll-snap-type: inline mandatory;
-  }
-  .xs\:scroll-snap.inline-proximity {
-    -webkit-scroll-snap-type: inline proximity;
-        -ms-scroll-snap-type: inline proximity;
-            scroll-snap-type: inline proximity;
-  }
-  .xs\:scroll-snap.both-mandatory {
-    -webkit-scroll-snap-type: both mandatory;
-        -ms-scroll-snap-type: both mandatory;
-            scroll-snap-type: both mandatory;
-  }
-  .xs\:scroll-snap.both-proximity {
-    -webkit-scroll-snap-type: both proximity;
-        -ms-scroll-snap-type: both proximity;
-            scroll-snap-type: both proximity;
-  }
-  .xs\:scroll-snap.align-none > * {
-    scroll-snap-align: none;
-  }
-  .xs\:scroll-snap.align-start > * {
-    scroll-snap-align: start;
-  }
-  .xs\:scroll-snap.align-center > * {
-    scroll-snap-align: center;
-  }
-  .xs\:scroll-snap.align-end > * {
-    scroll-snap-align: end;
   }
   /* sizing */
   .xs\:h-auto {
@@ -57789,6 +57843,89 @@ img[theme="invert"] {
   .sm\:resize-y {
     resize: vertical;
   }
+  .sm\:scroll-smoothauto {
+    scroll-behavior: smooth;
+  }
+  .sm\:scroll-smoothdefault {
+    scroll-behavior: smooth;
+  }
+  .sm\:scroll-smoothpointer {
+    scroll-behavior: smooth;
+  }
+  .sm\:scroll-smoothwait {
+    scroll-behavior: smooth;
+  }
+  .sm\:scroll-smoothtext {
+    scroll-behavior: smooth;
+  }
+  .sm\:scroll-smoothmove {
+    scroll-behavior: smooth;
+  }
+  .sm\:scroll-smoothnot-allowed {
+    scroll-behavior: smooth;
+  }
+  .sm\:scroll-snap.x-mandatory {
+    -webkit-scroll-snap-type: x mandatory;
+        -ms-scroll-snap-type: x mandatory;
+            scroll-snap-type: x mandatory;
+  }
+  .sm\:scroll-snap.y-mandatory {
+    -webkit-scroll-snap-type: y mandatory;
+        -ms-scroll-snap-type: y mandatory;
+            scroll-snap-type: y mandatory;
+  }
+  .sm\:scroll-snap.x-proximity {
+    -webkit-scroll-snap-type: x proximity;
+        -ms-scroll-snap-type: x proximity;
+            scroll-snap-type: x proximity;
+  }
+  .sm\:scroll-snap.y-proximity {
+    -webkit-scroll-snap-type: y proximity;
+        -ms-scroll-snap-type: y proximity;
+            scroll-snap-type: y proximity;
+  }
+  .sm\:scroll-snap.block-mandatory {
+    -webkit-scroll-snap-type: block mandatory;
+        -ms-scroll-snap-type: block mandatory;
+            scroll-snap-type: block mandatory;
+  }
+  .sm\:scroll-snap.block-proximity {
+    -webkit-scroll-snap-type: block proximity;
+        -ms-scroll-snap-type: block proximity;
+            scroll-snap-type: block proximity;
+  }
+  .sm\:scroll-snap.inline-mandatory {
+    -webkit-scroll-snap-type: inline mandatory;
+        -ms-scroll-snap-type: inline mandatory;
+            scroll-snap-type: inline mandatory;
+  }
+  .sm\:scroll-snap.inline-proximity {
+    -webkit-scroll-snap-type: inline proximity;
+        -ms-scroll-snap-type: inline proximity;
+            scroll-snap-type: inline proximity;
+  }
+  .sm\:scroll-snap.both-mandatory {
+    -webkit-scroll-snap-type: both mandatory;
+        -ms-scroll-snap-type: both mandatory;
+            scroll-snap-type: both mandatory;
+  }
+  .sm\:scroll-snap.both-proximity {
+    -webkit-scroll-snap-type: both proximity;
+        -ms-scroll-snap-type: both proximity;
+            scroll-snap-type: both proximity;
+  }
+  .sm\:scroll-snap.align-none > * {
+    scroll-snap-align: none;
+  }
+  .sm\:scroll-snap.align-start > * {
+    scroll-snap-align: start;
+  }
+  .sm\:scroll-snap.align-center > * {
+    scroll-snap-align: center;
+  }
+  .sm\:scroll-snap.align-end > * {
+    scroll-snap-align: end;
+  }
   .sm\:select-none {
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -58331,68 +58468,6 @@ img[theme="invert"] {
   }
   .sm\:z-50 {
     z-index: 50;
-  }
-  .sm\:scroll-snap.x-mandatory {
-    -webkit-scroll-snap-type: x mandatory;
-        -ms-scroll-snap-type: x mandatory;
-            scroll-snap-type: x mandatory;
-  }
-  .sm\:scroll-snap.y-mandatory {
-    -webkit-scroll-snap-type: y mandatory;
-        -ms-scroll-snap-type: y mandatory;
-            scroll-snap-type: y mandatory;
-  }
-  .sm\:scroll-snap.x-proximity {
-    -webkit-scroll-snap-type: x proximity;
-        -ms-scroll-snap-type: x proximity;
-            scroll-snap-type: x proximity;
-  }
-  .sm\:scroll-snap.y-proximity {
-    -webkit-scroll-snap-type: y proximity;
-        -ms-scroll-snap-type: y proximity;
-            scroll-snap-type: y proximity;
-  }
-  .sm\:scroll-snap.block-mandatory {
-    -webkit-scroll-snap-type: block mandatory;
-        -ms-scroll-snap-type: block mandatory;
-            scroll-snap-type: block mandatory;
-  }
-  .sm\:scroll-snap.block-proximity {
-    -webkit-scroll-snap-type: block proximity;
-        -ms-scroll-snap-type: block proximity;
-            scroll-snap-type: block proximity;
-  }
-  .sm\:scroll-snap.inline-mandatory {
-    -webkit-scroll-snap-type: inline mandatory;
-        -ms-scroll-snap-type: inline mandatory;
-            scroll-snap-type: inline mandatory;
-  }
-  .sm\:scroll-snap.inline-proximity {
-    -webkit-scroll-snap-type: inline proximity;
-        -ms-scroll-snap-type: inline proximity;
-            scroll-snap-type: inline proximity;
-  }
-  .sm\:scroll-snap.both-mandatory {
-    -webkit-scroll-snap-type: both mandatory;
-        -ms-scroll-snap-type: both mandatory;
-            scroll-snap-type: both mandatory;
-  }
-  .sm\:scroll-snap.both-proximity {
-    -webkit-scroll-snap-type: both proximity;
-        -ms-scroll-snap-type: both proximity;
-            scroll-snap-type: both proximity;
-  }
-  .sm\:scroll-snap.align-none > * {
-    scroll-snap-align: none;
-  }
-  .sm\:scroll-snap.align-start > * {
-    scroll-snap-align: start;
-  }
-  .sm\:scroll-snap.align-center > * {
-    scroll-snap-align: center;
-  }
-  .sm\:scroll-snap.align-end > * {
-    scroll-snap-align: end;
   }
   /* sizing */
   .sm\:h-auto {
@@ -61055,6 +61130,89 @@ img[theme="invert"] {
   .md\:resize-y {
     resize: vertical;
   }
+  .md\:scroll-smoothauto {
+    scroll-behavior: smooth;
+  }
+  .md\:scroll-smoothdefault {
+    scroll-behavior: smooth;
+  }
+  .md\:scroll-smoothpointer {
+    scroll-behavior: smooth;
+  }
+  .md\:scroll-smoothwait {
+    scroll-behavior: smooth;
+  }
+  .md\:scroll-smoothtext {
+    scroll-behavior: smooth;
+  }
+  .md\:scroll-smoothmove {
+    scroll-behavior: smooth;
+  }
+  .md\:scroll-smoothnot-allowed {
+    scroll-behavior: smooth;
+  }
+  .md\:scroll-snap.x-mandatory {
+    -webkit-scroll-snap-type: x mandatory;
+        -ms-scroll-snap-type: x mandatory;
+            scroll-snap-type: x mandatory;
+  }
+  .md\:scroll-snap.y-mandatory {
+    -webkit-scroll-snap-type: y mandatory;
+        -ms-scroll-snap-type: y mandatory;
+            scroll-snap-type: y mandatory;
+  }
+  .md\:scroll-snap.x-proximity {
+    -webkit-scroll-snap-type: x proximity;
+        -ms-scroll-snap-type: x proximity;
+            scroll-snap-type: x proximity;
+  }
+  .md\:scroll-snap.y-proximity {
+    -webkit-scroll-snap-type: y proximity;
+        -ms-scroll-snap-type: y proximity;
+            scroll-snap-type: y proximity;
+  }
+  .md\:scroll-snap.block-mandatory {
+    -webkit-scroll-snap-type: block mandatory;
+        -ms-scroll-snap-type: block mandatory;
+            scroll-snap-type: block mandatory;
+  }
+  .md\:scroll-snap.block-proximity {
+    -webkit-scroll-snap-type: block proximity;
+        -ms-scroll-snap-type: block proximity;
+            scroll-snap-type: block proximity;
+  }
+  .md\:scroll-snap.inline-mandatory {
+    -webkit-scroll-snap-type: inline mandatory;
+        -ms-scroll-snap-type: inline mandatory;
+            scroll-snap-type: inline mandatory;
+  }
+  .md\:scroll-snap.inline-proximity {
+    -webkit-scroll-snap-type: inline proximity;
+        -ms-scroll-snap-type: inline proximity;
+            scroll-snap-type: inline proximity;
+  }
+  .md\:scroll-snap.both-mandatory {
+    -webkit-scroll-snap-type: both mandatory;
+        -ms-scroll-snap-type: both mandatory;
+            scroll-snap-type: both mandatory;
+  }
+  .md\:scroll-snap.both-proximity {
+    -webkit-scroll-snap-type: both proximity;
+        -ms-scroll-snap-type: both proximity;
+            scroll-snap-type: both proximity;
+  }
+  .md\:scroll-snap.align-none > * {
+    scroll-snap-align: none;
+  }
+  .md\:scroll-snap.align-start > * {
+    scroll-snap-align: start;
+  }
+  .md\:scroll-snap.align-center > * {
+    scroll-snap-align: center;
+  }
+  .md\:scroll-snap.align-end > * {
+    scroll-snap-align: end;
+  }
   .md\:select-none {
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -61597,68 +61755,6 @@ img[theme="invert"] {
   }
   .md\:z-50 {
     z-index: 50;
-  }
-  .md\:scroll-snap.x-mandatory {
-    -webkit-scroll-snap-type: x mandatory;
-        -ms-scroll-snap-type: x mandatory;
-            scroll-snap-type: x mandatory;
-  }
-  .md\:scroll-snap.y-mandatory {
-    -webkit-scroll-snap-type: y mandatory;
-        -ms-scroll-snap-type: y mandatory;
-            scroll-snap-type: y mandatory;
-  }
-  .md\:scroll-snap.x-proximity {
-    -webkit-scroll-snap-type: x proximity;
-        -ms-scroll-snap-type: x proximity;
-            scroll-snap-type: x proximity;
-  }
-  .md\:scroll-snap.y-proximity {
-    -webkit-scroll-snap-type: y proximity;
-        -ms-scroll-snap-type: y proximity;
-            scroll-snap-type: y proximity;
-  }
-  .md\:scroll-snap.block-mandatory {
-    -webkit-scroll-snap-type: block mandatory;
-        -ms-scroll-snap-type: block mandatory;
-            scroll-snap-type: block mandatory;
-  }
-  .md\:scroll-snap.block-proximity {
-    -webkit-scroll-snap-type: block proximity;
-        -ms-scroll-snap-type: block proximity;
-            scroll-snap-type: block proximity;
-  }
-  .md\:scroll-snap.inline-mandatory {
-    -webkit-scroll-snap-type: inline mandatory;
-        -ms-scroll-snap-type: inline mandatory;
-            scroll-snap-type: inline mandatory;
-  }
-  .md\:scroll-snap.inline-proximity {
-    -webkit-scroll-snap-type: inline proximity;
-        -ms-scroll-snap-type: inline proximity;
-            scroll-snap-type: inline proximity;
-  }
-  .md\:scroll-snap.both-mandatory {
-    -webkit-scroll-snap-type: both mandatory;
-        -ms-scroll-snap-type: both mandatory;
-            scroll-snap-type: both mandatory;
-  }
-  .md\:scroll-snap.both-proximity {
-    -webkit-scroll-snap-type: both proximity;
-        -ms-scroll-snap-type: both proximity;
-            scroll-snap-type: both proximity;
-  }
-  .md\:scroll-snap.align-none > * {
-    scroll-snap-align: none;
-  }
-  .md\:scroll-snap.align-start > * {
-    scroll-snap-align: start;
-  }
-  .md\:scroll-snap.align-center > * {
-    scroll-snap-align: center;
-  }
-  .md\:scroll-snap.align-end > * {
-    scroll-snap-align: end;
   }
   /* sizing */
   .md\:h-auto {
@@ -64321,6 +64417,89 @@ img[theme="invert"] {
   .lg\:resize-y {
     resize: vertical;
   }
+  .lg\:scroll-smoothauto {
+    scroll-behavior: smooth;
+  }
+  .lg\:scroll-smoothdefault {
+    scroll-behavior: smooth;
+  }
+  .lg\:scroll-smoothpointer {
+    scroll-behavior: smooth;
+  }
+  .lg\:scroll-smoothwait {
+    scroll-behavior: smooth;
+  }
+  .lg\:scroll-smoothtext {
+    scroll-behavior: smooth;
+  }
+  .lg\:scroll-smoothmove {
+    scroll-behavior: smooth;
+  }
+  .lg\:scroll-smoothnot-allowed {
+    scroll-behavior: smooth;
+  }
+  .lg\:scroll-snap.x-mandatory {
+    -webkit-scroll-snap-type: x mandatory;
+        -ms-scroll-snap-type: x mandatory;
+            scroll-snap-type: x mandatory;
+  }
+  .lg\:scroll-snap.y-mandatory {
+    -webkit-scroll-snap-type: y mandatory;
+        -ms-scroll-snap-type: y mandatory;
+            scroll-snap-type: y mandatory;
+  }
+  .lg\:scroll-snap.x-proximity {
+    -webkit-scroll-snap-type: x proximity;
+        -ms-scroll-snap-type: x proximity;
+            scroll-snap-type: x proximity;
+  }
+  .lg\:scroll-snap.y-proximity {
+    -webkit-scroll-snap-type: y proximity;
+        -ms-scroll-snap-type: y proximity;
+            scroll-snap-type: y proximity;
+  }
+  .lg\:scroll-snap.block-mandatory {
+    -webkit-scroll-snap-type: block mandatory;
+        -ms-scroll-snap-type: block mandatory;
+            scroll-snap-type: block mandatory;
+  }
+  .lg\:scroll-snap.block-proximity {
+    -webkit-scroll-snap-type: block proximity;
+        -ms-scroll-snap-type: block proximity;
+            scroll-snap-type: block proximity;
+  }
+  .lg\:scroll-snap.inline-mandatory {
+    -webkit-scroll-snap-type: inline mandatory;
+        -ms-scroll-snap-type: inline mandatory;
+            scroll-snap-type: inline mandatory;
+  }
+  .lg\:scroll-snap.inline-proximity {
+    -webkit-scroll-snap-type: inline proximity;
+        -ms-scroll-snap-type: inline proximity;
+            scroll-snap-type: inline proximity;
+  }
+  .lg\:scroll-snap.both-mandatory {
+    -webkit-scroll-snap-type: both mandatory;
+        -ms-scroll-snap-type: both mandatory;
+            scroll-snap-type: both mandatory;
+  }
+  .lg\:scroll-snap.both-proximity {
+    -webkit-scroll-snap-type: both proximity;
+        -ms-scroll-snap-type: both proximity;
+            scroll-snap-type: both proximity;
+  }
+  .lg\:scroll-snap.align-none > * {
+    scroll-snap-align: none;
+  }
+  .lg\:scroll-snap.align-start > * {
+    scroll-snap-align: start;
+  }
+  .lg\:scroll-snap.align-center > * {
+    scroll-snap-align: center;
+  }
+  .lg\:scroll-snap.align-end > * {
+    scroll-snap-align: end;
+  }
   .lg\:select-none {
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -64863,68 +65042,6 @@ img[theme="invert"] {
   }
   .lg\:z-50 {
     z-index: 50;
-  }
-  .lg\:scroll-snap.x-mandatory {
-    -webkit-scroll-snap-type: x mandatory;
-        -ms-scroll-snap-type: x mandatory;
-            scroll-snap-type: x mandatory;
-  }
-  .lg\:scroll-snap.y-mandatory {
-    -webkit-scroll-snap-type: y mandatory;
-        -ms-scroll-snap-type: y mandatory;
-            scroll-snap-type: y mandatory;
-  }
-  .lg\:scroll-snap.x-proximity {
-    -webkit-scroll-snap-type: x proximity;
-        -ms-scroll-snap-type: x proximity;
-            scroll-snap-type: x proximity;
-  }
-  .lg\:scroll-snap.y-proximity {
-    -webkit-scroll-snap-type: y proximity;
-        -ms-scroll-snap-type: y proximity;
-            scroll-snap-type: y proximity;
-  }
-  .lg\:scroll-snap.block-mandatory {
-    -webkit-scroll-snap-type: block mandatory;
-        -ms-scroll-snap-type: block mandatory;
-            scroll-snap-type: block mandatory;
-  }
-  .lg\:scroll-snap.block-proximity {
-    -webkit-scroll-snap-type: block proximity;
-        -ms-scroll-snap-type: block proximity;
-            scroll-snap-type: block proximity;
-  }
-  .lg\:scroll-snap.inline-mandatory {
-    -webkit-scroll-snap-type: inline mandatory;
-        -ms-scroll-snap-type: inline mandatory;
-            scroll-snap-type: inline mandatory;
-  }
-  .lg\:scroll-snap.inline-proximity {
-    -webkit-scroll-snap-type: inline proximity;
-        -ms-scroll-snap-type: inline proximity;
-            scroll-snap-type: inline proximity;
-  }
-  .lg\:scroll-snap.both-mandatory {
-    -webkit-scroll-snap-type: both mandatory;
-        -ms-scroll-snap-type: both mandatory;
-            scroll-snap-type: both mandatory;
-  }
-  .lg\:scroll-snap.both-proximity {
-    -webkit-scroll-snap-type: both proximity;
-        -ms-scroll-snap-type: both proximity;
-            scroll-snap-type: both proximity;
-  }
-  .lg\:scroll-snap.align-none > * {
-    scroll-snap-align: none;
-  }
-  .lg\:scroll-snap.align-start > * {
-    scroll-snap-align: start;
-  }
-  .lg\:scroll-snap.align-center > * {
-    scroll-snap-align: center;
-  }
-  .lg\:scroll-snap.align-end > * {
-    scroll-snap-align: end;
   }
   /* sizing */
   .lg\:h-auto {
@@ -67587,6 +67704,89 @@ img[theme="invert"] {
   .xl\:resize-y {
     resize: vertical;
   }
+  .xl\:scroll-smoothauto {
+    scroll-behavior: smooth;
+  }
+  .xl\:scroll-smoothdefault {
+    scroll-behavior: smooth;
+  }
+  .xl\:scroll-smoothpointer {
+    scroll-behavior: smooth;
+  }
+  .xl\:scroll-smoothwait {
+    scroll-behavior: smooth;
+  }
+  .xl\:scroll-smoothtext {
+    scroll-behavior: smooth;
+  }
+  .xl\:scroll-smoothmove {
+    scroll-behavior: smooth;
+  }
+  .xl\:scroll-smoothnot-allowed {
+    scroll-behavior: smooth;
+  }
+  .xl\:scroll-snap.x-mandatory {
+    -webkit-scroll-snap-type: x mandatory;
+        -ms-scroll-snap-type: x mandatory;
+            scroll-snap-type: x mandatory;
+  }
+  .xl\:scroll-snap.y-mandatory {
+    -webkit-scroll-snap-type: y mandatory;
+        -ms-scroll-snap-type: y mandatory;
+            scroll-snap-type: y mandatory;
+  }
+  .xl\:scroll-snap.x-proximity {
+    -webkit-scroll-snap-type: x proximity;
+        -ms-scroll-snap-type: x proximity;
+            scroll-snap-type: x proximity;
+  }
+  .xl\:scroll-snap.y-proximity {
+    -webkit-scroll-snap-type: y proximity;
+        -ms-scroll-snap-type: y proximity;
+            scroll-snap-type: y proximity;
+  }
+  .xl\:scroll-snap.block-mandatory {
+    -webkit-scroll-snap-type: block mandatory;
+        -ms-scroll-snap-type: block mandatory;
+            scroll-snap-type: block mandatory;
+  }
+  .xl\:scroll-snap.block-proximity {
+    -webkit-scroll-snap-type: block proximity;
+        -ms-scroll-snap-type: block proximity;
+            scroll-snap-type: block proximity;
+  }
+  .xl\:scroll-snap.inline-mandatory {
+    -webkit-scroll-snap-type: inline mandatory;
+        -ms-scroll-snap-type: inline mandatory;
+            scroll-snap-type: inline mandatory;
+  }
+  .xl\:scroll-snap.inline-proximity {
+    -webkit-scroll-snap-type: inline proximity;
+        -ms-scroll-snap-type: inline proximity;
+            scroll-snap-type: inline proximity;
+  }
+  .xl\:scroll-snap.both-mandatory {
+    -webkit-scroll-snap-type: both mandatory;
+        -ms-scroll-snap-type: both mandatory;
+            scroll-snap-type: both mandatory;
+  }
+  .xl\:scroll-snap.both-proximity {
+    -webkit-scroll-snap-type: both proximity;
+        -ms-scroll-snap-type: both proximity;
+            scroll-snap-type: both proximity;
+  }
+  .xl\:scroll-snap.align-none > * {
+    scroll-snap-align: none;
+  }
+  .xl\:scroll-snap.align-start > * {
+    scroll-snap-align: start;
+  }
+  .xl\:scroll-snap.align-center > * {
+    scroll-snap-align: center;
+  }
+  .xl\:scroll-snap.align-end > * {
+    scroll-snap-align: end;
+  }
   .xl\:select-none {
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -68129,68 +68329,6 @@ img[theme="invert"] {
   }
   .xl\:z-50 {
     z-index: 50;
-  }
-  .xl\:scroll-snap.x-mandatory {
-    -webkit-scroll-snap-type: x mandatory;
-        -ms-scroll-snap-type: x mandatory;
-            scroll-snap-type: x mandatory;
-  }
-  .xl\:scroll-snap.y-mandatory {
-    -webkit-scroll-snap-type: y mandatory;
-        -ms-scroll-snap-type: y mandatory;
-            scroll-snap-type: y mandatory;
-  }
-  .xl\:scroll-snap.x-proximity {
-    -webkit-scroll-snap-type: x proximity;
-        -ms-scroll-snap-type: x proximity;
-            scroll-snap-type: x proximity;
-  }
-  .xl\:scroll-snap.y-proximity {
-    -webkit-scroll-snap-type: y proximity;
-        -ms-scroll-snap-type: y proximity;
-            scroll-snap-type: y proximity;
-  }
-  .xl\:scroll-snap.block-mandatory {
-    -webkit-scroll-snap-type: block mandatory;
-        -ms-scroll-snap-type: block mandatory;
-            scroll-snap-type: block mandatory;
-  }
-  .xl\:scroll-snap.block-proximity {
-    -webkit-scroll-snap-type: block proximity;
-        -ms-scroll-snap-type: block proximity;
-            scroll-snap-type: block proximity;
-  }
-  .xl\:scroll-snap.inline-mandatory {
-    -webkit-scroll-snap-type: inline mandatory;
-        -ms-scroll-snap-type: inline mandatory;
-            scroll-snap-type: inline mandatory;
-  }
-  .xl\:scroll-snap.inline-proximity {
-    -webkit-scroll-snap-type: inline proximity;
-        -ms-scroll-snap-type: inline proximity;
-            scroll-snap-type: inline proximity;
-  }
-  .xl\:scroll-snap.both-mandatory {
-    -webkit-scroll-snap-type: both mandatory;
-        -ms-scroll-snap-type: both mandatory;
-            scroll-snap-type: both mandatory;
-  }
-  .xl\:scroll-snap.both-proximity {
-    -webkit-scroll-snap-type: both proximity;
-        -ms-scroll-snap-type: both proximity;
-            scroll-snap-type: both proximity;
-  }
-  .xl\:scroll-snap.align-none > * {
-    scroll-snap-align: none;
-  }
-  .xl\:scroll-snap.align-start > * {
-    scroll-snap-align: start;
-  }
-  .xl\:scroll-snap.align-center > * {
-    scroll-snap-align: center;
-  }
-  .xl\:scroll-snap.align-end > * {
-    scroll-snap-align: end;
   }
   /* sizing */
   .xl\:h-auto {
@@ -70853,6 +70991,89 @@ img[theme="invert"] {
   .\32k\:resize-y {
     resize: vertical;
   }
+  .\32k\:scroll-smoothauto {
+    scroll-behavior: smooth;
+  }
+  .\32k\:scroll-smoothdefault {
+    scroll-behavior: smooth;
+  }
+  .\32k\:scroll-smoothpointer {
+    scroll-behavior: smooth;
+  }
+  .\32k\:scroll-smoothwait {
+    scroll-behavior: smooth;
+  }
+  .\32k\:scroll-smoothtext {
+    scroll-behavior: smooth;
+  }
+  .\32k\:scroll-smoothmove {
+    scroll-behavior: smooth;
+  }
+  .\32k\:scroll-smoothnot-allowed {
+    scroll-behavior: smooth;
+  }
+  .\32k\:scroll-snap.x-mandatory {
+    -webkit-scroll-snap-type: x mandatory;
+        -ms-scroll-snap-type: x mandatory;
+            scroll-snap-type: x mandatory;
+  }
+  .\32k\:scroll-snap.y-mandatory {
+    -webkit-scroll-snap-type: y mandatory;
+        -ms-scroll-snap-type: y mandatory;
+            scroll-snap-type: y mandatory;
+  }
+  .\32k\:scroll-snap.x-proximity {
+    -webkit-scroll-snap-type: x proximity;
+        -ms-scroll-snap-type: x proximity;
+            scroll-snap-type: x proximity;
+  }
+  .\32k\:scroll-snap.y-proximity {
+    -webkit-scroll-snap-type: y proximity;
+        -ms-scroll-snap-type: y proximity;
+            scroll-snap-type: y proximity;
+  }
+  .\32k\:scroll-snap.block-mandatory {
+    -webkit-scroll-snap-type: block mandatory;
+        -ms-scroll-snap-type: block mandatory;
+            scroll-snap-type: block mandatory;
+  }
+  .\32k\:scroll-snap.block-proximity {
+    -webkit-scroll-snap-type: block proximity;
+        -ms-scroll-snap-type: block proximity;
+            scroll-snap-type: block proximity;
+  }
+  .\32k\:scroll-snap.inline-mandatory {
+    -webkit-scroll-snap-type: inline mandatory;
+        -ms-scroll-snap-type: inline mandatory;
+            scroll-snap-type: inline mandatory;
+  }
+  .\32k\:scroll-snap.inline-proximity {
+    -webkit-scroll-snap-type: inline proximity;
+        -ms-scroll-snap-type: inline proximity;
+            scroll-snap-type: inline proximity;
+  }
+  .\32k\:scroll-snap.both-mandatory {
+    -webkit-scroll-snap-type: both mandatory;
+        -ms-scroll-snap-type: both mandatory;
+            scroll-snap-type: both mandatory;
+  }
+  .\32k\:scroll-snap.both-proximity {
+    -webkit-scroll-snap-type: both proximity;
+        -ms-scroll-snap-type: both proximity;
+            scroll-snap-type: both proximity;
+  }
+  .\32k\:scroll-snap.align-none > * {
+    scroll-snap-align: none;
+  }
+  .\32k\:scroll-snap.align-start > * {
+    scroll-snap-align: start;
+  }
+  .\32k\:scroll-snap.align-center > * {
+    scroll-snap-align: center;
+  }
+  .\32k\:scroll-snap.align-end > * {
+    scroll-snap-align: end;
+  }
   .\32k\:select-none {
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -71395,68 +71616,6 @@ img[theme="invert"] {
   }
   .\32k\:z-50 {
     z-index: 50;
-  }
-  .\32k\:scroll-snap.x-mandatory {
-    -webkit-scroll-snap-type: x mandatory;
-        -ms-scroll-snap-type: x mandatory;
-            scroll-snap-type: x mandatory;
-  }
-  .\32k\:scroll-snap.y-mandatory {
-    -webkit-scroll-snap-type: y mandatory;
-        -ms-scroll-snap-type: y mandatory;
-            scroll-snap-type: y mandatory;
-  }
-  .\32k\:scroll-snap.x-proximity {
-    -webkit-scroll-snap-type: x proximity;
-        -ms-scroll-snap-type: x proximity;
-            scroll-snap-type: x proximity;
-  }
-  .\32k\:scroll-snap.y-proximity {
-    -webkit-scroll-snap-type: y proximity;
-        -ms-scroll-snap-type: y proximity;
-            scroll-snap-type: y proximity;
-  }
-  .\32k\:scroll-snap.block-mandatory {
-    -webkit-scroll-snap-type: block mandatory;
-        -ms-scroll-snap-type: block mandatory;
-            scroll-snap-type: block mandatory;
-  }
-  .\32k\:scroll-snap.block-proximity {
-    -webkit-scroll-snap-type: block proximity;
-        -ms-scroll-snap-type: block proximity;
-            scroll-snap-type: block proximity;
-  }
-  .\32k\:scroll-snap.inline-mandatory {
-    -webkit-scroll-snap-type: inline mandatory;
-        -ms-scroll-snap-type: inline mandatory;
-            scroll-snap-type: inline mandatory;
-  }
-  .\32k\:scroll-snap.inline-proximity {
-    -webkit-scroll-snap-type: inline proximity;
-        -ms-scroll-snap-type: inline proximity;
-            scroll-snap-type: inline proximity;
-  }
-  .\32k\:scroll-snap.both-mandatory {
-    -webkit-scroll-snap-type: both mandatory;
-        -ms-scroll-snap-type: both mandatory;
-            scroll-snap-type: both mandatory;
-  }
-  .\32k\:scroll-snap.both-proximity {
-    -webkit-scroll-snap-type: both proximity;
-        -ms-scroll-snap-type: both proximity;
-            scroll-snap-type: both proximity;
-  }
-  .\32k\:scroll-snap.align-none > * {
-    scroll-snap-align: none;
-  }
-  .\32k\:scroll-snap.align-start > * {
-    scroll-snap-align: start;
-  }
-  .\32k\:scroll-snap.align-center > * {
-    scroll-snap-align: center;
-  }
-  .\32k\:scroll-snap.align-end > * {
-    scroll-snap-align: end;
   }
   /* sizing */
   .\32k\:h-auto {
@@ -74119,6 +74278,89 @@ img[theme="invert"] {
   .\34k\:resize-y {
     resize: vertical;
   }
+  .\34k\:scroll-smoothauto {
+    scroll-behavior: smooth;
+  }
+  .\34k\:scroll-smoothdefault {
+    scroll-behavior: smooth;
+  }
+  .\34k\:scroll-smoothpointer {
+    scroll-behavior: smooth;
+  }
+  .\34k\:scroll-smoothwait {
+    scroll-behavior: smooth;
+  }
+  .\34k\:scroll-smoothtext {
+    scroll-behavior: smooth;
+  }
+  .\34k\:scroll-smoothmove {
+    scroll-behavior: smooth;
+  }
+  .\34k\:scroll-smoothnot-allowed {
+    scroll-behavior: smooth;
+  }
+  .\34k\:scroll-snap.x-mandatory {
+    -webkit-scroll-snap-type: x mandatory;
+        -ms-scroll-snap-type: x mandatory;
+            scroll-snap-type: x mandatory;
+  }
+  .\34k\:scroll-snap.y-mandatory {
+    -webkit-scroll-snap-type: y mandatory;
+        -ms-scroll-snap-type: y mandatory;
+            scroll-snap-type: y mandatory;
+  }
+  .\34k\:scroll-snap.x-proximity {
+    -webkit-scroll-snap-type: x proximity;
+        -ms-scroll-snap-type: x proximity;
+            scroll-snap-type: x proximity;
+  }
+  .\34k\:scroll-snap.y-proximity {
+    -webkit-scroll-snap-type: y proximity;
+        -ms-scroll-snap-type: y proximity;
+            scroll-snap-type: y proximity;
+  }
+  .\34k\:scroll-snap.block-mandatory {
+    -webkit-scroll-snap-type: block mandatory;
+        -ms-scroll-snap-type: block mandatory;
+            scroll-snap-type: block mandatory;
+  }
+  .\34k\:scroll-snap.block-proximity {
+    -webkit-scroll-snap-type: block proximity;
+        -ms-scroll-snap-type: block proximity;
+            scroll-snap-type: block proximity;
+  }
+  .\34k\:scroll-snap.inline-mandatory {
+    -webkit-scroll-snap-type: inline mandatory;
+        -ms-scroll-snap-type: inline mandatory;
+            scroll-snap-type: inline mandatory;
+  }
+  .\34k\:scroll-snap.inline-proximity {
+    -webkit-scroll-snap-type: inline proximity;
+        -ms-scroll-snap-type: inline proximity;
+            scroll-snap-type: inline proximity;
+  }
+  .\34k\:scroll-snap.both-mandatory {
+    -webkit-scroll-snap-type: both mandatory;
+        -ms-scroll-snap-type: both mandatory;
+            scroll-snap-type: both mandatory;
+  }
+  .\34k\:scroll-snap.both-proximity {
+    -webkit-scroll-snap-type: both proximity;
+        -ms-scroll-snap-type: both proximity;
+            scroll-snap-type: both proximity;
+  }
+  .\34k\:scroll-snap.align-none > * {
+    scroll-snap-align: none;
+  }
+  .\34k\:scroll-snap.align-start > * {
+    scroll-snap-align: start;
+  }
+  .\34k\:scroll-snap.align-center > * {
+    scroll-snap-align: center;
+  }
+  .\34k\:scroll-snap.align-end > * {
+    scroll-snap-align: end;
+  }
   .\34k\:select-none {
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -74661,68 +74903,6 @@ img[theme="invert"] {
   }
   .\34k\:z-50 {
     z-index: 50;
-  }
-  .\34k\:scroll-snap.x-mandatory {
-    -webkit-scroll-snap-type: x mandatory;
-        -ms-scroll-snap-type: x mandatory;
-            scroll-snap-type: x mandatory;
-  }
-  .\34k\:scroll-snap.y-mandatory {
-    -webkit-scroll-snap-type: y mandatory;
-        -ms-scroll-snap-type: y mandatory;
-            scroll-snap-type: y mandatory;
-  }
-  .\34k\:scroll-snap.x-proximity {
-    -webkit-scroll-snap-type: x proximity;
-        -ms-scroll-snap-type: x proximity;
-            scroll-snap-type: x proximity;
-  }
-  .\34k\:scroll-snap.y-proximity {
-    -webkit-scroll-snap-type: y proximity;
-        -ms-scroll-snap-type: y proximity;
-            scroll-snap-type: y proximity;
-  }
-  .\34k\:scroll-snap.block-mandatory {
-    -webkit-scroll-snap-type: block mandatory;
-        -ms-scroll-snap-type: block mandatory;
-            scroll-snap-type: block mandatory;
-  }
-  .\34k\:scroll-snap.block-proximity {
-    -webkit-scroll-snap-type: block proximity;
-        -ms-scroll-snap-type: block proximity;
-            scroll-snap-type: block proximity;
-  }
-  .\34k\:scroll-snap.inline-mandatory {
-    -webkit-scroll-snap-type: inline mandatory;
-        -ms-scroll-snap-type: inline mandatory;
-            scroll-snap-type: inline mandatory;
-  }
-  .\34k\:scroll-snap.inline-proximity {
-    -webkit-scroll-snap-type: inline proximity;
-        -ms-scroll-snap-type: inline proximity;
-            scroll-snap-type: inline proximity;
-  }
-  .\34k\:scroll-snap.both-mandatory {
-    -webkit-scroll-snap-type: both mandatory;
-        -ms-scroll-snap-type: both mandatory;
-            scroll-snap-type: both mandatory;
-  }
-  .\34k\:scroll-snap.both-proximity {
-    -webkit-scroll-snap-type: both proximity;
-        -ms-scroll-snap-type: both proximity;
-            scroll-snap-type: both proximity;
-  }
-  .\34k\:scroll-snap.align-none > * {
-    scroll-snap-align: none;
-  }
-  .\34k\:scroll-snap.align-start > * {
-    scroll-snap-align: start;
-  }
-  .\34k\:scroll-snap.align-center > * {
-    scroll-snap-align: center;
-  }
-  .\34k\:scroll-snap.align-end > * {
-    scroll-snap-align: end;
   }
   /* sizing */
   .\34k\:h-auto {
