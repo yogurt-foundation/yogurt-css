@@ -358,14 +358,12 @@ template {
  * 1. prevent padding and border from affecting element width
  * https://goo.gl/pytbk7
  * 2. change the default font family in all browsers (opinionated)
- * 3. enable smooth scrolling
  */
 html {
   box-sizing: border-box;
   /* 1 */
   font-family: sans-serif;
   /* 2 */
-  scroll-behavior: smooth;
 }
 
 *,
@@ -24885,31 +24883,7 @@ y {
   resize: vertical;
 }
 
-.scroll-smoothauto {
-  scroll-behavior: smooth;
-}
-
-.scroll-smoothdefault {
-  scroll-behavior: smooth;
-}
-
-.scroll-smoothpointer {
-  scroll-behavior: smooth;
-}
-
-.scroll-smoothwait {
-  scroll-behavior: smooth;
-}
-
-.scroll-smoothtext {
-  scroll-behavior: smooth;
-}
-
-.scroll-smoothmove {
-  scroll-behavior: smooth;
-}
-
-.scroll-smoothnot-allowed {
+.scroll-smooth {
   scroll-behavior: smooth;
 }
 
@@ -54556,25 +54530,7 @@ img[theme="invert"] {
   .xs\:resize-y {
     resize: vertical;
   }
-  .xs\:scroll-smoothauto {
-    scroll-behavior: smooth;
-  }
-  .xs\:scroll-smoothdefault {
-    scroll-behavior: smooth;
-  }
-  .xs\:scroll-smoothpointer {
-    scroll-behavior: smooth;
-  }
-  .xs\:scroll-smoothwait {
-    scroll-behavior: smooth;
-  }
-  .xs\:scroll-smoothtext {
-    scroll-behavior: smooth;
-  }
-  .xs\:scroll-smoothmove {
-    scroll-behavior: smooth;
-  }
-  .xs\:scroll-smoothnot-allowed {
+  .xs\:scroll-smooth {
     scroll-behavior: smooth;
   }
   .xs\:scroll-snap.x-mandatory {
@@ -57843,25 +57799,7 @@ img[theme="invert"] {
   .sm\:resize-y {
     resize: vertical;
   }
-  .sm\:scroll-smoothauto {
-    scroll-behavior: smooth;
-  }
-  .sm\:scroll-smoothdefault {
-    scroll-behavior: smooth;
-  }
-  .sm\:scroll-smoothpointer {
-    scroll-behavior: smooth;
-  }
-  .sm\:scroll-smoothwait {
-    scroll-behavior: smooth;
-  }
-  .sm\:scroll-smoothtext {
-    scroll-behavior: smooth;
-  }
-  .sm\:scroll-smoothmove {
-    scroll-behavior: smooth;
-  }
-  .sm\:scroll-smoothnot-allowed {
+  .sm\:scroll-smooth {
     scroll-behavior: smooth;
   }
   .sm\:scroll-snap.x-mandatory {
@@ -61130,25 +61068,7 @@ img[theme="invert"] {
   .md\:resize-y {
     resize: vertical;
   }
-  .md\:scroll-smoothauto {
-    scroll-behavior: smooth;
-  }
-  .md\:scroll-smoothdefault {
-    scroll-behavior: smooth;
-  }
-  .md\:scroll-smoothpointer {
-    scroll-behavior: smooth;
-  }
-  .md\:scroll-smoothwait {
-    scroll-behavior: smooth;
-  }
-  .md\:scroll-smoothtext {
-    scroll-behavior: smooth;
-  }
-  .md\:scroll-smoothmove {
-    scroll-behavior: smooth;
-  }
-  .md\:scroll-smoothnot-allowed {
+  .md\:scroll-smooth {
     scroll-behavior: smooth;
   }
   .md\:scroll-snap.x-mandatory {
@@ -64417,25 +64337,7 @@ img[theme="invert"] {
   .lg\:resize-y {
     resize: vertical;
   }
-  .lg\:scroll-smoothauto {
-    scroll-behavior: smooth;
-  }
-  .lg\:scroll-smoothdefault {
-    scroll-behavior: smooth;
-  }
-  .lg\:scroll-smoothpointer {
-    scroll-behavior: smooth;
-  }
-  .lg\:scroll-smoothwait {
-    scroll-behavior: smooth;
-  }
-  .lg\:scroll-smoothtext {
-    scroll-behavior: smooth;
-  }
-  .lg\:scroll-smoothmove {
-    scroll-behavior: smooth;
-  }
-  .lg\:scroll-smoothnot-allowed {
+  .lg\:scroll-smooth {
     scroll-behavior: smooth;
   }
   .lg\:scroll-snap.x-mandatory {
@@ -67704,25 +67606,7 @@ img[theme="invert"] {
   .xl\:resize-y {
     resize: vertical;
   }
-  .xl\:scroll-smoothauto {
-    scroll-behavior: smooth;
-  }
-  .xl\:scroll-smoothdefault {
-    scroll-behavior: smooth;
-  }
-  .xl\:scroll-smoothpointer {
-    scroll-behavior: smooth;
-  }
-  .xl\:scroll-smoothwait {
-    scroll-behavior: smooth;
-  }
-  .xl\:scroll-smoothtext {
-    scroll-behavior: smooth;
-  }
-  .xl\:scroll-smoothmove {
-    scroll-behavior: smooth;
-  }
-  .xl\:scroll-smoothnot-allowed {
+  .xl\:scroll-smooth {
     scroll-behavior: smooth;
   }
   .xl\:scroll-snap.x-mandatory {
@@ -70991,25 +70875,7 @@ img[theme="invert"] {
   .\32k\:resize-y {
     resize: vertical;
   }
-  .\32k\:scroll-smoothauto {
-    scroll-behavior: smooth;
-  }
-  .\32k\:scroll-smoothdefault {
-    scroll-behavior: smooth;
-  }
-  .\32k\:scroll-smoothpointer {
-    scroll-behavior: smooth;
-  }
-  .\32k\:scroll-smoothwait {
-    scroll-behavior: smooth;
-  }
-  .\32k\:scroll-smoothtext {
-    scroll-behavior: smooth;
-  }
-  .\32k\:scroll-smoothmove {
-    scroll-behavior: smooth;
-  }
-  .\32k\:scroll-smoothnot-allowed {
+  .\32k\:scroll-smooth {
     scroll-behavior: smooth;
   }
   .\32k\:scroll-snap.x-mandatory {
@@ -74278,25 +74144,7 @@ img[theme="invert"] {
   .\34k\:resize-y {
     resize: vertical;
   }
-  .\34k\:scroll-smoothauto {
-    scroll-behavior: smooth;
-  }
-  .\34k\:scroll-smoothdefault {
-    scroll-behavior: smooth;
-  }
-  .\34k\:scroll-smoothpointer {
-    scroll-behavior: smooth;
-  }
-  .\34k\:scroll-smoothwait {
-    scroll-behavior: smooth;
-  }
-  .\34k\:scroll-smoothtext {
-    scroll-behavior: smooth;
-  }
-  .\34k\:scroll-smoothmove {
-    scroll-behavior: smooth;
-  }
-  .\34k\:scroll-smoothnot-allowed {
+  .\34k\:scroll-smooth {
     scroll-behavior: smooth;
   }
   .\34k\:scroll-snap.x-mandatory {

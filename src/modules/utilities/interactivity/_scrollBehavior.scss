@@ -9,15 +9,13 @@
   $pseudo: null,
   $class: null
   ) {
-  @each $modifier, $value in $cursor {
-    @include setRule(
-      $prefix: $prefix,
-      $pseudo: $pseudo,
-      $class: $class,
-      $selector: "scroll-smooth",
-      $modifier: $modifier,
-      $property1: "scroll-behavior",
-      $value1: "smooth"
-    )
-  }
+  // (static)
+  @include setRule(
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "scroll-smooth",
+    $property1: "scroll-behavior",
+    $value1: "smooth"
+  )
 }
