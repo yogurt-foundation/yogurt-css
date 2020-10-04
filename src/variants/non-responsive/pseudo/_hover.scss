@@ -161,6 +161,7 @@
 // ----- GROUP
 @include textColor($prefix: $variant-group-hover)
 // @include fontFamily($prefix: $variant-hover, $pseudo: $hover)
+// @include fontKerning($prefix: $variant-hover, $pseudo: $hover)
 // @include fontSize($prefix: $variant-hover, $pseudo: $hover)
 // @include fontSmoothing($prefix: $variant-hover, $pseudo: $hover)
 // @include fontStyle($prefix: $variant-hover, $pseudo: $hover)

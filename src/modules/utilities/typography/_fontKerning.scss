@@ -1,0 +1,23 @@
+/**
+ * @utility: typography
+ * @module: _fontKerning.scss
+ * @desc: defines the way specific pairs of letters are spaced.
+ */
+
+@mixin fontKerning(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier, $value in $font-kerning {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "font-kerning-",
+      $modifier: $modifier,
+      $property1: "font-kerning",
+      $value1: $value#{$override}
+    )
+  }
+}

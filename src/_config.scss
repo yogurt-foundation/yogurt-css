@@ -1427,3 +1427,9 @@ $box-shadow-dreamy:
   (dreamy-xl, (0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 26px -3px rgba(0, 0, 0, 0.04), 0 3px 27px -3px rgba(0, 0, 0, 0.02), 0 1px 28px -3px rgba(0, 0, 0, 0.01))),
   (dreamy-2xl, (0 10px 35px -3px rgba(0, 0, 0, 0.08), 0 4px 36px -3px rgba(0, 0, 0, 0.07), 0 3px 37px -3px rgba(0, 0, 0, 0.06), 0 1px 38px -3px rgba(0, 0, 0, 0.05)));
 
+/* font kerning */
+
+$font-kerning:
+  (auto, auto),
+  (normal, normal),
+  (none, none);

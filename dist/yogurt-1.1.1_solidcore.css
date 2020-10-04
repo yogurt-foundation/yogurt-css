@@ -682,6 +682,7 @@ y {
 /* flex gap */
 /* overscroll */
 /* line height trimm */
+/* font kerning */
 /**
  * @file: _atrules.scss
  */
@@ -1292,6 +1293,11 @@ y {
  * @utility: typography
  * @module: _fontFamily.scss
  * @desc: sets the font family
+ */
+/**
+ * @utility: typography
+ * @module: _fontKerning.scss
+ * @desc: defines the way specific pairs of letters are spaced.
  */
 /**
  * @utility: typography
@@ -30027,6 +30033,21 @@ img[theme="invert"] {
   font-family: Microsoft Yahei, PingFang SC, PingFang TC, Hiragino Sans, Hiragino Kaku Gothic Pro, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
 }
 
+.font-kerning-auto {
+  -webkit-font-kerning: auto;
+          font-kerning: auto;
+}
+
+.font-kerning-normal {
+  -webkit-font-kerning: normal;
+          font-kerning: normal;
+}
+
+.font-kerning-none {
+  -webkit-font-kerning: none;
+          font-kerning: none;
+}
+
 .text-xs {
   font-size: 0.75rem;
 }
@@ -56837,6 +56858,18 @@ img[theme="invert"] {
   .xs\:font-chinese {
     font-family: Microsoft Yahei, PingFang SC, PingFang TC, Hiragino Sans, Hiragino Kaku Gothic Pro, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
   }
+  .xs\:font-kerning-auto {
+    -webkit-font-kerning: auto;
+            font-kerning: auto;
+  }
+  .xs\:font-kerning-normal {
+    -webkit-font-kerning: normal;
+            font-kerning: normal;
+  }
+  .xs\:font-kerning-none {
+    -webkit-font-kerning: none;
+            font-kerning: none;
+  }
   .xs\:text-xs {
     font-size: 0.75rem;
   }
@@ -60105,6 +60138,18 @@ img[theme="invert"] {
   }
   .sm\:font-chinese {
     font-family: Microsoft Yahei, PingFang SC, PingFang TC, Hiragino Sans, Hiragino Kaku Gothic Pro, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
+  }
+  .sm\:font-kerning-auto {
+    -webkit-font-kerning: auto;
+            font-kerning: auto;
+  }
+  .sm\:font-kerning-normal {
+    -webkit-font-kerning: normal;
+            font-kerning: normal;
+  }
+  .sm\:font-kerning-none {
+    -webkit-font-kerning: none;
+            font-kerning: none;
   }
   .sm\:text-xs {
     font-size: 0.75rem;
@@ -63375,6 +63420,18 @@ img[theme="invert"] {
   .md\:font-chinese {
     font-family: Microsoft Yahei, PingFang SC, PingFang TC, Hiragino Sans, Hiragino Kaku Gothic Pro, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
   }
+  .md\:font-kerning-auto {
+    -webkit-font-kerning: auto;
+            font-kerning: auto;
+  }
+  .md\:font-kerning-normal {
+    -webkit-font-kerning: normal;
+            font-kerning: normal;
+  }
+  .md\:font-kerning-none {
+    -webkit-font-kerning: none;
+            font-kerning: none;
+  }
   .md\:text-xs {
     font-size: 0.75rem;
   }
@@ -66643,6 +66700,18 @@ img[theme="invert"] {
   }
   .lg\:font-chinese {
     font-family: Microsoft Yahei, PingFang SC, PingFang TC, Hiragino Sans, Hiragino Kaku Gothic Pro, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
+  }
+  .lg\:font-kerning-auto {
+    -webkit-font-kerning: auto;
+            font-kerning: auto;
+  }
+  .lg\:font-kerning-normal {
+    -webkit-font-kerning: normal;
+            font-kerning: normal;
+  }
+  .lg\:font-kerning-none {
+    -webkit-font-kerning: none;
+            font-kerning: none;
   }
   .lg\:text-xs {
     font-size: 0.75rem;
@@ -69913,6 +69982,18 @@ img[theme="invert"] {
   .xl\:font-chinese {
     font-family: Microsoft Yahei, PingFang SC, PingFang TC, Hiragino Sans, Hiragino Kaku Gothic Pro, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
   }
+  .xl\:font-kerning-auto {
+    -webkit-font-kerning: auto;
+            font-kerning: auto;
+  }
+  .xl\:font-kerning-normal {
+    -webkit-font-kerning: normal;
+            font-kerning: normal;
+  }
+  .xl\:font-kerning-none {
+    -webkit-font-kerning: none;
+            font-kerning: none;
+  }
   .xl\:text-xs {
     font-size: 0.75rem;
   }
@@ -73182,6 +73263,18 @@ img[theme="invert"] {
   .\32k\:font-chinese {
     font-family: Microsoft Yahei, PingFang SC, PingFang TC, Hiragino Sans, Hiragino Kaku Gothic Pro, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
   }
+  .\32k\:font-kerning-auto {
+    -webkit-font-kerning: auto;
+            font-kerning: auto;
+  }
+  .\32k\:font-kerning-normal {
+    -webkit-font-kerning: normal;
+            font-kerning: normal;
+  }
+  .\32k\:font-kerning-none {
+    -webkit-font-kerning: none;
+            font-kerning: none;
+  }
   .\32k\:text-xs {
     font-size: 0.75rem;
   }
@@ -76450,6 +76543,18 @@ img[theme="invert"] {
   }
   .\34k\:font-chinese {
     font-family: Microsoft Yahei, PingFang SC, PingFang TC, Hiragino Sans, Hiragino Kaku Gothic Pro, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
+  }
+  .\34k\:font-kerning-auto {
+    -webkit-font-kerning: auto;
+            font-kerning: auto;
+  }
+  .\34k\:font-kerning-normal {
+    -webkit-font-kerning: normal;
+            font-kerning: normal;
+  }
+  .\34k\:font-kerning-none {
+    -webkit-font-kerning: none;
+            font-kerning: none;
   }
   .\34k\:text-xs {
     font-size: 0.75rem;

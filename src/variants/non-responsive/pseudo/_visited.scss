@@ -144,6 +144,7 @@
 // @include placeholderColor($prefix: $variant-visited, $pseudo: $visited)
 @include textColor($prefix: $variant-visited, $pseudo: $visited)
 // @include fontFamily($prefix: $variant-visited, $pseudo: $visited)
+// @include fontKerning($prefix: $variant-visited, $pseudo: $visited)
 // @include fontSize($prefix: $variant-visited, $pseudo: $visited)
 // @include fontSmoothing($prefix: $variant-visited, $pseudo: $visited)
 // @include fontStyle($prefix: $variant-visited, $pseudo: $visited)

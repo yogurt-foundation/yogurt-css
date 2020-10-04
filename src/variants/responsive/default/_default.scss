@@ -140,6 +140,7 @@
 // @include placeholderColor($prefix: $responsive-default)
 // @include textColor($prefix: $responsive-default)
 @include fontFamily($prefix: $responsive-default)
+@include fontKerning($prefix: $responsive-default)
 @include fontSize($prefix: $responsive-default)
 @include fontSmoothing($prefix: $responsive-default)
 @include fontStyle($prefix: $responsive-default)

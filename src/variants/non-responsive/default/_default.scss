@@ -180,6 +180,7 @@
 
 @include textColor ($class: $default)
 @include fontFamily($class: $default)
+@include fontKerning($class: $default)
 @include fontSize($class: $default)
 @include fontSmoothing($class: $default)
 @include fontStyle($class: $default)

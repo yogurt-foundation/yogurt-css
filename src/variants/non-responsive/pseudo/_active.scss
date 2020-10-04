@@ -156,6 +156,7 @@
 // @include placeholderColor($prefix: $variant-active, $pseudo: $active)
 @include textColor($prefix: $variant-active, $pseudo: $active)
 // @include fontFamily($prefix: $variant-active, $pseudo: $active)
+// @include fontKerning($prefix: $variant-active, $pseudo: $active)
 // @include fontSize($prefix: $variant-active, $pseudo: $active)
 // @include fontSmoothing($prefix: $variant-active, $pseudo: $active)
 // @include fontStyle($prefix: $variant-active, $pseudo: $active)

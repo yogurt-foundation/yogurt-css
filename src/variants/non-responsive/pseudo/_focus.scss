@@ -154,6 +154,7 @@
 // ----- GROUP
 @include textColor($prefix: $variant-group-focus)
 // @include fontFamily($prefix: $variant-focus, $pseudo: $focus)
+// @include fontKerning($prefix: $variant-focus, $pseudo: $focus)
 // @include fontSize($prefix: $variant-focus, $pseudo: $focus)
 // @include fontSmoothing($prefix: $variant-focus, $pseudo: $focus)
 // @include fontStyle($prefix: $variant-focus, $pseudo: $focus)
