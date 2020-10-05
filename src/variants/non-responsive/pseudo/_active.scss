@@ -10,10 +10,10 @@
 /* animations */
 
 // (v1.0.9)
-// @include fxBlur($prefix: $variant-hover, $pseudo: $hover)
-// @include fxFade($prefix: $variant-hover, $pseudo: $hover)
-// @include fxRoll($prefix: $variant-hover, $pseudo: $hover)
-// @include fxSlide($prefix: $variant-hover, $pseudo: $hover)
+// @include fxBlur($prefix: $variant-active, $pseudo: $active)
+// @include fxFade($prefix: $variant-active, $pseudo: $active)
+// @include fxRoll($prefix: $variant-active, $pseudo: $active)
+// @include fxSlide($prefix: $variant-active, $pseudo: $active)
 
 /* backgrounds */
 
@@ -24,6 +24,7 @@
 // @include backgroundSize($prefix: $variant-active, $pseudo: $active)
 // @include backgroundBlend($prefix: $variant-active, $pseudo: $active) // (v1.0.4)
 // @include backgroundOpacity($prefix: $variant-active, $pseudo: $active)
+// @include backgroundBorder($prefix: $variant-active, $pseudo: $active) // (v1.0.9)
 // @include backgroundGradient($prefix: $variant-active, $pseudo: $active) // (v1.0.9)
 
 /* borders */
@@ -75,6 +76,7 @@
 // @include appearance($prefix: $variant-active, $pseudo: $active)
 // @include cursor($prefix: $variant-active, $pseudo: $active)
 // @include outline($prefix: $variant-active, $pseudo: $active)
+// @include overscroll($prefix: $variant-active, $pseudo: $active) // (v1.1.0)
 // @include pointerEvents($prefix: $variant-active, $pseudo: $active)
 // @include resize($prefix: $variant-active, $pseudo: $active)
 // @include scrollBehavior($prefix: $variant-active, $pseudo: $active) // (v1.1.1)
@@ -86,6 +88,7 @@
 // @include boxSizing($prefix: $variant-active, $pseudo: $active)
 // @include clear($prefix: $variant-active, $pseudo: $active)
 // @include containerDefault($prefix: $variant-active, $pseudo: $active)
+// @include contentVisibility($prefix: $variant-active, $pseudo: $active) // (v1.0.9)
 // @include display($prefix: $variant-active, $pseudo: $active)
 // @include float($prefix: $variant-active, $pseudo: $active)
 // @include inset($prefix: $variant-active, $pseudo: $active)
@@ -95,10 +98,25 @@
 // @include overflow($prefix: $variant-active, $pseudo: $active)
 // @include overflow-xy($prefix: $variant-active, $pseudo: $active)
 // @include overflow-scrolling($prefix: $variant-active, $pseudo: $active)
-// @include overscroll($prefix: $variant-active, $pseudo: $active) // (v1.1.0)
 // @include position($prefix: $variant-active, $pseudo: $active)
 // @include visibility($prefix: $variant-active, $pseudo: $active)
 // @include zIndex($prefix: $variant-active, $pseudo: $active)
+
+/* patterns */
+
+// (1.0.8)
+// @include patternChecks($prefix: $variant-active, $pseudo: $active)
+// @include patternCrossDots($prefix: $variant-active, $pseudo: $active)
+// @include patternDiagonalLines($prefix: $variant-active, $pseudo: $active)
+// @include patternDiagonalStripes($prefix: $variant-active, $pseudo: $active)
+// @include patternDots($prefix: $variant-active, $pseudo: $active)
+// @include patternGrid($prefix: $variant-active, $pseudo: $active)
+// @include patternHorizontalLines($prefix: $variant-active, $pseudo: $active)
+// @include patternHorizontalStripes($prefix: $variant-active, $pseudo: $active)
+// @include patternTriangles($prefix: $variant-active, $pseudo: $active)
+// @include patternVerticalLines($prefix: $variant-active, $pseudo: $active)
+// @include patternVerticalStripes($prefix: $variant-active, $pseudo: $active)
+// @include patternZigzag($prefix: $variant-active, $pseudo: $active)
 
 /* sizing */
 
@@ -133,15 +151,11 @@
 
 // @include transform($prefix: $variant-active, $pseudo: $active)
 // @include transformOrigin($prefix: $variant-active, $pseudo: $active)
-// -----
 // @include rotate($prefix: $variant-active, $pseudo: $active)
 // @include rotate($prefix: $variant-active, $pseudo: $active, $negative: $true) // negative
-// -----
 // @include scale($prefix: $variant-active, $pseudo: $active)
-// -----
 // @include skew($prefix: $variant-active, $pseudo: $active)
 // @include skew($prefix: $variant-active, $pseudo: $active, $negative: $true) // negative
-// -----
 // @include translate($prefix: $variant-active, $pseudo: $active)
 // @include translate($prefix: $variant-active, $pseudo: $active, $negative: $true) // negative
 
@@ -153,10 +167,9 @@
 
 /* typography */
 
-// @include placeholderColor($prefix: $variant-active, $pseudo: $active)
 @include textColor($prefix: $variant-active, $pseudo: $active)
 // @include fontFamily($prefix: $variant-active, $pseudo: $active)
-// @include fontKerning($prefix: $variant-active, $pseudo: $active)
+// @include fontKerning($prefix: $variant-active, $pseudo: $active) // (v1.1.1)
 // @include fontSize($prefix: $variant-active, $pseudo: $active)
 // @include fontSmoothing($prefix: $variant-active, $pseudo: $active)
 // @include fontStyle($prefix: $variant-active, $pseudo: $active)
@@ -166,6 +179,8 @@
 // @include lineHeightTrim($prefix: $variant-active, $pseudo: $active) // (v1.1.0)
 // @include listStylePosition($prefix: $variant-active, $pseudo: $active)
 // @include listStyleType($prefix: $variant-active, $pseudo: $active)
+// @include placeholder() // static
+// @include placeholderColor($prefix: $variant-active, $pseudo: $active)
 // @include textAlign($prefix: $variant-active, $pseudo: $active)
 // @include textDecoration($prefix: $variant-active, $pseudo: $active)
 // @include textTransform($prefix: $variant-active, $pseudo: $active)
@@ -173,4 +188,3 @@
 // @include whitespace($prefix: $variant-active, $pseudo: $active)
 // @include wordBreak($prefix: $variant-active, $pseudo: $active)
 // @include textClamp($prefix: $variant-active, $pseudo: $active)
-

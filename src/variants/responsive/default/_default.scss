@@ -7,6 +7,14 @@
 
 // @include screenReader($prefix: $responsive-default)
 
+/* animations */
+
+// (v1.0.9)
+// @include fxBlur($prefix: $responsive-default)
+// @include fxFade($prefix: $responsive-default)
+// @include fxRoll($prefix: $responsive-default)
+// @include fxSlide($prefix: $responsive-default)
+
 /* backgrounds */
 
 // @include backgroundColor($prefix: $responsive-default)
@@ -16,6 +24,7 @@
 // @include backgroundSize($prefix: $responsive-default)
 // @include backgroundBlend($prefix: $responsive-default) // (v1.0.4)
 // @include backgroundOpacity($prefix: $responsive-default)
+// @include backgroundBorder($prefix: $responsive-default) // (v1.0.9)
 // @include backgroundGradient($prefix: $responsive-default) // (v1.0.9)
 
 /* borders */
@@ -27,6 +36,8 @@
 // @include borderDissect($prefix: $responsive-default) // (v1.0.8)
 // @include borderDissectColor($prefix: $responsive-default) // (v1.0.8)
 // @include borderDissectOpacity($prefix: $responsive-default) // (v1.0.8)
+
+/* debug */
 
 /* effects */
 
@@ -63,6 +74,7 @@
 // @include appearance($prefix: $responsive-default)
 // @include cursor($prefix: $responsive-default)
 @include outline($prefix: $responsive-default)
+@include overscroll($prefix: $responsive-default) // (v1.1.0)
 // @include pointerEvents($prefix: $responsive-default)
 @include resize($prefix: $responsive-default)
 @include scrollBehavior($prefix: $responsive-default) // (v1.1.1)
@@ -74,6 +86,7 @@
 @include boxSizing($prefix: $responsive-default)
 @include clear($prefix: $responsive-default)
 @include containerDefault($prefix: $responsive-default)
+@include contentVisibility($prefix: $responsive-default) // (v1.0.9)
 @include display($prefix: $responsive-default)
 @include float($prefix: $responsive-default)
 @include inset($prefix: $responsive-default)
@@ -83,10 +96,25 @@
 @include overflow($prefix: $responsive-default)
 @include overflow-xy($prefix: $responsive-default)
 @include overflow-scrolling($prefix: $responsive-default)
-@include overscroll($prefix: $responsive-default) // (v1.1.0)
 @include position($prefix: $responsive-default)
 @include visibility($prefix: $responsive-default)
 @include zIndex($prefix: $responsive-default)
+
+/* patterns */
+
+// (1.0.8)
+// @include patternChecks($prefix: $responsive-default)
+// @include patternCrossDots($prefix: $responsive-default)
+// @include patternDiagonalLines($prefix: $responsive-default)
+// @include patternDiagonalStripes($prefix: $responsive-default)
+// @include patternDots($prefix: $responsive-default)
+// @include patternGrid($prefix: $responsive-default)
+// @include patternHorizontalLines($prefix: $responsive-default)
+// @include patternHorizontalStripes($prefix: $responsive-default)
+// @include patternTriangles($prefix: $responsive-default)
+// @include patternVerticalLines($prefix: $responsive-default)
+// @include patternVerticalStripes($prefix: $responsive-default)
+// @include patternZigzag($prefix: $responsive-default)
 
 /* sizing */
 
@@ -117,6 +145,8 @@
 // @include borderCollapse($prefix: $responsive-default)
 // @include tableLayout($prefix: $responsive-default)
 
+/* theme */
+
 /* transforms */
 
 // @include transform($prefix: $responsive-default)
@@ -137,10 +167,9 @@
 
 /* typography */
 
-// @include placeholderColor($prefix: $responsive-default)
 // @include textColor($prefix: $responsive-default)
 @include fontFamily($prefix: $responsive-default)
-@include fontKerning($prefix: $responsive-default)
+@include fontKerning($prefix: $responsive-default) // (v1.1.1)
 @include fontSize($prefix: $responsive-default)
 @include fontSmoothing($prefix: $responsive-default)
 @include fontStyle($prefix: $responsive-default)
@@ -151,6 +180,7 @@
 @include listStylePosition($prefix: $responsive-default)
 @include listStyleType($prefix: $responsive-default)
 @include placeholder() // static
+// @include placeholderColor($prefix: $responsive-default)
 @include textAlign($prefix: $responsive-default)
 @include textDecoration($prefix: $responsive-default)
 @include textTransform($prefix: $responsive-default)
@@ -158,4 +188,3 @@
 @include whitespace($prefix: $responsive-default)
 @include wordBreak($prefix: $responsive-default)
 @include textClamp($prefix: $responsive-default)
-

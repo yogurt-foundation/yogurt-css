@@ -7,6 +7,14 @@
 
 // @include screenReader($prefix: $responsive-active, $pseudo: $active)
 
+/* animations */
+
+// (v1.0.9)
+// @include fxBlur($prefix: $responsive-active, $pseudo: $active)
+// @include fxFade($prefix: $responsive-active, $pseudo: $active)
+// @include fxRoll($prefix: $responsive-active, $pseudo: $active)
+// @include fxSlide($prefix: $responsive-active, $pseudo: $active)
+
 /* backgrounds */
 
 // @include backgroundColor($prefix: $responsive-active, $pseudo: $active)
@@ -16,6 +24,7 @@
 // @include backgroundSize($prefix: $responsive-active, $pseudo: $active)
 // @include backgroundBlend($prefix: $responsive-active, $pseudo: $active) // (v1.0.4)
 // @include backgroundOpacity($prefix: $responsive-active, $pseudo: $active)
+// @include backgroundBorder($prefix: $responsive-active, $pseudo: $active) // (v1.0.9)
 // @include backgroundGradient($prefix: $responsive-active, $pseudo: $active) // (v1.0.9)
 
 /* borders */
@@ -140,7 +149,7 @@
 // @include placeholderColor($prefix: $responsive-active, $pseudo: $active)
 // @include textColor($prefix: $responsive-active, $pseudo: $active)
 // @include fontFamily($prefix: $responsive-active, $pseudo: $active)
-// @include fontKerning($prefix: $responsive-active, $pseudo: $active)
+// @include fontKerning($prefix: $responsive-active, $pseudo: $active) // (v1.1.1)
 // @include fontSize($prefix: $responsive-active, $pseudo: $active)
 // @include fontSmoothing($prefix: $responsive-active, $pseudo: $active)
 // @include fontStyle($prefix: $responsive-active, $pseudo: $active)

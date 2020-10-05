@@ -10,10 +10,10 @@
 /* animations */
 
 // (v1.0.9)
-// @include fxBlur($prefix: $variant-hover, $pseudo: $hover)
-// @include fxFade($prefix: $variant-hover, $pseudo: $hover)
-// @include fxRoll($prefix: $variant-hover, $pseudo: $hover)
-// @include fxSlide($prefix: $variant-hover, $pseudo: $hover)
+// @include fxBlur($prefix: $variant-focus, $pseudo: $focus)
+// @include fxFade($prefix: $variant-focus, $pseudo: $focus)
+// @include fxRoll($prefix: $variant-focus, $pseudo: $focus)
+// @include fxSlide($prefix: $variant-focus, $pseudo: $focus)
 
 /* backgrounds */
 
@@ -24,6 +24,7 @@
 // @include backgroundSize($prefix: $variant-focus, $pseudo: $focus)
 // @include backgroundBlend($prefix: $variant-focus, $pseudo: $focus) // (v1.0.4)
 // @include backgroundOpacity($prefix: $variant-focus, $pseudo: $focus)
+// @include backgroundBorder($prefix: $variant-focus, $pseudo: $focus) // (v1.0.9)
 // @include backgroundGradient($prefix: $variant-focus, $pseudo: $focus) // (v1.0.9)
 
 /* borders */
@@ -75,6 +76,7 @@
 // @include appearance($prefix: $variant-focus, $pseudo: $focus)
 // @include cursor($prefix: $variant-focus, $pseudo: $focus)
 @include outline($prefix: $variant-focus, $pseudo: $focus)
+// @include overscroll($prefix: $variant-focus, $pseudo: $focus) // (v1.1.0)
 // @include pointerEvents($prefix: $variant-focus, $pseudo: $focus)
 // @include resize($prefix: $variant-focus, $pseudo: $focus)
 // @include scrollBehavior($prefix: $variant-focus, $pseudo: $focus) // (v1.1.1)
@@ -86,6 +88,7 @@
 // @include boxSizing($prefix: $variant-focus, $pseudo: $focus)
 // @include clear($prefix: $variant-focus, $pseudo: $focus)
 // @include containerDefault($prefix: $variant-focus, $pseudo: $focus)
+// @include contentVisibility($prefix: $variant-focus, $pseudo: $focus) // (v1.0.9)
 // @include display($prefix: $variant-focus, $pseudo: $focus)
 // @include float($prefix: $variant-focus, $pseudo: $focus)
 // @include inset($prefix: $variant-focus, $pseudo: $focus)
@@ -95,10 +98,25 @@
 // @include overflow($prefix: $variant-focus, $pseudo: $focus)
 // @include overflow-xy($prefix: $variant-focus, $pseudo: $focus)
 // @include overflow-scrolling($prefix: $variant-focus, $pseudo: $focus)
-// @include overscroll($prefix: $variant-focus, $pseudo: $focus) // (v1.1.0)
 // @include position($prefix: $variant-focus, $pseudo: $focus)
 // @include visibility($prefix: $variant-focus, $pseudo: $focus)
 // @include zIndex($prefix: $variant-focus, $pseudo: $focus)
+
+/* patterns */
+
+// (1.0.8)
+// @include patternChecks($prefix: $variant-focus, $pseudo: $focus)
+// @include patternCrossDots($prefix: $variant-focus, $pseudo: $focus)
+// @include patternDiagonalLines($prefix: $variant-focus, $pseudo: $focus)
+// @include patternDiagonalStripes($prefix: $variant-focus, $pseudo: $focus)
+// @include patternDots($prefix: $variant-focus, $pseudo: $focus)
+// @include patternGrid($prefix: $variant-focus, $pseudo: $focus)
+// @include patternHorizontalLines($prefix: $variant-focus, $pseudo: $focus)
+// @include patternHorizontalStripes($prefix: $variant-focus, $pseudo: $focus)
+// @include patternTriangles($prefix: $variant-focus, $pseudo: $focus)
+// @include patternVerticalLines($prefix: $variant-focus, $pseudo: $focus)
+// @include patternVerticalStripes($prefix: $variant-focus, $pseudo: $focus)
+// @include patternZigzag($prefix: $variant-focus, $pseudo: $focus)
 
 /* sizing */
 
@@ -149,12 +167,12 @@
 
 /* typography */
 
-@include placeholderColor($prefix: $variant-focus, $pseudo: $focus)
 @include textColor($prefix: $variant-focus, $pseudo: $focus)
 // ----- GROUP
 @include textColor($prefix: $variant-group-focus)
+// -----
 // @include fontFamily($prefix: $variant-focus, $pseudo: $focus)
-// @include fontKerning($prefix: $variant-focus, $pseudo: $focus)
+// @include fontKerning($prefix: $variant-focus, $pseudo: $focus) // (v1.1.1)
 // @include fontSize($prefix: $variant-focus, $pseudo: $focus)
 // @include fontSmoothing($prefix: $variant-focus, $pseudo: $focus)
 // @include fontStyle($prefix: $variant-focus, $pseudo: $focus)
@@ -164,6 +182,8 @@
 // @include lineHeightTrim($prefix: $variant-focus, $pseudo: $focus) // (v1.1.0)
 // @include listStylePosition($prefix: $variant-focus, $pseudo: $focus)
 // @include listStyleType($prefix: $variant-focus, $pseudo: $focus)
+// @include placeholder() // static
+@include placeholderColor($prefix: $variant-focus, $pseudo: $focus)
 // @include textAlign($prefix: $variant-focus, $pseudo: $focus)
 @include textDecoration($prefix: $variant-focus, $pseudo: $focus)
 // @include textTransform($prefix: $variant-focus, $pseudo: $focus)
@@ -171,4 +191,3 @@
 // @include whitespace($prefix: $variant-focus, $pseudo: $focus)
 // @include wordBreak($prefix: $variant-focus, $pseudo: $focus)
 // @include textClamp($prefix: $variant-focus, $pseudo: $focus)
-

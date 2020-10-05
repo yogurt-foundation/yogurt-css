@@ -7,6 +7,14 @@
 
 // @include screenReader($prefix: $responsive-hover, $pseudo: $hover)
 
+/* animations */
+
+// (v1.0.9)
+// @include fxBlur($prefix: $responsive-hover, $pseudo: $hover)
+// @include fxFade($prefix: $responsive-hover, $pseudo: $hover)
+// @include fxRoll($prefix: $responsive-hover, $pseudo: $hover)
+// @include fxSlide($prefix: $responsive-hover, $pseudo: $hover)
+
 /* backgrounds */
 
 // @include backgroundColor($prefix: $responsive-hover, $pseudo: $hover)
@@ -16,6 +24,7 @@
 // @include backgroundSize($prefix: $responsive-hover, $pseudo: $hover)
 // @include backgroundBlend($prefix: $responsive-hover, $pseudo: $hover) // (v1.0.4)
 // @include backgroundOpacity($prefix: $responsive-hover, $pseudo: $hover)
+// @include backgroundBorder($prefix: $responsive-hover, $pseudo: $hover) // (v1.0.9)
 // @include backgroundGradient($prefix: $responsive-hover, $pseudo: $hover) // (v1.0.9)
 
 /* borders */
@@ -63,6 +72,7 @@
 // @include appearance($prefix: $responsive-hover, $pseudo: $hover)
 // @include cursor($prefix: $responsive-hover, $pseudo: $hover)
 // @include outline($prefix: $responsive-hover, $pseudo: $hover)
+// @include overscroll($prefix: $responsive-hover, $pseudo: $hover) // (v1.1.0)
 // @include pointerEvents($prefix: $responsive-hover, $pseudo: $hover)
 // @include resize($prefix: $responsive-hover, $pseudo: $hover)
 // @include scrollBehavior($prefix: $responsive-hover, $pseudo: $hover) // (v1.1.1)
@@ -74,6 +84,7 @@
 // @include boxSizing($prefix: $responsive-hover, $pseudo: $hover)
 // @include clear($prefix: $responsive-hover, $pseudo: $hover)
 // @include containerDefault($prefix: $responsive-hover, $pseudo: $hover)
+// @include contentVisibility($prefix: $responsive-hover, $pseudo: $hover) // (v1.0.9)
 // @include display($prefix: $responsive-hover, $pseudo: $hover)
 // @include float($prefix: $responsive-hover, $pseudo: $hover)
 // @include inset($prefix: $responsive-hover, $pseudo: $hover)
@@ -83,10 +94,25 @@
 // @include overflow($prefix: $responsive-hover, $pseudo: $hover)
 // @include overflow-xy($prefix: $responsive-hover, $pseudo: $hover)
 // @include overflow-scrolling($prefix: $responsive-hover, $pseudo: $hover)
-// @include overscroll($prefix: $responsive-hover, $pseudo: $hover) // (v1.1.0)
 // @include position($prefix: $responsive-hover, $pseudo: $hover)
 // @include visibility($prefix: $responsive-hover, $pseudo: $hover)
 // @include zIndex($prefix: $responsive-hover, $pseudo: $hover)
+
+/* patterns */
+
+// (1.0.8)
+// @include patternChecks($prefix: $responsive-hover, $pseudo: $hover)
+// @include patternCrossDots($prefix: $responsive-hover, $pseudo: $hover)
+// @include patternDiagonalLines($prefix: $responsive-hover, $pseudo: $hover)
+// @include patternDiagonalStripes($prefix: $responsive-hover, $pseudo: $hover)
+// @include patternDots($prefix: $responsive-hover, $pseudo: $hover)
+// @include patternGrid($prefix: $responsive-hover, $pseudo: $hover)
+// @include patternHorizontalLines($prefix: $responsive-hover, $pseudo: $hover)
+// @include patternHorizontalStripes($prefix: $responsive-hover, $pseudo: $hover)
+// @include patternTriangles($prefix: $responsive-hover, $pseudo: $hover)
+// @include patternVerticalLines($prefix: $responsive-hover, $pseudo: $hover)
+// @include patternVerticalStripes($prefix: $responsive-hover, $pseudo: $hover)
+// @include patternZigzag($prefix: $responsive-hover, $pseudo: $hover)
 
 /* sizing */
 
@@ -137,10 +163,9 @@
 
 /* typography */
 
-// @include placeholderColor($prefix: $responsive-hover, $pseudo: $hover)
 // @include textColor($prefix: $responsive-hover, $pseudo: $hover)
 // @include fontFamily($prefix: $responsive-hover, $pseudo: $hover)
-// @include fontKerning($prefix: $responsive-hover, $pseudo: $hover)
+// @include fontKerning($prefix: $responsive-hover, $pseudo: $hover) // (v1.1.1)
 // @include fontSize($prefix: $responsive-hover, $pseudo: $hover)
 // @include fontSmoothing($prefix: $responsive-hover, $pseudo: $hover)
 // @include fontStyle($prefix: $responsive-hover, $pseudo: $hover)
@@ -150,6 +175,8 @@
 // @include lineHeightTrim($prefix: $responsive-hover, $pseudo: $hover) // (v1.1.0)
 // @include listStylePosition($prefix: $responsive-hover, $pseudo: $hover)
 // @include listStyleType($prefix: $responsive-hover, $pseudo: $hover)
+// @include placeholder() // static
+// @include placeholderColor($prefix: $responsive-hover, $pseudo: $hover)
 // @include textAlign($prefix: $responsive-hover, $pseudo: $hover)
 // @include textDecoration($prefix: $responsive-hover, $pseudo: $hover)
 // @include textTransform($prefix: $responsive-hover, $pseudo: $hover)
@@ -157,4 +184,3 @@
 // @include whitespace($prefix: $responsive-hover, $pseudo: $hover)
 // @include wordBreak($prefix: $responsive-hover, $pseudo: $hover)
 // @include textClamp($prefix: $responsive-hover, $pseudo: $hover)
-

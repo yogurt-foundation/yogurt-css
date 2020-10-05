@@ -7,6 +7,14 @@
 
 // @include screenReader($prefix: $responsive-visited, $pseudo: $visited)
 
+/* animations */
+
+// (v1.0.9)
+// @include fxBlur($prefix: $responsive-visited, $pseudo: $visited)
+// @include fxFade($prefix: $responsive-visited, $pseudo: $visited)
+// @include fxRoll($prefix: $responsive-visited, $pseudo: $visited)
+// @include fxSlide($prefix: $responsive-visited, $pseudo: $visited)
+
 /* backgrounds */
 
 // @include backgroundColor($prefix: $responsive-visited, $pseudo: $visited)
@@ -62,6 +70,7 @@
 // @include appearance($prefix: $responsive-visited, $pseudo: $visited)
 // @include cursor($prefix: $responsive-visited, $pseudo: $visited)
 // @include outline($prefix: $responsive-visited, $pseudo: $visited)
+// @include overscroll($prefix: $responsive-visited, $pseudo: $visited) // (v1.1.0)
 // @include pointerEvents($prefix: $responsive-visited, $pseudo: $visited)
 // @include resize($prefix: $responsive-visited, $pseudo: $visited)
 // @include scrollBehavior($prefix: $responsive-visited, $pseudo: $visited) // (v1.1.1)
@@ -73,6 +82,7 @@
 // @include boxSizing($prefix: $responsive-visited, $pseudo: $visited)
 // @include clear($prefix: $responsive-visited, $pseudo: $visited)
 // @include containerDefault($prefix: $responsive-visited, $pseudo: $visited)
+// @include contentVisibility($prefix: $responsive-visited, $pseudo: $visited) // (v1.0.9)
 // @include display($prefix: $responsive-visited, $pseudo: $visited)
 // @include float($prefix: $responsive-visited, $pseudo: $visited)
 // @include inset($prefix: $responsive-visited, $pseudo: $visited)
@@ -82,10 +92,25 @@
 // @include overflow($prefix: $responsive-visited, $pseudo: $visited)
 // @include overflow-xy($prefix: $responsive-visited, $pseudo: $visited)
 // @include overflow-scrolling($prefix: $responsive-visited, $pseudo: $visited)
-// @include overscroll($prefix: $responsive-visited, $pseudo: $visited) // (v1.1.0)
 // @include position($prefix: $responsive-visited, $pseudo: $visited)
 // @include visibility($prefix: $responsive-visited, $pseudo: $visited)
 // @include zIndex($prefix: $responsive-visited, $pseudo: $visited)
+
+/* patterns */
+
+// (1.0.8)
+// @include patternChecks($prefix: $responsive-visited, $pseudo: $visited)
+// @include patternCrossDots($prefix: $responsive-visited, $pseudo: $visited)
+// @include patternDiagonalLines($prefix: $responsive-visited, $pseudo: $visited)
+// @include patternDiagonalStripes($prefix: $responsive-visited, $pseudo: $visited)
+// @include patternDots($prefix: $responsive-visited, $pseudo: $visited)
+// @include patternGrid($prefix: $responsive-visited, $pseudo: $visited)
+// @include patternHorizontalLines($prefix: $responsive-visited, $pseudo: $visited)
+// @include patternHorizontalStripes($prefix: $responsive-visited, $pseudo: $visited)
+// @include patternTriangles($prefix: $responsive-visited, $pseudo: $visited)
+// @include patternVerticalLines($prefix: $responsive-visited, $pseudo: $visited)
+// @include patternVerticalStripes($prefix: $responsive-visited, $pseudo: $visited)
+// @include patternZigzag($prefix: $responsive-visited, $pseudo: $visited)
 
 /* sizing */
 
@@ -136,10 +161,9 @@
 
 /* typography */
 
-// @include placeholderColor($prefix: $responsive-visited, $pseudo: $visited)
 // @include textColor($prefix: $responsive-visited, $pseudo: $visited)
 // @include fontFamily($prefix: $responsive-visited, $pseudo: $visited)
-// @include fontKerning($prefix: $responsive-visited, $pseudo: $visited)
+// @include fontKerning($prefix: $responsive-visited, $pseudo: $visited) // (v1.1.1)
 // @include fontSize($prefix: $responsive-visited, $pseudo: $visited)
 // @include fontSmoothing($prefix: $responsive-visited, $pseudo: $visited)
 // @include fontStyle($prefix: $responsive-visited, $pseudo: $visited)
@@ -149,6 +173,8 @@
 // @include lineHeightTrim($prefix: $responsive-visited, $pseudo: $visited) // (v1.1.0)
 // @include listStylePosition($prefix: $responsive-visited, $pseudo: $visited)
 // @include listStyleType($prefix: $responsive-visited, $pseudo: $visited)
+// @include placeholder() // static
+// @include placeholderColor($prefix: $responsive-visited, $pseudo: $visited)
 // @include textAlign($prefix: $responsive-visited, $pseudo: $visited)
 // @include textDecoration($prefix: $responsive-visited, $pseudo: $visited)
 // @include textTransform($prefix: $responsive-visited, $pseudo: $visited)
@@ -156,4 +182,3 @@
 // @include whitespace($prefix: $responsive-visited, $pseudo: $visited)
 // @include wordBreak($prefix: $responsive-visited, $pseudo: $visited)
 // @include textClamp($prefix: $responsive-visited, $pseudo: $visited)
-

@@ -81,6 +81,7 @@
 @include appearance($class: $default)
 @include cursor($class: $default)
 @include outline($class: $default)
+@include overscroll($class: $default) // (v1.1.0)
 @include pointerEvents($class: $default)
 @include resize($class: $default)
 @include scrollBehavior($class: $default) // (v1.1.1)
@@ -92,6 +93,7 @@
 @include boxSizing($class: $default)
 @include clear($class: $default)
 @include containerDefault($class: $default)
+@include contentVisibility($class: $default) // (v1.0.9)
 @include display($class: $default)
 @include float($class: $default)
 @include inset($class: $default)
@@ -101,11 +103,9 @@
 @include overflow($class: $default)
 @include overflow-xy($class: $default)
 @include overflow-scrolling($class: $default)
-@include overscroll($class: $default) // (v1.1.0)
 @include position($class: $default)
 @include visibility($class: $default)
 @include zIndex($class: $default)
-@include contentVisibility($class: $default) // (v1.0.9)
 
 /* patterns */
 
@@ -180,7 +180,7 @@
 
 @include textColor ($class: $default)
 @include fontFamily($class: $default)
-@include fontKerning($class: $default)
+@include fontKerning($class: $default) // ()v1.1.1)
 @include fontSize($class: $default)
 @include fontSmoothing($class: $default)
 @include fontStyle($class: $default)

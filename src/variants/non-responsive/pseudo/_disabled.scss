@@ -7,6 +7,14 @@
 
 // @include screenReader($prefix: $variant-disabled, $pseudo: $disabled)
 
+/* animations */
+
+// (v1.0.9)
+// @include fxBlur($prefix: $variant-disabled, $pseudo: $disabled)
+// @include fxFade($prefix: $variant-disabled, $pseudo: $disabled)
+// @include fxRoll($prefix: $variant-disabled, $pseudo: $disabled)
+// @include fxSlide($prefix: $variant-disabled, $pseudo: $disabled)
+
 /* backgrounds */
 
 // @include backgroundColor($prefix: $variant-disabled, $pseudo: $disabled)
@@ -16,6 +24,7 @@
 // @include backgroundSize($prefix: $variant-disabled, $pseudo: $disabled)
 // @include backgroundBlend($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.4)
 // @include backgroundOpacity($prefix: $variant-disabled, $pseudo: $disabled)
+// @include backgroundBorder($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.9)
 // @include backgroundGradient($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.9)
 
 /* borders */
@@ -67,6 +76,7 @@
 // @include appearance($prefix: $variant-disabled, $pseudo: $disabled)
 // @include cursor($prefix: $variant-disabled, $pseudo: $disabled)
 // @include outline($prefix: $variant-disabled, $pseudo: $disabled)
+// @include overscroll($prefix: $variant-disabled, $pseudo: $disabled) // (v1.1.0)
 // @include pointerEvents($prefix: $variant-disabled, $pseudo: $disabled)
 // @include resize($prefix: $variant-disabled, $pseudo: $disabled)
 // @include scrollBehavior($prefix: $variant-disabled, $pseudo: $disabled) // (v1.1.1)
@@ -78,6 +88,7 @@
 // @include boxSizing($prefix: $variant-disabled, $pseudo: $disabled)
 // @include clear($prefix: $variant-disabled, $pseudo: $disabled)
 // @include containerDefault($prefix: $variant-disabled, $pseudo: $disabled)
+// @include contentVisibility($prefix: $variant-disabled, $pseudo: $disabled) // (v1.0.9)
 // @include display($prefix: $variant-disabled, $pseudo: $disabled)
 // @include float($prefix: $variant-disabled, $pseudo: $disabled)
 // @include inset($prefix: $variant-disabled, $pseudo: $disabled)
@@ -87,10 +98,25 @@
 // @include overflow($prefix: $variant-disabled, $pseudo: $disabled)
 // @include overflow-xy($prefix: $variant-disabled, $pseudo: $disabled)
 // @include overflow-scrolling($prefix: $variant-disabled, $pseudo: $disabled)
-// @include overscroll($prefix: $variant-disabled, $pseudo: $disabled) // (v1.1.0)
 // @include position($prefix: $variant-disabled, $pseudo: $disabled)
 // @include visibility($prefix: $variant-disabled, $pseudo: $disabled)
 // @include zIndex($prefix: $variant-disabled, $pseudo: $disabled)
+
+/* patterns */
+
+// (1.0.8)
+// @include patternChecks($prefix: $variant-disabled, $pseudo: $disabled)
+// @include patternCrossDots($prefix: $variant-disabled, $pseudo: $disabled)
+// @include patternDiagonalLines($prefix: $variant-disabled, $pseudo: $disabled)
+// @include patternDiagonalStripes($prefix: $variant-disabled, $pseudo: $disabled)
+// @include patternDots($prefix: $variant-disabled, $pseudo: $disabled)
+// @include patternGrid($prefix: $variant-disabled, $pseudo: $disabled)
+// @include patternHorizontalLines($prefix: $variant-disabled, $pseudo: $disabled)
+// @include patternHorizontalStripes($prefix: $variant-disabled, $pseudo: $disabled)
+// @include patternTriangles($prefix: $variant-disabled, $pseudo: $disabled)
+// @include patternVerticalLines($prefix: $variant-disabled, $pseudo: $disabled)
+// @include patternVerticalStripes($prefix: $variant-disabled, $pseudo: $disabled)
+// @include patternZigzag($prefix: $variant-disabled, $pseudo: $disabled)
 
 /* sizing */
 
@@ -141,10 +167,9 @@
 
 /* typography */
 
-// @include placeholderColor($prefix: $variant-disabled, $pseudo: $disabled)
 // @include textColor($prefix: $variant-disabled, $pseudo: $disabled)
 // @include fontFamily($prefix: $variant-disabled, $pseudo: $disabled)
-// @include fontKerning($prefix: $variant-disabled, $pseudo: $disabled)
+// @include fontKerning($prefix: $variant-disabled, $pseudo: $disabled) // (v1.1.1)
 // @include fontSize($prefix: $variant-disabled, $pseudo: $disabled)
 // @include fontSmoothing($prefix: $variant-disabled, $pseudo: $disabled)
 // @include fontStyle($prefix: $variant-disabled, $pseudo: $disabled)
@@ -154,6 +179,8 @@
 // @include lineHeightTrim($prefix: $variant-disabled, $pseudo: $disabled) // (v1.1.0)
 // @include listStylePosition($prefix: $variant-disabled, $pseudo: $disabled)
 // @include listStyleType($prefix: $variant-disabled, $pseudo: $disabled)
+// @include placeholder() // static
+// @include placeholderColor($prefix: $variant-disabled, $pseudo: $disabled)
 // @include textAlign($prefix: $variant-disabled, $pseudo: $disabled)
 // @include textDecoration($prefix: $variant-disabled, $pseudo: $disabled)
 // @include textTransform($prefix: $variant-disabled, $pseudo: $disabled)
@@ -161,4 +188,3 @@
 // @include whitespace($prefix: $variant-disabled, $pseudo: $disabled)
 // @include wordBreak($prefix: $variant-disabled, $pseudo: $disabled)
 // @include textClamp($prefix: $variant-disabled, $pseudo: $disabled)
-

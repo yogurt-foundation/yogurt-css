@@ -7,6 +7,14 @@
 
 // @include screenReader($prefix: $variant-visited, $pseudo: $visited)
 
+/* animations */
+
+// (v1.0.9)
+// @include fxBlur($prefix: $variant-visited, $pseudo: $visited)
+// @include fxFade($prefix: $variant-visited, $pseudo: $visited)
+// @include fxRoll($prefix: $variant-visited, $pseudo: $visited)
+// @include fxSlide($prefix: $variant-visited, $pseudo: $visited)
+
 /* backgrounds */
 
 @include backgroundColor($prefix: $variant-visited, $pseudo: $visited)
@@ -16,6 +24,7 @@
 // @include backgroundSize($prefix: $variant-visited, $pseudo: $visited)
 // @include backgroundBlend($prefix: $variant-visited, $pseudo: $visited) // (v1.0.4)
 // @include backgroundOpacity($prefix: $variant-visited, $pseudo: $visited)
+// @include backgroundBorder($prefix: $variant-visited, $pseudo: $visited) // (v1.0.9)
 // @include backgroundGradient($prefix: $variant-visited, $pseudo: $visited) // (v1.0.9)
 
 /* borders */
@@ -67,6 +76,7 @@
 // @include appearance($prefix: $variant-visited, $pseudo: $visited)
 // @include cursor($prefix: $variant-visited, $pseudo: $visited)
 // @include outline($prefix: $variant-visited, $pseudo: $visited)
+// @include overscroll($prefix: $variant-visited, $pseudo: $visited) // (v1.1.0)
 // @include pointerEvents($prefix: $variant-visited, $pseudo: $visited)
 // @include resize($prefix: $variant-visited, $pseudo: $visited)
 // @include scrollBehavior($prefix: $variant-visited, $pseudo: $visited) // (v1.1.1)
@@ -78,6 +88,7 @@
 // @include boxSizing($prefix: $variant-visited, $pseudo: $visited)
 // @include clear($prefix: $variant-visited, $pseudo: $visited)
 // @include containerDefault($prefix: $variant-visited, $pseudo: $visited)
+// @include contentVisibility($prefix: $variant-visited, $pseudo: $visited) // (v1.0.9)
 // @include display($prefix: $variant-visited, $pseudo: $visited)
 // @include float($prefix: $variant-visited, $pseudo: $visited)
 // @include inset($prefix: $variant-visited, $pseudo: $visited)
@@ -87,10 +98,25 @@
 // @include overflow($prefix: $variant-visited, $pseudo: $visited)
 // @include overflow-xy($prefix: $variant-visited, $pseudo: $visited)
 // @include overflow-scrolling($prefix: $variant-visited, $pseudo: $visited)
-// @include overscroll($prefix: $variant-visited, $pseudo: $visited) // (v1.1.0)
 // @include position($prefix: $variant-visited, $pseudo: $visited)
 // @include visibility($prefix: $variant-visited, $pseudo: $visited)
 // @include zIndex($prefix: $variant-visited, $pseudo: $visited)
+
+/* patterns */
+
+// (1.0.8)
+// @include patternChecks($prefix: $variant-visited, $pseudo: $visited)
+// @include patternCrossDots($prefix: $variant-visited, $pseudo: $visited)
+// @include patternDiagonalLines($prefix: $variant-visited, $pseudo: $visited)
+// @include patternDiagonalStripes($prefix: $variant-visited, $pseudo: $visited)
+// @include patternDots($prefix: $variant-visited, $pseudo: $visited)
+// @include patternGrid($prefix: $variant-visited, $pseudo: $visited)
+// @include patternHorizontalLines($prefix: $variant-visited, $pseudo: $visited)
+// @include patternHorizontalStripes($prefix: $variant-visited, $pseudo: $visited)
+// @include patternTriangles($prefix: $variant-visited, $pseudo: $visited)
+// @include patternVerticalLines($prefix: $variant-visited, $pseudo: $visited)
+// @include patternVerticalStripes($prefix: $variant-visited, $pseudo: $visited)
+// @include patternZigzag($prefix: $variant-visited, $pseudo: $visited)
 
 /* sizing */
 
@@ -141,10 +167,9 @@
 
 /* typography */
 
-// @include placeholderColor($prefix: $variant-visited, $pseudo: $visited)
 @include textColor($prefix: $variant-visited, $pseudo: $visited)
 // @include fontFamily($prefix: $variant-visited, $pseudo: $visited)
-// @include fontKerning($prefix: $variant-visited, $pseudo: $visited)
+// @include fontKerning($prefix: $variant-visited, $pseudo: $visited) // (v1.1.1)
 // @include fontSize($prefix: $variant-visited, $pseudo: $visited)
 // @include fontSmoothing($prefix: $variant-visited, $pseudo: $visited)
 // @include fontStyle($prefix: $variant-visited, $pseudo: $visited)
@@ -154,6 +179,8 @@
 // @include lineHeightTrim($prefix: $variant-visited, $pseudo: $visited) // (v1.1.0)
 // @include listStylePosition($prefix: $variant-visited, $pseudo: $visited)
 // @include listStyleType($prefix: $variant-visited, $pseudo: $visited)
+// @include placeholder() // static
+// @include placeholderColor($prefix: $variant-visited, $pseudo: $visited)
 // @include textAlign($prefix: $variant-visited, $pseudo: $visited)
 // @include textDecoration($prefix: $variant-visited, $pseudo: $visited)
 // @include textTransform($prefix: $variant-visited, $pseudo: $visited)
@@ -161,4 +188,3 @@
 // @include whitespace($prefix: $variant-visited, $pseudo: $visited)
 // @include wordBreak($prefix: $variant-visited, $pseudo: $visited)
 // @include textClamp($prefix: $variant-visited, $pseudo: $visited)
-
