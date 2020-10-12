@@ -1433,3 +1433,16 @@ $font-kerning:
   (auto, auto),
   (normal, normal),
   (none, none);
+
+/* font stretch */
+
+$font-stretch:
+  (ultra-condensed, ultra-condensed),
+  (extra-condensed, extra-condensed),
+  (condensed, condensed),
+  (semi-condensed, semi-condensed),
+  (normal, normal),
+  (semi-expanded, semi-expanded),
+  (expanded, expanded),
+  (extra-expanded, extra-expanded),
+  (ultra-expanded, ultra-expanded);

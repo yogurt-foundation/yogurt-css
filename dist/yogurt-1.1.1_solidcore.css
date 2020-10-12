@@ -595,7 +595,7 @@ y {
   display: block;
 }
 
-/*! yogurt.css v1.1.0-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
+/*! yogurt.css v1.1.1-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
 /**
  * @file: _config.scss
  */
@@ -683,6 +683,7 @@ y {
 /* overscroll */
 /* line height trimm */
 /* font kerning */
+/* font stretch */
 /**
  * @file: _atrules.scss
  */
@@ -1308,6 +1309,11 @@ y {
  * @utility: typography
  * @module: _fontSmoothing.scss
  * @desc: sets the antialiasing of the font
+ */
+/**
+ * @utility: typography
+ * @module: _fontStretch.scss
+ * @desc: define text narrower(condensed) or wider(expanded) for font faces matching the defined sizes.
  */
 /**
  * @utility: typography
@@ -30106,6 +30112,42 @@ img[theme="invert"] {
   -moz-osx-font-smoothing: auto;
 }
 
+.font-stretch-ultra-condensed {
+  font-stretch: ultra-condensed;
+}
+
+.font-stretch-extra-condensed {
+  font-stretch: extra-condensed;
+}
+
+.font-stretch-condensed {
+  font-stretch: condensed;
+}
+
+.font-stretch-semi-condensed {
+  font-stretch: semi-condensed;
+}
+
+.font-stretch-normal {
+  font-stretch: normal;
+}
+
+.font-stretch-semi-expanded {
+  font-stretch: semi-expanded;
+}
+
+.font-stretch-expanded {
+  font-stretch: expanded;
+}
+
+.font-stretch-extra-expanded {
+  font-stretch: extra-expanded;
+}
+
+.font-stretch-ultra-expanded {
+  font-stretch: ultra-expanded;
+}
+
 .italic {
   font-style: italic;
 }
@@ -56968,6 +57010,33 @@ img[theme="invert"] {
     -webkit-font-smoothing: auto;
     -moz-osx-font-smoothing: auto;
   }
+  .xs\:font-stretch-ultra-condensed {
+    font-stretch: ultra-condensed;
+  }
+  .xs\:font-stretch-extra-condensed {
+    font-stretch: extra-condensed;
+  }
+  .xs\:font-stretch-condensed {
+    font-stretch: condensed;
+  }
+  .xs\:font-stretch-semi-condensed {
+    font-stretch: semi-condensed;
+  }
+  .xs\:font-stretch-normal {
+    font-stretch: normal;
+  }
+  .xs\:font-stretch-semi-expanded {
+    font-stretch: semi-expanded;
+  }
+  .xs\:font-stretch-expanded {
+    font-stretch: expanded;
+  }
+  .xs\:font-stretch-extra-expanded {
+    font-stretch: extra-expanded;
+  }
+  .xs\:font-stretch-ultra-expanded {
+    font-stretch: ultra-expanded;
+  }
   .xs\:italic {
     font-style: italic;
   }
@@ -60308,6 +60377,33 @@ img[theme="invert"] {
   .sm\:subpixel-antialiased {
     -webkit-font-smoothing: auto;
     -moz-osx-font-smoothing: auto;
+  }
+  .sm\:font-stretch-ultra-condensed {
+    font-stretch: ultra-condensed;
+  }
+  .sm\:font-stretch-extra-condensed {
+    font-stretch: extra-condensed;
+  }
+  .sm\:font-stretch-condensed {
+    font-stretch: condensed;
+  }
+  .sm\:font-stretch-semi-condensed {
+    font-stretch: semi-condensed;
+  }
+  .sm\:font-stretch-normal {
+    font-stretch: normal;
+  }
+  .sm\:font-stretch-semi-expanded {
+    font-stretch: semi-expanded;
+  }
+  .sm\:font-stretch-expanded {
+    font-stretch: expanded;
+  }
+  .sm\:font-stretch-extra-expanded {
+    font-stretch: extra-expanded;
+  }
+  .sm\:font-stretch-ultra-expanded {
+    font-stretch: ultra-expanded;
   }
   .sm\:italic {
     font-style: italic;
@@ -63650,6 +63746,33 @@ img[theme="invert"] {
     -webkit-font-smoothing: auto;
     -moz-osx-font-smoothing: auto;
   }
+  .md\:font-stretch-ultra-condensed {
+    font-stretch: ultra-condensed;
+  }
+  .md\:font-stretch-extra-condensed {
+    font-stretch: extra-condensed;
+  }
+  .md\:font-stretch-condensed {
+    font-stretch: condensed;
+  }
+  .md\:font-stretch-semi-condensed {
+    font-stretch: semi-condensed;
+  }
+  .md\:font-stretch-normal {
+    font-stretch: normal;
+  }
+  .md\:font-stretch-semi-expanded {
+    font-stretch: semi-expanded;
+  }
+  .md\:font-stretch-expanded {
+    font-stretch: expanded;
+  }
+  .md\:font-stretch-extra-expanded {
+    font-stretch: extra-expanded;
+  }
+  .md\:font-stretch-ultra-expanded {
+    font-stretch: ultra-expanded;
+  }
   .md\:italic {
     font-style: italic;
   }
@@ -66990,6 +67113,33 @@ img[theme="invert"] {
   .lg\:subpixel-antialiased {
     -webkit-font-smoothing: auto;
     -moz-osx-font-smoothing: auto;
+  }
+  .lg\:font-stretch-ultra-condensed {
+    font-stretch: ultra-condensed;
+  }
+  .lg\:font-stretch-extra-condensed {
+    font-stretch: extra-condensed;
+  }
+  .lg\:font-stretch-condensed {
+    font-stretch: condensed;
+  }
+  .lg\:font-stretch-semi-condensed {
+    font-stretch: semi-condensed;
+  }
+  .lg\:font-stretch-normal {
+    font-stretch: normal;
+  }
+  .lg\:font-stretch-semi-expanded {
+    font-stretch: semi-expanded;
+  }
+  .lg\:font-stretch-expanded {
+    font-stretch: expanded;
+  }
+  .lg\:font-stretch-extra-expanded {
+    font-stretch: extra-expanded;
+  }
+  .lg\:font-stretch-ultra-expanded {
+    font-stretch: ultra-expanded;
   }
   .lg\:italic {
     font-style: italic;
@@ -70332,6 +70482,33 @@ img[theme="invert"] {
     -webkit-font-smoothing: auto;
     -moz-osx-font-smoothing: auto;
   }
+  .xl\:font-stretch-ultra-condensed {
+    font-stretch: ultra-condensed;
+  }
+  .xl\:font-stretch-extra-condensed {
+    font-stretch: extra-condensed;
+  }
+  .xl\:font-stretch-condensed {
+    font-stretch: condensed;
+  }
+  .xl\:font-stretch-semi-condensed {
+    font-stretch: semi-condensed;
+  }
+  .xl\:font-stretch-normal {
+    font-stretch: normal;
+  }
+  .xl\:font-stretch-semi-expanded {
+    font-stretch: semi-expanded;
+  }
+  .xl\:font-stretch-expanded {
+    font-stretch: expanded;
+  }
+  .xl\:font-stretch-extra-expanded {
+    font-stretch: extra-expanded;
+  }
+  .xl\:font-stretch-ultra-expanded {
+    font-stretch: ultra-expanded;
+  }
   .xl\:italic {
     font-style: italic;
   }
@@ -73673,6 +73850,33 @@ img[theme="invert"] {
     -webkit-font-smoothing: auto;
     -moz-osx-font-smoothing: auto;
   }
+  .\32k\:font-stretch-ultra-condensed {
+    font-stretch: ultra-condensed;
+  }
+  .\32k\:font-stretch-extra-condensed {
+    font-stretch: extra-condensed;
+  }
+  .\32k\:font-stretch-condensed {
+    font-stretch: condensed;
+  }
+  .\32k\:font-stretch-semi-condensed {
+    font-stretch: semi-condensed;
+  }
+  .\32k\:font-stretch-normal {
+    font-stretch: normal;
+  }
+  .\32k\:font-stretch-semi-expanded {
+    font-stretch: semi-expanded;
+  }
+  .\32k\:font-stretch-expanded {
+    font-stretch: expanded;
+  }
+  .\32k\:font-stretch-extra-expanded {
+    font-stretch: extra-expanded;
+  }
+  .\32k\:font-stretch-ultra-expanded {
+    font-stretch: ultra-expanded;
+  }
   .\32k\:italic {
     font-style: italic;
   }
@@ -77013,6 +77217,33 @@ img[theme="invert"] {
   .\34k\:subpixel-antialiased {
     -webkit-font-smoothing: auto;
     -moz-osx-font-smoothing: auto;
+  }
+  .\34k\:font-stretch-ultra-condensed {
+    font-stretch: ultra-condensed;
+  }
+  .\34k\:font-stretch-extra-condensed {
+    font-stretch: extra-condensed;
+  }
+  .\34k\:font-stretch-condensed {
+    font-stretch: condensed;
+  }
+  .\34k\:font-stretch-semi-condensed {
+    font-stretch: semi-condensed;
+  }
+  .\34k\:font-stretch-normal {
+    font-stretch: normal;
+  }
+  .\34k\:font-stretch-semi-expanded {
+    font-stretch: semi-expanded;
+  }
+  .\34k\:font-stretch-expanded {
+    font-stretch: expanded;
+  }
+  .\34k\:font-stretch-extra-expanded {
+    font-stretch: extra-expanded;
+  }
+  .\34k\:font-stretch-ultra-expanded {
+    font-stretch: ultra-expanded;
   }
   .\34k\:italic {
     font-style: italic;
@@ -85607,6 +85838,6 @@ img[theme="invert"] {
  *    // ...
  *  )
  */
-/*! yogurt.css 1.1.0-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
+/*! yogurt.css 1.1.1-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
 
 /*# sourceMappingURL=yogurt-1.1.1_solidcore.css.map */
