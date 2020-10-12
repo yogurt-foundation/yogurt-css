@@ -684,6 +684,7 @@ y {
 /* line height trimm */
 /* font kerning */
 /* font stretch */
+/* touch action */
 /**
  * @file: _atrules.scss
  */
@@ -1008,6 +1009,11 @@ y {
  * @utility: interactivity
  * @module: _scrollBehavior.scss
  * @desc: smooth animation of scroll anchored position within a scrolling box
+ */
+/**
+ * @utility: interactivity
+ * @module: _touchAction.scss
+ * @desc: gives control over the effect of touchscreen interactions to an element
  */
 /**
  * @utility: interactivity
@@ -24620,6 +24626,56 @@ y {
 
 .scroll-snap.align-end > * {
   scroll-snap-align: end;
+}
+
+.touch-auto {
+  -ms-touch-action: auto;
+      touch-action: auto;
+}
+
+.touch-none {
+  -ms-touch-action: none;
+      touch-action: none;
+}
+
+.touch-pan-x {
+  -ms-touch-action: pan-x;
+      touch-action: pan-x;
+}
+
+.touch-pan-left {
+  -ms-touch-action: pan-left;
+      touch-action: pan-left;
+}
+
+.touch-pan-right {
+  -ms-touch-action: pan-right;
+      touch-action: pan-right;
+}
+
+.touch-pan-y {
+  -ms-touch-action: pan-y;
+      touch-action: pan-y;
+}
+
+.touch-pan-up {
+  -ms-touch-action: pan-up;
+      touch-action: pan-up;
+}
+
+.touch-pan-down {
+  -ms-touch-action: pan-down;
+      touch-action: pan-down;
+}
+
+.touch-pinch-zoom {
+  -ms-touch-action: pinch-zoom;
+      touch-action: pinch-zoom;
+}
+
+.touch-manipulation {
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
 }
 
 .select-none {
@@ -52964,6 +53020,46 @@ img[theme="invert"] {
   .xs\:scroll-snap.align-end > * {
     scroll-snap-align: end;
   }
+  .xs\:touch-auto {
+    -ms-touch-action: auto;
+        touch-action: auto;
+  }
+  .xs\:touch-none {
+    -ms-touch-action: none;
+        touch-action: none;
+  }
+  .xs\:touch-pan-x {
+    -ms-touch-action: pan-x;
+        touch-action: pan-x;
+  }
+  .xs\:touch-pan-left {
+    -ms-touch-action: pan-left;
+        touch-action: pan-left;
+  }
+  .xs\:touch-pan-right {
+    -ms-touch-action: pan-right;
+        touch-action: pan-right;
+  }
+  .xs\:touch-pan-y {
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+  }
+  .xs\:touch-pan-up {
+    -ms-touch-action: pan-up;
+        touch-action: pan-up;
+  }
+  .xs\:touch-pan-down {
+    -ms-touch-action: pan-down;
+        touch-action: pan-down;
+  }
+  .xs\:touch-pinch-zoom {
+    -ms-touch-action: pinch-zoom;
+        touch-action: pinch-zoom;
+  }
+  .xs\:touch-manipulation {
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+  }
   .xs\:select-none {
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -56304,6 +56400,46 @@ img[theme="invert"] {
   }
   .sm\:scroll-snap.align-end > * {
     scroll-snap-align: end;
+  }
+  .sm\:touch-auto {
+    -ms-touch-action: auto;
+        touch-action: auto;
+  }
+  .sm\:touch-none {
+    -ms-touch-action: none;
+        touch-action: none;
+  }
+  .sm\:touch-pan-x {
+    -ms-touch-action: pan-x;
+        touch-action: pan-x;
+  }
+  .sm\:touch-pan-left {
+    -ms-touch-action: pan-left;
+        touch-action: pan-left;
+  }
+  .sm\:touch-pan-right {
+    -ms-touch-action: pan-right;
+        touch-action: pan-right;
+  }
+  .sm\:touch-pan-y {
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+  }
+  .sm\:touch-pan-up {
+    -ms-touch-action: pan-up;
+        touch-action: pan-up;
+  }
+  .sm\:touch-pan-down {
+    -ms-touch-action: pan-down;
+        touch-action: pan-down;
+  }
+  .sm\:touch-pinch-zoom {
+    -ms-touch-action: pinch-zoom;
+        touch-action: pinch-zoom;
+  }
+  .sm\:touch-manipulation {
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
   }
   .sm\:select-none {
     -webkit-user-select: none;
@@ -59646,6 +59782,46 @@ img[theme="invert"] {
   .md\:scroll-snap.align-end > * {
     scroll-snap-align: end;
   }
+  .md\:touch-auto {
+    -ms-touch-action: auto;
+        touch-action: auto;
+  }
+  .md\:touch-none {
+    -ms-touch-action: none;
+        touch-action: none;
+  }
+  .md\:touch-pan-x {
+    -ms-touch-action: pan-x;
+        touch-action: pan-x;
+  }
+  .md\:touch-pan-left {
+    -ms-touch-action: pan-left;
+        touch-action: pan-left;
+  }
+  .md\:touch-pan-right {
+    -ms-touch-action: pan-right;
+        touch-action: pan-right;
+  }
+  .md\:touch-pan-y {
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+  }
+  .md\:touch-pan-up {
+    -ms-touch-action: pan-up;
+        touch-action: pan-up;
+  }
+  .md\:touch-pan-down {
+    -ms-touch-action: pan-down;
+        touch-action: pan-down;
+  }
+  .md\:touch-pinch-zoom {
+    -ms-touch-action: pinch-zoom;
+        touch-action: pinch-zoom;
+  }
+  .md\:touch-manipulation {
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+  }
   .md\:select-none {
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -62986,6 +63162,46 @@ img[theme="invert"] {
   }
   .lg\:scroll-snap.align-end > * {
     scroll-snap-align: end;
+  }
+  .lg\:touch-auto {
+    -ms-touch-action: auto;
+        touch-action: auto;
+  }
+  .lg\:touch-none {
+    -ms-touch-action: none;
+        touch-action: none;
+  }
+  .lg\:touch-pan-x {
+    -ms-touch-action: pan-x;
+        touch-action: pan-x;
+  }
+  .lg\:touch-pan-left {
+    -ms-touch-action: pan-left;
+        touch-action: pan-left;
+  }
+  .lg\:touch-pan-right {
+    -ms-touch-action: pan-right;
+        touch-action: pan-right;
+  }
+  .lg\:touch-pan-y {
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+  }
+  .lg\:touch-pan-up {
+    -ms-touch-action: pan-up;
+        touch-action: pan-up;
+  }
+  .lg\:touch-pan-down {
+    -ms-touch-action: pan-down;
+        touch-action: pan-down;
+  }
+  .lg\:touch-pinch-zoom {
+    -ms-touch-action: pinch-zoom;
+        touch-action: pinch-zoom;
+  }
+  .lg\:touch-manipulation {
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
   }
   .lg\:select-none {
     -webkit-user-select: none;
@@ -66328,6 +66544,46 @@ img[theme="invert"] {
   .xl\:scroll-snap.align-end > * {
     scroll-snap-align: end;
   }
+  .xl\:touch-auto {
+    -ms-touch-action: auto;
+        touch-action: auto;
+  }
+  .xl\:touch-none {
+    -ms-touch-action: none;
+        touch-action: none;
+  }
+  .xl\:touch-pan-x {
+    -ms-touch-action: pan-x;
+        touch-action: pan-x;
+  }
+  .xl\:touch-pan-left {
+    -ms-touch-action: pan-left;
+        touch-action: pan-left;
+  }
+  .xl\:touch-pan-right {
+    -ms-touch-action: pan-right;
+        touch-action: pan-right;
+  }
+  .xl\:touch-pan-y {
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+  }
+  .xl\:touch-pan-up {
+    -ms-touch-action: pan-up;
+        touch-action: pan-up;
+  }
+  .xl\:touch-pan-down {
+    -ms-touch-action: pan-down;
+        touch-action: pan-down;
+  }
+  .xl\:touch-pinch-zoom {
+    -ms-touch-action: pinch-zoom;
+        touch-action: pinch-zoom;
+  }
+  .xl\:touch-manipulation {
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+  }
   .xl\:select-none {
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -69669,6 +69925,46 @@ img[theme="invert"] {
   .\32k\:scroll-snap.align-end > * {
     scroll-snap-align: end;
   }
+  .\32k\:touch-auto {
+    -ms-touch-action: auto;
+        touch-action: auto;
+  }
+  .\32k\:touch-none {
+    -ms-touch-action: none;
+        touch-action: none;
+  }
+  .\32k\:touch-pan-x {
+    -ms-touch-action: pan-x;
+        touch-action: pan-x;
+  }
+  .\32k\:touch-pan-left {
+    -ms-touch-action: pan-left;
+        touch-action: pan-left;
+  }
+  .\32k\:touch-pan-right {
+    -ms-touch-action: pan-right;
+        touch-action: pan-right;
+  }
+  .\32k\:touch-pan-y {
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+  }
+  .\32k\:touch-pan-up {
+    -ms-touch-action: pan-up;
+        touch-action: pan-up;
+  }
+  .\32k\:touch-pan-down {
+    -ms-touch-action: pan-down;
+        touch-action: pan-down;
+  }
+  .\32k\:touch-pinch-zoom {
+    -ms-touch-action: pinch-zoom;
+        touch-action: pinch-zoom;
+  }
+  .\32k\:touch-manipulation {
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+  }
   .\32k\:select-none {
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -73009,6 +73305,46 @@ img[theme="invert"] {
   }
   .\34k\:scroll-snap.align-end > * {
     scroll-snap-align: end;
+  }
+  .\34k\:touch-auto {
+    -ms-touch-action: auto;
+        touch-action: auto;
+  }
+  .\34k\:touch-none {
+    -ms-touch-action: none;
+        touch-action: none;
+  }
+  .\34k\:touch-pan-x {
+    -ms-touch-action: pan-x;
+        touch-action: pan-x;
+  }
+  .\34k\:touch-pan-left {
+    -ms-touch-action: pan-left;
+        touch-action: pan-left;
+  }
+  .\34k\:touch-pan-right {
+    -ms-touch-action: pan-right;
+        touch-action: pan-right;
+  }
+  .\34k\:touch-pan-y {
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+  }
+  .\34k\:touch-pan-up {
+    -ms-touch-action: pan-up;
+        touch-action: pan-up;
+  }
+  .\34k\:touch-pan-down {
+    -ms-touch-action: pan-down;
+        touch-action: pan-down;
+  }
+  .\34k\:touch-pinch-zoom {
+    -ms-touch-action: pinch-zoom;
+        touch-action: pinch-zoom;
+  }
+  .\34k\:touch-manipulation {
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
   }
   .\34k\:select-none {
     -webkit-user-select: none;

@@ -86,6 +86,7 @@
 @include resize($class: $default)
 @include scrollBehavior($class: $default) // (v1.1.1)
 @include scrollSnap($class: $default) // (v1.1.0)
+@include touchAction($class: $default) // (v1.1.1)
 @include userSelect($class: $default)
 
 /* layouts */

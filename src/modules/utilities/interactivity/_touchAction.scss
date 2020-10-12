@@ -1,0 +1,24 @@
+/**
+ * @utility: interactivity
+ * @module: _touchAction.scss
+ * @desc: gives control over the effect of touchscreen interactions to an element
+ */
+
+@mixin touchAction(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier, $value in $touch-action {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "touch-",
+      $modifier: $modifier,
+      $property1: "touch-action",
+      $value1: $value#{$override}
+    )
+  }
+}
+
