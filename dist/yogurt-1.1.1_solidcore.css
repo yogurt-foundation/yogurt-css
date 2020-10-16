@@ -997,6 +997,11 @@ y {
  * @desc: sets native browser outline style to reset
  */
 /**
+ * @utility: layouts
+ * @module: _overscroll.scss
+ * @desc: sets what a browser does when reaching the boundary of a scrolling area.
+ */
+/**
  * @utility: interactivity
  * @module: _pointerEvents.scss
  * @desc: specifies whether an element is the target of mouse events
@@ -1010,6 +1015,11 @@ y {
  * @utility: interactivity
  * @module: _scrollBehavior.scss
  * @desc: smooth animation of scroll anchored position within a scrolling box
+ */
+/**
+ * @utility: layouts
+ * @module: _scrollSnap.scss
+ * @desc: sets viewport lock to certain elements or locations after finished scrolling
  */
 /**
  * @utility: interactivity
@@ -1073,18 +1083,8 @@ y {
  */
 /**
  * @utility: layouts
- * @module: _overscroll.scss
- * @desc: sets what a browser does when reaching the boundary of a scrolling area.
- */
-/**
- * @utility: layouts
  * @module: _position.scss
  * @desc: sets an element's position
- */
-/**
- * @utility: layouts
- * @module: _scrollSnap.scss
- * @desc: sets viewport lock to certain elements or locations after finished scrolling
  */
 /**
  * @utility: layouts
