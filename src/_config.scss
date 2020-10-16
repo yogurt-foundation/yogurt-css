@@ -1454,7 +1454,7 @@ $touch-action:
 /* writing mode */
 
 $writing-mode:
- (lr-tb, horizontal-tb),
- (tb-lr, vertical-lr),
- (tb-rl, vertical-rl);
+ (horizontal, horizontal-tb),
+ (vertical-left, vertical-lr),
+ (vertical-right, vertical-rl);
 

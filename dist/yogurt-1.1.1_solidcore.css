@@ -33749,19 +33749,19 @@ img[theme="invert"] {
   white-space: nowrap;
 }
 
-.text-lr-tb {
+.text-horizontal {
   -webkit-writing-mode: horizontal-tb;
       -ms-writing-mode: lr-tb;
           writing-mode: horizontal-tb;
 }
 
-.text-tb-lr {
+.text-vertical-left {
   -webkit-writing-mode: vertical-lr;
       -ms-writing-mode: tb-lr;
           writing-mode: vertical-lr;
 }
 
-.text-tb-rl {
+.text-vertical-right {
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
@@ -55781,17 +55781,17 @@ img[theme="invert"] {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  .xs\:text-lr-tb {
+  .xs\:text-horizontal {
     -webkit-writing-mode: horizontal-tb;
         -ms-writing-mode: lr-tb;
             writing-mode: horizontal-tb;
   }
-  .xs\:text-tb-lr {
+  .xs\:text-vertical-left {
     -webkit-writing-mode: vertical-lr;
         -ms-writing-mode: tb-lr;
             writing-mode: vertical-lr;
   }
-  .xs\:text-tb-rl {
+  .xs\:text-vertical-right {
     -webkit-writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
             writing-mode: vertical-rl;
@@ -59177,17 +59177,17 @@ img[theme="invert"] {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  .sm\:text-lr-tb {
+  .sm\:text-horizontal {
     -webkit-writing-mode: horizontal-tb;
         -ms-writing-mode: lr-tb;
             writing-mode: horizontal-tb;
   }
-  .sm\:text-tb-lr {
+  .sm\:text-vertical-left {
     -webkit-writing-mode: vertical-lr;
         -ms-writing-mode: tb-lr;
             writing-mode: vertical-lr;
   }
-  .sm\:text-tb-rl {
+  .sm\:text-vertical-right {
     -webkit-writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
             writing-mode: vertical-rl;
@@ -62573,17 +62573,17 @@ img[theme="invert"] {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  .md\:text-lr-tb {
+  .md\:text-horizontal {
     -webkit-writing-mode: horizontal-tb;
         -ms-writing-mode: lr-tb;
             writing-mode: horizontal-tb;
   }
-  .md\:text-tb-lr {
+  .md\:text-vertical-left {
     -webkit-writing-mode: vertical-lr;
         -ms-writing-mode: tb-lr;
             writing-mode: vertical-lr;
   }
-  .md\:text-tb-rl {
+  .md\:text-vertical-right {
     -webkit-writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
             writing-mode: vertical-rl;
@@ -65969,17 +65969,17 @@ img[theme="invert"] {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  .lg\:text-lr-tb {
+  .lg\:text-horizontal {
     -webkit-writing-mode: horizontal-tb;
         -ms-writing-mode: lr-tb;
             writing-mode: horizontal-tb;
   }
-  .lg\:text-tb-lr {
+  .lg\:text-vertical-left {
     -webkit-writing-mode: vertical-lr;
         -ms-writing-mode: tb-lr;
             writing-mode: vertical-lr;
   }
-  .lg\:text-tb-rl {
+  .lg\:text-vertical-right {
     -webkit-writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
             writing-mode: vertical-rl;
@@ -69365,17 +69365,17 @@ img[theme="invert"] {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  .xl\:text-lr-tb {
+  .xl\:text-horizontal {
     -webkit-writing-mode: horizontal-tb;
         -ms-writing-mode: lr-tb;
             writing-mode: horizontal-tb;
   }
-  .xl\:text-tb-lr {
+  .xl\:text-vertical-left {
     -webkit-writing-mode: vertical-lr;
         -ms-writing-mode: tb-lr;
             writing-mode: vertical-lr;
   }
-  .xl\:text-tb-rl {
+  .xl\:text-vertical-right {
     -webkit-writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
             writing-mode: vertical-rl;
@@ -72761,17 +72761,17 @@ img[theme="invert"] {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  .\32k\:text-lr-tb {
+  .\32k\:text-horizontal {
     -webkit-writing-mode: horizontal-tb;
         -ms-writing-mode: lr-tb;
             writing-mode: horizontal-tb;
   }
-  .\32k\:text-tb-lr {
+  .\32k\:text-vertical-left {
     -webkit-writing-mode: vertical-lr;
         -ms-writing-mode: tb-lr;
             writing-mode: vertical-lr;
   }
-  .\32k\:text-tb-rl {
+  .\32k\:text-vertical-right {
     -webkit-writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
             writing-mode: vertical-rl;
@@ -76157,17 +76157,17 @@ img[theme="invert"] {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  .\34k\:text-lr-tb {
+  .\34k\:text-horizontal {
     -webkit-writing-mode: horizontal-tb;
         -ms-writing-mode: lr-tb;
             writing-mode: horizontal-tb;
   }
-  .\34k\:text-tb-lr {
+  .\34k\:text-vertical-left {
     -webkit-writing-mode: vertical-lr;
         -ms-writing-mode: tb-lr;
             writing-mode: vertical-lr;
   }
-  .\34k\:text-tb-rl {
+  .\34k\:text-vertical-right {
     -webkit-writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
             writing-mode: vertical-rl;
