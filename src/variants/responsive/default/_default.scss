@@ -188,4 +188,5 @@
 @include verticalAlign($prefix: $responsive-default)
 @include whitespace($prefix: $responsive-default)
 @include wordBreak($prefix: $responsive-default)
+@include writingMode($prefix: $responsive-default) // (v1.1.1)
 @include textClamp($prefix: $responsive-default)

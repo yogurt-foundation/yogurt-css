@@ -1450,3 +1450,11 @@ $touch-action:
   (pan-down, pan-down),
   (pinch-zoom, pinch-zoom),
   (manipulation, manipulation);
+
+/* writing mode */
+
+$writing-mode:
+ (lr-tb, horizontal-tb),
+ (tb-lr, vertical-lr),
+ (tb-rl, vertical-rl);
+

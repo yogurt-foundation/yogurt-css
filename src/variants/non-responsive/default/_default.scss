@@ -199,4 +199,5 @@
 @include verticalAlign($class: $default)
 @include whitespace($class: $default)
 @include wordBreak($class: $default)
+@include writingMode($class: $default) // (v1.1.1)
 @include textClamp($class: $default)

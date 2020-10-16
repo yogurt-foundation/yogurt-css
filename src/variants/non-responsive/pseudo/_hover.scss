@@ -198,6 +198,7 @@
 // @include verticalAlign($prefix: $variant-hover, $pseudo: $hover)
 // @include whitespace($prefix: $variant-hover, $pseudo: $hover)
 // @include wordBreak($prefix: $variant-hover, $pseudo: $hover)
+// @include writingMode($prefix: $variant-hover, $pseudo: $hover) // (v1.1.1)
 // @include textClamp($prefix: $variant-hover, $pseudo: $hover)
 // ----- GROUP
 @include textColor($prefix: $variant-group-hover)

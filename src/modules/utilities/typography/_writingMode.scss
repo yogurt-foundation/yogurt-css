@@ -1,0 +1,25 @@
+/**
+ * @utility: typography
+ * @module: _writingMode.scss
+ * @desc: sets alignment of the text horizontally, vertically, or which direction depending on the language.
+ */
+
+@mixin writingMode(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier, $value in $writing-mode {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "text-",
+      $modifier: $modifier,
+      $property1: "writing-mode",
+      $value1: $value#{$override}
+    )
+  }
+}
+
+
