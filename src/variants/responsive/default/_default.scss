@@ -169,18 +169,18 @@
 /* typography */
 
 // @include textColor($prefix: $responsive-default)
-@include fontFamily($prefix: $responsive-default)
-@include fontKerning($prefix: $responsive-default) // (v1.1.1)
+// @include fontFamily($prefix: $responsive-default)
+// @include fontKerning($prefix: $responsive-default) // (v1.1.1)
 @include fontSize($prefix: $responsive-default)
-@include fontSmoothing($prefix: $responsive-default)
-@include fontStyle($prefix: $responsive-default)
+// @include fontSmoothing($prefix: $responsive-default)
+// @include fontStyle($prefix: $responsive-default)
 @include fontWeight($prefix: $responsive-default)
 @include letterSpacing($prefix: $responsive-default)
 @include lineHeight($prefix: $responsive-default)
 // @include lineHeightTrim($prefix: $responsive-default) // (v1.1.0)
-@include listStylePosition($prefix: $responsive-default)
-@include listStyleType($prefix: $responsive-default)
-@include placeholder() // static
+// @include listStylePosition($prefix: $responsive-default)
+// @include listStyleType($prefix: $responsive-default)
+// @include placeholder() // static
 // @include placeholderColor($prefix: $responsive-default)
 @include textAlign($prefix: $responsive-default)
 @include textDecoration($prefix: $responsive-default)
@@ -188,5 +188,5 @@
 @include verticalAlign($prefix: $responsive-default)
 @include whitespace($prefix: $responsive-default)
 @include wordBreak($prefix: $responsive-default)
-@include writingMode($prefix: $responsive-default) // (v1.1.1)
-@include textClamp($prefix: $responsive-default)
+// @include writingMode($prefix: $responsive-default) // (v1.1.1)
+// @include textClamp($prefix: $responsive-default)

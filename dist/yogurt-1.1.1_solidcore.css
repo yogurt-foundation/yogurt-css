@@ -59410,45 +59410,6 @@ img[theme="invert"] {
   /* transforms */
   /* transitions */
   /* typography */
-  .xs\:font-default {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif;
-  }
-  .xs\:font-sans {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .xs\:font-serif {
-    font-family: Noto Serif, Droid Serif, Georgia, Cambria, Times New Roman, Times, serif;
-  }
-  .xs\:font-mono {
-    font-family: SF Mono, Consolas, Roboto Mono, Noto Mono, Droid Mono, Fira Mono, Ubuntu Mono, Oxygen Mono, Lucida Console, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-  }
-  .xs\:font-arabic {
-    font-family: Arabic UI Display, Geeza Pro, Simplified Arabic, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .xs\:font-japanese {
-    font-family: Meiryo, Yu Gothic, Hiragino Kaku Gothic Pro, Hiragino Sans, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .xs\:font-korean {
-    font-family: Malgun Gothic, Apple SD Gothic Neo, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .xs\:font-thai {
-    font-family: Leelawadee, Thonburi, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .xs\:font-chinese {
-    font-family: Microsoft Yahei, PingFang SC, PingFang TC, Hiragino Sans, Hiragino Kaku Gothic Pro, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .xs\:font-kerning-auto {
-    -webkit-font-kerning: auto;
-            font-kerning: auto;
-  }
-  .xs\:font-kerning-normal {
-    -webkit-font-kerning: normal;
-            font-kerning: normal;
-  }
-  .xs\:font-kerning-none {
-    -webkit-font-kerning: none;
-            font-kerning: none;
-  }
   .xs\:text-xs {
     font-size: 0.75rem;
   }
@@ -59484,20 +59445,6 @@ img[theme="invert"] {
   }
   .xs\:text-8xl {
     font-size: 6rem;
-  }
-  .xs\:antialiased {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  .xs\:subpixel-antialiased {
-    -webkit-font-smoothing: auto;
-    -moz-osx-font-smoothing: auto;
-  }
-  .xs\:italic {
-    font-style: italic;
-  }
-  .xs\:not-italic {
-    font-style: normal;
   }
   .xs\:font-hairline {
     font-weight: 100;
@@ -59586,36 +59533,6 @@ img[theme="invert"] {
   .xs\:depth-10 {
     line-height: 2.5rem;
   }
-  .xs\:list-inside {
-    list-style-position: inside;
-  }
-  .xs\:list-outside {
-    list-style-position: outside;
-  }
-  .xs\:list-none {
-    list-style-type: none;
-  }
-  .xs\:list-disc {
-    list-style-type: disc;
-  }
-  .xs\:list-decimal {
-    list-style-type: decimal;
-  }
-  .placeholder-transparent:-ms-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-ms-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-webkit-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-moz-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::placeholder {
-    color: transparent;
-  }
   .xs\:text-left {
     text-align: left;
   }
@@ -59696,71 +59613,6 @@ img[theme="invert"] {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-  }
-  .xs\:text-horizontal {
-    -webkit-writing-mode: horizontal-tb;
-        -ms-writing-mode: lr-tb;
-            writing-mode: horizontal-tb;
-  }
-  .xs\:text-vertical-left {
-    -webkit-writing-mode: vertical-lr;
-        -ms-writing-mode: tb-lr;
-            writing-mode: vertical-lr;
-  }
-  .xs\:text-vertical-right {
-    -webkit-writing-mode: vertical-rl;
-        -ms-writing-mode: tb-rl;
-            writing-mode: vertical-rl;
-  }
-  .xs\:clamp-1 {
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .xs\:clamp-2 {
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .xs\:clamp-3 {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .xs\:clamp-4 {
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .xs\:clamp-5 {
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
   }
   /* Variants */
   /**
@@ -62626,45 +62478,6 @@ img[theme="invert"] {
   /* transforms */
   /* transitions */
   /* typography */
-  .sm\:font-default {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif;
-  }
-  .sm\:font-sans {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .sm\:font-serif {
-    font-family: Noto Serif, Droid Serif, Georgia, Cambria, Times New Roman, Times, serif;
-  }
-  .sm\:font-mono {
-    font-family: SF Mono, Consolas, Roboto Mono, Noto Mono, Droid Mono, Fira Mono, Ubuntu Mono, Oxygen Mono, Lucida Console, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-  }
-  .sm\:font-arabic {
-    font-family: Arabic UI Display, Geeza Pro, Simplified Arabic, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .sm\:font-japanese {
-    font-family: Meiryo, Yu Gothic, Hiragino Kaku Gothic Pro, Hiragino Sans, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .sm\:font-korean {
-    font-family: Malgun Gothic, Apple SD Gothic Neo, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .sm\:font-thai {
-    font-family: Leelawadee, Thonburi, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .sm\:font-chinese {
-    font-family: Microsoft Yahei, PingFang SC, PingFang TC, Hiragino Sans, Hiragino Kaku Gothic Pro, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .sm\:font-kerning-auto {
-    -webkit-font-kerning: auto;
-            font-kerning: auto;
-  }
-  .sm\:font-kerning-normal {
-    -webkit-font-kerning: normal;
-            font-kerning: normal;
-  }
-  .sm\:font-kerning-none {
-    -webkit-font-kerning: none;
-            font-kerning: none;
-  }
   .sm\:text-xs {
     font-size: 0.75rem;
   }
@@ -62700,20 +62513,6 @@ img[theme="invert"] {
   }
   .sm\:text-8xl {
     font-size: 6rem;
-  }
-  .sm\:antialiased {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  .sm\:subpixel-antialiased {
-    -webkit-font-smoothing: auto;
-    -moz-osx-font-smoothing: auto;
-  }
-  .sm\:italic {
-    font-style: italic;
-  }
-  .sm\:not-italic {
-    font-style: normal;
   }
   .sm\:font-hairline {
     font-weight: 100;
@@ -62802,36 +62601,6 @@ img[theme="invert"] {
   .sm\:depth-10 {
     line-height: 2.5rem;
   }
-  .sm\:list-inside {
-    list-style-position: inside;
-  }
-  .sm\:list-outside {
-    list-style-position: outside;
-  }
-  .sm\:list-none {
-    list-style-type: none;
-  }
-  .sm\:list-disc {
-    list-style-type: disc;
-  }
-  .sm\:list-decimal {
-    list-style-type: decimal;
-  }
-  .placeholder-transparent:-ms-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-ms-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-webkit-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-moz-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::placeholder {
-    color: transparent;
-  }
   .sm\:text-left {
     text-align: left;
   }
@@ -62912,71 +62681,6 @@ img[theme="invert"] {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-  }
-  .sm\:text-horizontal {
-    -webkit-writing-mode: horizontal-tb;
-        -ms-writing-mode: lr-tb;
-            writing-mode: horizontal-tb;
-  }
-  .sm\:text-vertical-left {
-    -webkit-writing-mode: vertical-lr;
-        -ms-writing-mode: tb-lr;
-            writing-mode: vertical-lr;
-  }
-  .sm\:text-vertical-right {
-    -webkit-writing-mode: vertical-rl;
-        -ms-writing-mode: tb-rl;
-            writing-mode: vertical-rl;
-  }
-  .sm\:clamp-1 {
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .sm\:clamp-2 {
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .sm\:clamp-3 {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .sm\:clamp-4 {
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .sm\:clamp-5 {
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
   }
   /* Variants */
   /**
@@ -65842,45 +65546,6 @@ img[theme="invert"] {
   /* transforms */
   /* transitions */
   /* typography */
-  .md\:font-default {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif;
-  }
-  .md\:font-sans {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .md\:font-serif {
-    font-family: Noto Serif, Droid Serif, Georgia, Cambria, Times New Roman, Times, serif;
-  }
-  .md\:font-mono {
-    font-family: SF Mono, Consolas, Roboto Mono, Noto Mono, Droid Mono, Fira Mono, Ubuntu Mono, Oxygen Mono, Lucida Console, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-  }
-  .md\:font-arabic {
-    font-family: Arabic UI Display, Geeza Pro, Simplified Arabic, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .md\:font-japanese {
-    font-family: Meiryo, Yu Gothic, Hiragino Kaku Gothic Pro, Hiragino Sans, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .md\:font-korean {
-    font-family: Malgun Gothic, Apple SD Gothic Neo, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .md\:font-thai {
-    font-family: Leelawadee, Thonburi, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .md\:font-chinese {
-    font-family: Microsoft Yahei, PingFang SC, PingFang TC, Hiragino Sans, Hiragino Kaku Gothic Pro, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .md\:font-kerning-auto {
-    -webkit-font-kerning: auto;
-            font-kerning: auto;
-  }
-  .md\:font-kerning-normal {
-    -webkit-font-kerning: normal;
-            font-kerning: normal;
-  }
-  .md\:font-kerning-none {
-    -webkit-font-kerning: none;
-            font-kerning: none;
-  }
   .md\:text-xs {
     font-size: 0.75rem;
   }
@@ -65916,20 +65581,6 @@ img[theme="invert"] {
   }
   .md\:text-8xl {
     font-size: 6rem;
-  }
-  .md\:antialiased {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  .md\:subpixel-antialiased {
-    -webkit-font-smoothing: auto;
-    -moz-osx-font-smoothing: auto;
-  }
-  .md\:italic {
-    font-style: italic;
-  }
-  .md\:not-italic {
-    font-style: normal;
   }
   .md\:font-hairline {
     font-weight: 100;
@@ -66018,36 +65669,6 @@ img[theme="invert"] {
   .md\:depth-10 {
     line-height: 2.5rem;
   }
-  .md\:list-inside {
-    list-style-position: inside;
-  }
-  .md\:list-outside {
-    list-style-position: outside;
-  }
-  .md\:list-none {
-    list-style-type: none;
-  }
-  .md\:list-disc {
-    list-style-type: disc;
-  }
-  .md\:list-decimal {
-    list-style-type: decimal;
-  }
-  .placeholder-transparent:-ms-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-ms-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-webkit-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-moz-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::placeholder {
-    color: transparent;
-  }
   .md\:text-left {
     text-align: left;
   }
@@ -66128,71 +65749,6 @@ img[theme="invert"] {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-  }
-  .md\:text-horizontal {
-    -webkit-writing-mode: horizontal-tb;
-        -ms-writing-mode: lr-tb;
-            writing-mode: horizontal-tb;
-  }
-  .md\:text-vertical-left {
-    -webkit-writing-mode: vertical-lr;
-        -ms-writing-mode: tb-lr;
-            writing-mode: vertical-lr;
-  }
-  .md\:text-vertical-right {
-    -webkit-writing-mode: vertical-rl;
-        -ms-writing-mode: tb-rl;
-            writing-mode: vertical-rl;
-  }
-  .md\:clamp-1 {
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .md\:clamp-2 {
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .md\:clamp-3 {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .md\:clamp-4 {
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .md\:clamp-5 {
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
   }
   /* Variants */
   /**
@@ -69058,45 +68614,6 @@ img[theme="invert"] {
   /* transforms */
   /* transitions */
   /* typography */
-  .lg\:font-default {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif;
-  }
-  .lg\:font-sans {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .lg\:font-serif {
-    font-family: Noto Serif, Droid Serif, Georgia, Cambria, Times New Roman, Times, serif;
-  }
-  .lg\:font-mono {
-    font-family: SF Mono, Consolas, Roboto Mono, Noto Mono, Droid Mono, Fira Mono, Ubuntu Mono, Oxygen Mono, Lucida Console, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-  }
-  .lg\:font-arabic {
-    font-family: Arabic UI Display, Geeza Pro, Simplified Arabic, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .lg\:font-japanese {
-    font-family: Meiryo, Yu Gothic, Hiragino Kaku Gothic Pro, Hiragino Sans, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .lg\:font-korean {
-    font-family: Malgun Gothic, Apple SD Gothic Neo, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .lg\:font-thai {
-    font-family: Leelawadee, Thonburi, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .lg\:font-chinese {
-    font-family: Microsoft Yahei, PingFang SC, PingFang TC, Hiragino Sans, Hiragino Kaku Gothic Pro, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .lg\:font-kerning-auto {
-    -webkit-font-kerning: auto;
-            font-kerning: auto;
-  }
-  .lg\:font-kerning-normal {
-    -webkit-font-kerning: normal;
-            font-kerning: normal;
-  }
-  .lg\:font-kerning-none {
-    -webkit-font-kerning: none;
-            font-kerning: none;
-  }
   .lg\:text-xs {
     font-size: 0.75rem;
   }
@@ -69132,20 +68649,6 @@ img[theme="invert"] {
   }
   .lg\:text-8xl {
     font-size: 6rem;
-  }
-  .lg\:antialiased {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  .lg\:subpixel-antialiased {
-    -webkit-font-smoothing: auto;
-    -moz-osx-font-smoothing: auto;
-  }
-  .lg\:italic {
-    font-style: italic;
-  }
-  .lg\:not-italic {
-    font-style: normal;
   }
   .lg\:font-hairline {
     font-weight: 100;
@@ -69234,36 +68737,6 @@ img[theme="invert"] {
   .lg\:depth-10 {
     line-height: 2.5rem;
   }
-  .lg\:list-inside {
-    list-style-position: inside;
-  }
-  .lg\:list-outside {
-    list-style-position: outside;
-  }
-  .lg\:list-none {
-    list-style-type: none;
-  }
-  .lg\:list-disc {
-    list-style-type: disc;
-  }
-  .lg\:list-decimal {
-    list-style-type: decimal;
-  }
-  .placeholder-transparent:-ms-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-ms-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-webkit-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-moz-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::placeholder {
-    color: transparent;
-  }
   .lg\:text-left {
     text-align: left;
   }
@@ -69344,71 +68817,6 @@ img[theme="invert"] {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-  }
-  .lg\:text-horizontal {
-    -webkit-writing-mode: horizontal-tb;
-        -ms-writing-mode: lr-tb;
-            writing-mode: horizontal-tb;
-  }
-  .lg\:text-vertical-left {
-    -webkit-writing-mode: vertical-lr;
-        -ms-writing-mode: tb-lr;
-            writing-mode: vertical-lr;
-  }
-  .lg\:text-vertical-right {
-    -webkit-writing-mode: vertical-rl;
-        -ms-writing-mode: tb-rl;
-            writing-mode: vertical-rl;
-  }
-  .lg\:clamp-1 {
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .lg\:clamp-2 {
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .lg\:clamp-3 {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .lg\:clamp-4 {
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .lg\:clamp-5 {
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
   }
   /* Variants */
   /**
@@ -72274,45 +71682,6 @@ img[theme="invert"] {
   /* transforms */
   /* transitions */
   /* typography */
-  .xl\:font-default {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif;
-  }
-  .xl\:font-sans {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .xl\:font-serif {
-    font-family: Noto Serif, Droid Serif, Georgia, Cambria, Times New Roman, Times, serif;
-  }
-  .xl\:font-mono {
-    font-family: SF Mono, Consolas, Roboto Mono, Noto Mono, Droid Mono, Fira Mono, Ubuntu Mono, Oxygen Mono, Lucida Console, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-  }
-  .xl\:font-arabic {
-    font-family: Arabic UI Display, Geeza Pro, Simplified Arabic, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .xl\:font-japanese {
-    font-family: Meiryo, Yu Gothic, Hiragino Kaku Gothic Pro, Hiragino Sans, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .xl\:font-korean {
-    font-family: Malgun Gothic, Apple SD Gothic Neo, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .xl\:font-thai {
-    font-family: Leelawadee, Thonburi, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .xl\:font-chinese {
-    font-family: Microsoft Yahei, PingFang SC, PingFang TC, Hiragino Sans, Hiragino Kaku Gothic Pro, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .xl\:font-kerning-auto {
-    -webkit-font-kerning: auto;
-            font-kerning: auto;
-  }
-  .xl\:font-kerning-normal {
-    -webkit-font-kerning: normal;
-            font-kerning: normal;
-  }
-  .xl\:font-kerning-none {
-    -webkit-font-kerning: none;
-            font-kerning: none;
-  }
   .xl\:text-xs {
     font-size: 0.75rem;
   }
@@ -72348,20 +71717,6 @@ img[theme="invert"] {
   }
   .xl\:text-8xl {
     font-size: 6rem;
-  }
-  .xl\:antialiased {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  .xl\:subpixel-antialiased {
-    -webkit-font-smoothing: auto;
-    -moz-osx-font-smoothing: auto;
-  }
-  .xl\:italic {
-    font-style: italic;
-  }
-  .xl\:not-italic {
-    font-style: normal;
   }
   .xl\:font-hairline {
     font-weight: 100;
@@ -72450,36 +71805,6 @@ img[theme="invert"] {
   .xl\:depth-10 {
     line-height: 2.5rem;
   }
-  .xl\:list-inside {
-    list-style-position: inside;
-  }
-  .xl\:list-outside {
-    list-style-position: outside;
-  }
-  .xl\:list-none {
-    list-style-type: none;
-  }
-  .xl\:list-disc {
-    list-style-type: disc;
-  }
-  .xl\:list-decimal {
-    list-style-type: decimal;
-  }
-  .placeholder-transparent:-ms-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-ms-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-webkit-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-moz-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::placeholder {
-    color: transparent;
-  }
   .xl\:text-left {
     text-align: left;
   }
@@ -72560,71 +71885,6 @@ img[theme="invert"] {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-  }
-  .xl\:text-horizontal {
-    -webkit-writing-mode: horizontal-tb;
-        -ms-writing-mode: lr-tb;
-            writing-mode: horizontal-tb;
-  }
-  .xl\:text-vertical-left {
-    -webkit-writing-mode: vertical-lr;
-        -ms-writing-mode: tb-lr;
-            writing-mode: vertical-lr;
-  }
-  .xl\:text-vertical-right {
-    -webkit-writing-mode: vertical-rl;
-        -ms-writing-mode: tb-rl;
-            writing-mode: vertical-rl;
-  }
-  .xl\:clamp-1 {
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .xl\:clamp-2 {
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .xl\:clamp-3 {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .xl\:clamp-4 {
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .xl\:clamp-5 {
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
   }
   /* Variants */
   /**
@@ -75490,45 +74750,6 @@ img[theme="invert"] {
   /* transforms */
   /* transitions */
   /* typography */
-  .\32k\:font-default {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif;
-  }
-  .\32k\:font-sans {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .\32k\:font-serif {
-    font-family: Noto Serif, Droid Serif, Georgia, Cambria, Times New Roman, Times, serif;
-  }
-  .\32k\:font-mono {
-    font-family: SF Mono, Consolas, Roboto Mono, Noto Mono, Droid Mono, Fira Mono, Ubuntu Mono, Oxygen Mono, Lucida Console, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-  }
-  .\32k\:font-arabic {
-    font-family: Arabic UI Display, Geeza Pro, Simplified Arabic, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .\32k\:font-japanese {
-    font-family: Meiryo, Yu Gothic, Hiragino Kaku Gothic Pro, Hiragino Sans, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .\32k\:font-korean {
-    font-family: Malgun Gothic, Apple SD Gothic Neo, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .\32k\:font-thai {
-    font-family: Leelawadee, Thonburi, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .\32k\:font-chinese {
-    font-family: Microsoft Yahei, PingFang SC, PingFang TC, Hiragino Sans, Hiragino Kaku Gothic Pro, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .\32k\:font-kerning-auto {
-    -webkit-font-kerning: auto;
-            font-kerning: auto;
-  }
-  .\32k\:font-kerning-normal {
-    -webkit-font-kerning: normal;
-            font-kerning: normal;
-  }
-  .\32k\:font-kerning-none {
-    -webkit-font-kerning: none;
-            font-kerning: none;
-  }
   .\32k\:text-xs {
     font-size: 0.75rem;
   }
@@ -75564,20 +74785,6 @@ img[theme="invert"] {
   }
   .\32k\:text-8xl {
     font-size: 6rem;
-  }
-  .\32k\:antialiased {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  .\32k\:subpixel-antialiased {
-    -webkit-font-smoothing: auto;
-    -moz-osx-font-smoothing: auto;
-  }
-  .\32k\:italic {
-    font-style: italic;
-  }
-  .\32k\:not-italic {
-    font-style: normal;
   }
   .\32k\:font-hairline {
     font-weight: 100;
@@ -75666,36 +74873,6 @@ img[theme="invert"] {
   .\32k\:depth-10 {
     line-height: 2.5rem;
   }
-  .\32k\:list-inside {
-    list-style-position: inside;
-  }
-  .\32k\:list-outside {
-    list-style-position: outside;
-  }
-  .\32k\:list-none {
-    list-style-type: none;
-  }
-  .\32k\:list-disc {
-    list-style-type: disc;
-  }
-  .\32k\:list-decimal {
-    list-style-type: decimal;
-  }
-  .placeholder-transparent:-ms-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-ms-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-webkit-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-moz-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::placeholder {
-    color: transparent;
-  }
   .\32k\:text-left {
     text-align: left;
   }
@@ -75776,71 +74953,6 @@ img[theme="invert"] {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-  }
-  .\32k\:text-horizontal {
-    -webkit-writing-mode: horizontal-tb;
-        -ms-writing-mode: lr-tb;
-            writing-mode: horizontal-tb;
-  }
-  .\32k\:text-vertical-left {
-    -webkit-writing-mode: vertical-lr;
-        -ms-writing-mode: tb-lr;
-            writing-mode: vertical-lr;
-  }
-  .\32k\:text-vertical-right {
-    -webkit-writing-mode: vertical-rl;
-        -ms-writing-mode: tb-rl;
-            writing-mode: vertical-rl;
-  }
-  .\32k\:clamp-1 {
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .\32k\:clamp-2 {
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .\32k\:clamp-3 {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .\32k\:clamp-4 {
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .\32k\:clamp-5 {
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
   }
   /* Variants */
   /**
@@ -78706,45 +77818,6 @@ img[theme="invert"] {
   /* transforms */
   /* transitions */
   /* typography */
-  .\34k\:font-default {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif;
-  }
-  .\34k\:font-sans {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .\34k\:font-serif {
-    font-family: Noto Serif, Droid Serif, Georgia, Cambria, Times New Roman, Times, serif;
-  }
-  .\34k\:font-mono {
-    font-family: SF Mono, Consolas, Roboto Mono, Noto Mono, Droid Mono, Fira Mono, Ubuntu Mono, Oxygen Mono, Lucida Console, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-  }
-  .\34k\:font-arabic {
-    font-family: Arabic UI Display, Geeza Pro, Simplified Arabic, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .\34k\:font-japanese {
-    font-family: Meiryo, Yu Gothic, Hiragino Kaku Gothic Pro, Hiragino Sans, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .\34k\:font-korean {
-    font-family: Malgun Gothic, Apple SD Gothic Neo, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .\34k\:font-thai {
-    font-family: Leelawadee, Thonburi, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .\34k\:font-chinese {
-    font-family: Microsoft Yahei, PingFang SC, PingFang TC, Hiragino Sans, Hiragino Kaku Gothic Pro, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-  }
-  .\34k\:font-kerning-auto {
-    -webkit-font-kerning: auto;
-            font-kerning: auto;
-  }
-  .\34k\:font-kerning-normal {
-    -webkit-font-kerning: normal;
-            font-kerning: normal;
-  }
-  .\34k\:font-kerning-none {
-    -webkit-font-kerning: none;
-            font-kerning: none;
-  }
   .\34k\:text-xs {
     font-size: 0.75rem;
   }
@@ -78780,20 +77853,6 @@ img[theme="invert"] {
   }
   .\34k\:text-8xl {
     font-size: 6rem;
-  }
-  .\34k\:antialiased {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  .\34k\:subpixel-antialiased {
-    -webkit-font-smoothing: auto;
-    -moz-osx-font-smoothing: auto;
-  }
-  .\34k\:italic {
-    font-style: italic;
-  }
-  .\34k\:not-italic {
-    font-style: normal;
   }
   .\34k\:font-hairline {
     font-weight: 100;
@@ -78882,36 +77941,6 @@ img[theme="invert"] {
   .\34k\:depth-10 {
     line-height: 2.5rem;
   }
-  .\34k\:list-inside {
-    list-style-position: inside;
-  }
-  .\34k\:list-outside {
-    list-style-position: outside;
-  }
-  .\34k\:list-none {
-    list-style-type: none;
-  }
-  .\34k\:list-disc {
-    list-style-type: disc;
-  }
-  .\34k\:list-decimal {
-    list-style-type: decimal;
-  }
-  .placeholder-transparent:-ms-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-ms-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-webkit-input-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::-moz-placeholder {
-    color: transparent;
-  }
-  .placeholder-transparent::placeholder {
-    color: transparent;
-  }
   .\34k\:text-left {
     text-align: left;
   }
@@ -78992,71 +78021,6 @@ img[theme="invert"] {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-  }
-  .\34k\:text-horizontal {
-    -webkit-writing-mode: horizontal-tb;
-        -ms-writing-mode: lr-tb;
-            writing-mode: horizontal-tb;
-  }
-  .\34k\:text-vertical-left {
-    -webkit-writing-mode: vertical-lr;
-        -ms-writing-mode: tb-lr;
-            writing-mode: vertical-lr;
-  }
-  .\34k\:text-vertical-right {
-    -webkit-writing-mode: vertical-rl;
-        -ms-writing-mode: tb-rl;
-            writing-mode: vertical-rl;
-  }
-  .\34k\:clamp-1 {
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .\34k\:clamp-2 {
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .\34k\:clamp-3 {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .\34k\:clamp-4 {
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
-  }
-  .\34k\:clamp-5 {
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    position: relative;
-    visibility: visible;
   }
   /* Variants */
   /**

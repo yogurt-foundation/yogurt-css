@@ -17,7 +17,7 @@
 
 /* backgrounds */
 
-@include backgroundColor($prefix: $responsive-active, $pseudo: $active)
+// @include backgroundColor($prefix: $responsive-active, $pseudo: $active)
 // @include backgroundAttachment($prefix: $responsive-active, $pseudo: $active)
 // @include backgroundPosition($prefix: $responsive-active, $pseudo: $active)
 // @include backgroundRepeat($prefix: $responsive-active, $pseudo: $active)
@@ -29,7 +29,7 @@
 
 /* borders */
 
-@include borderColor($prefix: $responsive-active, $pseudo: $active)
+// @include borderColor($prefix: $responsive-active, $pseudo: $active)
 // @include borderRadius($prefix: $responsive-active, $pseudo: $active)
 // @include borderStyle($prefix: $responsive-active, $pseudo: $active)
 // @include borderWidth($prefix: $responsive-active, $pseudo: $active)
@@ -39,8 +39,8 @@
 
 /* effects */
 
-@include shadowColor($prefix: $responsive-active, $pseudo: $active)
-@include boxShadow($prefix: $responsive-active, $pseudo: $active)
+// @include shadowColor($prefix: $responsive-active, $pseudo: $active)
+// @include boxShadow($prefix: $responsive-active, $pseudo: $active)
 // @include opacity($prefix: $responsive-active, $pseudo: $active)
 // @include mixBlend($prefix: $responsive-active, $pseudo: $active) // (v1.0.4)
 // @include gradient($prefix: $responsive-active, $pseudo: $active) // (1.0.8)
@@ -147,7 +147,7 @@
 
 /* typography */
 
-@include textColor($prefix: $responsive-active, $pseudo: $active)
+// @include textColor($prefix: $responsive-active, $pseudo: $active)
 // @include fontFamily($prefix: $responsive-active, $pseudo: $active)
 // @include fontKerning($prefix: $responsive-active, $pseudo: $active) // (v1.1.1)
 // @include fontSize($prefix: $responsive-active, $pseudo: $active)
@@ -161,7 +161,7 @@
 // @include listStyleType($prefix: $responsive-active, $pseudo: $active)
 // @include placeholderColor($prefix: $responsive-active, $pseudo: $active)
 // @include textAlign($prefix: $responsive-active, $pseudo: $active)
-@include textDecoration($prefix: $responsive-active, $pseudo: $active)
+// @include textDecoration($prefix: $responsive-active, $pseudo: $active)
 // @include textTransform($prefix: $responsive-active, $pseudo: $active)
 // @include verticalAlign($prefix: $responsive-active, $pseudo: $active)
 // @include whitespace($prefix: $responsive-active, $pseudo: $active)
