@@ -5,188 +5,188 @@
 
 /* accessibility */
 
-// @include screenReader($prefix: $variant-active, $pseudo: $active)
+// @include screenReader($prefix: $variant-checked, $pseudo: $checked)
 
 /* animations */
 
 // (v1.0.9)
-// @include fxBlur($prefix: $variant-active, $pseudo: $active)
-// @include fxFade($prefix: $variant-active, $pseudo: $active)
-// @include fxRoll($prefix: $variant-active, $pseudo: $active)
-// @include fxSlide($prefix: $variant-active, $pseudo: $active)
+// @include fxBlur($prefix: $variant-checked, $pseudo: $checked)
+// @include fxFade($prefix: $variant-checked, $pseudo: $checked)
+// @include fxRoll($prefix: $variant-checked, $pseudo: $checked)
+// @include fxSlide($prefix: $variant-checked, $pseudo: $checked)
 
 /* backgrounds */
 
-@include backgroundColor($prefix: $variant-active, $pseudo: $active)
-// @include backgroundAttachment($prefix: $variant-active, $pseudo: $active)
-// @include backgroundPosition($prefix: $variant-active, $pseudo: $active)
-// @include backgroundRepeat($prefix: $variant-active, $pseudo: $active)
-// @include backgroundSize($prefix: $variant-active, $pseudo: $active)
-// @include backgroundBlend($prefix: $variant-active, $pseudo: $active) // (v1.0.4)
-// @include backgroundOpacity($prefix: $variant-active, $pseudo: $active)
-// @include backgroundBorder($prefix: $variant-active, $pseudo: $active) // (v1.0.9)
-// @include backgroundGradient($prefix: $variant-active, $pseudo: $active) // (v1.0.9)
+@include backgroundColor($prefix: $variant-checked, $pseudo: $checked)
+// @include backgroundAttachment($prefix: $variant-checked, $pseudo: $checked)
+// @include backgroundPosition($prefix: $variant-checked, $pseudo: $checked)
+// @include backgroundRepeat($prefix: $variant-checked, $pseudo: $checked)
+// @include backgroundSize($prefix: $variant-checked, $pseudo: $checked)
+// @include backgroundBlend($prefix: $variant-checked, $pseudo: $checked) // (v1.0.4)
+// @include backgroundOpacity($prefix: $variant-checked, $pseudo: $checked)
+// @include backgroundBorder($prefix: $variant-checked, $pseudo: $checked) // (v1.0.9)
+// @include backgroundGradient($prefix: $variant-checked, $pseudo: $checked) // (v1.0.9)
 
 /* borders */
 
-@include borderColor($prefix: $variant-active, $pseudo: $active)
-// @include borderRadius($prefix: $variant-active, $pseudo: $active)
-// @include borderStyle($prefix: $variant-active, $pseudo: $active)
-// @include borderWidth($prefix: $variant-active, $pseudo: $active)
-// @include borderDissect($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
-// @include borderDissectColor($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
-// @include borderDissectOpacity($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
+@include borderColor($prefix: $variant-checked, $pseudo: $checked)
+// @include borderRadius($prefix: $variant-checked, $pseudo: $checked)
+// @include borderStyle($prefix: $variant-checked, $pseudo: $checked)
+// @include borderWidth($prefix: $variant-checked, $pseudo: $checked)
+// @include borderDissect($prefix: $variant-checked, $pseudo: $checked) // (v1.0.8)
+// @include borderDissectColor($prefix: $variant-checked, $pseudo: $checked) // (v1.0.8)
+// @include borderDissectOpacity($prefix: $variant-checked, $pseudo: $checked) // (v1.0.8)
 
 /* effects */
 
-@include shadowColor($prefix: $variant-active, $pseudo: $active)
-@include boxShadow($prefix: $variant-active, $pseudo: $active)
-// @include opacity($prefix: $variant-active, $pseudo: $active)
-// @include mixBlend($prefix: $variant-active, $pseudo: $active) // (v1.0.4)
-// @include gradient($prefix: $variant-active, $pseudo: $active) // (1.0.8)
+@include shadowColor($prefix: $variant-checked, $pseudo: $checked)
+@include boxShadow($prefix: $variant-checked, $pseudo: $checked)
+// @include opacity($prefix: $variant-checked, $pseudo: $checked)
+// @include mixBlend($prefix: $variant-checked, $pseudo: $checked) // (v1.0.4)
+// @include gradient($prefix: $variant-checked, $pseudo: $checked) // (1.0.8)
 
 /* filters */
 
-// @include filterCompose($prefix: $variant-active, $pseudo: $active) // (v1.0.9)
-// @include filterBackdropCompose($prefix: $variant-active, $pseudo: $active) // (v1.1.0)
-// @include filterInvert($prefix: $variant-active, $pseudo: $active) // (v1.0.3)
+// @include filterCompose($prefix: $variant-checked, $pseudo: $checked) // (v1.0.9)
+// @include filterBackdropCompose($prefix: $variant-checked, $pseudo: $checked) // (v1.1.0)
+// @include filterInvert($prefix: $variant-checked, $pseudo: $checked) // (v1.0.3)
 
 /* flexbox */
 
-// @include alignContent($prefix: $variant-active, $pseudo: $active)
-// @include alignItems($prefix: $variant-active, $pseudo: $active)
-// @include alignSelf($prefix: $variant-active, $pseudo: $active)
-// @include flex($prefix: $variant-active, $pseudo: $active)
-// @include flexDirection($prefix: $variant-active, $pseudo: $active)
-// @include flexGrow($prefix: $variant-active, $pseudo: $active)
-// @include flexGap($prefix: $variant-active, $pseudo: $active) // (v1.1.0)
-// @include flexShrink($prefix: $variant-active, $pseudo: $active)
-// @include flexWrap($prefix: $variant-active, $pseudo: $active)
-// @include justifyContent($prefix: $variant-active, $pseudo: $active)
-// @include order($prefix: $variant-active, $pseudo: $active)
+// @include alignContent($prefix: $variant-checked, $pseudo: $checked)
+// @include alignItems($prefix: $variant-checked, $pseudo: $checked)
+// @include alignSelf($prefix: $variant-checked, $pseudo: $checked)
+// @include flex($prefix: $variant-checked, $pseudo: $checked)
+// @include flexDirection($prefix: $variant-checked, $pseudo: $checked)
+// @include flexGrow($prefix: $variant-checked, $pseudo: $checked)
+// @include flexGap($prefix: $variant-checked, $pseudo: $checked) // (v1.1.0)
+// @include flexShrink($prefix: $variant-checked, $pseudo: $checked)
+// @include flexWrap($prefix: $variant-checked, $pseudo: $checked)
+// @include justifyContent($prefix: $variant-checked, $pseudo: $checked)
+// @include order($prefix: $variant-checked, $pseudo: $checked)
 
 /* fluids */
 
-// @include fluidFontSize($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
-// @include fluidMargin($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
-// @include fluidPadding($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
+// @include fluidFontSize($prefix: $variant-checked, $pseudo: $checked) // (v1.0.8)
+// @include fluidMargin($prefix: $variant-checked, $pseudo: $checked) // (v1.0.8)
+// @include fluidPadding($prefix: $variant-checked, $pseudo: $checked) // (v1.0.8)
 
 /* interactivity */
 
-// @include appearance($prefix: $variant-active, $pseudo: $active)
-// @include cursor($prefix: $variant-active, $pseudo: $active)
-// @include outline($prefix: $variant-active, $pseudo: $active)
-// @include overscroll($prefix: $variant-active, $pseudo: $active) // (v1.1.0)
-// @include pointerEvents($prefix: $variant-active, $pseudo: $active)
-// @include resize($prefix: $variant-active, $pseudo: $active)
-// @include scrollBehavior($prefix: $variant-active, $pseudo: $active) // (v1.1.1)
-// @include scrollSnap($prefix: $variant-active, $pseudo: $active) // (v1.1.0)
-// @include touchAction($prefix: $variant-active, $pseudo: $active) // (v1.1.1)
-// @include userSelect($prefix: $variant-active, $pseudo: $active)
+// @include appearance($prefix: $variant-checked, $pseudo: $checked)
+// @include cursor($prefix: $variant-checked, $pseudo: $checked)
+// @include outline($prefix: $variant-checked, $pseudo: $checked)
+// @include overscroll($prefix: $variant-checked, $pseudo: $checked) // (v1.1.0)
+// @include pointerEvents($prefix: $variant-checked, $pseudo: $checked)
+// @include resize($prefix: $variant-checked, $pseudo: $checked)
+// @include scrollBehavior($prefix: $variant-checked, $pseudo: $checked) // (v1.1.1)
+// @include scrollSnap($prefix: $variant-checked, $pseudo: $checked) // (v1.1.0)
+// @include touchAction($prefix: $variant-checked, $pseudo: $checked) // (v1.1.1)
+// @include userSelect($prefix: $variant-checked, $pseudo: $checked)
 
 /* layouts */
 
-// @include boxSizing($prefix: $variant-active, $pseudo: $active)
-// @include clear($prefix: $variant-active, $pseudo: $active)
-// @include containerDefault($prefix: $variant-active, $pseudo: $active)
-// @include contentVisibility($prefix: $variant-active, $pseudo: $active) // (v1.0.9)
-// @include display($prefix: $variant-active, $pseudo: $active)
-// @include float($prefix: $variant-active, $pseudo: $active)
-// @include inset($prefix: $variant-active, $pseudo: $active)
-// @include insetTBLR($prefix: $variant-active, $pseudo: $active)
-// @include objectFit($prefix: $variant-active, $pseudo: $active)
-// @include objectPosition($prefix: $variant-active, $pseudo: $active)
-// @include overflow($prefix: $variant-active, $pseudo: $active)
-// @include overflow-xy($prefix: $variant-active, $pseudo: $active)
-// @include overflow-scrolling($prefix: $variant-active, $pseudo: $active)
-// @include position($prefix: $variant-active, $pseudo: $active)
-// @include visibility($prefix: $variant-active, $pseudo: $active)
-// @include zIndex($prefix: $variant-active, $pseudo: $active)
+// @include boxSizing($prefix: $variant-checked, $pseudo: $checked)
+// @include clear($prefix: $variant-checked, $pseudo: $checked)
+// @include containerDefault($prefix: $variant-checked, $pseudo: $checked)
+// @include contentVisibility($prefix: $variant-checked, $pseudo: $checked) // (v1.0.9)
+// @include display($prefix: $variant-checked, $pseudo: $checked)
+// @include float($prefix: $variant-checked, $pseudo: $checked)
+// @include inset($prefix: $variant-checked, $pseudo: $checked)
+// @include insetTBLR($prefix: $variant-checked, $pseudo: $checked)
+// @include objectFit($prefix: $variant-checked, $pseudo: $checked)
+// @include objectPosition($prefix: $variant-checked, $pseudo: $checked)
+// @include overflow($prefix: $variant-checked, $pseudo: $checked)
+// @include overflow-xy($prefix: $variant-checked, $pseudo: $checked)
+// @include overflow-scrolling($prefix: $variant-checked, $pseudo: $checked)
+// @include position($prefix: $variant-checked, $pseudo: $checked)
+// @include visibility($prefix: $variant-checked, $pseudo: $checked)
+// @include zIndex($prefix: $variant-checked, $pseudo: $checked)
 
 /* patterns */
 
 // (1.0.8)
-// @include patternChecks($prefix: $variant-active, $pseudo: $active)
-// @include patternCrossDots($prefix: $variant-active, $pseudo: $active)
-// @include patternDiagonalLines($prefix: $variant-active, $pseudo: $active)
-// @include patternDiagonalStripes($prefix: $variant-active, $pseudo: $active)
-// @include patternDots($prefix: $variant-active, $pseudo: $active)
-// @include patternGrid($prefix: $variant-active, $pseudo: $active)
-// @include patternHorizontalLines($prefix: $variant-active, $pseudo: $active)
-// @include patternHorizontalStripes($prefix: $variant-active, $pseudo: $active)
-// @include patternTriangles($prefix: $variant-active, $pseudo: $active)
-// @include patternVerticalLines($prefix: $variant-active, $pseudo: $active)
-// @include patternVerticalStripes($prefix: $variant-active, $pseudo: $active)
-// @include patternZigzag($prefix: $variant-active, $pseudo: $active)
+// @include patternChecks($prefix: $variant-checked, $pseudo: $checked)
+// @include patternCrossDots($prefix: $variant-checked, $pseudo: $checked)
+// @include patternDiagonalLines($prefix: $variant-checked, $pseudo: $checked)
+// @include patternDiagonalStripes($prefix: $variant-checked, $pseudo: $checked)
+// @include patternDots($prefix: $variant-checked, $pseudo: $checked)
+// @include patternGrid($prefix: $variant-checked, $pseudo: $checked)
+// @include patternHorizontalLines($prefix: $variant-checked, $pseudo: $checked)
+// @include patternHorizontalStripes($prefix: $variant-checked, $pseudo: $checked)
+// @include patternTriangles($prefix: $variant-checked, $pseudo: $checked)
+// @include patternVerticalLines($prefix: $variant-checked, $pseudo: $checked)
+// @include patternVerticalStripes($prefix: $variant-checked, $pseudo: $checked)
+// @include patternZigzag($prefix: $variant-checked, $pseudo: $checked)
 
 /* sizing */
 
-// @include height($prefix: $variant-active, $pseudo: $active)
-// @include maxHeight($prefix: $variant-active, $pseudo: $active)
-// @include maxWidth($prefix: $variant-active, $pseudo: $active)
-// @include minHeight($prefix: $variant-active, $pseudo: $active)
-// @include minWidth($prefix: $variant-active, $pseudo: $active)
-// @include width($prefix: $variant-active, $pseudo: $active)
+// @include height($prefix: $variant-checked, $pseudo: $checked)
+// @include maxHeight($prefix: $variant-checked, $pseudo: $checked)
+// @include maxWidth($prefix: $variant-checked, $pseudo: $checked)
+// @include minHeight($prefix: $variant-checked, $pseudo: $checked)
+// @include minWidth($prefix: $variant-checked, $pseudo: $checked)
+// @include width($prefix: $variant-checked, $pseudo: $checked)
 
 /* spacing */
 
-// @include margin($prefix: $variant-active, $pseudo: $active)
-// @include margin($negative: $true, $prefix: $variant-active, $pseudo: $active) // negative
-// @include padding($prefix: $variant-active, $pseudo: $active)
-// @include equal($prefix: $variant-active, $pseudo: $active) // (v1.0.8)
-// @include equal($negative: $true, $prefix: $variant-active, $pseudo: $active) // negative, (v1.0.8)
+// @include margin($prefix: $variant-checked, $pseudo: $checked)
+// @include margin($negative: $true, $prefix: $variant-checked, $pseudo: $checked) // negative
+// @include padding($prefix: $variant-checked, $pseudo: $checked)
+// @include equal($prefix: $variant-checked, $pseudo: $checked) // (v1.0.8)
+// @include equal($negative: $true, $prefix: $variant-checked, $pseudo: $checked) // negative, (v1.0.8)
 
 /* svg */
 
-// @include fill($prefix: $variant-active, $pseudo: $active)
-// @include stroke($prefix: $variant-active, $pseudo: $active)
-// @include strokeWidth($prefix: $variant-active, $pseudo: $active)
-// @include strokeLineCap($prefix: $variant-active, $pseudo: $active) // (v1.1.1)
+// @include fill($prefix: $variant-checked, $pseudo: $checked)
+// @include stroke($prefix: $variant-checked, $pseudo: $checked)
+// @include strokeWidth($prefix: $variant-checked, $pseudo: $checked)
+// @include strokeLineCap($prefix: $variant-checked, $pseudo: $checked) // (v1.1.1)
 
 /* tables */
 
-// @include borderCollapse($prefix: $variant-active, $pseudo: $active)
-// @include tableLayout($prefix: $variant-active, $pseudo: $active)
+// @include borderCollapse($prefix: $variant-checked, $pseudo: $checked)
+// @include tableLayout($prefix: $variant-checked, $pseudo: $checked)
 
 /* transforms */
 
-// @include transform($prefix: $variant-active, $pseudo: $active)
-// @include transformOrigin($prefix: $variant-active, $pseudo: $active)
-// @include rotate($prefix: $variant-active, $pseudo: $active)
-// @include rotate($prefix: $variant-active, $pseudo: $active, $negative: $true) // negative
-// @include scale($prefix: $variant-active, $pseudo: $active)
-// @include skew($prefix: $variant-active, $pseudo: $active)
-// @include skew($prefix: $variant-active, $pseudo: $active, $negative: $true) // negative
-// @include translate($prefix: $variant-active, $pseudo: $active)
-// @include translate($prefix: $variant-active, $pseudo: $active, $negative: $true) // negative
+// @include transform($prefix: $variant-checked, $pseudo: $checked)
+// @include transformOrigin($prefix: $variant-checked, $pseudo: $checked)
+// @include rotate($prefix: $variant-checked, $pseudo: $checked)
+// @include rotate($prefix: $variant-checked, $pseudo: $checked, $negative: $true) // negative
+// @include scale($prefix: $variant-checked, $pseudo: $checked)
+// @include skew($prefix: $variant-checked, $pseudo: $checked)
+// @include skew($prefix: $variant-checked, $pseudo: $checked, $negative: $true) // negative
+// @include translate($prefix: $variant-checked, $pseudo: $checked)
+// @include translate($prefix: $variant-checked, $pseudo: $checked, $negative: $true) // negative
 
 /* transitions */
 
-// @include transitionDuration($prefix: $variant-active, $pseudo: $active)
-// @include transitionProperty($prefix: $variant-active, $pseudo: $active)
-// @include transitionTiming($prefix: $variant-active, $pseudo: $active)
+// @include transitionDuration($prefix: $variant-checked, $pseudo: $checked)
+// @include transitionProperty($prefix: $variant-checked, $pseudo: $checked)
+// @include transitionTiming($prefix: $variant-checked, $pseudo: $checked)
 
 /* typography */
 
-@include textColor($prefix: $variant-active, $pseudo: $active)
-// @include fontFamily($prefix: $variant-active, $pseudo: $active)
-// @include fontKerning($prefix: $variant-active, $pseudo: $active) // (v1.1.1)
-// @include fontSize($prefix: $variant-active, $pseudo: $active)
-// @include fontSmoothing($prefix: $variant-active, $pseudo: $active)
-// @include fontStyle($prefix: $variant-active, $pseudo: $active)
-// @include fontWeight($prefix: $variant-active, $pseudo: $active)
-// @include letterSpacing($prefix: $variant-active, $pseudo: $active)
-// @include lineHeight($prefix: $variant-active, $pseudo: $active)
-// @include lineHeightTrim($prefix: $variant-active, $pseudo: $active) // (v1.1.0)
-// @include listStylePosition($prefix: $variant-active, $pseudo: $active)
-// @include listStyleType($prefix: $variant-active, $pseudo: $active)
+@include textColor($prefix: $variant-checked, $pseudo: $checked)
+// @include fontFamily($prefix: $variant-checked, $pseudo: $checked)
+// @include fontKerning($prefix: $variant-checked, $pseudo: $checked) // (v1.1.1)
+// @include fontSize($prefix: $variant-checked, $pseudo: $checked)
+// @include fontSmoothing($prefix: $variant-checked, $pseudo: $checked)
+// @include fontStyle($prefix: $variant-checked, $pseudo: $checked)
+// @include fontWeight($prefix: $variant-checked, $pseudo: $checked)
+// @include letterSpacing($prefix: $variant-checked, $pseudo: $checked)
+// @include lineHeight($prefix: $variant-checked, $pseudo: $checked)
+// @include lineHeightTrim($prefix: $variant-checked, $pseudo: $checked) // (v1.1.0)
+// @include listStylePosition($prefix: $variant-checked, $pseudo: $checked)
+// @include listStyleType($prefix: $variant-checked, $pseudo: $checked)
 // @include placeholder() // static
-// @include placeholderColor($prefix: $variant-active, $pseudo: $active)
-// @include textAlign($prefix: $variant-active, $pseudo: $active)
-@include textDecoration($prefix: $variant-active, $pseudo: $active)
-// @include textTransform($prefix: $variant-active, $pseudo: $active)
-// @include verticalAlign($prefix: $variant-active, $pseudo: $active)
-// @include whitespace($prefix: $variant-active, $pseudo: $active)
-// @include wordBreak($prefix: $variant-active, $pseudo: $active)
-// @include writingMode($prefix: $variant-active, $pseudo: $active) // (v1.1.1)
-// @include textClamp($prefix: $variant-active, $pseudo: $active)
+// @include placeholderColor($prefix: $variant-checked, $pseudo: $checked)
+// @include textAlign($prefix: $variant-checked, $pseudo: $checked)
+@include textDecoration($prefix: $variant-checked, $pseudo: $checked)
+// @include textTransform($prefix: $variant-checked, $pseudo: $checked)
+// @include verticalAlign($prefix: $variant-checked, $pseudo: $checked)
+// @include whitespace($prefix: $variant-checked, $pseudo: $checked)
+// @include wordBreak($prefix: $variant-checked, $pseudo: $checked)
+// @include writingMode($prefix: $variant-checked, $pseudo: $checked) // (v1.1.1)
+// @include textClamp($prefix: $variant-checked, $pseudo: $checked)

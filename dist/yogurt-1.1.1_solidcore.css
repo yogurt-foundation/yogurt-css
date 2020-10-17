@@ -35309,3755 +35309,3755 @@ img[theme="invert"] {
 /* accessibility */
 /* animations */
 /* backgrounds */
-.active\:bg-amber-100:active {
+.checked\:bg-amber-100:checked {
   background-color: #fff9e6;
 }
 
-.active\:bg-amber-100:active {
+.checked\:bg-amber-100:checked {
   --bg-opacity: 1;
   background-color: rgba(255, 249, 230, var(--bg-opacity)) ;
 }
 
-.active\:bg-amber-200:active {
+.checked\:bg-amber-200:checked {
   background-color: #fff0bf;
 }
 
-.active\:bg-amber-200:active {
+.checked\:bg-amber-200:checked {
   --bg-opacity: 1;
   background-color: rgba(255, 240, 191, var(--bg-opacity)) ;
 }
 
-.active\:bg-amber-300:active {
+.checked\:bg-amber-300:checked {
   background-color: #ffe799;
 }
 
-.active\:bg-amber-300:active {
+.checked\:bg-amber-300:checked {
   --bg-opacity: 1;
   background-color: rgba(255, 231, 153, var(--bg-opacity)) ;
 }
 
-.active\:bg-amber-400:active {
+.checked\:bg-amber-400:checked {
   background-color: #ffd54d;
 }
 
-.active\:bg-amber-400:active {
+.checked\:bg-amber-400:checked {
   --bg-opacity: 1;
   background-color: rgba(255, 213, 77, var(--bg-opacity)) ;
 }
 
-.active\:bg-amber-500:active {
+.checked\:bg-amber-500:checked {
   background-color: #ffc300;
 }
 
-.active\:bg-amber-500:active {
+.checked\:bg-amber-500:checked {
   --bg-opacity: 1;
   background-color: rgba(255, 195, 0, var(--bg-opacity)) ;
 }
 
-.active\:bg-amber-600:active {
+.checked\:bg-amber-600:checked {
   background-color: #e6b000;
 }
 
-.active\:bg-amber-600:active {
+.checked\:bg-amber-600:checked {
   --bg-opacity: 1;
   background-color: rgba(230, 176, 0, var(--bg-opacity)) ;
 }
 
-.active\:bg-amber-700:active {
+.checked\:bg-amber-700:checked {
   background-color: #997500;
 }
 
-.active\:bg-amber-700:active {
+.checked\:bg-amber-700:checked {
   --bg-opacity: 1;
   background-color: rgba(153, 117, 0, var(--bg-opacity)) ;
 }
 
-.active\:bg-amber-800:active {
+.checked\:bg-amber-800:checked {
   background-color: #735800;
 }
 
-.active\:bg-amber-800:active {
+.checked\:bg-amber-800:checked {
   --bg-opacity: 1;
   background-color: rgba(115, 88, 0, var(--bg-opacity)) ;
 }
 
-.active\:bg-amber-900:active {
+.checked\:bg-amber-900:checked {
   background-color: #4d3b00;
 }
 
-.active\:bg-amber-900:active {
+.checked\:bg-amber-900:checked {
   --bg-opacity: 1;
   background-color: rgba(77, 59, 0, var(--bg-opacity)) ;
 }
 
-.active\:bg-black-100:active {
+.checked\:bg-black-100:checked {
   background-color: #b9b9b9;
 }
 
-.active\:bg-black-100:active {
+.checked\:bg-black-100:checked {
   --bg-opacity: 1;
   background-color: rgba(185, 185, 185, var(--bg-opacity)) ;
 }
 
-.active\:bg-black-200:active {
+.checked\:bg-black-200:checked {
   background-color: #a2a2a2;
 }
 
-.active\:bg-black-200:active {
+.checked\:bg-black-200:checked {
   --bg-opacity: 1;
   background-color: rgba(162, 162, 162, var(--bg-opacity)) ;
 }
 
-.active\:bg-black-300:active {
+.checked\:bg-black-300:checked {
   background-color: #8b8b8b;
 }
 
-.active\:bg-black-300:active {
+.checked\:bg-black-300:checked {
   --bg-opacity: 1;
   background-color: rgba(139, 139, 139, var(--bg-opacity)) ;
 }
 
-.active\:bg-black-400:active {
+.checked\:bg-black-400:checked {
   background-color: #737373;
 }
 
-.active\:bg-black-400:active {
+.checked\:bg-black-400:checked {
   --bg-opacity: 1;
   background-color: rgba(115, 115, 115, var(--bg-opacity)) ;
 }
 
-.active\:bg-black-500:active {
+.checked\:bg-black-500:checked {
   background-color: #5c5c5c;
 }
 
-.active\:bg-black-500:active {
+.checked\:bg-black-500:checked {
   --bg-opacity: 1;
   background-color: rgba(92, 92, 92, var(--bg-opacity)) ;
 }
 
-.active\:bg-black-600:active {
+.checked\:bg-black-600:checked {
   background-color: #454545;
 }
 
-.active\:bg-black-600:active {
+.checked\:bg-black-600:checked {
   --bg-opacity: 1;
   background-color: rgba(69, 69, 69, var(--bg-opacity)) ;
 }
 
-.active\:bg-black-700:active {
+.checked\:bg-black-700:checked {
   background-color: #2e2e2e;
 }
 
-.active\:bg-black-700:active {
+.checked\:bg-black-700:checked {
   --bg-opacity: 1;
   background-color: rgba(46, 46, 46, var(--bg-opacity)) ;
 }
 
-.active\:bg-black-800:active {
+.checked\:bg-black-800:checked {
   background-color: #171717;
 }
 
-.active\:bg-black-800:active {
+.checked\:bg-black-800:checked {
   --bg-opacity: 1;
   background-color: rgba(23, 23, 23, var(--bg-opacity)) ;
 }
 
-.active\:bg-black-900:active {
+.checked\:bg-black-900:checked {
   background-color: #000000;
 }
 
-.active\:bg-black-900:active {
+.checked\:bg-black-900:checked {
   --bg-opacity: 1;
   background-color: rgba(0, 0, 0, var(--bg-opacity)) ;
 }
 
-.active\:bg-blue-100:active {
+.checked\:bg-blue-100:checked {
   background-color: #ebf8ff;
 }
 
-.active\:bg-blue-100:active {
+.checked\:bg-blue-100:checked {
   --bg-opacity: 1;
   background-color: rgba(235, 248, 255, var(--bg-opacity)) ;
 }
 
-.active\:bg-blue-200:active {
+.checked\:bg-blue-200:checked {
   background-color: #bee3f8;
 }
 
-.active\:bg-blue-200:active {
+.checked\:bg-blue-200:checked {
   --bg-opacity: 1;
   background-color: rgba(190, 227, 248, var(--bg-opacity)) ;
 }
 
-.active\:bg-blue-300:active {
+.checked\:bg-blue-300:checked {
   background-color: #90cdf4;
 }
 
-.active\:bg-blue-300:active {
+.checked\:bg-blue-300:checked {
   --bg-opacity: 1;
   background-color: rgba(144, 205, 244, var(--bg-opacity)) ;
 }
 
-.active\:bg-blue-400:active {
+.checked\:bg-blue-400:checked {
   background-color: #63b3ed;
 }
 
-.active\:bg-blue-400:active {
+.checked\:bg-blue-400:checked {
   --bg-opacity: 1;
   background-color: rgba(99, 179, 237, var(--bg-opacity)) ;
 }
 
-.active\:bg-blue-500:active {
+.checked\:bg-blue-500:checked {
   background-color: #4299e1;
 }
 
-.active\:bg-blue-500:active {
+.checked\:bg-blue-500:checked {
   --bg-opacity: 1;
   background-color: rgba(66, 153, 225, var(--bg-opacity)) ;
 }
 
-.active\:bg-blue-600:active {
+.checked\:bg-blue-600:checked {
   background-color: #3182ce;
 }
 
-.active\:bg-blue-600:active {
+.checked\:bg-blue-600:checked {
   --bg-opacity: 1;
   background-color: rgba(49, 130, 206, var(--bg-opacity)) ;
 }
 
-.active\:bg-blue-700:active {
+.checked\:bg-blue-700:checked {
   background-color: #2b6cb0;
 }
 
-.active\:bg-blue-700:active {
+.checked\:bg-blue-700:checked {
   --bg-opacity: 1;
   background-color: rgba(43, 108, 176, var(--bg-opacity)) ;
 }
 
-.active\:bg-blue-800:active {
+.checked\:bg-blue-800:checked {
   background-color: #2c5282;
 }
 
-.active\:bg-blue-800:active {
+.checked\:bg-blue-800:checked {
   --bg-opacity: 1;
   background-color: rgba(44, 82, 130, var(--bg-opacity)) ;
 }
 
-.active\:bg-blue-900:active {
+.checked\:bg-blue-900:checked {
   background-color: #2a4365;
 }
 
-.active\:bg-blue-900:active {
+.checked\:bg-blue-900:checked {
   --bg-opacity: 1;
   background-color: rgba(42, 67, 101, var(--bg-opacity)) ;
 }
 
-.active\:bg-charcoal-100:active {
+.checked\:bg-charcoal-100:checked {
   background-color: #222c35;
 }
 
-.active\:bg-charcoal-100:active {
+.checked\:bg-charcoal-100:checked {
   --bg-opacity: 1;
   background-color: rgba(34, 44, 53, var(--bg-opacity)) ;
 }
 
-.active\:bg-charcoal-200:active {
+.checked\:bg-charcoal-200:checked {
   background-color: #1f2831;
 }
 
-.active\:bg-charcoal-200:active {
+.checked\:bg-charcoal-200:checked {
   --bg-opacity: 1;
   background-color: rgba(31, 40, 49, var(--bg-opacity)) ;
 }
 
-.active\:bg-charcoal-300:active {
+.checked\:bg-charcoal-300:checked {
   background-color: #1c252c;
 }
 
-.active\:bg-charcoal-300:active {
+.checked\:bg-charcoal-300:checked {
   --bg-opacity: 1;
   background-color: rgba(28, 37, 44, var(--bg-opacity)) ;
 }
 
-.active\:bg-charcoal-400:active {
+.checked\:bg-charcoal-400:checked {
   background-color: #192127;
 }
 
-.active\:bg-charcoal-400:active {
+.checked\:bg-charcoal-400:checked {
   --bg-opacity: 1;
   background-color: rgba(25, 33, 39, var(--bg-opacity)) ;
 }
 
-.active\:bg-charcoal-500:active {
+.checked\:bg-charcoal-500:checked {
   background-color: #161d22;
 }
 
-.active\:bg-charcoal-500:active {
+.checked\:bg-charcoal-500:checked {
   --bg-opacity: 1;
   background-color: rgba(22, 29, 34, var(--bg-opacity)) ;
 }
 
-.active\:bg-charcoal-600:active {
+.checked\:bg-charcoal-600:checked {
   background-color: #13181d;
 }
 
-.active\:bg-charcoal-600:active {
+.checked\:bg-charcoal-600:checked {
   --bg-opacity: 1;
   background-color: rgba(19, 24, 29, var(--bg-opacity)) ;
 }
 
-.active\:bg-charcoal-700:active {
+.checked\:bg-charcoal-700:checked {
   background-color: #101419;
 }
 
-.active\:bg-charcoal-700:active {
+.checked\:bg-charcoal-700:checked {
   --bg-opacity: 1;
   background-color: rgba(16, 20, 25, var(--bg-opacity)) ;
 }
 
-.active\:bg-charcoal-800:active {
+.checked\:bg-charcoal-800:checked {
   background-color: #0d1014;
 }
 
-.active\:bg-charcoal-800:active {
+.checked\:bg-charcoal-800:checked {
   --bg-opacity: 1;
   background-color: rgba(13, 16, 20, var(--bg-opacity)) ;
 }
 
-.active\:bg-charcoal-900:active {
+.checked\:bg-charcoal-900:checked {
   background-color: #0a0c0f;
 }
 
-.active\:bg-charcoal-900:active {
+.checked\:bg-charcoal-900:checked {
   --bg-opacity: 1;
   background-color: rgba(10, 12, 15, var(--bg-opacity)) ;
 }
 
-.active\:bg-gray-100:active {
+.checked\:bg-gray-100:checked {
   background-color: #f7fafc;
 }
 
-.active\:bg-gray-100:active {
+.checked\:bg-gray-100:checked {
   --bg-opacity: 1;
   background-color: rgba(247, 250, 252, var(--bg-opacity)) ;
 }
 
-.active\:bg-gray-200:active {
+.checked\:bg-gray-200:checked {
   background-color: #edf2f7;
 }
 
-.active\:bg-gray-200:active {
+.checked\:bg-gray-200:checked {
   --bg-opacity: 1;
   background-color: rgba(237, 242, 247, var(--bg-opacity)) ;
 }
 
-.active\:bg-gray-300:active {
+.checked\:bg-gray-300:checked {
   background-color: #e2e8f0;
 }
 
-.active\:bg-gray-300:active {
+.checked\:bg-gray-300:checked {
   --bg-opacity: 1;
   background-color: rgba(226, 232, 240, var(--bg-opacity)) ;
 }
 
-.active\:bg-gray-400:active {
+.checked\:bg-gray-400:checked {
   background-color: #cbd5e0;
 }
 
-.active\:bg-gray-400:active {
+.checked\:bg-gray-400:checked {
   --bg-opacity: 1;
   background-color: rgba(203, 213, 224, var(--bg-opacity)) ;
 }
 
-.active\:bg-gray-500:active {
+.checked\:bg-gray-500:checked {
   background-color: #a0aec0;
 }
 
-.active\:bg-gray-500:active {
+.checked\:bg-gray-500:checked {
   --bg-opacity: 1;
   background-color: rgba(160, 174, 192, var(--bg-opacity)) ;
 }
 
-.active\:bg-gray-600:active {
+.checked\:bg-gray-600:checked {
   background-color: #718096;
 }
 
-.active\:bg-gray-600:active {
+.checked\:bg-gray-600:checked {
   --bg-opacity: 1;
   background-color: rgba(113, 128, 150, var(--bg-opacity)) ;
 }
 
-.active\:bg-gray-700:active {
+.checked\:bg-gray-700:checked {
   background-color: #4a5568;
 }
 
-.active\:bg-gray-700:active {
+.checked\:bg-gray-700:checked {
   --bg-opacity: 1;
   background-color: rgba(74, 85, 104, var(--bg-opacity)) ;
 }
 
-.active\:bg-gray-800:active {
+.checked\:bg-gray-800:checked {
   background-color: #2d3748;
 }
 
-.active\:bg-gray-800:active {
+.checked\:bg-gray-800:checked {
   --bg-opacity: 1;
   background-color: rgba(45, 55, 72, var(--bg-opacity)) ;
 }
 
-.active\:bg-gray-900:active {
+.checked\:bg-gray-900:checked {
   background-color: #1a202c;
 }
 
-.active\:bg-gray-900:active {
+.checked\:bg-gray-900:checked {
   --bg-opacity: 1;
   background-color: rgba(26, 32, 44, var(--bg-opacity)) ;
 }
 
-.active\:bg-green-100:active {
+.checked\:bg-green-100:checked {
   background-color: #f0fff4;
 }
 
-.active\:bg-green-100:active {
+.checked\:bg-green-100:checked {
   --bg-opacity: 1;
   background-color: rgba(240, 255, 244, var(--bg-opacity)) ;
 }
 
-.active\:bg-green-200:active {
+.checked\:bg-green-200:checked {
   background-color: #c6f6d5;
 }
 
-.active\:bg-green-200:active {
+.checked\:bg-green-200:checked {
   --bg-opacity: 1;
   background-color: rgba(198, 246, 213, var(--bg-opacity)) ;
 }
 
-.active\:bg-green-300:active {
+.checked\:bg-green-300:checked {
   background-color: #9ae6b4;
 }
 
-.active\:bg-green-300:active {
+.checked\:bg-green-300:checked {
   --bg-opacity: 1;
   background-color: rgba(154, 230, 180, var(--bg-opacity)) ;
 }
 
-.active\:bg-green-400:active {
+.checked\:bg-green-400:checked {
   background-color: #68d391;
 }
 
-.active\:bg-green-400:active {
+.checked\:bg-green-400:checked {
   --bg-opacity: 1;
   background-color: rgba(104, 211, 145, var(--bg-opacity)) ;
 }
 
-.active\:bg-green-500:active {
+.checked\:bg-green-500:checked {
   background-color: #48bb78;
 }
 
-.active\:bg-green-500:active {
+.checked\:bg-green-500:checked {
   --bg-opacity: 1;
   background-color: rgba(72, 187, 120, var(--bg-opacity)) ;
 }
 
-.active\:bg-green-600:active {
+.checked\:bg-green-600:checked {
   background-color: #38a169;
 }
 
-.active\:bg-green-600:active {
+.checked\:bg-green-600:checked {
   --bg-opacity: 1;
   background-color: rgba(56, 161, 105, var(--bg-opacity)) ;
 }
 
-.active\:bg-green-700:active {
+.checked\:bg-green-700:checked {
   background-color: #2f855a;
 }
 
-.active\:bg-green-700:active {
+.checked\:bg-green-700:checked {
   --bg-opacity: 1;
   background-color: rgba(47, 133, 90, var(--bg-opacity)) ;
 }
 
-.active\:bg-green-800:active {
+.checked\:bg-green-800:checked {
   background-color: #276749;
 }
 
-.active\:bg-green-800:active {
+.checked\:bg-green-800:checked {
   --bg-opacity: 1;
   background-color: rgba(39, 103, 73, var(--bg-opacity)) ;
 }
 
-.active\:bg-green-900:active {
+.checked\:bg-green-900:checked {
   background-color: #22543d;
 }
 
-.active\:bg-green-900:active {
+.checked\:bg-green-900:checked {
   --bg-opacity: 1;
   background-color: rgba(34, 84, 61, var(--bg-opacity)) ;
 }
 
-.active\:bg-indigo-100:active {
+.checked\:bg-indigo-100:checked {
   background-color: #ebf4ff;
 }
 
-.active\:bg-indigo-100:active {
+.checked\:bg-indigo-100:checked {
   --bg-opacity: 1;
   background-color: rgba(235, 244, 255, var(--bg-opacity)) ;
 }
 
-.active\:bg-indigo-200:active {
+.checked\:bg-indigo-200:checked {
   background-color: #c3dafe;
 }
 
-.active\:bg-indigo-200:active {
+.checked\:bg-indigo-200:checked {
   --bg-opacity: 1;
   background-color: rgba(195, 218, 254, var(--bg-opacity)) ;
 }
 
-.active\:bg-indigo-300:active {
+.checked\:bg-indigo-300:checked {
   background-color: #a3bffa;
 }
 
-.active\:bg-indigo-300:active {
+.checked\:bg-indigo-300:checked {
   --bg-opacity: 1;
   background-color: rgba(163, 191, 250, var(--bg-opacity)) ;
 }
 
-.active\:bg-indigo-400:active {
+.checked\:bg-indigo-400:checked {
   background-color: #7f9cf5;
 }
 
-.active\:bg-indigo-400:active {
+.checked\:bg-indigo-400:checked {
   --bg-opacity: 1;
   background-color: rgba(127, 156, 245, var(--bg-opacity)) ;
 }
 
-.active\:bg-indigo-500:active {
+.checked\:bg-indigo-500:checked {
   background-color: #667eea;
 }
 
-.active\:bg-indigo-500:active {
+.checked\:bg-indigo-500:checked {
   --bg-opacity: 1;
   background-color: rgba(102, 126, 234, var(--bg-opacity)) ;
 }
 
-.active\:bg-indigo-600:active {
+.checked\:bg-indigo-600:checked {
   background-color: #5a67d8;
 }
 
-.active\:bg-indigo-600:active {
+.checked\:bg-indigo-600:checked {
   --bg-opacity: 1;
   background-color: rgba(90, 103, 216, var(--bg-opacity)) ;
 }
 
-.active\:bg-indigo-700:active {
+.checked\:bg-indigo-700:checked {
   background-color: #4c51bf;
 }
 
-.active\:bg-indigo-700:active {
+.checked\:bg-indigo-700:checked {
   --bg-opacity: 1;
   background-color: rgba(76, 81, 191, var(--bg-opacity)) ;
 }
 
-.active\:bg-indigo-800:active {
+.checked\:bg-indigo-800:checked {
   background-color: #434190;
 }
 
-.active\:bg-indigo-800:active {
+.checked\:bg-indigo-800:checked {
   --bg-opacity: 1;
   background-color: rgba(67, 65, 144, var(--bg-opacity)) ;
 }
 
-.active\:bg-indigo-900:active {
+.checked\:bg-indigo-900:checked {
   background-color: #3c366b;
 }
 
-.active\:bg-indigo-900:active {
+.checked\:bg-indigo-900:checked {
   --bg-opacity: 1;
   background-color: rgba(60, 54, 107, var(--bg-opacity)) ;
 }
 
-.active\:bg-khaki-100:active {
+.checked\:bg-khaki-100:checked {
   background-color: #f9f7f4;
 }
 
-.active\:bg-khaki-100:active {
+.checked\:bg-khaki-100:checked {
   --bg-opacity: 1;
   background-color: rgba(249, 247, 244, var(--bg-opacity)) ;
 }
 
-.active\:bg-khaki-200:active {
+.checked\:bg-khaki-200:checked {
   background-color: #f0ebe4;
 }
 
-.active\:bg-khaki-200:active {
+.checked\:bg-khaki-200:checked {
   --bg-opacity: 1;
   background-color: rgba(240, 235, 228, var(--bg-opacity)) ;
 }
 
-.active\:bg-khaki-300:active {
+.checked\:bg-khaki-300:checked {
   background-color: #e7dfd3;
 }
 
-.active\:bg-khaki-300:active {
+.checked\:bg-khaki-300:checked {
   --bg-opacity: 1;
   background-color: rgba(231, 223, 211, var(--bg-opacity)) ;
 }
 
-.active\:bg-khaki-400:active {
+.checked\:bg-khaki-400:checked {
   background-color: #d5c8b2;
 }
 
-.active\:bg-khaki-400:active {
+.checked\:bg-khaki-400:checked {
   --bg-opacity: 1;
   background-color: rgba(213, 200, 178, var(--bg-opacity)) ;
 }
 
-.active\:bg-khaki-500:active {
+.checked\:bg-khaki-500:checked {
   background-color: #c3b091;
 }
 
-.active\:bg-khaki-500:active {
+.checked\:bg-khaki-500:checked {
   --bg-opacity: 1;
   background-color: rgba(195, 176, 145, var(--bg-opacity)) ;
 }
 
-.active\:bg-khaki-600:active {
+.checked\:bg-khaki-600:checked {
   background-color: #b09e83;
 }
 
-.active\:bg-khaki-600:active {
+.checked\:bg-khaki-600:checked {
   --bg-opacity: 1;
   background-color: rgba(176, 158, 131, var(--bg-opacity)) ;
 }
 
-.active\:bg-khaki-700:active {
+.checked\:bg-khaki-700:checked {
   background-color: #756a57;
 }
 
-.active\:bg-khaki-700:active {
+.checked\:bg-khaki-700:checked {
   --bg-opacity: 1;
   background-color: rgba(117, 106, 87, var(--bg-opacity)) ;
 }
 
-.active\:bg-khaki-800:active {
+.checked\:bg-khaki-800:checked {
   background-color: #584f41;
 }
 
-.active\:bg-khaki-800:active {
+.checked\:bg-khaki-800:checked {
   --bg-opacity: 1;
   background-color: rgba(88, 79, 65, var(--bg-opacity)) ;
 }
 
-.active\:bg-khaki-900:active {
+.checked\:bg-khaki-900:checked {
   background-color: #3b352c;
 }
 
-.active\:bg-khaki-900:active {
+.checked\:bg-khaki-900:checked {
   --bg-opacity: 1;
   background-color: rgba(59, 53, 44, var(--bg-opacity)) ;
 }
 
-.active\:bg-nero-100:active {
+.checked\:bg-nero-100:checked {
   background-color: #e9e9e9;
 }
 
-.active\:bg-nero-100:active {
+.checked\:bg-nero-100:checked {
   --bg-opacity: 1;
   background-color: rgba(233, 233, 233, var(--bg-opacity)) ;
 }
 
-.active\:bg-nero-200:active {
+.checked\:bg-nero-200:checked {
   background-color: #c7c8c9;
 }
 
-.active\:bg-nero-200:active {
+.checked\:bg-nero-200:checked {
   --bg-opacity: 1;
   background-color: rgba(199, 200, 201, var(--bg-opacity)) ;
 }
 
-.active\:bg-nero-300:active {
+.checked\:bg-nero-300:checked {
   background-color: #a6a7a8;
 }
 
-.active\:bg-nero-300:active {
+.checked\:bg-nero-300:checked {
   --bg-opacity: 1;
   background-color: rgba(166, 167, 168, var(--bg-opacity)) ;
 }
 
-.active\:bg-nero-400:active {
+.checked\:bg-nero-400:checked {
   background-color: #636466;
 }
 
-.active\:bg-nero-400:active {
+.checked\:bg-nero-400:checked {
   --bg-opacity: 1;
   background-color: rgba(99, 100, 102, var(--bg-opacity)) ;
 }
 
-.active\:bg-nero-500:active {
+.checked\:bg-nero-500:checked {
   background-color: #202225;
 }
 
-.active\:bg-nero-500:active {
+.checked\:bg-nero-500:checked {
   --bg-opacity: 1;
   background-color: rgba(32, 34, 37, var(--bg-opacity)) ;
 }
 
-.active\:bg-nero-600:active {
+.checked\:bg-nero-600:checked {
   background-color: #1d1f21;
 }
 
-.active\:bg-nero-600:active {
+.checked\:bg-nero-600:checked {
   --bg-opacity: 1;
   background-color: rgba(29, 31, 33, var(--bg-opacity)) ;
 }
 
-.active\:bg-nero-700:active {
+.checked\:bg-nero-700:checked {
   background-color: #131416;
 }
 
-.active\:bg-nero-700:active {
+.checked\:bg-nero-700:checked {
   --bg-opacity: 1;
   background-color: rgba(19, 20, 22, var(--bg-opacity)) ;
 }
 
-.active\:bg-nero-800:active {
+.checked\:bg-nero-800:checked {
   background-color: #0e0f11;
 }
 
-.active\:bg-nero-800:active {
+.checked\:bg-nero-800:checked {
   --bg-opacity: 1;
   background-color: rgba(14, 15, 17, var(--bg-opacity)) ;
 }
 
-.active\:bg-nero-900:active {
+.checked\:bg-nero-900:checked {
   background-color: #0a0a0b;
 }
 
-.active\:bg-nero-900:active {
+.checked\:bg-nero-900:checked {
   --bg-opacity: 1;
   background-color: rgba(10, 10, 11, var(--bg-opacity)) ;
 }
 
-.active\:bg-orange-100:active {
+.checked\:bg-orange-100:checked {
   background-color: #fffaf0;
 }
 
-.active\:bg-orange-100:active {
+.checked\:bg-orange-100:checked {
   --bg-opacity: 1;
   background-color: rgba(255, 250, 240, var(--bg-opacity)) ;
 }
 
-.active\:bg-orange-200:active {
+.checked\:bg-orange-200:checked {
   background-color: #feebc8;
 }
 
-.active\:bg-orange-200:active {
+.checked\:bg-orange-200:checked {
   --bg-opacity: 1;
   background-color: rgba(254, 235, 200, var(--bg-opacity)) ;
 }
 
-.active\:bg-orange-300:active {
+.checked\:bg-orange-300:checked {
   background-color: #fbd38d;
 }
 
-.active\:bg-orange-300:active {
+.checked\:bg-orange-300:checked {
   --bg-opacity: 1;
   background-color: rgba(251, 211, 141, var(--bg-opacity)) ;
 }
 
-.active\:bg-orange-400:active {
+.checked\:bg-orange-400:checked {
   background-color: #f6ad55;
 }
 
-.active\:bg-orange-400:active {
+.checked\:bg-orange-400:checked {
   --bg-opacity: 1;
   background-color: rgba(246, 173, 85, var(--bg-opacity)) ;
 }
 
-.active\:bg-orange-500:active {
+.checked\:bg-orange-500:checked {
   background-color: #ed8936;
 }
 
-.active\:bg-orange-500:active {
+.checked\:bg-orange-500:checked {
   --bg-opacity: 1;
   background-color: rgba(237, 137, 54, var(--bg-opacity)) ;
 }
 
-.active\:bg-orange-600:active {
+.checked\:bg-orange-600:checked {
   background-color: #dd6b20;
 }
 
-.active\:bg-orange-600:active {
+.checked\:bg-orange-600:checked {
   --bg-opacity: 1;
   background-color: rgba(221, 107, 32, var(--bg-opacity)) ;
 }
 
-.active\:bg-orange-700:active {
+.checked\:bg-orange-700:checked {
   background-color: #c05621;
 }
 
-.active\:bg-orange-700:active {
+.checked\:bg-orange-700:checked {
   --bg-opacity: 1;
   background-color: rgba(192, 86, 33, var(--bg-opacity)) ;
 }
 
-.active\:bg-orange-800:active {
+.checked\:bg-orange-800:checked {
   background-color: #9c4221;
 }
 
-.active\:bg-orange-800:active {
+.checked\:bg-orange-800:checked {
   --bg-opacity: 1;
   background-color: rgba(156, 66, 33, var(--bg-opacity)) ;
 }
 
-.active\:bg-orange-900:active {
+.checked\:bg-orange-900:checked {
   background-color: #7b341e;
 }
 
-.active\:bg-orange-900:active {
+.checked\:bg-orange-900:checked {
   --bg-opacity: 1;
   background-color: rgba(123, 52, 30, var(--bg-opacity)) ;
 }
 
-.active\:bg-pink-100:active {
+.checked\:bg-pink-100:checked {
   background-color: #fff5f7;
 }
 
-.active\:bg-pink-100:active {
+.checked\:bg-pink-100:checked {
   --bg-opacity: 1;
   background-color: rgba(255, 245, 247, var(--bg-opacity)) ;
 }
 
-.active\:bg-pink-200:active {
+.checked\:bg-pink-200:checked {
   background-color: #fed7e2;
 }
 
-.active\:bg-pink-200:active {
+.checked\:bg-pink-200:checked {
   --bg-opacity: 1;
   background-color: rgba(254, 215, 226, var(--bg-opacity)) ;
 }
 
-.active\:bg-pink-300:active {
+.checked\:bg-pink-300:checked {
   background-color: #fbb6ce;
 }
 
-.active\:bg-pink-300:active {
+.checked\:bg-pink-300:checked {
   --bg-opacity: 1;
   background-color: rgba(251, 182, 206, var(--bg-opacity)) ;
 }
 
-.active\:bg-pink-400:active {
+.checked\:bg-pink-400:checked {
   background-color: #f687b3;
 }
 
-.active\:bg-pink-400:active {
+.checked\:bg-pink-400:checked {
   --bg-opacity: 1;
   background-color: rgba(246, 135, 179, var(--bg-opacity)) ;
 }
 
-.active\:bg-pink-500:active {
+.checked\:bg-pink-500:checked {
   background-color: #ed64a6;
 }
 
-.active\:bg-pink-500:active {
+.checked\:bg-pink-500:checked {
   --bg-opacity: 1;
   background-color: rgba(237, 100, 166, var(--bg-opacity)) ;
 }
 
-.active\:bg-pink-600:active {
+.checked\:bg-pink-600:checked {
   background-color: #d53f8c;
 }
 
-.active\:bg-pink-600:active {
+.checked\:bg-pink-600:checked {
   --bg-opacity: 1;
   background-color: rgba(213, 63, 140, var(--bg-opacity)) ;
 }
 
-.active\:bg-pink-700:active {
+.checked\:bg-pink-700:checked {
   background-color: #b83280;
 }
 
-.active\:bg-pink-700:active {
+.checked\:bg-pink-700:checked {
   --bg-opacity: 1;
   background-color: rgba(184, 50, 128, var(--bg-opacity)) ;
 }
 
-.active\:bg-pink-800:active {
+.checked\:bg-pink-800:checked {
   background-color: #97266d;
 }
 
-.active\:bg-pink-800:active {
+.checked\:bg-pink-800:checked {
   --bg-opacity: 1;
   background-color: rgba(151, 38, 109, var(--bg-opacity)) ;
 }
 
-.active\:bg-pink-900:active {
+.checked\:bg-pink-900:checked {
   background-color: #702459;
 }
 
-.active\:bg-pink-900:active {
+.checked\:bg-pink-900:checked {
   --bg-opacity: 1;
   background-color: rgba(112, 36, 89, var(--bg-opacity)) ;
 }
 
-.active\:bg-purple-100:active {
+.checked\:bg-purple-100:checked {
   background-color: #faf5ff;
 }
 
-.active\:bg-purple-100:active {
+.checked\:bg-purple-100:checked {
   --bg-opacity: 1;
   background-color: rgba(250, 245, 255, var(--bg-opacity)) ;
 }
 
-.active\:bg-purple-200:active {
+.checked\:bg-purple-200:checked {
   background-color: #e9d8fd;
 }
 
-.active\:bg-purple-200:active {
+.checked\:bg-purple-200:checked {
   --bg-opacity: 1;
   background-color: rgba(233, 216, 253, var(--bg-opacity)) ;
 }
 
-.active\:bg-purple-300:active {
+.checked\:bg-purple-300:checked {
   background-color: #d6bcfa;
 }
 
-.active\:bg-purple-300:active {
+.checked\:bg-purple-300:checked {
   --bg-opacity: 1;
   background-color: rgba(214, 188, 250, var(--bg-opacity)) ;
 }
 
-.active\:bg-purple-400:active {
+.checked\:bg-purple-400:checked {
   background-color: #b794f4;
 }
 
-.active\:bg-purple-400:active {
+.checked\:bg-purple-400:checked {
   --bg-opacity: 1;
   background-color: rgba(183, 148, 244, var(--bg-opacity)) ;
 }
 
-.active\:bg-purple-500:active {
+.checked\:bg-purple-500:checked {
   background-color: #9f7aea;
 }
 
-.active\:bg-purple-500:active {
+.checked\:bg-purple-500:checked {
   --bg-opacity: 1;
   background-color: rgba(159, 122, 234, var(--bg-opacity)) ;
 }
 
-.active\:bg-purple-600:active {
+.checked\:bg-purple-600:checked {
   background-color: #805ad5;
 }
 
-.active\:bg-purple-600:active {
+.checked\:bg-purple-600:checked {
   --bg-opacity: 1;
   background-color: rgba(128, 90, 213, var(--bg-opacity)) ;
 }
 
-.active\:bg-purple-700:active {
+.checked\:bg-purple-700:checked {
   background-color: #6b46c1;
 }
 
-.active\:bg-purple-700:active {
+.checked\:bg-purple-700:checked {
   --bg-opacity: 1;
   background-color: rgba(107, 70, 193, var(--bg-opacity)) ;
 }
 
-.active\:bg-purple-800:active {
+.checked\:bg-purple-800:checked {
   background-color: #553c9a;
 }
 
-.active\:bg-purple-800:active {
+.checked\:bg-purple-800:checked {
   --bg-opacity: 1;
   background-color: rgba(85, 60, 154, var(--bg-opacity)) ;
 }
 
-.active\:bg-purple-900:active {
+.checked\:bg-purple-900:checked {
   background-color: #44337a;
 }
 
-.active\:bg-purple-900:active {
+.checked\:bg-purple-900:checked {
   --bg-opacity: 1;
   background-color: rgba(68, 51, 122, var(--bg-opacity)) ;
 }
 
-.active\:bg-red-100:active {
+.checked\:bg-red-100:checked {
   background-color: #fff5f5;
 }
 
-.active\:bg-red-100:active {
+.checked\:bg-red-100:checked {
   --bg-opacity: 1;
   background-color: rgba(255, 245, 245, var(--bg-opacity)) ;
 }
 
-.active\:bg-red-200:active {
+.checked\:bg-red-200:checked {
   background-color: #fed7d7;
 }
 
-.active\:bg-red-200:active {
+.checked\:bg-red-200:checked {
   --bg-opacity: 1;
   background-color: rgba(254, 215, 215, var(--bg-opacity)) ;
 }
 
-.active\:bg-red-300:active {
+.checked\:bg-red-300:checked {
   background-color: #feb2b2;
 }
 
-.active\:bg-red-300:active {
+.checked\:bg-red-300:checked {
   --bg-opacity: 1;
   background-color: rgba(254, 178, 178, var(--bg-opacity)) ;
 }
 
-.active\:bg-red-400:active {
+.checked\:bg-red-400:checked {
   background-color: #fc8181;
 }
 
-.active\:bg-red-400:active {
+.checked\:bg-red-400:checked {
   --bg-opacity: 1;
   background-color: rgba(252, 129, 129, var(--bg-opacity)) ;
 }
 
-.active\:bg-red-500:active {
+.checked\:bg-red-500:checked {
   background-color: #f56565;
 }
 
-.active\:bg-red-500:active {
+.checked\:bg-red-500:checked {
   --bg-opacity: 1;
   background-color: rgba(245, 101, 101, var(--bg-opacity)) ;
 }
 
-.active\:bg-red-600:active {
+.checked\:bg-red-600:checked {
   background-color: #e53e3e;
 }
 
-.active\:bg-red-600:active {
+.checked\:bg-red-600:checked {
   --bg-opacity: 1;
   background-color: rgba(229, 62, 62, var(--bg-opacity)) ;
 }
 
-.active\:bg-red-700:active {
+.checked\:bg-red-700:checked {
   background-color: #c53030;
 }
 
-.active\:bg-red-700:active {
+.checked\:bg-red-700:checked {
   --bg-opacity: 1;
   background-color: rgba(197, 48, 48, var(--bg-opacity)) ;
 }
 
-.active\:bg-red-800:active {
+.checked\:bg-red-800:checked {
   background-color: #9b2c2c;
 }
 
-.active\:bg-red-800:active {
+.checked\:bg-red-800:checked {
   --bg-opacity: 1;
   background-color: rgba(155, 44, 44, var(--bg-opacity)) ;
 }
 
-.active\:bg-red-900:active {
+.checked\:bg-red-900:checked {
   background-color: #742a2a;
 }
 
-.active\:bg-red-900:active {
+.checked\:bg-red-900:checked {
   --bg-opacity: 1;
   background-color: rgba(116, 42, 42, var(--bg-opacity)) ;
 }
 
-.active\:bg-teal-100:active {
+.checked\:bg-teal-100:checked {
   background-color: #e6fffa;
 }
 
-.active\:bg-teal-100:active {
+.checked\:bg-teal-100:checked {
   --bg-opacity: 1;
   background-color: rgba(230, 255, 250, var(--bg-opacity)) ;
 }
 
-.active\:bg-teal-200:active {
+.checked\:bg-teal-200:checked {
   background-color: #b2f5ea;
 }
 
-.active\:bg-teal-200:active {
+.checked\:bg-teal-200:checked {
   --bg-opacity: 1;
   background-color: rgba(178, 245, 234, var(--bg-opacity)) ;
 }
 
-.active\:bg-teal-300:active {
+.checked\:bg-teal-300:checked {
   background-color: #81e6d9;
 }
 
-.active\:bg-teal-300:active {
+.checked\:bg-teal-300:checked {
   --bg-opacity: 1;
   background-color: rgba(129, 230, 217, var(--bg-opacity)) ;
 }
 
-.active\:bg-teal-400:active {
+.checked\:bg-teal-400:checked {
   background-color: #4fd1c5;
 }
 
-.active\:bg-teal-400:active {
+.checked\:bg-teal-400:checked {
   --bg-opacity: 1;
   background-color: rgba(79, 209, 197, var(--bg-opacity)) ;
 }
 
-.active\:bg-teal-500:active {
+.checked\:bg-teal-500:checked {
   background-color: #38b2ac;
 }
 
-.active\:bg-teal-500:active {
+.checked\:bg-teal-500:checked {
   --bg-opacity: 1;
   background-color: rgba(56, 178, 172, var(--bg-opacity)) ;
 }
 
-.active\:bg-teal-600:active {
+.checked\:bg-teal-600:checked {
   background-color: #319795;
 }
 
-.active\:bg-teal-600:active {
+.checked\:bg-teal-600:checked {
   --bg-opacity: 1;
   background-color: rgba(49, 151, 149, var(--bg-opacity)) ;
 }
 
-.active\:bg-teal-700:active {
+.checked\:bg-teal-700:checked {
   background-color: #2c7a7b;
 }
 
-.active\:bg-teal-700:active {
+.checked\:bg-teal-700:checked {
   --bg-opacity: 1;
   background-color: rgba(44, 122, 123, var(--bg-opacity)) ;
 }
 
-.active\:bg-teal-800:active {
+.checked\:bg-teal-800:checked {
   background-color: #285e61;
 }
 
-.active\:bg-teal-800:active {
+.checked\:bg-teal-800:checked {
   --bg-opacity: 1;
   background-color: rgba(40, 94, 97, var(--bg-opacity)) ;
 }
 
-.active\:bg-teal-900:active {
+.checked\:bg-teal-900:checked {
   background-color: #234e52;
 }
 
-.active\:bg-teal-900:active {
+.checked\:bg-teal-900:checked {
   --bg-opacity: 1;
   background-color: rgba(35, 78, 82, var(--bg-opacity)) ;
 }
 
-.active\:bg-white:active {
+.checked\:bg-white:checked {
   background-color: #fff;
 }
 
-.active\:bg-transparent:active {
+.checked\:bg-transparent:checked {
   background-color: transparent;
 }
 
-.active\:bg-current:active {
+.checked\:bg-current:checked {
   background-color: currentColor;
 }
 
 /* borders */
-.active\:border-amber-100:active {
+.checked\:border-amber-100:checked {
   border-color: #fff9e6;
 }
 
-.active\:border-amber-200:active {
+.checked\:border-amber-200:checked {
   border-color: #fff0bf;
 }
 
-.active\:border-amber-300:active {
+.checked\:border-amber-300:checked {
   border-color: #ffe799;
 }
 
-.active\:border-amber-400:active {
+.checked\:border-amber-400:checked {
   border-color: #ffd54d;
 }
 
-.active\:border-amber-500:active {
+.checked\:border-amber-500:checked {
   border-color: #ffc300;
 }
 
-.active\:border-amber-600:active {
+.checked\:border-amber-600:checked {
   border-color: #e6b000;
 }
 
-.active\:border-amber-700:active {
+.checked\:border-amber-700:checked {
   border-color: #997500;
 }
 
-.active\:border-amber-800:active {
+.checked\:border-amber-800:checked {
   border-color: #735800;
 }
 
-.active\:border-amber-900:active {
+.checked\:border-amber-900:checked {
   border-color: #4d3b00;
 }
 
-.active\:border-black-100:active {
+.checked\:border-black-100:checked {
   border-color: #b9b9b9;
 }
 
-.active\:border-black-200:active {
+.checked\:border-black-200:checked {
   border-color: #a2a2a2;
 }
 
-.active\:border-black-300:active {
+.checked\:border-black-300:checked {
   border-color: #8b8b8b;
 }
 
-.active\:border-black-400:active {
+.checked\:border-black-400:checked {
   border-color: #737373;
 }
 
-.active\:border-black-500:active {
+.checked\:border-black-500:checked {
   border-color: #5c5c5c;
 }
 
-.active\:border-black-600:active {
+.checked\:border-black-600:checked {
   border-color: #454545;
 }
 
-.active\:border-black-700:active {
+.checked\:border-black-700:checked {
   border-color: #2e2e2e;
 }
 
-.active\:border-black-800:active {
+.checked\:border-black-800:checked {
   border-color: #171717;
 }
 
-.active\:border-black-900:active {
+.checked\:border-black-900:checked {
   border-color: #000000;
 }
 
-.active\:border-blue-100:active {
+.checked\:border-blue-100:checked {
   border-color: #ebf8ff;
 }
 
-.active\:border-blue-200:active {
+.checked\:border-blue-200:checked {
   border-color: #bee3f8;
 }
 
-.active\:border-blue-300:active {
+.checked\:border-blue-300:checked {
   border-color: #90cdf4;
 }
 
-.active\:border-blue-400:active {
+.checked\:border-blue-400:checked {
   border-color: #63b3ed;
 }
 
-.active\:border-blue-500:active {
+.checked\:border-blue-500:checked {
   border-color: #4299e1;
 }
 
-.active\:border-blue-600:active {
+.checked\:border-blue-600:checked {
   border-color: #3182ce;
 }
 
-.active\:border-blue-700:active {
+.checked\:border-blue-700:checked {
   border-color: #2b6cb0;
 }
 
-.active\:border-blue-800:active {
+.checked\:border-blue-800:checked {
   border-color: #2c5282;
 }
 
-.active\:border-blue-900:active {
+.checked\:border-blue-900:checked {
   border-color: #2a4365;
 }
 
-.active\:border-charcoal-100:active {
+.checked\:border-charcoal-100:checked {
   border-color: #222c35;
 }
 
-.active\:border-charcoal-200:active {
+.checked\:border-charcoal-200:checked {
   border-color: #1f2831;
 }
 
-.active\:border-charcoal-300:active {
+.checked\:border-charcoal-300:checked {
   border-color: #1c252c;
 }
 
-.active\:border-charcoal-400:active {
+.checked\:border-charcoal-400:checked {
   border-color: #192127;
 }
 
-.active\:border-charcoal-500:active {
+.checked\:border-charcoal-500:checked {
   border-color: #161d22;
 }
 
-.active\:border-charcoal-600:active {
+.checked\:border-charcoal-600:checked {
   border-color: #13181d;
 }
 
-.active\:border-charcoal-700:active {
+.checked\:border-charcoal-700:checked {
   border-color: #101419;
 }
 
-.active\:border-charcoal-800:active {
+.checked\:border-charcoal-800:checked {
   border-color: #0d1014;
 }
 
-.active\:border-charcoal-900:active {
+.checked\:border-charcoal-900:checked {
   border-color: #0a0c0f;
 }
 
-.active\:border-gray-100:active {
+.checked\:border-gray-100:checked {
   border-color: #f7fafc;
 }
 
-.active\:border-gray-200:active {
+.checked\:border-gray-200:checked {
   border-color: #edf2f7;
 }
 
-.active\:border-gray-300:active {
+.checked\:border-gray-300:checked {
   border-color: #e2e8f0;
 }
 
-.active\:border-gray-400:active {
+.checked\:border-gray-400:checked {
   border-color: #cbd5e0;
 }
 
-.active\:border-gray-500:active {
+.checked\:border-gray-500:checked {
   border-color: #a0aec0;
 }
 
-.active\:border-gray-600:active {
+.checked\:border-gray-600:checked {
   border-color: #718096;
 }
 
-.active\:border-gray-700:active {
+.checked\:border-gray-700:checked {
   border-color: #4a5568;
 }
 
-.active\:border-gray-800:active {
+.checked\:border-gray-800:checked {
   border-color: #2d3748;
 }
 
-.active\:border-gray-900:active {
+.checked\:border-gray-900:checked {
   border-color: #1a202c;
 }
 
-.active\:border-green-100:active {
+.checked\:border-green-100:checked {
   border-color: #f0fff4;
 }
 
-.active\:border-green-200:active {
+.checked\:border-green-200:checked {
   border-color: #c6f6d5;
 }
 
-.active\:border-green-300:active {
+.checked\:border-green-300:checked {
   border-color: #9ae6b4;
 }
 
-.active\:border-green-400:active {
+.checked\:border-green-400:checked {
   border-color: #68d391;
 }
 
-.active\:border-green-500:active {
+.checked\:border-green-500:checked {
   border-color: #48bb78;
 }
 
-.active\:border-green-600:active {
+.checked\:border-green-600:checked {
   border-color: #38a169;
 }
 
-.active\:border-green-700:active {
+.checked\:border-green-700:checked {
   border-color: #2f855a;
 }
 
-.active\:border-green-800:active {
+.checked\:border-green-800:checked {
   border-color: #276749;
 }
 
-.active\:border-green-900:active {
+.checked\:border-green-900:checked {
   border-color: #22543d;
 }
 
-.active\:border-indigo-100:active {
+.checked\:border-indigo-100:checked {
   border-color: #ebf4ff;
 }
 
-.active\:border-indigo-200:active {
+.checked\:border-indigo-200:checked {
   border-color: #c3dafe;
 }
 
-.active\:border-indigo-300:active {
+.checked\:border-indigo-300:checked {
   border-color: #a3bffa;
 }
 
-.active\:border-indigo-400:active {
+.checked\:border-indigo-400:checked {
   border-color: #7f9cf5;
 }
 
-.active\:border-indigo-500:active {
+.checked\:border-indigo-500:checked {
   border-color: #667eea;
 }
 
-.active\:border-indigo-600:active {
+.checked\:border-indigo-600:checked {
   border-color: #5a67d8;
 }
 
-.active\:border-indigo-700:active {
+.checked\:border-indigo-700:checked {
   border-color: #4c51bf;
 }
 
-.active\:border-indigo-800:active {
+.checked\:border-indigo-800:checked {
   border-color: #434190;
 }
 
-.active\:border-indigo-900:active {
+.checked\:border-indigo-900:checked {
   border-color: #3c366b;
 }
 
-.active\:border-khaki-100:active {
+.checked\:border-khaki-100:checked {
   border-color: #f9f7f4;
 }
 
-.active\:border-khaki-200:active {
+.checked\:border-khaki-200:checked {
   border-color: #f0ebe4;
 }
 
-.active\:border-khaki-300:active {
+.checked\:border-khaki-300:checked {
   border-color: #e7dfd3;
 }
 
-.active\:border-khaki-400:active {
+.checked\:border-khaki-400:checked {
   border-color: #d5c8b2;
 }
 
-.active\:border-khaki-500:active {
+.checked\:border-khaki-500:checked {
   border-color: #c3b091;
 }
 
-.active\:border-khaki-600:active {
+.checked\:border-khaki-600:checked {
   border-color: #b09e83;
 }
 
-.active\:border-khaki-700:active {
+.checked\:border-khaki-700:checked {
   border-color: #756a57;
 }
 
-.active\:border-khaki-800:active {
+.checked\:border-khaki-800:checked {
   border-color: #584f41;
 }
 
-.active\:border-khaki-900:active {
+.checked\:border-khaki-900:checked {
   border-color: #3b352c;
 }
 
-.active\:border-nero-100:active {
+.checked\:border-nero-100:checked {
   border-color: #e9e9e9;
 }
 
-.active\:border-nero-200:active {
+.checked\:border-nero-200:checked {
   border-color: #c7c8c9;
 }
 
-.active\:border-nero-300:active {
+.checked\:border-nero-300:checked {
   border-color: #a6a7a8;
 }
 
-.active\:border-nero-400:active {
+.checked\:border-nero-400:checked {
   border-color: #636466;
 }
 
-.active\:border-nero-500:active {
+.checked\:border-nero-500:checked {
   border-color: #202225;
 }
 
-.active\:border-nero-600:active {
+.checked\:border-nero-600:checked {
   border-color: #1d1f21;
 }
 
-.active\:border-nero-700:active {
+.checked\:border-nero-700:checked {
   border-color: #131416;
 }
 
-.active\:border-nero-800:active {
+.checked\:border-nero-800:checked {
   border-color: #0e0f11;
 }
 
-.active\:border-nero-900:active {
+.checked\:border-nero-900:checked {
   border-color: #0a0a0b;
 }
 
-.active\:border-orange-100:active {
+.checked\:border-orange-100:checked {
   border-color: #fffaf0;
 }
 
-.active\:border-orange-200:active {
+.checked\:border-orange-200:checked {
   border-color: #feebc8;
 }
 
-.active\:border-orange-300:active {
+.checked\:border-orange-300:checked {
   border-color: #fbd38d;
 }
 
-.active\:border-orange-400:active {
+.checked\:border-orange-400:checked {
   border-color: #f6ad55;
 }
 
-.active\:border-orange-500:active {
+.checked\:border-orange-500:checked {
   border-color: #ed8936;
 }
 
-.active\:border-orange-600:active {
+.checked\:border-orange-600:checked {
   border-color: #dd6b20;
 }
 
-.active\:border-orange-700:active {
+.checked\:border-orange-700:checked {
   border-color: #c05621;
 }
 
-.active\:border-orange-800:active {
+.checked\:border-orange-800:checked {
   border-color: #9c4221;
 }
 
-.active\:border-orange-900:active {
+.checked\:border-orange-900:checked {
   border-color: #7b341e;
 }
 
-.active\:border-pink-100:active {
+.checked\:border-pink-100:checked {
   border-color: #fff5f7;
 }
 
-.active\:border-pink-200:active {
+.checked\:border-pink-200:checked {
   border-color: #fed7e2;
 }
 
-.active\:border-pink-300:active {
+.checked\:border-pink-300:checked {
   border-color: #fbb6ce;
 }
 
-.active\:border-pink-400:active {
+.checked\:border-pink-400:checked {
   border-color: #f687b3;
 }
 
-.active\:border-pink-500:active {
+.checked\:border-pink-500:checked {
   border-color: #ed64a6;
 }
 
-.active\:border-pink-600:active {
+.checked\:border-pink-600:checked {
   border-color: #d53f8c;
 }
 
-.active\:border-pink-700:active {
+.checked\:border-pink-700:checked {
   border-color: #b83280;
 }
 
-.active\:border-pink-800:active {
+.checked\:border-pink-800:checked {
   border-color: #97266d;
 }
 
-.active\:border-pink-900:active {
+.checked\:border-pink-900:checked {
   border-color: #702459;
 }
 
-.active\:border-purple-100:active {
+.checked\:border-purple-100:checked {
   border-color: #faf5ff;
 }
 
-.active\:border-purple-200:active {
+.checked\:border-purple-200:checked {
   border-color: #e9d8fd;
 }
 
-.active\:border-purple-300:active {
+.checked\:border-purple-300:checked {
   border-color: #d6bcfa;
 }
 
-.active\:border-purple-400:active {
+.checked\:border-purple-400:checked {
   border-color: #b794f4;
 }
 
-.active\:border-purple-500:active {
+.checked\:border-purple-500:checked {
   border-color: #9f7aea;
 }
 
-.active\:border-purple-600:active {
+.checked\:border-purple-600:checked {
   border-color: #805ad5;
 }
 
-.active\:border-purple-700:active {
+.checked\:border-purple-700:checked {
   border-color: #6b46c1;
 }
 
-.active\:border-purple-800:active {
+.checked\:border-purple-800:checked {
   border-color: #553c9a;
 }
 
-.active\:border-purple-900:active {
+.checked\:border-purple-900:checked {
   border-color: #44337a;
 }
 
-.active\:border-red-100:active {
+.checked\:border-red-100:checked {
   border-color: #fff5f5;
 }
 
-.active\:border-red-200:active {
+.checked\:border-red-200:checked {
   border-color: #fed7d7;
 }
 
-.active\:border-red-300:active {
+.checked\:border-red-300:checked {
   border-color: #feb2b2;
 }
 
-.active\:border-red-400:active {
+.checked\:border-red-400:checked {
   border-color: #fc8181;
 }
 
-.active\:border-red-500:active {
+.checked\:border-red-500:checked {
   border-color: #f56565;
 }
 
-.active\:border-red-600:active {
+.checked\:border-red-600:checked {
   border-color: #e53e3e;
 }
 
-.active\:border-red-700:active {
+.checked\:border-red-700:checked {
   border-color: #c53030;
 }
 
-.active\:border-red-800:active {
+.checked\:border-red-800:checked {
   border-color: #9b2c2c;
 }
 
-.active\:border-red-900:active {
+.checked\:border-red-900:checked {
   border-color: #742a2a;
 }
 
-.active\:border-teal-100:active {
+.checked\:border-teal-100:checked {
   border-color: #e6fffa;
 }
 
-.active\:border-teal-200:active {
+.checked\:border-teal-200:checked {
   border-color: #b2f5ea;
 }
 
-.active\:border-teal-300:active {
+.checked\:border-teal-300:checked {
   border-color: #81e6d9;
 }
 
-.active\:border-teal-400:active {
+.checked\:border-teal-400:checked {
   border-color: #4fd1c5;
 }
 
-.active\:border-teal-500:active {
+.checked\:border-teal-500:checked {
   border-color: #38b2ac;
 }
 
-.active\:border-teal-600:active {
+.checked\:border-teal-600:checked {
   border-color: #319795;
 }
 
-.active\:border-teal-700:active {
+.checked\:border-teal-700:checked {
   border-color: #2c7a7b;
 }
 
-.active\:border-teal-800:active {
+.checked\:border-teal-800:checked {
   border-color: #285e61;
 }
 
-.active\:border-teal-900:active {
+.checked\:border-teal-900:checked {
   border-color: #234e52;
 }
 
-.active\:border-white:active {
+.checked\:border-white:checked {
   border-color: #fff;
 }
 
-.active\:border-transparent:active {
+.checked\:border-transparent:checked {
   border-color: transparent;
 }
 
-.active\:border-current:active {
+.checked\:border-current:checked {
   border-color: currentColor;
 }
 
 /* effects */
-.active\:shadow-md-amber-100:active {
+.checked\:shadow-md-amber-100:checked {
   box-shadow: 0 0 6px #fff9e6;
 }
 
-.active\:shadow-md-amber-200:active {
+.checked\:shadow-md-amber-200:checked {
   box-shadow: 0 0 6px #fff0bf;
 }
 
-.active\:shadow-md-amber-300:active {
+.checked\:shadow-md-amber-300:checked {
   box-shadow: 0 0 6px #ffe799;
 }
 
-.active\:shadow-md-amber-400:active {
+.checked\:shadow-md-amber-400:checked {
   box-shadow: 0 0 6px #ffd54d;
 }
 
-.active\:shadow-md-amber-500:active {
+.checked\:shadow-md-amber-500:checked {
   box-shadow: 0 0 6px #ffc300;
 }
 
-.active\:shadow-md-amber-600:active {
+.checked\:shadow-md-amber-600:checked {
   box-shadow: 0 0 6px #e6b000;
 }
 
-.active\:shadow-md-amber-700:active {
+.checked\:shadow-md-amber-700:checked {
   box-shadow: 0 0 6px #997500;
 }
 
-.active\:shadow-md-amber-800:active {
+.checked\:shadow-md-amber-800:checked {
   box-shadow: 0 0 6px #735800;
 }
 
-.active\:shadow-md-amber-900:active {
+.checked\:shadow-md-amber-900:checked {
   box-shadow: 0 0 6px #4d3b00;
 }
 
-.active\:shadow-md-black-100:active {
+.checked\:shadow-md-black-100:checked {
   box-shadow: 0 0 6px #b9b9b9;
 }
 
-.active\:shadow-md-black-200:active {
+.checked\:shadow-md-black-200:checked {
   box-shadow: 0 0 6px #a2a2a2;
 }
 
-.active\:shadow-md-black-300:active {
+.checked\:shadow-md-black-300:checked {
   box-shadow: 0 0 6px #8b8b8b;
 }
 
-.active\:shadow-md-black-400:active {
+.checked\:shadow-md-black-400:checked {
   box-shadow: 0 0 6px #737373;
 }
 
-.active\:shadow-md-black-500:active {
+.checked\:shadow-md-black-500:checked {
   box-shadow: 0 0 6px #5c5c5c;
 }
 
-.active\:shadow-md-black-600:active {
+.checked\:shadow-md-black-600:checked {
   box-shadow: 0 0 6px #454545;
 }
 
-.active\:shadow-md-black-700:active {
+.checked\:shadow-md-black-700:checked {
   box-shadow: 0 0 6px #2e2e2e;
 }
 
-.active\:shadow-md-black-800:active {
+.checked\:shadow-md-black-800:checked {
   box-shadow: 0 0 6px #171717;
 }
 
-.active\:shadow-md-black-900:active {
+.checked\:shadow-md-black-900:checked {
   box-shadow: 0 0 6px #000000;
 }
 
-.active\:shadow-md-blue-100:active {
+.checked\:shadow-md-blue-100:checked {
   box-shadow: 0 0 6px #ebf8ff;
 }
 
-.active\:shadow-md-blue-200:active {
+.checked\:shadow-md-blue-200:checked {
   box-shadow: 0 0 6px #bee3f8;
 }
 
-.active\:shadow-md-blue-300:active {
+.checked\:shadow-md-blue-300:checked {
   box-shadow: 0 0 6px #90cdf4;
 }
 
-.active\:shadow-md-blue-400:active {
+.checked\:shadow-md-blue-400:checked {
   box-shadow: 0 0 6px #63b3ed;
 }
 
-.active\:shadow-md-blue-500:active {
+.checked\:shadow-md-blue-500:checked {
   box-shadow: 0 0 6px #4299e1;
 }
 
-.active\:shadow-md-blue-600:active {
+.checked\:shadow-md-blue-600:checked {
   box-shadow: 0 0 6px #3182ce;
 }
 
-.active\:shadow-md-blue-700:active {
+.checked\:shadow-md-blue-700:checked {
   box-shadow: 0 0 6px #2b6cb0;
 }
 
-.active\:shadow-md-blue-800:active {
+.checked\:shadow-md-blue-800:checked {
   box-shadow: 0 0 6px #2c5282;
 }
 
-.active\:shadow-md-blue-900:active {
+.checked\:shadow-md-blue-900:checked {
   box-shadow: 0 0 6px #2a4365;
 }
 
-.active\:shadow-md-charcoal-100:active {
+.checked\:shadow-md-charcoal-100:checked {
   box-shadow: 0 0 6px #222c35;
 }
 
-.active\:shadow-md-charcoal-200:active {
+.checked\:shadow-md-charcoal-200:checked {
   box-shadow: 0 0 6px #1f2831;
 }
 
-.active\:shadow-md-charcoal-300:active {
+.checked\:shadow-md-charcoal-300:checked {
   box-shadow: 0 0 6px #1c252c;
 }
 
-.active\:shadow-md-charcoal-400:active {
+.checked\:shadow-md-charcoal-400:checked {
   box-shadow: 0 0 6px #192127;
 }
 
-.active\:shadow-md-charcoal-500:active {
+.checked\:shadow-md-charcoal-500:checked {
   box-shadow: 0 0 6px #161d22;
 }
 
-.active\:shadow-md-charcoal-600:active {
+.checked\:shadow-md-charcoal-600:checked {
   box-shadow: 0 0 6px #13181d;
 }
 
-.active\:shadow-md-charcoal-700:active {
+.checked\:shadow-md-charcoal-700:checked {
   box-shadow: 0 0 6px #101419;
 }
 
-.active\:shadow-md-charcoal-800:active {
+.checked\:shadow-md-charcoal-800:checked {
   box-shadow: 0 0 6px #0d1014;
 }
 
-.active\:shadow-md-charcoal-900:active {
+.checked\:shadow-md-charcoal-900:checked {
   box-shadow: 0 0 6px #0a0c0f;
 }
 
-.active\:shadow-md-gray-100:active {
+.checked\:shadow-md-gray-100:checked {
   box-shadow: 0 0 6px #f7fafc;
 }
 
-.active\:shadow-md-gray-200:active {
+.checked\:shadow-md-gray-200:checked {
   box-shadow: 0 0 6px #edf2f7;
 }
 
-.active\:shadow-md-gray-300:active {
+.checked\:shadow-md-gray-300:checked {
   box-shadow: 0 0 6px #e2e8f0;
 }
 
-.active\:shadow-md-gray-400:active {
+.checked\:shadow-md-gray-400:checked {
   box-shadow: 0 0 6px #cbd5e0;
 }
 
-.active\:shadow-md-gray-500:active {
+.checked\:shadow-md-gray-500:checked {
   box-shadow: 0 0 6px #a0aec0;
 }
 
-.active\:shadow-md-gray-600:active {
+.checked\:shadow-md-gray-600:checked {
   box-shadow: 0 0 6px #718096;
 }
 
-.active\:shadow-md-gray-700:active {
+.checked\:shadow-md-gray-700:checked {
   box-shadow: 0 0 6px #4a5568;
 }
 
-.active\:shadow-md-gray-800:active {
+.checked\:shadow-md-gray-800:checked {
   box-shadow: 0 0 6px #2d3748;
 }
 
-.active\:shadow-md-gray-900:active {
+.checked\:shadow-md-gray-900:checked {
   box-shadow: 0 0 6px #1a202c;
 }
 
-.active\:shadow-md-green-100:active {
+.checked\:shadow-md-green-100:checked {
   box-shadow: 0 0 6px #f0fff4;
 }
 
-.active\:shadow-md-green-200:active {
+.checked\:shadow-md-green-200:checked {
   box-shadow: 0 0 6px #c6f6d5;
 }
 
-.active\:shadow-md-green-300:active {
+.checked\:shadow-md-green-300:checked {
   box-shadow: 0 0 6px #9ae6b4;
 }
 
-.active\:shadow-md-green-400:active {
+.checked\:shadow-md-green-400:checked {
   box-shadow: 0 0 6px #68d391;
 }
 
-.active\:shadow-md-green-500:active {
+.checked\:shadow-md-green-500:checked {
   box-shadow: 0 0 6px #48bb78;
 }
 
-.active\:shadow-md-green-600:active {
+.checked\:shadow-md-green-600:checked {
   box-shadow: 0 0 6px #38a169;
 }
 
-.active\:shadow-md-green-700:active {
+.checked\:shadow-md-green-700:checked {
   box-shadow: 0 0 6px #2f855a;
 }
 
-.active\:shadow-md-green-800:active {
+.checked\:shadow-md-green-800:checked {
   box-shadow: 0 0 6px #276749;
 }
 
-.active\:shadow-md-green-900:active {
+.checked\:shadow-md-green-900:checked {
   box-shadow: 0 0 6px #22543d;
 }
 
-.active\:shadow-md-indigo-100:active {
+.checked\:shadow-md-indigo-100:checked {
   box-shadow: 0 0 6px #ebf4ff;
 }
 
-.active\:shadow-md-indigo-200:active {
+.checked\:shadow-md-indigo-200:checked {
   box-shadow: 0 0 6px #c3dafe;
 }
 
-.active\:shadow-md-indigo-300:active {
+.checked\:shadow-md-indigo-300:checked {
   box-shadow: 0 0 6px #a3bffa;
 }
 
-.active\:shadow-md-indigo-400:active {
+.checked\:shadow-md-indigo-400:checked {
   box-shadow: 0 0 6px #7f9cf5;
 }
 
-.active\:shadow-md-indigo-500:active {
+.checked\:shadow-md-indigo-500:checked {
   box-shadow: 0 0 6px #667eea;
 }
 
-.active\:shadow-md-indigo-600:active {
+.checked\:shadow-md-indigo-600:checked {
   box-shadow: 0 0 6px #5a67d8;
 }
 
-.active\:shadow-md-indigo-700:active {
+.checked\:shadow-md-indigo-700:checked {
   box-shadow: 0 0 6px #4c51bf;
 }
 
-.active\:shadow-md-indigo-800:active {
+.checked\:shadow-md-indigo-800:checked {
   box-shadow: 0 0 6px #434190;
 }
 
-.active\:shadow-md-indigo-900:active {
+.checked\:shadow-md-indigo-900:checked {
   box-shadow: 0 0 6px #3c366b;
 }
 
-.active\:shadow-md-khaki-100:active {
+.checked\:shadow-md-khaki-100:checked {
   box-shadow: 0 0 6px #f9f7f4;
 }
 
-.active\:shadow-md-khaki-200:active {
+.checked\:shadow-md-khaki-200:checked {
   box-shadow: 0 0 6px #f0ebe4;
 }
 
-.active\:shadow-md-khaki-300:active {
+.checked\:shadow-md-khaki-300:checked {
   box-shadow: 0 0 6px #e7dfd3;
 }
 
-.active\:shadow-md-khaki-400:active {
+.checked\:shadow-md-khaki-400:checked {
   box-shadow: 0 0 6px #d5c8b2;
 }
 
-.active\:shadow-md-khaki-500:active {
+.checked\:shadow-md-khaki-500:checked {
   box-shadow: 0 0 6px #c3b091;
 }
 
-.active\:shadow-md-khaki-600:active {
+.checked\:shadow-md-khaki-600:checked {
   box-shadow: 0 0 6px #b09e83;
 }
 
-.active\:shadow-md-khaki-700:active {
+.checked\:shadow-md-khaki-700:checked {
   box-shadow: 0 0 6px #756a57;
 }
 
-.active\:shadow-md-khaki-800:active {
+.checked\:shadow-md-khaki-800:checked {
   box-shadow: 0 0 6px #584f41;
 }
 
-.active\:shadow-md-khaki-900:active {
+.checked\:shadow-md-khaki-900:checked {
   box-shadow: 0 0 6px #3b352c;
 }
 
-.active\:shadow-md-nero-100:active {
+.checked\:shadow-md-nero-100:checked {
   box-shadow: 0 0 6px #e9e9e9;
 }
 
-.active\:shadow-md-nero-200:active {
+.checked\:shadow-md-nero-200:checked {
   box-shadow: 0 0 6px #c7c8c9;
 }
 
-.active\:shadow-md-nero-300:active {
+.checked\:shadow-md-nero-300:checked {
   box-shadow: 0 0 6px #a6a7a8;
 }
 
-.active\:shadow-md-nero-400:active {
+.checked\:shadow-md-nero-400:checked {
   box-shadow: 0 0 6px #636466;
 }
 
-.active\:shadow-md-nero-500:active {
+.checked\:shadow-md-nero-500:checked {
   box-shadow: 0 0 6px #202225;
 }
 
-.active\:shadow-md-nero-600:active {
+.checked\:shadow-md-nero-600:checked {
   box-shadow: 0 0 6px #1d1f21;
 }
 
-.active\:shadow-md-nero-700:active {
+.checked\:shadow-md-nero-700:checked {
   box-shadow: 0 0 6px #131416;
 }
 
-.active\:shadow-md-nero-800:active {
+.checked\:shadow-md-nero-800:checked {
   box-shadow: 0 0 6px #0e0f11;
 }
 
-.active\:shadow-md-nero-900:active {
+.checked\:shadow-md-nero-900:checked {
   box-shadow: 0 0 6px #0a0a0b;
 }
 
-.active\:shadow-md-orange-100:active {
+.checked\:shadow-md-orange-100:checked {
   box-shadow: 0 0 6px #fffaf0;
 }
 
-.active\:shadow-md-orange-200:active {
+.checked\:shadow-md-orange-200:checked {
   box-shadow: 0 0 6px #feebc8;
 }
 
-.active\:shadow-md-orange-300:active {
+.checked\:shadow-md-orange-300:checked {
   box-shadow: 0 0 6px #fbd38d;
 }
 
-.active\:shadow-md-orange-400:active {
+.checked\:shadow-md-orange-400:checked {
   box-shadow: 0 0 6px #f6ad55;
 }
 
-.active\:shadow-md-orange-500:active {
+.checked\:shadow-md-orange-500:checked {
   box-shadow: 0 0 6px #ed8936;
 }
 
-.active\:shadow-md-orange-600:active {
+.checked\:shadow-md-orange-600:checked {
   box-shadow: 0 0 6px #dd6b20;
 }
 
-.active\:shadow-md-orange-700:active {
+.checked\:shadow-md-orange-700:checked {
   box-shadow: 0 0 6px #c05621;
 }
 
-.active\:shadow-md-orange-800:active {
+.checked\:shadow-md-orange-800:checked {
   box-shadow: 0 0 6px #9c4221;
 }
 
-.active\:shadow-md-orange-900:active {
+.checked\:shadow-md-orange-900:checked {
   box-shadow: 0 0 6px #7b341e;
 }
 
-.active\:shadow-md-pink-100:active {
+.checked\:shadow-md-pink-100:checked {
   box-shadow: 0 0 6px #fff5f7;
 }
 
-.active\:shadow-md-pink-200:active {
+.checked\:shadow-md-pink-200:checked {
   box-shadow: 0 0 6px #fed7e2;
 }
 
-.active\:shadow-md-pink-300:active {
+.checked\:shadow-md-pink-300:checked {
   box-shadow: 0 0 6px #fbb6ce;
 }
 
-.active\:shadow-md-pink-400:active {
+.checked\:shadow-md-pink-400:checked {
   box-shadow: 0 0 6px #f687b3;
 }
 
-.active\:shadow-md-pink-500:active {
+.checked\:shadow-md-pink-500:checked {
   box-shadow: 0 0 6px #ed64a6;
 }
 
-.active\:shadow-md-pink-600:active {
+.checked\:shadow-md-pink-600:checked {
   box-shadow: 0 0 6px #d53f8c;
 }
 
-.active\:shadow-md-pink-700:active {
+.checked\:shadow-md-pink-700:checked {
   box-shadow: 0 0 6px #b83280;
 }
 
-.active\:shadow-md-pink-800:active {
+.checked\:shadow-md-pink-800:checked {
   box-shadow: 0 0 6px #97266d;
 }
 
-.active\:shadow-md-pink-900:active {
+.checked\:shadow-md-pink-900:checked {
   box-shadow: 0 0 6px #702459;
 }
 
-.active\:shadow-md-purple-100:active {
+.checked\:shadow-md-purple-100:checked {
   box-shadow: 0 0 6px #faf5ff;
 }
 
-.active\:shadow-md-purple-200:active {
+.checked\:shadow-md-purple-200:checked {
   box-shadow: 0 0 6px #e9d8fd;
 }
 
-.active\:shadow-md-purple-300:active {
+.checked\:shadow-md-purple-300:checked {
   box-shadow: 0 0 6px #d6bcfa;
 }
 
-.active\:shadow-md-purple-400:active {
+.checked\:shadow-md-purple-400:checked {
   box-shadow: 0 0 6px #b794f4;
 }
 
-.active\:shadow-md-purple-500:active {
+.checked\:shadow-md-purple-500:checked {
   box-shadow: 0 0 6px #9f7aea;
 }
 
-.active\:shadow-md-purple-600:active {
+.checked\:shadow-md-purple-600:checked {
   box-shadow: 0 0 6px #805ad5;
 }
 
-.active\:shadow-md-purple-700:active {
+.checked\:shadow-md-purple-700:checked {
   box-shadow: 0 0 6px #6b46c1;
 }
 
-.active\:shadow-md-purple-800:active {
+.checked\:shadow-md-purple-800:checked {
   box-shadow: 0 0 6px #553c9a;
 }
 
-.active\:shadow-md-purple-900:active {
+.checked\:shadow-md-purple-900:checked {
   box-shadow: 0 0 6px #44337a;
 }
 
-.active\:shadow-md-red-100:active {
+.checked\:shadow-md-red-100:checked {
   box-shadow: 0 0 6px #fff5f5;
 }
 
-.active\:shadow-md-red-200:active {
+.checked\:shadow-md-red-200:checked {
   box-shadow: 0 0 6px #fed7d7;
 }
 
-.active\:shadow-md-red-300:active {
+.checked\:shadow-md-red-300:checked {
   box-shadow: 0 0 6px #feb2b2;
 }
 
-.active\:shadow-md-red-400:active {
+.checked\:shadow-md-red-400:checked {
   box-shadow: 0 0 6px #fc8181;
 }
 
-.active\:shadow-md-red-500:active {
+.checked\:shadow-md-red-500:checked {
   box-shadow: 0 0 6px #f56565;
 }
 
-.active\:shadow-md-red-600:active {
+.checked\:shadow-md-red-600:checked {
   box-shadow: 0 0 6px #e53e3e;
 }
 
-.active\:shadow-md-red-700:active {
+.checked\:shadow-md-red-700:checked {
   box-shadow: 0 0 6px #c53030;
 }
 
-.active\:shadow-md-red-800:active {
+.checked\:shadow-md-red-800:checked {
   box-shadow: 0 0 6px #9b2c2c;
 }
 
-.active\:shadow-md-red-900:active {
+.checked\:shadow-md-red-900:checked {
   box-shadow: 0 0 6px #742a2a;
 }
 
-.active\:shadow-md-teal-100:active {
+.checked\:shadow-md-teal-100:checked {
   box-shadow: 0 0 6px #e6fffa;
 }
 
-.active\:shadow-md-teal-200:active {
+.checked\:shadow-md-teal-200:checked {
   box-shadow: 0 0 6px #b2f5ea;
 }
 
-.active\:shadow-md-teal-300:active {
+.checked\:shadow-md-teal-300:checked {
   box-shadow: 0 0 6px #81e6d9;
 }
 
-.active\:shadow-md-teal-400:active {
+.checked\:shadow-md-teal-400:checked {
   box-shadow: 0 0 6px #4fd1c5;
 }
 
-.active\:shadow-md-teal-500:active {
+.checked\:shadow-md-teal-500:checked {
   box-shadow: 0 0 6px #38b2ac;
 }
 
-.active\:shadow-md-teal-600:active {
+.checked\:shadow-md-teal-600:checked {
   box-shadow: 0 0 6px #319795;
 }
 
-.active\:shadow-md-teal-700:active {
+.checked\:shadow-md-teal-700:checked {
   box-shadow: 0 0 6px #2c7a7b;
 }
 
-.active\:shadow-md-teal-800:active {
+.checked\:shadow-md-teal-800:checked {
   box-shadow: 0 0 6px #285e61;
 }
 
-.active\:shadow-md-teal-900:active {
+.checked\:shadow-md-teal-900:checked {
   box-shadow: 0 0 6px #234e52;
 }
 
-.active\:shadow-lg-amber-100:active {
+.checked\:shadow-lg-amber-100:checked {
   box-shadow: 0 0 15px #fff9e6;
 }
 
-.active\:shadow-lg-amber-200:active {
+.checked\:shadow-lg-amber-200:checked {
   box-shadow: 0 0 15px #fff0bf;
 }
 
-.active\:shadow-lg-amber-300:active {
+.checked\:shadow-lg-amber-300:checked {
   box-shadow: 0 0 15px #ffe799;
 }
 
-.active\:shadow-lg-amber-400:active {
+.checked\:shadow-lg-amber-400:checked {
   box-shadow: 0 0 15px #ffd54d;
 }
 
-.active\:shadow-lg-amber-500:active {
+.checked\:shadow-lg-amber-500:checked {
   box-shadow: 0 0 15px #ffc300;
 }
 
-.active\:shadow-lg-amber-600:active {
+.checked\:shadow-lg-amber-600:checked {
   box-shadow: 0 0 15px #e6b000;
 }
 
-.active\:shadow-lg-amber-700:active {
+.checked\:shadow-lg-amber-700:checked {
   box-shadow: 0 0 15px #997500;
 }
 
-.active\:shadow-lg-amber-800:active {
+.checked\:shadow-lg-amber-800:checked {
   box-shadow: 0 0 15px #735800;
 }
 
-.active\:shadow-lg-amber-900:active {
+.checked\:shadow-lg-amber-900:checked {
   box-shadow: 0 0 15px #4d3b00;
 }
 
-.active\:shadow-lg-black-100:active {
+.checked\:shadow-lg-black-100:checked {
   box-shadow: 0 0 15px #b9b9b9;
 }
 
-.active\:shadow-lg-black-200:active {
+.checked\:shadow-lg-black-200:checked {
   box-shadow: 0 0 15px #a2a2a2;
 }
 
-.active\:shadow-lg-black-300:active {
+.checked\:shadow-lg-black-300:checked {
   box-shadow: 0 0 15px #8b8b8b;
 }
 
-.active\:shadow-lg-black-400:active {
+.checked\:shadow-lg-black-400:checked {
   box-shadow: 0 0 15px #737373;
 }
 
-.active\:shadow-lg-black-500:active {
+.checked\:shadow-lg-black-500:checked {
   box-shadow: 0 0 15px #5c5c5c;
 }
 
-.active\:shadow-lg-black-600:active {
+.checked\:shadow-lg-black-600:checked {
   box-shadow: 0 0 15px #454545;
 }
 
-.active\:shadow-lg-black-700:active {
+.checked\:shadow-lg-black-700:checked {
   box-shadow: 0 0 15px #2e2e2e;
 }
 
-.active\:shadow-lg-black-800:active {
+.checked\:shadow-lg-black-800:checked {
   box-shadow: 0 0 15px #171717;
 }
 
-.active\:shadow-lg-black-900:active {
+.checked\:shadow-lg-black-900:checked {
   box-shadow: 0 0 15px #000000;
 }
 
-.active\:shadow-lg-blue-100:active {
+.checked\:shadow-lg-blue-100:checked {
   box-shadow: 0 0 15px #ebf8ff;
 }
 
-.active\:shadow-lg-blue-200:active {
+.checked\:shadow-lg-blue-200:checked {
   box-shadow: 0 0 15px #bee3f8;
 }
 
-.active\:shadow-lg-blue-300:active {
+.checked\:shadow-lg-blue-300:checked {
   box-shadow: 0 0 15px #90cdf4;
 }
 
-.active\:shadow-lg-blue-400:active {
+.checked\:shadow-lg-blue-400:checked {
   box-shadow: 0 0 15px #63b3ed;
 }
 
-.active\:shadow-lg-blue-500:active {
+.checked\:shadow-lg-blue-500:checked {
   box-shadow: 0 0 15px #4299e1;
 }
 
-.active\:shadow-lg-blue-600:active {
+.checked\:shadow-lg-blue-600:checked {
   box-shadow: 0 0 15px #3182ce;
 }
 
-.active\:shadow-lg-blue-700:active {
+.checked\:shadow-lg-blue-700:checked {
   box-shadow: 0 0 15px #2b6cb0;
 }
 
-.active\:shadow-lg-blue-800:active {
+.checked\:shadow-lg-blue-800:checked {
   box-shadow: 0 0 15px #2c5282;
 }
 
-.active\:shadow-lg-blue-900:active {
+.checked\:shadow-lg-blue-900:checked {
   box-shadow: 0 0 15px #2a4365;
 }
 
-.active\:shadow-lg-charcoal-100:active {
+.checked\:shadow-lg-charcoal-100:checked {
   box-shadow: 0 0 15px #222c35;
 }
 
-.active\:shadow-lg-charcoal-200:active {
+.checked\:shadow-lg-charcoal-200:checked {
   box-shadow: 0 0 15px #1f2831;
 }
 
-.active\:shadow-lg-charcoal-300:active {
+.checked\:shadow-lg-charcoal-300:checked {
   box-shadow: 0 0 15px #1c252c;
 }
 
-.active\:shadow-lg-charcoal-400:active {
+.checked\:shadow-lg-charcoal-400:checked {
   box-shadow: 0 0 15px #192127;
 }
 
-.active\:shadow-lg-charcoal-500:active {
+.checked\:shadow-lg-charcoal-500:checked {
   box-shadow: 0 0 15px #161d22;
 }
 
-.active\:shadow-lg-charcoal-600:active {
+.checked\:shadow-lg-charcoal-600:checked {
   box-shadow: 0 0 15px #13181d;
 }
 
-.active\:shadow-lg-charcoal-700:active {
+.checked\:shadow-lg-charcoal-700:checked {
   box-shadow: 0 0 15px #101419;
 }
 
-.active\:shadow-lg-charcoal-800:active {
+.checked\:shadow-lg-charcoal-800:checked {
   box-shadow: 0 0 15px #0d1014;
 }
 
-.active\:shadow-lg-charcoal-900:active {
+.checked\:shadow-lg-charcoal-900:checked {
   box-shadow: 0 0 15px #0a0c0f;
 }
 
-.active\:shadow-lg-gray-100:active {
+.checked\:shadow-lg-gray-100:checked {
   box-shadow: 0 0 15px #f7fafc;
 }
 
-.active\:shadow-lg-gray-200:active {
+.checked\:shadow-lg-gray-200:checked {
   box-shadow: 0 0 15px #edf2f7;
 }
 
-.active\:shadow-lg-gray-300:active {
+.checked\:shadow-lg-gray-300:checked {
   box-shadow: 0 0 15px #e2e8f0;
 }
 
-.active\:shadow-lg-gray-400:active {
+.checked\:shadow-lg-gray-400:checked {
   box-shadow: 0 0 15px #cbd5e0;
 }
 
-.active\:shadow-lg-gray-500:active {
+.checked\:shadow-lg-gray-500:checked {
   box-shadow: 0 0 15px #a0aec0;
 }
 
-.active\:shadow-lg-gray-600:active {
+.checked\:shadow-lg-gray-600:checked {
   box-shadow: 0 0 15px #718096;
 }
 
-.active\:shadow-lg-gray-700:active {
+.checked\:shadow-lg-gray-700:checked {
   box-shadow: 0 0 15px #4a5568;
 }
 
-.active\:shadow-lg-gray-800:active {
+.checked\:shadow-lg-gray-800:checked {
   box-shadow: 0 0 15px #2d3748;
 }
 
-.active\:shadow-lg-gray-900:active {
+.checked\:shadow-lg-gray-900:checked {
   box-shadow: 0 0 15px #1a202c;
 }
 
-.active\:shadow-lg-green-100:active {
+.checked\:shadow-lg-green-100:checked {
   box-shadow: 0 0 15px #f0fff4;
 }
 
-.active\:shadow-lg-green-200:active {
+.checked\:shadow-lg-green-200:checked {
   box-shadow: 0 0 15px #c6f6d5;
 }
 
-.active\:shadow-lg-green-300:active {
+.checked\:shadow-lg-green-300:checked {
   box-shadow: 0 0 15px #9ae6b4;
 }
 
-.active\:shadow-lg-green-400:active {
+.checked\:shadow-lg-green-400:checked {
   box-shadow: 0 0 15px #68d391;
 }
 
-.active\:shadow-lg-green-500:active {
+.checked\:shadow-lg-green-500:checked {
   box-shadow: 0 0 15px #48bb78;
 }
 
-.active\:shadow-lg-green-600:active {
+.checked\:shadow-lg-green-600:checked {
   box-shadow: 0 0 15px #38a169;
 }
 
-.active\:shadow-lg-green-700:active {
+.checked\:shadow-lg-green-700:checked {
   box-shadow: 0 0 15px #2f855a;
 }
 
-.active\:shadow-lg-green-800:active {
+.checked\:shadow-lg-green-800:checked {
   box-shadow: 0 0 15px #276749;
 }
 
-.active\:shadow-lg-green-900:active {
+.checked\:shadow-lg-green-900:checked {
   box-shadow: 0 0 15px #22543d;
 }
 
-.active\:shadow-lg-indigo-100:active {
+.checked\:shadow-lg-indigo-100:checked {
   box-shadow: 0 0 15px #ebf4ff;
 }
 
-.active\:shadow-lg-indigo-200:active {
+.checked\:shadow-lg-indigo-200:checked {
   box-shadow: 0 0 15px #c3dafe;
 }
 
-.active\:shadow-lg-indigo-300:active {
+.checked\:shadow-lg-indigo-300:checked {
   box-shadow: 0 0 15px #a3bffa;
 }
 
-.active\:shadow-lg-indigo-400:active {
+.checked\:shadow-lg-indigo-400:checked {
   box-shadow: 0 0 15px #7f9cf5;
 }
 
-.active\:shadow-lg-indigo-500:active {
+.checked\:shadow-lg-indigo-500:checked {
   box-shadow: 0 0 15px #667eea;
 }
 
-.active\:shadow-lg-indigo-600:active {
+.checked\:shadow-lg-indigo-600:checked {
   box-shadow: 0 0 15px #5a67d8;
 }
 
-.active\:shadow-lg-indigo-700:active {
+.checked\:shadow-lg-indigo-700:checked {
   box-shadow: 0 0 15px #4c51bf;
 }
 
-.active\:shadow-lg-indigo-800:active {
+.checked\:shadow-lg-indigo-800:checked {
   box-shadow: 0 0 15px #434190;
 }
 
-.active\:shadow-lg-indigo-900:active {
+.checked\:shadow-lg-indigo-900:checked {
   box-shadow: 0 0 15px #3c366b;
 }
 
-.active\:shadow-lg-khaki-100:active {
+.checked\:shadow-lg-khaki-100:checked {
   box-shadow: 0 0 15px #f9f7f4;
 }
 
-.active\:shadow-lg-khaki-200:active {
+.checked\:shadow-lg-khaki-200:checked {
   box-shadow: 0 0 15px #f0ebe4;
 }
 
-.active\:shadow-lg-khaki-300:active {
+.checked\:shadow-lg-khaki-300:checked {
   box-shadow: 0 0 15px #e7dfd3;
 }
 
-.active\:shadow-lg-khaki-400:active {
+.checked\:shadow-lg-khaki-400:checked {
   box-shadow: 0 0 15px #d5c8b2;
 }
 
-.active\:shadow-lg-khaki-500:active {
+.checked\:shadow-lg-khaki-500:checked {
   box-shadow: 0 0 15px #c3b091;
 }
 
-.active\:shadow-lg-khaki-600:active {
+.checked\:shadow-lg-khaki-600:checked {
   box-shadow: 0 0 15px #b09e83;
 }
 
-.active\:shadow-lg-khaki-700:active {
+.checked\:shadow-lg-khaki-700:checked {
   box-shadow: 0 0 15px #756a57;
 }
 
-.active\:shadow-lg-khaki-800:active {
+.checked\:shadow-lg-khaki-800:checked {
   box-shadow: 0 0 15px #584f41;
 }
 
-.active\:shadow-lg-khaki-900:active {
+.checked\:shadow-lg-khaki-900:checked {
   box-shadow: 0 0 15px #3b352c;
 }
 
-.active\:shadow-lg-nero-100:active {
+.checked\:shadow-lg-nero-100:checked {
   box-shadow: 0 0 15px #e9e9e9;
 }
 
-.active\:shadow-lg-nero-200:active {
+.checked\:shadow-lg-nero-200:checked {
   box-shadow: 0 0 15px #c7c8c9;
 }
 
-.active\:shadow-lg-nero-300:active {
+.checked\:shadow-lg-nero-300:checked {
   box-shadow: 0 0 15px #a6a7a8;
 }
 
-.active\:shadow-lg-nero-400:active {
+.checked\:shadow-lg-nero-400:checked {
   box-shadow: 0 0 15px #636466;
 }
 
-.active\:shadow-lg-nero-500:active {
+.checked\:shadow-lg-nero-500:checked {
   box-shadow: 0 0 15px #202225;
 }
 
-.active\:shadow-lg-nero-600:active {
+.checked\:shadow-lg-nero-600:checked {
   box-shadow: 0 0 15px #1d1f21;
 }
 
-.active\:shadow-lg-nero-700:active {
+.checked\:shadow-lg-nero-700:checked {
   box-shadow: 0 0 15px #131416;
 }
 
-.active\:shadow-lg-nero-800:active {
+.checked\:shadow-lg-nero-800:checked {
   box-shadow: 0 0 15px #0e0f11;
 }
 
-.active\:shadow-lg-nero-900:active {
+.checked\:shadow-lg-nero-900:checked {
   box-shadow: 0 0 15px #0a0a0b;
 }
 
-.active\:shadow-lg-orange-100:active {
+.checked\:shadow-lg-orange-100:checked {
   box-shadow: 0 0 15px #fffaf0;
 }
 
-.active\:shadow-lg-orange-200:active {
+.checked\:shadow-lg-orange-200:checked {
   box-shadow: 0 0 15px #feebc8;
 }
 
-.active\:shadow-lg-orange-300:active {
+.checked\:shadow-lg-orange-300:checked {
   box-shadow: 0 0 15px #fbd38d;
 }
 
-.active\:shadow-lg-orange-400:active {
+.checked\:shadow-lg-orange-400:checked {
   box-shadow: 0 0 15px #f6ad55;
 }
 
-.active\:shadow-lg-orange-500:active {
+.checked\:shadow-lg-orange-500:checked {
   box-shadow: 0 0 15px #ed8936;
 }
 
-.active\:shadow-lg-orange-600:active {
+.checked\:shadow-lg-orange-600:checked {
   box-shadow: 0 0 15px #dd6b20;
 }
 
-.active\:shadow-lg-orange-700:active {
+.checked\:shadow-lg-orange-700:checked {
   box-shadow: 0 0 15px #c05621;
 }
 
-.active\:shadow-lg-orange-800:active {
+.checked\:shadow-lg-orange-800:checked {
   box-shadow: 0 0 15px #9c4221;
 }
 
-.active\:shadow-lg-orange-900:active {
+.checked\:shadow-lg-orange-900:checked {
   box-shadow: 0 0 15px #7b341e;
 }
 
-.active\:shadow-lg-pink-100:active {
+.checked\:shadow-lg-pink-100:checked {
   box-shadow: 0 0 15px #fff5f7;
 }
 
-.active\:shadow-lg-pink-200:active {
+.checked\:shadow-lg-pink-200:checked {
   box-shadow: 0 0 15px #fed7e2;
 }
 
-.active\:shadow-lg-pink-300:active {
+.checked\:shadow-lg-pink-300:checked {
   box-shadow: 0 0 15px #fbb6ce;
 }
 
-.active\:shadow-lg-pink-400:active {
+.checked\:shadow-lg-pink-400:checked {
   box-shadow: 0 0 15px #f687b3;
 }
 
-.active\:shadow-lg-pink-500:active {
+.checked\:shadow-lg-pink-500:checked {
   box-shadow: 0 0 15px #ed64a6;
 }
 
-.active\:shadow-lg-pink-600:active {
+.checked\:shadow-lg-pink-600:checked {
   box-shadow: 0 0 15px #d53f8c;
 }
 
-.active\:shadow-lg-pink-700:active {
+.checked\:shadow-lg-pink-700:checked {
   box-shadow: 0 0 15px #b83280;
 }
 
-.active\:shadow-lg-pink-800:active {
+.checked\:shadow-lg-pink-800:checked {
   box-shadow: 0 0 15px #97266d;
 }
 
-.active\:shadow-lg-pink-900:active {
+.checked\:shadow-lg-pink-900:checked {
   box-shadow: 0 0 15px #702459;
 }
 
-.active\:shadow-lg-purple-100:active {
+.checked\:shadow-lg-purple-100:checked {
   box-shadow: 0 0 15px #faf5ff;
 }
 
-.active\:shadow-lg-purple-200:active {
+.checked\:shadow-lg-purple-200:checked {
   box-shadow: 0 0 15px #e9d8fd;
 }
 
-.active\:shadow-lg-purple-300:active {
+.checked\:shadow-lg-purple-300:checked {
   box-shadow: 0 0 15px #d6bcfa;
 }
 
-.active\:shadow-lg-purple-400:active {
+.checked\:shadow-lg-purple-400:checked {
   box-shadow: 0 0 15px #b794f4;
 }
 
-.active\:shadow-lg-purple-500:active {
+.checked\:shadow-lg-purple-500:checked {
   box-shadow: 0 0 15px #9f7aea;
 }
 
-.active\:shadow-lg-purple-600:active {
+.checked\:shadow-lg-purple-600:checked {
   box-shadow: 0 0 15px #805ad5;
 }
 
-.active\:shadow-lg-purple-700:active {
+.checked\:shadow-lg-purple-700:checked {
   box-shadow: 0 0 15px #6b46c1;
 }
 
-.active\:shadow-lg-purple-800:active {
+.checked\:shadow-lg-purple-800:checked {
   box-shadow: 0 0 15px #553c9a;
 }
 
-.active\:shadow-lg-purple-900:active {
+.checked\:shadow-lg-purple-900:checked {
   box-shadow: 0 0 15px #44337a;
 }
 
-.active\:shadow-lg-red-100:active {
+.checked\:shadow-lg-red-100:checked {
   box-shadow: 0 0 15px #fff5f5;
 }
 
-.active\:shadow-lg-red-200:active {
+.checked\:shadow-lg-red-200:checked {
   box-shadow: 0 0 15px #fed7d7;
 }
 
-.active\:shadow-lg-red-300:active {
+.checked\:shadow-lg-red-300:checked {
   box-shadow: 0 0 15px #feb2b2;
 }
 
-.active\:shadow-lg-red-400:active {
+.checked\:shadow-lg-red-400:checked {
   box-shadow: 0 0 15px #fc8181;
 }
 
-.active\:shadow-lg-red-500:active {
+.checked\:shadow-lg-red-500:checked {
   box-shadow: 0 0 15px #f56565;
 }
 
-.active\:shadow-lg-red-600:active {
+.checked\:shadow-lg-red-600:checked {
   box-shadow: 0 0 15px #e53e3e;
 }
 
-.active\:shadow-lg-red-700:active {
+.checked\:shadow-lg-red-700:checked {
   box-shadow: 0 0 15px #c53030;
 }
 
-.active\:shadow-lg-red-800:active {
+.checked\:shadow-lg-red-800:checked {
   box-shadow: 0 0 15px #9b2c2c;
 }
 
-.active\:shadow-lg-red-900:active {
+.checked\:shadow-lg-red-900:checked {
   box-shadow: 0 0 15px #742a2a;
 }
 
-.active\:shadow-lg-teal-100:active {
+.checked\:shadow-lg-teal-100:checked {
   box-shadow: 0 0 15px #e6fffa;
 }
 
-.active\:shadow-lg-teal-200:active {
+.checked\:shadow-lg-teal-200:checked {
   box-shadow: 0 0 15px #b2f5ea;
 }
 
-.active\:shadow-lg-teal-300:active {
+.checked\:shadow-lg-teal-300:checked {
   box-shadow: 0 0 15px #81e6d9;
 }
 
-.active\:shadow-lg-teal-400:active {
+.checked\:shadow-lg-teal-400:checked {
   box-shadow: 0 0 15px #4fd1c5;
 }
 
-.active\:shadow-lg-teal-500:active {
+.checked\:shadow-lg-teal-500:checked {
   box-shadow: 0 0 15px #38b2ac;
 }
 
-.active\:shadow-lg-teal-600:active {
+.checked\:shadow-lg-teal-600:checked {
   box-shadow: 0 0 15px #319795;
 }
 
-.active\:shadow-lg-teal-700:active {
+.checked\:shadow-lg-teal-700:checked {
   box-shadow: 0 0 15px #2c7a7b;
 }
 
-.active\:shadow-lg-teal-800:active {
+.checked\:shadow-lg-teal-800:checked {
   box-shadow: 0 0 15px #285e61;
 }
 
-.active\:shadow-lg-teal-900:active {
+.checked\:shadow-lg-teal-900:checked {
   box-shadow: 0 0 15px #234e52;
 }
 
-.active\:shadow-xl-amber-100:active {
+.checked\:shadow-xl-amber-100:checked {
   box-shadow: 0 0 25px #fff9e6;
 }
 
-.active\:shadow-xl-amber-200:active {
+.checked\:shadow-xl-amber-200:checked {
   box-shadow: 0 0 25px #fff0bf;
 }
 
-.active\:shadow-xl-amber-300:active {
+.checked\:shadow-xl-amber-300:checked {
   box-shadow: 0 0 25px #ffe799;
 }
 
-.active\:shadow-xl-amber-400:active {
+.checked\:shadow-xl-amber-400:checked {
   box-shadow: 0 0 25px #ffd54d;
 }
 
-.active\:shadow-xl-amber-500:active {
+.checked\:shadow-xl-amber-500:checked {
   box-shadow: 0 0 25px #ffc300;
 }
 
-.active\:shadow-xl-amber-600:active {
+.checked\:shadow-xl-amber-600:checked {
   box-shadow: 0 0 25px #e6b000;
 }
 
-.active\:shadow-xl-amber-700:active {
+.checked\:shadow-xl-amber-700:checked {
   box-shadow: 0 0 25px #997500;
 }
 
-.active\:shadow-xl-amber-800:active {
+.checked\:shadow-xl-amber-800:checked {
   box-shadow: 0 0 25px #735800;
 }
 
-.active\:shadow-xl-amber-900:active {
+.checked\:shadow-xl-amber-900:checked {
   box-shadow: 0 0 25px #4d3b00;
 }
 
-.active\:shadow-xl-black-100:active {
+.checked\:shadow-xl-black-100:checked {
   box-shadow: 0 0 25px #b9b9b9;
 }
 
-.active\:shadow-xl-black-200:active {
+.checked\:shadow-xl-black-200:checked {
   box-shadow: 0 0 25px #a2a2a2;
 }
 
-.active\:shadow-xl-black-300:active {
+.checked\:shadow-xl-black-300:checked {
   box-shadow: 0 0 25px #8b8b8b;
 }
 
-.active\:shadow-xl-black-400:active {
+.checked\:shadow-xl-black-400:checked {
   box-shadow: 0 0 25px #737373;
 }
 
-.active\:shadow-xl-black-500:active {
+.checked\:shadow-xl-black-500:checked {
   box-shadow: 0 0 25px #5c5c5c;
 }
 
-.active\:shadow-xl-black-600:active {
+.checked\:shadow-xl-black-600:checked {
   box-shadow: 0 0 25px #454545;
 }
 
-.active\:shadow-xl-black-700:active {
+.checked\:shadow-xl-black-700:checked {
   box-shadow: 0 0 25px #2e2e2e;
 }
 
-.active\:shadow-xl-black-800:active {
+.checked\:shadow-xl-black-800:checked {
   box-shadow: 0 0 25px #171717;
 }
 
-.active\:shadow-xl-black-900:active {
+.checked\:shadow-xl-black-900:checked {
   box-shadow: 0 0 25px #000000;
 }
 
-.active\:shadow-xl-blue-100:active {
+.checked\:shadow-xl-blue-100:checked {
   box-shadow: 0 0 25px #ebf8ff;
 }
 
-.active\:shadow-xl-blue-200:active {
+.checked\:shadow-xl-blue-200:checked {
   box-shadow: 0 0 25px #bee3f8;
 }
 
-.active\:shadow-xl-blue-300:active {
+.checked\:shadow-xl-blue-300:checked {
   box-shadow: 0 0 25px #90cdf4;
 }
 
-.active\:shadow-xl-blue-400:active {
+.checked\:shadow-xl-blue-400:checked {
   box-shadow: 0 0 25px #63b3ed;
 }
 
-.active\:shadow-xl-blue-500:active {
+.checked\:shadow-xl-blue-500:checked {
   box-shadow: 0 0 25px #4299e1;
 }
 
-.active\:shadow-xl-blue-600:active {
+.checked\:shadow-xl-blue-600:checked {
   box-shadow: 0 0 25px #3182ce;
 }
 
-.active\:shadow-xl-blue-700:active {
+.checked\:shadow-xl-blue-700:checked {
   box-shadow: 0 0 25px #2b6cb0;
 }
 
-.active\:shadow-xl-blue-800:active {
+.checked\:shadow-xl-blue-800:checked {
   box-shadow: 0 0 25px #2c5282;
 }
 
-.active\:shadow-xl-blue-900:active {
+.checked\:shadow-xl-blue-900:checked {
   box-shadow: 0 0 25px #2a4365;
 }
 
-.active\:shadow-xl-charcoal-100:active {
+.checked\:shadow-xl-charcoal-100:checked {
   box-shadow: 0 0 25px #222c35;
 }
 
-.active\:shadow-xl-charcoal-200:active {
+.checked\:shadow-xl-charcoal-200:checked {
   box-shadow: 0 0 25px #1f2831;
 }
 
-.active\:shadow-xl-charcoal-300:active {
+.checked\:shadow-xl-charcoal-300:checked {
   box-shadow: 0 0 25px #1c252c;
 }
 
-.active\:shadow-xl-charcoal-400:active {
+.checked\:shadow-xl-charcoal-400:checked {
   box-shadow: 0 0 25px #192127;
 }
 
-.active\:shadow-xl-charcoal-500:active {
+.checked\:shadow-xl-charcoal-500:checked {
   box-shadow: 0 0 25px #161d22;
 }
 
-.active\:shadow-xl-charcoal-600:active {
+.checked\:shadow-xl-charcoal-600:checked {
   box-shadow: 0 0 25px #13181d;
 }
 
-.active\:shadow-xl-charcoal-700:active {
+.checked\:shadow-xl-charcoal-700:checked {
   box-shadow: 0 0 25px #101419;
 }
 
-.active\:shadow-xl-charcoal-800:active {
+.checked\:shadow-xl-charcoal-800:checked {
   box-shadow: 0 0 25px #0d1014;
 }
 
-.active\:shadow-xl-charcoal-900:active {
+.checked\:shadow-xl-charcoal-900:checked {
   box-shadow: 0 0 25px #0a0c0f;
 }
 
-.active\:shadow-xl-gray-100:active {
+.checked\:shadow-xl-gray-100:checked {
   box-shadow: 0 0 25px #f7fafc;
 }
 
-.active\:shadow-xl-gray-200:active {
+.checked\:shadow-xl-gray-200:checked {
   box-shadow: 0 0 25px #edf2f7;
 }
 
-.active\:shadow-xl-gray-300:active {
+.checked\:shadow-xl-gray-300:checked {
   box-shadow: 0 0 25px #e2e8f0;
 }
 
-.active\:shadow-xl-gray-400:active {
+.checked\:shadow-xl-gray-400:checked {
   box-shadow: 0 0 25px #cbd5e0;
 }
 
-.active\:shadow-xl-gray-500:active {
+.checked\:shadow-xl-gray-500:checked {
   box-shadow: 0 0 25px #a0aec0;
 }
 
-.active\:shadow-xl-gray-600:active {
+.checked\:shadow-xl-gray-600:checked {
   box-shadow: 0 0 25px #718096;
 }
 
-.active\:shadow-xl-gray-700:active {
+.checked\:shadow-xl-gray-700:checked {
   box-shadow: 0 0 25px #4a5568;
 }
 
-.active\:shadow-xl-gray-800:active {
+.checked\:shadow-xl-gray-800:checked {
   box-shadow: 0 0 25px #2d3748;
 }
 
-.active\:shadow-xl-gray-900:active {
+.checked\:shadow-xl-gray-900:checked {
   box-shadow: 0 0 25px #1a202c;
 }
 
-.active\:shadow-xl-green-100:active {
+.checked\:shadow-xl-green-100:checked {
   box-shadow: 0 0 25px #f0fff4;
 }
 
-.active\:shadow-xl-green-200:active {
+.checked\:shadow-xl-green-200:checked {
   box-shadow: 0 0 25px #c6f6d5;
 }
 
-.active\:shadow-xl-green-300:active {
+.checked\:shadow-xl-green-300:checked {
   box-shadow: 0 0 25px #9ae6b4;
 }
 
-.active\:shadow-xl-green-400:active {
+.checked\:shadow-xl-green-400:checked {
   box-shadow: 0 0 25px #68d391;
 }
 
-.active\:shadow-xl-green-500:active {
+.checked\:shadow-xl-green-500:checked {
   box-shadow: 0 0 25px #48bb78;
 }
 
-.active\:shadow-xl-green-600:active {
+.checked\:shadow-xl-green-600:checked {
   box-shadow: 0 0 25px #38a169;
 }
 
-.active\:shadow-xl-green-700:active {
+.checked\:shadow-xl-green-700:checked {
   box-shadow: 0 0 25px #2f855a;
 }
 
-.active\:shadow-xl-green-800:active {
+.checked\:shadow-xl-green-800:checked {
   box-shadow: 0 0 25px #276749;
 }
 
-.active\:shadow-xl-green-900:active {
+.checked\:shadow-xl-green-900:checked {
   box-shadow: 0 0 25px #22543d;
 }
 
-.active\:shadow-xl-indigo-100:active {
+.checked\:shadow-xl-indigo-100:checked {
   box-shadow: 0 0 25px #ebf4ff;
 }
 
-.active\:shadow-xl-indigo-200:active {
+.checked\:shadow-xl-indigo-200:checked {
   box-shadow: 0 0 25px #c3dafe;
 }
 
-.active\:shadow-xl-indigo-300:active {
+.checked\:shadow-xl-indigo-300:checked {
   box-shadow: 0 0 25px #a3bffa;
 }
 
-.active\:shadow-xl-indigo-400:active {
+.checked\:shadow-xl-indigo-400:checked {
   box-shadow: 0 0 25px #7f9cf5;
 }
 
-.active\:shadow-xl-indigo-500:active {
+.checked\:shadow-xl-indigo-500:checked {
   box-shadow: 0 0 25px #667eea;
 }
 
-.active\:shadow-xl-indigo-600:active {
+.checked\:shadow-xl-indigo-600:checked {
   box-shadow: 0 0 25px #5a67d8;
 }
 
-.active\:shadow-xl-indigo-700:active {
+.checked\:shadow-xl-indigo-700:checked {
   box-shadow: 0 0 25px #4c51bf;
 }
 
-.active\:shadow-xl-indigo-800:active {
+.checked\:shadow-xl-indigo-800:checked {
   box-shadow: 0 0 25px #434190;
 }
 
-.active\:shadow-xl-indigo-900:active {
+.checked\:shadow-xl-indigo-900:checked {
   box-shadow: 0 0 25px #3c366b;
 }
 
-.active\:shadow-xl-khaki-100:active {
+.checked\:shadow-xl-khaki-100:checked {
   box-shadow: 0 0 25px #f9f7f4;
 }
 
-.active\:shadow-xl-khaki-200:active {
+.checked\:shadow-xl-khaki-200:checked {
   box-shadow: 0 0 25px #f0ebe4;
 }
 
-.active\:shadow-xl-khaki-300:active {
+.checked\:shadow-xl-khaki-300:checked {
   box-shadow: 0 0 25px #e7dfd3;
 }
 
-.active\:shadow-xl-khaki-400:active {
+.checked\:shadow-xl-khaki-400:checked {
   box-shadow: 0 0 25px #d5c8b2;
 }
 
-.active\:shadow-xl-khaki-500:active {
+.checked\:shadow-xl-khaki-500:checked {
   box-shadow: 0 0 25px #c3b091;
 }
 
-.active\:shadow-xl-khaki-600:active {
+.checked\:shadow-xl-khaki-600:checked {
   box-shadow: 0 0 25px #b09e83;
 }
 
-.active\:shadow-xl-khaki-700:active {
+.checked\:shadow-xl-khaki-700:checked {
   box-shadow: 0 0 25px #756a57;
 }
 
-.active\:shadow-xl-khaki-800:active {
+.checked\:shadow-xl-khaki-800:checked {
   box-shadow: 0 0 25px #584f41;
 }
 
-.active\:shadow-xl-khaki-900:active {
+.checked\:shadow-xl-khaki-900:checked {
   box-shadow: 0 0 25px #3b352c;
 }
 
-.active\:shadow-xl-nero-100:active {
+.checked\:shadow-xl-nero-100:checked {
   box-shadow: 0 0 25px #e9e9e9;
 }
 
-.active\:shadow-xl-nero-200:active {
+.checked\:shadow-xl-nero-200:checked {
   box-shadow: 0 0 25px #c7c8c9;
 }
 
-.active\:shadow-xl-nero-300:active {
+.checked\:shadow-xl-nero-300:checked {
   box-shadow: 0 0 25px #a6a7a8;
 }
 
-.active\:shadow-xl-nero-400:active {
+.checked\:shadow-xl-nero-400:checked {
   box-shadow: 0 0 25px #636466;
 }
 
-.active\:shadow-xl-nero-500:active {
+.checked\:shadow-xl-nero-500:checked {
   box-shadow: 0 0 25px #202225;
 }
 
-.active\:shadow-xl-nero-600:active {
+.checked\:shadow-xl-nero-600:checked {
   box-shadow: 0 0 25px #1d1f21;
 }
 
-.active\:shadow-xl-nero-700:active {
+.checked\:shadow-xl-nero-700:checked {
   box-shadow: 0 0 25px #131416;
 }
 
-.active\:shadow-xl-nero-800:active {
+.checked\:shadow-xl-nero-800:checked {
   box-shadow: 0 0 25px #0e0f11;
 }
 
-.active\:shadow-xl-nero-900:active {
+.checked\:shadow-xl-nero-900:checked {
   box-shadow: 0 0 25px #0a0a0b;
 }
 
-.active\:shadow-xl-orange-100:active {
+.checked\:shadow-xl-orange-100:checked {
   box-shadow: 0 0 25px #fffaf0;
 }
 
-.active\:shadow-xl-orange-200:active {
+.checked\:shadow-xl-orange-200:checked {
   box-shadow: 0 0 25px #feebc8;
 }
 
-.active\:shadow-xl-orange-300:active {
+.checked\:shadow-xl-orange-300:checked {
   box-shadow: 0 0 25px #fbd38d;
 }
 
-.active\:shadow-xl-orange-400:active {
+.checked\:shadow-xl-orange-400:checked {
   box-shadow: 0 0 25px #f6ad55;
 }
 
-.active\:shadow-xl-orange-500:active {
+.checked\:shadow-xl-orange-500:checked {
   box-shadow: 0 0 25px #ed8936;
 }
 
-.active\:shadow-xl-orange-600:active {
+.checked\:shadow-xl-orange-600:checked {
   box-shadow: 0 0 25px #dd6b20;
 }
 
-.active\:shadow-xl-orange-700:active {
+.checked\:shadow-xl-orange-700:checked {
   box-shadow: 0 0 25px #c05621;
 }
 
-.active\:shadow-xl-orange-800:active {
+.checked\:shadow-xl-orange-800:checked {
   box-shadow: 0 0 25px #9c4221;
 }
 
-.active\:shadow-xl-orange-900:active {
+.checked\:shadow-xl-orange-900:checked {
   box-shadow: 0 0 25px #7b341e;
 }
 
-.active\:shadow-xl-pink-100:active {
+.checked\:shadow-xl-pink-100:checked {
   box-shadow: 0 0 25px #fff5f7;
 }
 
-.active\:shadow-xl-pink-200:active {
+.checked\:shadow-xl-pink-200:checked {
   box-shadow: 0 0 25px #fed7e2;
 }
 
-.active\:shadow-xl-pink-300:active {
+.checked\:shadow-xl-pink-300:checked {
   box-shadow: 0 0 25px #fbb6ce;
 }
 
-.active\:shadow-xl-pink-400:active {
+.checked\:shadow-xl-pink-400:checked {
   box-shadow: 0 0 25px #f687b3;
 }
 
-.active\:shadow-xl-pink-500:active {
+.checked\:shadow-xl-pink-500:checked {
   box-shadow: 0 0 25px #ed64a6;
 }
 
-.active\:shadow-xl-pink-600:active {
+.checked\:shadow-xl-pink-600:checked {
   box-shadow: 0 0 25px #d53f8c;
 }
 
-.active\:shadow-xl-pink-700:active {
+.checked\:shadow-xl-pink-700:checked {
   box-shadow: 0 0 25px #b83280;
 }
 
-.active\:shadow-xl-pink-800:active {
+.checked\:shadow-xl-pink-800:checked {
   box-shadow: 0 0 25px #97266d;
 }
 
-.active\:shadow-xl-pink-900:active {
+.checked\:shadow-xl-pink-900:checked {
   box-shadow: 0 0 25px #702459;
 }
 
-.active\:shadow-xl-purple-100:active {
+.checked\:shadow-xl-purple-100:checked {
   box-shadow: 0 0 25px #faf5ff;
 }
 
-.active\:shadow-xl-purple-200:active {
+.checked\:shadow-xl-purple-200:checked {
   box-shadow: 0 0 25px #e9d8fd;
 }
 
-.active\:shadow-xl-purple-300:active {
+.checked\:shadow-xl-purple-300:checked {
   box-shadow: 0 0 25px #d6bcfa;
 }
 
-.active\:shadow-xl-purple-400:active {
+.checked\:shadow-xl-purple-400:checked {
   box-shadow: 0 0 25px #b794f4;
 }
 
-.active\:shadow-xl-purple-500:active {
+.checked\:shadow-xl-purple-500:checked {
   box-shadow: 0 0 25px #9f7aea;
 }
 
-.active\:shadow-xl-purple-600:active {
+.checked\:shadow-xl-purple-600:checked {
   box-shadow: 0 0 25px #805ad5;
 }
 
-.active\:shadow-xl-purple-700:active {
+.checked\:shadow-xl-purple-700:checked {
   box-shadow: 0 0 25px #6b46c1;
 }
 
-.active\:shadow-xl-purple-800:active {
+.checked\:shadow-xl-purple-800:checked {
   box-shadow: 0 0 25px #553c9a;
 }
 
-.active\:shadow-xl-purple-900:active {
+.checked\:shadow-xl-purple-900:checked {
   box-shadow: 0 0 25px #44337a;
 }
 
-.active\:shadow-xl-red-100:active {
+.checked\:shadow-xl-red-100:checked {
   box-shadow: 0 0 25px #fff5f5;
 }
 
-.active\:shadow-xl-red-200:active {
+.checked\:shadow-xl-red-200:checked {
   box-shadow: 0 0 25px #fed7d7;
 }
 
-.active\:shadow-xl-red-300:active {
+.checked\:shadow-xl-red-300:checked {
   box-shadow: 0 0 25px #feb2b2;
 }
 
-.active\:shadow-xl-red-400:active {
+.checked\:shadow-xl-red-400:checked {
   box-shadow: 0 0 25px #fc8181;
 }
 
-.active\:shadow-xl-red-500:active {
+.checked\:shadow-xl-red-500:checked {
   box-shadow: 0 0 25px #f56565;
 }
 
-.active\:shadow-xl-red-600:active {
+.checked\:shadow-xl-red-600:checked {
   box-shadow: 0 0 25px #e53e3e;
 }
 
-.active\:shadow-xl-red-700:active {
+.checked\:shadow-xl-red-700:checked {
   box-shadow: 0 0 25px #c53030;
 }
 
-.active\:shadow-xl-red-800:active {
+.checked\:shadow-xl-red-800:checked {
   box-shadow: 0 0 25px #9b2c2c;
 }
 
-.active\:shadow-xl-red-900:active {
+.checked\:shadow-xl-red-900:checked {
   box-shadow: 0 0 25px #742a2a;
 }
 
-.active\:shadow-xl-teal-100:active {
+.checked\:shadow-xl-teal-100:checked {
   box-shadow: 0 0 25px #e6fffa;
 }
 
-.active\:shadow-xl-teal-200:active {
+.checked\:shadow-xl-teal-200:checked {
   box-shadow: 0 0 25px #b2f5ea;
 }
 
-.active\:shadow-xl-teal-300:active {
+.checked\:shadow-xl-teal-300:checked {
   box-shadow: 0 0 25px #81e6d9;
 }
 
-.active\:shadow-xl-teal-400:active {
+.checked\:shadow-xl-teal-400:checked {
   box-shadow: 0 0 25px #4fd1c5;
 }
 
-.active\:shadow-xl-teal-500:active {
+.checked\:shadow-xl-teal-500:checked {
   box-shadow: 0 0 25px #38b2ac;
 }
 
-.active\:shadow-xl-teal-600:active {
+.checked\:shadow-xl-teal-600:checked {
   box-shadow: 0 0 25px #319795;
 }
 
-.active\:shadow-xl-teal-700:active {
+.checked\:shadow-xl-teal-700:checked {
   box-shadow: 0 0 25px #2c7a7b;
 }
 
-.active\:shadow-xl-teal-800:active {
+.checked\:shadow-xl-teal-800:checked {
   box-shadow: 0 0 25px #285e61;
 }
 
-.active\:shadow-xl-teal-900:active {
+.checked\:shadow-xl-teal-900:checked {
   box-shadow: 0 0 25px #234e52;
 }
 
-.active\:shadow-\32xl-amber-100:active {
+.checked\:shadow-\32xl-amber-100:checked {
   box-shadow: 0 0 50px #fff9e6;
 }
 
-.active\:shadow-\32xl-amber-200:active {
+.checked\:shadow-\32xl-amber-200:checked {
   box-shadow: 0 0 50px #fff0bf;
 }
 
-.active\:shadow-\32xl-amber-300:active {
+.checked\:shadow-\32xl-amber-300:checked {
   box-shadow: 0 0 50px #ffe799;
 }
 
-.active\:shadow-\32xl-amber-400:active {
+.checked\:shadow-\32xl-amber-400:checked {
   box-shadow: 0 0 50px #ffd54d;
 }
 
-.active\:shadow-\32xl-amber-500:active {
+.checked\:shadow-\32xl-amber-500:checked {
   box-shadow: 0 0 50px #ffc300;
 }
 
-.active\:shadow-\32xl-amber-600:active {
+.checked\:shadow-\32xl-amber-600:checked {
   box-shadow: 0 0 50px #e6b000;
 }
 
-.active\:shadow-\32xl-amber-700:active {
+.checked\:shadow-\32xl-amber-700:checked {
   box-shadow: 0 0 50px #997500;
 }
 
-.active\:shadow-\32xl-amber-800:active {
+.checked\:shadow-\32xl-amber-800:checked {
   box-shadow: 0 0 50px #735800;
 }
 
-.active\:shadow-\32xl-amber-900:active {
+.checked\:shadow-\32xl-amber-900:checked {
   box-shadow: 0 0 50px #4d3b00;
 }
 
-.active\:shadow-\32xl-black-100:active {
+.checked\:shadow-\32xl-black-100:checked {
   box-shadow: 0 0 50px #b9b9b9;
 }
 
-.active\:shadow-\32xl-black-200:active {
+.checked\:shadow-\32xl-black-200:checked {
   box-shadow: 0 0 50px #a2a2a2;
 }
 
-.active\:shadow-\32xl-black-300:active {
+.checked\:shadow-\32xl-black-300:checked {
   box-shadow: 0 0 50px #8b8b8b;
 }
 
-.active\:shadow-\32xl-black-400:active {
+.checked\:shadow-\32xl-black-400:checked {
   box-shadow: 0 0 50px #737373;
 }
 
-.active\:shadow-\32xl-black-500:active {
+.checked\:shadow-\32xl-black-500:checked {
   box-shadow: 0 0 50px #5c5c5c;
 }
 
-.active\:shadow-\32xl-black-600:active {
+.checked\:shadow-\32xl-black-600:checked {
   box-shadow: 0 0 50px #454545;
 }
 
-.active\:shadow-\32xl-black-700:active {
+.checked\:shadow-\32xl-black-700:checked {
   box-shadow: 0 0 50px #2e2e2e;
 }
 
-.active\:shadow-\32xl-black-800:active {
+.checked\:shadow-\32xl-black-800:checked {
   box-shadow: 0 0 50px #171717;
 }
 
-.active\:shadow-\32xl-black-900:active {
+.checked\:shadow-\32xl-black-900:checked {
   box-shadow: 0 0 50px #000000;
 }
 
-.active\:shadow-\32xl-blue-100:active {
+.checked\:shadow-\32xl-blue-100:checked {
   box-shadow: 0 0 50px #ebf8ff;
 }
 
-.active\:shadow-\32xl-blue-200:active {
+.checked\:shadow-\32xl-blue-200:checked {
   box-shadow: 0 0 50px #bee3f8;
 }
 
-.active\:shadow-\32xl-blue-300:active {
+.checked\:shadow-\32xl-blue-300:checked {
   box-shadow: 0 0 50px #90cdf4;
 }
 
-.active\:shadow-\32xl-blue-400:active {
+.checked\:shadow-\32xl-blue-400:checked {
   box-shadow: 0 0 50px #63b3ed;
 }
 
-.active\:shadow-\32xl-blue-500:active {
+.checked\:shadow-\32xl-blue-500:checked {
   box-shadow: 0 0 50px #4299e1;
 }
 
-.active\:shadow-\32xl-blue-600:active {
+.checked\:shadow-\32xl-blue-600:checked {
   box-shadow: 0 0 50px #3182ce;
 }
 
-.active\:shadow-\32xl-blue-700:active {
+.checked\:shadow-\32xl-blue-700:checked {
   box-shadow: 0 0 50px #2b6cb0;
 }
 
-.active\:shadow-\32xl-blue-800:active {
+.checked\:shadow-\32xl-blue-800:checked {
   box-shadow: 0 0 50px #2c5282;
 }
 
-.active\:shadow-\32xl-blue-900:active {
+.checked\:shadow-\32xl-blue-900:checked {
   box-shadow: 0 0 50px #2a4365;
 }
 
-.active\:shadow-\32xl-charcoal-100:active {
+.checked\:shadow-\32xl-charcoal-100:checked {
   box-shadow: 0 0 50px #222c35;
 }
 
-.active\:shadow-\32xl-charcoal-200:active {
+.checked\:shadow-\32xl-charcoal-200:checked {
   box-shadow: 0 0 50px #1f2831;
 }
 
-.active\:shadow-\32xl-charcoal-300:active {
+.checked\:shadow-\32xl-charcoal-300:checked {
   box-shadow: 0 0 50px #1c252c;
 }
 
-.active\:shadow-\32xl-charcoal-400:active {
+.checked\:shadow-\32xl-charcoal-400:checked {
   box-shadow: 0 0 50px #192127;
 }
 
-.active\:shadow-\32xl-charcoal-500:active {
+.checked\:shadow-\32xl-charcoal-500:checked {
   box-shadow: 0 0 50px #161d22;
 }
 
-.active\:shadow-\32xl-charcoal-600:active {
+.checked\:shadow-\32xl-charcoal-600:checked {
   box-shadow: 0 0 50px #13181d;
 }
 
-.active\:shadow-\32xl-charcoal-700:active {
+.checked\:shadow-\32xl-charcoal-700:checked {
   box-shadow: 0 0 50px #101419;
 }
 
-.active\:shadow-\32xl-charcoal-800:active {
+.checked\:shadow-\32xl-charcoal-800:checked {
   box-shadow: 0 0 50px #0d1014;
 }
 
-.active\:shadow-\32xl-charcoal-900:active {
+.checked\:shadow-\32xl-charcoal-900:checked {
   box-shadow: 0 0 50px #0a0c0f;
 }
 
-.active\:shadow-\32xl-gray-100:active {
+.checked\:shadow-\32xl-gray-100:checked {
   box-shadow: 0 0 50px #f7fafc;
 }
 
-.active\:shadow-\32xl-gray-200:active {
+.checked\:shadow-\32xl-gray-200:checked {
   box-shadow: 0 0 50px #edf2f7;
 }
 
-.active\:shadow-\32xl-gray-300:active {
+.checked\:shadow-\32xl-gray-300:checked {
   box-shadow: 0 0 50px #e2e8f0;
 }
 
-.active\:shadow-\32xl-gray-400:active {
+.checked\:shadow-\32xl-gray-400:checked {
   box-shadow: 0 0 50px #cbd5e0;
 }
 
-.active\:shadow-\32xl-gray-500:active {
+.checked\:shadow-\32xl-gray-500:checked {
   box-shadow: 0 0 50px #a0aec0;
 }
 
-.active\:shadow-\32xl-gray-600:active {
+.checked\:shadow-\32xl-gray-600:checked {
   box-shadow: 0 0 50px #718096;
 }
 
-.active\:shadow-\32xl-gray-700:active {
+.checked\:shadow-\32xl-gray-700:checked {
   box-shadow: 0 0 50px #4a5568;
 }
 
-.active\:shadow-\32xl-gray-800:active {
+.checked\:shadow-\32xl-gray-800:checked {
   box-shadow: 0 0 50px #2d3748;
 }
 
-.active\:shadow-\32xl-gray-900:active {
+.checked\:shadow-\32xl-gray-900:checked {
   box-shadow: 0 0 50px #1a202c;
 }
 
-.active\:shadow-\32xl-green-100:active {
+.checked\:shadow-\32xl-green-100:checked {
   box-shadow: 0 0 50px #f0fff4;
 }
 
-.active\:shadow-\32xl-green-200:active {
+.checked\:shadow-\32xl-green-200:checked {
   box-shadow: 0 0 50px #c6f6d5;
 }
 
-.active\:shadow-\32xl-green-300:active {
+.checked\:shadow-\32xl-green-300:checked {
   box-shadow: 0 0 50px #9ae6b4;
 }
 
-.active\:shadow-\32xl-green-400:active {
+.checked\:shadow-\32xl-green-400:checked {
   box-shadow: 0 0 50px #68d391;
 }
 
-.active\:shadow-\32xl-green-500:active {
+.checked\:shadow-\32xl-green-500:checked {
   box-shadow: 0 0 50px #48bb78;
 }
 
-.active\:shadow-\32xl-green-600:active {
+.checked\:shadow-\32xl-green-600:checked {
   box-shadow: 0 0 50px #38a169;
 }
 
-.active\:shadow-\32xl-green-700:active {
+.checked\:shadow-\32xl-green-700:checked {
   box-shadow: 0 0 50px #2f855a;
 }
 
-.active\:shadow-\32xl-green-800:active {
+.checked\:shadow-\32xl-green-800:checked {
   box-shadow: 0 0 50px #276749;
 }
 
-.active\:shadow-\32xl-green-900:active {
+.checked\:shadow-\32xl-green-900:checked {
   box-shadow: 0 0 50px #22543d;
 }
 
-.active\:shadow-\32xl-indigo-100:active {
+.checked\:shadow-\32xl-indigo-100:checked {
   box-shadow: 0 0 50px #ebf4ff;
 }
 
-.active\:shadow-\32xl-indigo-200:active {
+.checked\:shadow-\32xl-indigo-200:checked {
   box-shadow: 0 0 50px #c3dafe;
 }
 
-.active\:shadow-\32xl-indigo-300:active {
+.checked\:shadow-\32xl-indigo-300:checked {
   box-shadow: 0 0 50px #a3bffa;
 }
 
-.active\:shadow-\32xl-indigo-400:active {
+.checked\:shadow-\32xl-indigo-400:checked {
   box-shadow: 0 0 50px #7f9cf5;
 }
 
-.active\:shadow-\32xl-indigo-500:active {
+.checked\:shadow-\32xl-indigo-500:checked {
   box-shadow: 0 0 50px #667eea;
 }
 
-.active\:shadow-\32xl-indigo-600:active {
+.checked\:shadow-\32xl-indigo-600:checked {
   box-shadow: 0 0 50px #5a67d8;
 }
 
-.active\:shadow-\32xl-indigo-700:active {
+.checked\:shadow-\32xl-indigo-700:checked {
   box-shadow: 0 0 50px #4c51bf;
 }
 
-.active\:shadow-\32xl-indigo-800:active {
+.checked\:shadow-\32xl-indigo-800:checked {
   box-shadow: 0 0 50px #434190;
 }
 
-.active\:shadow-\32xl-indigo-900:active {
+.checked\:shadow-\32xl-indigo-900:checked {
   box-shadow: 0 0 50px #3c366b;
 }
 
-.active\:shadow-\32xl-khaki-100:active {
+.checked\:shadow-\32xl-khaki-100:checked {
   box-shadow: 0 0 50px #f9f7f4;
 }
 
-.active\:shadow-\32xl-khaki-200:active {
+.checked\:shadow-\32xl-khaki-200:checked {
   box-shadow: 0 0 50px #f0ebe4;
 }
 
-.active\:shadow-\32xl-khaki-300:active {
+.checked\:shadow-\32xl-khaki-300:checked {
   box-shadow: 0 0 50px #e7dfd3;
 }
 
-.active\:shadow-\32xl-khaki-400:active {
+.checked\:shadow-\32xl-khaki-400:checked {
   box-shadow: 0 0 50px #d5c8b2;
 }
 
-.active\:shadow-\32xl-khaki-500:active {
+.checked\:shadow-\32xl-khaki-500:checked {
   box-shadow: 0 0 50px #c3b091;
 }
 
-.active\:shadow-\32xl-khaki-600:active {
+.checked\:shadow-\32xl-khaki-600:checked {
   box-shadow: 0 0 50px #b09e83;
 }
 
-.active\:shadow-\32xl-khaki-700:active {
+.checked\:shadow-\32xl-khaki-700:checked {
   box-shadow: 0 0 50px #756a57;
 }
 
-.active\:shadow-\32xl-khaki-800:active {
+.checked\:shadow-\32xl-khaki-800:checked {
   box-shadow: 0 0 50px #584f41;
 }
 
-.active\:shadow-\32xl-khaki-900:active {
+.checked\:shadow-\32xl-khaki-900:checked {
   box-shadow: 0 0 50px #3b352c;
 }
 
-.active\:shadow-\32xl-nero-100:active {
+.checked\:shadow-\32xl-nero-100:checked {
   box-shadow: 0 0 50px #e9e9e9;
 }
 
-.active\:shadow-\32xl-nero-200:active {
+.checked\:shadow-\32xl-nero-200:checked {
   box-shadow: 0 0 50px #c7c8c9;
 }
 
-.active\:shadow-\32xl-nero-300:active {
+.checked\:shadow-\32xl-nero-300:checked {
   box-shadow: 0 0 50px #a6a7a8;
 }
 
-.active\:shadow-\32xl-nero-400:active {
+.checked\:shadow-\32xl-nero-400:checked {
   box-shadow: 0 0 50px #636466;
 }
 
-.active\:shadow-\32xl-nero-500:active {
+.checked\:shadow-\32xl-nero-500:checked {
   box-shadow: 0 0 50px #202225;
 }
 
-.active\:shadow-\32xl-nero-600:active {
+.checked\:shadow-\32xl-nero-600:checked {
   box-shadow: 0 0 50px #1d1f21;
 }
 
-.active\:shadow-\32xl-nero-700:active {
+.checked\:shadow-\32xl-nero-700:checked {
   box-shadow: 0 0 50px #131416;
 }
 
-.active\:shadow-\32xl-nero-800:active {
+.checked\:shadow-\32xl-nero-800:checked {
   box-shadow: 0 0 50px #0e0f11;
 }
 
-.active\:shadow-\32xl-nero-900:active {
+.checked\:shadow-\32xl-nero-900:checked {
   box-shadow: 0 0 50px #0a0a0b;
 }
 
-.active\:shadow-\32xl-orange-100:active {
+.checked\:shadow-\32xl-orange-100:checked {
   box-shadow: 0 0 50px #fffaf0;
 }
 
-.active\:shadow-\32xl-orange-200:active {
+.checked\:shadow-\32xl-orange-200:checked {
   box-shadow: 0 0 50px #feebc8;
 }
 
-.active\:shadow-\32xl-orange-300:active {
+.checked\:shadow-\32xl-orange-300:checked {
   box-shadow: 0 0 50px #fbd38d;
 }
 
-.active\:shadow-\32xl-orange-400:active {
+.checked\:shadow-\32xl-orange-400:checked {
   box-shadow: 0 0 50px #f6ad55;
 }
 
-.active\:shadow-\32xl-orange-500:active {
+.checked\:shadow-\32xl-orange-500:checked {
   box-shadow: 0 0 50px #ed8936;
 }
 
-.active\:shadow-\32xl-orange-600:active {
+.checked\:shadow-\32xl-orange-600:checked {
   box-shadow: 0 0 50px #dd6b20;
 }
 
-.active\:shadow-\32xl-orange-700:active {
+.checked\:shadow-\32xl-orange-700:checked {
   box-shadow: 0 0 50px #c05621;
 }
 
-.active\:shadow-\32xl-orange-800:active {
+.checked\:shadow-\32xl-orange-800:checked {
   box-shadow: 0 0 50px #9c4221;
 }
 
-.active\:shadow-\32xl-orange-900:active {
+.checked\:shadow-\32xl-orange-900:checked {
   box-shadow: 0 0 50px #7b341e;
 }
 
-.active\:shadow-\32xl-pink-100:active {
+.checked\:shadow-\32xl-pink-100:checked {
   box-shadow: 0 0 50px #fff5f7;
 }
 
-.active\:shadow-\32xl-pink-200:active {
+.checked\:shadow-\32xl-pink-200:checked {
   box-shadow: 0 0 50px #fed7e2;
 }
 
-.active\:shadow-\32xl-pink-300:active {
+.checked\:shadow-\32xl-pink-300:checked {
   box-shadow: 0 0 50px #fbb6ce;
 }
 
-.active\:shadow-\32xl-pink-400:active {
+.checked\:shadow-\32xl-pink-400:checked {
   box-shadow: 0 0 50px #f687b3;
 }
 
-.active\:shadow-\32xl-pink-500:active {
+.checked\:shadow-\32xl-pink-500:checked {
   box-shadow: 0 0 50px #ed64a6;
 }
 
-.active\:shadow-\32xl-pink-600:active {
+.checked\:shadow-\32xl-pink-600:checked {
   box-shadow: 0 0 50px #d53f8c;
 }
 
-.active\:shadow-\32xl-pink-700:active {
+.checked\:shadow-\32xl-pink-700:checked {
   box-shadow: 0 0 50px #b83280;
 }
 
-.active\:shadow-\32xl-pink-800:active {
+.checked\:shadow-\32xl-pink-800:checked {
   box-shadow: 0 0 50px #97266d;
 }
 
-.active\:shadow-\32xl-pink-900:active {
+.checked\:shadow-\32xl-pink-900:checked {
   box-shadow: 0 0 50px #702459;
 }
 
-.active\:shadow-\32xl-purple-100:active {
+.checked\:shadow-\32xl-purple-100:checked {
   box-shadow: 0 0 50px #faf5ff;
 }
 
-.active\:shadow-\32xl-purple-200:active {
+.checked\:shadow-\32xl-purple-200:checked {
   box-shadow: 0 0 50px #e9d8fd;
 }
 
-.active\:shadow-\32xl-purple-300:active {
+.checked\:shadow-\32xl-purple-300:checked {
   box-shadow: 0 0 50px #d6bcfa;
 }
 
-.active\:shadow-\32xl-purple-400:active {
+.checked\:shadow-\32xl-purple-400:checked {
   box-shadow: 0 0 50px #b794f4;
 }
 
-.active\:shadow-\32xl-purple-500:active {
+.checked\:shadow-\32xl-purple-500:checked {
   box-shadow: 0 0 50px #9f7aea;
 }
 
-.active\:shadow-\32xl-purple-600:active {
+.checked\:shadow-\32xl-purple-600:checked {
   box-shadow: 0 0 50px #805ad5;
 }
 
-.active\:shadow-\32xl-purple-700:active {
+.checked\:shadow-\32xl-purple-700:checked {
   box-shadow: 0 0 50px #6b46c1;
 }
 
-.active\:shadow-\32xl-purple-800:active {
+.checked\:shadow-\32xl-purple-800:checked {
   box-shadow: 0 0 50px #553c9a;
 }
 
-.active\:shadow-\32xl-purple-900:active {
+.checked\:shadow-\32xl-purple-900:checked {
   box-shadow: 0 0 50px #44337a;
 }
 
-.active\:shadow-\32xl-red-100:active {
+.checked\:shadow-\32xl-red-100:checked {
   box-shadow: 0 0 50px #fff5f5;
 }
 
-.active\:shadow-\32xl-red-200:active {
+.checked\:shadow-\32xl-red-200:checked {
   box-shadow: 0 0 50px #fed7d7;
 }
 
-.active\:shadow-\32xl-red-300:active {
+.checked\:shadow-\32xl-red-300:checked {
   box-shadow: 0 0 50px #feb2b2;
 }
 
-.active\:shadow-\32xl-red-400:active {
+.checked\:shadow-\32xl-red-400:checked {
   box-shadow: 0 0 50px #fc8181;
 }
 
-.active\:shadow-\32xl-red-500:active {
+.checked\:shadow-\32xl-red-500:checked {
   box-shadow: 0 0 50px #f56565;
 }
 
-.active\:shadow-\32xl-red-600:active {
+.checked\:shadow-\32xl-red-600:checked {
   box-shadow: 0 0 50px #e53e3e;
 }
 
-.active\:shadow-\32xl-red-700:active {
+.checked\:shadow-\32xl-red-700:checked {
   box-shadow: 0 0 50px #c53030;
 }
 
-.active\:shadow-\32xl-red-800:active {
+.checked\:shadow-\32xl-red-800:checked {
   box-shadow: 0 0 50px #9b2c2c;
 }
 
-.active\:shadow-\32xl-red-900:active {
+.checked\:shadow-\32xl-red-900:checked {
   box-shadow: 0 0 50px #742a2a;
 }
 
-.active\:shadow-\32xl-teal-100:active {
+.checked\:shadow-\32xl-teal-100:checked {
   box-shadow: 0 0 50px #e6fffa;
 }
 
-.active\:shadow-\32xl-teal-200:active {
+.checked\:shadow-\32xl-teal-200:checked {
   box-shadow: 0 0 50px #b2f5ea;
 }
 
-.active\:shadow-\32xl-teal-300:active {
+.checked\:shadow-\32xl-teal-300:checked {
   box-shadow: 0 0 50px #81e6d9;
 }
 
-.active\:shadow-\32xl-teal-400:active {
+.checked\:shadow-\32xl-teal-400:checked {
   box-shadow: 0 0 50px #4fd1c5;
 }
 
-.active\:shadow-\32xl-teal-500:active {
+.checked\:shadow-\32xl-teal-500:checked {
   box-shadow: 0 0 50px #38b2ac;
 }
 
-.active\:shadow-\32xl-teal-600:active {
+.checked\:shadow-\32xl-teal-600:checked {
   box-shadow: 0 0 50px #319795;
 }
 
-.active\:shadow-\32xl-teal-700:active {
+.checked\:shadow-\32xl-teal-700:checked {
   box-shadow: 0 0 50px #2c7a7b;
 }
 
-.active\:shadow-\32xl-teal-800:active {
+.checked\:shadow-\32xl-teal-800:checked {
   box-shadow: 0 0 50px #285e61;
 }
 
-.active\:shadow-\32xl-teal-900:active {
+.checked\:shadow-\32xl-teal-900:checked {
   box-shadow: 0 0 50px #234e52;
 }
 
-.active\:shadow:active {
+.checked\:shadow:checked {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
-.active\:shadow-xs:active {
+.checked\:shadow-xs:checked {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
 }
 
-.active\:shadow-sm:active {
+.checked\:shadow-sm:checked {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
-.active\:shadow-default:active {
+.checked\:shadow-default:checked {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-.active\:shadow-md:active {
+.checked\:shadow-md:checked {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
-.active\:shadow-lg:active {
+.checked\:shadow-lg:checked {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
-.active\:shadow-xl:active {
+.checked\:shadow-xl:checked {
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
 }
 
-.active\:shadow-2xl:active {
+.checked\:shadow-2xl:checked {
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
-.active\:shadow-inner:active {
+.checked\:shadow-inner:checked {
   box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
 }
 
-.active\:shadow-outline:active {
+.checked\:shadow-outline:checked {
   box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
 }
 
-.active\:shadow-none:active {
+.checked\:shadow-none:checked {
   box-shadow: none;
 }
 
-.active\:shadow-dreamy-xs:active {
+.checked\:shadow-dreamy-xs:checked {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(0, 0, 0, 0.03), 0 0 0 1px rgba(0, 0, 0, 0.02), 0 0 0 1px rgba(0, 0, 0, 0.01);
 }
 
-.active\:shadow-dreamy-sm:active {
+.checked\:shadow-dreamy-sm:checked {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 1px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 6px 0 rgba(0, 0, 0, 0.03), 0 1px 8px 0 rgba(0, 0, 0, 0.02);
 }
 
-.active\:shadow-dreamy:active {
+.checked\:shadow-dreamy:checked {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 6px 0 rgba(0, 0, 0, 0.05), 0 1px 9px 0 rgba(0, 0, 0, 0.04), 0 1px 12px 0 rgba(0, 0, 0, 0.03);
 }
 
-.active\:shadow-dreamy-md:active {
+.checked\:shadow-dreamy-md:checked {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 3px 7px -1px rgba(0, 0, 0, 0.05), 0 2px 8px -1px rgba(0, 0, 0, 0.04), 0 1px 9px -1px rgba(0, 0, 0, 0.03);
 }
 
-.active\:shadow-dreamy-lg:active {
+.checked\:shadow-dreamy-lg:checked {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 16px -3px rgba(0, 0, 0, 0.05), 0 3px 17px -3px rgba(0, 0, 0, 0.03), 0 1px 18px -3px rgba(0, 0, 0, 0.01);
 }
 
-.active\:shadow-dreamy-xl:active {
+.checked\:shadow-dreamy-xl:checked {
   box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 26px -3px rgba(0, 0, 0, 0.04), 0 3px 27px -3px rgba(0, 0, 0, 0.02), 0 1px 28px -3px rgba(0, 0, 0, 0.01);
 }
 
-.active\:shadow-dreamy-2xl:active {
+.checked\:shadow-dreamy-2xl:checked {
   box-shadow: 0 10px 35px -3px rgba(0, 0, 0, 0.08), 0 4px 36px -3px rgba(0, 0, 0, 0.07), 0 3px 37px -3px rgba(0, 0, 0, 0.06), 0 1px 38px -3px rgba(0, 0, 0, 0.05);
 }
 
@@ -39074,531 +39074,531 @@ img[theme="invert"] {
 /* transforms */
 /* transitions */
 /* typography */
-.active\:text-amber-100:active {
+.checked\:text-amber-100:checked {
   color: #fff9e6;
 }
 
-.active\:text-amber-200:active {
+.checked\:text-amber-200:checked {
   color: #fff0bf;
 }
 
-.active\:text-amber-300:active {
+.checked\:text-amber-300:checked {
   color: #ffe799;
 }
 
-.active\:text-amber-400:active {
+.checked\:text-amber-400:checked {
   color: #ffd54d;
 }
 
-.active\:text-amber-500:active {
+.checked\:text-amber-500:checked {
   color: #ffc300;
 }
 
-.active\:text-amber-600:active {
+.checked\:text-amber-600:checked {
   color: #e6b000;
 }
 
-.active\:text-amber-700:active {
+.checked\:text-amber-700:checked {
   color: #997500;
 }
 
-.active\:text-amber-800:active {
+.checked\:text-amber-800:checked {
   color: #735800;
 }
 
-.active\:text-amber-900:active {
+.checked\:text-amber-900:checked {
   color: #4d3b00;
 }
 
-.active\:text-black-100:active {
+.checked\:text-black-100:checked {
   color: #b9b9b9;
 }
 
-.active\:text-black-200:active {
+.checked\:text-black-200:checked {
   color: #a2a2a2;
 }
 
-.active\:text-black-300:active {
+.checked\:text-black-300:checked {
   color: #8b8b8b;
 }
 
-.active\:text-black-400:active {
+.checked\:text-black-400:checked {
   color: #737373;
 }
 
-.active\:text-black-500:active {
+.checked\:text-black-500:checked {
   color: #5c5c5c;
 }
 
-.active\:text-black-600:active {
+.checked\:text-black-600:checked {
   color: #454545;
 }
 
-.active\:text-black-700:active {
+.checked\:text-black-700:checked {
   color: #2e2e2e;
 }
 
-.active\:text-black-800:active {
+.checked\:text-black-800:checked {
   color: #171717;
 }
 
-.active\:text-black-900:active {
+.checked\:text-black-900:checked {
   color: #000000;
 }
 
-.active\:text-blue-100:active {
+.checked\:text-blue-100:checked {
   color: #ebf8ff;
 }
 
-.active\:text-blue-200:active {
+.checked\:text-blue-200:checked {
   color: #bee3f8;
 }
 
-.active\:text-blue-300:active {
+.checked\:text-blue-300:checked {
   color: #90cdf4;
 }
 
-.active\:text-blue-400:active {
+.checked\:text-blue-400:checked {
   color: #63b3ed;
 }
 
-.active\:text-blue-500:active {
+.checked\:text-blue-500:checked {
   color: #4299e1;
 }
 
-.active\:text-blue-600:active {
+.checked\:text-blue-600:checked {
   color: #3182ce;
 }
 
-.active\:text-blue-700:active {
+.checked\:text-blue-700:checked {
   color: #2b6cb0;
 }
 
-.active\:text-blue-800:active {
+.checked\:text-blue-800:checked {
   color: #2c5282;
 }
 
-.active\:text-blue-900:active {
+.checked\:text-blue-900:checked {
   color: #2a4365;
 }
 
-.active\:text-charcoal-100:active {
+.checked\:text-charcoal-100:checked {
   color: #222c35;
 }
 
-.active\:text-charcoal-200:active {
+.checked\:text-charcoal-200:checked {
   color: #1f2831;
 }
 
-.active\:text-charcoal-300:active {
+.checked\:text-charcoal-300:checked {
   color: #1c252c;
 }
 
-.active\:text-charcoal-400:active {
+.checked\:text-charcoal-400:checked {
   color: #192127;
 }
 
-.active\:text-charcoal-500:active {
+.checked\:text-charcoal-500:checked {
   color: #161d22;
 }
 
-.active\:text-charcoal-600:active {
+.checked\:text-charcoal-600:checked {
   color: #13181d;
 }
 
-.active\:text-charcoal-700:active {
+.checked\:text-charcoal-700:checked {
   color: #101419;
 }
 
-.active\:text-charcoal-800:active {
+.checked\:text-charcoal-800:checked {
   color: #0d1014;
 }
 
-.active\:text-charcoal-900:active {
+.checked\:text-charcoal-900:checked {
   color: #0a0c0f;
 }
 
-.active\:text-gray-100:active {
+.checked\:text-gray-100:checked {
   color: #f7fafc;
 }
 
-.active\:text-gray-200:active {
+.checked\:text-gray-200:checked {
   color: #edf2f7;
 }
 
-.active\:text-gray-300:active {
+.checked\:text-gray-300:checked {
   color: #e2e8f0;
 }
 
-.active\:text-gray-400:active {
+.checked\:text-gray-400:checked {
   color: #cbd5e0;
 }
 
-.active\:text-gray-500:active {
+.checked\:text-gray-500:checked {
   color: #a0aec0;
 }
 
-.active\:text-gray-600:active {
+.checked\:text-gray-600:checked {
   color: #718096;
 }
 
-.active\:text-gray-700:active {
+.checked\:text-gray-700:checked {
   color: #4a5568;
 }
 
-.active\:text-gray-800:active {
+.checked\:text-gray-800:checked {
   color: #2d3748;
 }
 
-.active\:text-gray-900:active {
+.checked\:text-gray-900:checked {
   color: #1a202c;
 }
 
-.active\:text-green-100:active {
+.checked\:text-green-100:checked {
   color: #f0fff4;
 }
 
-.active\:text-green-200:active {
+.checked\:text-green-200:checked {
   color: #c6f6d5;
 }
 
-.active\:text-green-300:active {
+.checked\:text-green-300:checked {
   color: #9ae6b4;
 }
 
-.active\:text-green-400:active {
+.checked\:text-green-400:checked {
   color: #68d391;
 }
 
-.active\:text-green-500:active {
+.checked\:text-green-500:checked {
   color: #48bb78;
 }
 
-.active\:text-green-600:active {
+.checked\:text-green-600:checked {
   color: #38a169;
 }
 
-.active\:text-green-700:active {
+.checked\:text-green-700:checked {
   color: #2f855a;
 }
 
-.active\:text-green-800:active {
+.checked\:text-green-800:checked {
   color: #276749;
 }
 
-.active\:text-green-900:active {
+.checked\:text-green-900:checked {
   color: #22543d;
 }
 
-.active\:text-indigo-100:active {
+.checked\:text-indigo-100:checked {
   color: #ebf4ff;
 }
 
-.active\:text-indigo-200:active {
+.checked\:text-indigo-200:checked {
   color: #c3dafe;
 }
 
-.active\:text-indigo-300:active {
+.checked\:text-indigo-300:checked {
   color: #a3bffa;
 }
 
-.active\:text-indigo-400:active {
+.checked\:text-indigo-400:checked {
   color: #7f9cf5;
 }
 
-.active\:text-indigo-500:active {
+.checked\:text-indigo-500:checked {
   color: #667eea;
 }
 
-.active\:text-indigo-600:active {
+.checked\:text-indigo-600:checked {
   color: #5a67d8;
 }
 
-.active\:text-indigo-700:active {
+.checked\:text-indigo-700:checked {
   color: #4c51bf;
 }
 
-.active\:text-indigo-800:active {
+.checked\:text-indigo-800:checked {
   color: #434190;
 }
 
-.active\:text-indigo-900:active {
+.checked\:text-indigo-900:checked {
   color: #3c366b;
 }
 
-.active\:text-khaki-100:active {
+.checked\:text-khaki-100:checked {
   color: #f9f7f4;
 }
 
-.active\:text-khaki-200:active {
+.checked\:text-khaki-200:checked {
   color: #f0ebe4;
 }
 
-.active\:text-khaki-300:active {
+.checked\:text-khaki-300:checked {
   color: #e7dfd3;
 }
 
-.active\:text-khaki-400:active {
+.checked\:text-khaki-400:checked {
   color: #d5c8b2;
 }
 
-.active\:text-khaki-500:active {
+.checked\:text-khaki-500:checked {
   color: #c3b091;
 }
 
-.active\:text-khaki-600:active {
+.checked\:text-khaki-600:checked {
   color: #b09e83;
 }
 
-.active\:text-khaki-700:active {
+.checked\:text-khaki-700:checked {
   color: #756a57;
 }
 
-.active\:text-khaki-800:active {
+.checked\:text-khaki-800:checked {
   color: #584f41;
 }
 
-.active\:text-khaki-900:active {
+.checked\:text-khaki-900:checked {
   color: #3b352c;
 }
 
-.active\:text-nero-100:active {
+.checked\:text-nero-100:checked {
   color: #e9e9e9;
 }
 
-.active\:text-nero-200:active {
+.checked\:text-nero-200:checked {
   color: #c7c8c9;
 }
 
-.active\:text-nero-300:active {
+.checked\:text-nero-300:checked {
   color: #a6a7a8;
 }
 
-.active\:text-nero-400:active {
+.checked\:text-nero-400:checked {
   color: #636466;
 }
 
-.active\:text-nero-500:active {
+.checked\:text-nero-500:checked {
   color: #202225;
 }
 
-.active\:text-nero-600:active {
+.checked\:text-nero-600:checked {
   color: #1d1f21;
 }
 
-.active\:text-nero-700:active {
+.checked\:text-nero-700:checked {
   color: #131416;
 }
 
-.active\:text-nero-800:active {
+.checked\:text-nero-800:checked {
   color: #0e0f11;
 }
 
-.active\:text-nero-900:active {
+.checked\:text-nero-900:checked {
   color: #0a0a0b;
 }
 
-.active\:text-orange-100:active {
+.checked\:text-orange-100:checked {
   color: #fffaf0;
 }
 
-.active\:text-orange-200:active {
+.checked\:text-orange-200:checked {
   color: #feebc8;
 }
 
-.active\:text-orange-300:active {
+.checked\:text-orange-300:checked {
   color: #fbd38d;
 }
 
-.active\:text-orange-400:active {
+.checked\:text-orange-400:checked {
   color: #f6ad55;
 }
 
-.active\:text-orange-500:active {
+.checked\:text-orange-500:checked {
   color: #ed8936;
 }
 
-.active\:text-orange-600:active {
+.checked\:text-orange-600:checked {
   color: #dd6b20;
 }
 
-.active\:text-orange-700:active {
+.checked\:text-orange-700:checked {
   color: #c05621;
 }
 
-.active\:text-orange-800:active {
+.checked\:text-orange-800:checked {
   color: #9c4221;
 }
 
-.active\:text-orange-900:active {
+.checked\:text-orange-900:checked {
   color: #7b341e;
 }
 
-.active\:text-pink-100:active {
+.checked\:text-pink-100:checked {
   color: #fff5f7;
 }
 
-.active\:text-pink-200:active {
+.checked\:text-pink-200:checked {
   color: #fed7e2;
 }
 
-.active\:text-pink-300:active {
+.checked\:text-pink-300:checked {
   color: #fbb6ce;
 }
 
-.active\:text-pink-400:active {
+.checked\:text-pink-400:checked {
   color: #f687b3;
 }
 
-.active\:text-pink-500:active {
+.checked\:text-pink-500:checked {
   color: #ed64a6;
 }
 
-.active\:text-pink-600:active {
+.checked\:text-pink-600:checked {
   color: #d53f8c;
 }
 
-.active\:text-pink-700:active {
+.checked\:text-pink-700:checked {
   color: #b83280;
 }
 
-.active\:text-pink-800:active {
+.checked\:text-pink-800:checked {
   color: #97266d;
 }
 
-.active\:text-pink-900:active {
+.checked\:text-pink-900:checked {
   color: #702459;
 }
 
-.active\:text-purple-100:active {
+.checked\:text-purple-100:checked {
   color: #faf5ff;
 }
 
-.active\:text-purple-200:active {
+.checked\:text-purple-200:checked {
   color: #e9d8fd;
 }
 
-.active\:text-purple-300:active {
+.checked\:text-purple-300:checked {
   color: #d6bcfa;
 }
 
-.active\:text-purple-400:active {
+.checked\:text-purple-400:checked {
   color: #b794f4;
 }
 
-.active\:text-purple-500:active {
+.checked\:text-purple-500:checked {
   color: #9f7aea;
 }
 
-.active\:text-purple-600:active {
+.checked\:text-purple-600:checked {
   color: #805ad5;
 }
 
-.active\:text-purple-700:active {
+.checked\:text-purple-700:checked {
   color: #6b46c1;
 }
 
-.active\:text-purple-800:active {
+.checked\:text-purple-800:checked {
   color: #553c9a;
 }
 
-.active\:text-purple-900:active {
+.checked\:text-purple-900:checked {
   color: #44337a;
 }
 
-.active\:text-red-100:active {
+.checked\:text-red-100:checked {
   color: #fff5f5;
 }
 
-.active\:text-red-200:active {
+.checked\:text-red-200:checked {
   color: #fed7d7;
 }
 
-.active\:text-red-300:active {
+.checked\:text-red-300:checked {
   color: #feb2b2;
 }
 
-.active\:text-red-400:active {
+.checked\:text-red-400:checked {
   color: #fc8181;
 }
 
-.active\:text-red-500:active {
+.checked\:text-red-500:checked {
   color: #f56565;
 }
 
-.active\:text-red-600:active {
+.checked\:text-red-600:checked {
   color: #e53e3e;
 }
 
-.active\:text-red-700:active {
+.checked\:text-red-700:checked {
   color: #c53030;
 }
 
-.active\:text-red-800:active {
+.checked\:text-red-800:checked {
   color: #9b2c2c;
 }
 
-.active\:text-red-900:active {
+.checked\:text-red-900:checked {
   color: #742a2a;
 }
 
-.active\:text-teal-100:active {
+.checked\:text-teal-100:checked {
   color: #e6fffa;
 }
 
-.active\:text-teal-200:active {
+.checked\:text-teal-200:checked {
   color: #b2f5ea;
 }
 
-.active\:text-teal-300:active {
+.checked\:text-teal-300:checked {
   color: #81e6d9;
 }
 
-.active\:text-teal-400:active {
+.checked\:text-teal-400:checked {
   color: #4fd1c5;
 }
 
-.active\:text-teal-500:active {
+.checked\:text-teal-500:checked {
   color: #38b2ac;
 }
 
-.active\:text-teal-600:active {
+.checked\:text-teal-600:checked {
   color: #319795;
 }
 
-.active\:text-teal-700:active {
+.checked\:text-teal-700:checked {
   color: #2c7a7b;
 }
 
-.active\:text-teal-800:active {
+.checked\:text-teal-800:checked {
   color: #285e61;
 }
 
-.active\:text-teal-900:active {
+.checked\:text-teal-900:checked {
   color: #234e52;
 }
 
-.active\:text-white:active {
+.checked\:text-white:checked {
   color: #fff;
 }
 
-.active\:text-transparent:active {
+.checked\:text-transparent:checked {
   color: transparent;
 }
 
-.active\:text-current:active {
+.checked\:text-current:checked {
   color: currentColor;
 }
 
-.active\:underline:active {
+.checked\:underline:checked {
   text-decoration: underline;
 }
 
-.active\:line-through:active {
+.checked\:line-through:checked {
   text-decoration: line-through;
 }
 
-.active\:no-underline:active {
+.checked\:no-underline:checked {
   text-decoration: none;
 }
 
