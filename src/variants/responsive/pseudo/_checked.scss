@@ -1,0 +1,171 @@
+/**
+ * @module: variants/responsive/pseudo
+ * @file: _checked.scss
+ */
+
+/* accessibility */
+
+// @include screenReader($prefix: $responsive-active, $pseudo: $active)
+
+/* animations */
+
+// (v1.0.9)
+// @include fxBlur($prefix: $responsive-active, $pseudo: $active)
+// @include fxFade($prefix: $responsive-active, $pseudo: $active)
+// @include fxRoll($prefix: $responsive-active, $pseudo: $active)
+// @include fxSlide($prefix: $responsive-active, $pseudo: $active)
+
+/* backgrounds */
+
+@include backgroundColor($prefix: $responsive-active, $pseudo: $active)
+// @include backgroundAttachment($prefix: $responsive-active, $pseudo: $active)
+// @include backgroundPosition($prefix: $responsive-active, $pseudo: $active)
+// @include backgroundRepeat($prefix: $responsive-active, $pseudo: $active)
+// @include backgroundSize($prefix: $responsive-active, $pseudo: $active)
+// @include backgroundBlend($prefix: $responsive-active, $pseudo: $active) // (v1.0.4)
+// @include backgroundOpacity($prefix: $responsive-active, $pseudo: $active)
+// @include backgroundBorder($prefix: $responsive-active, $pseudo: $active) // (v1.0.9)
+// @include backgroundGradient($prefix: $responsive-active, $pseudo: $active) // (v1.0.9)
+
+/* borders */
+
+@include borderColor($prefix: $responsive-active, $pseudo: $active)
+// @include borderRadius($prefix: $responsive-active, $pseudo: $active)
+// @include borderStyle($prefix: $responsive-active, $pseudo: $active)
+// @include borderWidth($prefix: $responsive-active, $pseudo: $active)
+// @include borderDissect($prefix: $responsive-active, $pseudo: $active) // (v1.0.8)
+// @include borderDissectColor($prefix: $responsive-active, $pseudo: $active) // (v1.0.8)
+// @include borderDissectOpacity($prefix: $responsive-active, $pseudo: $active) // (v1.0.8)
+
+/* effects */
+
+@include shadowColor($prefix: $responsive-active, $pseudo: $active)
+@include boxShadow($prefix: $responsive-active, $pseudo: $active)
+// @include opacity($prefix: $responsive-active, $pseudo: $active)
+// @include mixBlend($prefix: $responsive-active, $pseudo: $active) // (v1.0.4)
+// @include gradient($prefix: $responsive-active, $pseudo: $active) // (1.0.8)
+
+/* filters */
+
+// @include filterCompose($prefix: $responsive-active, $pseudo: $active) // (v1.0.9)
+// @include filterBackdropCompose($prefix: $responsive-active, $pseudo: $active) // (v1.1.0)
+// @include filterInvert($prefix: $responsive-active, $pseudo: $active) // (v1.0.3)
+
+/* flexbox */
+
+// @include alignContent($prefix: $responsive-active, $pseudo: $active)
+// @include alignItems($prefix: $responsive-active, $pseudo: $active)
+// @include alignSelf($prefix: $responsive-active, $pseudo: $active)
+// @include flex($prefix: $responsive-active, $pseudo: $active)
+// @include flexDirection($prefix: $responsive-active, $pseudo: $active)
+// @include flexGrow($prefix: $responsive-active, $pseudo: $active)
+// @include flexGap($prefix: $responsive-active, $pseudo: $active) // (v1.1.0)
+// @include flexShrink($prefix: $responsive-active, $pseudo: $active)
+// @include flexWrap($prefix: $responsive-active, $pseudo: $active)
+// @include justifyContent($prefix: $responsive-active, $pseudo: $active)
+// @include order($prefix: $responsive-active, $pseudo: $active)
+
+/* fluids */
+
+/* interactivity */
+
+// @include appearance($prefix: $responsive-active, $pseudo: $active)
+// @include cursor($prefix: $responsive-active, $pseudo: $active)
+// @include outline($prefix: $responsive-active, $pseudo: $active)
+// @include pointerEvents($prefix: $responsive-active, $pseudo: $active)
+// @include resize($prefix: $responsive-active, $pseudo: $active)
+// @include scrollBehavior($prefix: $responsive-active, $pseudo: $active) // (v1.1.1)
+// @include scrollSnap($prefix: $responsive-active, $pseudo: $active) // (v1.1.0)
+// @include touchAction($prefix: $responsive-active, $pseudo: $active) // (v1.1.1)
+// @include userSelect($prefix: $responsive-active, $pseudo: $active)
+
+/* layouts */
+
+// @include boxSizing($prefix: $responsive-active, $pseudo: $active)
+// @include clear($prefix: $responsive-active, $pseudo: $active)
+// @include containerDefault($prefix: $responsive-active, $pseudo: $active)
+// @include display($prefix: $responsive-active, $pseudo: $active)
+// @include float($prefix: $responsive-active, $pseudo: $active)
+// @include inset($prefix: $responsive-active, $pseudo: $active)
+// @include insetTBLR($prefix: $responsive-active, $pseudo: $active)
+// @include objectFit($prefix: $responsive-active, $pseudo: $active)
+// @include objectPosition($prefix: $responsive-active, $pseudo: $active)
+// @include overflow($prefix: $responsive-active, $pseudo: $active)
+// @include overflow-xy($prefix: $responsive-active, $pseudo: $active)
+// @include overflow-scrolling($prefix: $responsive-active, $pseudo: $active)
+// @include overscroll($prefix: $responsive-active, $pseudo: $active) // (v1.1.0)
+// @include position($prefix: $responsive-active, $pseudo: $active)
+// @include visibility($prefix: $responsive-active, $pseudo: $active)
+// @include zIndex($prefix: $responsive-active, $pseudo: $active)
+
+/* sizing */
+
+// @include height($prefix: $responsive-active, $pseudo: $active)
+// @include maxHeight($prefix: $responsive-active, $pseudo: $active)
+// @include maxWidth($prefix: $responsive-active, $pseudo: $active)
+// @include minHeight($prefix: $responsive-active, $pseudo: $active)
+// @include minWidth($prefix: $responsive-active, $pseudo: $active)
+// @include width($prefix: $responsive-active, $pseudo: $active)
+
+/* spacing */
+
+// @include margin($prefix: $responsive-active, $pseudo: $active)
+// @include margin($negative: $true, $prefix: $responsive-active, $pseudo: $active) // negative
+// @include padding($prefix: $responsive-active, $pseudo: $active)
+// @include equal($prefix: $responsive-active, $pseudo: $active) // (v1.0.8)
+// @include equal($negative: $true, $prefix: $responsive-active, $pseudo: $active) // negative, (v1.0.8)
+
+/* svg */
+
+// @include fill($prefix: $responsive-active, $pseudo: $active)
+// @include stroke($prefix: $responsive-active, $pseudo: $active)
+// @include strokeWidth($prefix: $responsive-active, $pseudo: $active)
+// @include strokeLineCap($prefix: $responsive-active, $pseudo: $active) // (v1.1.1)
+
+/* tables */
+
+// @include borderCollapse($prefix: $responsive-active, $pseudo: $active)
+// @include tableLayout($prefix: $responsive-active, $pseudo: $active)
+
+/* transforms */
+
+// @include transform($prefix: $responsive-active, $pseudo: $active)
+// @include transformOrigin($prefix: $responsive-active, $pseudo: $active)
+// @include rotate($prefix: $responsive-active, $pseudo: $active)
+// @include rotate($prefix: $responsive-active, $pseudo: $active, $negative: $true) // negative
+// @include scale($prefix: $responsive-active, $pseudo: $active)
+// @include skew($prefix: $responsive-active, $pseudo: $active)
+// @include skew($prefix: $responsive-active, $pseudo: $active, $negative: $true) // negative
+// @include translate($prefix: $responsive-active, $pseudo: $active)
+// @include translate($prefix: $responsive-active, $pseudo: $active, $negative: $true) // negative
+
+/* transitions */
+
+// @include transitionDuration($prefix: $responsive-active, $pseudo: $active)
+// @include transitionProperty($prefix: $responsive-active, $pseudo: $active)
+// @include transitionTiming($prefix: $responsive-active, $pseudo: $active)
+
+/* typography */
+
+@include textColor($prefix: $responsive-active, $pseudo: $active)
+// @include fontFamily($prefix: $responsive-active, $pseudo: $active)
+// @include fontKerning($prefix: $responsive-active, $pseudo: $active) // (v1.1.1)
+// @include fontSize($prefix: $responsive-active, $pseudo: $active)
+// @include fontSmoothing($prefix: $responsive-active, $pseudo: $active)
+// @include fontStyle($prefix: $responsive-active, $pseudo: $active)
+// @include fontWeight($prefix: $responsive-active, $pseudo: $active)
+// @include letterSpacing($prefix: $responsive-active, $pseudo: $active)
+// @include lineHeight($prefix: $responsive-active, $pseudo: $active)
+// @include lineHeightTrim($prefix: $responsive-active, $pseudo: $active) // (v1.1.0)
+// @include listStylePosition($prefix: $responsive-active, $pseudo: $active)
+// @include listStyleType($prefix: $responsive-active, $pseudo: $active)
+// @include placeholderColor($prefix: $responsive-active, $pseudo: $active)
+// @include textAlign($prefix: $responsive-active, $pseudo: $active)
+@include textDecoration($prefix: $responsive-active, $pseudo: $active)
+// @include textTransform($prefix: $responsive-active, $pseudo: $active)
+// @include verticalAlign($prefix: $responsive-active, $pseudo: $active)
+// @include whitespace($prefix: $responsive-active, $pseudo: $active)
+// @include wordBreak($prefix: $responsive-active, $pseudo: $active)
+// @include writingMode($prefix: $responsive-active, $pseudo: $active) // (v1.1.1)
+// @include textClamp($prefix: $responsive-active, $pseudo: $active)
+
