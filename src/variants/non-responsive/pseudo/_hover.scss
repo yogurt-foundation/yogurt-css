@@ -107,7 +107,7 @@
 // @include overflow-scrolling($prefix: $variant-hover, $pseudo: $hover)
 @include position($prefix: $variant-hover, $pseudo: $hover)
 @include visibility($prefix: $variant-hover, $pseudo: $hover)
-// @include zIndex($prefix: $variant-hover, $pseudo: $hover)
+@include zIndex($prefix: $variant-hover, $pseudo: $hover)
 // ----- GROUP
 @include display($prefix: $variant-group-hover)
 @include visibility($prefix: $variant-group-hover)

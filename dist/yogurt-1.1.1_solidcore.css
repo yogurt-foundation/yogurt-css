@@ -52888,6 +52888,34 @@ img[theme="invert"] {
   visibility: hidden;
 }
 
+.hover\:z-auto:hover {
+  z-index: auto;
+}
+
+.hover\:z-0:hover {
+  z-index: 0;
+}
+
+.hover\:z-10:hover {
+  z-index: 10;
+}
+
+.hover\:z-20:hover {
+  z-index: 20;
+}
+
+.hover\:z-30:hover {
+  z-index: 30;
+}
+
+.hover\:z-40:hover {
+  z-index: 40;
+}
+
+.hover\:z-50:hover {
+  z-index: 50;
+}
+
 .group:hover .group-hover\:block {
   display: block;
 }
