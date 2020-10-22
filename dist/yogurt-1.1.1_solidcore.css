@@ -716,27 +716,27 @@ y {
           animation-fill-mode: both;
 }
 
-.animation.count-2 {
+.animation.loop-2 {
   -webkit-animation-iteration-count: 2;
           animation-iteration-count: 2;
 }
 
-.animation.count-3 {
+.animation.loop-3 {
   -webkit-animation-iteration-count: 3;
           animation-iteration-count: 3;
 }
 
-.animation.count-4 {
+.animation.loop-4 {
   -webkit-animation-iteration-count: 4;
           animation-iteration-count: 4;
 }
 
-.animation.count-5 {
+.animation.loop-5 {
   -webkit-animation-iteration-count: 5;
           animation-iteration-count: 5;
 }
 
-.animation.count-infinite {
+.animation.loop-infinite {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
