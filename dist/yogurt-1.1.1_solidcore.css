@@ -11383,6 +11383,11 @@ y {
       align-content: space-around;
 }
 
+.content-stretch {
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
 .items-start {
   -ms-flex-align: start;
       align-items: flex-start;
@@ -11408,6 +11413,11 @@ y {
       align-items: stretch;
 }
 
+.items-baseline {
+  -ms-flex-align: baseline;
+      align-items: baseline;
+}
+
 .self-auto {
   -ms-flex-item-align: auto;
       align-self: auto;
@@ -11431,6 +11441,11 @@ y {
 .self-stretch {
   -ms-flex-item-align: stretch;
       align-self: stretch;
+}
+
+.self-baseline {
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
 }
 
 .flex-1 {
@@ -56743,6 +56758,10 @@ img[theme="invert"] {
     -ms-flex-line-pack: distribute;
         align-content: space-around;
   }
+  .xs\:content-stretch {
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+  }
   .xs\:items-start {
     -ms-flex-align: start;
         align-items: flex-start;
@@ -56763,6 +56782,10 @@ img[theme="invert"] {
     -ms-flex-align: stretch;
         align-items: stretch;
   }
+  .xs\:items-baseline {
+    -ms-flex-align: baseline;
+        align-items: baseline;
+  }
   .xs\:self-auto {
     -ms-flex-item-align: auto;
         align-self: auto;
@@ -56782,6 +56805,10 @@ img[theme="invert"] {
   .xs\:self-stretch {
     -ms-flex-item-align: stretch;
         align-self: stretch;
+  }
+  .xs\:self-baseline {
+    -ms-flex-item-align: baseline;
+        align-self: baseline;
   }
   .xs\:flex-1 {
     -ms-flex: 1 1 0%;
@@ -59811,6 +59838,10 @@ img[theme="invert"] {
     -ms-flex-line-pack: distribute;
         align-content: space-around;
   }
+  .sm\:content-stretch {
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+  }
   .sm\:items-start {
     -ms-flex-align: start;
         align-items: flex-start;
@@ -59831,6 +59862,10 @@ img[theme="invert"] {
     -ms-flex-align: stretch;
         align-items: stretch;
   }
+  .sm\:items-baseline {
+    -ms-flex-align: baseline;
+        align-items: baseline;
+  }
   .sm\:self-auto {
     -ms-flex-item-align: auto;
         align-self: auto;
@@ -59850,6 +59885,10 @@ img[theme="invert"] {
   .sm\:self-stretch {
     -ms-flex-item-align: stretch;
         align-self: stretch;
+  }
+  .sm\:self-baseline {
+    -ms-flex-item-align: baseline;
+        align-self: baseline;
   }
   .sm\:flex-1 {
     -ms-flex: 1 1 0%;
@@ -62879,6 +62918,10 @@ img[theme="invert"] {
     -ms-flex-line-pack: distribute;
         align-content: space-around;
   }
+  .md\:content-stretch {
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+  }
   .md\:items-start {
     -ms-flex-align: start;
         align-items: flex-start;
@@ -62899,6 +62942,10 @@ img[theme="invert"] {
     -ms-flex-align: stretch;
         align-items: stretch;
   }
+  .md\:items-baseline {
+    -ms-flex-align: baseline;
+        align-items: baseline;
+  }
   .md\:self-auto {
     -ms-flex-item-align: auto;
         align-self: auto;
@@ -62918,6 +62965,10 @@ img[theme="invert"] {
   .md\:self-stretch {
     -ms-flex-item-align: stretch;
         align-self: stretch;
+  }
+  .md\:self-baseline {
+    -ms-flex-item-align: baseline;
+        align-self: baseline;
   }
   .md\:flex-1 {
     -ms-flex: 1 1 0%;
@@ -65947,6 +65998,10 @@ img[theme="invert"] {
     -ms-flex-line-pack: distribute;
         align-content: space-around;
   }
+  .lg\:content-stretch {
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+  }
   .lg\:items-start {
     -ms-flex-align: start;
         align-items: flex-start;
@@ -65967,6 +66022,10 @@ img[theme="invert"] {
     -ms-flex-align: stretch;
         align-items: stretch;
   }
+  .lg\:items-baseline {
+    -ms-flex-align: baseline;
+        align-items: baseline;
+  }
   .lg\:self-auto {
     -ms-flex-item-align: auto;
         align-self: auto;
@@ -65986,6 +66045,10 @@ img[theme="invert"] {
   .lg\:self-stretch {
     -ms-flex-item-align: stretch;
         align-self: stretch;
+  }
+  .lg\:self-baseline {
+    -ms-flex-item-align: baseline;
+        align-self: baseline;
   }
   .lg\:flex-1 {
     -ms-flex: 1 1 0%;
@@ -69015,6 +69078,10 @@ img[theme="invert"] {
     -ms-flex-line-pack: distribute;
         align-content: space-around;
   }
+  .xl\:content-stretch {
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+  }
   .xl\:items-start {
     -ms-flex-align: start;
         align-items: flex-start;
@@ -69035,6 +69102,10 @@ img[theme="invert"] {
     -ms-flex-align: stretch;
         align-items: stretch;
   }
+  .xl\:items-baseline {
+    -ms-flex-align: baseline;
+        align-items: baseline;
+  }
   .xl\:self-auto {
     -ms-flex-item-align: auto;
         align-self: auto;
@@ -69054,6 +69125,10 @@ img[theme="invert"] {
   .xl\:self-stretch {
     -ms-flex-item-align: stretch;
         align-self: stretch;
+  }
+  .xl\:self-baseline {
+    -ms-flex-item-align: baseline;
+        align-self: baseline;
   }
   .xl\:flex-1 {
     -ms-flex: 1 1 0%;
@@ -72083,6 +72158,10 @@ img[theme="invert"] {
     -ms-flex-line-pack: distribute;
         align-content: space-around;
   }
+  .\32k\:content-stretch {
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+  }
   .\32k\:items-start {
     -ms-flex-align: start;
         align-items: flex-start;
@@ -72103,6 +72182,10 @@ img[theme="invert"] {
     -ms-flex-align: stretch;
         align-items: stretch;
   }
+  .\32k\:items-baseline {
+    -ms-flex-align: baseline;
+        align-items: baseline;
+  }
   .\32k\:self-auto {
     -ms-flex-item-align: auto;
         align-self: auto;
@@ -72122,6 +72205,10 @@ img[theme="invert"] {
   .\32k\:self-stretch {
     -ms-flex-item-align: stretch;
         align-self: stretch;
+  }
+  .\32k\:self-baseline {
+    -ms-flex-item-align: baseline;
+        align-self: baseline;
   }
   .\32k\:flex-1 {
     -ms-flex: 1 1 0%;
@@ -75151,6 +75238,10 @@ img[theme="invert"] {
     -ms-flex-line-pack: distribute;
         align-content: space-around;
   }
+  .\34k\:content-stretch {
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+  }
   .\34k\:items-start {
     -ms-flex-align: start;
         align-items: flex-start;
@@ -75171,6 +75262,10 @@ img[theme="invert"] {
     -ms-flex-align: stretch;
         align-items: stretch;
   }
+  .\34k\:items-baseline {
+    -ms-flex-align: baseline;
+        align-items: baseline;
+  }
   .\34k\:self-auto {
     -ms-flex-item-align: auto;
         align-self: auto;
@@ -75190,6 +75285,10 @@ img[theme="invert"] {
   .\34k\:self-stretch {
     -ms-flex-item-align: stretch;
         align-self: stretch;
+  }
+  .\34k\:self-baseline {
+    -ms-flex-item-align: baseline;
+        align-self: baseline;
   }
   .\34k\:flex-1 {
     -ms-flex: 1 1 0%;

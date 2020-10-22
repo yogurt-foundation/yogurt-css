@@ -251,7 +251,8 @@ $align-content:
   (end, flex-end),
   (center, center),
   (between, space-between),
-  (around, space-around);
+  (around, space-around),
+  (stretch, stretch); // (v1.1.1)
 
 /* align items */
 
@@ -260,7 +261,8 @@ $align-items:
   (end, flex-end),
   (center, center),
   (baseline, baseline),
-  (stretch, stretch);
+  (stretch, stretch),
+  (baseline, baseline); // (v1.1.1)
 
 /* align self */
 
@@ -269,7 +271,8 @@ $align-self:
   (start, flex-start),
   (end, flex-end),
   (center, center),
-  (stretch, stretch);
+  (stretch, stretch),
+  (baseline, baseline); // (v1.1.1)
 
 /* background attachment */
 
