@@ -1219,6 +1219,13 @@ $animation-delay:
   (4, 4s),
   (5, 5s);
 
+$animation-count:
+  (2, 2),
+  (3, 3),
+  (4, 4),
+  (5, 5),
+  (infinite, infinite);
+
 $animation-fade:
  (fade-in, opacity, 0, null, null, opacity, 1, null, null),
  (fade-in-bottom-left, opacity, 0, transform, translate3d(-100%,100%,0), opacity, 1, transform, translate3d(0, 0, 0)),
