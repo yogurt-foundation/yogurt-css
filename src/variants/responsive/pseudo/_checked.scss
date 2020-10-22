@@ -1,0 +1,171 @@
+/**
+ * @module: variants/responsive/pseudo
+ * @file: _checked.scss
+ */
+
+/* accessibility */
+
+// @include screenReader($prefix: $responsive-checked, $pseudo: $checked)
+
+/* animations */
+
+// (v1.0.9)
+// @include fxBlur($prefix: $responsive-checked, $pseudo: $checked)
+// @include fxFade($prefix: $responsive-checked, $pseudo: $checked)
+// @include fxRoll($prefix: $responsive-checked, $pseudo: $checked)
+// @include fxSlide($prefix: $responsive-checked, $pseudo: $checked)
+
+/* backgrounds */
+
+// @include backgroundColor($prefix: $responsive-checked, $pseudo: $checked)
+// @include backgroundAttachment($prefix: $responsive-checked, $pseudo: $checked)
+// @include backgroundPosition($prefix: $responsive-checked, $pseudo: $checked)
+// @include backgroundRepeat($prefix: $responsive-checked, $pseudo: $checked)
+// @include backgroundSize($prefix: $responsive-checked, $pseudo: $checked)
+// @include backgroundBlend($prefix: $responsive-checked, $pseudo: $checked) // (v1.0.4)
+// @include backgroundOpacity($prefix: $responsive-checked, $pseudo: $checked)
+// @include backgroundBorder($prefix: $responsive-checked, $pseudo: $checked) // (v1.0.9)
+// @include backgroundGradient($prefix: $responsive-checked, $pseudo: $checked) // (v1.0.9)
+
+/* borders */
+
+// @include borderColor($prefix: $responsive-checked, $pseudo: $checked)
+// @include borderRadius($prefix: $responsive-checked, $pseudo: $checked)
+// @include borderStyle($prefix: $responsive-checked, $pseudo: $checked)
+// @include borderWidth($prefix: $responsive-checked, $pseudo: $checked)
+// @include borderDissect($prefix: $responsive-checked, $pseudo: $checked) // (v1.0.8)
+// @include borderDissectColor($prefix: $responsive-checked, $pseudo: $checked) // (v1.0.8)
+// @include borderDissectOpacity($prefix: $responsive-checked, $pseudo: $checked) // (v1.0.8)
+
+/* effects */
+
+// @include shadowColor($prefix: $responsive-checked, $pseudo: $checked)
+// @include boxShadow($prefix: $responsive-checked, $pseudo: $checked)
+// @include opacity($prefix: $responsive-checked, $pseudo: $checked)
+// @include mixBlend($prefix: $responsive-checked, $pseudo: $checked) // (v1.0.4)
+// @include gradient($prefix: $responsive-checked, $pseudo: $checked) // (1.0.8)
+
+/* filters */
+
+// @include filterCompose($prefix: $responsive-checked, $pseudo: $checked) // (v1.0.9)
+// @include filterBackdropCompose($prefix: $responsive-checked, $pseudo: $checked) // (v1.1.0)
+// @include filterInvert($prefix: $responsive-checked, $pseudo: $checked) // (v1.0.3)
+
+/* flexbox */
+
+// @include alignContent($prefix: $responsive-checked, $pseudo: $checked)
+// @include alignItems($prefix: $responsive-checked, $pseudo: $checked)
+// @include alignSelf($prefix: $responsive-checked, $pseudo: $checked)
+// @include flex($prefix: $responsive-checked, $pseudo: $checked)
+// @include flexDirection($prefix: $responsive-checked, $pseudo: $checked)
+// @include flexGrow($prefix: $responsive-checked, $pseudo: $checked)
+// @include flexGap($prefix: $responsive-checked, $pseudo: $checked) // (v1.1.0)
+// @include flexShrink($prefix: $responsive-checked, $pseudo: $checked)
+// @include flexWrap($prefix: $responsive-checked, $pseudo: $checked)
+// @include justifyContent($prefix: $responsive-checked, $pseudo: $checked)
+// @include order($prefix: $responsive-checked, $pseudo: $checked)
+
+/* fluids */
+
+/* interactivity */
+
+// @include appearance($prefix: $responsive-checked, $pseudo: $checked)
+// @include cursor($prefix: $responsive-checked, $pseudo: $checked)
+// @include outline($prefix: $responsive-checked, $pseudo: $checked)
+// @include pointerEvents($prefix: $responsive-checked, $pseudo: $checked)
+// @include resize($prefix: $responsive-checked, $pseudo: $checked)
+// @include scrollBehavior($prefix: $responsive-checked, $pseudo: $checked) // (v1.1.1)
+// @include scrollSnap($prefix: $responsive-checked, $pseudo: $checked) // (v1.1.0)
+// @include touchAction($prefix: $responsive-checked, $pseudo: $checked) // (v1.1.1)
+// @include userSelect($prefix: $responsive-checked, $pseudo: $checked)
+
+/* layouts */
+
+// @include boxSizing($prefix: $responsive-checked, $pseudo: $checked)
+// @include clear($prefix: $responsive-checked, $pseudo: $checked)
+// @include containerDefault($prefix: $responsive-checked, $pseudo: $checked)
+// @include display($prefix: $responsive-checked, $pseudo: $checked)
+// @include float($prefix: $responsive-checked, $pseudo: $checked)
+// @include inset($prefix: $responsive-checked, $pseudo: $checked)
+// @include insetTBLR($prefix: $responsive-checked, $pseudo: $checked)
+// @include objectFit($prefix: $responsive-checked, $pseudo: $checked)
+// @include objectPosition($prefix: $responsive-checked, $pseudo: $checked)
+// @include overflow($prefix: $responsive-checked, $pseudo: $checked)
+// @include overflow-xy($prefix: $responsive-checked, $pseudo: $checked)
+// @include overflow-scrolling($prefix: $responsive-checked, $pseudo: $checked)
+// @include overscroll($prefix: $responsive-checked, $pseudo: $checked) // (v1.1.0)
+// @include position($prefix: $responsive-checked, $pseudo: $checked)
+// @include visibility($prefix: $responsive-checked, $pseudo: $checked)
+// @include zIndex($prefix: $responsive-checked, $pseudo: $checked)
+
+/* sizing */
+
+// @include height($prefix: $responsive-checked, $pseudo: $checked)
+// @include maxHeight($prefix: $responsive-checked, $pseudo: $checked)
+// @include maxWidth($prefix: $responsive-checked, $pseudo: $checked)
+// @include minHeight($prefix: $responsive-checked, $pseudo: $checked)
+// @include minWidth($prefix: $responsive-checked, $pseudo: $checked)
+// @include width($prefix: $responsive-checked, $pseudo: $checked)
+
+/* spacing */
+
+// @include margin($prefix: $responsive-checked, $pseudo: $checked)
+// @include margin($negative: $true, $prefix: $responsive-checked, $pseudo: $checked) // negative
+// @include padding($prefix: $responsive-checked, $pseudo: $checked)
+// @include equal($prefix: $responsive-checked, $pseudo: $checked) // (v1.0.8)
+// @include equal($negative: $true, $prefix: $responsive-checked, $pseudo: $checked) // negative, (v1.0.8)
+
+/* svg */
+
+// @include fill($prefix: $responsive-checked, $pseudo: $checked)
+// @include stroke($prefix: $responsive-checked, $pseudo: $checked)
+// @include strokeWidth($prefix: $responsive-checked, $pseudo: $checked)
+// @include strokeLineCap($prefix: $responsive-checked, $pseudo: $checked) // (v1.1.1)
+
+/* tables */
+
+// @include borderCollapse($prefix: $responsive-checked, $pseudo: $checked)
+// @include tableLayout($prefix: $responsive-checked, $pseudo: $checked)
+
+/* transforms */
+
+// @include transform($prefix: $responsive-checked, $pseudo: $checked)
+// @include transformOrigin($prefix: $responsive-checked, $pseudo: $checked)
+// @include rotate($prefix: $responsive-checked, $pseudo: $checked)
+// @include rotate($prefix: $responsive-checked, $pseudo: $checked, $negative: $true) // negative
+// @include scale($prefix: $responsive-checked, $pseudo: $checked)
+// @include skew($prefix: $responsive-checked, $pseudo: $checked)
+// @include skew($prefix: $responsive-checked, $pseudo: $checked, $negative: $true) // negative
+// @include translate($prefix: $responsive-checked, $pseudo: $checked)
+// @include translate($prefix: $responsive-checked, $pseudo: $checked, $negative: $true) // negative
+
+/* transitions */
+
+// @include transitionDuration($prefix: $responsive-checked, $pseudo: $checked)
+// @include transitionProperty($prefix: $responsive-checked, $pseudo: $checked)
+// @include transitionTiming($prefix: $responsive-checked, $pseudo: $checked)
+
+/* typography */
+
+// @include textColor($prefix: $responsive-checked, $pseudo: $checked)
+// @include fontFamily($prefix: $responsive-checked, $pseudo: $checked)
+// @include fontKerning($prefix: $responsive-checked, $pseudo: $checked) // (v1.1.1)
+// @include fontSize($prefix: $responsive-checked, $pseudo: $checked)
+// @include fontSmoothing($prefix: $responsive-checked, $pseudo: $checked)
+// @include fontStyle($prefix: $responsive-checked, $pseudo: $checked)
+// @include fontWeight($prefix: $responsive-checked, $pseudo: $checked)
+// @include letterSpacing($prefix: $responsive-checked, $pseudo: $checked)
+// @include lineHeight($prefix: $responsive-checked, $pseudo: $checked)
+// @include lineHeightTrim($prefix: $responsive-checked, $pseudo: $checked) // (v1.1.0)
+// @include listStylePosition($prefix: $responsive-checked, $pseudo: $checked)
+// @include listStyleType($prefix: $responsive-checked, $pseudo: $checked)
+// @include placeholderColor($prefix: $responsive-checked, $pseudo: $checked)
+// @include textAlign($prefix: $responsive-checked, $pseudo: $checked)
+// @include textDecoration($prefix: $responsive-checked, $pseudo: $checked)
+// @include textTransform($prefix: $responsive-checked, $pseudo: $checked)
+// @include verticalAlign($prefix: $responsive-checked, $pseudo: $checked)
+// @include whitespace($prefix: $responsive-checked, $pseudo: $checked)
+// @include wordBreak($prefix: $responsive-checked, $pseudo: $checked)
+// @include writingMode($prefix: $responsive-checked, $pseudo: $checked) // (v1.1.1)
+// @include textClamp($prefix: $responsive-checked, $pseudo: $checked)
+

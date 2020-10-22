@@ -14,14 +14,12 @@ const { version } = require('./package.json')
 const regularOutput = 'yogurt-' + version + '_solidcore.css'
 const minifiedOutput = 'yogurt-' + version + '_solidcore.min.css'
 
+const srcScssPath = 'src/yogurt.scss'
+const distCssPath = 'dist'
 
-// ...minify/preprocess scss
 
 // outputStyle: `expanded` for debugging,
 // `compressed` for production.
-
-const srcScssPath = 'src/yogurt.scss'
-const distCssPath = 'dist'
 
 gulp.task('sass-min', () => {
   return gulp.src(srcScssPath)
@@ -65,27 +63,35 @@ gulp.task('sass-raw', () => {
 })
 
 
-const SCSSOutput = './yogurt.scss'
-const distScssPath = './'
-
 gulp.task('sass-scss', () => {
+  const SCSSOutput = './yogurt.scss'
+  const distScssPath = './'
   return gulp.src(srcScssPath)
     .pipe(sassGlob())
     .pipe(sass({ outputStyle: 'compressed' })
       .on('error', sass.logError))
+    .pipe(postCss([autoPrefixer()]))
     .pipe(rename(SCSSOutput))
     .pipe(gulp.dest(distScssPath))
 })
 
 
-// ...watch
-const watchSrcScssPath = 'src/**/**/**/**/*.scss'
-
-gulp.task('watch', gulp.series([
+gulp.task('build', gulp.series(
   'sass-raw',
   'sass-min',
   'sass-scss'
+))
+
+
+gulp.task('watch', gulp.series([
+
+  'sass-raw',
+  'sass-min',
+  'sass-scss'
+
   ], () => {
+
+    const watchSrcScssPath = 'src/**/**/**/**/*.scss'
     gulp.watch(watchSrcScssPath,
       gulp.series([
         'sass-raw',
@@ -93,5 +99,6 @@ gulp.task('watch', gulp.series([
         'sass-scss'
       ])
     )
+
   })
 )

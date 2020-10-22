@@ -234,17 +234,7 @@ $colors:
   (teal, 600, #319795),
   (teal, 700, #2c7a7b),
   (teal, 800, #285e61),
-  (teal, 900, #234e52),
-
-  (yellow, 100, #fffff0),
-  (yellow, 200, #fefcbf),
-  (yellow, 300, #faf089),
-  (yellow, 400, #f6e05e),
-  (yellow, 500, #ecc94b),
-  (yellow, 600, #d69e2e),
-  (yellow, 700, #b7791f),
-  (yellow, 800, #975a16),
-  (yellow, 900, #744210);
+  (teal, 900, #234e52);
 
 /* shadow color */
 
@@ -261,7 +251,8 @@ $align-content:
   (end, flex-end),
   (center, center),
   (between, space-between),
-  (around, space-around);
+  (around, space-around),
+  (stretch, stretch); // (v1.1.1)
 
 /* align items */
 
@@ -270,7 +261,8 @@ $align-items:
   (end, flex-end),
   (center, center),
   (baseline, baseline),
-  (stretch, stretch);
+  (stretch, stretch),
+  (baseline, baseline); // (v1.1.1)
 
 /* align self */
 
@@ -279,7 +271,8 @@ $align-self:
   (start, flex-start),
   (end, flex-end),
   (center, center),
-  (stretch, stretch);
+  (stretch, stretch),
+  (baseline, baseline); // (v1.1.1)
 
 /* background attachment */
 
@@ -703,12 +696,19 @@ $skew:
   (6, 6deg),
   (12, 12deg);
 
-/* stroke width */
+/* svg stroke width */
 
 $stroke-width:
   (0,	0),
   (1,	1),
   (2,	2);
+
+/* svg stroke linecap */
+
+$stroke-linecap:
+  (butt, butt),
+  (round, round),
+  (square, square);
 
 /* table layout */
 
@@ -1219,6 +1219,13 @@ $animation-delay:
   (4, 4s),
   (5, 5s);
 
+$animation-loop:
+  (2, 2),
+  (3, 3),
+  (4, 4),
+  (5, 5),
+  (infinite, infinite);
+
 $animation-fade:
  (fade-in, opacity, 0, null, null, opacity, 1, null, null),
  (fade-in-bottom-left, opacity, 0, transform, translate3d(-100%,100%,0), opacity, 1, transform, translate3d(0, 0, 0)),
@@ -1419,4 +1426,45 @@ $box-shadow-dreamy:
   (dreamy-lg, (0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 16px -3px rgba(0, 0, 0, 0.05), 0 3px 17px -3px rgba(0, 0, 0, 0.03), 0 1px 18px -3px rgba(0, 0, 0, 0.01))),
   (dreamy-xl, (0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 26px -3px rgba(0, 0, 0, 0.04), 0 3px 27px -3px rgba(0, 0, 0, 0.02), 0 1px 28px -3px rgba(0, 0, 0, 0.01))),
   (dreamy-2xl, (0 10px 35px -3px rgba(0, 0, 0, 0.08), 0 4px 36px -3px rgba(0, 0, 0, 0.07), 0 3px 37px -3px rgba(0, 0, 0, 0.06), 0 1px 38px -3px rgba(0, 0, 0, 0.05)));
+
+/* font kerning */
+
+$font-kerning:
+  (auto, auto),
+  (normal, normal),
+  (none, none);
+
+/* font stretch */
+
+$font-stretch:
+  (ultra-condensed, ultra-condensed),
+  (extra-condensed, extra-condensed),
+  (condensed, condensed),
+  (semi-condensed, semi-condensed),
+  (normal, normal),
+  (semi-expanded, semi-expanded),
+  (expanded, expanded),
+  (extra-expanded, extra-expanded),
+  (ultra-expanded, ultra-expanded);
+
+/* touch action */
+
+$touch-action:
+  (auto, auto),
+  (none, none),
+  (pan-x, pan-x),
+  (pan-left, pan-left),
+  (pan-right, pan-right),
+  (pan-y, pan-y),
+  (pan-up, pan-up),
+  (pan-down, pan-down),
+  (pinch-zoom, pinch-zoom),
+  (manipulation, manipulation);
+
+/* writing mode */
+
+$writing-mode:
+ (horizontal, horizontal-tb),
+ (vertical-left, vertical-lr),
+ (vertical-right, vertical-rl);
 

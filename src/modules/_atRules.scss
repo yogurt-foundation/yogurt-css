@@ -16,6 +16,7 @@ $variant-group-focus: ".group:focus .group-focus\\#{$separator}"; // (v1.0.8)
 $variant-active: ".active\\#{$separator}";
 $variant-visited: ".visited\\#{$separator}";
 $variant-disabled: ".disabled\\#{$separator}";
+$variant-checked: ".checked\\#{$separator}"; // (v1.1.1)
 
 // pseudo options
 $hover: ":hover";
@@ -23,6 +24,7 @@ $focus: ":focus";
 $active: ":active";
 $visited: ":visited";
 $disabled: ":disabled";
+$checked: ":checked"; // (v1.1.1)
 
 
 @mixin setRule(

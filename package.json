@@ -1,12 +1,12 @@
 {
   "name": "yogurt-css",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level",
-  "main": "./dist/yogurt-1.1.0_solidcore.css",
+  "main": "./dist/yogurt-1.1.1_solidcore.css",
   "scripts": {
     "gulp": "gulp",
     "watch": "gulp watch",
-    "build": "npm run gulp sass-raw && npm run gulp sass-min && npm run gulp sass-scss"
+    "build": "gulp build"
   },
   "keywords": [
     "css-framework",

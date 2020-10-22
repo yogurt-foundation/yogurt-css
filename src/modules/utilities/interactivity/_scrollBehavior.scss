@@ -1,0 +1,21 @@
+/**
+ * @utility: interactivity
+ * @module: _scrollBehavior.scss
+ * @desc: smooth animation of scroll anchored position within a scrolling box
+ */
+
+@mixin scrollBehavior(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  // (static)
+  @include setRule(
+    $prefix: $prefix,
+    $pseudo: $pseudo,
+    $class: $class,
+    $selector: "scroll-smooth",
+    $property1: "scroll-behavior",
+    $value1: "smooth"
+  )
+}

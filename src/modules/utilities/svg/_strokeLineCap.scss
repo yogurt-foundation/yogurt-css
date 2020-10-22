@@ -1,0 +1,26 @@
+/**
+ * @utility: svg
+ * @module: _strokeLineCap.scss
+ * @desc: sets the outline shape of an SVG
+ */
+
+@mixin strokeLineCap(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier, $value in $stroke-linecap {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "stroke-",
+      $modifier: $modifier,
+      $property1: "stroke-linecap",
+      $value1: $value#{$override}
+    )
+  }
+}
+
+
+

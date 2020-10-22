@@ -7,6 +7,14 @@
 
 // @include screenReader($prefix: $responsive-active, $pseudo: $active)
 
+/* animations */
+
+// (v1.0.9)
+// @include fxBlur($prefix: $responsive-active, $pseudo: $active)
+// @include fxFade($prefix: $responsive-active, $pseudo: $active)
+// @include fxRoll($prefix: $responsive-active, $pseudo: $active)
+// @include fxSlide($prefix: $responsive-active, $pseudo: $active)
+
 /* backgrounds */
 
 // @include backgroundColor($prefix: $responsive-active, $pseudo: $active)
@@ -16,6 +24,7 @@
 // @include backgroundSize($prefix: $responsive-active, $pseudo: $active)
 // @include backgroundBlend($prefix: $responsive-active, $pseudo: $active) // (v1.0.4)
 // @include backgroundOpacity($prefix: $responsive-active, $pseudo: $active)
+// @include backgroundBorder($prefix: $responsive-active, $pseudo: $active) // (v1.0.9)
 // @include backgroundGradient($prefix: $responsive-active, $pseudo: $active) // (v1.0.9)
 
 /* borders */
@@ -65,6 +74,9 @@
 // @include outline($prefix: $responsive-active, $pseudo: $active)
 // @include pointerEvents($prefix: $responsive-active, $pseudo: $active)
 // @include resize($prefix: $responsive-active, $pseudo: $active)
+// @include scrollBehavior($prefix: $responsive-active, $pseudo: $active) // (v1.1.1)
+// @include scrollSnap($prefix: $responsive-active, $pseudo: $active) // (v1.1.0)
+// @include touchAction($prefix: $responsive-active, $pseudo: $active) // (v1.1.1)
 // @include userSelect($prefix: $responsive-active, $pseudo: $active)
 
 /* layouts */
@@ -85,7 +97,6 @@
 // @include position($prefix: $responsive-active, $pseudo: $active)
 // @include visibility($prefix: $responsive-active, $pseudo: $active)
 // @include zIndex($prefix: $responsive-active, $pseudo: $active)
-// @include scrollSnap($prefix: $responsive-active, $pseudo: $active) // (v1.1.0)
 
 /* sizing */
 
@@ -109,6 +120,7 @@
 // @include fill($prefix: $responsive-active, $pseudo: $active)
 // @include stroke($prefix: $responsive-active, $pseudo: $active)
 // @include strokeWidth($prefix: $responsive-active, $pseudo: $active)
+// @include strokeLineCap($prefix: $responsive-active, $pseudo: $active) // (v1.1.1)
 
 /* tables */
 
@@ -138,6 +150,7 @@
 // @include placeholderColor($prefix: $responsive-active, $pseudo: $active)
 // @include textColor($prefix: $responsive-active, $pseudo: $active)
 // @include fontFamily($prefix: $responsive-active, $pseudo: $active)
+// @include fontKerning($prefix: $responsive-active, $pseudo: $active) // (v1.1.1)
 // @include fontSize($prefix: $responsive-active, $pseudo: $active)
 // @include fontSmoothing($prefix: $responsive-active, $pseudo: $active)
 // @include fontStyle($prefix: $responsive-active, $pseudo: $active)
@@ -153,5 +166,6 @@
 // @include verticalAlign($prefix: $responsive-active, $pseudo: $active)
 // @include whitespace($prefix: $responsive-active, $pseudo: $active)
 // @include wordBreak($prefix: $responsive-active, $pseudo: $active)
+// @include writingMode($prefix: $responsive-active, $pseudo: $active) // (v1.1.1)
 // @include textClamp($prefix: $responsive-active, $pseudo: $active)
 

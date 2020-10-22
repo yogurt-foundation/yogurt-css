@@ -81,8 +81,12 @@
 @include appearance($class: $default)
 @include cursor($class: $default)
 @include outline($class: $default)
+@include overscroll($class: $default) // (v1.1.0)
 @include pointerEvents($class: $default)
 @include resize($class: $default)
+@include scrollBehavior($class: $default) // (v1.1.1)
+@include scrollSnap($class: $default) // (v1.1.0)
+@include touchAction($class: $default) // (v1.1.1)
 @include userSelect($class: $default)
 
 /* layouts */
@@ -90,6 +94,7 @@
 @include boxSizing($class: $default)
 @include clear($class: $default)
 @include containerDefault($class: $default)
+@include contentVisibility($class: $default) // (v1.0.9)
 @include display($class: $default)
 @include float($class: $default)
 @include inset($class: $default)
@@ -99,12 +104,9 @@
 @include overflow($class: $default)
 @include overflow-xy($class: $default)
 @include overflow-scrolling($class: $default)
-@include overscroll($class: $default) // (v1.1.0)
 @include position($class: $default)
 @include visibility($class: $default)
 @include zIndex($class: $default)
-@include contentVisibility($class: $default) // (v1.0.9)
-@include scrollSnap($class: $default) // (v1.1.0)
 
 /* patterns */
 
@@ -144,6 +146,7 @@
 @include fill($class: $default)
 @include stroke($class: $default)
 @include strokeWidth($class: $default)
+@include strokeLineCap($class: $default) // (v1.1.1)
 
 /* tables */
 
@@ -178,13 +181,14 @@
 
 @include textColor ($class: $default)
 @include fontFamily($class: $default)
+@include fontKerning($class: $default) // (v1.1.1)
 @include fontSize($class: $default)
 @include fontSmoothing($class: $default)
 @include fontStyle($class: $default)
 @include fontWeight($class: $default)
 @include letterSpacing($class: $default)
 @include lineHeight($class: $default)
-@include lineHeightTrim($class: $default) // (v1.1.0)
+// @include lineHeightTrim($class: $default) // (v1.1.0)
 @include listStylePosition($class: $default)
 @include listStyleType($class: $default)
 @include placeholder() // static
@@ -195,4 +199,5 @@
 @include verticalAlign($class: $default)
 @include whitespace($class: $default)
 @include wordBreak($class: $default)
+@include writingMode($class: $default) // (v1.1.1)
 @include textClamp($class: $default)

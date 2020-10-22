@@ -1,0 +1,192 @@
+/**
+ * @module: /
+ * @file: _checked.scss
+ */
+
+/* accessibility */
+
+// @include screenReader($prefix: $variant-checked, $pseudo: $checked)
+
+/* animations */
+
+// (v1.0.9)
+// @include fxBlur($prefix: $variant-checked, $pseudo: $checked)
+// @include fxFade($prefix: $variant-checked, $pseudo: $checked)
+// @include fxRoll($prefix: $variant-checked, $pseudo: $checked)
+// @include fxSlide($prefix: $variant-checked, $pseudo: $checked)
+
+/* backgrounds */
+
+@include backgroundColor($prefix: $variant-checked, $pseudo: $checked)
+// @include backgroundAttachment($prefix: $variant-checked, $pseudo: $checked)
+// @include backgroundPosition($prefix: $variant-checked, $pseudo: $checked)
+// @include backgroundRepeat($prefix: $variant-checked, $pseudo: $checked)
+// @include backgroundSize($prefix: $variant-checked, $pseudo: $checked)
+// @include backgroundBlend($prefix: $variant-checked, $pseudo: $checked) // (v1.0.4)
+// @include backgroundOpacity($prefix: $variant-checked, $pseudo: $checked)
+// @include backgroundBorder($prefix: $variant-checked, $pseudo: $checked) // (v1.0.9)
+// @include backgroundGradient($prefix: $variant-checked, $pseudo: $checked) // (v1.0.9)
+
+/* borders */
+
+@include borderColor($prefix: $variant-checked, $pseudo: $checked)
+// @include borderRadius($prefix: $variant-checked, $pseudo: $checked)
+// @include borderStyle($prefix: $variant-checked, $pseudo: $checked)
+// @include borderWidth($prefix: $variant-checked, $pseudo: $checked)
+// @include borderDissect($prefix: $variant-checked, $pseudo: $checked) // (v1.0.8)
+// @include borderDissectColor($prefix: $variant-checked, $pseudo: $checked) // (v1.0.8)
+// @include borderDissectOpacity($prefix: $variant-checked, $pseudo: $checked) // (v1.0.8)
+
+/* effects */
+
+@include shadowColor($prefix: $variant-checked, $pseudo: $checked)
+@include boxShadow($prefix: $variant-checked, $pseudo: $checked)
+// @include opacity($prefix: $variant-checked, $pseudo: $checked)
+// @include mixBlend($prefix: $variant-checked, $pseudo: $checked) // (v1.0.4)
+// @include gradient($prefix: $variant-checked, $pseudo: $checked) // (1.0.8)
+
+/* filters */
+
+// @include filterCompose($prefix: $variant-checked, $pseudo: $checked) // (v1.0.9)
+// @include filterBackdropCompose($prefix: $variant-checked, $pseudo: $checked) // (v1.1.0)
+// @include filterInvert($prefix: $variant-checked, $pseudo: $checked) // (v1.0.3)
+
+/* flexbox */
+
+// @include alignContent($prefix: $variant-checked, $pseudo: $checked)
+// @include alignItems($prefix: $variant-checked, $pseudo: $checked)
+// @include alignSelf($prefix: $variant-checked, $pseudo: $checked)
+// @include flex($prefix: $variant-checked, $pseudo: $checked)
+// @include flexDirection($prefix: $variant-checked, $pseudo: $checked)
+// @include flexGrow($prefix: $variant-checked, $pseudo: $checked)
+// @include flexGap($prefix: $variant-checked, $pseudo: $checked) // (v1.1.0)
+// @include flexShrink($prefix: $variant-checked, $pseudo: $checked)
+// @include flexWrap($prefix: $variant-checked, $pseudo: $checked)
+// @include justifyContent($prefix: $variant-checked, $pseudo: $checked)
+// @include order($prefix: $variant-checked, $pseudo: $checked)
+
+/* fluids */
+
+// @include fluidFontSize($prefix: $variant-checked, $pseudo: $checked) // (v1.0.8)
+// @include fluidMargin($prefix: $variant-checked, $pseudo: $checked) // (v1.0.8)
+// @include fluidPadding($prefix: $variant-checked, $pseudo: $checked) // (v1.0.8)
+
+/* interactivity */
+
+// @include appearance($prefix: $variant-checked, $pseudo: $checked)
+// @include cursor($prefix: $variant-checked, $pseudo: $checked)
+// @include outline($prefix: $variant-checked, $pseudo: $checked)
+// @include overscroll($prefix: $variant-checked, $pseudo: $checked) // (v1.1.0)
+// @include pointerEvents($prefix: $variant-checked, $pseudo: $checked)
+// @include resize($prefix: $variant-checked, $pseudo: $checked)
+// @include scrollBehavior($prefix: $variant-checked, $pseudo: $checked) // (v1.1.1)
+// @include scrollSnap($prefix: $variant-checked, $pseudo: $checked) // (v1.1.0)
+// @include touchAction($prefix: $variant-checked, $pseudo: $checked) // (v1.1.1)
+// @include userSelect($prefix: $variant-checked, $pseudo: $checked)
+
+/* layouts */
+
+// @include boxSizing($prefix: $variant-checked, $pseudo: $checked)
+// @include clear($prefix: $variant-checked, $pseudo: $checked)
+// @include containerDefault($prefix: $variant-checked, $pseudo: $checked)
+// @include contentVisibility($prefix: $variant-checked, $pseudo: $checked) // (v1.0.9)
+// @include display($prefix: $variant-checked, $pseudo: $checked)
+// @include float($prefix: $variant-checked, $pseudo: $checked)
+// @include inset($prefix: $variant-checked, $pseudo: $checked)
+// @include insetTBLR($prefix: $variant-checked, $pseudo: $checked)
+// @include objectFit($prefix: $variant-checked, $pseudo: $checked)
+// @include objectPosition($prefix: $variant-checked, $pseudo: $checked)
+// @include overflow($prefix: $variant-checked, $pseudo: $checked)
+// @include overflow-xy($prefix: $variant-checked, $pseudo: $checked)
+// @include overflow-scrolling($prefix: $variant-checked, $pseudo: $checked)
+// @include position($prefix: $variant-checked, $pseudo: $checked)
+// @include visibility($prefix: $variant-checked, $pseudo: $checked)
+// @include zIndex($prefix: $variant-checked, $pseudo: $checked)
+
+/* patterns */
+
+// (1.0.8)
+// @include patternChecks($prefix: $variant-checked, $pseudo: $checked)
+// @include patternCrossDots($prefix: $variant-checked, $pseudo: $checked)
+// @include patternDiagonalLines($prefix: $variant-checked, $pseudo: $checked)
+// @include patternDiagonalStripes($prefix: $variant-checked, $pseudo: $checked)
+// @include patternDots($prefix: $variant-checked, $pseudo: $checked)
+// @include patternGrid($prefix: $variant-checked, $pseudo: $checked)
+// @include patternHorizontalLines($prefix: $variant-checked, $pseudo: $checked)
+// @include patternHorizontalStripes($prefix: $variant-checked, $pseudo: $checked)
+// @include patternTriangles($prefix: $variant-checked, $pseudo: $checked)
+// @include patternVerticalLines($prefix: $variant-checked, $pseudo: $checked)
+// @include patternVerticalStripes($prefix: $variant-checked, $pseudo: $checked)
+// @include patternZigzag($prefix: $variant-checked, $pseudo: $checked)
+
+/* sizing */
+
+// @include height($prefix: $variant-checked, $pseudo: $checked)
+// @include maxHeight($prefix: $variant-checked, $pseudo: $checked)
+// @include maxWidth($prefix: $variant-checked, $pseudo: $checked)
+// @include minHeight($prefix: $variant-checked, $pseudo: $checked)
+// @include minWidth($prefix: $variant-checked, $pseudo: $checked)
+// @include width($prefix: $variant-checked, $pseudo: $checked)
+
+/* spacing */
+
+// @include margin($prefix: $variant-checked, $pseudo: $checked)
+// @include margin($negative: $true, $prefix: $variant-checked, $pseudo: $checked) // negative
+// @include padding($prefix: $variant-checked, $pseudo: $checked)
+// @include equal($prefix: $variant-checked, $pseudo: $checked) // (v1.0.8)
+// @include equal($negative: $true, $prefix: $variant-checked, $pseudo: $checked) // negative, (v1.0.8)
+
+/* svg */
+
+// @include fill($prefix: $variant-checked, $pseudo: $checked)
+// @include stroke($prefix: $variant-checked, $pseudo: $checked)
+// @include strokeWidth($prefix: $variant-checked, $pseudo: $checked)
+// @include strokeLineCap($prefix: $variant-checked, $pseudo: $checked) // (v1.1.1)
+
+/* tables */
+
+// @include borderCollapse($prefix: $variant-checked, $pseudo: $checked)
+// @include tableLayout($prefix: $variant-checked, $pseudo: $checked)
+
+/* transforms */
+
+// @include transform($prefix: $variant-checked, $pseudo: $checked)
+// @include transformOrigin($prefix: $variant-checked, $pseudo: $checked)
+// @include rotate($prefix: $variant-checked, $pseudo: $checked)
+// @include rotate($prefix: $variant-checked, $pseudo: $checked, $negative: $true) // negative
+// @include scale($prefix: $variant-checked, $pseudo: $checked)
+// @include skew($prefix: $variant-checked, $pseudo: $checked)
+// @include skew($prefix: $variant-checked, $pseudo: $checked, $negative: $true) // negative
+// @include translate($prefix: $variant-checked, $pseudo: $checked)
+// @include translate($prefix: $variant-checked, $pseudo: $checked, $negative: $true) // negative
+
+/* transitions */
+
+// @include transitionDuration($prefix: $variant-checked, $pseudo: $checked)
+// @include transitionProperty($prefix: $variant-checked, $pseudo: $checked)
+// @include transitionTiming($prefix: $variant-checked, $pseudo: $checked)
+
+/* typography */
+
+@include textColor($prefix: $variant-checked, $pseudo: $checked)
+// @include fontFamily($prefix: $variant-checked, $pseudo: $checked)
+// @include fontKerning($prefix: $variant-checked, $pseudo: $checked) // (v1.1.1)
+// @include fontSize($prefix: $variant-checked, $pseudo: $checked)
+// @include fontSmoothing($prefix: $variant-checked, $pseudo: $checked)
+// @include fontStyle($prefix: $variant-checked, $pseudo: $checked)
+// @include fontWeight($prefix: $variant-checked, $pseudo: $checked)
+// @include letterSpacing($prefix: $variant-checked, $pseudo: $checked)
+// @include lineHeight($prefix: $variant-checked, $pseudo: $checked)
+// @include lineHeightTrim($prefix: $variant-checked, $pseudo: $checked) // (v1.1.0)
+// @include listStylePosition($prefix: $variant-checked, $pseudo: $checked)
+// @include listStyleType($prefix: $variant-checked, $pseudo: $checked)
+// @include placeholder() // static
+// @include placeholderColor($prefix: $variant-checked, $pseudo: $checked)
+// @include textAlign($prefix: $variant-checked, $pseudo: $checked)
+@include textDecoration($prefix: $variant-checked, $pseudo: $checked)
+// @include textTransform($prefix: $variant-checked, $pseudo: $checked)
+// @include verticalAlign($prefix: $variant-checked, $pseudo: $checked)
+// @include whitespace($prefix: $variant-checked, $pseudo: $checked)
+// @include wordBreak($prefix: $variant-checked, $pseudo: $checked)
+// @include writingMode($prefix: $variant-checked, $pseudo: $checked) // (v1.1.1)
+// @include textClamp($prefix: $variant-checked, $pseudo: $checked)

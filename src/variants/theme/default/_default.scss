@@ -1,5 +1,5 @@
 /**
- * @module: variants/theme/
+ * @module: variants/theme/default/
  * @file: _default.scss
  */
 
@@ -39,9 +39,6 @@
 
 /* debug */
 
-// @include debugOutline() // (static) (v1.1.0)
-// @include debugScreen() // (v1.1.0)
-
 /* effects */
 
 @include shadowColor($class: $theme-dark)
@@ -54,7 +51,7 @@
 
 // @include filterCompose($class: $theme-dark) // (v1.0.9)
 // @include filterBackdropCompose($class: $theme-dark) // (v1.1.0)
-// @include filterInvert($class: $theme-dark) // (v1.0.3)
+@include filterInvert($class: $theme-dark) // (v1.0.3)
 
 /* flexbox */
 
@@ -81,8 +78,11 @@
 // @include appearance($class: $theme-dark)
 // @include cursor($class: $theme-dark)
 // @include outline($class: $theme-dark)
+// @include overscroll($class: $theme-dark) // (v1.1.0)
 // @include pointerEvents($class: $theme-dark)
 // @include resize($class: $theme-dark)
+// @include scrollBehavior($class: $theme-dark) // (v1.1.1)
+// @include scrollSnap($class: $theme-dark) // (v1.1.0)
 // @include userSelect($class: $theme-dark)
 
 /* layouts */
@@ -90,6 +90,7 @@
 // @include boxSizing($class: $theme-dark)
 // @include clear($class: $theme-dark)
 // @include containerDefault($class: $theme-dark)
+// @include contentVisibility($class: $theme-dark) // (v1.0.9)
 // @include display($class: $theme-dark)
 // @include float($class: $theme-dark)
 // @include inset($class: $theme-dark)
@@ -99,12 +100,9 @@
 // @include overflow($class: $theme-dark)
 // @include overflow-xy($class: $theme-dark)
 // @include overflow-scrolling($class: $theme-dark)
-// @include overscroll($class: $theme-dark) // (v1.1.0)
 // @include position($class: $theme-dark)
 // @include visibility($class: $theme-dark)
 // @include zIndex($class: $theme-dark)
-// @include contentVisibility($class: $theme-dark) // (v1.0.9)
-// @include scrollSnap($class: $theme-dark) // (v1.1.0)
 
 /* patterns */
 
@@ -141,9 +139,10 @@
 
 /* svg */
 
-// @include fill($class: $theme-dark)
+@include fill($class: $theme-dark)
 // @include stroke($class: $theme-dark)
 // @include strokeWidth($class: $theme-dark)
+// @include strokeLineCap($class: $theme-dark) // (v1.1.1)
 
 /* tables */
 
@@ -178,6 +177,7 @@
 
 @include textColor ($class: $theme-dark)
 // @include fontFamily($class: $theme-dark)
+// @include fontKerning$class: $theme-dark) // (v1.1.1)
 // @include fontSize($class: $theme-dark)
 // @include fontSmoothing($class: $theme-dark)
 // @include fontStyle($class: $theme-dark)

@@ -7,6 +7,14 @@
 
 // @include screenReader($prefix: $responsive-focus, $pseudo: $focus)
 
+/* animations */
+
+// (v1.0.9)
+// @include fxBlur($prefix: $responsive-focus, $pseudo: $focus)
+// @include fxFade($prefix: $responsive-focus, $pseudo: $focus)
+// @include fxRoll($prefix: $responsive-focus, $pseudo: $focus)
+// @include fxSlide($prefix: $responsive-focus, $pseudo: $focus)
+
 /* backgrounds */
 
 // @include backgroundColor($prefix: $responsive-focus, $pseudo: $focus)
@@ -16,6 +24,7 @@
 // @include backgroundSize($prefix: $responsive-focus, $pseudo: $focus)
 // @include backgroundBlend($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.4)
 // @include backgroundOpacity($prefix: $responsive-focus, $pseudo: $focus)
+// @include backgroundBorder($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.9)
 // @include backgroundGradient($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.9)
 
 /* borders */
@@ -27,6 +36,8 @@
 // @include borderDissect($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.8)
 // @include borderDissectColorYellow($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.8)
 // @include borderDissectOpacity($prefix: $responsive-focus, $pseudo: $focus) // (v1.0.8)
+
+/* debug */
 
 /* effects */
 
@@ -65,6 +76,9 @@
 // @include outline($prefix: $responsive-focus, $pseudo: $focus)
 // @include pointerEvents($prefix: $responsive-focus, $pseudo: $focus)
 // @include resize($prefix: $responsive-focus, $pseudo: $focus)
+// @include scrollBehavior($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.1)
+// @include scrollSnap($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.0)
+// @include touchAction($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.1)
 // @include userSelect($prefix: $responsive-focus, $pseudo: $focus)
 
 /* layouts */
@@ -85,7 +99,22 @@
 // @include position($prefix: $responsive-focus, $pseudo: $focus)
 // @include visibility($prefix: $responsive-focus, $pseudo: $focus)
 // @include zIndex($prefix: $responsive-focus, $pseudo: $focus)
-// @include scrollSnap($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.0)
+
+/* patterns */
+
+// (1.0.8)
+// @include patternChecks($prefix: $responsive-focus, $pseudo: $focus)
+// @include patternCrossDots($prefix: $responsive-focus, $pseudo: $focus)
+// @include patternDiagonalLines($prefix: $responsive-focus, $pseudo: $focus)
+// @include patternDiagonalStripes($prefix: $responsive-focus, $pseudo: $focus)
+// @include patternDots($prefix: $responsive-focus, $pseudo: $focus)
+// @include patternGrid($prefix: $responsive-focus, $pseudo: $focus)
+// @include patternHorizontalLines($prefix: $responsive-focus, $pseudo: $focus)
+// @include patternHorizontalStripes($prefix: $responsive-focus, $pseudo: $focus)
+// @include patternTriangles($prefix: $responsive-focus, $pseudo: $focus)
+// @include patternVerticalLines($prefix: $responsive-focus, $pseudo: $focus)
+// @include patternVerticalStripes($prefix: $responsive-focus, $pseudo: $focus)
+// @include patternZigzag($prefix: $responsive-focus, $pseudo: $focus)
 
 /* sizing */
 
@@ -109,11 +138,14 @@
 // @include fill($prefix: $responsive-focus, $pseudo: $focus)
 // @include stroke($prefix: $responsive-focus, $pseudo: $focus)
 // @include strokeWidth($prefix: $responsive-focus, $pseudo: $focus)
+// @include strokeLineCap($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.1)
 
 /* tables */
 
 // @include borderCollapse($prefix: $responsive-focus, $pseudo: $focus)
 // @include tableLayout($prefix: $responsive-focus, $pseudo: $focus)
+
+/* theme */
 
 /* transforms */
 
@@ -135,9 +167,9 @@
 
 /* typography */
 
-// @include placeholderColor($prefix: $responsive-focus, $pseudo: $focus)
 // @include textColor($prefix: $responsive-focus, $pseudo: $focus)
 // @include fontFamily($prefix: $responsive-focus, $pseudo: $focus)
+// @include fontKerning($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.1)
 // @include fontSize($prefix: $responsive-focus, $pseudo: $focus)
 // @include fontSmoothing($prefix: $responsive-focus, $pseudo: $focus)
 // @include fontStyle($prefix: $responsive-focus, $pseudo: $focus)
@@ -147,11 +179,13 @@
 // @include lineHeightTrim($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.0)
 // @include listStylePosition($prefix: $responsive-focus, $pseudo: $focus)
 // @include listStyleType($prefix: $responsive-focus, $pseudo: $focus)
+// @include placeholder() // static
+// @include placeholderColor($prefix: $responsive-focus, $pseudo: $focus)
 // @include textAlign($prefix: $responsive-focus, $pseudo: $focus)
 // @include textDecoration($prefix: $responsive-focus, $pseudo: $focus)
 // @include textTransform($prefix: $responsive-focus, $pseudo: $focus)
 // @include verticalAlign($prefix: $responsive-focus, $pseudo: $focus)
 // @include whitespace($prefix: $responsive-focus, $pseudo: $focus)
 // @include wordBreak($prefix: $responsive-focus, $pseudo: $focus)
+// @include writingMode($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.1)
 // @include textClamp($prefix: $responsive-focus, $pseudo: $focus)
-

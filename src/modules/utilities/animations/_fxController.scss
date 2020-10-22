@@ -20,14 +20,17 @@
     $property2: "animation-fill-mode",
     $value2: "both"
   )
-  @include setRule(
-    $prefix: $prefix,
-    $pseudo: $pseudo,
-    $class: $class,
-    $selector: "animation.infinite",
-    $property1: "animation-iteration-count",
-    $value1: "infinite"
-  )
+  @each $modifier, $value in $animation-loop {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "animation.loop-",
+      $modifier: $modifier,
+      $property1: "animation-iteration-count",
+      $value1: "#{$value}"
+    )
+  }
   @each $modifier, $value in $animation-delay {
     @include setRule(
       $prefix: $prefix,
