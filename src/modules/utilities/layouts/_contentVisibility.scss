@@ -1,7 +1,7 @@
 /**
  * @utility: layouts
  * @module: _contentVisibility.scss
- * @desc: set skip rendering if element is off-screen to improve rendering speed.
+ * @desc: Utilities for sets skip rendering if element is off-screen to improve overall page rendering speed.
  */
 
 @mixin contentVisibility(
