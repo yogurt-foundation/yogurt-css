@@ -5,7 +5,7 @@
  * beautiful and elegant user interface at an atomic level.
  *
  * @repo: https://github.com/yogurt-foundation/yogurt-css
- * @docs: https://github.com/yogurt-foundation/yogurt-css-documentation
+ * @docs: https://yogurtcss.netlify.app
  * @author: Loouis Low (loouis@gmail.com)
  * @copyright: Loouis Low (loouis@gmail.com)
  * @license: MIT
@@ -595,7 +595,7 @@ y {
   display: block;
 }
 
-/*! yogurt.css v1.1.1-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
+/*! yogurt.css v1.1.2-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
 /**
  * @file: _config.scss
  */
@@ -24502,24 +24502,124 @@ y {
   cursor: default;
 }
 
+.cursor-none {
+  cursor: none;
+}
+
+.cursor-context-menu {
+  cursor: context-menu;
+}
+
+.cursor-help {
+  cursor: help;
+}
+
 .cursor-pointer {
   cursor: pointer;
+}
+
+.cursor-progress {
+  cursor: progress;
 }
 
 .cursor-wait {
   cursor: wait;
 }
 
+.cursor-cell {
+  cursor: cell;
+}
+
+.cursor-crosshair {
+  cursor: crosshair;
+}
+
 .cursor-text {
   cursor: text;
+}
+
+.cursor-vertical-text {
+  cursor: vertical-text;
+}
+
+.cursor-alias {
+  cursor: alias;
+}
+
+.cursor-copy {
+  cursor: copy;
 }
 
 .cursor-move {
   cursor: move;
 }
 
+.cursor-no-drop {
+  cursor: no-drop;
+}
+
 .cursor-not-allowed {
   cursor: not-allowed;
+}
+
+.cursor-all-scroll {
+  cursor: all-scroll;
+}
+
+.cursor-col-resize {
+  cursor: col-resize;
+}
+
+.cursor-row-resize {
+  cursor: row-resize;
+}
+
+.cursor-n-resize {
+  cursor: n-resize;
+}
+
+.cursor-e-resize {
+  cursor: e-resize;
+}
+
+.cursor-s-resize {
+  cursor: s-resize;
+}
+
+.cursor-w-resize {
+  cursor: w-resize;
+}
+
+.cursor-ns-resize {
+  cursor: ns-resize;
+}
+
+.cursor-ew-resize {
+  cursor: ew-resize;
+}
+
+.cursor-ne-resize {
+  cursor: ne-resize;
+}
+
+.cursor-nw-resize {
+  cursor: nw-resize;
+}
+
+.cursor-se-resize {
+  cursor: se-resize;
+}
+
+.cursor-sw-resize {
+  cursor: sw-resize;
+}
+
+.cursor-nesw-resize {
+  cursor: nesw-resize;
+}
+
+.cursor-nwse-resize {
+  cursor: nwse-resize;
 }
 
 .outline-none {
@@ -85914,6 +86014,6 @@ img[theme="invert"] {
  *    // ...
  *  )
  */
-/*! yogurt.css 1.1.1-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
+/*! yogurt.css 1.1.2-solidcore | MIT License | github.com/yogurt-foundation/yogurt-css */
 
-/*# sourceMappingURL=yogurt-1.1.1_solidcore.css.map */
+/*# sourceMappingURL=yogurt-1.1.2_solidcore.css.map */
