@@ -1,0 +1,32 @@
+/**
+ * @utility: patterns
+ * @module: _rhombus.scss
+ * @desc: Utilities for sets an element's background checks pattern.
+ */
+
+@mixin patternRhombus(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @if index($patterns, 'rhombus') {
+    @each $modifier, $value in $pattern-size {
+      @include setRule(
+        $prefix: ".pattern",
+        $pseudo: $pseudo,
+        $class: $class,
+        $selector: "rhombus-",
+        $modifier: $modifier,
+        $property1: "background-image",
+        $value1: "linear-gradient(135deg, currentColor 25%, transparent 25%), linear-gradient(225deg, currentColor 25%, transparent 25%), linear-gradient(45deg, currentColor 25%, transparent 25%), linear-gradient(315deg, currentColor 25%, transparent 25%)",
+        $property2: "background-position",
+        $value2: "#{$value} 0, #{$value} 0, 0 0, 0 0",
+        $property3: "background-size",
+        $value3: "#{$value} #{$value}",
+        $property4: "background-repeat",
+        $value4: "repeat"
+      )
+    }
+  }
+}
+

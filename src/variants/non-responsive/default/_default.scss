@@ -119,6 +119,7 @@
 @include patternGrid($class: $default)
 @include patternHorizontalLines($class: $default)
 @include patternHorizontalStripes($class: $default)
+@include patternRhombus($class: $default) // (v1.1.2)
 @include patternRipple($class: $default) // (v1.1.2)
 @include patternTriangles($class: $default)
 @include patternVerticalLines($class: $default)

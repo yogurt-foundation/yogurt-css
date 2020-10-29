@@ -1162,6 +1162,11 @@ y {
  */
 /**
  * @utility: patterns
+ * @module: _rhombus.scss
+ * @desc: Utilities for sets an element's background checks pattern.
+ */
+/**
+ * @utility: patterns
  * @module: _ripple.scss
  * @desc: Utilities for sets an element's background checks pattern.
  */
@@ -25715,6 +25720,34 @@ y {
 .pattern.horizontal-stripes-xl {
   background-image: linear-gradient(0deg, transparent 50%, currentColor 50%);
   background-size: 100px 100px;
+}
+
+.pattern.rhombus-sm {
+  background-image: linear-gradient(135deg, currentColor 25%, transparent 25%), linear-gradient(225deg, currentColor 25%, transparent 25%), linear-gradient(45deg, currentColor 25%, transparent 25%), linear-gradient(315deg, currentColor 25%, transparent 25%);
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 10px 10px;
+  background-repeat: repeat;
+}
+
+.pattern.rhombus-md {
+  background-image: linear-gradient(135deg, currentColor 25%, transparent 25%), linear-gradient(225deg, currentColor 25%, transparent 25%), linear-gradient(45deg, currentColor 25%, transparent 25%), linear-gradient(315deg, currentColor 25%, transparent 25%);
+  background-position: 25px 0, 25px 0, 0 0, 0 0;
+  background-size: 25px 25px;
+  background-repeat: repeat;
+}
+
+.pattern.rhombus-lg {
+  background-image: linear-gradient(135deg, currentColor 25%, transparent 25%), linear-gradient(225deg, currentColor 25%, transparent 25%), linear-gradient(45deg, currentColor 25%, transparent 25%), linear-gradient(315deg, currentColor 25%, transparent 25%);
+  background-position: 50px 0, 50px 0, 0 0, 0 0;
+  background-size: 50px 50px;
+  background-repeat: repeat;
+}
+
+.pattern.rhombus-xl {
+  background-image: linear-gradient(135deg, currentColor 25%, transparent 25%), linear-gradient(225deg, currentColor 25%, transparent 25%), linear-gradient(45deg, currentColor 25%, transparent 25%), linear-gradient(315deg, currentColor 25%, transparent 25%);
+  background-position: 100px 0, 100px 0, 0 0, 0 0;
+  background-size: 100px 100px;
+  background-repeat: repeat;
 }
 
 .pattern.ripple-sm {
