@@ -112,6 +112,7 @@
 
 // (1.0.8)
 @include patternChecks($class: $default)
+@include patternCircle($class: $default) // (v1.1.2)
 @include patternCrossDots($class: $default)
 @include patternDiagonalLines($class: $default)
 @include patternDiagonalStripes($class: $default)

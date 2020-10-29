@@ -1127,6 +1127,11 @@ y {
  */
 /**
  * @utility: patterns
+ * @module: _circus.scss
+ * @desc: Utilities for sets an element's background checks pattern.
+ */
+/**
+ * @utility: patterns
  * @module: _crossDots.scss
  * @desc: Utilities for sets an element's background cross-dots pattern.
  */
@@ -25580,6 +25585,22 @@ y {
   background-image: repeating-linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%, currentColor), repeating-linear-gradient(45deg, currentColor 25%, transparent 25%, transparent 75%, currentColor 75%, currentColor);
   background-position: 0 0, 100px 100px;
   background-size: calc(2 * 100px) calc(2 * 100px);
+}
+
+.pattern.circle-sm {
+  background-image: radial-gradient(circle at center center, currentColor, transparent), repeating-radial-gradient(circle at center center, currentColor, currentColor, 2px, transparent 10px, transparent 20px);
+}
+
+.pattern.circle-md {
+  background-image: radial-gradient(circle at center center, currentColor, transparent), repeating-radial-gradient(circle at center center, currentColor, currentColor, 2px, transparent 25px, transparent 20px);
+}
+
+.pattern.circle-lg {
+  background-image: radial-gradient(circle at center center, currentColor, transparent), repeating-radial-gradient(circle at center center, currentColor, currentColor, 2px, transparent 50px, transparent 20px);
+}
+
+.pattern.circle-xl {
+  background-image: radial-gradient(circle at center center, currentColor, transparent), repeating-radial-gradient(circle at center center, currentColor, currentColor, 2px, transparent 100px, transparent 20px);
 }
 
 .pattern.cross-dots-sm {
