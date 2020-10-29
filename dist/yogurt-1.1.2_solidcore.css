@@ -692,22 +692,22 @@ y {
 /**
  * @utility: accessibility
  * @module: _screenReader.scss
- * @desc: controls whether an element is visually hidden but still accessible to screen readers
+ * @desc: Utilities for controls whether an element is visually hidden but still accessible to screen readers.
  */
 /**
  * @utility: animations
  * @module: _blur.scss
- * @desc: sets the blur variant of animation to an element
+ * @desc: Utilities for sets the blur animation to an element.
  */
 /**
  * @utility: animations
  * @module: _fade.scss
- * @desc: sets the fade variant of animation to an element
+ * @desc: Utilities for sets the fading animation to an element.
  */
 /**
  * @utility: animations
  * @module: _fxController.scss
- * @desc: sets animation to an element with duration and delay controllers
+ * @desc: Utilities for sets the animation control with loops, durations and delays.
  */
 .animation {
   -webkit-animation-duration: 1s;
@@ -794,372 +794,381 @@ y {
 /**
  * @utility: animations
  * @module: _roll.scss
- * @desc: sets the roll variant of animation to an element
+ * @desc: Utilities for sets the rolling animation to an element.
  */
 /**
  * @utility: animations
  * @module: _slide.scss
- * @desc: sets the slide variant of animation to an element
+ * @desc: Utilities for sets the sliding animation to an element.
  */
 /**
  * @utility: backgrounds
  * @module: _backgroundAttachment.scss
- * @desc: sets behaviour of background images when scrolling
+ * @desc: Utilities for sets behaviour of background images when scrolling.
  */
 /**
  * @utility: effects
  * @module: _backgroundBlend.scss
- * @desc: sets the blending mode of each background layer (color or image)
+ * @desc: Utilities for sets the blending mode of each background layer (color or image).
  */
 /**
  * @utility: backgrounds
  * @module: _backgroundBorder.scss
- * @desc: sets background border to an element with more flexible control over the border spacing, size, angle and length.
+ * @desc: Utilities for sets background border to an element with flexible control over the border spacing, size, angle and length.
+
+
  */
 /**
  * @utility: backgrounds
- * @module: backgroundColor/_yellow.scss
- * @desc: sets background color
+ * @module: _backgroundColor.scss
+ * @desc: Utilities for sets background color.
  */
 /**
  * @utility: backgrounds
  * @module: _backgroundGradient.scss
- * @desc: sets the background gradient color to an element with flexible control over color, color space and angles
+ * @desc: Utilities for sets the background gradient color to an element with flexible control over color, color space and angles.
  */
 /**
  * @utility: backgrounds
  * @module: _backgroundOpacity.scss
- * @desc: sets opacity of background images
+ * @desc: Utilities for sets opacity of background color.
  */
 /**
  * @utility: backgrounds
  * @module: _backgroundPosition.scss
- * @desc: sets position of a background image
+ * @desc: Utilities for sets position of a background image.
  */
 /**
  * @utility: backgrounds
  * @module: _backgroundRepeat.scss
- * @desc: sets repetition of a background image
+ * @desc: Utilities for sets repetition of a background image.
  */
 /**
  * @utility: backgrounds
  * @module: _backgroundSize.scss
- * @desc: sets background size of a background image
+ * @desc: Utilities for sets background size of a background image.
  */
 /**
  * @utility: borders
  * @module: _borderColor.scss
- * @desc: sets border color
+ * @desc: Utilities for sets border color.
+
+
  */
 /**
  * @utility: borders
  * @module: _borderRadius.scss
- * @desc: sets border radius
+ * @desc: Utilities for sets border radius.
  */
 /**
  * @utility: borders
  * @module: _borderStyle.scss
- * @desc: sets border style
+ * @desc: Utilities for sets border style.
  */
 /**
  * @utility: borders
  * @module: _borderWidth.scss
- * @desc: sets border width in increments of 1px
+ * @desc: Utilities for sets border width in increments of 1px.
  */
 /**
  * @utility: borderDissect
  * @module: _borderDissect.scss
- * @desc: divide each child elements with the bottom border
+ * @desc: Utilities for sets bottom border on each child elements of its parent.
  */
 /**
  * @utility: borders
  * @module: _dissectColor.scss
- * @desc: set color for bottom border for each child elements
+ * @desc: Utilities for sets bottom border color on each child elements of its parent.
  */
 /**
  * @utility: borderDissectOpacity
  * @module: _borderDissectOpacity.scss
- * @desc: divide each child elements with the bottom border
+ * @desc: Utilities for sets opacity to bottom border on each child elements of its parent.
  */
 /**
  * @utility: debug
  * @module: _outline.scss
- * @desc: inspecting errors in spacing and overlapping elements
+ * @desc: Utilities for inspecting errors in spacing or overlapping elements.
  */
 /**
  * @utility: debug
  * @module: _screen.scss
- * @desc: visualize responsive screen sizes
+ * @desc: Utilities for inspecting screen sizes.
  */
 /**
  * @utility: effects
  * @module: _boxShadow.scss
- * @desc: sets the box-shadow property attaches one or more shadows to an element
+ * @desc: Utilities for sets the box-shadow property attaches one or more shadows to an element.
  */
 /**
  * @utility: effects
  * @module: _gradient.scss
- * @desc: sets the preset gradient diagonally to an element
+ * @desc: Utilities for sets the gradient preset diagonally to an element.
  */
 /**
  * @utility: effects
  * @module: _mixBlend.scss
- * @desc: sets how an element's content should blend with its direct parent background
+ * @desc: Utilities for sets how an element's content should blend with its direct parent background.
  */
 /**
  * @utility: effects
  * @module: _opacity.scss
- * @desc: sets the transparency of an element
+ * @desc: Utilities for sets the transparency of an element.
  */
 /**
  * @utility: effects
  * @module: _shadowColor.scss
- * @desc: sets the shadow color
+ * @desc: Utilities for sets the shadow color to an element.
  */
 /**
  * @utility: filters
  * @module: _filterBackdropCompose.scss
- * @desc: sets mixed backdrop filters (brightness, contrast, saturate) to an element
+ * @desc: Utilities for sets filter backdrop brightness, contrast, saturate and blur effects to an element.
  */
 /**
  * @utility: filters
  * @module: _filterCompose.scss
- * @desc: sets mixed filters (brightness, contrast, saturate) to an element
+ * @desc: Utilities for sets brightness, contrast, saturate, drop shadow and blur filters to an element.
  */
 /**
  * @utility: filters
  * @module: _invert.scss
- * @desc: sets filter invert effect to an element
+ * @desc: Utilities for sets filter inverts effect to an element.
  */
 /**
  * @utility: flexbox
  * @module: _alignContent.scss
- * @desc: controls how lines are positioned in multi-line flex containers
+ * @desc: Utilities for controls how lines are positioned in multi-line flex containers.
  */
 /**
  * @utility: flexbox
  * @module: _alignItems.scss
- * @desc: sets flex items position along a container's cross axis
+ * @desc: Utilities for sets flex items position along a container's cross axis.
  */
 /**
  * @utility: flexbox
  * @module: _alignSelf.scss
- * @desc: controls how an individual flex item is positioned along container's cross axis
+ * @desc: Utilities for controls how an individual flex item is positioned along container's cross axis.
  */
 /**
  * @utility: flexbox
  * @module: _flex.scss
- * @desc: controls how flex items grow and shrink
+ * @desc: Utilities for controls how flex items grow and shrink.
  */
 /**
  * @utility: flexbox
  * @module: _flexDirection.scss
- * @desc: sets direction of flex items
+ * @desc: Utilities for sets direction of flex items.
  */
 /**
  * @utility: flexbox
  * @module: _flexGap.scss
- * @desc: sets spacing evenly to child elements
+ * @desc: Utilities for set inner spacing in between the flex child elements.
  */
 /**
  * @utility: flexbox
  * @module: _flexGrow.scss
- * @desc: controls how flex items grow
+ * @desc: Utilities for controls how flex items grow.
  */
 /**
  * @utility: flexbox
  * @module: _flexShrink.scss
- * @desc: controls how flex items shrink
+ * @desc: Utilities for controls how flex items shrink.
  */
 /**
  * @utility: flexbox
  * @module: _flexWrap.scss
- * @desc: creates how flex items wrap
+ * @desc: Utilities for creates how flex items wrap.
  */
 /**
  * @utility: flexbox
  * @module: _justifyContent.scss
- * @desc:: controls how flex items are positioned along container's main axis
+ * @desc:: Utilities for controls how flex items are positioned along container's main axis.
  */
 /**
  * @utility: flexbox
  * @module: _order.scss
- * @desc: controls how flex items are ordered
+ * @desc: Utilities for controls how flex items are ordered.
  */
 /**
  * @utility: typography
  * @module: _fluidFontSize.scss
- * @desc: sets min and max font sizes for screen sizes.
+ * @desc: Utilities for sets min and max font sizes for screen size without breakpoints.
  */
 /**
  * @utility: spacing
  * @module: _fluidMargin.scss
- * @desc: sets min and max margins for screen sizes.
+ * @desc: Utilities for sets min and max margins for screen size without breakpoints.
  */
 /**
  * @utility: spacing
  * @module: _fluidPadding.scss
- * @desc: sets min and max paddings for screen sizes.
+ * @desc: Utilities for sets min and max paddings for screen size without breakpoints.
  */
 /**
  * @utility: interactivity
  * @module: _appearance.scss
- * @desc: disables native styling based on the native browser theme
+ * @desc: Utilities for disables native styling based on the native browser theme.
  */
 /**
  * @utility: interactivity
  * @module: _cursor.scss
- * @desc: changes the cursor when hovering over an element
+ * @desc: Utilities for changes the cursor when hovering over an element.
  */
 /**
  * @utility: interactivity
  * @module: _outline.scss
- * @desc: sets native browser outline style to reset
+ * @desc: Utilities for sets native browser outline style to reset.
  */
 /**
  * @utility: layouts
  * @module: _overscroll.scss
- * @desc: sets what a browser does when reaching the boundary of a scrolling area.
+ * @desc: Utilities for sets an scrollable element that won't affecting the parent scrollable element on touch device.
  */
 /**
  * @utility: interactivity
  * @module: _pointerEvents.scss
- * @desc: specifies whether an element is the target of mouse events
+ * @desc: Utilities for specifies whether an element is the target of mouse events.
  */
 /**
  * @utility: interactivity
  * @module: _resize.scss
- * @desc: sets whether an element is resizable, along with direction
+ * @desc: Utilities for sets whether an element is resizable, along with direction.
  */
 /**
  * @utility: interactivity
  * @module: _scrollBehavior.scss
- * @desc: smooth animation of scroll anchored position within a scrolling box
+ * @desc: Utilities for sets smooth animation of scroll anchored position within a scrolling box.
  */
 /**
  * @utility: layouts
  * @module: _scrollSnap.scss
- * @desc: sets viewport lock to certain elements or locations after finished scrolling
+ * @desc: Utilities for sets viewport lock to certain elements or locations after finished scrolling.
  */
 /**
  * @utility: interactivity
  * @module: _touchAction.scss
- * @desc: gives control over the effect of touchscreen interactions to an element
+ * @desc: Utilities for set control over the effect of touchscreen interactions to an element.
  */
 /**
  * @utility: interactivity
  * @module: _userSelect.scss
- * @desc: controls whether the user can select text
+ * @desc: Utilities for controls whether the user can select text.
  */
 /**
  * @utility: layouts
  * @module: _boxSizing.scss
- * @desc: sets how the total width and height of an element is calculated
+ * @desc: Utilities for sets how the total width and height of an element is calculated.
  */
 /**
  * @utility: layouts
  * @module: _clear.scss
- * @desc: set whether an element is moved below preceding floated elements
+ * @desc: Utilities for set whether an element is moved below preceding floated elements.
  */
 /**
  * @utility: layouts
  * @module: _container.scss
- * @desc: set max-width to match min-width of the current breakpoint
+ * @desc: Utilities for set max-width to match min-width of the current breakpoint.
  */
 /**
  * @utility: layouts
  * @module: _contentVisibility.scss
- * @desc: set skip rendering if element is off-screen to improve rendering speed.
+ * @desc: Utilities for sets skip rendering if element is off-screen to improve overall page rendering speed.
  */
 /**
  * @utility: layouts
  * @module: _display.scss
- * @desc: sets the display box type of an element
+ * @desc: Utilities for sets the display box type of an element.
  */
 /**
  * @utility: layouts
  * @module: _float.scss
- * @desc: sets an element's placement to a side of its container and allows content to wrap around it
+ * @desc: Utilities for sets an element's placement to a side of its container and allows content to wrap around it.
  */
 /**
  * @utility: layouts
  * @module: _inset.scss
- * @desc: sets the placement of a positioned element
+ * @desc: Utilities for sets the placement of a positioned element.
  */
 /**
  * @utility: layouts
  * @module: _objectFit.scss
- * @desc: sets how the content of a replaced element (img or video tag) should be resized
+ * @desc: Utilities for sets how the content of a replaced element (img or video tag) should be resized.
  */
 /**
  * @utility: layouts
  * @module: _objectPosition.scss
- * @desc: sets the alignment of the selected replaced element
+ * @desc: Utilities for sets the alignment of the selected replaced element.
  */
 /**
  * @utility: layouts
  * @module: _overflow.scss
- * @desc: sets how to handle content that's too big for it's container
+ * @desc: Utilities for sets how to handle content that's too big for it's container.
  */
 /**
  * @utility: layouts
  * @module: _position.scss
- * @desc: sets an element's position
+ * @desc: Utilities for sets an element's position.
  */
 /**
  * @utility: layouts
  * @module: _visibility.scss
- * @desc: show or hide without affecting the layout of the document
+ * @desc: Utilities for show or hide without affecting the layout of the document.
  */
 /**
  * @utility: layouts
  * @module: _zIndex.scss
- * @desc: sets the z order (stack order) of a positioned element
+ * @desc: Utilities for sets the z order (stack order) of a positioned element.
  */
 /**
  * @utility: patterns
  * @module: _checks.scss
- * @desc: sets the element background with checks patterns
+ * @desc: Utilities for sets an element's background checks pattern.
  */
 /**
  * @utility: patterns
  * @module: _crossDots.scss
- * @desc: sets the element background with cross-dots patterns
+ * @desc: Utilities for sets an element's background cross-dots pattern.
  */
 /**
  * @utility: patterns
  * @module: _diagonalLines.scss
- * @desc: sets the element background with diagonal-lines patterns
+ * @desc: Utilities for sets an element's background diagonal-lines pattern.
  */
 /**
  * @utility: patterns
  * @module: _diagonalStripes.scss
- * @desc: sets the element background with diagonal-stripes patterns
+ * @desc: Utilities for sets an element's background diagonal-stripes pattern.
  */
 /**
  * @utility: patterns
  * @module: _dots.scss
- * @desc: sets the element background with dots patterns
+ * @desc: Utilities for sets an element's background dots pattern.
  */
 /**
  * @utility: patterns
  * @module: _grid.scss
- * @desc: sets the element background with grid patterns
+ * @desc: Utilities for sets an element's background grid pattern.
  */
 /**
  * @utility: patterns
  * @module: _horizontalLines.scss
- * @desc: sets the element background with horizontal-lines patterns
+ * @desc: Utilities for sets an element's background horizontal-lines pattern.
  */
 /**
  * @utility: patterns
  * @module: _verticalStripes.scss
- * @desc: sets the element background with vertical-stripes patterns
+ * @desc: Utilities for sets an element's background horizontal-stripes pattern.
+ */
+/**
+ * @utility: patterns
+ * @module: _ripple.scss
+ * @desc: Utilities for sets an element's background checks pattern.
  */
 /**
  * @utility: patterns
  * @module: _triangles.scss
- * @desc: sets the element background with triangles patterns
+ * @desc: Utilities for sets an element's background triangles pattern.
  */
 /**
  * @utility: patterns
@@ -1175,187 +1184,187 @@ y {
 /**
  * @utility: patterns
  * @module: _verticalLines.scss
- * @desc: sets the element background with vertical-lines patterns
+ * @desc: Utilities for sets an element's background vertical-lines pattern.
  */
 /**
  * @utility: patterns
  * @module: _verticalStripes.scss
- * @desc: sets the element background with vertical-stripes patterns
+ * @desc: Utilities for sets an element's background vertical-stripes pattern.
  */
 /**
  * @utility: patterns
  * @module: _zigzag.scss
- * @desc: sets the element background with zigzag patterns
+ * @desc: Utilities for sets an element's background zigzag pattern.
  */
 /**
  * @utility: sizing
  * @module: _height.scss
- * @desc: sets the height of an element
+ * @desc: Utilities for sets the height of an element.
  */
 /**
  * @utility: sizing
  * @module: _maxHeight.scss
- * @desc: sets the maximum height of an element
+ * @desc: Utilities for sets the maximum height of an element.
  */
 /**
  * @utility: sizing
  * @module: _maxWidth.scss
- * @desc: sets the maximum width of an element
+ * @desc: Utilities for sets the maximum width of an element.
  */
 /**
  * @utility: sizing
  * @module: _minHeight.scss
- * @desc: sets the miminum height of an element
+ * @desc: Utilities for sets the miminum height of an element.
  */
 /**
  * @utility: sizing
  * @module: _minWidth.scss
- * @desc: sets the minimum width of an element
+ * @desc: Utilities for sets the minimum width of an element.
  */
 /**
  * @utility: sizing
  * @module: _width.scss
- * @desc: sets the width of an element
+ * @desc: Utilities for sets the width of an element.
  */
 /**
  * @utility: equal
  * @module: _equal.scss
- * @desc: balancing the space in between the child elements
+ * @desc: Utilities for sets balancing the space in between child elements.
  */
 /**
  * @utility: spacing
  * @module: _margin.scss
- * @desc: controls margin (and negative margin) in 0.25rem increments
+ * @desc: Utilities for controls margin (and negative margin) in 0.25rem increments.
  */
 /**
  * @utility: spacing
  * @module: _padding.scss
- * @desc: controls padding in 0.25rem increments
+ * @desc: Utilities for controls padding in 0.25rem increments.
  */
 /**
  * @utility: svg
  * @module: _fill.scss
- * @desc: sets the color to paint an SVG
+ * @desc: Utilities for sets the color to paint an SVG.
  */
 /**
  * @utility: svg
  * @module: _stroke.scss
- * @desc: sets the outline color of an SVG
+ * @desc: Utilities for sets the outline color of an SVG.
  */
 /**
  * @utility: svg
  * @module: _strokeLineCap.scss
- * @desc: sets the outline shape of an SVG
+ * @desc: Utilities for sets the outline shape of an SVG.
  */
 /**
  * @utility: svg
  * @module: _strokeWidth.scss
- * @desc: sets the outline width of an SVG
+ * @desc: Utilities for sets the outline width of an SVG.
  */
 /**
  * @utility: tables
  * @module: _borderCollapse.scss
- * @desc: collapse or separate table borders
+ * @desc: Utilities for collapse or separate table borders.
  */
 /**
  * @utility: tables
  * @module: _tableLayout.scss
- * @desc: defines the algorithm used to layout table cells, rows and columns
+ * @desc: Utilities for defines the algorithm used to layout table cells, rows and columns.
  */
 /**
  * @utility: theme
  * @module: _themeAuto.scss
- * @desc: sets page theme (dark or light) based on app settings
+ * @desc: Utilities for sets page theme either dark or light based on web browser or app settings with color correction.
  */
 /**
  * @utility: theme
  * @module: _themeInvert.scss
- * @desc: sets page theme (dark or light) based on force
+ * @desc: Utilities for sets page theme either dark or light by applying force invert with color correction.
  */
 /**
  * @utility: transforms
  * @module: _rotate.scss
- * @desc: rotates an element that has transform applied
+ * @desc: Utilities for rotates an element that has transform applied.
  */
 /**
  * @utility: transforms
  * @module: _scale.scss
- * @desc: scales an element that has transform applied
+ * @desc: Utilities for scales an element that has transform applied.
  */
 /**
  * @utility: transforms
  * @module: _skew.scss
- * @desc: skews an element that has transform applied
+ * @desc: Utilities for skews an element that has transform applied.
  */
 /**
  * @utility: transforms
  * @module: _transform.scss
- * @desc: sets the transform of an element
+ * @desc: Utilities for sets the origin of an element's transforms.
  */
 /**
  * @utility: transforms
  * @module: _transformOrigin.scss
- * @desc: sets the origin of an element's transforms
+ * @desc: Utilities for sets the origin of an element's transforms.
  */
 /**
  * @utility: transforms
  * @module: _translate.scss
- * @desc: translate an element that has transform applied
+ * @desc: Utilities for translate an element that has transform applied.
  */
 /**
  * @utility: transitions
  * @module: _transitionDuration.scss
- * @desc: sets the length of time for a transition animations to complete
+ * @desc: Utilities for sets the length of time for a transition animations to complete.
  */
 /**
  * @utility: transitions
  * @module: _transitionProperty.scss
- * @desc: sets the css properties affected by transition animations
+ * @desc: Utilities for sets the css properties affected by transition animations.
  */
 /**
  * @utility: transitions
  * @module: _transitionTiming.scss
- * @desc: sets the easing function of transition animations
+ * @desc: Utilities for sets the easing function of transition animations.
  */
 /**
  * @utility: typography
  * @module: _fontFamily.scss
- * @desc: sets the font family
+ * @desc: Utilities for sets the font family.
  */
 /**
  * @utility: typography
  * @module: _fontKerning.scss
- * @desc: defines the way specific pairs of letters are spaced.
+ * @desc: Utilities for removing spacing for specific pairs of letters automatically.
  */
 /**
  * @utility: typography
  * @module: _fontSize.scss
- * @desc: sets the font size
+ * @desc: Utilities for sets the font size.
  */
 /**
  * @utility: typography
  * @module: _fontSmoothing.scss
- * @desc: sets the antialiasing of the font
+ * @desc: Utilities for sets the antialiasing of the font.
  */
 /**
  * @utility: typography
  * @module: _fontStyle.scss
- * @desc: sets the style of the font
+ * @desc: Utilities for sets the style of the font.
  */
 /**
  * @utility: typography
  * @module: _fontWeight.scss
- * @desc: sets the font weight
+ * @desc: Utilities for sets the font weight.
  */
 /**
  * @utility: typography
  * @module: _letterSpacing.scss
- * @desc: sets the spacing between letters
+ * @desc: Utilities for sets the spacing between letters.
  */
 /**
  * @utility: typography
  * @module: _lineHeight.scss
- * @desc: sets the line height
+ * @desc: Utilities for sets the line height.
  */
 /**
  * @utility: layouts
@@ -1365,12 +1374,12 @@ y {
 /**
  * @utility: typography
  * @module: _listStylePostion.scss
- * @desc: sets the position of a list's bullets
+ * @desc: Utilities for sets the position of a list's bullets.
  */
 /**
  * @utility: typography
  * @module: _listStyleType.scss
- * @desc: sets the bullet style of a list
+ * @desc: Utilities for sets the bullet style of a list.
  */
 /**
  * @utility: typography
@@ -1380,52 +1389,52 @@ y {
 /**
  * @utility: typography
  * @module: _placeholderColor.scss
- * @desc: sets the placeholder color using the ::placeholder pseudo element
+ * @desc: Utilities for sets the placeholder color using the ::placeholder pseudo element.
  */
 /**
  * @utility: typography
  * @module: _textAlign.scss
- * @desc: sets the alignment of text
+ * @desc: Utilities for sets the alignment of text.
  */
 /**
  * @utility: typography
  * @module: _textClamp.scss
- * @desc: sets the total text line to display
+ * @desc: Utilities for sets total display text line to an element.
  */
 /**
  * @utility: typography
  * @module: _textColor.scss
- * @desc: sets the text color
+ * @desc: Utilities for sets the text color.
  */
 /**
  * @utility: typography
  * @module: _textDecoration.scss
- * @desc: sets the text-decoration of an element
+ * @desc: Utilities for sets the text-decoration of an element.
  */
 /**
  * @utility: typography
  * @module: _textTransform.scss
- * @desc: sets the capitalization of text
+ * @desc: Utilities for sets the capitalization of text.
  */
 /**
  * @utility: typography
  * @module: _verticalAlign.scss
- * @desc: sets the vertical alignment of an inline or table-cell box
+ * @desc: Utilities for sets the vertical alignment of an inline or table-cell box.
  */
 /**
  * @utility: typography
  * @module: _whitespace.scss
- * @desc: sets the whitespace of an element
+ * @desc: Utilities for sets the whitespace of an element.
  */
 /**
  * @utility: typography
  * @module: _wordBreak.scss
- * @desc: sets the word breaks of an element
+ * @desc: Utilities for sets the word breaks of an element.
  */
 /**
  * @utility: typography
  * @module: _writingMode.scss
- * @desc: sets alignment of the text horizontally, vertically, or which direction depending on the language.
+ * @desc: Utilities for sets alignment of the text horizontally, vertically, or which direction depending on the language.
  */
 /**
  * @module: variants/non-responsive/default/
@@ -25706,6 +25715,22 @@ y {
 .pattern.horizontal-stripes-xl {
   background-image: linear-gradient(0deg, transparent 50%, currentColor 50%);
   background-size: 100px 100px;
+}
+
+.pattern.ripple-sm {
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, currentColor 10px), repeating-linear-gradient( currentColor, transparent );
+}
+
+.pattern.ripple-md {
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, currentColor 25px), repeating-linear-gradient( currentColor, transparent );
+}
+
+.pattern.ripple-lg {
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, currentColor 50px), repeating-linear-gradient( currentColor, transparent );
+}
+
+.pattern.ripple-xl {
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, currentColor 100px), repeating-linear-gradient( currentColor, transparent );
 }
 
 .pattern.triangles-sm {
@@ -59850,6 +59875,7 @@ img[theme="invert"] {
   /* fluids */
   /* interactivity */
   /* layouts */
+  /* patterns */
   /* sizing */
   /* spacing */
   /* svg */
@@ -62930,6 +62956,7 @@ img[theme="invert"] {
   /* fluids */
   /* interactivity */
   /* layouts */
+  /* patterns */
   /* sizing */
   /* spacing */
   /* svg */
@@ -66010,6 +66037,7 @@ img[theme="invert"] {
   /* fluids */
   /* interactivity */
   /* layouts */
+  /* patterns */
   /* sizing */
   /* spacing */
   /* svg */
@@ -69090,6 +69118,7 @@ img[theme="invert"] {
   /* fluids */
   /* interactivity */
   /* layouts */
+  /* patterns */
   /* sizing */
   /* spacing */
   /* svg */
@@ -72170,6 +72199,7 @@ img[theme="invert"] {
   /* fluids */
   /* interactivity */
   /* layouts */
+  /* patterns */
   /* sizing */
   /* spacing */
   /* svg */
@@ -75250,6 +75280,7 @@ img[theme="invert"] {
   /* fluids */
   /* interactivity */
   /* layouts */
+  /* patterns */
   /* sizing */
   /* spacing */
   /* svg */
@@ -78330,6 +78361,7 @@ img[theme="invert"] {
   /* fluids */
   /* interactivity */
   /* layouts */
+  /* patterns */
   /* sizing */
   /* spacing */
   /* svg */

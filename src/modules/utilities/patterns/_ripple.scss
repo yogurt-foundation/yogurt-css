@@ -1,0 +1,27 @@
+/**
+ * @utility: patterns
+ * @module: _ripple.scss
+ * @desc: Utilities for sets an element's background checks pattern.
+ */
+
+@mixin patternRipple(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @if index($patterns, 'ripple') {
+    @each $modifier, $value in $pattern-size {
+      @include setRule(
+        $prefix: ".pattern",
+        $pseudo: $pseudo,
+        $class: $class,
+        $selector: "ripple-",
+        $modifier: $modifier,
+        $property1: "background-image",
+        $value1: "repeating-radial-gradient(circle at 0 0, transparent 0, currentColor #{$value}), repeating-linear-gradient( currentColor, transparent )"
+      )
+    }
+  }
+}
+
+
