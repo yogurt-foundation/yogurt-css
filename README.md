@@ -28,7 +28,7 @@ A colossal low-level utility CSS framework for crafting beautiful and elegant us
 
 ### Documentation
 
-[Visit Full Documentation Website](https://yogurt-css-documentation.netlify.app).
+[Visit Full Documentation Website](https://yogurtcss.netlify.app).
 
 ### Community
 
