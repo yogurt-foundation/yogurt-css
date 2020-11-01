@@ -103,6 +103,7 @@
 
 // (1.0.8)
 // @include patternChecks($prefix: $responsive-hover, $pseudo: $hover)
+// @include patternCircle($prefix: $responsive-hover, $pseudo: $hover) // (v1.1.2)
 // @include patternCrossDots($prefix: $responsive-hover, $pseudo: $hover)
 // @include patternDiagonalLines($prefix: $responsive-hover, $pseudo: $hover)
 // @include patternDiagonalStripes($prefix: $responsive-hover, $pseudo: $hover)
@@ -110,6 +111,8 @@
 // @include patternGrid($prefix: $responsive-hover, $pseudo: $hover)
 // @include patternHorizontalLines($prefix: $responsive-hover, $pseudo: $hover)
 // @include patternHorizontalStripes($prefix: $responsive-hover, $pseudo: $hover)
+// @include patternRhombus($prefix: $responsive-hover, $pseudo: $hover) // (v1.1.2)
+// @include patternRipple($prefix: $responsive-hover, $pseudo: $hover) // (v1.1.2)
 // @include patternTriangles($prefix: $responsive-hover, $pseudo: $hover)
 // @include patternVerticalLines($prefix: $responsive-hover, $pseudo: $hover)
 // @include patternVerticalStripes($prefix: $responsive-hover, $pseudo: $hover)

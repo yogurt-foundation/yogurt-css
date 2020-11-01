@@ -117,6 +117,7 @@
 
 // (1.0.8)
 // @include patternChecks($prefix: $variant-hover, $pseudo: $hover)
+// @include patternCircle($prefix: $variant-hover, $pseudo: $hover) // (v1.1.2)
 // @include patternCrossDots($prefix: $variant-hover, $pseudo: $hover)
 // @include patternDiagonalLines($prefix: $variant-hover, $pseudo: $hover)
 // @include patternDiagonalStripes($prefix: $variant-hover, $pseudo: $hover)
@@ -124,6 +125,8 @@
 // @include patternGrid($prefix: $variant-hover, $pseudo: $hover)
 // @include patternHorizontalLines($prefix: $variant-hover, $pseudo: $hover)
 // @include patternHorizontalStripes($prefix: $variant-hover, $pseudo: $hover)
+// @include patternRhombus($prefix: $variant-hover, $pseudo: $hover) // (v1.1.2)
+// @include patternRipple($prefix: $variant-hover, $pseudo: $hover) // (v1.1.2)
 // @include patternTriangles($prefix: $variant-hover, $pseudo: $hover)
 // @include patternVerticalLines($prefix: $variant-hover, $pseudo: $hover)
 // @include patternVerticalStripes($prefix: $variant-hover, $pseudo: $hover)

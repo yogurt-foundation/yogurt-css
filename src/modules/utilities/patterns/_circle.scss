@@ -1,0 +1,26 @@
+/**
+ * @utility: patterns
+ * @module: _circus.scss
+ * @desc: Utilities for sets an element's background checks pattern.
+ */
+
+@mixin patternCircle(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @if index($patterns, 'circle') {
+    @each $modifier, $value in $pattern-size {
+      @include setRule(
+        $prefix: ".pattern",
+        $pseudo: $pseudo,
+        $class: $class,
+        $selector: "circle-",
+        $modifier: $modifier,
+        $property1: "background-image",
+        $value1: "radial-gradient(circle at center center, currentColor, transparent), repeating-radial-gradient(circle at center center, currentColor, currentColor, 2px, transparent #{$value}, transparent 20px)"
+      )
+    }
+  }
+}
+

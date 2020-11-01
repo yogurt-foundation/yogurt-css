@@ -5,7 +5,7 @@
 
 /* accessibility */
 
-@include screenReader($prefix: $variant-focus, $pseudo: $focus)
+// @include screenReader($prefix: $variant-focus, $pseudo: $focus)
 
 /* animations */
 
@@ -107,6 +107,7 @@
 
 // (1.0.8)
 // @include patternChecks($prefix: $variant-focus, $pseudo: $focus)
+// @include patternCircle($prefix: $variant-focus, $pseudo: $focus) // (v1.1.2)
 // @include patternCrossDots($prefix: $variant-focus, $pseudo: $focus)
 // @include patternDiagonalLines($prefix: $variant-focus, $pseudo: $focus)
 // @include patternDiagonalStripes($prefix: $variant-focus, $pseudo: $focus)
@@ -114,6 +115,8 @@
 // @include patternGrid($prefix: $variant-focus, $pseudo: $focus)
 // @include patternHorizontalLines($prefix: $variant-focus, $pseudo: $focus)
 // @include patternHorizontalStripes($prefix: $variant-focus, $pseudo: $focus)
+// @include patternRhombus($prefix: $variant-focus, $pseudo: $focus) // (v1.1.2)
+// @include patternRipple($prefix: $variant-focus, $pseudo: $focus) // (v1.1.2)
 // @include patternTriangles($prefix: $variant-focus, $pseudo: $focus)
 // @include patternVerticalLines($prefix: $variant-focus, $pseudo: $focus)
 // @include patternVerticalStripes($prefix: $variant-focus, $pseudo: $focus)

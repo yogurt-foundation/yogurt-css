@@ -105,6 +105,7 @@
 
 // (1.0.8)
 // @include patternChecks($prefix: $responsive-default)
+// @include patternCircle($prefix: $responsive-default) // (v1.1.2)
 // @include patternCrossDots($prefix: $responsive-default)
 // @include patternDiagonalLines($prefix: $responsive-default)
 // @include patternDiagonalStripes($prefix: $responsive-default)
@@ -112,6 +113,8 @@
 // @include patternGrid($prefix: $responsive-default)
 // @include patternHorizontalLines($prefix: $responsive-default)
 // @include patternHorizontalStripes($prefix: $responsive-default)
+// @include patternRhombus($prefix: $responsive-default) // (v1.1.2)
+// @include patternRipple($prefix: $responsive-default) // (v1.1.2)
 // @include patternTriangles($prefix: $responsive-default)
 // @include patternVerticalLines($prefix: $responsive-default)
 // @include patternVerticalStripes($prefix: $responsive-default)

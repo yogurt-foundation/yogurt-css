@@ -104,6 +104,7 @@
 
 // (1.0.8)
 // @include patternChecks($prefix: $responsive-focus, $pseudo: $focus)
+// @include patternCircle($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.2)
 // @include patternCrossDots($prefix: $responsive-focus, $pseudo: $focus)
 // @include patternDiagonalLines($prefix: $responsive-focus, $pseudo: $focus)
 // @include patternDiagonalStripes($prefix: $responsive-focus, $pseudo: $focus)
@@ -111,6 +112,8 @@
 // @include patternGrid($prefix: $responsive-focus, $pseudo: $focus)
 // @include patternHorizontalLines($prefix: $responsive-focus, $pseudo: $focus)
 // @include patternHorizontalStripes($prefix: $responsive-focus, $pseudo: $focus)
+// @include patternRhombus($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.2)
+// @include patternRipple($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.2)
 // @include patternTriangles($prefix: $responsive-focus, $pseudo: $focus)
 // @include patternVerticalLines($prefix: $responsive-focus, $pseudo: $focus)
 // @include patternVerticalStripes($prefix: $responsive-focus, $pseudo: $focus)

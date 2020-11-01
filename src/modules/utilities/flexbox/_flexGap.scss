@@ -1,10 +1,8 @@
 /**
  * @utility: flexbox
  * @module: _flexGap.scss
- * @desc: sets spacing evenly to child elements
+ * @desc: Utilities for set inner spacing in between the flex child elements.
  */
-
-// @class: inline-flex flex-wrap flex-gap-{value}
 
 @mixin flexGap(
   $prefix: null,

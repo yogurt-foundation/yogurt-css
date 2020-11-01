@@ -4,11 +4,11 @@
  */
 
 // prefix responsive
-$responsive-default: ".#{$screen}\\#{$separator}";
+$responsive-default: ".\\#{$prefix-before}#{$screen}\\#{$prefix-after}";
 
 // prefix responsive with variants
-$responsive-hover: ".#{$screen}\\:hover\\#{$separator}";
-$responsive-focus: ".#{$screen}\\:focus\\#{$separator}";
-$responsive-active: ".#{$screen}\\:active\\#{$separator}";
-$responsive-visited: ".#{$screen}\\:visited\\#{$separator}";
-$responsive-disabled: ".#{$screen}\\:disabled\\#{$separator}";
+$responsive-hover: ".\\#{$prefix-before}#{$screen}\\#{$prefix-after}:hover";
+$responsive-focus: ".\\#{$prefix-before}#{$screen}\\#{$prefix-after}:focus";
+$responsive-active: ".\\#{$prefix-before}#{$screen}\\#{$prefix-after}:active";
+$responsive-visited: ".\\#{$prefix-before}#{$screen}\\#{$prefix-after}:visited";
+$responsive-disabled: ".\\#{$prefix-before}#{$screen}\\#{$prefix-after}:disabled";

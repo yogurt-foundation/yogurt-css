@@ -1,13 +1,13 @@
 /**
  * @utility: backgrounds
- * @module: backgroundColor/_yellow.scss
- * @desc: sets background color
+ * @module: _backgroundColor.scss
+ * @desc: Utilities for sets background color.
  */
 
 @mixin backgroundRGBA($hexcolor, $opacity) {
   background-color: rgba($hexcolor, $opacity) #{$override}
 }
-  
+
 @mixin backgroundColor(
   $prefix: null,
   $pseudo: null,

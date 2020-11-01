@@ -98,6 +98,25 @@
 // @include visibility($prefix: $responsive-checked, $pseudo: $checked)
 // @include zIndex($prefix: $responsive-checked, $pseudo: $checked)
 
+/* patterns */
+
+// (1.0.8)
+// @include patternChecks($prefix: $responsive-checked, $pseudo: $checked)
+// @include patternCircle($prefix: $responsive-checked, $pseudo: $checked) // (v1.1.2)
+// @include patternCrossDots($prefix: $responsive-checked, $pseudo: $checked)
+// @include patternDiagonalLines($prefix: $responsive-checked, $pseudo: $checked)
+// @include patternDiagonalStripes($prefix: $responsive-checked, $pseudo: $checked)
+// @include patternDots($prefix: $responsive-checked, $pseudo: $checked)
+// @include patternGrid($prefix: $responsive-checked, $pseudo: $checked)
+// @include patternHorizontalLines($prefix: $responsive-checked, $pseudo: $checked)
+// @include patternHorizontalStripes($prefix: $responsive-checked, $pseudo: $checked)
+// @include patternRhombus($prefix: $responsive-checked, $pseudo: $checked) // (v1.1.2)
+// @include patternRipple($prefix: $responsive-checked, $pseudo: $checked) // (v1.1.2)
+// @include patternTriangles($prefix: $responsive-checked, $pseudo: $checked)
+// @include patternVerticalLines($prefix: $responsive-checked, $pseudo: $checked)
+// @include patternVerticalStripes($prefix: $responsive-checked, $pseudo: $checked)
+// @include patternZigzag($prefix: $responsive-checked, $pseudo: $checked)
+
 /* sizing */
 
 // @include height($prefix: $responsive-checked, $pseudo: $checked)

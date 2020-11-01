@@ -24,11 +24,11 @@
 
 A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level without writing a single line of CSS.
 
-> Version 1.1.1-solidcore
+> Version 1.1.2-solidcore
 
 ### Documentation
 
-[Visit Full Documentation Website](https://yogurt-css-documentation.netlify.app).
+[Visit Full Documentation Website](https://yogurtcss.netlify.app).
 
 ### Community
 

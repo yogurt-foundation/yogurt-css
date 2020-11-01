@@ -1,7 +1,7 @@
 /**
  * @utility: layouts
  * @module: _overscroll.scss
- * @desc: sets what a browser does when reaching the boundary of a scrolling area.
+ * @desc: Utilities for sets an scrollable element that won't affecting the parent scrollable element on touch device.
  */
 
 @mixin overscroll(

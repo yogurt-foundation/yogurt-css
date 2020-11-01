@@ -13,7 +13,8 @@ $id: "";
 // {class}. Use this option to make changes
 // for templating engine that do no support
 // special characters.
-$separator: ":"; // do not empty!
+$prefix-before: "(";
+$prefix-after: ")"; // do not empty!
 
 // override existing css with this option,
 // default is empty, to enable add `!important`.
@@ -361,11 +362,36 @@ $box-shadow:
 $cursor:
   (auto, auto),
   (default, default),
+  (none, none),
+  (context-menu, context-menu),
+  (help, help),
   (pointer, pointer),
+  (progress, progress),
   (wait, wait),
+  (cell, cell),
+  (crosshair, crosshair),
   (text, text),
+  (vertical-text, vertical-text),
+  (alias, alias),
+  (copy, copy),
   (move, move),
-  (not-allowed, not-allowed);
+  (no-drop, no-drop),
+  (not-allowed, not-allowed),
+  (all-scroll, all-scroll),
+  (col-resize, col-resize),
+  (row-resize, row-resize),
+  (n-resize, n-resize),
+  (e-resize, e-resize),
+  (s-resize, s-resize),
+  (w-resize, w-resize),
+  (ns-resize, ns-resize),
+  (ew-resize, ew-resize),
+  (ne-resize, ne-resize),
+  (nw-resize, nw-resize),
+  (se-resize, se-resize),
+  (sw-resize, sw-resize),
+  (nesw-resize, nesw-resize),
+  (nwse-resize, nwse-resize);
 
 /* display */
 
@@ -1178,6 +1204,7 @@ $fluid-spacing:
 
 $patterns: (
   'checks',
+  'circle',
   'cross-dots',
   'diagonal-lines',
   'diagonal-stripes',
@@ -1185,6 +1212,8 @@ $patterns: (
   'grid',
   'horizontal-lines',
   'horizontal-stripes',
+  'rhombus',
+  'ripple',
   'triangles',
   'vertical-lines',
   'vertical-stripes',

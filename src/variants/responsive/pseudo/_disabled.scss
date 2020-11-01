@@ -104,6 +104,7 @@
 
 // (1.0.8)
 // @include patternChecks($prefix: $responsive-disabled, $pseudo: $disabled)
+// @include patternCircle($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.1.2)
 // @include patternCrossDots($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include patternDiagonalLines($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include patternDiagonalStripes($prefix: $responsive-disabled, $pseudo: $disabled)
@@ -111,6 +112,8 @@
 // @include patternGrid($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include patternHorizontalLines($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include patternHorizontalStripes($prefix: $responsive-disabled, $pseudo: $disabled)
+// @include patternRhombus($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.1.2)
+// @include patternRipple($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.1.2)
 // @include patternTriangles($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include patternVerticalLines($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include patternVerticalStripes($prefix: $responsive-disabled, $pseudo: $disabled)

@@ -1,7 +1,7 @@
 /**
  * @utility: theme
  * @module: _themeInvert.scss
- * @desc: sets page theme (dark or light) based on force
+ * @desc: Utilities for sets page theme either dark or light by applying force invert with color correction.
  */
 
 @mixin themeInvert() {

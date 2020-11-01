@@ -107,6 +107,7 @@
 
 // (1.0.8)
 // @include patternChecks($prefix: $variant-active, $pseudo: $active)
+// @include patternCircle($prefix: $variant-active, $pseudo: $active) // (v1.1.2)
 // @include patternCrossDots($prefix: $variant-active, $pseudo: $active)
 // @include patternDiagonalLines($prefix: $variant-active, $pseudo: $active)
 // @include patternDiagonalStripes($prefix: $variant-active, $pseudo: $active)
@@ -114,6 +115,8 @@
 // @include patternGrid($prefix: $variant-active, $pseudo: $active)
 // @include patternHorizontalLines($prefix: $variant-active, $pseudo: $active)
 // @include patternHorizontalStripes($prefix: $variant-active, $pseudo: $active)
+// @include patternRhombus($prefix: $variant-active, $pseudo: $active) // (v1.1.2)
+// @include patternRipple($prefix: $variant-active, $pseudo: $active) // (v1.1.2)
 // @include patternTriangles($prefix: $variant-active, $pseudo: $active)
 // @include patternVerticalLines($prefix: $variant-active, $pseudo: $active)
 // @include patternVerticalStripes($prefix: $variant-active, $pseudo: $active)

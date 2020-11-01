@@ -1,7 +1,7 @@
 /**
  * @utility: animations
  * @module: _roll.scss
- * @desc: sets the roll variant of animation to an element
+ * @desc: Utilities for sets the rolling animation to an element.
  */
 
 @mixin fxRoll($prefix: null, $pseudo: null, $class: null) {

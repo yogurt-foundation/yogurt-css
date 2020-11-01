@@ -1,7 +1,7 @@
 /**
  * @utility: theme
  * @module: _themeAuto.scss
- * @desc: sets page theme (dark or light) based on app settings
+ * @desc: Utilities for sets page theme either dark or light based on web browser or app settings with color correction.
  */
 
 @mixin themeAuto() {
