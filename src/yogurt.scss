@@ -47,7 +47,7 @@ $version: "1.1.2";
 @import 'variants/non-responsive/pseudo/*';
 
 // responsive `default` and `pseudo` utilities
-@import 'variants/responsive/minWidth';
+@import 'variants/responsive/minWidth'; // mobile screen first!
 // @import 'variants/responsive/maxWidth'; // optional
 
 // themed utilities

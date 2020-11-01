@@ -4,4 +4,4 @@
  */
 
 // prefix dark theme
-$theme-dark: ".dark\\#{$separator}";
+$theme-dark: ".\\#{$prefix-before}dark\\#{$prefix-after}";

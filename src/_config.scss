@@ -13,7 +13,8 @@ $id: "";
 // {class}. Use this option to make changes
 // for templating engine that do no support
 // special characters.
-$separator: ":"; // do not empty!
+$prefix-before: "(";
+$prefix-after: ")"; // do not empty!
 
 // override existing css with this option,
 // default is empty, to enable add `!important`.

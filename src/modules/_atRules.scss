@@ -7,24 +7,24 @@ $default: "."; // is class
 $true: "-"; // is negative
 
 // prefix options
-$variant-hover: ".hover\\#{$separator}";
-$variant-group-hover: ".group:hover .group-hover\\#{$separator}"; // (v1.0.8)
+$variant-hover: ".\\#{$prefix-before}hover\\#{$prefix-after}";
+$variant-group-hover: ".\\#{$prefix-before}group\\#{$prefix-after}:hover .\\#{$prefix-before}group-hover\\#{$prefix-after}"; // (v1.0.8)
 
-$variant-focus: ".focus\\#{$separator}";
-$variant-group-focus: ".group:focus .group-focus\\#{$separator}"; // (v1.0.8)
+$variant-focus: ".\\#{$prefix-before}focus\\#{$prefix-after}";
+$variant-group-focus: ".\\#{$prefix-before}group\\#{$prefix-after}:focus .\\#{$prefix-before}group-focus\\#{$prefix-after}"; // (v1.0.8)
 
-$variant-active: ".active\\#{$separator}";
-$variant-visited: ".visited\\#{$separator}";
-$variant-disabled: ".disabled\\#{$separator}";
-$variant-checked: ".checked\\#{$separator}"; // (v1.1.1)
+$variant-active: ".\\#{$prefix-before}active\\#{$prefix-after}";
+$variant-visited: ".\\#{$prefix-before}visited\\#{$prefix-after}";
+$variant-checked: ".\\#{$prefix-before}checked\\#{$prefix-after}"; // (v1.1.1)
+$variant-disabled: ".\\#{$prefix-before}disabled\\#{$prefix-after}";
 
 // pseudo options
 $hover: ":hover";
 $focus: ":focus";
 $active: ":active";
 $visited: ":visited";
-$disabled: ":disabled";
 $checked: ":checked"; // (v1.1.1)
+$disabled: ":disabled";
 
 
 @mixin setRule(
