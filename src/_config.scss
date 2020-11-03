@@ -29,18 +29,18 @@ $of: \/; // escaping `forward-slash`
 /* screens */
 
 $screens:
-  (xs, 320px), // (primitive)
+  (xs, 320px),
   (sm, 640px),
   (md, 768px),
   (lg, 1024px),
   (xl, 1280px),
   (\32k, 1920px), // 2k
   // (\33k, 2560px), // 3k
-  (\34k, 3840px); // 4k
+  (\34k, 3840px), // 4k
   // (\35k, 5120px), // 5k
   // (\36k, 5760px), // 6k
   // (\37k, 7000px), // 7k
-  // (\38k, 7680px); // 8k
+  (\38k, 7680px); // 8k
 
 // adjust the sentivity of thresholds for
 // screen size use in `fluid` utility modules.
@@ -1365,6 +1365,8 @@ $background-border-size:
 
 $background-gradient-angle:
   (0, 0deg),
+  (15, 15deg),
+  (25, 25deg),
   (45, 45deg),
   (90, 90deg),
   (180, 180deg);
