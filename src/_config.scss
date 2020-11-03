@@ -8,10 +8,10 @@
 // Default is empty. (e.g. new-) with a `dash`.
 $id: "";
 
-// by default using `:` symbol character to
-// separate in between the {prefix} and the
+// by default using `(` and `)` symbol character
+// to separate in between the {prefix} and the
 // {class}. Use this option to make changes
-// for templating engine that do no support
+// for templating engine that do not support
 // special characters.
 $prefix-before: "(";
 $prefix-after: ")"; // do not empty!
