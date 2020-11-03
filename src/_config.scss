@@ -594,7 +594,14 @@ $max-width:
   (screen-sm, 640px),
   (screen-md, 768px),
   (screen-lg, 1024px),
-  (screen-xl, 1280px);
+  (screen-xl, 1280px),
+  (screen-2k, 1920px), // 2k
+  // (screen-3k, 2560px), // 3k
+  (screen-4k, 3840px); // 4k
+  // (screen-5k, 5120px), // 5k
+  // (screen-6k, 5760px), // 6k
+  // (screen-7k, 7000px), // 7k
+  // (screen-8k, 7680px); // 8k
 
 /* min height */
 

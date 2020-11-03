@@ -34227,6 +34227,14 @@ y {
   max-width: 1280px;
 }
 
+.max-w-screen-2k {
+  max-width: 1920px;
+}
+
+.max-w-screen-4k {
+  max-width: 3840px;
+}
+
 .min-h-0 {
   min-height: 0;
 }
@@ -67142,6 +67150,12 @@ img[theme="invert"] {
   .\(xs\)max-w-screen-xl {
     max-width: 1280px;
   }
+  .\(xs\)max-w-screen-2k {
+    max-width: 1920px;
+  }
+  .\(xs\)max-w-screen-4k {
+    max-width: 3840px;
+  }
   .\(xs\)min-h-0 {
     min-height: 0;
   }
@@ -71986,6 +72000,12 @@ img[theme="invert"] {
   }
   .\(sm\)max-w-screen-xl {
     max-width: 1280px;
+  }
+  .\(sm\)max-w-screen-2k {
+    max-width: 1920px;
+  }
+  .\(sm\)max-w-screen-4k {
+    max-width: 3840px;
   }
   .\(sm\)min-h-0 {
     min-height: 0;
@@ -76832,6 +76852,12 @@ img[theme="invert"] {
   .\(md\)max-w-screen-xl {
     max-width: 1280px;
   }
+  .\(md\)max-w-screen-2k {
+    max-width: 1920px;
+  }
+  .\(md\)max-w-screen-4k {
+    max-width: 3840px;
+  }
   .\(md\)min-h-0 {
     min-height: 0;
   }
@@ -81676,6 +81702,12 @@ img[theme="invert"] {
   }
   .\(lg\)max-w-screen-xl {
     max-width: 1280px;
+  }
+  .\(lg\)max-w-screen-2k {
+    max-width: 1920px;
+  }
+  .\(lg\)max-w-screen-4k {
+    max-width: 3840px;
   }
   .\(lg\)min-h-0 {
     min-height: 0;
@@ -86522,6 +86554,12 @@ img[theme="invert"] {
   .\(xl\)max-w-screen-xl {
     max-width: 1280px;
   }
+  .\(xl\)max-w-screen-2k {
+    max-width: 1920px;
+  }
+  .\(xl\)max-w-screen-4k {
+    max-width: 3840px;
+  }
   .\(xl\)min-h-0 {
     min-height: 0;
   }
@@ -91366,6 +91404,12 @@ img[theme="invert"] {
   }
   .\(\32k\)max-w-screen-xl {
     max-width: 1280px;
+  }
+  .\(\32k\)max-w-screen-2k {
+    max-width: 1920px;
+  }
+  .\(\32k\)max-w-screen-4k {
+    max-width: 3840px;
   }
   .\(\32k\)min-h-0 {
     min-height: 0;
@@ -96212,6 +96256,12 @@ img[theme="invert"] {
   .\(\34k\)max-w-screen-xl {
     max-width: 1280px;
   }
+  .\(\34k\)max-w-screen-2k {
+    max-width: 1920px;
+  }
+  .\(\34k\)max-w-screen-4k {
+    max-width: 3840px;
+  }
   .\(\34k\)min-h-0 {
     min-height: 0;
   }
@@ -101056,6 +101106,12 @@ img[theme="invert"] {
   }
   .\(\38k\)max-w-screen-xl {
     max-width: 1280px;
+  }
+  .\(\38k\)max-w-screen-2k {
+    max-width: 1920px;
+  }
+  .\(\38k\)max-w-screen-4k {
+    max-width: 3840px;
   }
   .\(\38k\)min-h-0 {
     min-height: 0;
