@@ -13,7 +13,7 @@ $id: "";
 // {class}. Use this option to make changes
 // for templating engine that do not support
 // special characters.
-$prefix-before: "(";
+$prefix-before: "("; // do not empty!
 $prefix-after: ")"; // do not empty!
 
 // override existing css with this option,
