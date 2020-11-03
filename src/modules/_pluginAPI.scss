@@ -20,8 +20,8 @@
  *  )
  *
  * Use keyword for `variant` to apply pseudo class variants, such as:
- * hover, focus, active, visited, disabled, responsive, responsive-hover,
- * responsive-focus, responsive-active, responsive-visited, responsive-disabled.
+ * hover, focus, active, visited, checked, disabled, responsive, responsive-hover,
+ * responsive-focus, responsive-active, responsive-visited, responsive-checked, responsive-disabled.
  */
 
 @mixin plugin($maps...) {
