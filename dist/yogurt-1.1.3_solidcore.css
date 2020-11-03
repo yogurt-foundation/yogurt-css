@@ -3876,14 +3876,6 @@ y {
   --bg-gradient-angle: 0deg;
 }
 
-.bg-gradient.angle-15 {
-  --bg-gradient-angle: 15deg;
-}
-
-.bg-gradient.angle-25 {
-  --bg-gradient-angle: 25deg;
-}
-
 .bg-gradient.angle-45 {
   --bg-gradient-angle: 45deg;
 }
@@ -3898,14 +3890,6 @@ y {
 
 .bg-gradient.-angle-0 {
   --bg-gradient-angle: -0deg;
-}
-
-.bg-gradient.-angle-15 {
-  --bg-gradient-angle: -15deg;
-}
-
-.bg-gradient.-angle-25 {
-  --bg-gradient-angle: -25deg;
 }
 
 .bg-gradient.-angle-45 {
@@ -56926,14 +56910,6 @@ img[theme="invert"] {
   --bg-gradient-angle: 0deg;
 }
 
-.\(hover\)bg-gradient.angle-15:hover {
-  --bg-gradient-angle: 15deg;
-}
-
-.\(hover\)bg-gradient.angle-25:hover {
-  --bg-gradient-angle: 25deg;
-}
-
 .\(hover\)bg-gradient.angle-45:hover {
   --bg-gradient-angle: 45deg;
 }
@@ -56948,14 +56924,6 @@ img[theme="invert"] {
 
 .\(hover\)bg-gradient.-angle-0:hover {
   --bg-gradient-angle: -0deg;
-}
-
-.\(hover\)bg-gradient.-angle-15:hover {
-  --bg-gradient-angle: -15deg;
-}
-
-.\(hover\)bg-gradient.-angle-25:hover {
-  --bg-gradient-angle: -25deg;
 }
 
 .\(hover\)bg-gradient.-angle-45:hover {
