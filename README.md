@@ -37,7 +37,7 @@ A colossal low-level utility CSS framework for crafting beautiful and elegant us
 
 ### Laboratory
 
-See what new in the development. All unpublished utilities are caged in the [Laboratory](https://github.com/yogurt-foundation/laboratory) page.
+See what's new in the development. All unpublished utilities are caged in the [Laboratory](https://github.com/yogurt-foundation/laboratory) page.
 
 ### Support
 
