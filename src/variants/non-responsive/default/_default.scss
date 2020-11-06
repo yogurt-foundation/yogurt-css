@@ -190,7 +190,7 @@
 @include fontStyle($class: $default)
 @include fontWeight($class: $default)
 @include letterSpacing($class: $default)
-@include lineBreak($class: $default) // (v1.1.3)
+// @include lineBreak($class: $default) // (v1.1.3)
 @include lineHeight($class: $default)
 // @include lineHeightTrim($class: $default) // (v1.1.0)
 @include listStylePosition($class: $default)
