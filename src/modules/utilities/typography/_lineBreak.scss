@@ -1,0 +1,25 @@
+/**
+ * @utility: typography
+ * @module: -lineBreak.scss
+ * @desc: Utilities for sets wrapping text wrapping on new lines working with symbols and punctuations in Chinese, Japanese or Korean (CJK) writing systems.
+ */
+
+@mixin lineBreak(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier, $value in $line-break {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "line-",
+      $modifier: $modifier,
+      $property1: "line-break",
+      $value1: $value#{$override}
+    )
+  }
+}
+
+

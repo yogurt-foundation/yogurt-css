@@ -179,6 +179,7 @@
 // @include fontStyle($prefix: $responsive-default)
 @include fontWeight($prefix: $responsive-default)
 @include letterSpacing($prefix: $responsive-default)
+// @include lineBreak($prefix: $responsive-default) // (v1.1.3)
 @include lineHeight($prefix: $responsive-default)
 // @include lineHeightTrim($prefix: $responsive-default) // (v1.1.0)
 // @include listStylePosition($prefix: $responsive-default)

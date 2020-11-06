@@ -686,6 +686,7 @@ y {
 /* font stretch */
 /* touch action */
 /* writing mode */
+/* line break */
 /**
  * @file: _atrules.scss
  */
@@ -1370,6 +1371,11 @@ y {
  * @utility: typography
  * @module: _letterSpacing.scss
  * @desc: Utilities for sets the spacing between letters.
+ */
+/**
+ * @utility: typography
+ * @module: -lineBreak.scss
+ * @desc: Utilities for sets wrapping text wrapping on new lines working with symbols and punctuations in Chinese, Japanese or Korean (CJK) writing systems.
  */
 /**
  * @utility: typography
@@ -38941,6 +38947,26 @@ img[theme="invert"] {
 
 .gap-widest {
   letter-spacing: 0.1em;
+}
+
+.line-auto {
+  line-break: auto;
+}
+
+.line-loose {
+  line-break: loose;
+}
+
+.line-normal {
+  line-break: normal;
+}
+
+.line-strict {
+  line-break: strict;
+}
+
+.line-anywhere {
+  line-break: anywhere;
 }
 
 .depth-none {

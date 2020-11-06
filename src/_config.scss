@@ -1534,3 +1534,11 @@ $writing-mode:
  (vertical-left, vertical-lr),
  (vertical-right, vertical-rl);
 
+/* line break */
+
+$line-break:
+  (auto, auto),
+  (loose, loose),
+  (normal, normal),
+  (strict, strict),
+  (anywhere, anywhere);
