@@ -119,6 +119,10 @@
 // @include patternVerticalStripes($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include patternZigzag($prefix: $responsive-disabled, $pseudo: $disabled)
 
+/* rendering */
+
+// @include imageRendering($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.1.3)
+
 /* sizing */
 
 // @include height($prefix: $responsive-disabled, $pseudo: $disabled)

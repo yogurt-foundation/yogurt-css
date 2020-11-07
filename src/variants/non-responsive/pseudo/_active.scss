@@ -122,6 +122,10 @@
 // @include patternVerticalStripes($prefix: $variant-active, $pseudo: $active)
 // @include patternZigzag($prefix: $variant-active, $pseudo: $active)
 
+/* rendering */
+
+// @include imageRendering($prefix: $variant-active, $pseudo: $active) // (v1.1.3)
+
 /* sizing */
 
 // @include height($prefix: $variant-active, $pseudo: $active)

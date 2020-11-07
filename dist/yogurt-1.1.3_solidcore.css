@@ -687,6 +687,7 @@ y {
 /* touch action */
 /* writing mode */
 /* line break */
+/* image rendering */
 /**
  * @file: _atrules.scss
  */
@@ -1208,6 +1209,11 @@ y {
  * @desc: Utilities for sets an element's background zigzag pattern.
  */
 /**
+ * @utility: rendering
+ * @module: _imageRendering.scss
+ * @desc: Utilities for sets an image renders if it is scaled up or down from its original dimensions.
+ */
+/**
  * @utility: sizing
  * @module: _height.scss
  * @desc: Utilities for sets the height of an element.
@@ -1374,7 +1380,7 @@ y {
  */
 /**
  * @utility: typography
- * @module: -lineBreak.scss
+ * @module: _lineBreak.scss
  * @desc: Utilities for sets wrapping text wrapping on new lines working with symbols and punctuations in Chinese, Japanese or Korean (CJK) writing systems.
  */
 /**
@@ -34048,6 +34054,21 @@ y {
   background-size: calc(2 * 100px) calc(2 * 100px);
 }
 
+/* rendering */
+.image-auto {
+  image-rendering: auto;
+}
+
+.image-crisp-edges {
+  image-rendering: crisp-edges;
+}
+
+.image-pixelated {
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: pixelated;
+}
+
 /* sizing */
 .h-auto {
   height: auto;
@@ -38947,26 +38968,6 @@ img[theme="invert"] {
 
 .gap-widest {
   letter-spacing: 0.1em;
-}
-
-.line-auto {
-  line-break: auto;
-}
-
-.line-loose {
-  line-break: loose;
-}
-
-.line-normal {
-  line-break: normal;
-}
-
-.line-strict {
-  line-break: strict;
-}
-
-.line-anywhere {
-  line-break: anywhere;
 }
 
 .depth-none {
@@ -43934,6 +43935,7 @@ img[theme="invert"] {
 /* interactivity */
 /* layouts */
 /* patterns */
+/* rendering */
 /* sizing */
 /* spacing */
 /* svg */
@@ -48222,6 +48224,7 @@ img[theme="invert"] {
 /* interactivity */
 /* layouts */
 /* patterns */
+/* rendering */
 /* sizing */
 /* spacing */
 /* svg */
@@ -48772,6 +48775,7 @@ img[theme="invert"] {
 /* interactivity */
 /* layouts */
 /* patterns */
+/* rendering */
 /* sizing */
 /* spacing */
 /* svg */
@@ -50652,6 +50656,7 @@ img[theme="invert"] {
 
 /* layouts */
 /* patterns */
+/* rendering */
 /* sizing */
 /* spacing */
 /* svg */
@@ -62203,6 +62208,7 @@ img[theme="invert"] {
 }
 
 /* patterns */
+/* rendering */
 /* sizing */
 .\(hover\)h-auto:hover {
   height: auto;
@@ -65427,6 +65433,7 @@ img[theme="invert"] {
 /* interactivity */
 /* layouts */
 /* patterns */
+/* rendering */
 /* sizing */
 /* spacing */
 /* svg */
@@ -67113,6 +67120,7 @@ img[theme="invert"] {
     z-index: 50;
   }
   /* patterns */
+  /* rendeering */
   /* sizing */
   .\(xs\)h-auto {
     height: auto;
@@ -70353,6 +70361,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -70763,6 +70772,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -70786,6 +70796,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -70808,6 +70819,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -70831,6 +70843,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -72000,6 +72013,7 @@ img[theme="invert"] {
     z-index: 50;
   }
   /* patterns */
+  /* rendeering */
   /* sizing */
   .\(sm\)h-auto {
     height: auto;
@@ -75240,6 +75254,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -75650,6 +75665,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -75673,6 +75689,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -75695,6 +75712,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -75718,6 +75736,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -76887,6 +76906,7 @@ img[theme="invert"] {
     z-index: 50;
   }
   /* patterns */
+  /* rendeering */
   /* sizing */
   .\(md\)h-auto {
     height: auto;
@@ -80127,6 +80147,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -80537,6 +80558,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -80560,6 +80582,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -80582,6 +80605,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -80605,6 +80629,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -81774,6 +81799,7 @@ img[theme="invert"] {
     z-index: 50;
   }
   /* patterns */
+  /* rendeering */
   /* sizing */
   .\(lg\)h-auto {
     height: auto;
@@ -85014,6 +85040,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -85424,6 +85451,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -85447,6 +85475,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -85469,6 +85498,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -85492,6 +85522,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -86661,6 +86692,7 @@ img[theme="invert"] {
     z-index: 50;
   }
   /* patterns */
+  /* rendeering */
   /* sizing */
   .\(xl\)h-auto {
     height: auto;
@@ -89901,6 +89933,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -90311,6 +90344,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -90334,6 +90368,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -90356,6 +90391,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -90379,6 +90415,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -91548,6 +91585,7 @@ img[theme="invert"] {
     z-index: 50;
   }
   /* patterns */
+  /* rendeering */
   /* sizing */
   .\(\32k\)h-auto {
     height: auto;
@@ -94788,6 +94826,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -95198,6 +95237,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -95221,6 +95261,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -95243,6 +95284,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -95266,6 +95308,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -96435,6 +96478,7 @@ img[theme="invert"] {
     z-index: 50;
   }
   /* patterns */
+  /* rendeering */
   /* sizing */
   .\(\34k\)h-auto {
     height: auto;
@@ -99675,6 +99719,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -100085,6 +100130,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -100108,6 +100154,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -100130,6 +100177,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -100153,6 +100201,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -101322,6 +101371,7 @@ img[theme="invert"] {
     z-index: 50;
   }
   /* patterns */
+  /* rendeering */
   /* sizing */
   .\(\38k\)h-auto {
     height: auto;
@@ -104562,6 +104612,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -104972,6 +105023,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -104995,6 +105047,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -105017,6 +105070,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */
@@ -105040,6 +105094,7 @@ img[theme="invert"] {
   /* interactivity */
   /* layouts */
   /* patterns */
+  /* rendering */
   /* sizing */
   /* spacing */
   /* svg */

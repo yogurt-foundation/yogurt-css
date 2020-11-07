@@ -1542,3 +1542,11 @@ $line-break:
   (normal, normal),
   (strict, strict),
   (anywhere, anywhere);
+
+/* image rendering */
+
+$image-rendering:
+  (auto, auto),
+  (crisp-edges, crisp-edges),
+  (pixelated, pixelated);
+

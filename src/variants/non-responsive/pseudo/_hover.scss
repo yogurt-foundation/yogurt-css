@@ -132,6 +132,10 @@
 // @include patternVerticalStripes($prefix: $variant-hover, $pseudo: $hover)
 // @include patternZigzag($prefix: $variant-hover, $pseudo: $hover)
 
+/* rendering */
+
+// @include imageRendering($prefix: $variant-hover, $pseudo: $hover) // (v1.1.3)
+
 /* sizing */
 
 @include height($prefix: $variant-hover, $pseudo: $hover)

@@ -127,6 +127,10 @@
 @include patternVerticalStripes($class: $default)
 @include patternZigzag($class: $default)
 
+/* rendering */
+
+@include imageRendering($class: $default) // (v1.1.3)
+
 /* sizing */
 
 @include height($class: $default)
