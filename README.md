@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yogurt-foundation/yogurt-css/1.0.9/assets/promo.png"
+  <img src="https://raw.githubusercontent.com/yogurt-foundation/yogurt-css/1.0.9/assets/promo.jpg"
        height="auto"
        width="auto">
 </p>
