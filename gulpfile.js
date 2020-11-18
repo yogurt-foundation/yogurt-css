@@ -7,12 +7,10 @@ const sass = require('gulp-sass')
 const sassGlob = require('gulp-sass-glob')
 const sourcemaps = require('gulp-sourcemaps')
 const sizereport = require('gulp-sizereport')
+const stringReplace = require('gulp-replace')
 const gzip = require('gulp-gzip')
 
-const { version } = require('./package.json')
-
-const regularOutput = 'yogurt-' + version + '_solidcore.css'
-const minifiedOutput = 'yogurt-' + version + '_solidcore.min.css'
+const newVersion = '1.1.3'
 
 const srcScssPath = 'src/yogurt.scss'
 const distCssPath = 'dist'
@@ -21,6 +19,7 @@ const distCssPath = 'dist'
 // outputStyle: `expanded` for debugging,
 // `compressed` for production.
 
+const minifiedOutput = 'yogurt-' + newVersion + '_solidcore.min.css'
 gulp.task('sass-min', () => {
   return gulp.src(srcScssPath)
     .pipe(sourcemaps.init())
@@ -42,6 +41,7 @@ gulp.task('sass-min', () => {
 })
 
 
+const regularOutput = 'yogurt-' + newVersion + '_solidcore.css'
 gulp.task('sass-raw', () => {
   return gulp.src(srcScssPath)
     .pipe(sourcemaps.init())
@@ -76,29 +76,49 @@ gulp.task('sass-scss', () => {
 })
 
 
+const { version } = require('./package.json')
+gulp.task('package-json', () => {
+  return gulp.src('./package.json')
+    .pipe(stringReplace(version, newVersion))
+    .pipe(gulp.dest('.'))
+})
+gulp.task('yogurt-scss', () => {
+  return gulp.src('./src/yogurt.scss')
+    .pipe(stringReplace(version, newVersion))
+    .pipe(gulp.dest('./src/'))
+})
+
+
 gulp.task('build', gulp.series(
+  // update-version
+  'package-json',
+  'yogurt-scss',
+  // ---
   'sass-raw',
   'sass-min',
   'sass-scss'
 ))
 
 
-gulp.task('watch', gulp.series([
+gulp.task('update-version', gulp.series(
+  'package-json',
+  'yogurt-scss'
+))
 
+
+gulp.task('watch', gulp.series([
   'sass-raw',
   'sass-min',
   'sass-scss'
+], () => {
 
-  ], () => {
+  const watchSrcScssPath = 'src/**/**/**/**/*.scss'
+  gulp.watch(watchSrcScssPath,
+    gulp.series([
+      'sass-raw',
+      'sass-min',
+      'sass-scss'
+    ])
+  )
 
-    const watchSrcScssPath = 'src/**/**/**/**/*.scss'
-    gulp.watch(watchSrcScssPath,
-      gulp.series([
-        'sass-raw',
-        'sass-min',
-        'sass-scss'
-      ])
-    )
-
-  })
-)
+}))

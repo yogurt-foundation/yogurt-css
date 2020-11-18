@@ -6,7 +6,8 @@
   "scripts": {
     "gulp": "gulp",
     "watch": "gulp watch",
-    "build": "gulp build"
+    "build": "gulp build",
+    "update-version": "gulp update-version"
   },
   "keywords": [
     "css-framework",
@@ -26,6 +27,7 @@
     "gulp-gzip": "^1.4.2",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sass-glob": "^1.1.0",
     "gulp-sizereport": "^1.2.1",
