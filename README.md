@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yogurt-foundation/yogurt-css/1.0.9/assets/promo.jpg"
+  <img src="https://raw.githubusercontent.com/yogurt-foundation/yogurt-css/1.1.3/assets/promo.jpg"
        height="auto"
        width="auto">
 </p>
@@ -24,7 +24,7 @@
 
 A colossal low-level utility CSS framework for crafting beautiful and elegant user interface at an atomic level without writing a single line of CSS.
 
-> Version 1.1.2-solidcore
+> Version 1.1.3-solidcore
 
 ### Documentation
 
@@ -37,7 +37,7 @@ A colossal low-level utility CSS framework for crafting beautiful and elegant us
 
 ### Laboratory
 
-See what's new in development. All unpublished utilities are caged in the [Laboratory](https://github.com/yogurt-foundation/laboratory) page.
+See what's new in the development. All unpublished utilities are caged in the [Laboratory](https://github.com/yogurt-foundation/laboratory) page.
 
 ### Support
 

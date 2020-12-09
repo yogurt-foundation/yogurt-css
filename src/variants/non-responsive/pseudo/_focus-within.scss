@@ -1,0 +1,203 @@
+/**
+ * @module: variants/non-responsive/pseudo/
+ * @file: _focus-within.scss
+ */
+
+/* accessibility */
+
+// @include screenReader($prefix: $variant-focus-within, $pseudo: $focus-within)
+
+/* animations */
+
+// (v1.0.9)
+// @include fxBlur($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include fxFade($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include fxRoll($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include fxSlide($prefix: $variant-focus-within, $pseudo: $focus-within)
+
+/* backgrounds */
+
+@include backgroundColor($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include backgroundAttachment($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include backgroundPosition($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include backgroundRepeat($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include backgroundSize($prefix: $variant-focus-within, $pseudo: $focus-within)
+@include backgroundBlend($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.0.4)
+// @include backgroundOpacity($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include backgroundBorder($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.0.9)
+@include backgroundGradient($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.0.9)
+
+/* borders */
+
+@include borderColor($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include borderRadius($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include borderStyle($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include borderWidth($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include borderDissect($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.0.8)
+// @include borderDissectColor($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.0.8)
+// @include borderDissectOpacity($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.0.8)
+
+/* effects */
+
+@include shadowColor($prefix: $variant-focus-within, $pseudo: $focus-within)
+@include boxShadow($prefix: $variant-focus-within, $pseudo: $focus-within)
+@include opacity($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include mixBlend($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.0.4)
+@include gradient($prefix: $variant-focus-within, $pseudo: $focus-within) // (1.0.8)
+
+/* filters */
+
+// @include filterCompose($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.0.9)
+// @include filterBackdropCompose($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.1.0)
+// @include filterInvert($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.0.3)
+
+/* flexbox */
+
+// @include alignContent($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include alignItems($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include alignSelf($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include flex($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include flexDirection($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include flexGrow($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include flexGap($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.1.0)
+// @include flexShrink($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include flexWrap($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include justifyContent($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include order($prefix: $variant-focus-within, $pseudo: $focus-within)
+
+/* fluids */
+
+// @include fluidFontSize($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.0.8)
+// @include fluidMargin($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.0.8)
+// @include fluidPadding($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.0.8)
+
+/* interactivity */
+
+// @include appearance($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include cursor($prefix: $variant-focus-within, $pseudo: $focus-within)
+@include outline($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include overscroll($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.1.0)
+// @include pointerEvents($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include resize($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include scrollBehavior($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.1.1)
+// @include scrollSnap($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.1.0)
+// @include touchAction($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.1.1)
+// @include userSelect($prefix: $variant-focus-within, $pseudo: $focus-within)
+
+/* layouts */
+
+// @include boxSizing($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include clear($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include containerDefault($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include contentVisibility($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.0.9)
+// @include display($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include float($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include inset($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include insetTBLR($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include objectFit($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include objectPosition($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include overflow($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include overflow-xy($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include overflow-scrolling($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include position($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include visibility($prefix: $variant-focus-within, $pseudo: $focus-within)
+@include zIndex($prefix: $variant-focus-within, $pseudo: $focus-within)
+
+/* patterns */
+
+// (1.0.8)
+// @include patternChecks($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include patternCircle($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.1.2)
+// @include patternCrossDots($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include patternDiagonalLines($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include patternDiagonalStripes($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include patternDots($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include patternGrid($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include patternHorizontalLines($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include patternHorizontalStripes($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include patternRhombus($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.1.2)
+// @include patternRipple($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.1.2)
+// @include patternTriangles($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include patternVerticalLines($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include patternVerticalStripes($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include patternZigzag($prefix: $variant-focus-within, $pseudo: $focus-within)
+
+/* rendering */
+
+// @include imageRendering($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.1.3)
+
+/* sizing */
+
+// @include height($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include maxHeight($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include maxWidth($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include minHeight($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include minWidth($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include width($prefix: $variant-focus-within, $pseudo: $focus-within)
+
+/* spacing */
+
+// @include margin($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include margin($negative: $true, $prefix: $variant-focus-within, $pseudo: $focus-within) // negative
+// @include padding($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include equal($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.0.8)
+// @include equal($negative: $true, $prefix: $variant-focus-within, $pseudo: $focus-within) // negative, (v1.0.8)
+
+/* svg */
+
+// @include fill($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include stroke($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include strokeWidth($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include strokeLineCap($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.1.1)
+
+/* tables */
+
+// @include borderCollapse($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include tableLayout($prefix: $variant-focus-within, $pseudo: $focus-within)
+
+/* transforms */
+
+@include transform($prefix: $variant-focus-within, $pseudo: $focus-within)
+@include transformOrigin($prefix: $variant-focus-within, $pseudo: $focus-within)
+@include rotate($prefix: $variant-focus-within, $pseudo: $focus-within)
+@include rotate($prefix: $variant-focus-within, $pseudo: $focus-within, $negative: $true) // negative
+@include scale($prefix: $variant-focus-within, $pseudo: $focus-within)
+@include skew($prefix: $variant-focus-within, $pseudo: $focus-within)
+@include skew($prefix: $variant-focus-within, $pseudo: $focus-within, $negative: $true) // negative
+@include translate($prefix: $variant-focus-within, $pseudo: $focus-within)
+@include translate($prefix: $variant-focus-within, $pseudo: $focus-within, $negative: $true) // negative
+
+/* transitions */
+
+@include transitionDuration($prefix: $variant-focus-within, $pseudo: $focus-within)
+@include transitionProperty($prefix: $variant-focus-within, $pseudo: $focus-within)
+@include transitionTiming($prefix: $variant-focus-within, $pseudo: $focus-within)
+
+/* typography */
+
+@include textColor($prefix: $variant-focus-within, $pseudo: $focus-within)
+// ----- GROUP
+// @include textColor($prefix: $variant-group-focus)
+// -----
+// @include fontFamily($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include fontKerning($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.1.1)
+// @include fontSize($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include fontSmoothing($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include fontStyle($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include fontWeight($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include letterSpacing($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include lineBreak($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.1.3)
+// @include lineHeight($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include lineHeightTrim($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.1.0)
+// @include listStylePosition($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include listStyleType($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include placeholder() // static
+// @include placeholderColor($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include textAlign($prefix: $variant-focus-within, $pseudo: $focus-within)
+@include textDecoration($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include textTransform($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include verticalAlign($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include whitespace($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include wordBreak($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include writingMode($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.1.1)
+// @include textClamp($prefix: $variant-focus-within, $pseudo: $focus-within)

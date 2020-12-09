@@ -119,6 +119,10 @@
 // @include patternVerticalStripes($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include patternZigzag($prefix: $responsive-disabled, $pseudo: $disabled)
 
+/* rendering */
+
+// @include imageRendering($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.1.3)
+
 /* sizing */
 
 // @include height($prefix: $responsive-disabled, $pseudo: $disabled)
@@ -178,6 +182,7 @@
 // @include fontStyle($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include fontWeight($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include letterSpacing($prefix: $responsive-disabled, $pseudo: $disabled)
+// @include lineBreak($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.1.3)
 // @include lineHeight($prefix: $responsive-disabled, $pseudo: $disabled)
 // @include lineHeightTrim($prefix: $responsive-disabled, $pseudo: $disabled) // (v1.1.0)
 // @include listStylePosition($prefix: $responsive-disabled, $pseudo: $disabled)

@@ -119,6 +119,10 @@
 // @include patternVerticalStripes($prefix: $responsive-focus, $pseudo: $focus)
 // @include patternZigzag($prefix: $responsive-focus, $pseudo: $focus)
 
+/* rendering */
+
+// @include imageRendering($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.3)
+
 /* sizing */
 
 // @include height($prefix: $responsive-focus, $pseudo: $focus)
@@ -178,6 +182,7 @@
 // @include fontStyle($prefix: $responsive-focus, $pseudo: $focus)
 // @include fontWeight($prefix: $responsive-focus, $pseudo: $focus)
 // @include letterSpacing($prefix: $responsive-focus, $pseudo: $focus)
+// @include lineBreak($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.3)
 // @include lineHeight($prefix: $responsive-focus, $pseudo: $focus)
 // @include lineHeightTrim($prefix: $responsive-focus, $pseudo: $focus) // (v1.1.0)
 // @include listStylePosition($prefix: $responsive-focus, $pseudo: $focus)

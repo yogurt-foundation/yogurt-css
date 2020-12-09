@@ -1,0 +1,25 @@
+/**
+ * @utility: rendering
+ * @module: _imageRendering.scss
+ * @desc: Utilities for sets an image renders if it is scaled up or down from its original dimensions.
+ */
+
+@mixin imageRendering(
+  $prefix: null,
+  $pseudo: null,
+  $class: null
+  ) {
+  @each $modifier, $value in $image-rendering {
+    @include setRule(
+      $prefix: $prefix,
+      $pseudo: $pseudo,
+      $class: $class,
+      $selector: "image-",
+      $modifier: $modifier,
+      $property1: "image-rendering",
+      $value1: $value#{$override}
+    )
+  }
+}
+
+

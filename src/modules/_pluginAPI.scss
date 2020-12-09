@@ -20,8 +20,8 @@
  *  )
  *
  * Use keyword for `variant` to apply pseudo class variants, such as:
- * hover, focus, active, visited, disabled, responsive, responsive-hover,
- * responsive-focus, responsive-active, responsive-visited, responsive-disabled.
+ * hover, focus, active, visited, checked, disabled, responsive, responsive-hover,
+ * responsive-focus, responsive-active, responsive-visited, responsive-checked, responsive-disabled.
  */
 
 @mixin plugin($maps...) {
@@ -31,62 +31,62 @@
     $variant: map-get($map, "variant");
     $property: map-get($map, "property");
 
-    @if $variant == null {
+    @if $variant==null {
       @each $value, $key in map-get($map, "modifier") {
         .#{$utility}-#{$value} {
           #{$property}: #{$key}
         }
       }
     }
-    @else if $variant == "hover" {
+    @else if $variant=="hover" {
       @each $value, $key in map-get($map, "modifier") {
-        .#{$variant}\:#{$utility}-#{$value}:#{$variant} {
+        .\(#{$variant}\)#{$utility}-#{$value}:#{$variant} {
           #{$property}: #{$key}
         }
       }
     }
-    @else if $variant == "focus" {
+    @else if $variant=="focus" {
       @each $value, $key in map-get($map, "modifier") {
-        .#{$variant}\:#{$utility}-#{$value}:#{$variant} {
+        .\(#{$variant}\)#{$utility}-#{$value}:#{$variant} {
           #{$property}: #{$key}
         }
       }
     }
-    @else if $variant == "active" {
+    @else if $variant=="active" {
       @each $value, $key in map-get($map, "modifier") {
-        .#{$variant}\:#{$utility}-#{$value}:#{$variant} {
+        .\(#{$variant}\)#{$utility}-#{$value}:#{$variant} {
           #{$property}: #{$key}
         }
       }
     }
-    @else if $variant == "visited" {
+    @else if $variant=="visited" {
       @each $value, $key in map-get($map, "modifier") {
-        .#{$variant}\:#{$utility}-#{$value}:#{$variant} {
+        .\(#{$variant}\)#{$utility}-#{$value}:#{$variant} {
           #{$property}: #{$key}
         }
       }
     }
-    @else if $variant == "checked" {
+    @else if $variant=="checked" {
       @each $value, $key in map-get($map, "modifier") {
-        .#{$variant}\:#{$utility}-#{$value}:#{$variant} {
+        .\(#{$variant}\)#{$utility}-#{$value}:#{$variant} {
           #{$property}: #{$key}
         }
       }
     }
-    @else if $variant == "disabled" {
+    @else if $variant=="disabled" {
       @each $value, $key in map-get($map, "modifier") {
-        .#{$variant}\:#{$utility}-#{$value}:#{$variant} {
+        .\(#{$variant}\)#{$utility}-#{$value}:#{$variant} {
           #{$property}: #{$key}
         }
       }
     }
-    @else if $variant == "responsive" {
+    @else if $variant=="responsive" {
       @each $screen, $value in $screens {
-        $responsive: ".\\#{$prefix-before}#{$screen}\\#{$prefix-after}";
+        $responsive: ".\\(#{$screen}\\)";
         @media(min-width: #{$value}) {
-          @each $prefix, $pseudo in $responsive {
+          @each $prefix in $responsive {
             @each $value, $key in map-get($map, "modifier") {
-              #{$prefix}#{$utility}-#{$value}#{$pseudo} {
+              #{$prefix}#{$utility}-#{$value} {
                 #{$property}: #{$key}
               }
             }
@@ -94,9 +94,9 @@
         }
       }
     }
-    @else if $variant == "responsive-hover" {
+    @else if $variant=="responsive-hover" {
       @each $screen, $value in $screens {
-        $responsive-hover: ('.\\#{$prefix-before}#{$screen}\\#{$prefix-after}:hover': ':hover');
+        $responsive-hover: ('.\\(#{$screen}\\)\\(hover\\)': ':hover');
         @media(min-width: #{$value}) {
           @each $prefix, $pseudo in $responsive-hover {
             @each $value, $key in map-get($map, "modifier") {
@@ -108,9 +108,9 @@
         }
       }
     }
-    @else if $variant == "responsive-focus" {
+    @else if $variant=="responsive-focus" {
       @each $screen, $value in $screens {
-        $responsive-focus: ('.\\#{$prefix-before}#{$screen}\\#{$prefix-after}:focus': ':focus');
+        $responsive-focus: ('.\\(#{$screen}\\)\\(focus\\)': ':focus');
         @media(min-width: #{$value}) {
           @each $prefix, $pseudo in $responsive-focus {
             @each $value, $key in map-get($map, "modifier") {
@@ -122,9 +122,9 @@
         }
       }
     }
-    @else if $variant == "responsive-active" {
+    @else if $variant=="responsive-active" {
       @each $screen, $value in $screens {
-        $responsive-active: ('.\\#{$prefix-before}#{$screen}\\#{$prefix-after}:active': ':active');
+        $responsive-active: ('.\\(#{$screen}\\)\\(active\\)': ':active');
         @media(min-width: #{$value}) {
           @each $prefix, $pseudo in $responsive-active {
             @each $value, $key in map-get($map, "modifier") {
@@ -136,9 +136,9 @@
         }
       }
     }
-    @else if $variant == "responsive-visited" {
+    @else if $variant=="responsive-visited" {
       @each $screen, $value in $screens {
-        $responsive-visited: ('.\\#{$prefix-before}#{$screen}\\#{$prefix-after}:visited': ':visited');
+        $responsive-visited: ('.\\(#{$screen}\\)\\(visited\\)': ':visited');
         @media(min-width: #{$value}) {
           @each $prefix, $pseudo in $responsive-visited {
             @each $value, $key in map-get($map, "modifier") {
@@ -150,9 +150,9 @@
         }
       }
     }
-    @else if $variant == "responsive-checked" {
+    @else if $variant=="responsive-checked" {
       @each $screen, $value in $screens {
-        $responsive-checked: ('.\\#{$prefix-before}#{$screen}\\#{$prefix-after}:checked': ':checked');
+        $responsive-checked: ('.\\(#{$screen}\\)\\(checked\\)': ':checked');
         @media(min-width: #{$value}) {
           @each $prefix, $pseudo in $responsive-checked {
             @each $value, $key in map-get($map, "modifier") {
@@ -164,9 +164,9 @@
         }
       }
     }
-    @else if $variant == "responsive-disabled" {
+    @else if $variant=="responsive-disabled" {
       @each $screen, $value in $screens {
-        $responsive-disabled: ('.\\#{$prefix-before}#{$screen}\\#{$prefix-after}:disabled': ':disabled');
+        $responsive-disabled: ('.\\(#{$screen}\\)\\(disabled\\)': ':disabled');
         @media(min-width: #{$value}) {
           @each $prefix, $pseudo in $responsive-disabled {
             @each $value, $key in map-get($map, "modifier") {
@@ -181,5 +181,3 @@
 
   }
 }
-
-

@@ -122,6 +122,10 @@
 // @include patternVerticalStripes($prefix: $variant-focus, $pseudo: $focus)
 // @include patternZigzag($prefix: $variant-focus, $pseudo: $focus)
 
+/* rendering */
+
+// @include imageRendering($prefix: $variant-focus, $pseudo: $focus) // (v1.1.3)
+
 /* sizing */
 
 // @include height($prefix: $variant-focus, $pseudo: $focus)
@@ -182,6 +186,7 @@
 // @include fontStyle($prefix: $variant-focus, $pseudo: $focus)
 @include fontWeight($prefix: $variant-focus, $pseudo: $focus)
 // @include letterSpacing($prefix: $variant-focus, $pseudo: $focus)
+// @include lineBreak($prefix: $variant-focus, $pseudo: $focus) // (v1.1.3)
 // @include lineHeight($prefix: $variant-focus, $pseudo: $focus)
 // @include lineHeightTrim($prefix: $variant-focus, $pseudo: $focus) // (v1.1.0)
 // @include listStylePosition($prefix: $variant-focus, $pseudo: $focus)
