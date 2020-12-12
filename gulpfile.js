@@ -10,7 +10,7 @@ const sizereport = require('gulp-sizereport')
 const stringReplace = require('gulp-replace')
 const gzip = require('gulp-gzip')
 
-const newVersion = '1.1.3'
+const newVersion = '1.1.4'
 
 const srcScssPath = 'src/yogurt.scss'
 const distCssPath = 'dist'
@@ -87,12 +87,18 @@ gulp.task('yogurt-scss', () => {
     .pipe(stringReplace(version, newVersion))
     .pipe(gulp.dest('./src/'))
 })
+gulp.task('readme-md', () => {
+  return gulp.src('./README.md')
+    .pipe(stringReplace(version, newVersion))
+    .pipe(gulp.dest('.'))
+})
 
 
 gulp.task('build', gulp.series(
   // update-version
   'package-json',
   'yogurt-scss',
+  'readme-md',
   // ---
   'sass-raw',
   'sass-min',
@@ -102,7 +108,8 @@ gulp.task('build', gulp.series(
 
 gulp.task('update-version', gulp.series(
   'package-json',
-  'yogurt-scss'
+  'yogurt-scss',
+  'readme-md'
 ))
 
 
