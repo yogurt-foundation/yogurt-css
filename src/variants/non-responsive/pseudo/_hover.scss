@@ -23,7 +23,7 @@
 // @include backgroundRepeat($prefix: $variant-hover, $pseudo: $hover)
 // @include backgroundSize($prefix: $variant-hover, $pseudo: $hover)
 // @include backgroundBlend($prefix: $variant-hover, $pseudo: $hover) // (v1.0.4)
-// @include backgroundOpacity($prefix: $variant-hover, $pseudo: $hover)
+@include backgroundOpacity($prefix: $variant-hover, $pseudo: $hover)
 // @include backgroundBorder($prefix: $variant-hover, $pseudo: $hover) // (v1.0.9)
 @include backgroundGradient($prefix: $variant-hover, $pseudo: $hover) // (v1.0.9)
 // ----- GROUP
@@ -37,7 +37,7 @@
 // @include borderStyle($prefix: $variant-hover, $pseudo: $hover)
 @include borderWidth($prefix: $variant-hover, $pseudo: $hover)
 // @include borderDissect($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
-// @include borderDissectColor($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
+@include borderDissectColor($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
 @include borderDissectOpacity($prefix: $variant-hover, $pseudo: $hover) // (v1.0.8)
 
 /* effects */
@@ -167,7 +167,7 @@
 
 /* transforms */
 
-// @include transform($prefix: $variant-hover, $pseudo: $hover)
+@include transform($prefix: $variant-hover, $pseudo: $hover)
 @include transformOrigin($prefix: $variant-hover, $pseudo: $hover)
 @include rotate($prefix: $variant-hover, $pseudo: $hover)
 @include rotate($prefix: $variant-hover, $pseudo: $hover, $negative: $true) // negative

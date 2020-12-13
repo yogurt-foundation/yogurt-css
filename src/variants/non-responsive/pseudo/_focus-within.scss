@@ -23,7 +23,7 @@
 // @include backgroundRepeat($prefix: $variant-focus-within, $pseudo: $focus-within)
 // @include backgroundSize($prefix: $variant-focus-within, $pseudo: $focus-within)
 @include backgroundBlend($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.0.4)
-// @include backgroundOpacity($prefix: $variant-focus-within, $pseudo: $focus-within)
+@include backgroundOpacity($prefix: $variant-focus-within, $pseudo: $focus-within)
 // @include backgroundBorder($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.0.9)
 @include backgroundGradient($prefix: $variant-focus-within, $pseudo: $focus-within) // (v1.0.9)
 
@@ -157,21 +157,21 @@
 
 /* transforms */
 
-@include transform($prefix: $variant-focus-within, $pseudo: $focus-within)
-@include transformOrigin($prefix: $variant-focus-within, $pseudo: $focus-within)
-@include rotate($prefix: $variant-focus-within, $pseudo: $focus-within)
-@include rotate($prefix: $variant-focus-within, $pseudo: $focus-within, $negative: $true) // negative
-@include scale($prefix: $variant-focus-within, $pseudo: $focus-within)
-@include skew($prefix: $variant-focus-within, $pseudo: $focus-within)
-@include skew($prefix: $variant-focus-within, $pseudo: $focus-within, $negative: $true) // negative
-@include translate($prefix: $variant-focus-within, $pseudo: $focus-within)
-@include translate($prefix: $variant-focus-within, $pseudo: $focus-within, $negative: $true) // negative
+// @include transform($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include transformOrigin($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include rotate($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include rotate($prefix: $variant-focus-within, $pseudo: $focus-within, $negative: $true) // negative
+// @include scale($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include skew($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include skew($prefix: $variant-focus-within, $pseudo: $focus-within, $negative: $true) // negative
+// @include translate($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include translate($prefix: $variant-focus-within, $pseudo: $focus-within, $negative: $true) // negative
 
 /* transitions */
 
-@include transitionDuration($prefix: $variant-focus-within, $pseudo: $focus-within)
-@include transitionProperty($prefix: $variant-focus-within, $pseudo: $focus-within)
-@include transitionTiming($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include transitionDuration($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include transitionProperty($prefix: $variant-focus-within, $pseudo: $focus-within)
+// @include transitionTiming($prefix: $variant-focus-within, $pseudo: $focus-within)
 
 /* typography */
 

@@ -58284,6 +58284,26 @@ img[theme="invert"] {
   background-blend-mode: luminosity;
 }
 
+.\(focus-within\)bg-opacity-0:focus-within {
+  --bg-opacity: 0;
+}
+
+.\(focus-within\)bg-opacity-25:focus-within {
+  --bg-opacity: 0.25;
+}
+
+.\(focus-within\)bg-opacity-50:focus-within {
+  --bg-opacity: 0.5;
+}
+
+.\(focus-within\)bg-opacity-75:focus-within {
+  --bg-opacity: 0.75;
+}
+
+.\(focus-within\)bg-opacity-100:focus-within {
+  --bg-opacity: 1;
+}
+
 .\(focus-within\)bg-gradient:focus-within {
   background: linear-gradient(var(--bg-gradient-angle), var(--bg-gradient-start-color) var(--bg-gradient-primary), var(--bg-gradient-stop-color) var(--bg-gradient-secondary));
 }
@@ -64106,722 +64126,7 @@ img[theme="invert"] {
 /* svg */
 /* tables */
 /* transforms */
-.\(focus-within\)transform:focus-within {
-  --transform-translate-x: 0;
-  --transform-translate-y: 0;
-  --transform-rotate: 0;
-  --transform-skew-x: 0;
-  --transform-skew-y: 0;
-  --transform-scale-x: 1;
-  --transform-scale-y: 1;
-  -webkit-transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
-      -ms-transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
-          transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
-}
-
-.\(focus-within\)transform-none:focus-within {
-  -webkit-transform: none;
-      -ms-transform: none;
-          transform: none;
-}
-
-.\(focus-within\)origin-center:focus-within {
-  -webkit-transform-origin: center;
-      -ms-transform-origin: center;
-          transform-origin: center;
-}
-
-.\(focus-within\)origin-top:focus-within {
-  -webkit-transform-origin: top;
-      -ms-transform-origin: top;
-          transform-origin: top;
-}
-
-.\(focus-within\)origin-top-right:focus-within {
-  -webkit-transform-origin: top right;
-      -ms-transform-origin: top right;
-          transform-origin: top right;
-}
-
-.\(focus-within\)origin-right:focus-within {
-  -webkit-transform-origin: right;
-      -ms-transform-origin: right;
-          transform-origin: right;
-}
-
-.\(focus-within\)origin-bottom-right:focus-within {
-  -webkit-transform-origin: bottom right;
-      -ms-transform-origin: bottom right;
-          transform-origin: bottom right;
-}
-
-.\(focus-within\)origin-bottom:focus-within {
-  -webkit-transform-origin: bottom;
-      -ms-transform-origin: bottom;
-          transform-origin: bottom;
-}
-
-.\(focus-within\)origin-bottom-left:focus-within {
-  -webkit-transform-origin: bottom left;
-      -ms-transform-origin: bottom left;
-          transform-origin: bottom left;
-}
-
-.\(focus-within\)origin-left:focus-within {
-  -webkit-transform-origin: left;
-      -ms-transform-origin: left;
-          transform-origin: left;
-}
-
-.\(focus-within\)origin-top-left:focus-within {
-  -webkit-transform-origin: top left;
-      -ms-transform-origin: top left;
-          transform-origin: top left;
-}
-
-.\(focus-within\)rotate-0:focus-within {
-  --transform-rotate: 0;
-}
-
-.\(focus-within\)rotate-45:focus-within {
-  --transform-rotate: 45deg;
-}
-
-.\(focus-within\)rotate-90:focus-within {
-  --transform-rotate: 90deg;
-}
-
-.\(focus-within\)rotate-180:focus-within {
-  --transform-rotate: 180deg;
-}
-
-.\(focus-within\)-rotate-0:focus-within {
-  --transform-rotate: -0;
-}
-
-.\(focus-within\)-rotate-45:focus-within {
-  --transform-rotate: -45deg;
-}
-
-.\(focus-within\)-rotate-90:focus-within {
-  --transform-rotate: -90deg;
-}
-
-.\(focus-within\)-rotate-180:focus-within {
-  --transform-rotate: -180deg;
-}
-
-.\(focus-within\)scale-0:focus-within {
-  --transform-scale-x: 0;
-  --transform-scale-y: 0;
-}
-
-.\(focus-within\)scale-x-0:focus-within {
-  --transform-scale-x: 0;
-}
-
-.\(focus-within\)scale-y-0:focus-within {
-  --transform-scale-y: 0;
-}
-
-.\(focus-within\)scale-50:focus-within {
-  --transform-scale-x: 0.5;
-  --transform-scale-y: 0.5;
-}
-
-.\(focus-within\)scale-x-50:focus-within {
-  --transform-scale-x: 0.5;
-}
-
-.\(focus-within\)scale-y-50:focus-within {
-  --transform-scale-y: 0.5;
-}
-
-.\(focus-within\)scale-75:focus-within {
-  --transform-scale-x: 0.75;
-  --transform-scale-y: 0.75;
-}
-
-.\(focus-within\)scale-x-75:focus-within {
-  --transform-scale-x: 0.75;
-}
-
-.\(focus-within\)scale-y-75:focus-within {
-  --transform-scale-y: 0.75;
-}
-
-.\(focus-within\)scale-90:focus-within {
-  --transform-scale-x: 0.9;
-  --transform-scale-y: 0.9;
-}
-
-.\(focus-within\)scale-x-90:focus-within {
-  --transform-scale-x: 0.9;
-}
-
-.\(focus-within\)scale-y-90:focus-within {
-  --transform-scale-y: 0.9;
-}
-
-.\(focus-within\)scale-95:focus-within {
-  --transform-scale-x: 0.95;
-  --transform-scale-y: 0.95;
-}
-
-.\(focus-within\)scale-x-95:focus-within {
-  --transform-scale-x: 0.95;
-}
-
-.\(focus-within\)scale-y-95:focus-within {
-  --transform-scale-y: 0.95;
-}
-
-.\(focus-within\)scale-100:focus-within {
-  --transform-scale-x: 1;
-  --transform-scale-y: 1;
-}
-
-.\(focus-within\)scale-x-100:focus-within {
-  --transform-scale-x: 1;
-}
-
-.\(focus-within\)scale-y-100:focus-within {
-  --transform-scale-y: 1;
-}
-
-.\(focus-within\)scale-105:focus-within {
-  --transform-scale-x: 1.05;
-  --transform-scale-y: 1.05;
-}
-
-.\(focus-within\)scale-x-105:focus-within {
-  --transform-scale-x: 1.05;
-}
-
-.\(focus-within\)scale-y-105:focus-within {
-  --transform-scale-y: 1.05;
-}
-
-.\(focus-within\)scale-110:focus-within {
-  --transform-scale-x: 1.1;
-  --transform-scale-y: 1.1;
-}
-
-.\(focus-within\)scale-x-110:focus-within {
-  --transform-scale-x: 1.1;
-}
-
-.\(focus-within\)scale-y-110:focus-within {
-  --transform-scale-y: 1.1;
-}
-
-.\(focus-within\)scale-125:focus-within {
-  --transform-scale-x: 1.25;
-  --transform-scale-y: 1.25;
-}
-
-.\(focus-within\)scale-x-125:focus-within {
-  --transform-scale-x: 1.25;
-}
-
-.\(focus-within\)scale-y-125:focus-within {
-  --transform-scale-y: 1.25;
-}
-
-.\(focus-within\)scale-150:focus-within {
-  --transform-scale-x: 1.5;
-  --transform-scale-y: 1.5;
-}
-
-.\(focus-within\)scale-x-150:focus-within {
-  --transform-scale-x: 1.5;
-}
-
-.\(focus-within\)scale-y-150:focus-within {
-  --transform-scale-y: 1.5;
-}
-
-.\(focus-within\)skew-x-0:focus-within {
-  --transform-skew-x: 0;
-}
-
-.\(focus-within\)skew-y-0:focus-within {
-  --transform-skew-y: 0;
-}
-
-.\(focus-within\)skew-x-3:focus-within {
-  --transform-skew-x: 3deg;
-}
-
-.\(focus-within\)skew-y-3:focus-within {
-  --transform-skew-y: 3deg;
-}
-
-.\(focus-within\)skew-x-6:focus-within {
-  --transform-skew-x: 6deg;
-}
-
-.\(focus-within\)skew-y-6:focus-within {
-  --transform-skew-y: 6deg;
-}
-
-.\(focus-within\)skew-x-12:focus-within {
-  --transform-skew-x: 12deg;
-}
-
-.\(focus-within\)skew-y-12:focus-within {
-  --transform-skew-y: 12deg;
-}
-
-.\(focus-within\)-skew-x-0:focus-within {
-  --transform-skew-x: -0;
-}
-
-.\(focus-within\)-skew-y-0:focus-within {
-  --transform-skew-y: -0;
-}
-
-.\(focus-within\)-skew-x-3:focus-within {
-  --transform-skew-x: -3deg;
-}
-
-.\(focus-within\)-skew-y-3:focus-within {
-  --transform-skew-y: -3deg;
-}
-
-.\(focus-within\)-skew-x-6:focus-within {
-  --transform-skew-x: -6deg;
-}
-
-.\(focus-within\)-skew-y-6:focus-within {
-  --transform-skew-y: -6deg;
-}
-
-.\(focus-within\)-skew-x-12:focus-within {
-  --transform-skew-x: -12deg;
-}
-
-.\(focus-within\)-skew-y-12:focus-within {
-  --transform-skew-y: -12deg;
-}
-
-.\(focus-within\)translate-x-0:focus-within {
-  --transform-translate-x: 0;
-}
-
-.\(focus-within\)translate-y-0:focus-within {
-  --transform-translate-y: 0;
-}
-
-.\(focus-within\)translate-x-1:focus-within {
-  --transform-translate-x: 0.25rem;
-}
-
-.\(focus-within\)translate-y-1:focus-within {
-  --transform-translate-y: 0.25rem;
-}
-
-.\(focus-within\)translate-x-2:focus-within {
-  --transform-translate-x: 0.5rem;
-}
-
-.\(focus-within\)translate-y-2:focus-within {
-  --transform-translate-y: 0.5rem;
-}
-
-.\(focus-within\)translate-x-3:focus-within {
-  --transform-translate-x: 0.75rem;
-}
-
-.\(focus-within\)translate-y-3:focus-within {
-  --transform-translate-y: 0.75rem;
-}
-
-.\(focus-within\)translate-x-4:focus-within {
-  --transform-translate-x: 1rem;
-}
-
-.\(focus-within\)translate-y-4:focus-within {
-  --transform-translate-y: 1rem;
-}
-
-.\(focus-within\)translate-x-5:focus-within {
-  --transform-translate-x: 1.25rem;
-}
-
-.\(focus-within\)translate-y-5:focus-within {
-  --transform-translate-y: 1.25rem;
-}
-
-.\(focus-within\)translate-x-6:focus-within {
-  --transform-translate-x: 1.5rem;
-}
-
-.\(focus-within\)translate-y-6:focus-within {
-  --transform-translate-y: 1.5rem;
-}
-
-.\(focus-within\)translate-x-8:focus-within {
-  --transform-translate-x: 2rem;
-}
-
-.\(focus-within\)translate-y-8:focus-within {
-  --transform-translate-y: 2rem;
-}
-
-.\(focus-within\)translate-x-10:focus-within {
-  --transform-translate-x: 2.5rem;
-}
-
-.\(focus-within\)translate-y-10:focus-within {
-  --transform-translate-y: 2.5rem;
-}
-
-.\(focus-within\)translate-x-12:focus-within {
-  --transform-translate-x: 3rem;
-}
-
-.\(focus-within\)translate-y-12:focus-within {
-  --transform-translate-y: 3rem;
-}
-
-.\(focus-within\)translate-x-16:focus-within {
-  --transform-translate-x: 4rem;
-}
-
-.\(focus-within\)translate-y-16:focus-within {
-  --transform-translate-y: 4rem;
-}
-
-.\(focus-within\)translate-x-20:focus-within {
-  --transform-translate-x: 5rem;
-}
-
-.\(focus-within\)translate-y-20:focus-within {
-  --transform-translate-y: 5rem;
-}
-
-.\(focus-within\)translate-x-24:focus-within {
-  --transform-translate-x: 6rem;
-}
-
-.\(focus-within\)translate-y-24:focus-within {
-  --transform-translate-y: 6rem;
-}
-
-.\(focus-within\)translate-x-32:focus-within {
-  --transform-translate-x: 8rem;
-}
-
-.\(focus-within\)translate-y-32:focus-within {
-  --transform-translate-y: 8rem;
-}
-
-.\(focus-within\)translate-x-40:focus-within {
-  --transform-translate-x: 10rem;
-}
-
-.\(focus-within\)translate-y-40:focus-within {
-  --transform-translate-y: 10rem;
-}
-
-.\(focus-within\)translate-x-48:focus-within {
-  --transform-translate-x: 12rem;
-}
-
-.\(focus-within\)translate-y-48:focus-within {
-  --transform-translate-y: 12rem;
-}
-
-.\(focus-within\)translate-x-56:focus-within {
-  --transform-translate-x: 14rem;
-}
-
-.\(focus-within\)translate-y-56:focus-within {
-  --transform-translate-y: 14rem;
-}
-
-.\(focus-within\)translate-x-64:focus-within {
-  --transform-translate-x: 16rem;
-}
-
-.\(focus-within\)translate-y-64:focus-within {
-  --transform-translate-y: 16rem;
-}
-
-.\(focus-within\)translate-x-px:focus-within {
-  --transform-translate-x: 1px;
-}
-
-.\(focus-within\)translate-y-px:focus-within {
-  --transform-translate-y: 1px;
-}
-
-.\(focus-within\)translate-x-1\/2:focus-within {
-  --transform-translate-x: 50%;
-}
-
-.\(focus-within\)translate-y-1\/2:focus-within {
-  --transform-translate-y: 50%;
-}
-
-.\(focus-within\)translate-x-full:focus-within {
-  --transform-translate-x: 100%;
-}
-
-.\(focus-within\)translate-y-full:focus-within {
-  --transform-translate-y: 100%;
-}
-
-.\(focus-within\)-translate-x-0:focus-within {
-  --transform-translate-x: -0;
-}
-
-.\(focus-within\)-translate-y-0:focus-within {
-  --transform-translate-y: -0;
-}
-
-.\(focus-within\)-translate-x-1:focus-within {
-  --transform-translate-x: -0.25rem;
-}
-
-.\(focus-within\)-translate-y-1:focus-within {
-  --transform-translate-y: -0.25rem;
-}
-
-.\(focus-within\)-translate-x-2:focus-within {
-  --transform-translate-x: -0.5rem;
-}
-
-.\(focus-within\)-translate-y-2:focus-within {
-  --transform-translate-y: -0.5rem;
-}
-
-.\(focus-within\)-translate-x-3:focus-within {
-  --transform-translate-x: -0.75rem;
-}
-
-.\(focus-within\)-translate-y-3:focus-within {
-  --transform-translate-y: -0.75rem;
-}
-
-.\(focus-within\)-translate-x-4:focus-within {
-  --transform-translate-x: -1rem;
-}
-
-.\(focus-within\)-translate-y-4:focus-within {
-  --transform-translate-y: -1rem;
-}
-
-.\(focus-within\)-translate-x-5:focus-within {
-  --transform-translate-x: -1.25rem;
-}
-
-.\(focus-within\)-translate-y-5:focus-within {
-  --transform-translate-y: -1.25rem;
-}
-
-.\(focus-within\)-translate-x-6:focus-within {
-  --transform-translate-x: -1.5rem;
-}
-
-.\(focus-within\)-translate-y-6:focus-within {
-  --transform-translate-y: -1.5rem;
-}
-
-.\(focus-within\)-translate-x-8:focus-within {
-  --transform-translate-x: -2rem;
-}
-
-.\(focus-within\)-translate-y-8:focus-within {
-  --transform-translate-y: -2rem;
-}
-
-.\(focus-within\)-translate-x-10:focus-within {
-  --transform-translate-x: -2.5rem;
-}
-
-.\(focus-within\)-translate-y-10:focus-within {
-  --transform-translate-y: -2.5rem;
-}
-
-.\(focus-within\)-translate-x-12:focus-within {
-  --transform-translate-x: -3rem;
-}
-
-.\(focus-within\)-translate-y-12:focus-within {
-  --transform-translate-y: -3rem;
-}
-
-.\(focus-within\)-translate-x-16:focus-within {
-  --transform-translate-x: -4rem;
-}
-
-.\(focus-within\)-translate-y-16:focus-within {
-  --transform-translate-y: -4rem;
-}
-
-.\(focus-within\)-translate-x-20:focus-within {
-  --transform-translate-x: -5rem;
-}
-
-.\(focus-within\)-translate-y-20:focus-within {
-  --transform-translate-y: -5rem;
-}
-
-.\(focus-within\)-translate-x-24:focus-within {
-  --transform-translate-x: -6rem;
-}
-
-.\(focus-within\)-translate-y-24:focus-within {
-  --transform-translate-y: -6rem;
-}
-
-.\(focus-within\)-translate-x-32:focus-within {
-  --transform-translate-x: -8rem;
-}
-
-.\(focus-within\)-translate-y-32:focus-within {
-  --transform-translate-y: -8rem;
-}
-
-.\(focus-within\)-translate-x-40:focus-within {
-  --transform-translate-x: -10rem;
-}
-
-.\(focus-within\)-translate-y-40:focus-within {
-  --transform-translate-y: -10rem;
-}
-
-.\(focus-within\)-translate-x-48:focus-within {
-  --transform-translate-x: -12rem;
-}
-
-.\(focus-within\)-translate-y-48:focus-within {
-  --transform-translate-y: -12rem;
-}
-
-.\(focus-within\)-translate-x-56:focus-within {
-  --transform-translate-x: -14rem;
-}
-
-.\(focus-within\)-translate-y-56:focus-within {
-  --transform-translate-y: -14rem;
-}
-
-.\(focus-within\)-translate-x-64:focus-within {
-  --transform-translate-x: -16rem;
-}
-
-.\(focus-within\)-translate-y-64:focus-within {
-  --transform-translate-y: -16rem;
-}
-
-.\(focus-within\)-translate-x-px:focus-within {
-  --transform-translate-x: -1px;
-}
-
-.\(focus-within\)-translate-y-px:focus-within {
-  --transform-translate-y: -1px;
-}
-
-.\(focus-within\)-translate-x-1\/2:focus-within {
-  --transform-translate-x: -50%;
-}
-
-.\(focus-within\)-translate-y-1\/2:focus-within {
-  --transform-translate-y: -50%;
-}
-
-.\(focus-within\)-translate-x-full:focus-within {
-  --transform-translate-x: -100%;
-}
-
-.\(focus-within\)-translate-y-full:focus-within {
-  --transform-translate-y: -100%;
-}
-
 /* transitions */
-.\(focus-within\)duration-75:focus-within {
-  transition-duration: 75ms;
-}
-
-.\(focus-within\)duration-100:focus-within {
-  transition-duration: 100ms;
-}
-
-.\(focus-within\)duration-150:focus-within {
-  transition-duration: 150ms;
-}
-
-.\(focus-within\)duration-200:focus-within {
-  transition-duration: 200ms;
-}
-
-.\(focus-within\)duration-300:focus-within {
-  transition-duration: 300ms;
-}
-
-.\(focus-within\)duration-500:focus-within {
-  transition-duration: 500ms;
-}
-
-.\(focus-within\)duration-700:focus-within {
-  transition-duration: 700ms;
-}
-
-.\(focus-within\)duration-1000:focus-within {
-  transition-duration: 1000ms;
-}
-
-.\(focus-within\)transition-none:focus-within {
-  transition-property: none;
-}
-
-.\(focus-within\)transition-all:focus-within {
-  transition-property: all;
-}
-
-.\(focus-within\)transition:focus-within {
-  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, -webkit-transform;
-  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
-  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, -webkit-transform;
-}
-
-.\(focus-within\)transition-colors:focus-within {
-  transition-property: background-color, border-color, color, fill, stroke;
-}
-
-.\(focus-within\)transition-opacity:focus-within {
-  transition-property: opacity;
-}
-
-.\(focus-within\)transition-shadow:focus-within {
-  transition-property: box-shadow;
-}
-
-.\(focus-within\)transition-transform:focus-within {
-  transition-property: -webkit-transform;
-  transition-property: transform;
-  transition-property: transform, -webkit-transform;
-}
-
-.\(focus-within\)ease-linear:focus-within {
-  transition-timing-function: linear;
-}
-
-.\(focus-within\)ease-in:focus-within {
-  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
-}
-
-.\(focus-within\)ease-out:focus-within {
-  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
-}
-
-.\(focus-within\)ease-in-out:focus-within {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 /* typography */
 .\(focus-within\)text-amber-100:focus-within {
   color: #fff9e6;
@@ -66504,6 +65809,26 @@ img[theme="invert"] {
   background-color: currentColor;
 }
 
+.\(focus\)bg-opacity-0:focus {
+  --bg-opacity: 0;
+}
+
+.\(focus\)bg-opacity-25:focus {
+  --bg-opacity: 0.25;
+}
+
+.\(focus\)bg-opacity-50:focus {
+  --bg-opacity: 0.5;
+}
+
+.\(focus\)bg-opacity-75:focus {
+  --bg-opacity: 0.75;
+}
+
+.\(focus\)bg-opacity-100:focus {
+  --bg-opacity: 1;
+}
+
 /* borders */
 .\(focus\)border-amber-100:focus {
   border-color: #fff9e6;
@@ -67223,6 +66548,34 @@ img[theme="invert"] {
 }
 
 /* layouts */
+.\(focus\)z-auto:focus {
+  z-index: auto;
+}
+
+.\(focus\)z-0:focus {
+  z-index: 0;
+}
+
+.\(focus\)z-10:focus {
+  z-index: 10;
+}
+
+.\(focus\)z-20:focus {
+  z-index: 20;
+}
+
+.\(focus\)z-30:focus {
+  z-index: 30;
+}
+
+.\(focus\)z-40:focus {
+  z-index: 40;
+}
+
+.\(focus\)z-50:focus {
+  z-index: 50;
+}
+
 /* patterns */
 /* rendering */
 /* sizing */
@@ -67230,6 +66583,641 @@ img[theme="invert"] {
 /* svg */
 /* tables */
 /* transforms */
+.\(focus\)transform:focus {
+  --transform-translate-x: 0;
+  --transform-translate-y: 0;
+  --transform-rotate: 0;
+  --transform-skew-x: 0;
+  --transform-skew-y: 0;
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+  -webkit-transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+      -ms-transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+          transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+}
+
+.\(focus\)transform-none:focus {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+}
+
+.\(focus\)origin-center:focus {
+  -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+          transform-origin: center;
+}
+
+.\(focus\)origin-top:focus {
+  -webkit-transform-origin: top;
+      -ms-transform-origin: top;
+          transform-origin: top;
+}
+
+.\(focus\)origin-top-right:focus {
+  -webkit-transform-origin: top right;
+      -ms-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.\(focus\)origin-right:focus {
+  -webkit-transform-origin: right;
+      -ms-transform-origin: right;
+          transform-origin: right;
+}
+
+.\(focus\)origin-bottom-right:focus {
+  -webkit-transform-origin: bottom right;
+      -ms-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.\(focus\)origin-bottom:focus {
+  -webkit-transform-origin: bottom;
+      -ms-transform-origin: bottom;
+          transform-origin: bottom;
+}
+
+.\(focus\)origin-bottom-left:focus {
+  -webkit-transform-origin: bottom left;
+      -ms-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.\(focus\)origin-left:focus {
+  -webkit-transform-origin: left;
+      -ms-transform-origin: left;
+          transform-origin: left;
+}
+
+.\(focus\)origin-top-left:focus {
+  -webkit-transform-origin: top left;
+      -ms-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.\(focus\)rotate-0:focus {
+  --transform-rotate: 0;
+}
+
+.\(focus\)rotate-45:focus {
+  --transform-rotate: 45deg;
+}
+
+.\(focus\)rotate-90:focus {
+  --transform-rotate: 90deg;
+}
+
+.\(focus\)rotate-180:focus {
+  --transform-rotate: 180deg;
+}
+
+.\(focus\)-rotate-0:focus {
+  --transform-rotate: -0;
+}
+
+.\(focus\)-rotate-45:focus {
+  --transform-rotate: -45deg;
+}
+
+.\(focus\)-rotate-90:focus {
+  --transform-rotate: -90deg;
+}
+
+.\(focus\)-rotate-180:focus {
+  --transform-rotate: -180deg;
+}
+
+.\(focus\)scale-0:focus {
+  --transform-scale-x: 0;
+  --transform-scale-y: 0;
+}
+
+.\(focus\)scale-x-0:focus {
+  --transform-scale-x: 0;
+}
+
+.\(focus\)scale-y-0:focus {
+  --transform-scale-y: 0;
+}
+
+.\(focus\)scale-50:focus {
+  --transform-scale-x: 0.5;
+  --transform-scale-y: 0.5;
+}
+
+.\(focus\)scale-x-50:focus {
+  --transform-scale-x: 0.5;
+}
+
+.\(focus\)scale-y-50:focus {
+  --transform-scale-y: 0.5;
+}
+
+.\(focus\)scale-75:focus {
+  --transform-scale-x: 0.75;
+  --transform-scale-y: 0.75;
+}
+
+.\(focus\)scale-x-75:focus {
+  --transform-scale-x: 0.75;
+}
+
+.\(focus\)scale-y-75:focus {
+  --transform-scale-y: 0.75;
+}
+
+.\(focus\)scale-90:focus {
+  --transform-scale-x: 0.9;
+  --transform-scale-y: 0.9;
+}
+
+.\(focus\)scale-x-90:focus {
+  --transform-scale-x: 0.9;
+}
+
+.\(focus\)scale-y-90:focus {
+  --transform-scale-y: 0.9;
+}
+
+.\(focus\)scale-95:focus {
+  --transform-scale-x: 0.95;
+  --transform-scale-y: 0.95;
+}
+
+.\(focus\)scale-x-95:focus {
+  --transform-scale-x: 0.95;
+}
+
+.\(focus\)scale-y-95:focus {
+  --transform-scale-y: 0.95;
+}
+
+.\(focus\)scale-100:focus {
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+}
+
+.\(focus\)scale-x-100:focus {
+  --transform-scale-x: 1;
+}
+
+.\(focus\)scale-y-100:focus {
+  --transform-scale-y: 1;
+}
+
+.\(focus\)scale-105:focus {
+  --transform-scale-x: 1.05;
+  --transform-scale-y: 1.05;
+}
+
+.\(focus\)scale-x-105:focus {
+  --transform-scale-x: 1.05;
+}
+
+.\(focus\)scale-y-105:focus {
+  --transform-scale-y: 1.05;
+}
+
+.\(focus\)scale-110:focus {
+  --transform-scale-x: 1.1;
+  --transform-scale-y: 1.1;
+}
+
+.\(focus\)scale-x-110:focus {
+  --transform-scale-x: 1.1;
+}
+
+.\(focus\)scale-y-110:focus {
+  --transform-scale-y: 1.1;
+}
+
+.\(focus\)scale-125:focus {
+  --transform-scale-x: 1.25;
+  --transform-scale-y: 1.25;
+}
+
+.\(focus\)scale-x-125:focus {
+  --transform-scale-x: 1.25;
+}
+
+.\(focus\)scale-y-125:focus {
+  --transform-scale-y: 1.25;
+}
+
+.\(focus\)scale-150:focus {
+  --transform-scale-x: 1.5;
+  --transform-scale-y: 1.5;
+}
+
+.\(focus\)scale-x-150:focus {
+  --transform-scale-x: 1.5;
+}
+
+.\(focus\)scale-y-150:focus {
+  --transform-scale-y: 1.5;
+}
+
+.\(focus\)skew-x-0:focus {
+  --transform-skew-x: 0;
+}
+
+.\(focus\)skew-y-0:focus {
+  --transform-skew-y: 0;
+}
+
+.\(focus\)skew-x-3:focus {
+  --transform-skew-x: 3deg;
+}
+
+.\(focus\)skew-y-3:focus {
+  --transform-skew-y: 3deg;
+}
+
+.\(focus\)skew-x-6:focus {
+  --transform-skew-x: 6deg;
+}
+
+.\(focus\)skew-y-6:focus {
+  --transform-skew-y: 6deg;
+}
+
+.\(focus\)skew-x-12:focus {
+  --transform-skew-x: 12deg;
+}
+
+.\(focus\)skew-y-12:focus {
+  --transform-skew-y: 12deg;
+}
+
+.\(focus\)-skew-x-0:focus {
+  --transform-skew-x: -0;
+}
+
+.\(focus\)-skew-y-0:focus {
+  --transform-skew-y: -0;
+}
+
+.\(focus\)-skew-x-3:focus {
+  --transform-skew-x: -3deg;
+}
+
+.\(focus\)-skew-y-3:focus {
+  --transform-skew-y: -3deg;
+}
+
+.\(focus\)-skew-x-6:focus {
+  --transform-skew-x: -6deg;
+}
+
+.\(focus\)-skew-y-6:focus {
+  --transform-skew-y: -6deg;
+}
+
+.\(focus\)-skew-x-12:focus {
+  --transform-skew-x: -12deg;
+}
+
+.\(focus\)-skew-y-12:focus {
+  --transform-skew-y: -12deg;
+}
+
+.\(focus\)translate-x-0:focus {
+  --transform-translate-x: 0;
+}
+
+.\(focus\)translate-y-0:focus {
+  --transform-translate-y: 0;
+}
+
+.\(focus\)translate-x-1:focus {
+  --transform-translate-x: 0.25rem;
+}
+
+.\(focus\)translate-y-1:focus {
+  --transform-translate-y: 0.25rem;
+}
+
+.\(focus\)translate-x-2:focus {
+  --transform-translate-x: 0.5rem;
+}
+
+.\(focus\)translate-y-2:focus {
+  --transform-translate-y: 0.5rem;
+}
+
+.\(focus\)translate-x-3:focus {
+  --transform-translate-x: 0.75rem;
+}
+
+.\(focus\)translate-y-3:focus {
+  --transform-translate-y: 0.75rem;
+}
+
+.\(focus\)translate-x-4:focus {
+  --transform-translate-x: 1rem;
+}
+
+.\(focus\)translate-y-4:focus {
+  --transform-translate-y: 1rem;
+}
+
+.\(focus\)translate-x-5:focus {
+  --transform-translate-x: 1.25rem;
+}
+
+.\(focus\)translate-y-5:focus {
+  --transform-translate-y: 1.25rem;
+}
+
+.\(focus\)translate-x-6:focus {
+  --transform-translate-x: 1.5rem;
+}
+
+.\(focus\)translate-y-6:focus {
+  --transform-translate-y: 1.5rem;
+}
+
+.\(focus\)translate-x-8:focus {
+  --transform-translate-x: 2rem;
+}
+
+.\(focus\)translate-y-8:focus {
+  --transform-translate-y: 2rem;
+}
+
+.\(focus\)translate-x-10:focus {
+  --transform-translate-x: 2.5rem;
+}
+
+.\(focus\)translate-y-10:focus {
+  --transform-translate-y: 2.5rem;
+}
+
+.\(focus\)translate-x-12:focus {
+  --transform-translate-x: 3rem;
+}
+
+.\(focus\)translate-y-12:focus {
+  --transform-translate-y: 3rem;
+}
+
+.\(focus\)translate-x-16:focus {
+  --transform-translate-x: 4rem;
+}
+
+.\(focus\)translate-y-16:focus {
+  --transform-translate-y: 4rem;
+}
+
+.\(focus\)translate-x-20:focus {
+  --transform-translate-x: 5rem;
+}
+
+.\(focus\)translate-y-20:focus {
+  --transform-translate-y: 5rem;
+}
+
+.\(focus\)translate-x-24:focus {
+  --transform-translate-x: 6rem;
+}
+
+.\(focus\)translate-y-24:focus {
+  --transform-translate-y: 6rem;
+}
+
+.\(focus\)translate-x-32:focus {
+  --transform-translate-x: 8rem;
+}
+
+.\(focus\)translate-y-32:focus {
+  --transform-translate-y: 8rem;
+}
+
+.\(focus\)translate-x-40:focus {
+  --transform-translate-x: 10rem;
+}
+
+.\(focus\)translate-y-40:focus {
+  --transform-translate-y: 10rem;
+}
+
+.\(focus\)translate-x-48:focus {
+  --transform-translate-x: 12rem;
+}
+
+.\(focus\)translate-y-48:focus {
+  --transform-translate-y: 12rem;
+}
+
+.\(focus\)translate-x-56:focus {
+  --transform-translate-x: 14rem;
+}
+
+.\(focus\)translate-y-56:focus {
+  --transform-translate-y: 14rem;
+}
+
+.\(focus\)translate-x-64:focus {
+  --transform-translate-x: 16rem;
+}
+
+.\(focus\)translate-y-64:focus {
+  --transform-translate-y: 16rem;
+}
+
+.\(focus\)translate-x-px:focus {
+  --transform-translate-x: 1px;
+}
+
+.\(focus\)translate-y-px:focus {
+  --transform-translate-y: 1px;
+}
+
+.\(focus\)translate-x-1\/2:focus {
+  --transform-translate-x: 50%;
+}
+
+.\(focus\)translate-y-1\/2:focus {
+  --transform-translate-y: 50%;
+}
+
+.\(focus\)translate-x-full:focus {
+  --transform-translate-x: 100%;
+}
+
+.\(focus\)translate-y-full:focus {
+  --transform-translate-y: 100%;
+}
+
+.\(focus\)-translate-x-0:focus {
+  --transform-translate-x: -0;
+}
+
+.\(focus\)-translate-y-0:focus {
+  --transform-translate-y: -0;
+}
+
+.\(focus\)-translate-x-1:focus {
+  --transform-translate-x: -0.25rem;
+}
+
+.\(focus\)-translate-y-1:focus {
+  --transform-translate-y: -0.25rem;
+}
+
+.\(focus\)-translate-x-2:focus {
+  --transform-translate-x: -0.5rem;
+}
+
+.\(focus\)-translate-y-2:focus {
+  --transform-translate-y: -0.5rem;
+}
+
+.\(focus\)-translate-x-3:focus {
+  --transform-translate-x: -0.75rem;
+}
+
+.\(focus\)-translate-y-3:focus {
+  --transform-translate-y: -0.75rem;
+}
+
+.\(focus\)-translate-x-4:focus {
+  --transform-translate-x: -1rem;
+}
+
+.\(focus\)-translate-y-4:focus {
+  --transform-translate-y: -1rem;
+}
+
+.\(focus\)-translate-x-5:focus {
+  --transform-translate-x: -1.25rem;
+}
+
+.\(focus\)-translate-y-5:focus {
+  --transform-translate-y: -1.25rem;
+}
+
+.\(focus\)-translate-x-6:focus {
+  --transform-translate-x: -1.5rem;
+}
+
+.\(focus\)-translate-y-6:focus {
+  --transform-translate-y: -1.5rem;
+}
+
+.\(focus\)-translate-x-8:focus {
+  --transform-translate-x: -2rem;
+}
+
+.\(focus\)-translate-y-8:focus {
+  --transform-translate-y: -2rem;
+}
+
+.\(focus\)-translate-x-10:focus {
+  --transform-translate-x: -2.5rem;
+}
+
+.\(focus\)-translate-y-10:focus {
+  --transform-translate-y: -2.5rem;
+}
+
+.\(focus\)-translate-x-12:focus {
+  --transform-translate-x: -3rem;
+}
+
+.\(focus\)-translate-y-12:focus {
+  --transform-translate-y: -3rem;
+}
+
+.\(focus\)-translate-x-16:focus {
+  --transform-translate-x: -4rem;
+}
+
+.\(focus\)-translate-y-16:focus {
+  --transform-translate-y: -4rem;
+}
+
+.\(focus\)-translate-x-20:focus {
+  --transform-translate-x: -5rem;
+}
+
+.\(focus\)-translate-y-20:focus {
+  --transform-translate-y: -5rem;
+}
+
+.\(focus\)-translate-x-24:focus {
+  --transform-translate-x: -6rem;
+}
+
+.\(focus\)-translate-y-24:focus {
+  --transform-translate-y: -6rem;
+}
+
+.\(focus\)-translate-x-32:focus {
+  --transform-translate-x: -8rem;
+}
+
+.\(focus\)-translate-y-32:focus {
+  --transform-translate-y: -8rem;
+}
+
+.\(focus\)-translate-x-40:focus {
+  --transform-translate-x: -10rem;
+}
+
+.\(focus\)-translate-y-40:focus {
+  --transform-translate-y: -10rem;
+}
+
+.\(focus\)-translate-x-48:focus {
+  --transform-translate-x: -12rem;
+}
+
+.\(focus\)-translate-y-48:focus {
+  --transform-translate-y: -12rem;
+}
+
+.\(focus\)-translate-x-56:focus {
+  --transform-translate-x: -14rem;
+}
+
+.\(focus\)-translate-y-56:focus {
+  --transform-translate-y: -14rem;
+}
+
+.\(focus\)-translate-x-64:focus {
+  --transform-translate-x: -16rem;
+}
+
+.\(focus\)-translate-y-64:focus {
+  --transform-translate-y: -16rem;
+}
+
+.\(focus\)-translate-x-px:focus {
+  --transform-translate-x: -1px;
+}
+
+.\(focus\)-translate-y-px:focus {
+  --transform-translate-y: -1px;
+}
+
+.\(focus\)-translate-x-1\/2:focus {
+  --transform-translate-x: -50%;
+}
+
+.\(focus\)-translate-y-1\/2:focus {
+  --transform-translate-y: -50%;
+}
+
+.\(focus\)-translate-x-full:focus {
+  --transform-translate-x: -100%;
+}
+
+.\(focus\)-translate-y-full:focus {
+  --transform-translate-y: -100%;
+}
+
 /* transitions */
 /* typography */
 .\(focus\)text-amber-100:focus {
@@ -68262,42 +68250,6 @@ img[theme="invert"] {
 
 .\(group\):focus .\(group-focus\)text-current {
   color: currentColor;
-}
-
-.\(focus\)font-hairline:focus {
-  font-weight: 100;
-}
-
-.\(focus\)font-thin:focus {
-  font-weight: 200;
-}
-
-.\(focus\)font-light:focus {
-  font-weight: 300;
-}
-
-.\(focus\)font-normal:focus {
-  font-weight: 400;
-}
-
-.\(focus\)font-medium:focus {
-  font-weight: 500;
-}
-
-.\(focus\)font-semibold:focus {
-  font-weight: 600;
-}
-
-.\(focus\)font-bold:focus {
-  font-weight: 700;
-}
-
-.\(focus\)font-extrabold:focus {
-  font-weight: 800;
-}
-
-.\(focus\)font-black:focus {
-  font-weight: 900;
 }
 
 .\(focus\)placeholder-amber-100:focus:-ms-input-placeholder {
@@ -73549,6 +73501,26 @@ img[theme="invert"] {
   background-color: currentColor;
 }
 
+.\(hover\)bg-opacity-0:hover {
+  --bg-opacity: 0;
+}
+
+.\(hover\)bg-opacity-25:hover {
+  --bg-opacity: 0.25;
+}
+
+.\(hover\)bg-opacity-50:hover {
+  --bg-opacity: 0.5;
+}
+
+.\(hover\)bg-opacity-75:hover {
+  --bg-opacity: 0.75;
+}
+
+.\(hover\)bg-opacity-100:hover {
+  --bg-opacity: 1;
+}
+
 .\(hover\)bg-gradient:hover {
   background: linear-gradient(var(--bg-gradient-angle), var(--bg-gradient-start-color) var(--bg-gradient-primary), var(--bg-gradient-stop-color) var(--bg-gradient-secondary));
 }
@@ -76420,6 +76392,762 @@ img[theme="invert"] {
   border-right-width: 0.5em;
 }
 
+.\(hover\)dissect-amber-100 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #fff9e6;
+  border-color: rgba(255, 249, 230, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-amber-200 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #fff0bf;
+  border-color: rgba(255, 240, 191, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-amber-300 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #ffe799;
+  border-color: rgba(255, 231, 153, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-amber-400 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #ffd54d;
+  border-color: rgba(255, 213, 77, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-amber-500 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #ffc300;
+  border-color: rgba(255, 195, 0, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-amber-600 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #e6b000;
+  border-color: rgba(230, 176, 0, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-amber-700 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #997500;
+  border-color: rgba(153, 117, 0, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-amber-800 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #735800;
+  border-color: rgba(115, 88, 0, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-amber-900 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #4d3b00;
+  border-color: rgba(77, 59, 0, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-black-100 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #b9b9b9;
+  border-color: rgba(185, 185, 185, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-black-200 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #a2a2a2;
+  border-color: rgba(162, 162, 162, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-black-300 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #8b8b8b;
+  border-color: rgba(139, 139, 139, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-black-400 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #737373;
+  border-color: rgba(115, 115, 115, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-black-500 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #5c5c5c;
+  border-color: rgba(92, 92, 92, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-black-600 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #454545;
+  border-color: rgba(69, 69, 69, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-black-700 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #2e2e2e;
+  border-color: rgba(46, 46, 46, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-black-800 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #171717;
+  border-color: rgba(23, 23, 23, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-black-900 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #000000;
+  border-color: rgba(0, 0, 0, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-blue-100 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #ebf8ff;
+  border-color: rgba(235, 248, 255, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-blue-200 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #bee3f8;
+  border-color: rgba(190, 227, 248, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-blue-300 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #90cdf4;
+  border-color: rgba(144, 205, 244, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-blue-400 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #63b3ed;
+  border-color: rgba(99, 179, 237, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-blue-500 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #4299e1;
+  border-color: rgba(66, 153, 225, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-blue-600 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #3182ce;
+  border-color: rgba(49, 130, 206, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-blue-700 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #2b6cb0;
+  border-color: rgba(43, 108, 176, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-blue-800 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #2c5282;
+  border-color: rgba(44, 82, 130, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-blue-900 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #2a4365;
+  border-color: rgba(42, 67, 101, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-charcoal-100 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #222c35;
+  border-color: rgba(34, 44, 53, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-charcoal-200 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #1f2831;
+  border-color: rgba(31, 40, 49, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-charcoal-300 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #1c252c;
+  border-color: rgba(28, 37, 44, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-charcoal-400 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #192127;
+  border-color: rgba(25, 33, 39, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-charcoal-500 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #161d22;
+  border-color: rgba(22, 29, 34, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-charcoal-600 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #13181d;
+  border-color: rgba(19, 24, 29, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-charcoal-700 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #101419;
+  border-color: rgba(16, 20, 25, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-charcoal-800 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #0d1014;
+  border-color: rgba(13, 16, 20, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-charcoal-900 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #0a0c0f;
+  border-color: rgba(10, 12, 15, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-gray-100 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #f7fafc;
+  border-color: rgba(247, 250, 252, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-gray-200 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #edf2f7;
+  border-color: rgba(237, 242, 247, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-gray-300 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #e2e8f0;
+  border-color: rgba(226, 232, 240, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-gray-400 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #cbd5e0;
+  border-color: rgba(203, 213, 224, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-gray-500 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #a0aec0;
+  border-color: rgba(160, 174, 192, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-gray-600 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #718096;
+  border-color: rgba(113, 128, 150, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-gray-700 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #4a5568;
+  border-color: rgba(74, 85, 104, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-gray-800 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #2d3748;
+  border-color: rgba(45, 55, 72, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-gray-900 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #1a202c;
+  border-color: rgba(26, 32, 44, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-green-100 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #f0fff4;
+  border-color: rgba(240, 255, 244, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-green-200 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #c6f6d5;
+  border-color: rgba(198, 246, 213, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-green-300 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #9ae6b4;
+  border-color: rgba(154, 230, 180, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-green-400 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #68d391;
+  border-color: rgba(104, 211, 145, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-green-500 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #48bb78;
+  border-color: rgba(72, 187, 120, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-green-600 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #38a169;
+  border-color: rgba(56, 161, 105, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-green-700 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #2f855a;
+  border-color: rgba(47, 133, 90, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-green-800 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #276749;
+  border-color: rgba(39, 103, 73, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-green-900 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #22543d;
+  border-color: rgba(34, 84, 61, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-indigo-100 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #ebf4ff;
+  border-color: rgba(235, 244, 255, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-indigo-200 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #c3dafe;
+  border-color: rgba(195, 218, 254, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-indigo-300 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #a3bffa;
+  border-color: rgba(163, 191, 250, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-indigo-400 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #7f9cf5;
+  border-color: rgba(127, 156, 245, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-indigo-500 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #667eea;
+  border-color: rgba(102, 126, 234, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-indigo-600 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #5a67d8;
+  border-color: rgba(90, 103, 216, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-indigo-700 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #4c51bf;
+  border-color: rgba(76, 81, 191, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-indigo-800 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #434190;
+  border-color: rgba(67, 65, 144, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-indigo-900 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #3c366b;
+  border-color: rgba(60, 54, 107, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-khaki-100 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #f9f7f4;
+  border-color: rgba(249, 247, 244, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-khaki-200 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #f0ebe4;
+  border-color: rgba(240, 235, 228, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-khaki-300 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #e7dfd3;
+  border-color: rgba(231, 223, 211, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-khaki-400 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #d5c8b2;
+  border-color: rgba(213, 200, 178, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-khaki-500 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #c3b091;
+  border-color: rgba(195, 176, 145, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-khaki-600 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #b09e83;
+  border-color: rgba(176, 158, 131, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-khaki-700 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #756a57;
+  border-color: rgba(117, 106, 87, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-khaki-800 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #584f41;
+  border-color: rgba(88, 79, 65, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-khaki-900 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #3b352c;
+  border-color: rgba(59, 53, 44, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-nero-100 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #e9e9e9;
+  border-color: rgba(233, 233, 233, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-nero-200 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #c7c8c9;
+  border-color: rgba(199, 200, 201, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-nero-300 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #a6a7a8;
+  border-color: rgba(166, 167, 168, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-nero-400 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #636466;
+  border-color: rgba(99, 100, 102, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-nero-500 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #202225;
+  border-color: rgba(32, 34, 37, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-nero-600 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #1d1f21;
+  border-color: rgba(29, 31, 33, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-nero-700 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #131416;
+  border-color: rgba(19, 20, 22, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-nero-800 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #0e0f11;
+  border-color: rgba(14, 15, 17, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-nero-900 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #0a0a0b;
+  border-color: rgba(10, 10, 11, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-orange-100 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #fffaf0;
+  border-color: rgba(255, 250, 240, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-orange-200 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #feebc8;
+  border-color: rgba(254, 235, 200, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-orange-300 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #fbd38d;
+  border-color: rgba(251, 211, 141, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-orange-400 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #f6ad55;
+  border-color: rgba(246, 173, 85, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-orange-500 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #ed8936;
+  border-color: rgba(237, 137, 54, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-orange-600 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #dd6b20;
+  border-color: rgba(221, 107, 32, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-orange-700 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #c05621;
+  border-color: rgba(192, 86, 33, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-orange-800 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #9c4221;
+  border-color: rgba(156, 66, 33, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-orange-900 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #7b341e;
+  border-color: rgba(123, 52, 30, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-pink-100 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #fff5f7;
+  border-color: rgba(255, 245, 247, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-pink-200 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #fed7e2;
+  border-color: rgba(254, 215, 226, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-pink-300 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #fbb6ce;
+  border-color: rgba(251, 182, 206, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-pink-400 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #f687b3;
+  border-color: rgba(246, 135, 179, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-pink-500 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #ed64a6;
+  border-color: rgba(237, 100, 166, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-pink-600 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #d53f8c;
+  border-color: rgba(213, 63, 140, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-pink-700 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #b83280;
+  border-color: rgba(184, 50, 128, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-pink-800 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #97266d;
+  border-color: rgba(151, 38, 109, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-pink-900 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #702459;
+  border-color: rgba(112, 36, 89, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-purple-100 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #faf5ff;
+  border-color: rgba(250, 245, 255, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-purple-200 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #e9d8fd;
+  border-color: rgba(233, 216, 253, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-purple-300 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #d6bcfa;
+  border-color: rgba(214, 188, 250, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-purple-400 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #b794f4;
+  border-color: rgba(183, 148, 244, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-purple-500 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #9f7aea;
+  border-color: rgba(159, 122, 234, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-purple-600 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #805ad5;
+  border-color: rgba(128, 90, 213, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-purple-700 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #6b46c1;
+  border-color: rgba(107, 70, 193, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-purple-800 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #553c9a;
+  border-color: rgba(85, 60, 154, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-purple-900 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #44337a;
+  border-color: rgba(68, 51, 122, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-red-100 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #fff5f5;
+  border-color: rgba(255, 245, 245, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-red-200 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #fed7d7;
+  border-color: rgba(254, 215, 215, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-red-300 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #feb2b2;
+  border-color: rgba(254, 178, 178, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-red-400 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #fc8181;
+  border-color: rgba(252, 129, 129, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-red-500 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #f56565;
+  border-color: rgba(245, 101, 101, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-red-600 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #e53e3e;
+  border-color: rgba(229, 62, 62, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-red-700 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #c53030;
+  border-color: rgba(197, 48, 48, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-red-800 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #9b2c2c;
+  border-color: rgba(155, 44, 44, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-red-900 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #742a2a;
+  border-color: rgba(116, 42, 42, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-teal-100 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #e6fffa;
+  border-color: rgba(230, 255, 250, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-teal-200 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #b2f5ea;
+  border-color: rgba(178, 245, 234, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-teal-300 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #81e6d9;
+  border-color: rgba(129, 230, 217, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-teal-400 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #4fd1c5;
+  border-color: rgba(79, 209, 197, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-teal-500 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #38b2ac;
+  border-color: rgba(56, 178, 172, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-teal-600 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #319795;
+  border-color: rgba(49, 151, 149, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-teal-700 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #2c7a7b;
+  border-color: rgba(44, 122, 123, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-teal-800 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #285e61;
+  border-color: rgba(40, 94, 97, var(--dissect-opacity));
+}
+
+.\(hover\)dissect-teal-900 > :not(template) ~ :not(template):hover {
+  --dissect-opacity: 1;
+  border-color: #234e52;
+  border-color: rgba(35, 78, 82, var(--dissect-opacity));
+}
+
 .\(hover\)dissect-opacity-0 > :not(template) ~ :not(template):hover {
   --dissect-opacity: 0;
 }
@@ -79110,6 +79838,25 @@ img[theme="invert"] {
 /* svg */
 /* tables */
 /* transforms */
+.\(hover\)transform:hover {
+  --transform-translate-x: 0;
+  --transform-translate-y: 0;
+  --transform-rotate: 0;
+  --transform-skew-x: 0;
+  --transform-skew-y: 0;
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+  -webkit-transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+      -ms-transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+          transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+}
+
+.\(hover\)transform-none:hover {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+}
+
 .\(hover\)origin-center:hover {
   -webkit-transform-origin: center;
       -ms-transform-origin: center;
