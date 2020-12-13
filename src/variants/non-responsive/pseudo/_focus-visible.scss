@@ -1,0 +1,203 @@
+/**
+ * @module: variants/non-responsive/pseudo/
+ * @file: _focus-visible.scss
+ */
+
+/* accessibility */
+
+// @include screenReader($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+
+/* animations */
+
+// (v1.0.9)
+// @include fxBlur($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include fxFade($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include fxRoll($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include fxSlide($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+
+/* backgrounds */
+
+@include backgroundColor($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include backgroundAttachment($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include backgroundPosition($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include backgroundRepeat($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include backgroundSize($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+@include backgroundBlend($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.0.4)
+// @include backgroundOpacity($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include backgroundBorder($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.0.9)
+@include backgroundGradient($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.0.9)
+
+/* borders */
+
+@include borderColor($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include borderRadius($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include borderStyle($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include borderWidth($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include borderDissect($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.0.8)
+// @include borderDissectColor($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.0.8)
+// @include borderDissectOpacity($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.0.8)
+
+/* effects */
+
+@include shadowColor($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+@include boxShadow($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+@include opacity($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include mixBlend($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.0.4)
+@include gradient($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (1.0.8)
+
+/* filters */
+
+// @include filterCompose($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.0.9)
+// @include filterBackdropCompose($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.1.0)
+// @include filterInvert($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.0.3)
+
+/* flexbox */
+
+// @include alignContent($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include alignItems($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include alignSelf($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include flex($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include flexDirection($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include flexGrow($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include flexGap($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.1.0)
+// @include flexShrink($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include flexWrap($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include justifyContent($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include order($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+
+/* fluids */
+
+// @include fluidFontSize($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.0.8)
+// @include fluidMargin($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.0.8)
+// @include fluidPadding($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.0.8)
+
+/* interactivity */
+
+// @include appearance($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include cursor($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+@include outline($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include overscroll($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.1.0)
+// @include pointerEvents($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include resize($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include scrollBehavior($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.1.1)
+// @include scrollSnap($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.1.0)
+// @include touchAction($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.1.1)
+// @include userSelect($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+
+/* layouts */
+
+// @include boxSizing($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include clear($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include containerDefault($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include contentVisibility($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.0.9)
+// @include display($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include float($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include inset($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include insetTBLR($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include objectFit($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include objectPosition($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include overflow($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include overflow-xy($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include overflow-scrolling($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include position($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include visibility($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+@include zIndex($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+
+/* patterns */
+
+// (1.0.8)
+// @include patternChecks($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include patternCircle($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.1.2)
+// @include patternCrossDots($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include patternDiagonalLines($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include patternDiagonalStripes($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include patternDots($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include patternGrid($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include patternHorizontalLines($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include patternHorizontalStripes($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include patternRhombus($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.1.2)
+// @include patternRipple($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.1.2)
+// @include patternTriangles($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include patternVerticalLines($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include patternVerticalStripes($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include patternZigzag($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+
+/* rendering */
+
+// @include imageRendering($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.1.3)
+
+/* sizing */
+
+// @include height($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include maxHeight($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include maxWidth($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include minHeight($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include minWidth($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include width($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+
+/* spacing */
+
+// @include margin($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include margin($negative: $true, $prefix: $variant-focus-visible, $pseudo: $focus-visible) // negative
+// @include padding($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include equal($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.0.8)
+// @include equal($negative: $true, $prefix: $variant-focus-visible, $pseudo: $focus-visible) // negative, (v1.0.8)
+
+/* svg */
+
+// @include fill($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include stroke($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include strokeWidth($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include strokeLineCap($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.1.1)
+
+/* tables */
+
+// @include borderCollapse($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include tableLayout($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+
+/* transforms */
+
+@include transform($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+@include transformOrigin($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+@include rotate($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+@include rotate($prefix: $variant-focus-visible, $pseudo: $focus-visible, $negative: $true) // negative
+@include scale($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+@include skew($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+@include skew($prefix: $variant-focus-visible, $pseudo: $focus-visible, $negative: $true) // negative
+@include translate($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+@include translate($prefix: $variant-focus-visible, $pseudo: $focus-visible, $negative: $true) // negative
+
+/* transitions */
+
+@include transitionDuration($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+@include transitionProperty($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+@include transitionTiming($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+
+/* typography */
+
+@include textColor($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// ----- GROUP
+// @include textColor($prefix: $variant-group-focus)
+// -----
+// @include fontFamily($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include fontKerning($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.1.1)
+// @include fontSize($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include fontSmoothing($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include fontStyle($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include fontWeight($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include letterSpacing($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include lineBreak($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.1.3)
+// @include lineHeight($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include lineHeightTrim($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.1.0)
+// @include listStylePosition($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include listStyleType($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include placeholder() // static
+// @include placeholderColor($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include textAlign($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+@include textDecoration($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include textTransform($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include verticalAlign($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include whitespace($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include wordBreak($prefix: $variant-focus-visible, $pseudo: $focus-visible)
+// @include writingMode($prefix: $variant-focus-visible, $pseudo: $focus-visible) // (v1.1.1)
+// @include textClamp($prefix: $variant-focus-visible, $pseudo: $focus-visible)
