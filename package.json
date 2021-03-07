@@ -21,7 +21,7 @@
   "author": "Loouis Low <loouis@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^9.4.3",
+    "autoprefixer": "^9.8.6",
     "gulp": "^4.0.0",
     "gulp-bytediff": "^1.0.0",
     "gulp-gzip": "^1.4.2",
