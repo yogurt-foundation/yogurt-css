@@ -52,6 +52,20 @@
         }
       }
     }
+    @else if $variant=="focus-within" {
+      @each $value, $key in map-get($map, "modifier") {
+        .\(#{$variant}\)#{$utility}-#{$value}:#{$variant} {
+          #{$property}: #{$key}
+        }
+      }
+    }
+    @else if $variant=="focus-visible" {
+      @each $value, $key in map-get($map, "modifier") {
+        .\(#{$variant}\)#{$utility}-#{$value}:#{$variant} {
+          #{$property}: #{$key}
+        }
+      }
+    }
     @else if $variant=="active" {
       @each $value, $key in map-get($map, "modifier") {
         .\(#{$variant}\)#{$utility}-#{$value}:#{$variant} {

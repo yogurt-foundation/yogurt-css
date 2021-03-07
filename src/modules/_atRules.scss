@@ -12,6 +12,7 @@ $variant-group-hover: ".\\#{$prefix-before}group\\#{$prefix-after}:hover .\\#{$p
 
 $variant-focus: ".\\#{$prefix-before}focus\\#{$prefix-after}";
 $variant-focus-within: ".\\#{$prefix-before}focus-within\\#{$prefix-after}"; // (v1.1.3)
+$variant-focus-visible: ".\\#{$prefix-before}focus-visible\\#{$prefix-after}"; // (v1.1.4)
 $variant-group-focus: ".\\#{$prefix-before}group\\#{$prefix-after}:focus .\\#{$prefix-before}group-focus\\#{$prefix-after}"; // (v1.0.8)
 
 $variant-active: ".\\#{$prefix-before}active\\#{$prefix-after}";
@@ -24,6 +25,7 @@ $hover: ":hover";
 
 $focus: ":focus";
 $focus-within: ":focus-within"; // (v1.1.3)
+$focus-visible: ":focus-visible"; // (v1.1.4)
 
 $active: ":active";
 $visited: ":visited";
